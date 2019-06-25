@@ -3,8 +3,8 @@ description: 了解如何将一个或多个报表包映射到组织。
 seo-description: 了解如何将一个或多个报表包映射到组织。
 seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
-uuid: b983d5a6-b3 d0-4137-ac53-bc5681 d3 e58 b
-translation-type: tm+mt
+uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+translation-type: ht
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -26,23 +26,23 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 如果您不具备组织下对给定报表包拥有访问权限的登录公司的 Analytics 管理员权限，则组织将呈灰显状态。
 
-## 将报表包映射到组织 {#task_23993FE78DF6455FA8D7BE60686EA16C}
+## 将一个报表包映射到组织 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. 单击 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 报表包映射]**
 
    您还可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
-1. 要查看有权访问每个报告套件的登录公司，请单击 **[!UICONTROL 登录公司可见]**。
+1. 要查看对每个报表包拥有访问权限的登录公司，请单击 **[!UICONTROL 对登录公司可见]**。
 
    此视图可帮助您针对映射做出明智决定。
 
 1. 单击报表包旁边 **[!UICONTROL 已映射的组织]列中的下拉菜单，然后选择要映射到的组织。**
 
-   有关选择Experience Cloud组织的提示，请参阅下一节。
+   有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
-## 将多个报表包映射到一个组织 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
+## 将多个报表包映射到组织 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 单击 **[!UICONTROL “Experience Cloud]** ”&gt;“ **[!UICONTROL 管理]** ”&gt; **[!UICONTROL “报表包映射]**”。
+1. 单击 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 报表包映射]**。
 
    您还可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
@@ -50,11 +50,11 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
    ![](assets/rs-mapping-multiple.png)
 
-1. 选择组织(Outdoors Inc，在本例中)，然后单击 **[!UICONTROL 选择]**。
+1. 选择组织（在此示例中为 Outdoors Inc），然后单击 **[!UICONTROL 选择]**。
 
-   有关选择Experience Cloud组织的提示，请参阅下一节。
+   有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
-1. 单击 **[!UICONTROL “保存映射]**”。
+1. 单击 **[!UICONTROL 保存映射]**。
 
 ## 关于选择 Experience Cloud 组织的提示 {#mapping-tips}
 
@@ -62,7 +62,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **我应该选择哪个组织？**
 
-如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
+如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
 
 如果为报表包收集数据的网站上尚未部署访客 ID 服务，那么当您将来部署 Experience Cloud 访客 ID 服务时，您将需要确保部署中的组织与您在报表包映射工具中选择的组织一致。
 
@@ -90,7 +90,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **如果在我的某个报表包的下拉菜单中列出的有些组织我不认识，该怎么办？**
 
-该列表向您显示可能会映射到报表包的所有*可能的*组织，即使您没有映射到所有这些报表包的权限。如果您不确定是否应将报表包映射到列表中的某个灰显组织，请咨询贵组织中的 Experience Cloud 管理员，以确定最佳选项。
+该列表显示了您的报表包可以映射到的所有*可能*组织，即使您并没有映射到所有这些报表包的权限。如果您不确定是否应将报表包映射到列表中的某个灰显组织，请咨询贵组织中的 Experience Cloud 管理员，以确定最佳选项。
 
 **在“对登录公司可见”列中为报表包列出的有些登录公司我不认识，这是怎么回事？**
 
@@ -106,7 +106,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **如果我只知道自己的 Experience Cloud 组织的组织 ID，该怎么办？如何查找我的组织 ID 的名称？**
 
-您可以在[组织和帐户设置](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)中找到您的组织名称。
+您可以在[组织和帐户设置](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)中找到您的组织名称。
 
 **我在“映射日期”列中看到一个日期。是谁执行的该映射？**
 
