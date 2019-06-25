@@ -5,8 +5,8 @@ seo-description: Exchange Marketplace 是您可以通过应用程序搜索、浏
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
-uuid: 73db5cc5-5fb2-43a2-a164-5cfca9 e9 a206
-translation-type: tm+mt
+uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -35,4 +35,4 @@ Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、�
 
 * 按类别、公司、类型、用户等搜索和过滤。
 
-请参阅 [Experience Cloud Exchange](https://marketing.adobe.com/exchange) 以了解详细信息。
+有关更多信息，请参阅 [Experience Cloud Exchange](https://marketing.adobe.com/exchange)。
