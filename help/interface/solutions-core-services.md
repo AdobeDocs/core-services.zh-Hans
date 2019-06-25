@@ -5,7 +5,7 @@ seo-title: 关于 Experience Cloud 中的新云名称
 solution: Experience Cloud
 title: 关于 Experience Cloud 中的新云名称
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 最新的云名称和每个云中的解决方案：
 
-![](assets/experience_cloud_appicon_32.png) [Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
+![](assets/experience_cloud_appicon_32.png) [Experience Cloud](https://www.adobe.com/cn/experience-cloud.html?promoid=FZPQZ2HS&amp;mv=other)
 
-取代 *Marketing Cloud* 作为所有Adobe数字体验解决方案和服务的父云名称。
+将 *Marketing Cloud* 替换为所有 Adobe 数字体验解决方案和服务的父级云名称。
 
 >[!NOTE]
 >
->您可能会继续看到 *对Marketing Cloud* 的引用，这是更广泛的上下文，直到所有解决方案界面重新品牌到 *Enterprise Cloud。*
+>您可以继续在以前的更广泛的上下文中看到对 *Marketing Cloud* 的引用，直到所有解决方案界面都被重新命名为 * Enterprise Cloud* 为止。
 
-![](assets/marketingcloud_32.png) [Marketing Cloud](https://www.adobe.com/marketing-cloud.html)
+![](assets/marketingcloud_32.png) [Marketing Cloud](https://www.adobe.com/cn/marketing-cloud.html)
 
 包含以下解决方案：
 
@@ -39,69 +39,70 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 * Adobe Primetime
 * Adobe Social
 
-![](assets/analyticscloud_appicon_32.png) [Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
+![](assets/analyticscloud_appicon_32.png) [Analytics Cloud](https://www.adobe.com/cn/data-analytics-cloud.html)
 
 包含以下解决方案：
 
 * Adobe Analytics
 * Adobe Audience Manager
 
-![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
+![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/cn/advertising-cloud.html)
 
 包含 Media Optimizer 和 TubeMogul。
 
 ## 有哪些解决方案？ {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-以下信息简要介绍了解决方案并提供了帮助链接。此外，还提供了[用例方法](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)，以帮助您了解数字营销工作流程。
+以下信息简要说明了解决方案并提供了帮助链接。[用例方法](https://helpx.adobe.com/cn/marketing-cloud/how-to/use-cases.html)还可以帮助您使用数字营销工作流程。
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/)
+![](assets/mc_analytics_32.png) [Adobe Analytics](https://marketing.adobe.com/resources/help/zh_CN/reference/)
 
 要开始使用 Analytics，请执行以下操作：
 
-1. 使用 [Adobe Analytics 快速入门](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/)中介绍的步骤，创建您的第一个 Analytics 报表包（数据存储库）。
-1. 然后，使用 [Adobe 的 Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/) 部署 Analytics 代码。
+1. 使用 [Adobe Analytics 快速入门](https://marketing.adobe.com/resources/help/zh_CN/analytics/getting-started/)中描述的步骤创建您的第一个 Analytics 报表包（数据存储库）。
+1. 然后，使用 [Experience Platform Lauch](https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/launch/) 部署 Analytics 代码。
 
-Adobe Launch是新一代标签管理，它为您提供了部署和管理所有分析、营销和广告标签的简单方法。
+Experience Platform Lauch 是新一代标签管理工具，可让您轻松地部署和管理所有分析、营销和广告标签。
 
 另请参阅:
 
-* [我应该使用哪些 Analytics 产品？](https://marketing.adobe.com/resources/help/en_US/reference/which_analytics_tool.html)
-* [Analytics 产品比较和要求](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [我应该使用哪些 Analytics 产品？](https://marketing.adobe.com/resources/help/zh_CN/reference/which_analytics_tool.html)
+* [Analytics 产品比较和要求](https://marketing.adobe.com/resources/help/zh_CN/reference/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/)
+![](assets/mc_target_32.png) [Adobe Target](https://marketing.adobe.com/resources/help/zh_CN/target/)
 
 Adobe Target 与 Analytics 及其他 Experience Cloud 核心服务集成在一起。有用的入门主题：
 
-* [设置 Target](https://marketing.adobe.com/resources/help/en_US/target/ov/c_seting_up_target.html)
-* [Target 的工作方式](https://marketing.adobe.com/resources/help/en_US/target/ov/c_how_target_works.html)
-* [管理员首要步骤](https://marketing.adobe.com/resources/help/en_US/target/ov/start_target.html)
-* [使用 Analytics 作为 Target 的报表来源](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
+* [设置 Target](https://marketing.adobe.com/resources/help/zh_CN/target/ov/c_seting_up_target.html)
+* [Target 工作方式](https://marketing.adobe.com/resources/help/zh_CN/target/ov/c_how_target_works.html)
+* [
+管理员首要步骤](https://marketing.adobe.com/resources/help/zh_CN/target/ov/start_target.html)
+* [使用 Analytics 作为 Target 的报表源](https://marketing.adobe.com/resources/help/zh_CN/target/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://marketing.adobe.com/resources/help/en_US/social/)
+![](assets/mc_social_32.png) [Adobe Social](https://marketing.adobe.com/resources/help/zh_CN/social/)
 
 Social 提供基于订购的托管解决方案，帮助您实现社交媒体目标，并改善您的策略和绩效。您可以通过支持社交侦听、发布和分析的综合性平台，管理社交市场营销。
 
-[Social 入门](https://marketing.adobe.com/resources/help/en_US/social/c_gs.html)
+[Social 入门](https://marketing.adobe.com/resources/help/zh_CN/social/c_gs.html)
 
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-3.html)
+![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
 
 作为内容管理解决方案，Adobe Experience Manager 有助于您轻松管理网站、移动应用程序、社区和表单中的资产和内容。
 
-请参阅 [Adobe Experience Manager 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html) 以获取帮助。
+如需帮助，请参阅 [Adobe Experience Manager 6.3](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)。
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
+![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://marketing.adobe.com/resources/help/zh_CN/aam/)
 
 作为数据管理平台，Adobe Audience Manager 可帮助您构建独一无二的受众配置文件，以便您能够发现每个渠道中最具价值的客户群体，并针对他们开展活动。
 
-![](assets/mc_optimize_32.png)[Adobe Advertising Cloud](https://marketing.adobe.com/resources/help/en_US/media-optimizer/)
+![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://marketing.adobe.com/resources/help/zh_CN/media-optimizer/)
 
-Adobe Advertising Cloud是一款程序化的广告购买解决方案。它有助于您根据预算，查找和预测最佳的广告渠道组合，然后可以自动将内容直接提供给您的受众。
+Adobe Advertising Cloud 是一种程序化的广告购买解决方案。它有助于您根据预算，查找和预测最佳的广告渠道组合，然后可以自动将内容直接提供给您的受众。
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](https://helpx.adobe.com/support/campaign.html)
+![](assets/mc_campaign_32.png) [Adobe Campaign](https://helpx.adobe.com/cn/support/campaign.html)
 
 利用 Adobe Campaign，您可以规划、交付和衡量所有线上和线下渠道的营销活动。它可以帮助您提高生产效率，同时为您的客户提供相关体验。
 
-![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
+![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/zh_CN/primetime/)
 
 Adobe Primetime 是一个多屏幕电视平台，可帮助广播公司为任意受众打造个性化十足的互动式电视和电影体验。
 
@@ -113,10 +114,10 @@ Adobe Primetime 是一个多屏幕电视平台，可帮助广播公司为任意�
 
 | 核心服务 | 描述 |
 |--- |--- |
-| [激活](activation/activation.md) | 标签管理系统（Adobe 的 Launch 和动态标签管理）。<br>通过触发器，您可以根据 Adobe Analytics 提供的分析信息在 Adobe Campaign 中采取实时行动。 |
+| [激活](activation/activation.md) | 标签管理系统（Experience Platform Lauch 和 Dynamic Tag Management）。<br>通过触发器，您可以根据 Adobe Analytics 提供的分析信息在 Adobe Campaign 中采取实时行动。 |
 | [管理](admin-getting-started/admin-getting-started.md) | 管理所有 Adobe 云和解决方案中的用户和产品权限。 |
 | [资产](experience-cloud-assets/experience-cloud-assets.md) | 轻松地在一个中心位置存储、同步和共享所有数字资产，以节省时间并提供更加一致的客户体验。 |
 | [Exchange](exchange.md) | 通过应用程序，搜索、浏览、选择、购买并下载 Digital Marketing 扩展。 |
 | [信息源](feed.md) | 协作是 Experience Cloud 的固有特征。使用信息源，可通过一个中央信息源与您的团队保持联系，从而共享帖子、评论和附件。 |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Adobe Mobile Services 可以在整个 Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
-| 人员 | 通过在 Experience Cloud 解决方案中将 Adobe 和非 Adobe 数据联系到一起，全面了解单个客户。找出当他们在接触点中进行交互时最注重哪些方面。识别从陌生设备访问的熟悉客户。甚至为了达到目标营销效果，将用户分组为受众。<br>[受众](audience-library/audience-library.md) - 将不同类型的客户划分为受众，然后在各个 Marketing Cloud 解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) - 作为受众扩充，允许您在 Marketing Cloud 之外访问所收集的客户信息。<br>[设备图](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 与世界最流行的品牌协作，以便识别不熟悉设备背后的熟悉客户。（在测试版中，仅适用于 Marketing Cloud Device Co-op 成员。） |
+| [Mobile Services](https://marketing.adobe.com/resources/help/zh_CN/mobile/) | Adobe Mobile Services 可以在整个 Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
+| 人员 | 通过在 Experience Cloud 解决方案中将 Adobe 和非 Adobe 数据联系到一起，全面了解单个客户。找出当他们在接触点中进行交互时最注重哪些方面。识别从陌生设备访问的熟悉客户。甚至为了达到目标营销效果，将用户分组为受众。<br>[受众](audience-library/audience-library.md) - 将不同类型的客户划分为受众，然后在各个 Marketing Cloud 解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) - 作为受众扩充，允许您在 Marketing Cloud 之外访问所收集的客户信息。<br>[设备图](https://landing.adobe.com/cn/na/events/summit/275658-summit-co-op.html) - 与全球最受欢迎的品牌合作，识别有哪些熟悉的消费者使用不熟悉的设备。（在测试版中，仅适用于 Marketing Cloud Device Co-op 成员。） |
