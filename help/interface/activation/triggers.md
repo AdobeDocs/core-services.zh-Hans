@@ -1,12 +1,12 @@
 ---
-description: 如何配置Experience Cloud触发器。
-keywords: 集成；触发器
-seo-description: 如何配置Experience Cloud触发器。
+description: 如何配置 Experience Cloud 触发器。
+keywords: 集成;触发器
+seo-description: 如何配置 Experience Cloud 触发器。
 seo-title: 触发器
 solution: Marketing Cloud
 title: 触发器
-uuid: dab536e3-1969-4661-919e-5b15f423ifd
-translation-type: tm+mt
+uuid: dab536e3-1969-4661-919e-5b15f423fecd
+translation-type: ht
 source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ## 触发器概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*触发器* 使您能够识别、定义和监控关键消费者行为，然后生成跨解决方案通信以重新吸引访客。您可以使用触发器制定实时决策和实现个性化。
+*触发器*允许您识别、定义并监视关键客户行为，然后生成跨解决方案通信以便重新吸引访客。您可以使用触发器制定实时决策和实现个性化。
 
 * 对放弃购物车或移除产品后放弃购物车配置快速再营销。
 * 表单和申请未完成
@@ -26,13 +26,13 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 **触发器类型**
 
-通常，触发触发可能需要花费15-90分钟才能启动营销活动。这取决于数据收集的实施、管道上的负载、定义触发器的自定义配置以及Adobe Campaign中的工作流。
+通常，触发器可能要用 15-90 分钟时间才能启动市场营销活动。此时间根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
 
-* **放弃：** 您可以创建一个触发器，该触发器将在访客查看了产品却未将任何产品添加到购物车时启动。配置 [倾向评分](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334) 以了解客户在放弃购物车后的趋势。
+* **放弃：** 您可以创建一个触发器，该触发器将在访客查看了产品却未将任何产品添加到购物车时启动。配置[倾向得分](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)，以了解客户在放弃购物车后不返回的倾向。
 * **操作：** 您可以创建触发器，例如，在注册时事通讯、订阅电子邮件或申请信用卡（确认函）后，启动该触发器。如果您是零售商，则可以针对参与忠诚度计划的访客创建触发器。在媒体和娱乐方面，针对观看某段表演的访客创建触发器，您可能希望向其发送一份调查问卷。
 * **会话开始和会话结束：** 为会话开始和会话结束事件创建触发器。
 
-## 创建Experience Cloud触发器 {#task_821F37183AC045E5AC8EED20317598FE}
+## 创建 Experience Cloud 触发器 {#task_821F37183AC045E5AC8EED20317598FE}
 
 创建放弃触发器并为该触发器和倾向评分配置条件。例如，您可以指定访问期间的触发器规则标准，例如“购物车放弃”量度或“产品名称”维度。符合规则时，运行触发器。
 
@@ -40,14 +40,14 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 >[!NOTE]
 >
->目前存在100个触发器的技术限制。
+>当前的技术限制为 100 个触发器。
 
-1. 在Experience Cloud中，单击 ![](assets/menu-icon.png)，然后单击 **[!UICONTROL 激活]**。
-1. 找到 [!UICONTROL 触发器] 卡，然后单击 **[!UICONTROL 启动]**。
+1. 在 Experience Cloud 中，单击 ![](assets/menu-icon.png)，然后单击 **[!UICONTROL 激活]**。
+1. 找到[!UICONTROL 触发器]信息卡，然后单击 **[!UICONTROL 启动]**。
 
    ![步骤结果](assets/activation-triggers.png)
 
-1. 单击 **[!UICONTROL “新建触发器]**”，然后指定触发器类型：
+1. 单击 **[!UICONTROL 新建触发器]**，然后指定触发器类型：
 
    ![步骤结果](assets/add-trigger.png)
 
@@ -57,19 +57,19 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
    |--- |--- |
    | 名称 | 此触发器的友好名称。 |
    | 描述 | 对此触发器的描述，包括如何使用它等信息。 |
-   | 报表包 | 用于此触发器的 Analytics [报表包](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。此设置可识别要使用的报表数据。 |
-   | 必须包括的访问<br>在无ActionScript<br><br>元数据之后，访问不能包含在其中。 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可能是：<ul><li>访问必须包括：购物车增加(计量)和存在。（您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>访问不能包括：结帐。</li><li>不适用于以下操作的触发器：10分钟。</li><li>包括元数据：允许您添加特定的营销活动维度或与访客行为相关的变量。此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以根据确定的条件在容器内或容器之间指定任何、和逻辑，具体取决于确定的条件。 |
-   | 容器 | 您可以在容器中设置并存储规则、条件或定义触发器的过滤器。如果您希望事件同时发生，请将它们放在同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由And运算符联接的容器，则在两次点击满足要求时，您可以期望规则符合条件。 |
+   | 报表包 | 用于此触发器的 Analytics [报表包](https://marketing.adobe.com/resources/help/zh_CN/analytics/getting-started/report-suites.html)。此设置可识别要使用的报表数据。 |
+   | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可能是：<ul><li>必须包括的访问：购物车加货（量度）和存在。（您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>必须排除的访问：结帐。</li><li>没有行动后启动触发器：10 分钟。</li><li>包括元数据：允许您添加特定的营销活动维度或与访客行为相关的变量。此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定 Any、And 或 Or 逻辑，具体取决于您确定的标准是否对规则很重要。 |
+   | 容器 | 您可以在容器中设置并存储规则、条件或定义触发器的过滤器。如果您希望事件同时发生，请将它们放在同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 开始新会话 | 为会话开始和会话结束事件创建触发器 |
 
-1. (可选)在放弃触发器中，您可以应用 [倾向评分](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)。
+1. （可选）在“放弃”触发器中，您可以应用[倾向得分](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)。
 
    ![步骤结果](assets/propensity-scoring.png)
 
-1. 单击 **[!UICONTROL “保存]**”。
-1. 使用触发器 [进行实时再营销](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)[!DNL Adobe Campaign]。
+1. 单击 **[!UICONTROL 保存]**。
+1. 在 [!DNL Adobe Campaign] 中使用触发器进行[实时再营销](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)。
 
-### 触发器触发器
+### 触发器示例
 
 **购物车放弃触发器**
 
@@ -79,7 +79,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 **反向链接触发器**
 
-命中时，会启动产品为男士靴子的触发器并反向链接到 Facebook。在同一命中中评估的两个标准（*要在同一点击中评估产品* 和 *引介*)，应将它们添加到同一个容器中。
+命中时，会启动产品为男士靴子的触发器并反向链接到 Facebook。在同一命中中评估的两个标准（*产品*和*反向链接*）应被添加到同一容器中。
 
 ![](assets/fb-boots-promo.png)
 
