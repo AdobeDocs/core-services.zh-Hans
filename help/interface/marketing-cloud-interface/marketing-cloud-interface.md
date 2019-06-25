@@ -5,8 +5,8 @@ seo-description: Experience Cloud 中的新增功能和更新概述。
 seo-title: Experience Cloud 的新增功能
 solution: Experience Cloud
 title: Experience Cloud 的新增功能
-uuid: bc1b 1542-a37-4da1-belamer-fc86 af881642
-translation-type: tm+mt
+uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,23 +18,23 @@ Experience Cloud 中的新增功能和更新概述。
 
 ## 2018 年 8 月 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
-修复和改进于2018年月。
+2018 年 8 月的修复和改进功能。
 
 * 改进了 Creative Cloud 和 Experience Cloud 间的资产注释同步。(CORE-15971)
-* 添加了功能标志以控制Experience Cloud-Creative Cloud资产同步。(CORE-15938)
+* 添加了用于控制 Experience Cloud 与 Creative Cloud 间资产同步的功能标记。(CORE-15938)
 * 改进了 Audience 区段创建，包括优化的搜索和列表体验。（CORE-5833、CORE-14278）
-* 修复了阻止从MAC到Creative Cloud共享文件夹的高优先级问题。(CORE-16677)
+* 修复了阻止将文件夹从 MAC 共享到 Creative Cloud 的高优先级问题。(CORE-16677)
 
 ## 2018 年 7 月 19 日 {#section_EBB549EBABB7480884A180237ADCCD02}
 
-修复和改进于2018年月。
+2018 年 7 月的修复和改进功能。
 
 * 部署了一项后端功能，以控制“Marketing Cloud 到 AEM”与“Marketing Cloud 到 Creative Cloud”之间的资产共享。(CORE-14386)
 * 修复了在某些环境中阻止配置新租户的问题。(CORE-15509)
 * 修复了在通过 [!DNL http] 而不是 [!DNL https]（安全）访问 [!DNL experiencecloud.adobe.com] 时将用户重定向到 [!DNL marketing.adobe.com] 的问题。(CORE-15587)
 * 修复了阻止一些新租户接收通知的问题。(CORE-15240)
 
-## 2018年月14日 {#section_7ABC327992CB46B0B8E4A631B8B68899}
+## 2018 年 6 月 14 日 {#section_7ABC327992CB46B0B8E4A631B8B68899}
 
 2018 年 6 月的修复和改进功能。
 
@@ -55,7 +55,7 @@ Experience Cloud 中的新增功能和更新概述。
 * 修复了由于 Scene7 更新导致图像上载失败的问题。(CORE-12746)
 * 已根据 PCI 的规定进行更新，取消对 TLS 1.0 协议的支持以消除安全漏洞。(CORE-7695)
 
-## 2017年10月26日 {#section_11195859B4094177A939C0561428B525}
+## 2017 年 10 月 26 日 {#section_11195859B4094177A939C0561428B525}
 
 **已知问题**
 
@@ -67,16 +67,16 @@ Experience Cloud 中的新增功能和更新概述。
 |--- |--- |
 | 通知 - 粒度设置 | 您可以启用产品和解决方案事件和活动的通知，包括有关[客户属性](../attributes/attributes.md)上传活动的通知。 |
 | 通知 - 维护通知 | 在“通知”设置中，您可以启用产品和解决方案的维护通知。 |
-| Experience Cloud 解决方案的管理控制台 | 新的 Experience Cloud 客户可以开始使用管理控制台，它是一个用于在您的整个组织内管理 Adobe 权限的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 将在需要进行迁移时通知您（系统管理员）。<br>对于 Analytics 管理员，请参阅 [Analytics 迁移](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)。 |
+| Experience Cloud 解决方案的管理控制台 | 新的 Experience Cloud 客户可以开始使用管理控制台，它是一个用于在您的整个组织内管理 Adobe 权限的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 将在需要进行迁移时通知您（系统管理员）。<br>Analytics 管理员，请参阅 [Analytics·迁移￼](https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/admin-console/analytics-migration/) |
 
-## 2017年月22日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
+## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 功能 | 描述 |
 |--- |--- |
 | 批量报表包映射 | 在管理 &gt; 报表包映射中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>[将多个报表包映射到一个组织有助于在 Experience Cloud 中启用跨解决方案功能和服务。](../core-services/core-services.md) |
-| 针对 Experience Cloud 受众的更新 | **应用报告套件您**<br>现在可以将报表包应用于 [所有受众规则](../audience-library/t-audience-create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**Props和变量您**<br>现在可以在实时受众中包括Analytics prop和默认变量(除eVar和事件之外)。 |
+| 针对 Experience Cloud 受众的更新 | **应用报表包**<br>您现在可以将报表包应用于所有[受众规则](../audience-library/t-audience-create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
 
-## 2016年11月日-16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 2016 年 11 月 8 日 - 16.11.1 版{#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 功能 | 描述 |
 |--- |--- |
