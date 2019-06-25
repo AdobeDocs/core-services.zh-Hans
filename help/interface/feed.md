@@ -1,12 +1,12 @@
 ---
 description: 了解如何使用您的 Experience Cloud 信息源，直接与他人共享或向他人发布资产和 Analytics 报表。
 keywords: 核心服务
-seo-description: 了解如何使用Experience Cloud Feed直接与他人共享或发布资产和Adobe Analytics报告。
+seo-description: 了解如何使用您的 Experience Cloud 信息源，直接与他人共享或向他人发布资产和 Adobe Analytics 报表。
 seo-title: 信息源
 solution: Experience Cloud
 title: 信息源
-uuid: 7ff327d1-5a74-49fb-8c3c-729034818eBC
-translation-type: tm+mt
+uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 信息源中的设置包括：
 
-* **主题：全部\&lt; organization name\&gt;：** 显示已与您共享的所有帖子以及您有权访问的所有帖子。
+* **主题：所有 \&lt;组织名称\&gt;：** 显示与您共享的所有帖子，以及您有权访问的所有帖子。
 * **管理主题：** 允许您关注、取消关注或建议主题。此外，管理员还可以批准、拒绝、停用和创建主题。
 * **新建帖子：** 创建群组成员可以查看的帖子。
 * **所有帖子：** 查看您的信息源中的所有帖子。
@@ -36,10 +36,10 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 1. 使用您的 Adobe ID [登录](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)到 Experience Cloud。
 
-1. 导航到 Reports &amp; Analytics，然后[创建项目](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html)。
+1. 导航到 Reports &amp; Analytics，然后[创建一个项目](https://marketing.adobe.com/resources/help/zh_CN/analytics/analysis-workspace/index.html?f=freeform_overview)。
 
-1. 单击 **[!UICONTROL “更多”]** &gt;“ **[!UICONTROL 共享]**”。
+1. 单击 **[!UICONTROL 更多]** &gt; **[!UICONTROL 共享]**。
 
    ![](assets/share_report.png)
 
-1. 在共享窗口中，添加收件人，然后单击 **[!UICONTROL 共享]**。
+1. 在“共享”窗口中，添加收件人，然后单击 **[!UICONTROL 共享]**。
