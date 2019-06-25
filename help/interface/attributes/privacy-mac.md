@@ -1,18 +1,18 @@
 ---
 description: 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
-keywords: 客户属性；核心服务
+keywords: 客户属性;核心服务
 seo-description: 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
-seo-title: 隐私事项-客户属性
+seo-title: 隐私注意事项 - 客户属性
 solution: Experience Cloud
-title: 隐私事项-客户属性
-uuid: 5666dc4e-55fa-419-9985-cf530 bile9247
-translation-type: tm+mt
+title: 隐私注意事项 - 客户属性
+uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
 
 
-# 隐私事项-客户属性
+# 隐私注意事项 - 客户属性
 
 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
 
@@ -34,7 +34,7 @@ Adobe 提供的工具允许广告商收集消费者访问其站点或使用其�
 
 Adobe 意识到这类市场营销和广告决策可能牵涉消费者隐私，正是因为如此，Adobe 设有内置隐私控制以帮助广告商满足消费者的期望。Adobe 建议广告商仔细考虑哪些信息适合用于市场营销，并在何种环境下才有权使用这类信息。
 
-**最佳做法**
+**最佳实践**
 
 在将 PII 上传到 Adobe Analytics 或 Target 时，Adobe 建议客户在上传之前对 PII 进行哈希处理。经过哈希处理的信息依然可用于分析和市场营销。在此提醒，Adobe 禁止广告商向 Adobe Analytics 和 Target 发送敏感的个人信息，如医疗记录、财务帐户信息和未成年人的信息。
 
