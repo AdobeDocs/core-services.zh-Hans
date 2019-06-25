@@ -1,12 +1,12 @@
 ---
 description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
-keywords: 客户属性；核心服务
+keywords: 客户属性;核心服务
 seo-description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 seo-title: 关于客户属性的数据文件和数据源
 solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
-uuid: dd0e364-889b-45db-b190-85c0930 a101 e
-translation-type: tm+mt
+uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+translation-type: ht
 source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 
-您需要具备贵企业 CRM 或类似数据的访问权限。上传至Experience Cloud的数据必须是 [!DNL .csv] 文件。如果您通过FTP或SFTP上传，还可以上传 [!DNL .fin] 文件。
+您需要具备贵企业 CRM 或类似数据的访问权限。您上传到 Experience Cloud 的数据必须是 [!DNL .csv] 文件。如果您通过 FTP 或 sFTP 上传，则还需要上传一个 [!DNL .fin] 文件。
 
-客户属性每天只需处理几个文件。为减轻大量小文件的延迟处理问题，从同一组织的先前批次的30分钟内发送的文件将路由到较低优先级队列。
+上传客户属性是为了每天处理一些文件。为了缓解延迟处理大量小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
 
 <!-- <p>Articulate difference between this and SAINT. </p> -->
 
@@ -81,7 +81,7 @@ CSV 文件必须符合以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。an<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续的标题和列 </p> </td> 
@@ -113,8 +113,8 @@ CSV 文件必须符合以下格式：
    <td colname="col1"> <p>FTP 指南和大小限制 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
-      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">每个上传的FTP最大文件大小限制为GB。 </li> 
-      <li>每次上传的最小文件大小限制为10MB。 </li>
+      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTP 的最大文件大小限制为每次上传 4 GB。 </li> 
+      <li>最小文件大小限制为每次上传 10 MB。 </li>
       <li>您可以每半小时上传一个文件。 </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> 您应当将您的 <span class="filepath">.csv</span>（和 <span class="filepath">.fin</span>）文件放在 FTP 站点的根文件夹中。 </li> 
      </ul> </p> <p> <p>重要提示：FTP 帐户允许的总空间量为 40 GB。您将负责删除处理后的文件。 </p> </p> </td> 
@@ -125,7 +125,7 @@ CSV 文件必须符合以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多个文件 </p> </td> 
-   <td colname="col2"> <p>上传客户属性数据时，如果您要快速上传多个文件，尤其是文件较大时，请确保之前的文件在上传下一个文件之前已经过处理。您可以通过检查上一个文件何时移至客户属性FTP帐户中的已处理或失败的文件夹来监控此操作。 </p> <p> 将大型文件分解为较小的文件并快速提交，实际上可能会减缓处理速度，除非在提交下一个文件之前确保每个文件得到完全处理。 </p> </td> 
+   <td colname="col2"> <p>上传客户属性数据时，如果您要快速且连续上传多个文件，尤其是文件较大时，请确保在上一个文件处理完成之后再上传下一个文件。您可以通过查看上一个文件被移动到客户属性 FTP 帐户中已处理或失败文件夹中的时间来监控上传情况。 </p> <p> 如果将大文件分成较小的文件，并连续快速提交这些文件，实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前已完全处理每个文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符编码 </p> </td> 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（请参阅[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)以了解详细信息。）
+（有关更多信息，请参阅[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/zh_CN/mcvid/?f=mcvid_customer_ids)。）
 
-在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL “人员”]** &gt; **[!UICONTROL “客户属性]**”中：
+在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]** 中：
 
 使用与上方客户 ID 对应的唯一别名 ID 创建两个客户属性来源。使用这种方法，可以将同一参考 ID 发送至多个客户属性来源。
