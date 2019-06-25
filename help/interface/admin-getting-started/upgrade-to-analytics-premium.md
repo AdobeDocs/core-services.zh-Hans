@@ -6,8 +6,8 @@ seo-title: 升级到 Analytics Premium 和 Experience Cloud
 solution: Experience Cloud
 title: 升级到 Analytics Premium 和 Experience Cloud
 topic: Premium
-uuid: 450a601c-d199-4e90-b525-19bd9 f9576 d2
-translation-type: tm+mt
+uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 使用 Analytics Premium，您可以：
 
 * 访问 250 个转化变量 (eVar)
-* 执行[移动设备应用程序分析](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* 执行[移动设备应用程序分析](https://marketing.adobe.com/resources/help/zh_CN/mobile/)
 * 使用 Data Workbench（可视数据查询；基于规则的属性；跨渠道分析）
 
 
@@ -55,7 +55,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 | 产品 | 升级 |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[客户属性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最多 200 个）</li></ul> |
+| Reports &amp; Analytics | <ul><li>[贡献分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/)</li><li>[客户属性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最多 200 个）</li></ul> |
 | Data Workbench | <ul><li>算法属性</li><li>预置工作区</li></ul> |
 | Analytics 平台 | [实时流](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1)（原始数据、功能板、触发器） |
 
@@ -66,7 +66,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 | 产品 | 升级 |
 |---|---|
-| Reports &amp; Analytics | [贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
+| Reports &amp; Analytics | [贡献分析](https://marketing.adobe.com/resources/help/zh_CN/analytics/contribution/) |
 | Data Workbench | 用于受众资格鉴定和前瞻性市场营销的预置工作区。 |
 | Analytics 平台 | 实时流（功能板和触发器） |
 
@@ -96,39 +96,39 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 **Premium 完整版** 和 **高级属性**
 
-有关预置模板中基于规则的属性，请参阅：[基于规则的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)。
+有关预建模板中基于规则的归因，请参阅：[基于规则的归因](https://marketing.adobe.com/resources/help/zh_CN/insight/client/?f=c_rules_attrib)。
 
-有关算法属性，请参阅[最适合的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)。
+有关算法归因，请参阅[最适合归因](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_attrib_algorithmic.html)
 
 **Predictive Intelligence**
 
 Data Workbench 中的前瞻性情报包括以下可视化：
 
-* [受众倾向评分](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
-* [访客聚类](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
-* [关联分析](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
+* [受众倾向评分](https://marketing.adobe.com/resources/help/zh_CN/insight/client/?f=c_visitor_propensity)
+* [访客聚类](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_visitor_cluster.html)
+* [关联分析](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_correlation_analysis.html)
 
 
 **Customer 360** 和 **高级属性**
 
-请参阅[基于规则的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)中预置模板内基于规则的 Analytics 属性。
+请参阅[基于规则的归因](https://marketing.adobe.com/resources/help/zh_CN/insight/client/?f=c_rules_attrib)中的预建模板中 Analytics 基于规则的归因。
 
-请参阅[最适合的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)中的算法属性模板。。
+请参阅[最适合归因](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_attrib_algorithmic.html)中的算法归因模板。
 
 ## Experience Cloud - 管理用户和产品 {#section_6471C54454024301B2E0B687F79F6738}
 
-Analytics Standard和Premium用户均可使用Experience Cloud和核心服务，前提是您遵循了入门中 [介绍的实施现代化-支持核心服务的解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
+Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述的实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
 
 加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL marketing.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
 
 **管理用户和群组**
 
-用户管理在 [Adobe 管理控制台](https://helpx.adobe.com/enterprise/help/aedash.html)（产品链接）中执行。
+用户管理在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/help/aedash.html)（产品链接）中执行。
 
 您可以在 Adobe 管理控制台中创建的群组与解决方案群组（例如 Adobe Analytics）之间设置 1 对 1 映射。之后，系统会为添加到所映射的管理控制台群组的新用户自动创建一个 Analytics 解决方案帐户，并将该帐户关联到用户的 Adobe ID。（现有用户必须手动关联其解决方案帐户凭据，才能通过 Experience Cloud 登录来访问解决方案。）
 
 
 >[!NOTE]
 >
->您可以将多个解决方案组映射到一个Admin Console组。不过，Adobe 建议进行 1 对 1 映射。提前映射群组后，您可以通过上传 CSV 来邀请、创建、授权和添加多个用户。
+>您可以将多个解决方案群组映射到一个 Admin Console 群组。不过，Adobe 建议进行 1 对 1 映射。提前映射群组后，您可以通过上传 CSV 来邀请、创建、授权和添加多个用户。
 
