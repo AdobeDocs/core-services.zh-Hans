@@ -6,7 +6,7 @@ seo-title: 常见问题解答、各种限制和最佳实践
 solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 | 问题 | 描述 |
 |--- |--- |
 | 客户属性订阅限制 | 当您升级到 Analytics Premium 时，附加属性会在延迟 24 小时后才可用。在此延迟期间，您可能会看到出现属性订阅达到最大值错误。 |
-| 客户 Analytics ID (s.visitorID) | 使用s. istororID是在Analytics中识别用户的一种方法。但是，如果在集成中使用 ID 服务导出或导入 Analytics 数据，则当访客使用 s.visitorID 进行标识时，这些集成将无法正常工作。<br>这包括但不限于，共享的受众、Analytics for Target (A4T) 和客户属性。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
+| 客户 Analytics ID (s.visitorID) | 使用 s.visitorID 设置客户 ID 是在 Analytics 中标识用户的一种方法。但是，如果在集成中使用 ID 服务导出或导入 Analytics 数据，则当访客使用 s.visitorID 进行标识时，这些集成将无法正常工作。<br>这包括但不限于，共享的受众、Analytics for Target (A4T) 和客户属性。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
 | Analytics 中的字符长度限制 | 在创建 Analytics 订阅时，上传文件的字段长度会被截断为 255 个字符。 |
 
 ## 关于客户属性的常见问题解答 {#section_E47866EEA83348E09FE43CEC5E44C461}
@@ -47,7 +47,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>进行配置。 </p> <p>如果您是 <b>Analytics</b> 客户，Adobe 则会为您配置客户属性。如果您仅使用 <b>Target</b> 并且不具备 Analytics，则必须联系客户关怀团队，以请求配置核心服务。 </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>与您的 CRM 团队进行沟通。找出哪类客户数据可以在 Analytics 及整个 Experience Cloud 中使用。 </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>实施核心服务。 </p> <p>请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 入门-支持核心服务</a> 的解决方案，以了解如何现代化您的核心服务实施。（请参阅关于同步客户 ID 的部分，以了解重要信息。） </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>实施核心服务。 </p> <p>请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 快速入门 - 为核心服务启用解决方案</a>，以了解如何使您的核心服务实施符合现代化要求。（请参阅关于同步客户 ID 的部分，以了解重要信息。） </p> </li> 
     </ol> <p> <b>注意：</b>有关针对管理员的核心服务实施常见问题解答，请访问<a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">此处</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics：</b>强烈建议迁移 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target：</b>必须迁移。 </li> 
-     </ul> </p> <p>使用 ID 服务可增强该功能，并使您有机会使用最新的 Experience Cloud 功能，包括实时受众、Target 现代化、Analytics 集成和视频心跳跟踪。 </p> <p>有关详细信息，请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服务 - 如何启用您的解决方案</a>。 </p> <p> <b>注意</b>： <span class="term"> Experience Cloud ID服务</span> 是以前称为 <span class="term"> Analytics访客ID服务</span>的现代化实施。 </p> </td> 
+     </ul> </p> <p>使用 ID 服务可增强该功能，并使您有机会使用最新的 Experience Cloud 功能，包括实时受众、Target 现代化、Analytics 集成和视频心跳跟踪。 </p> <p>有关详细信息，请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服务 - 如何启用您的解决方案</a>。 </p> <p> <b>注意</b>：<span class="term">Experience Cloud ID 服务</span>是以前称为 <span class="term">Analytics 访客 ID 服务</span>的现代化实施。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户属性功能如何与 Adobe Audience Manager 关联？ </p> </td> 
@@ -95,7 +95,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>从客户属性向 Adobe Target 上传数据时，是否会延长 Target 访客的配置文件生命周期？ </p> </td> 
-   <td colname="col2"> <p>能。请参阅 Adobe Target 帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">访客配置文件生命周期</a>。 </p> </td> 
+   <td colname="col2"> <p>能。请参阅 Adobe Target 帮助中的<a href="https://marketing.adobe.com/resources/help/zh_CN/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">访客配置文件生命周期</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>根据客户 ID 识别访客后，我能否立即定位在客户属性中上传的数据？ </p> </td> 
