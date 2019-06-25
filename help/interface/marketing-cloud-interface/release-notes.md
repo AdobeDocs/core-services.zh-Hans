@@ -5,8 +5,8 @@ seo-description: Experience Cloud 界面的功能、发行说明和已知问题�
 seo-title: 发行说明汇总
 solution: Experience Cloud
 title: 发行说明汇总
-uuid: fcff8cc6-e587-4bf2-9a75-261d4 eabc7 d4
-translation-type: tm+mt
+uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,9 +18,9 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-要获取涵盖所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+有关所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
 
-## 版本19.1.1-2019年1月17日
+## 19.1.1 版 - 2019 年 1 月 17 日
 
 * 修复了导致在帮助中搜索时无法返回结果的问题。(MCUI-1670)
 * 修复并改进了触发器中的 eVar 管理。(MCUI-6400)
@@ -64,7 +64,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 资产改进 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud 资产中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud 资产可利用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 资产中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud 资产可利用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户链接改进 </p> </td> 
@@ -79,7 +79,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **已知问题**
 
-如果通过 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 激活]** 界面访问动态标签管理，但Dynamic Tag Management帐户未链接到Experience Cloud(Adobe ID)，则您将无法登录到动态标签管理。要避免出现此问题，请在新的浏览器选项卡中直接导航到 [!DNL dtm.adobe.com]。
+如果您通过 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 激活]** 界面访问 Dynamic Tag Management，但您的 Dynamic Tag Management 帐户没有关联到 Experience Cloud (Adobe ID)，则您将无法登录到 Dynamic Tag Management。要避免出现此问题，请在新的浏览器选项卡中直接导航到 [!DNL dtm.adobe.com]。
 
 ## 16.1 版 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -100,7 +100,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 >[!NOTE]
 >
->Microsoft 即将[结束](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
+>对于 Internet Explorer 8、9 和 10，Microsoft 即将[终止支持](https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support)。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
 
 ## 15.10 版 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -130,7 +130,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 ## 15.6.1 版 - 2015 年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
-无可用信息
+没有可用的信息
 
 ## 15.5.1 版 - 2015 年 5 月 13 日 {#section_EF197410964E40D294D0D8024738CFBA}
 
@@ -146,7 +146,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左侧导航器菜单已更新并设置为提供对所有核心服务和解决方案的访问。值得注意的更改包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The<span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 菜单选项已从“帮助”下拉菜单移至左侧导航器边栏。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解决方案</span>已被删除。您可以从导航器边栏的下半部分启动所有解决方案。 </li> 
     </ul> </td> 
@@ -200,7 +200,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅 <a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 客户属性</a> 产品文档。 </p> <p> 有关使您的核心服务解决方案现代化的信息，请参阅 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 启用核心服务解决方案</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务解决方案实现现代化的信息，请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用解决方案</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,7 +289,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 已知问题:
 
 * 某些用户可以删除过期的资产，而不会收到错误通知。
-* 某些 [!DNL .png] 文件无法在卡上呈现。
+* 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 某些用户在将资产上传到展示板时可能会遇到问题。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 管理员必须注销然后重新登录，才能查看“帐户设置”中执行的更改。
@@ -327,7 +327,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 **已知问题**
 
 * 某些用户在将资产上传到展示板时可能会遇到问题。
-* 某些 [!DNL .png] 文件无法在卡上呈现。
+* 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户可能无法从 PDF 创建信息卡并将其共享到展示板。
 * 某些用户可以删除过期的资产，而不会收到错误通知。
@@ -349,7 +349,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 某些用户在将资产上传到展示板时可能会遇到问题。
 * 某些用户可以删除过期的资产，而不会收到错误通知。
 * 用户不能在展示板上共享 PowerPoint 文件。
-* 某些 [!DNL .png] 文件无法在卡上呈现。
+* 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
 * 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
 * 某些用户在 [!DNL Creative Cloud] 中取消共享的 [!DNL Experience Cloud] 内容可能会从他们的文件夹中删除。
@@ -378,12 +378,12 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户可能无法从 PDF 创建信息卡并将其共享到展示板。
 * 某些用户在将资产上传到展示板时可能会遇到问题。
-* 某些用户可能无法登录 [!DNL Target][!DNL Experience Cloud]。
-* 某些Audience Manager用户无法登录 [!DNL Experience Cloud]。
+* 某些用户可能无法从 [!DNL Target] 登录到 [!DNL Experience Cloud]。
+* 某些 Audience Manager 用户无法登录到 [!DNL Experience Cloud]。
 * 某些用户可以删除过期的资产，而不会收到错误通知。
-* 从中删除 [!DNL Experience Cloud] 的文件不会被删除 [!DNL Digital Asset Management]。
+* 从 [!DNL Experience Cloud] 删除的文件不会从 [!DNL Digital Asset Management] 中删除。
 * 用户不能在展示板上共享 PowerPoint 文件。
-* 某些 [!DNL .png] 文件无法在卡上呈现。
+* 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
 * 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
 * 某些用户在 [!DNL Creative Cloud] 中取消共享的 [!DNL Experience Cloud] 内容可能会从他们的文件夹中删除。
@@ -394,9 +394,9 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **已知问题**
 
-* 从中删除 [!DNL Experience Cloud] 的文件不会被删除 [!DNL Digital Asset Management]。
+* 从 [!DNL Experience Cloud] 删除的文件不会从 [!DNL Digital Asset Management] 中删除。
 * 某些 [!UICONTROL Exchange] 用户可能在备注中发现他们的名称为一个较长的字符串 ID，而不是他们的名称
-* 某些 [!DNL .png] 文件无法在卡上呈现
+* 某些 [!DNL .png] 文件无法在信息卡中呈现
 * 上传文件时允许的文件类型比拖放方法允许的要多。为获得最佳结果，请使用“[!UICONTROL 资产]”上传。
 * 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
 * [!DNL Exchange] 用户必须清除 Cookie 才能改善体验。
@@ -426,15 +426,14 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>  受众中的<span class="wintitle">保存</span>按钮 </p> </td> 
-   <td colname="col2"> <p>创建受众时，现在将禁用“创建新受众”页面上的 <span class="wintitle"> “保存</span><span class="wintitle"></span> ”按钮，直到所有必需字段完成为止。 <!--MAC-19712 -->
- </p> </td> 
+   <td colname="col2"> <p>现在创建受众时，在您填写完所有必填字段之前，<span class="wintitle">创建新受众</span>页面上的<span class="wintitle">保存</span>按钮处于禁用状态。<!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **已知问题**
 
-* 从中删除 [!DNL Experience Cloud] 的文件不会被删除 [!DNL Digital Asset Management]。
+* 从 [!DNL Experience Cloud] 删除的文件不会从 [!DNL Digital Asset Management] 中删除。
 * 上传文件时允许的文件类型比拖放方法允许的要多。为获得最佳结果，请使用“资产”上传。
 * 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
@@ -458,11 +457,11 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">帮助</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 </p> <p>这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序、报表和 <span class="keyword">Experience Cloud</span> 信息卡。 </p> <p>请参阅 <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">帮助</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 </p> <p>这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序、报表和 <span class="keyword">Experience Cloud</span> 信息卡。 </p> <p>请参阅 <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local">Exchange Marketplace</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 受众 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">受众</span></p> <p> 在<span class="wintitle">受众</span>中，您可以创建、编辑和管理受众，其方式与处理区段类似。例如，您可以在 Reports &amp; Analytics 中创建一个区段，然后将其共享到 <span class="wintitle">Experience Cloud</span> <span class="wintitle">受众</span>。共享之后，该受众即可用于 <span class="keyword">Adobe Target</span> 营销活动，并出现在 Adobe Audience Manager 的区段中。 </p> <p> <p>注意：要请求在Target中启用，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">受众</span></p> <p> 在<span class="wintitle">受众</span>中，您可以创建、编辑和管理受众，其方式与处理区段类似。例如，您可以在 Reports &amp; Analytics 中创建一个区段，然后将其共享到 <span class="wintitle">Experience Cloud</span> <span class="wintitle">受众</span>。共享之后，该受众即可用于 <span class="keyword">Adobe Target</span> 营销活动，并出现在 Adobe Audience Manager 的区段中。 </p> <p> <p>注意：要在 Target 中请求启用受众，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">http://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -481,8 +480,8 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **修复**
 
-* [!DNL Experience Cloud] 未链接 [!DNL Adobe Target]到。[!DNL Adobe Target] 如果登录可在多 [!DNL Target] 台服务器上使用，则会出现此问题。
-* [!DNL Adobe Media Optimizer] 并不是在用户创建用户 [!DNL Experience Cloud]时自动创建的。
+* [!DNL Experience Cloud] 未关联到 [!DNL Adobe Target]。如果 [!DNL Adobe Target] 登录凭据可以在多个 [!DNL Target] 服务器上使用，则会发生此问题。
+* 在 [!DNL Experience Cloud] 中创建了某个用户后，[!DNL Adobe Media Optimizer] 不会自动创建该用户。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
 * 资产信息卡视图中的“评论”链接不可点击。
 * 在将自定义标签添加到资产后，其他元数据更改不能持久保留。
@@ -492,7 +491,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 如果未在登录期间选择 **[!UICONTROL 记住我]，则用户将在 15 分钟后被注销。**
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
 * 登录到 [!DNL Experience Cloud] 需要花费超过一秒钟的时间。
-* 对于某些用户，从 [!DNL Experience Cloud] 未同步的文件中删除文件 [!DNL Digital Asset Management]。
+* 对于某些用户，从 [!DNL Experience Cloud] 中删除文件时不会与 [!DNL Digital Asset Management] 同步。
 * 用户会在浏览器处于不活动状态 15 分钟以后注销。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 对于某些用户，Internet Explorer 10 的可视化布局比其他浏览器差。
@@ -530,17 +529,17 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 资产信息卡视图中的“评论”链接不可点击。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
 * 登录到 [!DNL Experience Cloud] 需要花费超过一秒钟的时间。
-* 从中共享的数据 [!DNL Media Optimizer] 在其中出现错误陈述 [!DNL Experience Cloud]。
-* 在 [!DNL Media Optimizer] 中创建用户时，Adobe不会自动创建用户 [!DNL Experience Cloud]。
-* [!DNL Experience Cloud][!DNL Adobe Target][!DNL Adobe Target] 如果登录可在多 [!DNL Target] 台服务器上使用，则无法链接到此链接。
+* 从 [!DNL Media Optimizer] 共享的数据不能在 [!DNL Experience Cloud] 中正确显示。
+* 在 [!DNL Experience Cloud] 中创建了某个用户后，Adobe [!DNL Media Optimizer] 不会自动创建该用户。
+* 如果 [!DNL Adobe Target] 登录凭据可以在多个 [!DNL Target] 服务器上使用，则 [!DNL Experience Cloud] 无法关联到 [!DNL Adobe Target]。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面速度可能会减慢。
 * 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
-* [!DNL Adobe Media Optimizer] 模拟卡无法正确呈现。
-* 应用于从 [!DNL Analytics] 中应用的趋势报告的过滤器不会应用到中 [!DNL Experience Cloud]的卡。
+* [!DNL Adobe Media Optimizer] 模拟信息卡未正确呈现。
+* 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
 * 从 Analytics 对趋势报表应用的过滤器不会应用到 Experience Cloud 中的信息卡。
 * 某些 Excel 或 CSV 文件无法上传至展示板。
 * 某些用户可能无法将他们的受众管理帐户与其 [!DNL Experience Cloud] 相关联。
-* 某些用户在共享 [!DNL Analytics] 区段时可能会遇到错误 [!DNL Experience Cloud]。
+* 某些用户在 [!DNL Experience Cloud] 中共享 [!DNL Analytics] 区段时可能会遇到错误。
 * 某些用户可能无法向下展开至[!UICONTROL 资产选择器]中的子文件夹。
 * 某些用户无法在 [!DNL Experience Cloud] 中共享 AdLens 小工具。
 
@@ -551,30 +550,30 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 **修复**
 
 * 增加了删除头像的功能。
-* 修复了阻止您取消关联 [!DNL Adobe Media Optimizer] 帐户的问题。
+* 修复了无法取消关联 [!DNL Adobe Media Optimizer] 帐户的问题。
 
 **已知问题**
 
 * 删除 Experience Cloud 资产中的图像时，如果该图像同时被 Adobe Target Essentials 使用，则不会发出警告。
 * 在 [!DNL Analytics] 中刷新信息卡有时会导致扩展信息卡中出现空图表。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
-* *`Remember me`* 在登录期间未选择时，用户将在15分钟后注销。
+* 如果未在登录期间选择 *`Remember me`*，则用户将在 15 分钟后被注销。
 * [!DNL Analytics] 解决方案登录页面显示格式错误。
 * 资产信息卡视图中的“评论”链接不可点击。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面速度可能会减慢
-* 如果 [!DNL Adobe Target][!DNL Adobe Target] 登录可在多台Target服务器上使用，则无法关联Experience Cloud。
+* 如果 [!DNL Adobe Target] 登录凭据可以在多个 Target 服务器上使用，则 Experience Cloud 无法关联到 [!DNL Adobe Target]。
 * 登录到 Experience Cloud 需要花费超过一秒钟的时间。
 * 在将自定义标签添加到资产后，没有任何其他元数据更改可以持久保留。
 * 在 Experience Cloud 中创建了某个用户后，[!DNL Adobe Media Optimizer] 不会自动创建该用户。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
-* 从Experience [!DNL Media Optimizer] Cloud中共享的数据在Experience Cloud中不正确。
+* 从 [!DNL Media Optimizer] 共享的数据不能在 Experience Cloud 中正确显示。
 * 共享 Flickr 图像失败。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 Experience Cloud 中的信息卡。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
 * 用户需要刷新展示板才能使已删除的信息卡在视图中消失。
 * 某些 Excel 或 CSV 文件无法上传至展示板。
-* [!DNL Adobe Media Optimizer] 模拟卡无法正确呈现。
+* [!DNL Adobe Media Optimizer] 模拟信息卡未正确呈现。
 * 某些 PNG 文件无法在信息卡中呈现。
 * 无法提交测试版反馈。
 
