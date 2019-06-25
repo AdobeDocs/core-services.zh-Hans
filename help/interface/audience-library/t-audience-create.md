@@ -5,8 +5,8 @@ seo-description: 了解如何在 Experience Cloud 中使用属性规则来创建
 seo-title: 创建受众
 solution: Experience Cloud
 title: 创建受众
-uuid: e622539-296e-4ff3-93b0-ec1 c08 b35429
-translation-type: tm+mt
+uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -31,17 +31,16 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 >[!NOTE]
 >
->在指定的时间段结束后，受众将完全定义。
-以下示例显示如何创建组合受众的规则。此受众包含如下内容：
+>在完成指定期限的数据收集以后，受众会得到完全定义。以下示例显示如何创建组合受众的规则。此受众包含如下内容：
 
 * 来源于页面数据或原始 Analytics 数据的家居和园艺部分。
-* Chrome和Safari用户从 [!DNL Adobe Analytics][发布](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) 到的区段派生 [!DNL Experience Cloud]。
+* 来源于[发布](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)到 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 区段的 Chrome 和 Safari 用户。
 
 
    ![](assets/audience_create.png)
 
-1. 在 [!DNL Experience Cloud]中，单击 **[!UICONTROL “人物]** ”&gt; **[!UICONTROL “受众库]**”。
-1. 在 [!UICONTROL “受众] ”页面上，单击 **[!UICONTROL “新建]**”。 ![](assets/add_icon_small.png)
+1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL 人员]** &gt; **[!UICONTROL 受众库]**。
+1. 在[!UICONTROL 受众]页面，单击 **[!UICONTROL 新建]**。![](assets/add_icon_small.png)
 
 ![步骤结果](assets/audience_create_new.png)
 
@@ -52,32 +51,32 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
    >[!NOTE]
    >
-   >由于缓存，Analytics中已删除的报告套件需要12小时才能在Experience Cloud中显示删除。
+   >由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。
 
-* **[!UICONTROL Experience Cloud：]** 源自 [!DNL Experience Cloud] 来源的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
+* **[!UICONTROL Experience Cloud：]** 从 [!DNL Experience Cloud] 来源派生的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
 1. 定义受众规则。
 
 >[!NOTE]
 >
->定义受众规则时，您应该了解实施变量。
+>您在定义受众规则时，应该对实施变量有所了解。
 
-在 [!UICONTROL 规则]下，定义 *`Home & Garden`* 属性选择：
+在[!UICONTROL 规则]下，定义 *`Home & Garden`* 属性选择：
 
 * **[!UICONTROL 属性来源：]** 原始 Analytics 数据
 * **[!UICONTROL 报表包：]** 报表包 31
-* Dimension= **[!UICONTROL Store(Merch)(v6)]** &gt; **[!UICONTROL “等于]** ”&gt; **[!UICONTROL “主页和花园”]**
+* 维度 = **[!UICONTROL 商店 (Merch) (v6)]** &gt; **[!UICONTROL 等于]** &gt; **[!UICONTROL 家居和园艺]**
 
    ![](assets/home_garden.png)
 
-   *Chrome和Safari访问者* 是从Analytics共享的受众细分：
+   *Chrome 和 Safari 访客*是从 Analytics 中共享的受众区段：
 
 * **[!UICONTROL 属性来源：]** Experience Cloud
 * **[!UICONTROL 维度：]** Chrome 和 Safari 访客
 
    ![](assets/chrome_safari.png)
 
-   为了进行比较，您可以添加一个 *OR* 规则来查看站点部分的所有访客，如Patio&amp; Toshitors。
+   要进行比较，需要添加 *OR* 规则查看某个站点区域（例如庭院和家具）的所有访客。
 
    ![](assets/audiences_rule_patio.png)
 
@@ -93,6 +92,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 完成指定期限的数据收集以后，这些圈会进行合并以显示定义的受众。
 
-1. 定义规则后，单击 **[!UICONTROL “保存]**”。
+1. 在定义规则后，单击 **[!UICONTROL 保存]**。
 
 保存该受众后，即可用于其他解决方案。例如，您可以在一个 Target 活动中包含共享受众。
