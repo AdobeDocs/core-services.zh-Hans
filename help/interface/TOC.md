@@ -3,7 +3,7 @@ audience: 最终用户
 user-guide-title: 核心服务用户指南
 user-guide-url: https://www.adobe.com/cn
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
@@ -27,8 +27,8 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [嵌入内容](admin-getting-started/oembed.md)
 + 激活 {#activation}
    + [激活概述](activation/activation.md)
-   + [启动用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTM用户指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch 用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM 用户指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [触发器](activation/triggers.md)
 + 资产 {#assets}
    + [资产概述](experience-cloud-assets/experience-cloud-assets.md)
