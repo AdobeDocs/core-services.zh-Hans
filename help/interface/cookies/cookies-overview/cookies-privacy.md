@@ -1,15 +1,15 @@
 ---
 description: 维护客户隐私和数据安全是 Adobe 的重中之重。Adobe 参与了多个隐私保护组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
-keywords: cookies；隐私权
-seo-description: 维护客户隐私和数据安全是 Adobe 的重中之重。Adobe 参与了多个隐私组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
+keywords: cookies;隐私
+seo-description: 维护客户隐私和数据安全是 Adobe 的重中之重。Adobe 参与了多个隐私保护组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
 seo-title: 关于 Cookie 和隐私
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: 关于 Cookie 和隐私
-uuid: 7fb36845-6282-438a-button6-0c3 cf95 de1 c9
+uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 维护客户隐私和数据安全是 Adobe 的重中之重。Adobe 参与了多个隐私保护组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
 
-Experience Cloud 产品所设置的大多数 Cookie 都不包含个人身份信息。 这些 Cookie 和相关联的数据都很安全，仅用于贵公司的报告和提供相关内容及广告。该数据除在汇总行业报告中使用外，不会提供给第三方或在其他 Adobe 文档中使用。For example, the [!DNL Digital Marketing Insight Report] analyzes aggregated and anonymous data across retailers.
+Experience Cloud 产品所设置的大多数 Cookie 都不包含个人身份信息。 这些 Cookie 和相关联的数据都很安全，仅用于贵公司的报告和提供相关内容及广告。该数据除在汇总行业报告中使用外，不会提供给第三方或在其他 Adobe 文档中使用。例如，[!DNL Digital Marketing Insight Report] 会分析跨零售商的汇总和匿名数据。
 
 Adobe 不会合并各个公司之间的浏览器级信息。为了保护客户数据的隐私和安全，Experience Cloud 内的某些服务为各公司提供了对每个被跟踪网站使用一组单独 Cookie 的功能。 某些 Suite 产品还为客户提供了使用自己的域名作为 Cookie 所有者的功能。这种做法建立了一个额外的隐私和安全层，因为这样会使得 Experience Cloud Cookie（*第一方 Cookie*）永久性地属于公司的网站。
 
