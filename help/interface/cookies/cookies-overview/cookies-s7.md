@@ -1,15 +1,15 @@
 ---
 description: Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
 seo-title: Scene7 Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Scene7 Cookie
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -34,8 +34,8 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
 较新版本的 AS3 查看器不会实施会话持久性。
 
 * [Cookie 名称：VatLogin.jsp](../cookies-overview/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Cookie名称：s7js. flinout. Infomessage. displayed. state](../cookies-overview/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Cookie名称：s7js. flinout. Infomessage. displayed_ idx. ant](../cookies-overview/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
+* [Cookie 名称：s7js.flyout.InfoMessage.displayed.state](../cookies-overview/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
+* [Cookie 名称：s7js.flyout.InfoMessage.displayed_idx.ant](../cookies-overview/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## Cookie 名称：VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -44,7 +44,7 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
 | 存储的信息 | 设置会话 Cookie。嵌入 IPS ImageServer（IS、IR 还有 SWF/皮肤和视频上下文）中的 AuthFilter 使用 Cookie 获取访问授权。如果存在，它将允许 HTTP 请求通过。否则，它会返回未授权访问。 |
 | 过期 | 此 Cookie 是会话 Cookie。Scene7 IPS [!DNL web.xml] 中设置的当前会话到期为 45 分钟。 |
 
-## Cookie名称：s7js. flinout. Infomessage. displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+## Cookie 名称：s7js.flyout.InfoMessage.displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -65,7 +65,7 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
  </tbody> 
 </table>
 
-## Cookie名称：s7js. flinout. Infomessage. displayed<assetId>_ idx<id>.ant {#section-05d1c52c478541609f4a18a9c1eb032f}
+## Cookie 名称：s7js.flyout.InfoMessage.displayed<assetId>_idx<id>.ant {#section-05d1c52c478541609f4a18a9c1eb032f}
 
 旧的 DHTML 查看器使用浏览器 Cookie 来存储状态信息和便笺数据。多屏幕 DHTML 弹出式屏幕还会使用它们来将消息指示器特定于会话。
 
