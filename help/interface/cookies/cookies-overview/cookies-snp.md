@@ -1,15 +1,15 @@
 ---
 description: Search&Promote 使用 Cookie 了解和预见访客的搜索意图。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: Search&Promote 使用 Cookie 了解和预见访客的搜索意图。
 seo-title: Search 和 Promote Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Search 和 Promote Cookie
-uuid: 65bf24e0-0564-4dc2-b652-9fd9 db57 d23 f
+uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
