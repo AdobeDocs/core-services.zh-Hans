@@ -1,15 +1,15 @@
 ---
 description: 以下信息可帮助您联系 Adobe 以及了解与使用本产品和文档有关的法律问题。
-keywords: 动态标签管理；核心服务
+keywords: dynamic tag management;核心服务
 seo-description: 以下信息可帮助您联系 Adobe 以及了解与使用本产品和文档有关的法律问题。
 seo-title: 联系方式和法律信息
 solution: Experience Cloud
 title: 联系方式和法律信息
-uuid: e89d3452-3d6d-458f-938c-d2482 eb3 e5 a1
+uuid: e89d3452-3d6d-458f-938c-d2482eb3e5a1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -23,11 +23,11 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
-* [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](http://helpx.adobe.com/marketing-cloud.html)
-* [在 Twitter @AdobeExpCare 上快速提问](https://twitter.com/AdobeExpCare)
+* [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](http://helpx.adobe.com/cn/marketing-cloud.html)
+* [在 Twitter @AdobeExpCare 上向我们快速提问](https://twitter.com/AdobeExpCare)
 * [在我们的客户门户中记录事件](https://customers.omniture.com/login.php)
-* [直接联系客户关怀团队](http://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [查看 Experience Cloud 解决方案的可用性和状态](http://status.adobe.com/)
+* [直接联系客户关怀团队](http://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
+* [查看 Experience Cloud 解决方案的可用情况和状态](http://status.adobe.com/)
 
 ## 服务、职能和账单 {#section-fa4f5274fdfe4df7bb079e575877dfc2}
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ## 反馈 {#section-8154d6d712054220a90d85fa8e92933e}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。可以将有关改进 Analytics 包的意见和建议[添加到我们的客户意见交流平台](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)中。
+我们欢迎您提供有关此解决方案的任何建议或反馈。关于 Analytics 套件的优化创意和建议[可以添加到我们的“客户创意交流中心”](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)。
 
 ## 法律 {#section-a6e1844d4ac2485cadbf6d05116e3d59}
 
@@ -44,8 +44,8 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Terms of Use](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Privacy Center](http://www.adobe.com/privacy/policy.html)
+[使用条款](https://marketing.adobe.com/resources/help/zh_CN/terms.html) | [隐私中心](http://www.adobe.com/cn/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [http://www.adobe.com/go/thirdparty_cn](http://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. 更新信息/其他第三方代码信息位于：[http://www.adobe.com/go/thirdparty_cn](http://www.adobe.com/products/eula/third_party/)。
