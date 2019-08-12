@@ -1,15 +1,15 @@
 ---
 description: Survey 使用 Cookie 区分来自不同浏览器的请求，并存储可用来更好地了解客户情感的有用信息。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: Survey 使用 Cookie 区分来自不同浏览器的请求，并存储可用来更好地了解客户情感的有用信息。
 seo-title: Survey Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Survey Cookie
-uuid: e57d9b58-3c62-463a-ad52-e2 a0 de2 e1 ee1
+uuid: e57d9b58-3c62-463a-ad52-e2a0de2e1ee1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -88,5 +88,5 @@ Survey 使用 Cookie 区分来自不同浏览器的请求，并存储可用来�
 
 >[!NOTE]
 >
->如果要存储在s_ sv_ s或s_ sv_ p中的信息过大，它将根据需要拆分并存储在其他Cookie中，如所需的s_ sv_ s2、s_ sv_ s2、s_ sv_ p2、s_ sv_ p2，s_ sv_ p3，等等。
+>如果要存储在 s_sv_s1 或 s_sv_p1 中的信息太大，则该信息会被拆分，然后按照需要存储在其他 Cookie（命名为 s_sv_s2、s_sv_s3 等或 s_sv_p2、s_sv_p3 等）中。
 
