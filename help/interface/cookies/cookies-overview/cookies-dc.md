@@ -1,15 +1,15 @@
 ---
 description: Data Connectors 使用 Cookie 跨多个广告渠道向广告商提供优化的活动和转化绩效指标。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: Data Connectors 使用 Cookie 跨多个广告渠道向广告商提供优化的活动和转化绩效指标。
 seo-title: Data Connectors Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Data Connectors Cookie
-uuid: 5d27ba66-e640-4513-bedfc-69e8502 de941
+uuid: 5d27ba66-e640-4513-befc-69e8502de941
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
