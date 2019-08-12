@@ -1,15 +1,15 @@
 ---
 description: Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件与访客更相关。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件与访客更相关。
 seo-title: Target Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Target Cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -23,7 +23,7 @@ Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件�
 
 >[!NOTE]
 >
->目标用户还可以创建自定义的第三方cookie。
+>Target 用户还可以创建自定义的第三方 Cookie。
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -54,7 +54,7 @@ Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件�
 
 >[!NOTE]
 >
->If any of your domain names include a country code, such as [!DNL mycompany.co.uk], work with your Client Services to configure your [!DNL mbox.js] to support this.
+>如果您的任何域名包括国家/地区代码（如 [!DNL mycompany.co.uk]），请咨询客户服务部门来配置您的 [!DNL mbox.js] 以支持此功能。
 
 此 Cookie 保存一系列值，以控制您的访客体验 Target 营销活动的方式：
 
