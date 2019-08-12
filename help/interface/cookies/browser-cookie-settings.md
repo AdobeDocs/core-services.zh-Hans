@@ -1,15 +1,15 @@
 ---
 description: 删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: 删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。
 seo-title: 启用浏览器 Cookie 的隐私设置
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: 启用浏览器 Cookie 的隐私设置
-uuid: f6a56e8b-b021-49db-8eb4-6c14 af0 c7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 如果用户在其浏览器的 Cookie 设置中阻止了所有 Cookie，那么此设置可以顺应用户希望停止 Analytics 处理的意愿。
 
-1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+1. 导航至&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 报表包]**。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** &gt; **[!UICONTROL 常规]** &gt; **[!UICONTROL 隐私设置]**。
+1. 启用&#x200B;**[!UICONTROL 隐私设置]**（适用于桌面和移动设备）。
 
    启用此功能后，Analytics 报表将排除从用户已设置为阻止所有 Cookie 的桌面浏览器中收集的数据。如果 Adobe 无法识别浏览器，则数据将包括在 Analytics 报表中。
 
 >[!IMPORTANT]
 >
->请注意，许多移动应用程序(如Facebook或Twitter应用程序浏览器)可以作为标准移动浏览器显示，但不允许所有cookie。启用此功能可能会导致从 Analytics 报表中排除很大部分的移动设备流量。
+>请注意，很多移动应用程序（例如，Facebook 或 Twitter 的应用程序内浏览器）可能会显示为标准的移动设备浏览器，但是并不能允许使用所有 Cookie。启用此功能可能会导致从 Analytics 报表中排除很大部分的移动设备流量。
 
 **关于浏览器的隐私设置**
 
