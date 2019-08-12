@@ -1,15 +1,15 @@
 ---
 description: 由于各种浏览器对第三方 Cookie 的支持越来越有限，Adobe 一直在着力开发新的解决方案，以期在各种 Adobe Experience Cloud 解决方案中实现客户需求与用户隐私权利的周密平衡。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: 由于各种浏览器对第三方 Cookie 的支持越来越有限，Adobe 一直在着力开发新的解决方案，以期在各种 Adobe Experience Cloud 解决方案中实现客户需求与用户隐私权利的周密平衡。
 seo-title: 第三方 Cookie 支持的变化对客户有何影响
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: 第三方 Cookie 支持的变化对客户有何影响
-uuid: 27332e0d-6932-4a6e-b97 b-0adectied0 b050
+uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -28,7 +28,7 @@ Test
 -->
 
 * 采用第一方实施的客户基本上不会受影响。
-* 未采用第一方实施的客户可以实施[访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service)，以便在不使用第一方实施的情况下，将 ID Cookie 作为第一方 Cookie 进行存储。
+* 未使用第一方实施的客户可以实施[访客 ID 服务](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/?f=visid_service)，以便在没有第一方实施的情况下将 ID Cookie 存储为第一方 Cookie。
 
 **Adobe Experience Manager**
 
@@ -52,7 +52,7 @@ Test
    * 整体影响尚未可知。但是，根据第一点，对显示的影响会大于其他服务。
    * 关于对广告展示的最大影响，我们将在内部进行评估，同时还将与广告合作伙伴合作进行评估。
 
-* 社交:
+* Social：
 
    * 对 Facebook 市场广告没有任何影响。
    * Facebook Exchange (FBX) 会受到影响，此影响与对广告展示的影响相同。
