@@ -3,13 +3,13 @@ description: Audience Manager 在执行不同的功能时需要依赖于若干�
 keywords: cookie
 seo-description: Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
 seo-title: Audience Manager Cookie
-solution: Marketing Cloud，Audience Manager
+solution: Marketing Cloud,Audience Manager
 title: Audience Manager Cookie
-uuid: 8b384c38-b85 a-4e93-b00 e-41a9 d3 ae2 b21
+uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -44,7 +44,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含独特用户 ID (UUID)，如下面的示例所示： </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>另请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Audience Manager 中的 ID 索引</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含唯一用户 ID (UUID)，如下面的示例所示： </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>另请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Audience Manager 中的 ID 索引</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他属性</b> </p> </td> 
@@ -75,7 +75,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> Cookie 包含数据提供程序的名称或 ID 及 UNIX UTC 时间戳，格式为用竖线分隔的字符串。在下面的示例中，<i>斜体</i>表示变量占位符。 </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">旧样式：<span class="codeph"><span class="varname"> 数据提供者名称 </span>-1490307822097|| <span class="varname"> 数据提供者名称 </span>-149030782038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">旧样式：<span class="codeph"> <span class="varname"> 此处为数据提供程序名称 </span>-1490307822097| <span class="varname"> 此处为数据提供程序名称 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新样式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>另请参阅下面的 dextp 数据语法部分。 </p> </td> 
   </tr> 
@@ -106,12 +106,12 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
    <td colname="col1"> <p> <b>第一个或第二个</b> </p> </td> 
    <td colname="col2"> <p>数据提供程序名称或 ID 的位置视具体情况而有所不同，它取决于 Cookie 使用新格式还是旧格式。 </p> <p> <b>旧格式：</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">语法：<span class="codeph"><span class="varname"> 数据提供者名称 </span> - <span class="varname"> UNIX UTC时间戳 </span></span> </li> 
-      <li id="li_7CD8B101156140F49EA97B18E9591402">Example: <span class="codeph"> dataProvider1 - 1490307822038 </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">语法：<span class="codeph"> <span class="varname"> 数据提供程序名称 </span> - <span class="varname"> UNIX UTC 时间戳 </span> </span> </li> 
+      <li id="li_7CD8B101156140F49EA97B18E9591402">示例：<span class="codeph">dataProvider1 – 1490307822038 </span> </li> 
      </ul> </p> <p>旧格式 Cookie 使用可读名称来标识数据提供程序。 </p> <p> <b>新格式：</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">语法：<span class="codeph"><span class="varname"> 数据提供者ID </span> -1||- <span class="varname"> UNIX UTC时间戳 </span></span> </li> 
-      <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">Example: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">语法：<span class="codeph"> <span class="varname"> 数据提供程序 ID </span> - 1|2 - <span class="varname"> UNIX UTC 时间戳 </span> </span> </li> 
+      <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">示例：<span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>新样式 Cookie： </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
       <li id="li_A8C9638173684359BABC4207845A4F48">用数字 ID 取代可读的数据提供程序名称。 </li> 
@@ -143,7 +143,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
    <td colname="col2"> <p> <span class="wintitle">DST</span> Cookie 包含目标 ID 集和 UNIX 时间戳，格式为用竖线分隔的字符串。在下面的示例中，<i>斜体</i>表示变量占位符。 </p> <p> 
      <ul id="ul_CE98076A02DA413486C1D341E9806889"> 
-      <li id="li_850209D956644749B98C7A208C825C15">Syntax: <span class="codeph"> <span class="varname"> destination ID </span> - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
+      <li id="li_850209D956644749B98C7A208C825C15">语法：<span class="codeph"> <span class="varname"> 目标 ID </span> - <span class="varname"> UNIX UTC 时间戳 </span> </span> </li> 
       <li id="li_4A22152C70844733982230EBF7B9EB78">示例：<span class="codeph">067797-1490349684|1010788-1490349692|1067797-1490349692 </span> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -160,12 +160,12 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
 
 ## _dp Cookie {#section-0d1fea09c83249dfa944cc028a8ef840}
 
-这是临时性 Cookie。[!DNL Audience Manager] 尝试设置 [!DNL _dp] cookie以确定它是否可以在第三方上下文中的demdex. net域中设置其他cookies。When [!DNL _dp] is set it contains a value of 1. [!DNL Audience Manager] 读取此值并立即删除cookie。If the [!DNL _dp] cookie is not present, [!DNL Audience Manager] knows it cannot set cookies.
+这是临时性 Cookie。[!DNL Audience Manager] 会尝试通过设置 [!DNL _dp] Cookie 来确定能否在第三方上下文中的 demdex.net 域内设置其他 Cookie。设置 [!DNL _dp] 时，它包含值 1。[!DNL Audience Manager] 读取此值后会立即删除该 Cookie。如果未设置 [!DNL _dp] Cookie，则 [!DNL Audience Manager] 认为无法设置 Cookie。
 
 >[!MORE_LIKE_THIS]
 >
->* [了解 Demdex 域调用](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
->* [Adobe 隐私权中心](http://www.adobe.com/privacy.html)
->* [Audience Manager 数据安全性与隐私性](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
->* [Audience Manager 隐私性和数据保留常见问题解答](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
+>* [了解 Demdex 域调用](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)。
+>* [Adobe 隐私中心](http://www.adobe.com/cn/privacy.html)
+>* [Audience Manager 数据安全和隐私](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
+>* [Audience Manager 隐私和数据保留常见问题解答](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
 
