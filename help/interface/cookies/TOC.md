@@ -3,13 +3,13 @@ cloud: experience-cloud
 product: adobe
 archtype: 最终用户
 user-guide: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
 
 
-# Table of Contents {#table-of-contents}
+# 目录{#table-of-contents}
 
 + [Experience Cloud 中使用的 Cookie](cookies-overview/cookies-overview.md)
    + [关于 Cookie 和隐私](cookies-overview/cookies-privacy.md)
@@ -18,7 +18,7 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
    + [Data Connectors Cookie](cookies-overview/cookies-dc.md)
    + [Data Workbench Cookie](cookies-overview/cookies-insight.md)
    + [Experience Cloud Cookies](cookies-overview/cookies-mc.md)
-   + [Advertising Cloud Cookies](cookies-overview/cookies-advertising-cloud.md)
+   + [Advertising Cloud Cookie](cookies-overview/cookies-advertising-cloud.md)
    + [Scene7 Cookie](cookies-overview/cookies-s7.md)
    + [Search 和 Promote Cookie](cookies-overview/cookies-snp.md)
    + [Survey Cookie](cookies-overview/cookies-survey.md)
