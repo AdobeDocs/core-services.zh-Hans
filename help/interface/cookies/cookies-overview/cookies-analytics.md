@@ -1,15 +1,15 @@
 ---
 description: Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储应用程序将来可使用的有用信息。这些 Cookie 还可以用来将浏览信息与客户记录相关联。
-keywords: cookies；隐私权
+keywords: cookies;隐私
 seo-description: Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储应用程序将来可使用的有用信息。这些 Cookie 还可以用来将浏览信息与客户记录相关联。
 seo-title: Analytics Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Analytics Cookie
-uuid: e2d3d61d-2708-48b2-a7 e6-2331f2 aed8 e0
+uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储�
 
 具体来说，Analytics 可通过 Cookie 以匿名方式定义新访客、协助分析点击流数据，并跟踪网站上的历史活动，如针对特定促销活动的响应或销售周期的长度。
 
-* [Cookie名称：s_ ecid](../cookies-overview/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
+* [Cookie 名称：s_ecid](../cookies-overview/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie 名称：AMCV_###@AdobeOrg](../cookies-overview/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
 * [Cookie 名称：s_cc](../cookies-overview/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Cookie 名称：s_cc](../cookies-overview/cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
@@ -30,9 +30,9 @@ Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储�
 * [Cookie 名称：s_fid](../cookies-overview/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [插件设置的 Cookie](../cookies-overview/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Analytics 帮助中提供了有关[第一方 Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html) 的更多信息。
+更多信息可在有关[第一方 Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html) 的 Analytics 帮助文档中找到。
 
-## Cookie Name: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
+## Cookie 名称：s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -44,7 +44,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](https://marketing.adobe.com
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> 包含Experience Cloud ID(EID)或MID的副本。MID存储在遵循this语法的密钥值对中，s_ ecid= MCMID||&lt; EID&gt; </p> </td> 
+   <td colname="col2"> <p> 包含 Experience Cloud ID (ECID) 或 MID 的副本。MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
@@ -52,11 +52,11 @@ Analytics 帮助中提供了有关[第一方 Cookie](https://marketing.adobe.com
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用情况 </p> </td> 
-   <td colname="col2"> <p>此cookie由客户端设置AMCV cookie后的域设置。此Cookie的用途是允许在第^ t方状态中进行持久ID跟踪，并在AMCV cookie过期时用作参考ID。请在此处查阅AMCV cookie以了解更多详细信息。 </p> </td> 
+   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p>仅CNAME客户。不适用于第三方场景。Cookie存储在您的域中，与CNAME和Analytics图像请求使用的域相同。 </p> </td> 
+   <td colname="col2"> <p>仅限 CNAME 客户。不适用于第三方场景。Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
@@ -166,7 +166,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](https://marketing.adobe.com
 
 >[!NOTE]
 >
->每个Analytics访客ID与Adobe服务器上的访客配置文件相关联。访客资料在处于 1 年的非活动状态之后会被删除，这与任何访客 ID Cookie 过期日期无关。
+>每个 Analytics 访客 ID 均与 Adobe 服务器上的一个访客资料关联。访客资料在处于 1 年的非活动状态之后会被删除，这与任何访客 ID Cookie 过期日期无关。
 
 ## Cookie 名称：s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
