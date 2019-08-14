@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -33,18 +33,14 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
 
 较新版本的 AS3 查看器不会实施会话持久性。
 
-* [Cookie 名称：VatLogin.jsp](../cookies/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Cookie 名称：s7js.flyout.InfoMessage.displayed.state](../cookies/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Cookie 名称：s7js.flyout.InfoMessage.displayed_idx.ant](../cookies/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
-
-## Cookie 名称：VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
+**Cookie 名称：VatLogin.jsp**
 
 | 属性 | 描述 |
 |---|---|
 | 存储的信息 | 设置会话 Cookie。嵌入 IPS ImageServer（IS、IR 还有 SWF/皮肤和视频上下文）中的 AuthFilter 使用 Cookie 获取访问授权。如果存在，它将允许 HTTP 请求通过。否则，它会返回未授权访问。 |
 | 过期 | 此 Cookie 是会话 Cookie。Scene7 IPS [!DNL web.xml] 中设置的当前会话到期为 45 分钟。 |
 
-## Cookie 名称：s7js.flyout.InfoMessage.displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+**Cookie名称：s7js. flinout. Infomessage. displayed`assetId`. state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -65,7 +61,7 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
  </tbody> 
 </table>
 
-## Cookie 名称：s7js.flyout.InfoMessage.displayed<assetId>_idx<id>.ant {#section-05d1c52c478541609f4a18a9c1eb032f}
+**Cookie名称：s7js. flinout. Infomessage. displayed`assetId`_ idx`id`. ant**
 
 旧的 DHTML 查看器使用浏览器 Cookie 来存储状态信息和便笺数据。多屏幕 DHTML 弹出式屏幕还会使用它们来将消息指示器特定于会话。
 
