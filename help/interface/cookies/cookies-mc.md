@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决方案使用的访客 ID。
 
-## Cookie 名称：s_ecid {#section-32fd753c3fa54452acd62b021434919a}
+**Cookie 名称：s_ecid**
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -52,7 +52,7 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
  </tbody> 
 </table>
 
-## Cookie 名称：AMCV_###@AdobeOrg {#section-a12aa2a9296940ae82d8921b381b8fb0}
+**Cookie 名称：AMCV_###@AdobeOrg**
 
 [Experience Platform ID服务](https://docs.adobe.com/content/help/en/id-service/using/home.html) 使用JavaScript在当前网站的域中的 `AMCV_###@AdobeOrg` cookie中存储唯一访客ID，该 `###` ID代表一串随机字符串。例如：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。另请参阅 [Cookie 和 ID 服务](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
 
