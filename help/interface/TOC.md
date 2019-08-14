@@ -3,8 +3,8 @@ audience: 最终用户
 user-guide-title: 核心服务用户指南
 user-guide-url: https://www.adobe.com/cn
 index: true
-translation-type: ht
-source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
+translation-type: tm+mt
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -18,6 +18,21 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [将报表包映射到组织](core-services/report-suite-mapping.md)
    + [关于 Experience Cloud 中的新云名称](solutions-core-services.md)
 + [Experience Cloud 集成](marketing-cloud-integrations.md)
++ Experience Cloud cookies {#ec-cookies}
+   + [课件概述](cookies/cookies-privacy.md)
+   + [第一方cookie](cookies/cookies-first-party.md)
+   + [Analytics cookies](cookies/cookies-analytics.md)
+   + [Audience Manager cookies](cookies/cookies-am.md)
+   + [数据连接器cookie](cookies/cookies-dc.md)
+   + [Data Workbench Cookie](cookies/cookies-insight.md)
+   + [Experience Cloud cookies](cookies/cookies-mc.md)
+   + [Advertising Cloud cookies](cookies/cookies-advertising-cloud.md)
+   + [Scene cookies](cookies/cookies-s7.md)
+   + [搜索和提升cookies](cookies/cookies-snp.md)
+   + [Survey cookies](cookies/cookies-survey.md)
+   + [目标cookie](cookies/cookies-target.md)
+   + [启用浏览器 Cookie 的隐私设置](cookies/browser-cookie-settings.md)
+   + [第三方 Cookie 支持的变化对客户有何影响](cookies/cookies-thirdparty.md)
 + 管理用户和产品 {#manage-users-and-products}
    + [管理 Experience Cloud 用户和产品](admin-getting-started/admin-getting-started.md)
    + [常见问题解答](admin-getting-started/faq.md)
@@ -27,8 +42,8 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [嵌入内容](admin-getting-started/oembed.md)
 + 激活 {#activation}
    + [激活概述](activation/activation.md)
-   + [Launch 用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTM 用户指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [启动用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM用户指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [触发器](activation/triggers.md)
 + 资产 {#assets}
    + [资产概述](experience-cloud-assets/experience-cloud-assets.md)
