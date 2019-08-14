@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -19,16 +19,7 @@ source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
 
-目录：
-
-<ul class="simplelist"> 
- <li> <a href="../cookies/cookies-am.md#section-089407f3e2fe4f489b97164df3cd036c" format="dita" scope="local"> demdex Cookie </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-a71050d788d54350adc6b3f6ebf32398" format="dita" scope="local"> dextp Cookie </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-670ae9e671874576b528b46e8a1d24ac" format="dita" scope="local"> dstjs Cookie </a> </li> 
- <li> <a href="../cookies/cookies-am.md#section-0d1fea09c83249dfa944cc028a8ef840" format="dita" scope="local"> _dp Cookie </a> </li> 
-</ul>
-
-## demdex Cookie {#section-089407f3e2fe4f489b97164df3cd036c}
+**demdex Cookie**
 
 <table id="table_1CCF7EA2BC9E421F8DEECA5F611E33F6"> 
  <thead> 
@@ -57,7 +48,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
  </tbody> 
 </table>
 
-## dextp Cookie {#section-a71050d788d54350adc6b3f6ebf32398}
+**dextp Cookie**
 
 <table id="table_7343C9C9ADD24D3FA693ECC76E4A4045"> 
  <thead> 
@@ -90,7 +81,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
  </tbody> 
 </table>
 
-**dextp Cookie 数据语法**
+dextp Cookie 数据语法:
 
 下表按照元素在数据字符串中的位置列出了 [!DNL dextp] Cookie 中的元素并进行了相关说明。
 
@@ -125,7 +116,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
  </tbody> 
 </table>
 
-## dst Cookie {#section-670ae9e671874576b528b46e8a1d24ac}
+**dst Cookie**
 
 <table id="table_83AE9B6350C6408BAECD9FCF33022B98"> 
  <thead> 
@@ -158,14 +149,6 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
  </tbody> 
 </table>
 
-## _dp Cookie {#section-0d1fea09c83249dfa944cc028a8ef840}
+**_dp Cookie**
 
 这是临时性 Cookie。[!DNL Audience Manager] 会尝试通过设置 [!DNL _dp] Cookie 来确定能否在第三方上下文中的 demdex.net 域内设置其他 Cookie。设置 [!DNL _dp] 时，它包含值 1。[!DNL Audience Manager] 读取此值后会立即删除该 Cookie。如果未设置 [!DNL _dp] Cookie，则 [!DNL Audience Manager] 认为无法设置 Cookie。
-
->[!MORE_LIKE_THIS]
->
->* [了解 Demdex 域调用](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html)
->* [Adobe 隐私权中心](http://www.adobe.com/privacy.html)
->* [Audience Manager 数据安全性与隐私性](https://marketing.adobe.com/resources/help/en_US/aam/c_data_security_and_privacy.html)
->* [Audience Manager 隐私性和数据保留常见问题解答](https://marketing.adobe.com/resources/help/en_US/aam/faq_privacy.html)
-
