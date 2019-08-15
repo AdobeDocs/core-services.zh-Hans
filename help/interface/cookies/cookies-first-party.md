@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21bab04d9df4f75afbd1dc5940842b57c34ecb24
+source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
 
 ---
 
@@ -41,12 +41,10 @@ Adobe Managed Certificate Program是为第一方Cookie实施新的第三方SSL�
 
 1. 填写申请表并通过客户关怀打开一个票证，要求在Adobe Managed计划上设置第一方Cookie。文档中利用示例说明了每个字段。
 
-1. 创建CNAME记录。收到票证后，CMS SSL专家应为您提供一对CNAME记录。必须在公司DNS服务器上配置这些记录，然后Adobe才能代表您购买证书。CNAME将类似于以下内容。
+1. 创建CNAME记录(请参阅下面的说明)。收到票证后，CMS SSL专家应为您提供一对CNAME记录。必须在公司DNS服务器上配置这些记录，然后Adobe才能代表您购买证书。CNAME将类似于以下内容。
 
 * **安全** -例如，主机名 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。
 * **非安全** -例如，主机名 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
-
-有关更多信息，请参阅创建CNAME记录。
 
 1. 这些CNAME就位后，Adobe将与DigicerT一起购买并安装Adobe生产服务器上的证书。如果您有现有的实施，应考虑使用访客迁移来维护现有访客。将证书实时推送到Adobe生产环境后，您可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全(https)，则更新该站点 `s.trackingServer`。如果站点为安全(https)，则更新和 `s.trackingServer``s.trackingServerSecure` 变量。
 
