@@ -10,31 +10,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# 第三方 Cookie 支持的变化对客户有何影响{#how-changes-to-third-party-cookie-support-impacts-customers}
+# 对第三方Cookie支持的更改如何支持影响客户{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 由于各种浏览器对第三方 Cookie 的支持越来越有限，Adobe 一直在着力开发新的解决方案，以期在各种 Adobe Experience Cloud 解决方案中实现客户需求与用户隐私权利的周密平衡。
 
 下表列出了第三方 Cookie 支持当前对 Adobe Experience Cloud 解决方案实施的影响：：
 
-**Adobe Analytics 和 Target**
+## Adobe Analytics和Adobe Target
 
-* 采用第一方实施的客户基本上不会受影响。
+* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
 * Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
-**Adobe Experience Manager**
+## Adobe Experience Manager
 
-* 由于 Adobe Experience Manager 完全在客户的域内运行，与第三方 Cookie 的交互微乎其微，因此受到的影响也很小，甚至毫无影响。
+* 由于Adobe Experience Manager完全在客户的域中运行，因此与第三方Cookie的交互最少，因此最小不影响任何影响。
 
-**Adobe Social**
+## Adobe Social
 
 * 只要客户具备最新版本的代码，Social 便不会受到影响。
 
-**Adobe Media Optimizer**
+## Adobe Advertising Cloud
 
 * 搜索:
 
