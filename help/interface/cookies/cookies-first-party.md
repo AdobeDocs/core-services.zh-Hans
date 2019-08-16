@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
+source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
 
@@ -39,12 +39,9 @@ Adobe Managed Certificate Program是为第一方Cookie实施新的第三方SSL�
 
 下面是如何为第一方Cookie实施新的第三方SSL证书：
 
-1. 填写申请表并通过客户关怀打开一个票证，要求在Adobe Managed计划上设置第一方Cookie。文档中利用示例说明了每个字段。
+1. 填写 [第一方cookie请求表](/help/interface/cookies/assets/FPC_Request_Form.xlsx) ，并通过客户关怀打开一个票证，请求在Adobe Managed计划上设置第一方Cookie。文档中利用示例说明了每个字段。
 
-1. 创建CNAME记录(请参阅下面的说明)。收到票证后，CMS SSL专家应为您提供一对CNAME记录。必须在公司DNS服务器上配置这些记录，然后Adobe才能代表您购买证书。CNAME将类似于以下内容。
-
-* **安全** -例如，主机名 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。
-* **非安全** -例如，主机名 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
+1. 创建CNAME记录(请参阅下面的说明)。收到票证后，CMS SSL专家应为您提供一对CNAME记录。必须在公司DNS服务器上配置这些记录，然后Adobe才能代表您购买证书。CNAME将类似于以下内容： **安全** -例如，主机名 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。**非安全** -例如，主机名 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
 
 1. 这些CNAME就位后，Adobe将与DigicerT一起购买并安装Adobe生产服务器上的证书。如果您有现有的实施，应考虑使用访客迁移来维护现有访客。将证书实时推送到Adobe生产环境后，您可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全(https)，则更新该站点 `s.trackingServer`。如果站点为安全(https)，则更新和 `s.trackingServer``s.trackingServerSecure` 变量。
 
@@ -109,9 +106,9 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 在编辑网站上使用第一方Cookie的代码之前，请完成以下先决条件：
 
-* 请求SSL证书，如Adobe Managed Certificate Program的实施步骤中所述。
-* 创建CNAME记录。
-* ping主机名。
+* 请求SSL证书，如Adobe Managed Certificate Program实施步骤中所述。
+* 创建CNAME记录(请参阅上文)。
+* ping主机名(请参阅上文)。
 
 验证主机名对Adobe数据收集服务器进行响应和转发后，您可以更改实施以指向您自己的数据收集主机名。
 
@@ -119,6 +116,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 1. 如果希望更新代码版本，请使用较新版本替换整个`s_code.js/AppMeasurement.js`   文件，然后替换所有插件或自定义设置（如果有）。**或者**，如果您要更新仅与第一方cookie相关的代码，请找到s. trackingServer和s. trackingServerSecure(如果使用SSL)变量，并将它们指向您的新数据集合主机名。Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 将更新后的核心JavaScript文件上传到您的站点。
+
 1. 如果您从长期实施移至第一方cookie，或更改为其他第一方集合主机名，则建议将访客从先前域迁移到新域。
 
 请参阅Analytics实施指南中的 [访客迁移](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 。
