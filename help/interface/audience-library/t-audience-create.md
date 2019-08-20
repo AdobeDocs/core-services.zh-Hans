@@ -6,8 +6,8 @@ seo-title: 创建受众
 solution: Experience Cloud
 title: 创建受众
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -39,8 +39,8 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
    ![](assets/audience_create.png)
 
-1. 在 [!DNL Experience Cloud] 中，单击 **[!UICONTROL 人员]** &gt; **[!UICONTROL 受众库]**。
-1. 在[!UICONTROL 受众]页面，单击 **[!UICONTROL 新建]**。![](assets/add_icon_small.png)
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. 在[!UICONTROL 受众]页面，单击&#x200B;**[!UICONTROL 新建]**。![](assets/add_icon_small.png)
 
 ![步骤结果](assets/audience_create_new.png)
 
@@ -53,7 +53,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
    >
    >由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。
 
-* **[!UICONTROL Experience Cloud：]** 从 [!DNL Experience Cloud] 来源派生的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
+* **[!UICONTROL Experience Cloud：]**&#x200B;从 [!DNL Experience Cloud] 来源派生的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
 1. 定义受众规则。
 
@@ -63,13 +63,13 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 在[!UICONTROL 规则]下，定义 *`Home & Garden`* 属性选择：
 
-* **[!UICONTROL 属性来源：]** 原始 Analytics 数据
-* **[!UICONTROL 报表包：]** 报表包 31
+* **[!UICONTROL 属性来源：]**&#x200B;原始 Analytics 数据
+* **[!UICONTROL 报表包：]**&#x200B;报表包 31
 * 维度 = **[!UICONTROL 商店 (Merch) (v6)]** &gt; **[!UICONTROL 等于]** &gt; **[!UICONTROL 家居和园艺]**
 
    ![](assets/home_garden.png)
 
-   *Chrome 和 Safari 访客*是从 Analytics 中共享的受众区段：
+   *Chrome 和 Safari 访客*&#x200B;是从 Analytics 中共享的受众区段：
 
 * **[!UICONTROL 属性来源：]** Experience Cloud
 * **[!UICONTROL 维度：]** Chrome 和 Safari 访客
@@ -92,6 +92,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 完成指定期限的数据收集以后，这些圈会进行合并以显示定义的受众。
 
-1. 在定义规则后，单击 **[!UICONTROL 保存]**。
+1. 在定义规则后，单击&#x200B;**[!UICONTROL 保存]**。
 
 保存该受众后，即可用于其他解决方案。例如，您可以在一个 Target 活动中包含共享受众。
