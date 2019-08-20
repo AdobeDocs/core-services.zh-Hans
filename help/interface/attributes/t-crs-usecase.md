@@ -6,15 +6,15 @@ seo-title: 创建客户属性来源并上传数据文件
 solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
 
 # 创建客户属性来源并上传数据文件
 
-创建客户属性来源并上传数据。您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
+创建客户属性源(CSV和FIN文件)并上传数据。您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
 
 ## 客户属性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -48,12 +48,12 @@ source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
 此数据是来自您的 CRM 的企业客户数据。此数据可能包含产品的订阅者数据，如成员 ID、获得授权的产品、启动最多的产品等等。
 
 
-1. 创建一个 [!DNL .csv].
+1. 创建一个 `.csv`.
 
 
    >[!NOTE]
    >
-   >在此过程的后续步骤中，您将拖放此 [!DNL .csv] 文件以上传它。然而，如果您[通过 FTP 上传](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，则还需要一个与 [!DNL .csv] 文件同名的 [!DNL .fin] 文件。
+   >在此过程的后续步骤中，您将拖放此 `.csv` 文件以上传它。然而，如果您[通过 FTP 上传](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，则还需要一个与 `.csv` 文件同名的 `.fin` 文件。
 
 
 
@@ -75,30 +75,30 @@ source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
 
 
 1. 在 [!DNL Experience Cloud] 中，单击菜单 ![](assets/menu-icon.png) 图标。
-1. 单击 **[!UICONTROL 人员]**，然后单击 **[!UICONTROL 客户属性]**。
+1. 下 **[!DNL Experience Platform]**，单击 **[!UICONTROL “人员]** ”&gt; **[!UICONTROL “客户属性]**”。
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
 
    ![步骤结果](assets/03_crs_usecase.png)
-1. 单击 **[!UICONTROL 新建]**。
+1. 单击&#x200B;**[!UICONTROL 新建]**。
 
    ![步骤结果](assets/04_crs_usecase.png)
 1. 在“[!UICONTROL 编辑客户属性来源]”页面中，配置以下字段：
 
 
-   * **[!UICONTROL 名称：]** 数据属性来源的易记名称。对于 [!DNL Adobe Target]，属性名称不能包含空格。如果传递包含空格的属性，[!DNL Target] 会将其忽略。其他不受支持的字符包括：`< , >, ', "`。
+   * **[!UICONTROL 名称：]**&#x200B;数据属性来源的易记名称。对于 [!DNL Adobe Target]，属性名称不能包含空格。如果传递包含空格的属性，[!DNL Target] 会将其忽略。其他不受支持的字符包括：`< , >, ', "`。
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]** 表示客户属性数据的来源，如特定的 CRM 系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在“别名 ID”字段中为 Experience Cloud UI 的客户属性来源输入的值应当匹配从实施传入的值（无论是通过动态标签管理还是 Mobile SDK 的 JavaScript）。
+   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在“别名 ID”字段中为 Experience Cloud UI 的客户属性来源输入的值应当匹配从实施传入的值（无论是通过动态标签管理还是 Mobile SDK 的 JavaScript）。
 
       别名 ID 对应在其中设置其他客户 ID 值的特定区域。例如：
 
-      * **Dynamic Tag Management：** 别名 ID 对应于 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/dtm/?f=macid)工具中[!UICONTROL 客户设置]下的*集成代码*值。
+      * **动态标签管理：** 别名ID对应于Experience *Cloud* ID服务工具 [!UICONTROL 中客户设置][下的集成代码值](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) 。
 
-      * **访客 API：** 别名 ID 对应于可与每个访客关联的其他 [客户 ID](https://marketing.adobe.com/resources/help/zh_CN/mcvid/?f=mcvid_customer_ids)。
+      * **访客 API：**&#x200B;别名 ID 对应可与每个访客关联的其他[客户 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)。
 
-         例如，下面的*“crm_id”*：
+         例如，下面的&#x200B;*“crm_id”*：
 
 
          ```
@@ -106,21 +106,21 @@ source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
          ```
 
 
-      * **iOS：** 别名 ID 对应于 [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/zh_CN/mobile/ios/?f=methods) 中的*“idType”*。
+      * **iOS：** Alias *ID对应于seitorSyncidentifiors* 中 [的“idType”：](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)标识符。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android：** 别名 ID 对应于 [syncIdentifiers](https://marketing.adobe.com/resources/help/zh_CN/mobile/android/?f=methods) 中的*“idType”*。
+      * **Android：**&#x200B;别名 ID 对应&#x200B;*Syncidentifiers* 中 [的“idType”](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods)。
 
          例如：
 
          `identifiers.put(`**`"idType"`**`, "idValue");`
 
          请参阅[利用多个数据源](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解有关别名 ID 字段和客户 ID 的数据处理的其他信息。
-   * **[!UICONTROL 文件上传：]** 您可以拖放 [!DNL .csv] 数据文件，或通过 FTP 上传数据。（使用 FTP 还需要 [!DNL .fin] 文件。）请参阅[通过 FTP 上传数据](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
+   * **[!UICONTROL 文件上传：]**&#x200B;您可以拖放 `.csv` 数据文件，或通过 FTP 上传数据。（使用 FTP 还需要 `.fin` 文件。）请参阅[通过 FTP 上传数据](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
 
       >[!IMPORTANT]
@@ -136,11 +136,11 @@ source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
 
       ![](assets/file_upload_attributes.png)
 
-   * **[!UICONTROL 唯一客户 ID：]** 显示您向此属性来源上传了多少个唯一 ID。
+   * **[!UICONTROL 唯一客户 ID：]**&#x200B;显示您向此属性来源上传了多少个唯一 ID。
 
-   * **[!UICONTROL 别名为 Experience Cloud 访客 ID 的客户提供 ID：]** 显示别名为 Experience Cloud 访客 ID 的 ID 数量。
+   * **[!UICONTROL 别名为 Experience Cloud 访客 ID 的客户提供 ID：]**&#x200B;显示别名为 Experience Cloud 访客 ID 的 ID 数量。
 
-   * **[!UICONTROL 具有高别名计数的客户提供 ID：]** 显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供 ID 很可能不表示个人而表示某类共享登录。系统将与这些 ID 关联的属性分发给 500 个最近的 Experience Cloud 访客 ID 别名，直到别名计数达到 10,000 为止。到那时，系统会使客户提供 ID 无效，且不再分发关联的属性。
+   * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供 ID 很可能不表示个人而表示某类共享登录。系统将与这些 ID 关联的属性分发给 500 个最近的 Experience Cloud 访客 ID 别名，直到别名计数达到 10,000 为止。到那时，系统会使客户提供 ID 无效，且不再分发关联的属性。
 
 
 
@@ -175,7 +175,7 @@ source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
 
 **激活属性来源的方法**
 
-在 [!UICONTROL 新建[或编辑]客户属性来源] 页面中，找到[!UICONTROL 激活]标题，然后单击 **[!UICONTROL 活动]**。
+在 [!UICONTROL 新建[或编辑]客户属性来源] 页面中，找到[!UICONTROL 激活]标题，然后单击&#x200B;**[!UICONTROL 活动]**。
 
 ![步骤结果](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ Adobe Analytics
 
 在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
-有关更多信息，请参阅 Analytics 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_customer_attributes.html)。
+请参阅 Analytics 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)，以了解详细信息。
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Adobe Analytics
 
 ![](assets/crs-add-attribute-target.png)
 
-请参阅 Target 帮助中的[新建受众](https://marketing.adobe.com/resources/help/zh_CN/target/target/?f=t_creating_a_new_audience)。
+请参阅 Target 帮助中的[新建受众](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience)。
