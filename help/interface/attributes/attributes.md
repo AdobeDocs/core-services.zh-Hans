@@ -6,8 +6,8 @@ seo-title: 客户属性
 solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ## 概述
 
-可以在此处找到 Experience Cloud 中的[!UICONTROL 客户属性]功能。
-
-**[!UICONTROL 人员]** - **[!UICONTROL 客户属性]**
+要定位 [!UICONTROL 客户属性] 导航到 **[!DNL Experience Platform]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可利用 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中的数据。
 
@@ -29,18 +27,18 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 * **解决方案启用：**[为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
-* **群组成员资格：** 要上传客户属性数据，用户必须是[客户属性群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)的成员。此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
+* **群组成员资格：**&#x200B;要上传客户属性数据，用户必须是[客户属性群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)的成员。此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-   要知道您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [!DNL Experience Cloud]。导航到 **[!UICONTROL 管理]** &gt; **[!UICONTROL 启动 Admin Console]** &gt; **[!UICONTROL 群组]**。如果*客户属性*显示为其中一个群组，则表示您已经可以开始。
+   要知道您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [!DNL Experience Cloud]。导航到&#x200B;**[!UICONTROL 管理]** &gt; **[!UICONTROL 启动 Admin Console]** &gt; **[!UICONTROL 群组]**。如果&#x200B;*客户属性*&#x200B;显示为其中一个群组，则表示您已经可以开始。
 
    添加到客户属性群组的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项.
 
-* **Target mbox：** 客户属性需要安装 mbox.js 版本 58 或更高版本。
+* **Target mbox：**&#x200B;客户属性需要安装 mbox.js 版本 58 或更高版本。
 
 
-   请参阅 [Mbox.js 实施](https://marketing.adobe.com/resources/help/zh_CN/target/ov/t_mbox_download.html)。
+   请参阅 [Mbox.js 实施](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)。
 
-* **at.js：** 任何版本。
+* **at.js：**&#x200B;任何版本。
 
 
 
@@ -53,7 +51,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ![](assets/01_crs_usecase.png)
 
-创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 客户属性]** 中创建的客户属性来源。
+创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性来源。
 
 请参阅[上传客户属性数据](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流程。
 
