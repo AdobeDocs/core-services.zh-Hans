@@ -4,32 +4,32 @@ user-guide-title: 核心服务用户指南
 user-guide-url: https://www.adobe.com/cn
 index: true
 translation-type: tm+mt
-source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
 
 # 核心服务用户指南 {#interface}
 
-+ [Experience Cloud 和核心服务帮助](experience-cloud.md)
++ [Experience Cloud和核心服务帮助](experience-cloud.md)
 + 关于核心服务 {#about-core-services}
    + [核心服务概述](core-services-landing.md)
    + [为核心服务启用解决方案](core-services/core-services.md)
    + [将报表包映射到组织](core-services/report-suite-mapping.md)
    + [关于 Experience Cloud 中的新云名称](solutions-core-services.md)
 + [Experience Cloud 集成](marketing-cloud-integrations.md)
-+ Experience Cloud cookies {#ec-cookies}
-   + [课件概述](cookies/cookies-privacy.md)
-   + [第一方cookie](cookies/cookies-first-party.md)
-   + [Analytics cookies](cookies/cookies-analytics.md)
-   + [Audience Manager cookies](cookies/cookies-am.md)
-   + [数据连接器cookie](cookies/cookies-dc.md)
++ Experience Cloud Cookie {#ec-cookies}
+   + [Cookie 概览](cookies/cookies-privacy.md)
+   + [第一方 Cookie](cookies/cookies-first-party.md)
+   + [Analytics Cookie](cookies/cookies-analytics.md)
+   + [Audience Manager Cookie](cookies/cookies-am.md)
+   + [Data Connectors Cookie](cookies/cookies-dc.md)
    + [Data Workbench Cookie](cookies/cookies-insight.md)
-   + [Experience Cloud cookies](cookies/cookies-mc.md)
-   + [Advertising Cloud cookies](cookies/cookies-advertising-cloud.md)
-   + [Scene cookies](cookies/cookies-s7.md)
-   + [搜索和提升cookies](cookies/cookies-snp.md)
-   + [目标cookie](cookies/cookies-target.md)
+   + [Experience Cloud Cookie](cookies/cookies-mc.md)
+   + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
+   + [Scene7 Cookie](cookies/cookies-s7.md)
+   + [Search 和 Promote Cookie](cookies/cookies-snp.md)
+   + [Target Cookie](cookies/cookies-target.md)
    + [启用浏览器 Cookie 的隐私设置](cookies/browser-cookie-settings.md)
    + [第三方 Cookie 支持的变化对客户有何影响](cookies/cookies-thirdparty.md)
 + 管理用户和产品 {#manage-users-and-products}
@@ -54,7 +54,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [禁用共享文件夹的同步](experience-cloud-assets/t-disable-asset-sync.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ 受众{#audiences}
++ 受众 {#audiences}
    + [受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
@@ -69,7 +69,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [更新架构](attributes/t-update-schema.md)
    + [隐私注意事项 - 客户属性](attributes/privacy-mac.md)
 + 发行说明 {#release-notes}
-   + [Experience Cloud 的新增功能](marketing-cloud-interface/marketing-cloud-interface.md)
+   + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [发行说明汇总](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [信息源](feed.md)
