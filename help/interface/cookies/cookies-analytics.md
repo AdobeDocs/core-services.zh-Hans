@@ -9,7 +9,7 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -36,7 +36,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 | 属性 | 描述 |
 |--- |--- |
-| 存储的信息 | 包含 Experience Cloud ID (ECID) 或 MID 的副本。MID存储在遵循this语法的密钥值对中，s_ ecid= MCMID | <ECID> |
+| 存储的信息 | 包含 Experience Cloud ID (ECID) 或 MID 的副本。MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID | <ECID> |
 | 过期 | 2 年 |
 | 使用情况 | 在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。有关更多详细信息，请参阅此处的 AMCV Cookie。 |
 | 位置 | 仅限 CNAME 客户。不适用于第三方场景。Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 |
@@ -60,7 +60,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 | 过期 | 此 Cookie 是会话 Cookie，关闭浏览器之后即到期 |
 | 使用情况 | 所有帐户只有一个 Cookie |
 | 位置 | 此 Cookie 存储在页面的域中 |
-| 大小 | 根据页面URL大小而异，但通常为100-200字节 |
+| 大小 | 根据页面 URL 大小而异，但通常为 100 - 200 字节 |
 
 ## Cookie 名称：s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -82,7 +82,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 |--- |--- |
 | 存储的信息 | 回退独特访客 ID 时间戳/日期戳 |
 | 过期 | 5 年 |
-| 使用情况 | 如果由于受第三方 Cookie 限制标准的 s_vi Cookie 不可用，将使用此 Cookie 来识别独特访客。在使用第一方 Cookie 的实施中不会使用此 Cookie。 |
+| 使用情况 | 如果标准 s_vi Cookie 由于受第三方 Cookie 限制而不可用，此 Cookie 可用于识别独特访客。在使用第一方 Cookie 的实施中不会使用此 Cookie。 |
 | 位置 | 此 Cookie 作为第一方 Cookie 存储在您的域中。 |
 | 大小 | 33 字节 |
 
