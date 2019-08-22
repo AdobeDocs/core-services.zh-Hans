@@ -9,7 +9,7 @@ uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -40,7 +40,7 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
 | 存储的信息 | 设置会话 Cookie。嵌入 IPS ImageServer（IS、IR 还有 SWF/皮肤和视频上下文）中的 AuthFilter 使用 Cookie 获取访问授权。如果存在，它将允许 HTTP 请求通过。否则，它会返回未授权访问。 |
 | 过期 | 此 Cookie 是会话 Cookie。Scene7 IPS [!DNL web.xml] 中设置的当前会话到期为 45 分钟。 |
 
-**Cookie名称：s7js. flinout. Infomessage. displayed`assetId`. state**
+**Cookie 名称：s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -61,7 +61,7 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
  </tbody> 
 </table>
 
-**Cookie名称：s7js. flinout. Infomessage. displayed`assetId`_ idx`id`. ant**
+**Cookie 名称：s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
 旧的 DHTML 查看器使用浏览器 Cookie 来存储状态信息和便笺数据。多屏幕 DHTML 弹出式屏幕还会使用它们来将消息指示器特定于会话。
 
