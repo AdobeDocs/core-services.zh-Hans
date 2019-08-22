@@ -9,7 +9,7 @@ uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -66,7 +66,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> Cookie 包含数据提供程序的名称或 ID 及 UNIX UTC 时间戳，格式为用竖线分隔的字符串。在下面的示例中，<i>斜体</i>表示变量占位符。 </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">旧样式：<span class="codeph"><span class="varname">此处为数据提供程序名称 </span>-1490307822097|<span class="varname"> 此处为数据提供程序名称 </span>-1490307822038</span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新样式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>另请参阅下面的 dextp 数据语法部分。 </p> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
  </tbody> 
 </table>
 
-dextp Cookie 数据语法:
+dextp Cookie 数据语法：
 
 下表按照元素在数据字符串中的位置列出了 [!DNL dextp] Cookie 中的元素并进行了相关说明。
 
