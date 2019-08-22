@@ -9,7 +9,7 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -54,7 +54,7 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[Experience Platform ID服务](https://docs.adobe.com/content/help/en/id-service/using/home.html) 使用JavaScript在当前网站的域中的 `AMCV_###@AdobeOrg` cookie中存储唯一访客ID，该 `###` ID代表一串随机字符串。例如：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。另请参阅 [Cookie 和 ID 服务](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+[Experience Platform ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特的访客 ID，其中 `###` 代表一个随机的字符串。例如：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。另请参阅 [Cookie 和 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
