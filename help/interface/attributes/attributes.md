@@ -6,7 +6,7 @@ seo-title: 客户属性
 solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## 概述
 
-要定位 [!UICONTROL 客户属性] 导航到 **[!DNL Experience Platform]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**
+要找到[!UICONTROL 客户属性]，导航到 **[!DNL Experience Platform]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可利用 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中的数据。
 
@@ -36,7 +36,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **Target mbox：**&#x200B;客户属性需要安装 mbox.js 版本 58 或更高版本。
 
 
-   请参阅 [Mbox.js 实施](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)。
+   请参阅 [Mbox.js 实施](https://marketing.adobe.com/resources/help/zh_CN/target/ov/t_mbox_download.html)。
 
 * **at.js：**&#x200B;任何版本。
 
