@@ -6,7 +6,7 @@ seo-title: 创建受众
 solution: Experience Cloud
 title: 创建受众
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 下，单击&#x200B;**[!UICONTROL 人员]** &gt; **[!UICONTROL 受众库]**。
 1. 在[!UICONTROL 受众]页面，单击&#x200B;**[!UICONTROL 新建]**。![](assets/add_icon_small.png)
 
 ![步骤结果](assets/audience_create_new.png)
