@@ -6,7 +6,7 @@ seo-title: 验证架构
 solution: Experience Cloud
 title: 验证架构
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -51,7 +51,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 当您在 Experience Cloud 中创建客户属性来源和 FTP 帐户后，还可以通过 FTP 上传数据。您可以针对每个属性来源创建一个 FTP 帐户。已上传的文件存储在该帐户的根文件夹中。该数据必须为 .csv 格式，并通过另一个 .fin 文件指示上传已完成
 
-指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。请参阅 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)，以了解详细信息。[!DNL Analytics]
+指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。有关更多信息，请参阅 [!DNL Analytics] 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_customer_attributes.html)。
 
 * **[!UICONTROL 属性：]**&#x200B;从上传的 `.csv` 文件中读取的属性数据。
 
