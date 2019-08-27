@@ -6,7 +6,7 @@ seo-title: 创建客户属性来源并上传数据文件
 solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # 创建客户属性来源并上传数据文件
 
-创建客户属性源(CSV和FIN文件)并上传数据。您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
+创建客户属性源（CSV 和 FIN 文件）并上传数据。您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
 
 ## 客户属性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -75,7 +75,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 
 1. 在 [!DNL Experience Cloud] 中，单击菜单 ![](assets/menu-icon.png) 图标。
-1. 下 **[!DNL Experience Platform]**，单击 **[!UICONTROL “人员]** ”&gt; **[!UICONTROL “客户属性]**”。
+1. 在 **[!DNL Experience Platform]** 下，单击&#x200B;**[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**。
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
 
@@ -94,9 +94,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
       别名 ID 对应在其中设置其他客户 ID 值的特定区域。例如：
 
-      * **动态标签管理：** 别名ID对应于Experience *Cloud* ID服务工具 [!UICONTROL 中客户设置][下的集成代码值](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) 。
+      * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/dtm/?f=macid)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客 API：**&#x200B;别名 ID 对应可与每个访客关联的其他[客户 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)。
+      * **访客 API：**&#x200B;别名 ID 对应于可与每个访客关联的其他 [客户 ID](https://marketing.adobe.com/resources/help/zh_CN/mcvid/?f=mcvid_customer_ids)。
 
          例如，下面的&#x200B;*“crm_id”*：
 
@@ -106,14 +106,14 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
          ```
 
 
-      * **iOS：** Alias *ID对应于seitorSyncidentifiors* 中 [的“idType”：](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)标识符。
+      * **iOS：**&#x200B;别名 ID 对应于 [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/zh_CN/mobile/ios/?f=methods) 中的&#x200B;*“idType”*。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android：**&#x200B;别名 ID 对应&#x200B;*Syncidentifiers* 中 [的“idType”](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods)。
+      * **Android：**&#x200B;别名 ID 对应于 [syncIdentifiers](https://marketing.adobe.com/resources/help/zh_CN/mobile/android/?f=methods) 中的&#x200B;*“idType”*。
 
          例如：
 
@@ -175,7 +175,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 **激活属性来源的方法**
 
-在 [!UICONTROL 新建[或编辑]客户属性来源] 页面中，找到[!UICONTROL 激活]标题，然后单击&#x200B;**[!UICONTROL 活动]**。
+在[!UICONTROL 新建[或编辑]客户属性来源]页面上，找到[!UICONTROL 激活]标题，然后单击&#x200B;**[!UICONTROL 活动]**。
 
 ![步骤结果](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ Adobe Analytics
 
 在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
-请参阅 Analytics 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)，以了解详细信息。
+有关更多信息，请参阅 Analytics 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/zh_CN/reference/reports_customer_attributes.html)。
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Adobe Analytics
 
 ![](assets/crs-add-attribute-target.png)
 
-请参阅 Target 帮助中的[新建受众](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience)。
+请参阅 Target 帮助中的[新建受众](https://marketing.adobe.com/resources/help/zh_CN/target/target/?f=t_creating_a_new_audience)。
