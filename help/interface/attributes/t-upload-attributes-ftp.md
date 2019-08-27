@@ -6,7 +6,7 @@ seo-title: 可选 - 通过 FTP 上传数据文件
 solution: Experience Cloud
 title: 可选 - 通过 FTP 上传数据文件
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 将文件上传到客户属性 FTP 站点可通过 FTP 或 SFTP 完成。
 
 * 您需要一个支持 SFTP 连接的客户端。
-* 你可以使用用户名/密码或不使用密码进行 SFTP 连接，如[此处](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)所述。
+* 您既可以使用用户名/密码或不使用密码连接 SFTP，如[此处](https://marketing.adobe.com/resources/help/zh_CN/whitepapers/ftp/ftp_sftp_cert_auth.html)所述。
 
 
 
