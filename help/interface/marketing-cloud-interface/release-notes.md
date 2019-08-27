@@ -6,7 +6,7 @@ seo-title: 发行说明汇总
 solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,16 +18,16 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-要获取涵盖所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+有关所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
 
-## 2019年月-
+## 8 月版 - 2019 年
 
 * 修复了 Experience Cloud 登录中导致某些用户会话注销的关键问题。(MCUI-6908)
 * 更新了 Experience Cloud 登录，以提高性能并减少延迟。（MCUI-6854、MCUI-6869 和 MCUI-6883）
 * 更新了界面外观。（MCUI-6861、MCUI-6911 和 MCUI-6862）
 * 修复了 Experience Cloud [!UICONTROL 触发器]存在的问题，之前该问题会导致[!UICONTROL 触发器]定义中的 _Like_ 子句的解释有误。(MCUI-6611)
 
-## 2019年月-
+## 4 月版 - 2019 年
 
 * 更新了应用程序切换器，以便在 Experience Cloud 解决方案套件中包含 Marketo，同时将品牌更新为“Experience Platform”。(MCUI-6529)
 * 更新了 Experience Cloud 主页，以包含指向“馈送”和“管理”页面的导航链接。(MCUI-6682)
@@ -116,7 +116,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 >[!NOTE]
 >
->Microsoft 即将[结束](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
+>对于 Internet Explorer 8、9 和 10，Microsoft 即将[终止支持](https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support)。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
 
 ## 15.10 版 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -162,7 +162,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左侧导航器菜单已更新并设置为提供对所有核心服务和解决方案的访问。值得注意的更改包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The<span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 菜单选项已从“帮助”下拉菜单移至左侧导航器边栏。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解决方案</span>已被删除。您可以从导航器边栏的下半部分启动所有解决方案。 </li> 
     </ul> </td> 
@@ -619,5 +619,5 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 * 修复了阻止共享 [!DNL Analytics] 报表应用区段过滤器的问题。
 * 修复了导致即使未关联解决方案帐户，“[!UICONTROL Experience Cloud 解决方案]”页面上的解决方案也显示为已关联的问题。
-* 修复了亚洲的 [!DNL Adobe Target]**客户无法单击关联页面上的[!UICONTROL 继续访问 Experience Cloud]按钮的问题。**
+* 修复了亚洲的 [!DNL Adobe Target] 客户无法单击关联页面上的 **[!UICONTROL 继续访问 Experience Cloud]** 按钮的问题。
 * 修复了阻止共享 Youtube 视频的问题。
