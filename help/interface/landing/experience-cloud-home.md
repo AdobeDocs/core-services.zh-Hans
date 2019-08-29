@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud中解决方案的帮助和产品文档。
 description: Adobe Experience Cloud中解决方案的帮助和产品文档。
 seo-description: Experience Cloud帮助
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 381ce8d571d2a8e76052ab159239f5240e9bef38
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud的帮助和产品文档。
 
 ![Analytics](assets\mc_analytics_32.png) **Analytics帮助**
 
-* [Analytics 帮助主页](/help/landing/home.md)
+* [Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [工具](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
 * [管理员](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
 * [实施](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
@@ -40,7 +40,7 @@ Adobe Experience Cloud的帮助和产品文档。
 
 ![Audience Manager](assets\mc_analytics_32.png) **Audience Manager帮助**
 
-* Audience Manager
+* [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * Audience Manager管理员
 
 ![目标](assets\mc_target_32.png)**目标帮助**
