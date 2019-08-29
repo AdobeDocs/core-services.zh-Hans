@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud中解决方案的帮助和产品文档。
 description: Adobe Experience Cloud中解决方案的帮助和产品文档。
 seo-description: Experience Cloud帮助
 translation-type: tm+mt
-source-git-commit: 381ce8d571d2a8e76052ab159239f5240e9bef38
+source-git-commit: 1b796b3760f219a3787a055cb6367dd11cb6421b
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 381ce8d571d2a8e76052ab159239f5240e9bef38
 
 Adobe Experience Cloud的帮助和产品文档。
 
-![Experience Cloud](assets\experience_cloud_appicon_32.png) **Experience Cloud帮助**
+![](assets\experience_cloud_appicon_32.png)**Experience Cloud帮助**
 
 * [Experience Cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (所有产品)
 * [Experience Cloud界面和核心服务帮助](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
@@ -25,7 +25,7 @@ Adobe Experience Cloud的帮助和产品文档。
 * [设备协作](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [通用数据保护条例 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-![Analytics](assets\mc_analytics_32.png) **Analytics帮助**
+![](assets\mc_analytics_32.png) **Analytics 帮助**
 
 * [Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [工具](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -38,30 +38,30 @@ Adobe Experience Cloud的帮助和产品文档。
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-![Audience Manager](assets\mc_analytics_32.png) **Audience Manager帮助**
+![](assets\mc_analytics_32.png) **受众管理器帮助**
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * Audience Manager管理员
 
-![目标](assets\mc_target_32.png)**目标帮助**
+![](assets\mc_target_32.png)**目标帮助**
 
 * [目标发行说明](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-![AEM](assets\mc_experiencemanager_32.png) **Experience Manager帮助**
+![](assets\mc_experiencemanager_32.png)**Experience Manager帮助**
 
 * [Experience Manager学习和支持](https://helpx.adobe.com/support/experience-manager.html)
 
-![营销活动](assets\mc_campaign_32.png)**系列活动帮助**
+![](assets\mc_campaign_32.png)**营销活动帮助**
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-![Primetime](assets\primetime_app_32.png) **Primetime帮助**
+![](assets\primetime_app_32.png)**Primetime帮助**
 
 * [Primetime帮助](http://help.adobe.com/en_US/primetime/)
 
-![Advertising Cloud](assets\advertisingcloud_appicon_32.png) **Advertising Cloud帮助**
+![](assets\advertisingcloud_appicon_32.png)**Advertising Cloud帮助**
 
 Help for the Advertising Cloud is available in the product by clicking the **Help** icon (?) 位于任何页面的顶部。
 
