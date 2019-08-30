@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud中解决方案的帮助和产品文档。
 description: Adobe Experience Cloud中解决方案的帮助和产品文档。
 seo-description: Experience Cloud帮助
 translation-type: tm+mt
-source-git-commit: 2231240b6697d95ad448cb21c55368ecbe13a517
+source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Cloud的帮助和产品文档。
 **受众管理器帮助**
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* Audience Manager管理员
+* [Audience Manager管理员](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
 **目标帮助**
 
