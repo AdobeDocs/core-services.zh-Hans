@@ -6,7 +6,7 @@ seo-title: 术语
 solution: Experience Cloud
 title: 术语
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c50c0e49f87bb03b36354bc2fba162e043f7e948
 
 ---
@@ -29,10 +29,10 @@ source-git-commit: c50c0e49f87bb03b36354bc2fba162e043f7e948
 | 信息源 | Creative Cloud 主页与 Experience Cloud 信息源类似。<br>该主页是一个桌面客户端，它可被定义为在您的 Creative Cloud 帐户中发生的活动总数。活动包括软件和字体的安装与更新，Behance 中的任何活动，以及与上传的文件有关的所有活动。 | 在 Experience Cloud 中，信息源是您创建的、由其他用户与您共享的或来自 Adobe Marketing Cloud 解决方案的信息卡的汇总。<br>在您首次登录到 Experience Cloud 时，信息源可能为空。在您创建展示板和信息卡，以及其他用户与您共享内容时，信息源会自动填充，以帮助您和您的团队成员时刻掌握最新动态。<br>请参阅[信息源](feed.md)。 |
 | 链接 | 无特殊用途。关联是指超链接导航，以及关联各种项目，如字体、属性、图层等等。 | 在 Experience Cloud 中，关联通常指将不同的解决方案帐户与界面关联。<br>请参阅[组织和帐户关联](admin-getting-started/organizations.md)。<br>关联/链接还指发送给其他用户的 Analytics 报表所对应的标准 URL。 |
 | 位置 | 在 Creative Cloud 中，位置是指文件位置或打开的图像或文档所处的位置。 | 在 Experience Cloud 中，位置是指向受众显示内容（并且可以与受众进行内容交互）的地方。位置和内容之间的关联可以或多或少地具有一些静态性，也可以根据营销活动的规则进行动态管理。位置总是属于某个特定渠道，该渠道决定内容的交付方式以及量度的收集方式。<br>示例包括：<ul><li>网站</li><li>属性（社交）</li><li>显示库存</li><li>登陆页面</li><li>移动设备应用程序</li><li>插槽（视频）</li></ul> |
-| 量度 | 通常不在 Creative Cloud 中使用。 | 有关关键概念和目标的汇总数量。在 Analytics 中，量度是有关访客活动的量化信息，包括查看次数、点进次数、重新载入、平均逗留时间、件数、订购和收入等。请参阅[量度描述](https://marketing.adobe.com/resources/help/en_US/reference/?f=metrics)。 |
+| 量度 | 通常不在 Creative Cloud 中使用。 | 有关关键概念和目标的汇总数量。在 Analytics 中，量度是有关访客活动的量化信息，包括查看次数、点进次数、重新载入、平均逗留时间、件数、订购和收入等。请参阅[量度描述](https://marketing.adobe.com/resources/help/zh_CN/reference/?f=metrics)。 |
 | 组织 | 通常不在 Creative Cloud 中使用。 | 组织是一个 Experience Cloud 实体，它允许管理员配置用户和产品，并控制 Experience Cloud 中的单点登录。更多时候，组织即是记帐公司。 |
 | 组合 | 多个文件或资产的集合。 | 营销活动的容器。 |
-| 产品配置文件 | 请参阅[管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。 | 有权使用产品或服务的用户需要从属于产品配置文件。产品管理员通过将产品配置文件与您已购买的计划相关联，来为该产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，而每个产品配置文件会将不同的许可证授予该用户。用户的最终资格是由每个产品配置文件授予该用户的所有许可证的集合。 |
+| 产品配置文件 | 请参阅[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)。 | 有权使用产品或服务的用户需要从属于产品配置文件。产品管理员通过将产品配置文件与您已购买的计划相关联，来为该产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，而每个产品配置文件会将不同的许可证授予该用户。用户的最终资格是由每个产品配置文件授予该用户的所有许可证的集合。 |
 | 计划 | 可能是指 Adobe Story 中的一系列场景，或 ColdFusion 中的计划任务。 | 在 Experience Cloud 中，计划是指激活营销活动、渠道和活动的开始日期(年、月、日)和结束日期。活动计划精确到分钟。更改计划会创建一个信息卡。<br>示例包括：<ul><li>营销活动计划</li><li>渠道计划</li><li>活动计划</li></ul> |
 | 共享 | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在 Experience Cloud 中，您可以在界面中的展示板内，仅将资产共享为信息卡。共享可供那些已登录到站点的人员使用。 |
 | 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Analytics、Social、Target 等等。<br>请参阅关于 Experience Cloud 中的新云名称](solutions-core-services.md)。 |
