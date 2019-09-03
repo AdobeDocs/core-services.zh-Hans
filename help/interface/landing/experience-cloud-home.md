@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud中解决方案的帮助和产品文档。
 description: Adobe Experience Cloud中解决方案的帮助和产品文档。
 seo-description: Experience Cloud帮助
 translation-type: tm+mt
-source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
+source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
 
 ---
 
@@ -13,9 +13,7 @@ source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
 
 Adobe Experience Cloud的帮助和产品文档。
 
-![](assets/experience_cloud_appicon_32.png)
-
-## Experience Cloud帮助
+## ![](assets/experience_cloud_appicon_32.png) Experience Cloud帮助
 
 * [Experience Cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (所有产品)
 * [Experience Cloud界面和核心服务帮助](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
