@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud 中适用于不同解决方案的帮助和产�
 description: Adobe Experience Cloud 中适用于不同解决方案的帮助和产品文档。
 seo-description: Experience Cloud 帮助
 translation-type: tm+mt
-source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
+source-git-commit: f920b588fc76ad04a46b01657f9a78e1a84a1efb
 
 ---
 
@@ -12,6 +12,12 @@ source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
 # Adobe Experience Cloud 产品文档
 
 Adobe Experience Cloud 的帮助和产品文档。
+
+## 发行说明、视频和社区论坛
+
+* 订阅 [优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html) 以每月接收发行说明。
+* 产品视频：您可以通过 [Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html) 观看产品视频。
+* Experience League：访问 [Adobe Experience League](https://landing.adobe.com/experience-league/) 进行引导学习。
 
 ## ![Experience Cloud帮助](assets/experience_cloud_appicon_32.png) Experience Cloud帮助
 
