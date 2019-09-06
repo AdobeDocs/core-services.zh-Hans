@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b6950426a81f22757387b297f349377d34865842
+source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
 
@@ -279,6 +279,39 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
   <tr> 
    <td colname="col1"> <p>大小 </p> </td> 
    <td colname="col2"> <p>~20 字节 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Cookie名称：id_ adcloud
+
+<table> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 属性 </th> 
+   <th colname="col2" class="entry"> 描述 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>存储的信息 </p> </td> 
+   <td colname="col2"> <p>冲浪ID </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>过期 </p> </td> 
+   <td colname="col2"> <p>91天 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>使用情况 </p> </td> 
+   <td colname="col2"> <p>Cookie是在第一方域中设置的，但尚未使用 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>位置 </p> </td> 
+   <td colname="col2"> <p>广告商的顶级域（如 example.com） </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>大小 </p> </td> 
+   <td colname="col2"> <p>16 字节 </p> </td> 
   </tr> 
  </tbody> 
 </table>
