@@ -7,7 +7,7 @@ uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并可能使用该信息来优化广告投标。
 
-## Cookie名称：id_ adcloud
+## Cookie 名称：id_adcloud
 
 <table id="id_adcloud"> 
 <thead> 
@@ -29,15 +29,15 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
 <tbody> 
 <tr> 
 <td colname="col1"> <p>存储的信息 </p> </td> 
-<td colname="col2"> <p>冲浪ID </p> </td> 
+<td colname="col2"> <p>冲浪者 ID </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>过期 </p> </td> 
-<td colname="col2"> <p>91天 </p> </td> 
+<td colname="col2"> <p>91 天 </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>使用情况 </p> </td> 
-<td colname="col2"> <p>Cookie是在第一方域中设置的，但尚未使用 </p> </td> 
+<td colname="col2"> <p>Cookie 已在第一方域中设置，但尚未使用 </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>位置 </p> </td> 
@@ -128,7 +128,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>冲浪ID、冲浪者上次访问广告商网站和上次搜索点击的时间戳以及用户单击广告时创建的ef_ id</p> </td> 
+   <td colname="col2"> <p>冲浪者 ID，冲浪者上次访问广告商网站和上次搜索点击的时间戳，以及在用户单击广告时创建的 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
@@ -283,7 +283,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  </tbody> 
 </table>
 
-## Cookie名称：id_ adcloud
+## Cookie 名称：id_adcloud
 
 <table> 
  <thead> 
@@ -295,15 +295,15 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>冲浪ID </p> </td> 
+   <td colname="col2"> <p>冲浪者 ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
-   <td colname="col2"> <p>91天 </p> </td> 
+   <td colname="col2"> <p>91 天 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用情况 </p> </td> 
-   <td colname="col2"> <p>Cookie是在第一方域中设置的，但尚未使用 </p> </td> 
+   <td colname="col2"> <p>Cookie 已在第一方域中设置，但尚未使用 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
