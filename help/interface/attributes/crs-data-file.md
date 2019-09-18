@@ -6,8 +6,8 @@ seo-title: 关于客户属性的数据文件和数据源
 solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: ht
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+translation-type: tm+mt
+source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>逗号分隔值文件（例如在 Excel 中创建的文件）。这个文件包含客户属性数据。 </p> <p> <b>命名要求：</b>确保文件扩展名不包含空格。 </p> </td> 
+   <td colname="col2"> <p>逗号分隔值文件（例如在 Excel 中创建的文件）。这个文件包含客户属性数据。 </p> <p> <b></b> 命名要求：确保文件扩展名不包含任何空格或以下任何字符"。"、"。."、"/"、":" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -81,7 +81,7 @@ CSV 文件必须符合以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。安<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续的标题和列 </p> </td> 
@@ -160,7 +160,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（有关更多信息，请参阅[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/zh_CN/mcvid/?f=mcvid_customer_ids)。）
+（请参阅[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)以了解详细信息。）
 
 在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**&#x200B;中：
 
