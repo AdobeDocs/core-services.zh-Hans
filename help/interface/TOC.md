@@ -2,9 +2,10 @@
 audience: 最终用户
 user-guide-title: 核心服务用户指南
 user-guide-url: https://www.adobe.com/cn
+product: 核心服务
 index: true
-translation-type: ht
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+translation-type: tm+mt
+source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
 
@@ -42,8 +43,8 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [嵌入内容](admin-getting-started/oembed.md)
 + 激活 {#activation}
    + [激活概述](activation/activation.md)
-   + [Launch 用户指南](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.html)
-   + [DTM 用户指南](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.html)
+   + [启动用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM用户指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [触发器](activation/triggers.md)
 + 资产 {#assets}
    + [资产概述](experience-cloud-assets/experience-cloud-assets.md)
@@ -70,7 +71,7 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [更新架构](attributes/t-update-schema.md)
    + [隐私注意事项 - 客户属性](attributes/privacy-mac.md)
 + 发行说明 {#release-notes}
-   + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)
+   + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [发行说明汇总](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [信息源](feed.md)
