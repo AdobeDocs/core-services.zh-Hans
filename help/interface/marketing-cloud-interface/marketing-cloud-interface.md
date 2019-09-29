@@ -6,7 +6,7 @@ seo-title: Experience Cloud 的新增功能
 solution: Experience Cloud
 title: Experience Cloud 的新增功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -67,7 +67,7 @@ Experience Cloud 中的新增功能和更新概述。
 |--- |--- |
 | 通知 - 粒度设置 | 您可以启用产品和解决方案事件和活动的通知，包括有关[客户属性](../attributes/attributes.md)上传活动的通知。 |
 | 通知 - 维护通知 | 在“通知”设置中，您可以启用产品和解决方案的维护通知。 |
-| Experience Cloud 解决方案的管理控制台 | 新的 Experience Cloud 客户可以开始使用管理控制台，它是一个用于在您的整个组织内管理 Adobe 权限的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 将在需要进行迁移时通知您（系统管理员）。<br>Analytics 管理员，请参阅 [Analytics·迁移￼](https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/admin-console/analytics-migration/) |
+| Experience Cloud 解决方案的管理控制台 | 新的 Experience Cloud 客户可以开始使用管理控制台，它是一个用于在您的整个组织内管理 Adobe 权限的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 将在需要进行迁移时通知您（系统管理员）。<br>对于 Analytics 管理员，请参阅 [Analytics 迁移](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)。 |
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
