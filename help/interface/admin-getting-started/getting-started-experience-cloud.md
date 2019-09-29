@@ -6,7 +6,7 @@ seo-title: 登录并管理配置文件设置
 solution: Marketing Cloud
 title: 登录并管理配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -30,25 +30,25 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 登录并验证您是否处于正确的[组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)中。
 
-1. 单击 Experience Cloud 下拉菜单 (![](assets/menu-icon.png))，然后单击 **[!UICONTROL 管理]**。
+1. 单击 Experience Cloud 下拉菜单 (![](assets/menu-icon.png))，然后单击&#x200B;**[!UICONTROL 管理]**。
 
    ![](assets/admin-link.png)
 
-   如果未显示 **[!UICONTROL 管理]** 链接，您便不是所显示[组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)（在此示例中为 Adobe Corp）的 Experience Cloud 管理员。有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
-1. 单击 **[!UICONTROL 管理]**。
+   如果未显示&#x200B;**[!UICONTROL 管理]**&#x200B;链接，您便不是所显示[组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)（在此示例中为 Adobe Corp）的 Experience Cloud 管理员。有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
+1. 单击&#x200B;**[!UICONTROL 管理]**。
 
    ![](assets/admin-landing.png)
 1. 单击以下链接之一，以便继续操作：
 
 | 元素 | 描述 |
 |--- |--- |
-| [Admin Console 基本知识](https://helpx.adobe.com/cn/marketing-cloud/how-to/first-time-setup.html) | 了解开始使用 Experience Cloud 解决方案时所需要采取的首要步骤。 |
-| [设置身份](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) | 定义并设置一个身份系统，最终用户将通过该系统进行身份验证。 |
-| [用户管理](https://helpx.adobe.com/cn/enterprise/using/users.html) | 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。 |
+| [Admin Console 基本知识](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | 了解开始使用 Experience Cloud 解决方案时所需要采取的首要步骤。 |
+| [设置身份](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定义并设置一个身份系统，最终用户将通过该系统进行身份验证。 |
+| [用户管理](https://helpx.adobe.com/enterprise/using/users.html) | 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。 |
 | [启动 Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console 是在整个组织范围内管理 Adobe 用户和产品权限的中心位置。<br>您也可以使用[直接链接](https://adminconsole.adobe.com)登录到 Admin Console。 |
 | [管理 Creative Cloud 用户](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud 资产允许营销人员与使用 Creative Cloud 的设计人员及其他创作元素资产针对文件夹进行共享、同步和合作。您可以在此处对经过批准可与您的组织合作的 Creative Cloud 用户进行管理。 |
 | [映射报表包](../core-services/core-services.md) | （仅限 Analytics）Experience Cloud 核心服务与组织（而非单个报表包）相关联。要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到组织。（此任务是[为核心服务启用 Analytics](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) 这一更广泛工作流程的组成部分。） |
-| [组织 ID](../admin-getting-started/organizations.md) | *组织 ID* 位于“管理”页面的底部。此 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |
+| [Organization ID](../admin-getting-started/organizations.md) | *组织 ID* 位于“管理”页面的底部。此 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |
 
 ## 登录到 Experience Cloud（用户）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -59,7 +59,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 
 1. 导航到 [Adobe Experience Cloud](https://marketing.adobe.com) ([!DNL marketing.adobe.com])。
-1. 单击 **[!UICONTROL 使用 Adobe ID 登录]**。
+1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
 
@@ -76,16 +76,16 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 1. 登录到 Experience Cloud，然后单击您的配置文件图标。
 
    ![](assets/edit-profile.png)
-1. 单击 **[!UICONTROL 编辑配置文件]**。
+1. 单击&#x200B;**[!UICONTROL 编辑配置文件]**。
 
    ![](assets/default-organization.png)
-1. 继续配置和编辑个人信息，然后单击 **[!UICONTROL 保存更改]**。
+1. 继续配置和编辑个人信息，然后单击&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 启用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 （通过电子邮件或在产品内）获取有关系统更新、维护、帖子、提及次数和共享资产的通知。您还可以指定希望获得相关通知（包括客户属性的上传状态）的产品和解决方案。
 
-要导航到通知，请单击 **[!UICONTROL 通知]** 图标 ![](assets/notifications-icon.png)，然后单击 **[!UICONTROL 设置]** 图标 ![](assets/icon_edit_board.png)。
+要导航到通知，请单击&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![](assets/notifications-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标 ![](assets/icon_edit_board.png)。
 
 您可以根据消息类型的重要性对显示的通知进行排序，以及搜索通知。您还可以：
 
@@ -124,14 +124,14 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 1. 从 Experience Cloud 菜单中，单击您的配置文件图片。
 
    ![](assets/edit-profile.png)
-1. 单击 **[!UICONTROL 编辑配置文件]**。
+1. 单击&#x200B;**[!UICONTROL 编辑配置文件]**。
 
    在“配置文件和密码”页面上，填写“个人详细信息”下方的字段和选项。
 
 ## 找回密码 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. 导航至您的解决方案登录页面。
-1. 单击 **[!UICONTROL 忘记密码]**。
+1. 单击&#x200B;**[!UICONTROL 忘记密码]**。
 
    重置解决方案密码应该能够解决 Experience Cloud 的密码关联问题。
 
@@ -153,7 +153,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 >[!NOTE]
 >
->在将任何 URL 传递到 `destURL` 参数之前，您必须对其进行编码。（您可以使用 [URL 解码器/编码器](https://meyerweb.com/eric/tools/dencoder/)等编码器网站。）
+>在将任何 URL 传递到 `destURL` 参数之前，您必须对其进行编码。（可以参考编码器站点，例如 [URL 解码器/编码器](https://meyerweb.com/eric/tools/dencoder/)。）
 
 | 参数 | 描述 | 示例 | 必需/可选 |
 |--- |--- |--- |--- |
