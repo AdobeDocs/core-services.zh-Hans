@@ -6,7 +6,7 @@ seo-title: 常见问题解答、各种限制和最佳实践
 solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>我能收到关于客户属性上传状态的通知吗？ </p> </td> 
-   <td colname="col2"> <p>能。请参阅<a href="../admin-getting-started/organizations.md#concept_0105453AD71847B8BFCAF4A40915F157" format="dita" scope="local">管理通知</a>。 </p> </td> 
+   <td colname="col2"> <p>是。请参阅<a href="../admin-getting-started/organizations.md#concept_0105453AD71847B8BFCAF4A40915F157" format="dita" scope="local">管理通知</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 若要初步了解客户属性，我需要做哪些工作？ </p> </td> 
@@ -78,11 +78,11 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>我可以预先加载或上传从未在 Target 中出现过的客户数据吗？ </p> </td> 
-   <td colname="col2"> <p> 可以。在访客向 Target 提出第一个请求时，系统将从客户属性中提取我们目前所拥有的关于他们的信息，并使用该数据进行定位。 </p> <p> <p>注意：此数据的检索过程可能需要多达 20 分钟，从访客首次与 Target 交互开始算起。 </p> </p> </td> 
+   <td colname="col2"> <p> 是。在访客向 Target 提出第一个请求时，系统将从客户属性中提取我们目前所拥有的关于他们的信息，并使用该数据进行定位。 </p> <p> <p>注意：此数据的检索过程可能需要多达 20 分钟，从访客首次与 Target 交互开始算起。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>我可以通过将客户属性数据与共享受众数据合并在一起来创建超级受众吗？ </p> </td> 
-   <td colname="col2"> <p>不可以。共享受众数据是已完成的受众。 </p> </td> 
+   <td colname="col2"> <p>否。共享受众数据是已完成的受众。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>客户属性功能与 Target 的批量配置文件 API 相比有何不同？ </p> </td> 
@@ -95,11 +95,11 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>从客户属性向 Adobe Target 上传数据时，是否会延长 Target 访客的配置文件生命周期？ </p> </td> 
-   <td colname="col2"> <p>能。请参阅 Adobe Target 帮助中的<a href="https://marketing.adobe.com/resources/help/zh_CN/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">访客配置文件生命周期</a>。 </p> </td> 
+   <td colname="col2"> <p>能。请参阅 Adobe Target 帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">访客配置文件生命周期</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>根据客户 ID 识别访客后，我能否立即定位在客户属性中上传的数据？ </p> </td> 
-   <td colname="col2"> <p>能。 </p> <p>在对 Target 进行的服务器调用中（其中包括 mbox 第三方 ID），所有客户属性数据都将可用。 </p> </td> 
+   <td colname="col2"> <p>是. </p> <p>在对 Target 进行的服务器调用中（其中包括 mbox 第三方 ID），所有客户属性数据都将可用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
