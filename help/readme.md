@@ -1,6 +1,6 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # 说明
@@ -17,7 +17,7 @@ translation-type: ht
 
 + 用户指南的简介称为 `overview.md`
 + 用户指南中的每个主题都具有自己的独特目录。
-   + 如果指南中有一个名为*实施*的主题，则相应的目录为 `/implementation`
+   + 如果指南中有一个名为&#x200B;*实施*&#x200B;的主题，则相应的目录为 `/implementation`
 + 所有图像资产都存储在用户指南根目录的 `/assets` 中。
    + `/assets` 目录中的所有图像都将进行本地化。
    + `/no-localize` 目录中的任何图像都将不会进行本地化（很吃惊吧！）。可以使用此目录来确保在本地化版本中不会复制不必要的特定资产。
