@@ -4,7 +4,7 @@ seo-description: 了解如何将一个或多个报表包映射到组织。
 seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -32,11 +32,11 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
    您还可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
-1. 要查看对每个报表包拥有访问权限的登录公司，请单击 **[!UICONTROL 对登录公司可见]**。
+1. 要查看对每个报表包拥有访问权限的登录公司，请单击&#x200B;**[!UICONTROL 对登录公司可见]**。
 
    此视图可帮助您针对映射做出明智决定。
 
-1. 单击报表包旁边 **[!UICONTROL 已映射的组织]列中的下拉菜单，然后选择要映射到的组织。**
+1. 单击报表包旁边&#x200B;**[!UICONTROL 已映射的组织]列中的下拉菜单，然后选择要映射到的组织。**
 
    有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
@@ -50,11 +50,11 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
    ![](assets/rs-mapping-multiple.png)
 
-1. 选择组织（在此示例中为 Outdoors Inc），然后单击 **[!UICONTROL 选择]**。
+1. 选择组织（在此示例中为 Outdoors Inc），然后单击&#x200B;**[!UICONTROL 选择]**。
 
    有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
-1. 单击 **[!UICONTROL 保存映射]**。
+1. 单击&#x200B;**[!UICONTROL 保存映射]**。
 
 ## 关于选择 Experience Cloud 组织的提示 {#mapping-tips}
 
@@ -62,7 +62,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **我应该选择哪个组织？**
 
-如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
+如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
 
 如果为报表包收集数据的网站上尚未部署访客 ID 服务，那么当您将来部署 Experience Cloud 访客 ID 服务时，您将需要确保部署中的组织与您在报表包映射工具中选择的组织一致。
 
@@ -106,7 +106,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **如果我只知道自己的 Experience Cloud 组织的组织 ID，该怎么办？如何查找我的组织 ID 的名称？**
 
-您可以在[组织和帐户设置](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)中找到您的组织名称。
+您可以在[组织和帐户设置](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)中找到您的组织名称。
 
 **我在“映射日期”列中看到一个日期。是谁执行的该映射？**
 
