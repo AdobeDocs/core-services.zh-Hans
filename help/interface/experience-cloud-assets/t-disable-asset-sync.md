@@ -6,7 +6,7 @@ seo-title: 禁用共享文件夹的同步
 solution: Experience Cloud
 title: 禁用共享文件夹的同步
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 1. 打开 Windows 资源管理器。
 
-1. 在“收藏夹”下方，右键单击 **[!UICONTROL Creative Cloud 文件]** 文件夹，然后单击 **[!UICONTROL 选择要同步的共享文件夹]**。
+1. 在“收藏夹”下方，右键单击 **[!UICONTROL Creative Cloud 文件]**&#x200B;文件夹，然后单击&#x200B;**[!UICONTROL 选择要同步的共享文件夹]**。
 
    ![](assets/select_sync_folders.png)
 
@@ -35,7 +35,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 1. 导航到您的用户文件夹。
 
-1. 按住 Control 并单击 **[!UICONTROL Creative Cloud 文件]**，然后单击 **[!UICONTROL 选择要同步的共享文件夹]**。
+1. 按住 Control 并单击 **[!UICONTROL Creative Cloud 文件]**，然后单击&#x200B;**[!UICONTROL 选择要同步的共享文件夹]**。
 
    ![](assets/select_sync_folders_mac.png)
 
