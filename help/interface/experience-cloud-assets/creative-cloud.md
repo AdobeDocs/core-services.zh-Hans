@@ -6,7 +6,7 @@ seo-title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 solution: Experience Cloud
 title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,12 +30,12 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 在 [!DNL Adobe Target] 中创建活动时，您可以在内容库中交换图像时使用共享的图像资产。
 
-请参阅 [!DNL Target] 帮助中的[内容库](https://marketing.adobe.com/resources/help/zh_CN/target/?f=c_manage_content)。
+请参阅 [ 帮助中的](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)内容库[!DNL Target]。
 
 ## 关于与 Adobe Social 共享资产 {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
 
 在 [!DNL Adobe Social] 中，您可以使用[!UICONTROL 发布者]中的[!UICONTROL 资产选择器]插入共享的图像资产。您可以搜索文件夹、浏览到文件夹，并将资产附加到 Facebook 或 Twitter 帖子。
 
-请参阅 [!DNL Social] 帮助中的[发布者页面](https://marketing.adobe.com/resources/help/zh_CN/social/?f=c_pub_publisher)。
+请参阅 [ 帮助中的](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)发布者页面[!DNL Social]。
 
 共享文件夹和资产会在云间自动同步。
