@@ -6,7 +6,7 @@ seo-title: 发行说明汇总
 solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-有关所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
+要获取涵盖所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
 
 ## 8 月版 - 2019 年
 
@@ -116,7 +116,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 >[!NOTE]
 >
->对于 Internet Explorer 8、9 和 10，Microsoft 即将[终止支持](https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support)。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
+>Microsoft 即将[结束](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
 
 ## 15.10 版 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -162,7 +162,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左侧导航器菜单已更新并设置为提供对所有核心服务和解决方案的访问。值得注意的更改包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The<span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 菜单选项已从“帮助”下拉菜单移至左侧导航器边栏。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解决方案</span>已被删除。您可以从导航器边栏的下半部分启动所有解决方案。 </li> 
     </ul> </td> 
