@@ -6,7 +6,7 @@ seo-title: 激活
 solution: Experience Cloud
 title: 激活
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -20,11 +20,11 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 部署和管理提升相关客户体验所必需的分析、营销和广告标签。
 
-请参阅 [Experience Platform Lauch](https://marketing.adobe.com/resources/help/zh_CN/experience-cloud/launch/)。
+请参阅 [Adobe 的 Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)。
 
 ## 动态标签管理 {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-要启动动态标签管理，请单击 **[!UICONTROL 激活]，并向 Adobe 配置小组发送请求。** 您会在一到两个工作日内收到登录凭据。
+要启动动态标签管理，请单击&#x200B;**[!UICONTROL 激活]，并向 Adobe 配置小组发送请求。**&#x200B;您会在一到两个工作日内收到登录凭据。
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -35,25 +35,25 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/analytics/getting-started/add-adobe-analytics-dtm-tool.html" format="html" scope="external"> 部署 Adobe Analytics </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/add-adobe-analytics-dtm-tool.html" format="html" scope="external"> 部署 Adobe Analytics </a> </p> </td> 
    <td colname="col2"> <p> 关于使用 Adobe 动态标签管理添加 Adobe Analytics 的分步指南。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服务的实施指南 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服务的实施指南 </a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID 服务可跨多种 Experience Cloud 解决方案启用核心功能（包括客户属性、受众共享和触发器）。Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/zh_CN/dtm/" format="https" scope="external"> 动态标签管理产品文档 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external"> 动态标签管理产品文档 </a> </p> </td> 
    <td colname="col2"> <p>了解有关使用动态标签管理部署 Experience Cloud 解决方案的更多信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果要寻求实施动态标签管理的帮助，我们建议联系您的帐户管理员，以获取有关 Adobe 全球服务产品或实施合作伙伴产品的信息。此外，我们欢迎您在 [@AdobeExpCare](https://twitter.com/AdobeExpCare) 上使用标签 #DTM 随时联系我们。
+如果要寻求实施动态标签管理的帮助，我们建议联系您的帐户管理员，以获取有关 Adobe 全球服务产品或实施合作伙伴产品的信息。也欢迎您在 [@AdobeExpCare](https://twitter.com/AdobeExpCare) 上使用标签 #DTM 随时联系我们。
 
 ## Experience Cloud 触发器 {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*触发器*允许营销人员定义并监视关键客户行为，然后生成可用于实时决策和个性化的跨解决方案通信。
+*触发器*&#x200B;允许营销人员定义并监视关键客户行为，然后生成可用于实时决策和个性化的跨解决方案通信。
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -79,4 +79,4 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 适用于 Chrome 的 Adobe Experience Cloud 调试器扩展可检查您的网页，并帮助您查找有关 Experience Cloud 解决方案实施方式的问题。
 
-如需帮助，请参阅 [Experience Cloud 调试器](https://marketing.adobe.com/resources/help/zh_CN/experience-cloud-debugger/)。
+请参 [阅Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) ，以获取帮助。
