@@ -9,7 +9,7 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -66,7 +66,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 | 属性 | 描述 |
 |--- |--- |
-| 存储的信息 | 独特访客 ID 时间/日期戳记 |
+| 存储的信息 | 独特访客 ID 时间戳/日期戳 |
 | 过期 | 2 年 |
 | 使用情况 | 此 Cookie 用于识别独特访客 |
 | 位置 | 此 Cookie 存储在图像请求的域（如果您使用的是第三方 Cookie，通常为 2O7.net）或您的域（如果您使用的是第一方 Cookie）中。 |
