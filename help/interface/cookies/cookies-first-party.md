@@ -31,58 +31,58 @@ SSL 证书的颁发过程往往令人感到混乱和费时。为此，Adobe 与�
 
 ## Adobe 管理的证书计划
 
-Adobe Managed Certificate Program是为第一方Cookie实施新的第三方SSL证书的推荐过程。
+为第一方 Cookie 实施新的第一方 SSL 证书时，建议使用 Adobe 管理的证书计划流程。
 
-通过Adobe Managed Certificate程序，您无需额外费用即可为第一方Cookie实施一个新的第三方SSL证书。如果您目前拥有自己的客户托管SSL证书，请与Adobe客户关怀部门协商迁移到Adobe Managed Certificate Program。
+Adobe 管理的证书计划允许您在不增加任何额外费用的情况下，为第一方 Cookie 实施新的第一方 SSL 证书。如果您目前拥有自己的客户管理的 SSL 证书，请联系 Adobe 客户关怀部门，以便将其迁移到 Adobe 管理的证书计划。
 
 ### 实施
 
-下面是如何为第一方Cookie实施新的第三方SSL证书：
+下面是如何为第一方 Cookie 实施新的第一方 SSL 证书的步骤：
 
-1. 填写 [第一方cookie请求表](/help/interface/cookies/assets/FPC_Request_Form.xlsx) ，并通过客户关怀打开一个票证，请求在Adobe Managed计划上设置第一方Cookie。文档中利用示例说明了每个字段。
+1. 填写[第一方 Cookie 请求表](/help/interface/cookies/assets/FPC_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的证书计划设置第一方 Cookie。文档中通过示例描述了每个字段。
 
-1. 创建CNAME记录(请参阅下面的说明)。收到票证后，CMS SSL专家应为您提供一对CNAME记录。必须在公司DNS服务器上配置这些记录，然后Adobe才能代表您购买证书。CNAME将类似于以下内容： **安全** -例如，主机名 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。**非安全** -例如，主机名 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
+1. 创建 CNAME 记录（请参阅下面的说明）。当 FPSSL 专家收到票证后，将为您提供一对 CNAME 记录。您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAME 记录类似于以下内容：**安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.ssl.d1.omtrdc.net`。**非安全** - 例如，主机名 `metrics.example.com` 指向：`example.com.d1.omtrdc.net`。
 
-1. 这些CNAME就位后，Adobe将与DigicerT一起购买并安装Adobe生产服务器上的证书。如果您有现有的实施，应考虑使用访客迁移来维护现有访客。将证书实时推送到Adobe生产环境后，您可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全(https)，则更新该站点 `s.trackingServer`。如果站点为安全(https)，则更新和 `s.trackingServer``s.trackingServerSecure` 变量。
+1. 配置了这些 CNAME 之后，Adobe 将与 DigiCert 一起购买证书并安装在 Adobe 的生产服务器上。如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到 Adobe 生产环境后，您就可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全 (https)，则更新 `s.trackingServer` 变量。如果站点安全 (https)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
 
-1. ping主机名(请参阅下面)。
+1. Ping 主机名（请参阅下文）。
 
-1. 更新实施代码(见下文)。
+1. 更新实施代码（请参阅下文）。
 
 ### 维护和续订
 
-SSL证书每年到期，这意味着Adobe必须每年为每个实施购买一个新证书。在每次实施接近期满时，组织内的所有受支持用户都将收到电子邮件通知。要使Adobe续订您的主机名，一个受支持的用户必须回复Adobe的电子邮件，并指示您计划继续使用过期的主机名进行数据收集。此时，Adobe会自动购买并安装新证书。
+SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购买一个新证书。当每次实施接近失效期时，贵公司内的所有受支持用户都会收到一个电子邮件通知。为了让 Adobe 续订您的主机名，一位受支持的用户必须回复 Adobe 的电子邮件，并表明您计划继续使用即将到期的主机名进行数据收集。在这种情况下，Adobe 会自动购买并安装新证书。
 
 ### 常见问题解答
 
 | 问题 | 回答 |
 |---|---|
-| **此过程是否安全？** | 是的，Adobe Managed计划比我们原有的方法更加安全，因为证书或私钥不会在Adobe外部和颁发证书颁发机构的外部更改手。 |
-| **Adobe如何为我们的域购买证书？** | 仅当您将指定的主机名(例如smetrics.example.com)指向Adobe拥有的主机名时，才能购买证书。这实质上是将此主机名委派给Adobe，并允许Adobe代表您购买证书。 |
-| **我是否可以请求吊销证书？** | 是的，作为域所有者，您有权请求我们吊销证书。您只需与客户关怀部门打开一个票证，即可完成此操作。 |
-| **此证书是否会使用SHA-2加密？** | 是，Adobe将与DigicerT一起颁发SHA-2证书。 |
-| **这会产生任何额外费用吗？** | 不可以，Adobe没有额外费用向所有当前Analytics客户提供此服务。 |
+| **此过程是否安全？** | 是，Adobe 管理的证书计划较传统的方法更加安全，因为证书或私钥不会在 Adobe 和证书颁发机构的外部易手。 |
+| **Adobe 如何为我们的域购买证书？** | 仅当您将指定的主机名（例如 smetrics.example.com）指向 Adobe 拥有的主机名时，Adobe 才能为您购买证书。这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
+| **我是否可以请求吊销证书？** | 是，作为域所有者，您有权请求我们吊销证书。您只需通过客户关怀部门开立一个票证，即可完成此项操作。 |
+| **此证书是否使用 SHA-2 加密？** | 是，Adobe 将与 DigicerT 一起颁发 SHA-2 证书。 |
+| **这会产生任何额外费用吗？** | 不会，Adobe 可以向当前所有 Analytics 客户提供此服务，不会产生任何额外费用。 |
 
-## 创建CNAME记录
+## 创建 CNAME 记录
 
-贵组织的网络操作团队应通过创建新的CNAME记录来配置DNS服务器。每个主机名都将数据转发至Adobe的数据收集服务器。
+贵组织的网络运营团队应通过创建新的 CNAME 记录来配置 DNS 服务器。每个主机名都将数据转发至 Adobe 的数据收集服务器。
 
-FPC专家为您提供配置的主机名以及要指向的CNAME。例如：
+FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 CNAME。例如：
 
-* **SSL主机名**：`smetrics.mysite.com`
+* **SSL 主机名**：`smetrics.mysite.com`
 * **SSL CNAME**：`mysite.com.ssl.d1.sc.omtrdc.net`
-* **非SSL主机名**：`metrics.mysite.com`
-* **非SSL CNAME**：`mysite.com.d1.sc.omtrdc.net`
+* **非 SSL 主机名**：`metrics.mysite.com`
+* **非 SSL CNAME**：`mysite.com.d1.sc.omtrdc.net`
 
-只要实施代码未发生改变，此步骤就不会影响数据收集，并且可以在更新实施代码后随时完成。
+只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
->[!Nte：] Experience Cloud访客ID服务提供了一种配置CNAME以启用第一方Cookie的替代方法。
+>[!N注意：]Experience Cloud 访客 ID 服务提供了一种配置 CNAME 以启用第一方 Cookie 的替代方法。
 
-## ping主机名
+## Ping 主机名
 
-ping主机名以确保正确转发。所有主机名都必须响应ping以防止数据丢失。
+Ping 主机名可确保正确转发。所有主机名都必须响应 Ping 命令，以防数据丢失。
 
-正确配置CNAME记录后，Adobe已确认安装证书，打开命令提示符并ping主机名。Using `mysite.com` as an example: `ping metrics.mysite.com`
+在正确配置了 CNAME 记录且 Adobe 已确认安装证书后，打开命令提示符并对主机名执行 Ping 操作。以 `mysite.com` 为例：`ping metrics.mysite.com`
 
 如果一切均已成功设置，将返回与下面类似的信息：
 
@@ -96,29 +96,29 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-如果 CNAME 记录未正确设置或者未处于活动状态，将返回下列信息：
+如果 CNAME 记录未正确设置或者未处于活动状态，则会返回下列信息：
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!Nte：] 如果您使用 `https:// protocol`，ping只会在FPC专家指定的上传日期后响应。此外，请务必ping安全主机名和非安全主机名，以确保在更新实施之前都能正确运行。
+>[!N注意：]如果您使用 `https:// protocol`，那么 Ping 仅在 FPC 专家指定的上传日期之后做出响应。另外，请务必对安全的主机名和不安全的主机名执行 Ping 操作，以确保在更新您的实施前二者均能正常工作。
 
 ## 更新实施代码
 
-在编辑网站上使用第一方Cookie的代码之前，请完成以下先决条件：
+在网站上编辑代码以使用第一方 Cookie 之前，请完成以下前提条件：
 
-* 请求SSL证书，如Adobe Managed Certificate Program实施步骤中所述。
-* 创建CNAME记录(请参阅上文)。
-* ping主机名(请参阅上文)。
+* 请求 SSL 证书，如 Adobe 管理的证书计划“实施步骤”中所述。
+* 创建 CNAME 记录（请参阅上文）。
+* Ping 主机名（请参阅上文）。
 
-验证主机名对Adobe数据收集服务器进行响应和转发后，您可以更改实施以指向您自己的数据收集主机名。
+在您验证主机名能够响应并转发到 Adobe 数据收集服务器后，您可以更改实施以指向您自己的数据收集主机名。
 
-1. Open your core JavaScript file (`s_code.js/AppMeasurement.js`).
-1. 如果希望更新代码版本，请使用较新版本替换整个`s_code.js/AppMeasurement.js`   文件，然后替换所有插件或自定义设置（如果有）。**或者**，如果您要更新仅与第一方cookie相关的代码，请找到s. trackingServer和s. trackingServerSecure(如果使用SSL)变量，并将它们指向您的新数据集合主机名。Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. 打开您的核心 Javascript 文件 (`s_code.js/AppMeasurement.js`)。
+1. 如果您想要更新您的代码版本，请使用较新版本替换整个 `s_code.js/AppMeasurement.js` 文件，然后替换任意插件或自定义设置（如果有）。**或者**，如果您只想更新与第一方 Cookie 相关的代码，请找到 s.trackingServer 和 s.trackingServerSecure（如果使用 SSL）变量，并将它们指向您的新数据收集主机名。以 mysite.com 为例：`s.trackingServer = "metrics.mysite.com"``s.trackingServerSecure = "smetrics.mysite.com"`
 
-1. 将更新后的核心JavaScript文件上传到您的站点。
+1. 将更新后的核心 Javascript 文件上传到您的网站。
 
-1. 如果您从长期实施移至第一方cookie，或更改为其他第一方集合主机名，则建议将访客从先前域迁移到新域。
+1. 如果您从一个长期存在的实施移至第一方 Cookie，或更改为其他第一方收集主机名，我们建议您将访客从先前的域迁移至新域。
 
-请参阅Analytics实施指南中的 [访客迁移](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 。
+请参 [阅《分析实施指南](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 》中的访客迁移。
 
-上传JavaScript文件后，将所有内容配置为第一方cookie数据收集。我们建议您在接下来的几个小时监控Analytics报告，以确保数据收集照常继续。如果没有，请验证上述所有步骤已完成，并让您组织的一个受支持用户与客户服务部门联系。
+在上传了该 JavaScript 文件后，将针对第一方 Cookie 数据收集完成所有相应的配置。我们建议您在接下来的几个小时监控 Analytics 报告，以确保数据收集持续正常进行。如果未能正常进行数据收集，请验证上述所有步骤是否已经完成，并安排贵组织的一名受支持用户联系客户关怀部门。
