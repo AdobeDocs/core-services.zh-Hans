@@ -6,7 +6,7 @@ seo-title: 触发器
 solution: Marketing Cloud
 title: 触发器
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ## 触发器概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*触发器*允许您识别、定义并监视关键客户行为，然后生成跨解决方案通信以便重新吸引访客。您可以使用触发器制定实时决策和实现个性化。
+*触发器*&#x200B;允许您识别、定义并监视关键客户行为，然后生成跨解决方案通信以便重新吸引访客。您可以使用触发器制定实时决策和实现个性化。
 
 * 对放弃购物车或移除产品后放弃购物车配置快速再营销。
 * 表单和申请未完成
@@ -28,9 +28,9 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 通常，触发器可能要用 15-90 分钟时间才能启动市场营销活动。此时间根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
 
-* **放弃：** 您可以创建一个触发器，该触发器将在访客查看了产品却未将任何产品添加到购物车时启动。配置[倾向得分](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)，以了解客户在放弃购物车后不返回的倾向。
-* **操作：** 您可以创建触发器，例如，在注册时事通讯、订阅电子邮件或申请信用卡（确认函）后，启动该触发器。如果您是零售商，则可以针对参与忠诚度计划的访客创建触发器。在媒体和娱乐方面，针对观看某段表演的访客创建触发器，您可能希望向其发送一份调查问卷。
-* **会话开始和会话结束：** 为会话开始和会话结束事件创建触发器。
+* **放弃：**&#x200B;您可以创建一个触发器，该触发器将在访客查看了产品却未将任何产品添加到购物车时启动。配置[倾向得分](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334)，以了解客户在放弃购物车后不返回的倾向。
+* **操作：**&#x200B;您可以创建触发器，例如，在注册时事通讯、订阅电子邮件或申请信用卡（确认函）后，启动该触发器。如果您是零售商，则可以针对参与忠诚度计划的访客创建触发器。在媒体和娱乐方面，针对观看某段表演的访客创建触发器，您可能希望向其发送一份调查问卷。
+* **会话开始和会话结束：**&#x200B;为会话开始和会话结束事件创建触发器。
 
 ## 创建 Experience Cloud 触发器 {#task_821F37183AC045E5AC8EED20317598FE}
 
@@ -42,12 +42,12 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 >
 >当前的技术限制为 100 个触发器。
 
-1. 在 Experience Cloud 中，单击 ![](assets/menu-icon.png)，然后单击 **[!UICONTROL 激活]**。
-1. 找到[!UICONTROL 触发器]信息卡，然后单击 **[!UICONTROL 启动]**。
+1. 在 Experience Cloud 中，单击 ![](assets/menu-icon.png)，然后单击&#x200B;**[!UICONTROL 激活]**。
+1. 找到[!UICONTROL 触发器]信息卡，然后单击&#x200B;**[!UICONTROL 启动]**。
 
    ![步骤结果](assets/activation-triggers.png)
 
-1. 单击 **[!UICONTROL 新建触发器]**，然后指定触发器类型：
+1. 单击&#x200B;**[!UICONTROL 新建触发器]**，然后指定触发器类型：
 
    ![步骤结果](assets/add-trigger.png)
 
@@ -57,7 +57,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
    |--- |--- |
    | 名称 | 此触发器的友好名称。 |
    | 描述 | 对此触发器的描述，包括如何使用它等信息。 |
-   | 报表包 | 用于此触发器的 Analytics [报表包](https://marketing.adobe.com/resources/help/zh_CN/analytics/getting-started/report-suites.html)。此设置可识别要使用的报表数据。 |
+   | 报表包 | 用于此触发器的 Analytics [报表包](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。此设置可识别要使用的报表数据。 |
    | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可能是：<ul><li>必须包括的访问：购物车加货（量度）和存在。（您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>必须排除的访问：结帐。</li><li>没有行动后启动触发器：10 分钟。</li><li>包括元数据：允许您添加特定的营销活动维度或与访客行为相关的变量。此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定 Any、And 或 Or 逻辑，具体取决于您确定的标准是否对规则很重要。 |
    | 容器 | 您可以在容器中设置并存储规则、条件或定义触发器的过滤器。如果您希望事件同时发生，请将它们放在同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 开始新会话 | 为会话开始和会话结束事件创建触发器 |
@@ -66,8 +66,8 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
    ![步骤结果](assets/propensity-scoring.png)
 
-1. 单击 **[!UICONTROL 保存]**。
-1. 在 [!DNL Adobe Campaign] 中使用触发器进行[实时再营销](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
 
 ### 触发器示例
 
@@ -79,7 +79,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 **反向链接触发器**
 
-命中时，会启动产品为男士靴子的触发器并反向链接到 Facebook。在同一命中中评估的两个标准（*产品*和*反向链接*）应被添加到同一容器中。
+命中时，会启动产品为男士靴子的触发器并反向链接到 Facebook。在同一命中中评估的两个标准（*产品*&#x200B;和&#x200B;*反向链接*）应被添加到同一容器中。
 
 ![](assets/fb-boots-promo.png)
 
