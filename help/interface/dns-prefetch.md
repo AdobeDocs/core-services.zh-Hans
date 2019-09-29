@@ -5,7 +5,7 @@ seo-title: 将 DNS 预获取用于不同的解决方案和服务
 solution: Experience Cloud
 title: 将 DNS 预获取用于不同的解决方案和服务
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,7 +30,7 @@ DNS 预获取会自动处理页面上嵌入的静态链接。这也意味着自�
 
 ## DNS 预获取代码示例 {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-下面的示例说明了如何对不同的 [!DNL Experience Cloud] 解决方案和服务执行 DNS 预获取调用。有些预获取调用需要使用您的 [!DNL Adobe] 组织 ID 或跟踪服务器信息。在这些示例中，*斜体*格式的代码表示变量占位符。您需要将这些代码替换为您自己的 [!DNL Adobe] 合作伙伴 ID、客户代码或跟踪服务器信息等。
+下面的示例说明了如何对不同的 [!DNL Experience Cloud] 解决方案和服务执行 DNS 预获取调用。有些预获取调用需要使用您的 [!DNL Adobe] 组织 ID 或跟踪服务器信息。在这些示例中，*斜体*&#x200B;格式的代码表示变量占位符。您需要将这些代码替换为您自己的 [!DNL Adobe] 合作伙伴 ID、客户代码或跟踪服务器信息等。
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
