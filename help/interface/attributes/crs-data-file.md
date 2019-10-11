@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>逗号分隔值文件（例如在 Excel 中创建的文件）。这个文件包含客户属性数据。 </p> <p> <b>命名要求：</b>确保文件扩展名不包含任何空格或以下任何字符“.”、“..”、“/”、“:” </p> </td> 
+   <td colname="col2"> <p>逗号分隔值文件（例如在 Excel 中创建的文件）。这个文件包含客户属性数据。 </p> <p> <b>命名要求：</b>确保文件扩展名不包含空格。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
