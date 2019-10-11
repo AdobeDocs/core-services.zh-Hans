@@ -2,10 +2,9 @@
 audience: 最终用户
 user-guide-title: 核心服务用户指南
 user-guide-url: https://www.adobe.com/cn
-product: 核心服务
 index: true
 translation-type: tm+mt
-source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
