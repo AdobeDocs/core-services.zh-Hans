@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud 中适用于不同解决方案的帮助和产�
 description: Adobe Experience Cloud 中适用于不同解决方案的帮助和产品文档。
 seo-description: Experience Cloud 帮助
 translation-type: tm+mt
-source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -18,12 +18,13 @@ Adobe Experience Cloud 的帮助和产品文档。
 * Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * 产品视频：您可以通过 [Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html) 观看产品视频。
 * Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
+* Experience cloud帮助中心
 
 ## ![Experience Cloud 帮助](assets/experience_cloud_appicon_32.png) Experience Cloud 帮助
 
 * [Experience cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) （所有产品）
 * [Experience cloud界面和核心服务帮助](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
-* [User and product management](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
+* [用户和产品管理](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 * [客户属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
 * [受众](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -72,6 +73,6 @@ Adobe Experience Cloud 的帮助和产品文档。
 
 ## 其他 Experience Cloud 资源
 
-* [Contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [联系客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [社区论坛](https://forums.adobe.com/community/experience-cloud)
 * [Experience League](https://landing.adobe.com/experience-league/)
