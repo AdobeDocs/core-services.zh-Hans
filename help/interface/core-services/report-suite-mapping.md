@@ -5,7 +5,7 @@ seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -106,7 +106,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **如果我只知道自己的 Experience Cloud 组织的组织 ID，该怎么办？如何查找我的组织 ID 的名称？**
 
-您可以在[组织和帐户设置](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)中找到您的组织名称。
+您可以在[组织和帐户设置](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)中找到您的组织名称。
 
 **我在“映射日期”列中看到一个日期。是谁执行的该映射？**
 
