@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 验证架构
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。架构是基于这些设置创建的。架构用于验证未来所有上传到此数据源的数据。此映射过程不更改原始数据。
 
-
 >[!NOTE]
 >
 >验证后更新架构会删除客户属性。请参阅[更新架构（同时删除属性）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
-
 
 **[!UICONTROL 客户属性来源]** &gt; **[!UICONTROL 新建客户属性来源]** &gt; **[!UICONTROL 查看/编辑架构]**
 
@@ -44,14 +42,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
    * **[!UICONTROL AVID（Analytics 访客 ID）：]**&#x200B;在您使用 prop 或 eVar 上传 CID 时显示。如果这些 ID 被传递到 Experience Cloud，则与您输入的 CID 关联的所有访客 ID 都将在此处显示。
 
-
-
-
-
-
 当您在 Experience Cloud 中创建客户属性来源和 FTP 帐户后，还可以通过 FTP 上传数据。您可以针对每个属性来源创建一个 FTP 帐户。已上传的文件存储在该帐户的根文件夹中。该数据必须为 .csv 格式，并通过另一个 .fin 文件指示上传已完成
 
-指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。请参阅 帮助中的[客户属性报表](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)，以了解详细信息。[!DNL Analytics]
+指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。请参阅 帮助中的[客户属性报表](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)，以了解详细信息。[!DNL Analytics]
 
 * **[!UICONTROL 属性：]**&#x200B;从上传的 `.csv` 文件中读取的属性数据。
 
@@ -63,12 +56,6 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
    * **Numbers：**&#x200B;最多可有两位小数。
 
-
-
-
 * **[!UICONTROL 显示名称：]**&#x200B;属性的易记名称。例如，您可以从&#x200B;*客户年龄*&#x200B;更改为&#x200B;*自从以下时间以来的客户*。
 
 * **[!UICONTROL 描述：]**&#x200B;属性的易懂描述。
-
-
-
