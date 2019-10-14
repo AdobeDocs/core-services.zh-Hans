@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 可选 - 通过 FTP 上传数据文件
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -22,21 +22,11 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 >
 >在上传文件之前，先查看[上传客户属性的数据文件要求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)。
 
-
 将文件上传到客户属性 FTP 站点可通过 FTP 或 SFTP 完成。
 
 * 您需要一个支持 SFTP 连接的客户端。
-* 你可以使用用户名/密码或不使用密码进行 SFTP 连接，如[此处](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)所述。
+* 你可以使用用户名/密码或不使用密码进行 SFTP 连接，如[此处](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所述。
 
-
-
-<!-- <p>Error states - get with Matt and Dave </p> 
-<p>What are the most common reasons for doing this? Retail? Do a use case example, then show an AN example. </p> 
-<p>You create one FTP per attribute source. Files go to the root folder in that account. The file type .fin is user-created. (For example, upload a .csv then a .fin of the same name, which signals you have completed the upload. https://wiki.corp.adobe.com/display/marketingcloud/Customer+Record+Services#CustomerRecordServices-FileFormats (leverage for doc). Possibly link from FTP File Reqs page to a help file about naming conventions. Need a new file type page for this. Similar content here: https://marketing.adobe.com/resources/help/en_US/reference/c_general_file_structure.html and here: https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html </p> 
-<p>Drag-n-drop and zip functionality for uploads - 1/21/2015. S/b less than 100 megs for drag and drop zip file. Fin file not required for drag/drop. </p> 
-<p>Preview Data - shows the last upload (?) </p> 
-<p>Need a link to the "instructions" on that information icon with the image. </p> 
-<p>Workflow: Drag and drop, validate schema, configure subscription, save/activate. </p> -->
 **通过 FTP 上传数据文件的方法**
 
 1. [创建客户属性来源并上传数据文件...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
@@ -50,6 +40,5 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
    文件类型 `.fin` 是由用户创建的，表示上传已完成。它可以是一个空白的记事本文件。例如，如果您上传 [!DNL crs123.csv]，同时也会上传 [!DNL crs123.fin]。
 
    如果上传成功，这两个文件会被移到一个名为&#x200B;**已处理**&#x200B;的文件夹中。
-
 
    请参阅[上传客户属性的数据文件要求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，以了解有关文件名和结构的重要信息。
