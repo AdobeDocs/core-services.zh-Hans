@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -160,7 +160,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（请参阅[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)以了解详细信息。）
+（请参阅[客户 ID 和身份验证状态](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)以了解详细信息。）
 
 在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**&#x200B;中：
 
