@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 受众
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -30,7 +30,6 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * 源于 Analytics 的历史受众每 12 个小时接受一次评估。历史受众始终包含回访访客。
 * 实时受众源于 Experience Cloud 受众并接受实时评估。
 
-
 ## 解决方案如何使用受众 {#concept_01EB9345C5344597BC94A864EDD38EE1}
 
 下表说明了受众在 Experience Cloud 解决方案中的使用方式：
@@ -39,12 +38,11 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 |--- |--- |
 | Experience Cloud 受众 | 使用[受众库](../audience-library/audience-library.md)界面在本地创建、管理和共享受众。您可以：<ul><li>使用原始 analytics 属性的实时受众</li><li>加入实时和历史数据，合并受众以创建组合受众</li><li>请参阅预计受众大小的图示</li></ul><br>有关要创建的受众类型的建议，请参阅：[Experience Cloud 受众](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | Analytics | 在分段中，您可以构建区段，将其与报表包合并，然后[将区段发布到 Experience Cloud](../audience-library/audience-library.md)。发布区段会使其显示在[受众](../audience-library/audience-library.md)页面上。该受众还会作为一个目标受众在以下两个位置可用：Adobe Target 提供的营销活动体验中，以及在 Audience Manager 中。从 Analytics 共享受众并选择该受众以在活动的营销活动中使用后，过去 90 天内所有符合区段定义标准的访客资料均会发送到 Experience Cloud 受众服务平台。重要提示：您必须将从 Analytics 共享的受众数量限制为 20，以避免额外的处理延迟。从 Analytics 共享到 Experience Cloud 的受众数量不能超过 2000 万个独特成员。另外，由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。 |
-| Mobile Services | Analyze mobile traffic using the sunburst visualization in the [Device Types](https://marketing.adobe.com/resources/help/en_US/mobile/?f=reports_devices). |
-| Target | [ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)将访客 ID 与数据合并为一份可操作的资料，以便在各个解决方案之间使用。在 Adobe Analytics 的区段创建过程中显示的[发布到 Experience Cloud](../audience-library/audience-library.md) 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，你可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。 |
+| Mobile Services | 使用[!UICONTROL 设备类型]报表中直观的太阳状图分析移动流量。 |
+| Target | [ID 服务](https://docs.adobe.com/content/help/en/id-service/using/home.html)将访客 ID 与数据合并为一份可操作的资料，以便在各个解决方案之间使用。在 Adobe Analytics 的区段创建过程中显示的[发布到 Experience Cloud](../audience-library/audience-library.md) 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 Analytics 或 Audience Manager 中创建的区段可用于 Target 中的活动。例如，你可以根据 Analytics 转化量度和 Analytics 中创建的受众区段，来创建营销活动。 |
 | Audience Manager | 共享受众可在 Audience Manager 区段中使用。所有 Experience Cloud 受众均可在 Audience Manager 本地使用，Audience Manager 提供了以下功能：<ul><li>内置的自动化，管理如何在解决方案工作流程中共享和使用这些受众</li><li>异地目标</li><li>相似建模</li></ul> |
 | Campaign | <ul><li>将从不同 Adobe Experience Cloud 解决方案共享的受众导入到 Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可用于您所使用的不同 Adobe Experience Cloud 解决方案。</li></ul> |
 | Media Optimizer | 将受众用作目标。 |
-
 
 >[!IMPORTANT]
 >
@@ -52,13 +50,11 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## 更多帮助 - 问题、指导和用例 {#section_C7F151644D8A45F7B6FC54F58845635D}
 
-
 | 需要帮助的方面 | 资源 |
 |--- |--- |
 | 找不到受众？ | 确保已对您进行配置。请参阅[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md)。<br>单击[此处](https://www.adobe.com/go/audiences)请求 Profiles &amp; Audiences（集成配置表单）的访问权限。 |
 | 用例 | 有关应使用哪种解决方案的更多指导，请参阅知识库中的[受众创建选项](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 论坛 | [受众论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是另外一个可获取受众相关帮助的资源。 |
-
 
 ## 受众库界面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
