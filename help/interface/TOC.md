@@ -4,14 +4,13 @@ user-guide-title: 核心服务用户指南
 user-guide-url: https://www.adobe.com/cn
 index: true
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
 # 核心服务用户指南 {#interface}
 
-+ [Experience Cloud 产品文档](landing/experience-cloud-home.md)
 + [Experience Cloud 和核心服务帮助](experience-cloud.md)
 + 关于核心服务 {#about-core-services}
    + [核心服务概述](core-services-landing.md)
