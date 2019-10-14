@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 共享 Experience Cloud 资产文件夹
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -49,8 +49,8 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 一旦删除完所有的 Creative Cloud 用户，文件夹即被取消共享，且 Creative Cloud 用户不再具有访问权限。使用共享资产的其他方式包括：
 
-* 在 [!UICONTROL  中将]资产选择器[!DNL Adobe Social]中的资产用于社交帖子。请参阅[发布者页面](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)。
-* 在 [ 中加载或交换](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)内容库[!DNL Adobe Target]中的资产用作活动的图像。
+* 在 [!UICONTROL  中将]资产选择器[!DNL Adobe Social]中的资产用于社交帖子。
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 在将文件夹共享到 Creative Cloud 之后，您将在文件夹上看到 Creative Cloud 徽标。
 
