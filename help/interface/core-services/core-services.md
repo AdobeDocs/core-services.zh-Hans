@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 为核心服务启用解决方案
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -30,12 +30,9 @@ source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
 * **Adobe Analytics：** Standard 或 Premium 版本（而非旧版 SiteCatalyst SKU）。
 * **Adobe Target：** Standard 或 Premium 版本。
 
-
-
 >[!NOTE]
 >
 >For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
-
 
 ![](assets/step2_icon.png) 使您的实施符合现代化要求并进行管理员身份配置。
 
@@ -47,7 +44,7 @@ source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
 
 **管理员访问权限**
 
-在成为管理员后，您可以登录 [marketing.adobe.com](https://marketing.adobe.com)。
+After you are an administrator, you can log in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 
 您将会在 Experience Cloud 菜单导航中看到&#x200B;**[!UICONTROL 管理]链接。**
 
@@ -59,7 +56,7 @@ source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
 
 
 1. 拥有 Adobe ID。
-1. 登录到 [!DNL marketing.adobe.com]。
+1. Sign in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. 属于映射到企业群组的解决方案群组。
 1. 如有必要，可将他们的解决方案帐户关联到其 Adobe ID（如下所述）。
 
@@ -79,35 +76,35 @@ source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
 
 ## 步骤 2. 使用 Dynamic Tag Manager 或 Experience Platform Lauch 实施 Experience Cloud ID 服务{#section_3C9F6DF37C654D939625BB4D485E4354}
 
-启用 Experience Cloud 核心服务的最简便方法是，通过动态标签管理器中的 [Experience Cloud ID 服务工具](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dtm-implement.html)自动为 Analytics 和 Target 激活这些服务。（或者使用 Experience Platform Lauch。）
+启用 Experience Cloud 核心服务的最简便方法是，通过动态标签管理器中的 [Experience Cloud ID 服务工具](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/standard.html)自动为 Analytics 和 Target 激活这些服务。（或者使用 Experience Platform Lauch。）
 
 ![](assets/menu-activation-shell.png)
 
-有关完整的 Experience Cloud ID 服务（以前称为“访客 ID”），请访问[此处](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+For complete Experience Cloud ID service help (formerly, visitor ID), go [here](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
-此外，新一代标签管理工具是 [Adobe 的 Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)
+此外，新一代标签管理工具是 [Adobe 的 Launch](https://docs.adobelaunch.com/getting-started)
 
 **不使用动态标签管理或 Launch？**
 
 如果您不使用动态标签管理，请通过 JavaScript 部署 ([!DNL VisitorAPI.js]) 手动实施 ID 服务，如下所示：
 
-1. 执行[为 Analytics 实施 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html)中所述的步骤。
+1. 执行[为 Analytics 实施 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-analytics.html)中所述的步骤。
 
-   Adobe 还建议设置其他[客户 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)。这些 ID 与每个访客相关联，并可以启用 Experience Cloud 核心服务中现有和未来的功能。
+   Adobe 还建议设置其他[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)。这些 ID 与每个访客相关联，并可以启用 Experience Cloud 核心服务中现有和未来的功能。
 
 1. 将现有的 [!DNL s_code] 更新到 H.27.3 或更高版本，或将现有的 [!DNL AppMeasurement.js] 更新到 1.4 或更高版本。
 
-   这些文件在 Analytics 管理工具的[代码管理器](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=code_manager_admin)中提供下载。
+   这些文件在 Analytics 管理工具的[代码管理器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)中提供下载。
 
-   （如果您需要了解有关 [ 的更多信息，请参阅 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)JavaScript 实施[!DNL AppMeasurement.js]指南。）
+   （如果您需要了解有关 [ 的更多信息，请参阅 ](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)JavaScript 实施[!DNL AppMeasurement.js]指南。）
 
 1. 为 Analytics 同步客户 ID。请参阅 [Analytics - 同步客户 ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)（见下文）。
 
 ## Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 Target 考虑将自己的[客户 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 Target 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
-在 Target 中，[!DNL mbox3rdpartyid] 需要获取客户 ID 并将其发送给 Target。（请参阅 Target 中的[使用客户属性](https://marketing.adobe.com/resources/help/en_US/target/target/c_working-with-customer-attributes.html)。）
+在 Target 中，[!DNL mbox3rdpartyid] 需要获取客户 ID 并将其发送给 Target。（请参阅 Target 中的[使用客户属性](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。）
 
 当访客在您的网站上进行身份验证或识别自身时，您的实施必须将此人的 CRM 客户 ID 透露给页面或应用程序。然后，您可以使用适当的函数调用，将您的客户 ID 与 Experience Cloud 同步。此同步会将访客的 CRM 客户 ID 存储在 Experience Cloud 中，并激活该客户的属性以便在 Experience Cloud 中使用。
 
@@ -121,7 +118,7 @@ source-git-commit: b4809ff0b4546f105ac6270eca1bfce2b6467876
 
 **Mobile SDK**
 
-See the Experience Cloud ID service section for syntax examples about how to set additional customer IDs in Android and iOS Mobile applications.**[](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods)[](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)
+有关如何 *在Android和* iOS [](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)[](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) Mobile应用程序中设置其他客户ID的语法示例，请参阅Experience Cloud ID服务部分。
 
 **启用历史数据的属性**
 
@@ -137,17 +134,17 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”）�
 
 ## 步骤 4. (Adobe Analytics) 使您的 Analytics AppMeasurement 代码符合现代化要求 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-验证您是否位于区域数据收集 (RDC) 中。如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。请参阅[过渡到 RDC](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/?f=rdc_transition)，以了解详细信息。如果您使用第一方 Cookie，请参阅 [CNAME 和访客 ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cname)，以了解有关数据收集 CNAME 和跨域跟踪的信息。
+验证您是否位于区域数据收集 (RDC) 中。如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。请参阅[过渡到 RDC](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)，以了解详细信息。If you are using first-party cookies, refer to [CNAME and the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) for information about data collection CNAMEs and cross-domain tracking.
 
 建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。完成此任务的简单方法是在 Dynamic Tag Management 中添加 [!DNL Adobe Analytics] 工具，以指定 *`Automatic`* 作为配置方法。
 
-在 Dynamic Tag Management 中，单击 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 概述]**&gt;**[!UICONTROL 添加工具]**&gt;**[!UICONTROL Adobe Analytics]**。请参阅动态标签管理中的[Adobe Analytics 设置](https://marketing.adobe.com/resources/help/en_US/dtm/?f=analytics_dtm)，以了解部署信息。
+在 Dynamic Tag Management 中，单击 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 概述]**&gt;**[!UICONTROL 添加工具]**&gt;**[!UICONTROL Adobe Analytics]**。请参阅动态标签管理中的[Adobe Analytics 设置](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)，以了解部署信息。
 
 ## 步骤 5. (Adobe Target) 使您的 Adobe Target 实施符合现代化要求 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建议您在动态标签管理中添加 [Adobe Target 工具](https://marketing.adobe.com/resources/help/en_US/dtm/target.html)，以便自动检索您的库。在 Dynamic Tag Management 中，单击 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 概述]**&gt;**[!UICONTROL 添加工具]**&gt;**[!UICONTROL Adobe Target]**。**&#x200B;注意：**您还可以使用动态标签管理来为 Target（和其他解决方案）部署 Experience Cloud ID 服务。**&#x200B;必须&#x200B;**更新 Experience Cloud ID 服务，这样 Target 才能使用核心服务。
-* 如果您没有使用动态标签管理，请手动[更新您的 mbox 库](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=t_mbox_download)。
-* 请求访问权限，以使用 Adobe Analytics 作为 Adobe Target 的报告来源。在处理期间，Target 和 Analytics 数据将组合在同一服务器调用中，这样两个解决方案之间的访客就可以连接在一起。请参阅[为 Target 实施使用 Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/?f=a4t)。
+* 建议您在动态标签管理中添加 [Adobe Target 工具](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)，以便自动检索您的库。在 Dynamic Tag Management 中，单击 **[!UICONTROL <Web Property Name>]**&gt;**[!UICONTROL 概述]**&gt;**[!UICONTROL 添加工具]**&gt;**[!UICONTROL Adobe Target]**。**&#x200B;注意：**您还可以使用动态标签管理来为 Target（和其他解决方案）部署 Experience Cloud ID 服务。**&#x200B;必须&#x200B;**更新 Experience Cloud ID 服务，这样 Target 才能使用核心服务。
+* 如果您没有使用动态标签管理，请手动[更新您的 mbox 库](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html)。
+* 请求访问权限，以使用 Adobe Analytics 作为 Adobe Target 的报告来源。在处理期间，Target 和 Analytics 数据将组合在同一服务器调用中，这样两个解决方案之间的访客就可以连接在一起。请参阅[为 Target 实施使用 Analytics](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)。
 * 
    >[!IMPORTANT]
    >
@@ -241,6 +238,6 @@ Experience Cloud 受众是一个界面，您可以从这里创建受众，合并
 
 如果您希望向网站访客提供相应的退出选项，则必须将 Audience Manager 退出添加到现有退出过程。
 
-请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://marketing.adobe.com/resources/help/en_US/sc/implement/opt_out.html)，以了解相关说明。
+请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.html)，以了解相关说明。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cname)，以了解如何启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以了解如何启用跨域跟踪。
