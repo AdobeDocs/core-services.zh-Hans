@@ -8,7 +8,7 @@ title: 升级到 Analytics Premium 和 Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -16,7 +16,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # 升级到 Analytics Premium 和 Experience Cloud
 
 管理员可以了解在升级到 Analytics Premium 时的相应要求和预期，以及作为一名 Experience Cloud 管理员，应在何处查找帮助。
-
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
@@ -28,8 +27,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 * 执行[移动设备应用程序分析](https://marketing.adobe.com/resources/help/en_US/mobile/)
 * 使用 Data Workbench（可视数据查询；基于规则的属性；跨渠道分析）
 
-
-
 >[!NOTE]
 >
 >升级时无需进行迁移，但是应当了解以下考虑事项：
@@ -38,27 +35,15 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 >* 贡献分析已由 Adobe 开启。它没有更改位置（仍位于“异常检测”页面中），但现在会自动开始分析所有数据点。&gt;
 
 
-下面的部分描述了根据您所购买的功能，可以在何处找到帮助：
-
-* [Analytics Premium 完整版](../admin-getting-started/upgrade-to-analytics-premium.md#section_BFAD815EDF364845A52B340B2FD5B64C)
-* [Predictive Intelligence](../admin-getting-started/upgrade-to-analytics-premium.md#section_B407932C07A7476F83FB0275C3FB63DC)
-* [Customer 360](../admin-getting-started/upgrade-to-analytics-premium.md#section_3B2AC245388248688067DC9A48957AFB)
-* [高级属性](../admin-getting-started/upgrade-to-analytics-premium.md#section_9E4986A8389946CCAA7D003268343296)
-* [Data Workbench 要求](../admin-getting-started/upgrade-to-analytics-premium.md#section_D959CA68D6DB42C38707F8E0CA3654CC)
-* [Experience Cloud](../admin-getting-started/upgrade-to-analytics-premium.md#section_6471C54454024301B2E0B687F79F6738)
-
-
-
 ## Analytics Premium 完整版 {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 在 Analytics Premium 完整版中，您可以获取 [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) 的所有功能，还可执行以下升级：
 
 | 产品 | 升级 |
 |--- |--- |
-| Reports and Analytics | <ul><li>[贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[客户属性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最多 200 个）</li></ul> |
+| Reports and Analytics | <ul><li>[贡献分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[客户属性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最多 200 个）</li></ul> |
 | Data Workbench | <ul><li>算法属性</li><li>预置工作区</li></ul> |
-| Analytics 平台 | [实时流](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1)（原始数据、功能板、触发器） |
-
+| Analytics 平台 | [实时流](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html)（原始数据、功能板、触发器） |
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -66,10 +51,9 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 | 产品 | 升级 |
 |---|---|
-| Reports and Analytics | [贡献分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
+| Reports and Analytics | [贡献分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 用于受众资格鉴定和前瞻性市场营销的预置工作区。 |
 | Analytics 平台 | 实时流（功能板和触发器） |
-
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -80,7 +64,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 | [客户属性](../attributes/attributes.md) | 客户属性（分析和区段共享） |
 | Data Workbench | <ul><li>派生的客户属性</li><li>用于受众发现的预置工作区</li></ul> |
 | Analytics 平台 | [客户属性](../attributes/attributes.md) |
-
 
 ## 高级属性 {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -94,27 +77,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 必须停用内部正在运行的所有软件。其中包括传感器，这意味着您需要通过 Analytics 标签来确保进行正确的跟踪。
 
-**Premium 完整版**&#x200B;和&#x200B;**高级属性**
-
-有关预置模板中基于规则的属性，请参阅：[基于规则的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)。
-
-有关算法属性，请参阅[最适合的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)。
-
-**Predictive Intelligence**
-
-Data Workbench 中的前瞻性情报包括以下可视化：
-
-* [受众倾向评分](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
-* [访客聚类](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
-* [关联分析](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
-
-
-**Customer 360** 和&#x200B;**高级属性**
-
-请参阅[基于规则的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)中预置模板内基于规则的 Analytics 属性。
-
-请参阅[最适合的属性](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)中的算法属性模板。.
-
 ## Experience Cloud - 管理用户和产品 {#section_6471C54454024301B2E0B687F79F6738}
 
 Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述的实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
@@ -127,8 +89,6 @@ Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使�
 
 您可以在 Adobe 管理控制台中创建的群组与解决方案群组（例如 Adobe Analytics）之间设置 1 对 1 映射。之后，系统会为添加到所映射的管理控制台群组的新用户自动创建一个 Analytics 解决方案帐户，并将该帐户关联到用户的 Adobe ID。（现有用户必须手动关联其解决方案帐户凭据，才能通过 Experience Cloud 登录来访问解决方案。）
 
-
 >[!NOTE]
 >
 >您可以将多个解决方案群组映射到一个 Admin Console 群组。不过，Adobe 建议进行 1 对 1 映射。提前映射群组后，您可以通过上传 CSV 来邀请、创建、授权和添加多个用户。
-
