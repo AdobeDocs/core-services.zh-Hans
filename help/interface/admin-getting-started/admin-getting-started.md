@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -15,19 +15,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # 管理 Experience Cloud 用户和产品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。
-
-
-<!-- marketing-cloud-identity-management.xml -->
-
-<!-- user_mgmt_admin.xml -->
-
-<!-- domain change for 2018 
-<ul id="ul_6654B3993EBE4DE0A3FBCFA5173A52D1"> 
- <li id="li_BE41EB31960B4C079E864FAA2E322BB4"> Private Beta - Support new domain alongside old domain for selected customers (June, 2018) </li> 
- <li id="li_0513CA457FAA4F37A9D5E514DEAF2067"> General Rollout - Serve both old and new domains seamlessly for all customers (Aug, 2018) </li> 
- <li id="li_AB89A6D00A274EB7863D0243757322DE"> Public Beta - Drive solution teams and customers to switch references from old domain to new domain (Aug - Oct, 2018) </li> 
- <li id="li_6FED48B1F361493082102E823EA335F4"> General Availability - Redirect all old domain requests to new domain (Oct, 2018) </li> 
-</ul> -->
 
 >[!IMPORTANT]
 >
@@ -37,7 +24,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 了解 Experience Cloud 用户管理的最新功能。
 
-
 ## 登录到 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
 在解决方案中，管理员不再管理用户。现在，Experience Cloud 的用户和产品管理均在 Admin Console 中进行。
@@ -46,7 +32,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. 键入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 及密码。
-
 
 或者，从 Experience Cloud 菜单 (![](assets/menu-icon.png)) 中，单击&#x200B;**[!UICONTROL 管理]** &gt; **[!UICONTROL 启动 Admin Console]**。
 
@@ -93,9 +78,6 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 * [管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 视频：[如何在 Adobe 管理控制台中配置 Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
-
-
 ## Campaign - 产品配置文件、租户和安全群组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Campaign 中的&#x200B;*租户*&#x200B;会在“Admin Console 产品”页面中显示为&#x200B;*产品*。
@@ -139,7 +121,6 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 * Target 帮助中的[企业用户权限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)提供了更多信息。
 * 视频：[如何在 Adobe 管理控制台中配置 Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
 ## 将 Analytics 访问权限分配给产品配置文件 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 将 Analytics 报表访问权限（报表包、量度、维度等）分配给产品配置文件。
@@ -150,7 +131,6 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 1. 随后，在产品配置文件中，单击&#x200B;**[!UICONTROL 权限]**（只有管理员才能使用）。
 1. 配置该配置文件的权限：
 
-
 | 元素 | 描述 |
 |--- |--- |
 | Report Suites | 启用特定报表包的权限。 |
@@ -159,12 +139,8 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 | 报表包工具 | 启用 Web 服务、报表包管理、工具和报表，以及功能板项目的用户权限。 |
 | Analytics 工具 | 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。“自定义 Admin Console”类别中的“公司设置”已被移动到“Analytics 工具”中。 |
 
-
-
 ## 将管理角色分配给用户 {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-
-<!-- t_admin-roles.xml -->
 在管理控制台中，您可以将有限的管理权限分配给组织中的其他人员。通过分配的角色，用户可以管理最终用户的软件访问权限，提供访问部署功能，以及充当支持代表。
 
 例如，您可以：
@@ -172,7 +148,6 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 * 允许您的创意总监授予 Creative Cloud 的访问权限。
 * 允许您的市场营销总监授予 Experience Cloud 的访问权限。
 * 保持这两个角色相互独立，使他们二者之间无法逾越彼此的职责范围。
-
 
 利用这些角色，您还可以同时向其他人员分配管理权限，而不提供超出其所需范围的更多职能。
 
@@ -185,8 +160,6 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 
 Experience Cloud 中支持的浏览器。
 
-
-<!-- browsers.xml -->
 **Experience Cloud 核心服务**
 
 * Microsoft 最新推出的 Internet Explorer。（Microsoft 已[结束](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，Adobe 将不会修复针对这些特定 Internet Explorer 版本报告的问题。）
@@ -194,14 +167,8 @@ Experience Cloud 中支持的浏览器。
 * Mozilla Firefox
 * Apple Safari
 
-
 **解决方案和产品要求**
 
-* [Analysis Workspace 和 Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements)（包括 Adobe Social）
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [分析](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) （包括Adobe Social）
+* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
