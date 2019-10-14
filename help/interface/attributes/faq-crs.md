@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -86,7 +86,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>客户属性功能与 Target 的批量配置文件 API 相比有何不同？ </p> </td> 
-   <td colname="col2"> <p> 可直接通过<a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">批量配置文件 API</a>，逐个或批量更新 Target 配置文件。该功能类似于客户属性，但又存在以下不同之处： </p> 
+   <td colname="col2"> <p> 可直接通过<a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">批量配置文件 API</a>，逐个或批量更新 Target 配置文件。该功能类似于客户属性，但又存在以下不同之处： </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">配置文件 API 是一个 REST API 调用，而客户属性使用的是 FTP。 </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">Target 的配置文件 API 仅向 Target 而并非向整个 Experience Cloud 发送数据。 </li> 
@@ -95,7 +95,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>从客户属性向 Adobe Target 上传数据时，是否会延长 Target 访客的配置文件生命周期？ </p> </td> 
-   <td colname="col2"> <p>能。请参阅 Adobe Target 帮助中的<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">访客配置文件生命周期</a>。 </p> </td> 
+   <td colname="col2"> <p>能。请参阅 Adobe Target 帮助中的<a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">访客配置文件生命周期</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>根据客户 ID 识别访客后，我能否立即定位在客户属性中上传的数据？ </p> </td> 
