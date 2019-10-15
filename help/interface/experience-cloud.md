@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 ---
 
@@ -17,8 +17,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 本页提供Adobe Experience cloud解决方案和服务的自助、支持以及技术和产品文档。 Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。
 
 ## 发行说明和社区资源
-
-发行说明、视频、社区论坛和支持：
 
 * [Experience cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有产品
 * [优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html) -订阅即可每月收到发行说明)
@@ -32,8 +30,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 * [核心服务概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（博客）
 
 ## ![Experience cloud帮助](assets/experience_cloud_appicon_32.png) Experience cloud和核心服务帮助
-
-有关档案、受众、客户属性、Experience Cloud ID服务、Adobe mobile等的帮助：
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [受众](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -50,8 +46,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ### 管理和启用
 
-用户和产品管理：
-
 * [用户和产品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
 * [为核心服务启用解决方案](core-services/core-services.md)
 * [常见问题解答](admin-getting-started/admin-getting-started.md)
@@ -63,8 +57,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 * [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## ![Analytics帮助](assets/mc_analytics_32.png) Analytics帮助
-
-网站分析、营销和跨渠道分析、归因和预测分析：
 
 * [Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [工具](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -79,33 +71,23 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ## ![Audience Manager帮助](assets/mc_audiencemanager_32.png) Audience manager帮助
 
-数据管理平台，受众细分，受众洞察，实时行动：
-
 * [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 ## ![Target帮助](assets/mc_target_32.png) Target帮助
-
-A/B和多变量测试、全渠道个性化、以AI为后盾的自动化和扩展：
 
 * [Target发行说明](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 ## ![Experience Manager帮助](assets/mc_experiencemanager_32.png) Experience Manager帮助
 
-内容管理系统、数字资产管理、数字注册和表单、托管服务：
-
 * [Experience Manager学习和支持](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Campaign帮助](assets/mc_campaign_32.png) Campaign帮助
-
-电子邮件营销、客户旅程、全渠道营销：
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Advertising cloud帮助](assets/advertisingcloud_appicon_32.png) Advertising cloud帮助
-
-需求侧平台，搜索营销管理，电视广告，创意管理。
 
 在产品中，可通过单击任意页面顶部的&#x200B;**帮助**&#x200B;图标 (?) 来访问 Advertising Cloud 帮助。
 
