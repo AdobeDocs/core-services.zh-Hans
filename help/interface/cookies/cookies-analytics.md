@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 | 使用情况 | 如果标准 s_vi Cookie 由于受第三方 Cookie 限制而不可用，此 Cookie 可用于识别独特访客。在使用第一方 Cookie 的实施中不会使用此 Cookie。 |
 | 位置 | 此 Cookie 作为第一方 Cookie 存储在您的域中。 |
 | 大小 | 33 字节 |
+
+## Cookie标记
+
+下表介绍了Analytics cookies的标记：
+
+| Cookie（设置方式） | httpOnly | 安全 | SameSite |
+|--- |--- |--- |--- |
+| s_vi（http响应） | 否 | 当SameSite为“无”且连接使用HTTPS时为“是” | 默认情况下，使用CNAME时为“lax”。 使用2o7.net或omtrdc.net时为“无”。 |
+| s_ecid（http响应） | 否 | 否 | "松懈" |
+| s_fid(Javascript) | 否 | 否 | 取消设置 |
+| s_cc(Javascript) | 否 | 否 | 取消设置 |
+| s_sq(Javascript) | 否 | 否 | 取消设置 |
+
+*注意：如果使用单个CNAME跨多个域或属性进行跟踪，则SameSite应设置为“无”。 要获得更改Analytics cookie设置的帮助，请与客户服务联系。*
 
 ## 插件设置的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
