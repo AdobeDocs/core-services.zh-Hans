@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 * [Experience cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有产品
 * [优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html) -订阅即可每月收到发行说明)
-* [Adobe 视频学习](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe 视频学习](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) —— 指导式学习
 * [联系客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [社区论坛](https://forums.adobe.com/community/experience-cloud)
@@ -84,8 +84,8 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 ## ![Campaign帮助](assets/mc_campaign_32.png) Campaign帮助
 
-* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Campaign Standard：[文档](https://helpx.adobe.com/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic：[文档](https://helpx.adobe.com/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Advertising cloud帮助](assets/advertisingcloud_appicon_32.png) Advertising cloud帮助
 
