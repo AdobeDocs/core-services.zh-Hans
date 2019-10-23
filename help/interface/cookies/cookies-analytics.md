@@ -6,11 +6,8 @@ seo-title: Analytics Cookie
 solution: Marketing Cloud,Analytics,Target,Social
 title: Analytics Cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 | 属性 | 描述 |
 |--- |--- |
-| 存储的信息 | 包含 Experience Cloud ID (ECID) 或 MID 的副本。MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID | <ECID> |
+| 存储的信息 | 包含 Experience Cloud ID (ECID) 或 MID 的副本。MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID | `<ECID>` |
 | 过期 | 2 年 |
 | 使用情况 | 在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。有关更多详细信息，请参阅此处的 AMCV Cookie。 |
 | 位置 | 仅限 CNAME 客户。不适用于第三方场景。Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 |
@@ -56,7 +53,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 | 属性 | 描述 |
 |--- |--- |
-| 存储的信息 | 在启用 ClickMap 功能和 Activity Map 功能后，将通过 JavaScript 代码设置并读取该 Cookie；它包含用户上一次点击的链接的相关信息 |
+| 存储的信息 | 启用ClickMap功能或Activity map功能时，JavaScript代码会设置和读取此Cookie;它包含用户单击的上一个链接的相关信息 |
 | 过期 | 此 Cookie 是会话 Cookie，关闭浏览器之后即到期 |
 | 使用情况 | 所有帐户只有一个 Cookie |
 | 位置 | 此 Cookie 存储在页面的域中 |
@@ -69,7 +66,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 | 存储的信息 | 独特访客 ID 时间戳/日期戳 |
 | 过期 | 2 年 |
 | 使用情况 | 此 Cookie 用于识别独特访客 |
-| 位置 | 此 Cookie 存储在图像请求的域（如果您使用的是第三方 Cookie，通常为 2O7.net）或您的域（如果您使用的是第一方 Cookie）中。 |
+| 位置 | 此Cookie存储在图像请求的域中——通常是客户特定的子域，如果您使用的是第三方Cookie，或者您的域使用的是第一方Cookie，则位于2o7.net或omtrdc.net下。 |
 | 大小 | 44 字节 |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 | 属性 | 描述 |
 |--- |--- |
 | 存储的信息 | 回退独特访客 ID 时间戳/日期戳 |
-| 过期 | 5 年 |
-| 使用情况 | 如果标准 s_vi Cookie 由于受第三方 Cookie 限制而不可用，此 Cookie 可用于识别独特访客。在使用第一方 Cookie 的实施中不会使用此 Cookie。 |
+| 过期 | 2 年 |
+| 使用情况 | 如果由于受第三方 Cookie 限制标准的 `s_vi` Cookie 不可用，将使用此 Cookie 来识别独特访客。在使用第一方 Cookie 的实施中不会使用此 Cookie。 |
 | 位置 | 此 Cookie 作为第一方 Cookie 存储在您的域中。 |
 | 大小 | 33 字节 |
 
@@ -98,7 +95,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 | s_cc(Javascript) | 否 | 否 | 取消设置 |
 | s_sq(Javascript) | 否 | 否 | 取消设置 |
 
-*注意：如果使用单个CNAME跨多个域或属性进行跟踪，则SameSite应设置为“无”。 要获得更改Analytics cookie设置的帮助，请与客户服务联系。*
+>[!NOTE] 如果使用单个CNAME跨多个域或属性进行跟踪，则SameSite应设置为“无” `s_vi`。 要获得更改Analytics cookie设置的帮助，请与客户服务联系。
 
 ## 插件设置的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
