@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -41,7 +41,7 @@ Adobe 管理的证书计划允许您在不增加任何额外费用的情况下�
 
 1. 填写[第一方 Cookie 请求表](/help/interface/cookies/assets/FPC_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的证书计划设置第一方 Cookie。文档中通过示例描述了每个字段。
 
-1. 创建 CNAME 记录（请参阅下面的说明）。当 FPSSL 专家收到票证后，将为您提供一对 CNAME 记录。您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAME 记录类似于以下内容：**安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.ssl.d1.omtrdc.net`。**非安全** - 例如，主机名 `metrics.example.com` 指向：`example.com.d1.omtrdc.net`。
+1. 创建 CNAME 记录（请参阅下面的说明）。收到票证后，客户关怀代表应为您提供一对CNAME记录。 您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAME 记录类似于以下内容：**安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.ssl.d1.omtrdc.net`。**非安全** - 例如，主机名 `metrics.example.com` 指向：`example.com.d1.omtrdc.net`。
 
 1. 配置了这些 CNAME 之后，Adobe 将与 DigiCert 一起购买证书并安装在 Adobe 的生产服务器上。如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到 Adobe 生产环境后，您就可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全 (https)，则更新 `s.trackingServer` 变量。如果站点安全 (https)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
 
