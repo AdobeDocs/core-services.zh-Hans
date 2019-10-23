@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 术语
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 为 Experience Cloud 用户提供的术语参考，以及这些术语在 Creative Cloud 中是如何使用的。
 
-| 术语 | Creative Cloud | Experience Cloud |
+| 搜索词 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | 资产 | 在 Creative Cloud 中，资产通常是指图像文件。<br>资产可以是 Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面以及 ZIP 包中的文件。 | 在 Experience Cloud 中，资产指数字文档、图像、视频或音频，它可以有多个演绎版，也可以带有子资产。示例包括：<ul><li>文件</li><li>文档</li><li>图像</li><li>视频</li><li>音频剪辑</li><li>演示文稿</li><li>图像模板</li><li>视频模板</li></ul> |
 | 受众 | 在 Creative Cloud 中，受众可以是指观看视频的人员。 | 在 Experience Cloud 中，受众指我们在营销活动中定位的人员集合。<br>受众中的成员资格可根据一组规则确定并在访客的上下文中运行，或根据固定的列表确定。例如，某 Facebook 群组中订阅者或成员的电子邮件列表。<br>在 [Experience Cloud 受众](audience-library/audience-library.md)中，创建和管理受众与创建和使用区段类似，还增加了将受众共享到 Experience Cloud 的功能。<br>**Adobe Target**<br>在 Target 中，受众以前称为区段。<br>**Adobe Analyticia**<br>在 Analytics 中，受众可以被视为网站的访客。您可以创建受众区段，并将受众发布到 Experience Cloud。 |
@@ -35,4 +35,4 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 | 产品配置文件 | 请参阅[管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。 | 有权使用产品或服务的用户需要从属于产品配置文件。产品管理员通过将产品配置文件与您已购买的计划相关联，来为该产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，而每个产品配置文件会将不同的许可证授予该用户。用户的最终资格是由每个产品配置文件授予该用户的所有许可证的集合。 |
 | 计划 | 可能是指 Adobe Story 中的一系列场景，或 ColdFusion 中的计划任务。 | 在 Experience Cloud 中，计划是指激活营销活动、渠道和活动的开始日期(年、月、日)和结束日期。活动计划精确到分钟。更改计划会创建一个信息卡。<br>示例包括：<ul><li>营销活动计划</li><li>渠道计划</li><li>活动计划</li></ul> |
 | 共享 | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在 Experience Cloud 中，您可以在界面中的展示板内，仅将资产共享为信息卡。共享可供那些已登录到站点的人员使用。 |
-| 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Analytics、Social、Target 等等。<br>请参阅关于 Experience Cloud 中的新云名称](solutions-core-services.md)。 |
+| 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Analytics、Social、Target 等等。<br>[请参阅关于 Experience Cloud 中的新云名称](solutions-core-services.md). |
