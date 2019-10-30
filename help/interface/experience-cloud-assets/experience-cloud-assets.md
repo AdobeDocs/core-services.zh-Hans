@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 资产
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 ![](assets/assets-annotate.png)
 
 ## 将资产共享到信息源 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**从2019年11月1日开始，将不再支持Experience Cloud Feed，并将于2019年12月前弃用。**
 
 单击工具栏中的&#x200B;**[!UICONTROL 共享]**，以将资产作为[信息源](../feed.md#concept_9256B8768A294009A777282DD8719213)共享到其他 Experience Cloud 用户。
 
