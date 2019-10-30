@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: 信息源
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # 信息源
+
+**从2019年11月1日开始，将不再支持Experience Cloud Feed，并将于2019年12月前弃用。**
 
 了解如何使用您的 Experience Cloud 信息源，直接与他人共享或向他人发布资产和 Analytics 报表。
 
@@ -31,6 +33,8 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 * **收藏：**&#x200B;显示您标记为“收藏”的帖子。
 
 ## 将 Analytics 项目共享到信息源 {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**从2019年11月1日开始，将不再支持Experience Cloud Feed，并将于2019年12月前弃用。**
 
 您可以将来自 [!UICONTROL Reports &amp; Analytics] 的报表共享到 Experience Cloud 信息源。
 
