@@ -1,9 +1,10 @@
 ---
-source-git-commit: de9a84581dd3f52e1f76f39105bcb89e849b6230
-translation-type: ht
+source-git-commit: 277e8b855210e1658b7c74f14d2c5f1036ef80a6
+translation-type: tm+mt
 
 ---
 # 贡献文章
+
 
 我们欢迎社区成员以及文档团队以外的 Adobe 员工积极贡献文章。
 
@@ -19,7 +20,7 @@ translation-type: ht
 
 ### 次要更改
 
-如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的 **编辑** 链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅常规的 [Adobe Docs 参与者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -48,7 +49,7 @@ If you submit a pull request with significant changes to documentation and code 
 此存储库中的所有文章都使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，请参阅：
 
 * [Markdown 基础知识](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可打印的 Markdown 备忘单](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可打印 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签
 
