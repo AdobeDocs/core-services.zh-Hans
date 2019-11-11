@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>我能收到关于客户属性上传状态的通知吗？ </p> </td> 
-   <td colname="col2"> <p>是。请参阅<a href="../admin-getting-started/organizations.md#concept_0105453AD71847B8BFCAF4A40915F157" format="dita" scope="local">管理通知</a>。 </p> </td> 
+   <td colname="col2"> <p>可以。请参阅<a href="../admin-getting-started/organizations.md#concept_0105453AD71847B8BFCAF4A40915F157" format="dita" scope="local">管理通知</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 若要初步了解客户属性，我需要做哪些工作？ </p> </td> 
@@ -52,13 +52,17 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我可以使用多少个客户属性？ </p> </td> 
-   <td colname="col2"> <p>您可以向客户属性服务上传数百个 <span class="filepath">.csv</span> 列。但是，在配置订阅和选择属性时，根据您拥有的解决方案，将会受到以下限制： </p> <p> 
-     <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：总共 3 个 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每个报表包 200 个 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard：</b>5 个 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium：</b>200 个 </li> 
-     </ul> </p> </td> 
+   <td colname="col2"> <p>您可以向客户属性服务上传数百个 <span class="filepath">.csv</span> 列。但是，在配置订阅和选择属性时，会根据您拥有的解决方案应用以下限制（每个报表包）:</p> <p> 
+     <ul>
+     <li>Foundation：0 个</li>
+     <li>Select：3 个</li>
+     <li>Prime：15 个</li>
+     <li>Ultimate：200 个</li>
+     <li>Standard：总共允许 3 个</li>
+     <li>高级：200</li>
+     <li>Target Standard：5 个</li>
+     <li>Target Premium：200 个</li></ul>
+     </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>必须要迁移到 Experience Cloud ID 服务吗？ </p> </td> 
@@ -78,7 +82,7 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>我可以预先加载或上传从未在 Target 中出现过的客户数据吗？ </p> </td> 
-   <td colname="col2"> <p> 是。在访客向 Target 提出第一个请求时，系统将从客户属性中提取我们目前所拥有的关于他们的信息，并使用该数据进行定位。 </p> <p> <p>注意：此数据的检索过程可能需要多达 20 分钟，从访客首次与 Target 交互开始算起。 </p> </p> </td> 
+   <td colname="col2"> <p> 可以。在访客向 Target 提出第一个请求时，系统将从客户属性中提取我们目前所拥有的关于他们的信息，并使用该数据进行定位。 </p> <p> <p>注意：此数据的检索过程可能需要多达 20 分钟，从访客首次与 Target 交互开始算起。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>我可以通过将客户属性数据与共享受众数据合并在一起来创建超级受众吗？ </p> </td> 
@@ -103,4 +107,3 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
   </tr> 
  </tbody> 
 </table>
-
