@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 CNAME。例如：
 
 * **SSL 主机名**：`smetrics.mysite.com`
-* **SSL CNAME**：`mysite.com.ssl.d1.sc.omtrdc.net`
+* **SSL CNAME**：`mysite.com.ssl.sc.omtrdc.net`
 * **非 SSL 主机名**：`metrics.mysite.com`
-* **非 SSL CNAME**：`mysite.com.d1.sc.omtrdc.net`
+* **非 SSL CNAME**：`mysite.com.sc.omtrdc.net`
 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
