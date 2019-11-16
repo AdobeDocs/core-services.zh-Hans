@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决方案使用的访客 ID。
-keywords: cookies;隐私
+keywords: cookies;privacy
 seo-description: Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决方案使用的访客 ID。
 seo-title: Experience Cloud Cookies
 solution: Marketing Cloud,Analytics,Target,Social
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用情况 </p> </td> 
-   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
+   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此Cookie的用途是在第一方状态中允许持续的ID跟踪，并在AMCV cookie过期时用作参考ID。 有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
@@ -51,7 +51,9 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[Experience Platform ID服务使用JavaScript将唯一访客ID存储在当前网站域的](https://docs.adobe.com/content/help/en/id-service/using/home.html) cookie中，其中 `AMCV_###@AdobeOrg``###` 表示随机字符串。 例如：`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。另请参阅 [Cookie 和 ID 服务](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+[Experience Platform ID服务使用JavaScript将唯一访客ID存储在当前网站域的](https://docs.adobe.com/content/help/en/id-service/using/home.html) cookie中，其中 `AMCV_###@AdobeOrg``###` 表示随机字符串，如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+
+另请参阅 [Cookie 和 ID 服务](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
