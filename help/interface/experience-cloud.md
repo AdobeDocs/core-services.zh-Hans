@@ -1,38 +1,36 @@
 ---
 description: Adobe Experience cloud的自助服务、产品文档和技术文档。 Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。
-keywords: 核心服务
+keywords: core services
 seo-description: 本页提供Experience cloud的自助服务、产品文档和技术文档。
 seo-title: Adobe Experience cloud和核心服务帮助和产品文档。
 solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
+source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 
 ---
 
 
-# Experience cloud和核心服务产品文档
+# Experience Cloud 和核心服务产品文档
 
 ![Experience Cloud](assets/banner.png)
 
 本页提供Adobe Experience cloud解决方案和服务的自助、支持以及技术和产品文档。 Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。
 
-## 发行说明和社区资源
+## 你想学什么？
 
-* [Experience cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有产品
-* [帮助主页- Experience cloud学习和支持](https://helpx.adobe.com/support/experience-cloud.html)
-* [优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html) -订阅即可每月收到发行说明)
-* [Adobe 视频学习](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Adobe Experience League](https://landing.adobe.com/experience-league/) —— 指导式学习
-* [联系客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [社区论坛](https://forums.adobe.com/community/experience-cloud)
-* [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe客户体验博客](https://theblog.adobe.com/customer-experience/) （博客）
+* [发行说明和产品更新](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience cloud中的新增功能，可订阅以获取更新
+* [实施核心服务的教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -浏览有关核心服务的视频和教程
+* [Experience League的专家帮助](https://landing.adobe.com/experience-league/) -从专家和社区获得指导式学习
+* [教育和培训](https://helpx.adobe.com/learning.html?promoid=KAUDK) -与Adobe互动，确保您充分利用我们的产品
+* [客户体验博客](https://theblog.adobe.com/customer-experience/) -阅读Experience cloud博客
+* [所有产品的帮助](https://helpx.adobe.com/support/experience-cloud.html) -浏览Experience cloud学习和支持中的帮助
+* [客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html) -联系Adobe客户关怀
+
+## 核心服务产品文档
+
 * [核心服务概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/)（博客）
-
-## Experience Cloud 和核心服务帮助
-
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [受众](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [资产](experience-cloud-assets/experience-cloud-assets.md)
