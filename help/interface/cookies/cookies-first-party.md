@@ -8,18 +8,18 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
+source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
 
 ---
 
 
 # 关于第一方 Cookie
 
-Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。这些无害的cookie源自由Adobe托管的域，称为第三方cookie。
+Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。这些无害的cookies源自Adobe托管的域，称为第三方cookies。
 
 许多浏览器和防间谍软件应用程序旨在拒绝并删除第三方 Cookie，包括 Analytics 数据收集中使用的 Cookie。为了支持跟踪访客与网站的交互方式，您可以实施第一方Cookie。
 
-有两个方案可用来实施第一方 Cookie
+可使用两个选项来实施第一方Cookie:
 
 * Experience Platform ID 服务。这个 ID 服务可使用 JavaScript 在第一方上下文中设置 Cookie。
 * 公司DNS服务器上的DNS条目，用于将CNAME别名配置为Adobe托管域。 请注意，虽然各种Adobe产品支持使用CNAME，但在所有情况下，CNAME都用于为特定客户创建可信的第一方端点，且该客户拥有该端点。 如果客户控制多个域，则他们可能使用单个CNAME端点跨域跟踪用户，但这要求CNAME域外的所有域都有第三方Cookie，因此当第三方Cookie被阻止时，它不起作用，因此不建议这样做。 Adobe CNAME永远不会用于跨不同客户拥有的域跟踪个人或设备。
@@ -64,7 +64,7 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 | **Adobe 如何为我们的域购买证书？** | 仅当您将指定的主机名（例如 smetrics.example.com）指向 Adobe 拥有的主机名时，Adobe 才能为您购买证书。这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
 | **我是否可以请求吊销证书？** | 是，作为域所有者，您有权请求我们吊销证书。您只需通过客户关怀部门开立一个票证，即可完成此项操作。 |
 | **此证书是否使用 SHA-2 加密？** | 是，Adobe 将与 DigicerT 一起颁发 SHA-2 证书。 |
-| **这会产生任何额外费用吗？** | 不会，Adobe 可以向当前所有 Analytics 客户提供此服务，不会产生任何额外费用。 |
+| **这会产生任何额外费用吗？** | 否，Adobe将免费向所有当前的Adobe数字体验客户提供此服务。 |
 
 ## 创建 CNAME 记录
 
@@ -79,7 +79,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
->[!N注意：]Experience Cloud 访客 ID 服务提供了一种配置 CNAME 以启用第一方 Cookie 的替代方法。
+>[!N] 注意：Experience cloud访客ID服务为配置CNAME以启用第一方Cookie提供了一种替代方法，但由于Apple ITP最近发生了更改，因此，即使在使用Experience Cloud ID服务时，仍建议您分配CNAME。
 
 ## Ping 主机名
 
@@ -103,7 +103,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!N注意：]如果您使用 `https:// protocol`，那么 Ping 仅在 FPC 专家指定的上传日期之后做出响应。另外，请务必对安全的主机名和不安全的主机名执行 Ping 操作，以确保在更新您的实施前二者均能正常工作。
+>[!N注意：]如果您使用 `https:// protocol`，那么 Ping 仅在 FPC 专家指定的上传日期之后做出响应。此外，请确保ping安全主机名和非安全主机名，以确保在更新实施之前两者均能正确工作。
 
 ## 更新实施代码
 
@@ -111,7 +111,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 * 按照上述步骤请求SSL证书(在Adobe托管证书计划的“ *实施* ”部分中 *介绍)。*
 * 创建 CNAME 记录（请参阅上文）。
-* Ping 主机名（请参阅上文）。
+* Ping主机名（请参阅上文）。
 
 在您验证主机名能够响应并转发到 Adobe 数据收集服务器后，您可以更改实施以指向您自己的数据收集主机名。
 
