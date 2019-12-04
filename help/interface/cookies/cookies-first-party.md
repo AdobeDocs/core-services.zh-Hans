@@ -1,6 +1,6 @@
 ---
 description: Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。
-keywords: cookies;隐私
+keywords: cookies;privacy
 seo-description: Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。
 seo-title: 第一方 Cookie
 solution: Experience Cloud,Analytics
@@ -8,26 +8,29 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
+source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
 
 ---
 
 
 # 关于第一方 Cookie
 
-Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。这些无害的 Cookie 源自 Adobe 托管的域，称为第三方 Cookie。
+Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。这些无害的cookie源自由Adobe托管的域，称为第三方cookie。
 
-许多浏览器和防间谍软件应用程序旨在拒绝并删除第三方 Cookie，包括 Analytics 数据收集中使用的 Cookie。为了规避浏览器和程序实施的跟踪限制，您可以实施第一方 Cookie。
+许多浏览器和防间谍软件应用程序旨在拒绝并删除第三方 Cookie，包括 Analytics 数据收集中使用的 Cookie。为了支持跟踪访客与网站的交互方式，您可以实施第一方Cookie。
 
 有两个方案可用来实施第一方 Cookie
 
 * Experience Platform ID 服务。这个 ID 服务可使用 JavaScript 在第一方上下文中设置 Cookie。
-* 您公司 DNS 服务器上的 DNS 条目。
-* 如果您的站点使用 `https:` 协议来保证页面安全，并且您未使用 Experience Platform ID 服务，那么您可以与 Adobe 合作以获取一个 SSL 证书来实施第一方 Cookie
+* 公司DNS服务器上的DNS条目，用于将CNAME别名配置为Adobe托管域。 请注意，虽然各种Adobe产品支持使用CNAME，但在所有情况下，CNAME都用于为特定客户创建可信的第一方端点，且该客户拥有该端点。 如果客户控制多个域，则他们可能使用单个CNAME端点跨域跟踪用户，但这要求CNAME域外的所有域都有第三方Cookie，因此当第三方Cookie被阻止时，它不起作用，因此不建议这样做。 Adobe CNAME永远不会用于跨不同客户拥有的域跟踪个人或设备。
+
+即使将第一个选项与Experience Cloud ID服务结合使用，Apple的ITP也会使第一方Cookie短期有效，因此最好将其与第二个选项结合使用。
+
+对于使用CNAME的第二个选项，如果您的站点具有使用协议的安全页面，则可以与Adobe一起获取SSL证书以实施第一方Cookie。 `https:` Adobe强烈建议您只使用HTTPS进行数据收集，因为我们将在2020年下半年放弃对HTTP收集的支持。
 
 SSL 证书的颁发过程往往令人感到混乱和费时。为此，Adobe 与行业领先的证书颁发机构 (CA) 建立了合作伙伴关系，并制定出一个集成式流程，进而实现了购买和管理这些证书的自动化。
 
-在获得您的允许后，我们将与我们的 CA 一起为您颁发、部署和管理一个新的 SHA-2 SSL 证书。Adobe 将继续管理此证书，并确保意外的过期、撤销或安全问题不会威胁到贵组织安全集合的可用性。
+在获得您的允许后，我们将与我们的 CA 一起为您颁发、部署和管理一个新的 SHA-2 SSL 证书。Adobe将继续管理此证书，并确保意外的过期、撤销或安全问题不会威胁组织的安全集合的可用性。
 
 ## Adobe 管理的证书计划
 
@@ -51,7 +54,7 @@ Adobe 管理的证书计划允许您在不增加任何额外费用的情况下�
 
 ### 维护和续订
 
-SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购买一个新证书。当每次实施接近失效期时，贵公司内的所有受支持用户都会收到一个电子邮件通知。为了让 Adobe 续订您的主机名，一位受支持的用户必须回复 Adobe 的电子邮件，并表明您计划继续使用即将到期的主机名进行数据收集。在这种情况下，Adobe 会自动购买并安装新证书。
+SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购买一个新证书。当每次实施接近失效期时，贵公司内的所有受支持用户都会收到一个电子邮件通知。要使Adobe续订您的主机名，一个受支持的用户必须回复Adobe发送的电子邮件，并指示您计划继续使用即将过期的主机名进行数据收集。 在这种情况下，Adobe 会自动购买并安装新证书。
 
 ### 常见问题解答
 
@@ -106,7 +109,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 在网站上编辑代码以使用第一方 Cookie 之前，请完成以下前提条件：
 
-* 请求 SSL 证书，如 Adobe 管理的证书计划“实施步骤”中所述。
+* 按照上述步骤请求SSL证书(在Adobe托管证书计划的“ *实施* ”部分中 *介绍)。*
 * 创建 CNAME 记录（请参阅上文）。
 * Ping 主机名（请参阅上文）。
 
