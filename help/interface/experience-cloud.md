@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
+source-git-commit: 23a181998da438d775233235300845febf9c22c6
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 * [Experience League的专家帮助](https://landing.adobe.com/experience-league/) -从专家和社区获得指导式学习
 * [教育和培训](https://helpx.adobe.com/learning.html?promoid=KAUDK) -与Adobe互动，确保您充分利用我们的产品
 * [客户体验博客](https://theblog.adobe.com/customer-experience/) -阅读Experience cloud博客
-* [所有产品的帮助](https://helpx.adobe.com/support/experience-cloud.html) -浏览Experience cloud学习和支持中的帮助
+* [所有Experience cloud解决方案的产品文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -通过Experience cloud学习和支持浏览以获取帮助
 * [客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html) -联系Adobe客户关怀
 
 ## 核心服务产品文档
