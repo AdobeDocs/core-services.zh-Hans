@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 在网站上编辑代码以使用第一方 Cookie 之前，请完成以下前提条件：
 
-* 按照上述步骤请求SSL证书(在Adobe托管证书计划的“ *实施* ”部分中 *介绍)。*
+* 按照 *Adobe Managed Certificate Program的“实施* ”部分中所述的步骤请求 [SSL证书](#adobe-managed-certificate-program)。
 * 创建 CNAME 记录（请参阅上文）。
 * Ping主机名（请参阅上文）。
 
