@@ -1,13 +1,13 @@
 ---
 description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
-keywords: 核心服务;客户属性
+keywords: core services;customer attributes
 seo-description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
 seo-title: 客户属性
 solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,12 +36,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **Target mbox：**&#x200B;客户属性需要安装 mbox.js 版本 58 或更高版本。
 
 
-   请参阅 [Mbox.js 实施](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)。
+   请参阅 [Mbox.js 实施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
 * **at.js：**&#x200B;任何版本。
-
-
-
 
 ## 什么是企业客户数据？{#section_6F34C29F11414842AA57D2B1248FA3C6}
 
