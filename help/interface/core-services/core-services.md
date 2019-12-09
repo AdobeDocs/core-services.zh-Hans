@@ -1,13 +1,13 @@
 ---
 description: 实施 Experience Cloud 并成为管理员。此过程可使您的核心服务功能（例如，客户属性和受众）解决方案符合现代化要求。
-keywords: 核心服务;客户属性
+keywords: core services;customer attributes
 seo-description: 实施 Experience Cloud 并成为管理员。此过程可使您的核心服务功能（例如，客户属性和受众）解决方案符合现代化要求。
 seo-title: 为核心服务启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) 使您的实施符合现代化要求并进行管理员身份配置。
 
@@ -116,11 +116,11 @@ For complete Experience Cloud ID service help (formerly, visitor ID), go [here](
 
 在已知客户 ID 的情况下，必须在每次 [!DNL Analytics] 服务器调用中进行设置。
 
-**Mobile SDK**
+### Mobile SDK
 
 有关如何 *在Android和* iOS [](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)[](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) Mobile应用程序中设置其他客户ID的语法示例，请参阅Experience Cloud ID服务部分。
 
-**启用历史数据的属性**
+### 启用历史数据的属性
 
 访客登录后，客户属性数据将变为可用状态。如果您尚未实施最新的 Experience Cloud ID 服务，并且以前一直在跟踪 prop 或 eVar 中的客户 ID，则可以请求一个流程，将历史登录信息发送至 Experience Cloud。此流程允许您立即开始使用客户属性。
 
