@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 中与管理员有关的常见问题及解答。
-keywords: 核心服务
+keywords: core services
 seo-description: Experience Cloud 中与管理员有关的常见问题及解答。
 seo-title: 常见问题解答
 solution: Experience Cloud
 title: 常见问题解答
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 中与管理员有关的常见问题及解答。
 
 
 1. [加入 Experience Cloud 并成为管理员](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用动态标签管理器实施 Experience Cloud ID 服务](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)（或使用新的 [Adobe 的 Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)）
+1. [使用动态标签管理器实施 Experience Cloud ID 服务](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)（或使用新的 [Adobe 的 Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)）
 1. [将报表包映射到 Experience Cloud 组织](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Target）使您的 Adobe Target 实施符合现代化要求](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -62,7 +62,7 @@ Experience Cloud 中的配置表示：
 
 * 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要提示：**&#x200B;对于 Analytics 管理员，请参阅[在管理控制台中管理 Analytics 用户](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)，以了解有关将 Analytics 管理工具中的用户 ID 迁移到管理控制台的信息。
+* **重要提示：**&#x200B;对于 Analytics 管理员，请参阅[在管理控制台中管理 Analytics 用户](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)，以了解有关将 Analytics 管理工具中的用户 ID 迁移到管理控制台的信息。
 
 **如果有人无法登录到 Experience Cloud，我该怎么做？**
 
@@ -82,7 +82,7 @@ Experience Cloud 中的配置表示：
 
 **什么是组织？**
 
-“组织”**&#x200B;是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。
+** 组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。
 
 **我可以在哪里找到我的 IMS 组织 ID？**
 
