@@ -1,13 +1,13 @@
 ---
 description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
-keywords: 客户属性;核心服务
+keywords: customer attributes;core services
 seo-description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 seo-title: 关于客户属性的数据文件和数据源
 solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -81,7 +81,7 @@ CSV 文件必须符合以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。安<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。安<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续的标题和列 </p> </td> 
