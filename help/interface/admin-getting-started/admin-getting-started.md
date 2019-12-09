@@ -1,13 +1,13 @@
 ---
 description: 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。
-keywords: 核心服务
+keywords: core services
 seo-description: 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。
 seo-title: 管理 Experience Cloud 用户和产品
 solution: Marketing Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -63,18 +63,18 @@ Analytics 用户 ID 迁移工具可帮助 Analytics 管理员将用户帐户从 
 
 Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将现有用户帐户从&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;迁移到 Admin Console 时，Adobe 会通知您并给予协助。
 
-迁移后，用户在 [marketing.adobe.com](https://marketing.adobe.com) 上使用他们的 Adobe ID（或 Enterprise ID）登录，并对其 Experience Cloud 解决方案和服务进行身份验证。如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com] 和 [!DNL sc.omniture.com]）进行登录，则会被重定向至 [!DNL marketing.adobe.com]。
+After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com] 和 [!DNL sc.omniture.com]）进行登录，则会被重定向至 [!DNL experiencecloud.adobe.com]。
 
 **相关帮助**
 
-[Analytics 用户 ID 迁移](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Analytics 用户 ID 迁移](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在 Target 中，工作区就是产品配置文件。工作区允许组织向一组特定用户分配一组特定属性。在很多方面，工作区与 Adobe Analytics 中的报表包类似。
 
 请参阅：
-* [企业用户权限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* [企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 视频：[如何在 Adobe 管理控制台中配置 Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
@@ -90,19 +90,19 @@ Campaign 中的&#x200B;*租户*&#x200B;会在“Admin Console 产品”页面中
 
 Experience Platform Lauch 会显示在 Admin Console 的“产品”页面上。您可以在 Launch 产品配置文件中包含其他解决方案和核心服务。
 
-See [User Management](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
 ## 动态标签管理器 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 您可以邀请用户使用“动态标签管理”、分配用户角色和将用户添加到群组。
 
-See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
+See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 创建 Audience Manager 用户并将其分配到群组。您还可以查看各种限制（特征、区段、目标和 AlgoModel）。
 
-请参 [阅Audience](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) manager帮助中的管理。
+请参 [阅Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) manager帮助中的管理。
 
 ## 管理 Experience Cloud 产品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -118,7 +118,7 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 以下资源提供了更多帮助：
 
 * [管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Target 帮助中的[企业用户权限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)提供了更多信息。
+* Target 帮助中的[企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)提供了更多信息。
 * 视频：[如何在 Adobe 管理控制台中配置 Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 将 Analytics 访问权限分配给产品配置文件 {#task_040673FE3E3E429B9531FBCB8B6A4391}
