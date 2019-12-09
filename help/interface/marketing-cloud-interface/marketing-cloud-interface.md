@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 中的新增功能和更新概述。
-keywords: 核心服务
+keywords: core services
 seo-description: Experience Cloud 中的新增功能和更新概述。
 seo-title: Experience Cloud 的新增功能
 solution: Experience Cloud
 title: Experience Cloud 的新增功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud 中的新增功能和更新概述。
 
 * 部署了一项后端功能，以控制“Marketing Cloud 到 AEM”与“Marketing Cloud 到 Creative Cloud”之间的资产共享。(CORE-14386)
 * 修复了在某些环境中阻止配置新租户的问题。(CORE-15509)
-* 修复了在通过 [!DNL http] 而不是 [!DNL https]（安全）访问 [!DNL experiencecloud.adobe.com] 时将用户重定向到 [!DNL marketing.adobe.com] 的问题。(CORE-15587)
+* 修复了在通过 [!DNL http] 而不是 [!DNL https]（安全）访问 [!DNL experiencecloud.adobe.com] 时将用户重定向到 [!DNL experiencecloud.adobe.com] 的问题。(CORE-15587)
 * 修复了阻止一些新租户接收通知的问题。(CORE-15240)
 
 ## 2018 年 6 月 14 日 {#section_7ABC327992CB46B0B8E4A631B8B68899}
@@ -67,7 +67,7 @@ Experience Cloud 中的新增功能和更新概述。
 |--- |--- |
 | 通知 - 粒度设置 | 您可以启用产品和解决方案事件和活动的通知，包括有关[客户属性](../attributes/attributes.md)上传活动的通知。 |
 | 通知 - 维护通知 | 在“通知”设置中，您可以启用产品和解决方案的维护通知。 |
-| Experience Cloud 解决方案的管理控制台 | 新的 Experience Cloud 客户可以开始使用管理控制台，它是一个用于在您的整个组织内管理 Adobe 权限的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 将在需要进行迁移时通知您（系统管理员）。<br>对于 Analytics 管理员，请参阅 [Analytics 迁移](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)。 |
+| Experience Cloud 解决方案的管理控制台 | 新的 Experience Cloud 客户可以开始使用管理控制台，它是一个用于在您的整个组织内管理 Adobe 权限的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 将在需要进行迁移时通知您（系统管理员）。<br>对于 Analytics 管理员，请参阅 [Analytics 迁移](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)。 |
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
