@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 关于核心服务
 uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
 translation-type: tm+mt
-source-git-commit: d72dde29049ed75f497cb70f0d1b1f077f0712fa
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -26,5 +26,5 @@ Adobe Experience Platform 可集中化和标准化整个企业内的数据和内
 | [Exchange](https://experiencecloud.adobeexchange.com/) | 扩展您的 Adobe Experience Cloud 功能，使其包含最佳的扩展、脚本，等等。可使用搜索栏进行查找，或者按产品或应用程序类型进行排序。 |
 | [Launch](activation/activation.md) | 网站和应用程序的数据收集和技术激活。该服务包括：<ul><li>Experience Platform Launch（最新的标签管理解决方案）</li><li>动态标签管理</li><li>触发器</li></ul> |
 | [信息源](feed.md) | **从2019年11月1日开始，将不再支持Experience Cloud Feed，并将于2019年12月前弃用。**&#x200B;使用您的 Experience Cloud 信息源，直接与他人共享或向他人发布资产和 Analytics 报表。 |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services 可以在整个 Adobe Marketing Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
+| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Mobile Services 可以在整个 Adobe Marketing Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
 | [人员](audience-library/audience-library.md) | 在“受众库”中，您可以创建受众、合并现有受众以创建组合受众，以及查看所有共享的受众。<br>在“客户属性”中，您还可以将企业客户数据上传到 Experience Cloud。 |
