@@ -1,13 +1,13 @@
 ---
 description: 了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
-keywords: 核心服务
+keywords: core services
 seo-description: 了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
 seo-title: 登录并管理配置文件设置
 solution: Marketing Cloud
 title: 登录并管理配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 1. 通过您的管理员验证您的[组织](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)是否已在 Experience Cloud 中配置。
 
 
-1. 导航到 [Adobe Experience Cloud](https://marketing.adobe.com) ([!DNL marketing.adobe.com])。
+1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])。
 1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
@@ -141,15 +141,13 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 您可以选择使用 Experience Cloud 界面提供的身份验证登录到解决方案中的特定页面。
 
+### URL 模板
 
-<!-- mac-deep-linking.xml -->
-**URL 模板**
-
-[!DNL https://<tenantId>.marketing.adobe.com/<solutionname>?destURL=<fullURL>]
+`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
 
 示例 URL：
 
-[!DNL https://aem62tenant.marketing.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html]
+`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
