@@ -1,13 +1,13 @@
 ---
 description: 将 Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
-keywords: 核心服务
+keywords: core services
 seo-description: 将 Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
 seo-title: 发布 Analytics 受众区段
 solution: Experience Cloud
 title: 发布 Analytics 受众区段
 uuid: 4201dc22-4b79-457c-a614-949bba087617
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 将 Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
 
-1. 在 Analytics 中[创建区段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)。
+1. 在 Analytics 中[创建区段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
 1. 在区段生成器上，启用&#x200B;**[!UICONTROL 将此区段发布到 Experience Cloud]** 选项。
 
    ![](assets/ec_audience_example.png)
