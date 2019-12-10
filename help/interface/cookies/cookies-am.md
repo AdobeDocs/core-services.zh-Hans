@@ -1,13 +1,13 @@
 ---
 description: Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
-keywords: cookie
+keywords: cookies
 seo-description: Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
 seo-title: Audience Manager Cookie
 solution: Marketing Cloud,Audience Manager
 title: Audience Manager Cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含唯一用户 ID (UUID)，如下面的示例所示： </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>另请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Audience Manager 中的 ID 索引</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含唯一用户 ID (UUID)，如下面的示例所示： </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>另请参阅 <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager 中的 ID 索引</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他属性</b> </p> </td> 
@@ -125,7 +125,7 @@ dextp Cookie 数据语法：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>用途</b> </p> </td> 
-   <td colname="col2"> <p> 如果在向<span class="keyword">目标</span>发送数据时出现错误，<a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">Audience Manager</a> 会设置此 Cookie。 </p> </td> 
+   <td colname="col2"> <p> 如果在向<span class="keyword">目标</span>发送数据时出现错误，<a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">Audience Manager</a> 会设置此 Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
