@@ -5,7 +5,7 @@ seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 * 将 Experience Cloud 组织设置为报表包的主要组织。
 * 请勿更改对报表包拥有访问权限的用户（访问权限仍取决于每个用户的 Adobe Analytics 登录帐户）
 
-
 **要求**
 
 您必须是对要映射的报表包拥有访问权限的登录公司中的 Analytics 管理员。此外，要将报表包映射到 Experience Cloud 组织，这个帐户还必须[与 Experience Cloud 组织关联](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
@@ -29,8 +28,6 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 ## 将一个报表包映射到组织 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. 单击 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 报表包映射]**
-
-   您还可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
 1. 要查看对每个报表包拥有访问权限的登录公司，请单击&#x200B;**[!UICONTROL 对登录公司可见]**。
 
@@ -43,8 +40,6 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 ## 将多个报表包映射到组织 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. 单击 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 报表包映射]**。
-
-   您还可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
 1. 选择要映射的报表包。
 
@@ -62,7 +57,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **我应该选择哪个组织？**
 
-如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
+如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
 
 如果为报表包收集数据的网站上尚未部署访客 ID 服务，那么当您将来部署 Experience Cloud 访客 ID 服务时，您将需要确保部署中的组织与您在报表包映射工具中选择的组织一致。
 
