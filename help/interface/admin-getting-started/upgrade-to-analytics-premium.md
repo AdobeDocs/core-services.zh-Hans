@@ -1,6 +1,6 @@
 ---
 description: 管理员可以了解在升级到 Analytics Premium 时的相应要求和预期，以及作为一名 Experience Cloud 管理员，应在何处查找帮助。
-keywords: 升级
+keywords: upgrading
 seo-description: 管理员可以了解在升级到 Analytics Premium 时的相应要求和预期，以及作为一名 Experience Cloud 管理员，应在何处查找帮助。
 seo-title: 升级到 Analytics Premium 和 Experience Cloud
 solution: Experience Cloud
@@ -8,7 +8,7 @@ title: 升级到 Analytics Premium 和 Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 使用 Analytics Premium，您可以：
 
 * 访问 250 个转化变量 (eVar)
-* 执行[移动设备应用程序分析](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* 执行[移动设备应用程序分析](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * 使用 Data Workbench（可视数据查询；基于规则的属性；跨渠道分析）
 
 >[!NOTE]
@@ -81,9 +81,9 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述的实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
 
-加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL marketing.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
+加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL experiencecloud.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
 
-**管理用户和群组**
+### 管理用户和群组
 
 用户管理在 [Adobe 管理控制台](https://helpx.adobe.com/enterprise/help/aedash.html)（产品链接）中执行。
 
