@@ -1,16 +1,17 @@
 ---
 cloud: experience-cloud
-product: 核心服务
+product: core-services
+solution: Core Services
 solution-title: 核心服务
 solution-hub-url: https://helpx.adobe.com/cn/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
-getting-started-title: 入门指南
+getting-started-title: 快速入门
 getting-started-url: https://helpx.adobe.com/cn/experience-cloud-core-services/get-started.html
 tutorials-title: 教程
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: ef7f3ea5f42cef8d254080cc33994f4607cfed88
+source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
 
 ---
 
