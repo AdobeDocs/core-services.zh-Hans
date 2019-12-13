@@ -5,7 +5,7 @@ seo-title: Advertising Cloud Cookie
 title: Advertising Cloud Cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
 
 ---
 
@@ -13,39 +13,6 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 # Advertising Cloud Cookie{#advertising-cloud-cookies}
 
 Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并可能使用该信息来优化广告投标。
-
-## Cookie 名称：id_adcloud
-
-<table id="id_adcloud"> 
-<thead> 
-<tr> 
-<th colname="col1" class="entry"> 属性 </th> 
-<th colname="col2" class="entry"> 描述 </th> 
-</tr> 
-</thead>
-<tbody> 
-<tr> 
-<td colname="col1"> <p>存储的信息 </p> </td> 
-<td colname="col2"> <p>冲浪者 ID </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>过期 </p> </td> 
-<td colname="col2"> <p>91 天 </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>使用情况 </p> </td> 
-<td colname="col2"> <p>Cookie 已在第一方域中设置，但尚未使用 </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>位置 </p> </td> 
-<td colname="col2"> <p>广告商的顶级域（如 example.com） </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>大小 </p> </td> 
-<td colname="col2"> <p>16 字节 </p> </td> 
-</tr> 
-</tbody> 
-</table>
 
 ## Cookie 名称：_lcc
 
@@ -125,7 +92,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>冲浪者 ID，冲浪者上次访问广告商网站和上次搜索点击的时间戳，以及在用户单击广告时创建的 ef_id</p> </td> 
+   <td colname="col2"> <p>冲浪者上次访问广告商网站和冲浪者上次搜索单击的时间戳，以及用户单击广告时创建的ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
