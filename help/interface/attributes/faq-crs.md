@@ -1,13 +1,13 @@
 ---
 description: 关于 Analytics 和 Target 中的客户属性的常见问题解答和最佳实践
-keywords: 客户属性
+keywords: customer attributes
 seo-description: 关于 Analytics 和 Target 中的客户属性的常见问题解答和最佳实践
 seo-title: 常见问题解答、各种限制和最佳实践
 solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
+source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
 | 问题 | 描述 |
 |--- |--- |
 | 客户属性订阅限制 | 当您升级到 Analytics Premium 时，附加属性会在延迟 24 小时后才可用。在此延迟期间，您可能会看到出现属性订阅达到最大值错误。 |
+| 每日频率上传限制 | 最佳做法是每天不更新一次客户属性。 Adobe建议您至少等待24小时以上传另一个客户配置文件数据文件（针对同一组配置文件）。 |
 | 客户 Analytics ID (s.visitorID) | 使用 s.visitorID 设置客户 ID 是在 Analytics 中标识用户的一种方法。但是，如果在集成中使用 ID 服务导出或导入 Analytics 数据，则当访客使用 s.visitorID 进行标识时，这些集成将无法正常工作。<br>这包括但不限于，共享的受众、Analytics for Target (A4T) 和客户属性。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
 | Analytics 中的字符长度限制 | 在创建 Analytics 订阅时，上传文件的字段长度会被截断为 255 个字符。 |
 
