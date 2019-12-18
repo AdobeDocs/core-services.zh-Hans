@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
+source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
 
 ---
 
@@ -15,7 +15,6 @@ source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
 # 常见问题解答、各种限制和最佳实践
 
 关于 Analytics 和 Target 中的客户属性的常见问题解答和最佳实践
-
 
 ## 最佳实践和限制 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
