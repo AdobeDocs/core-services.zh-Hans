@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -23,8 +23,9 @@ source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
 | 问题 | 描述 |
 |--- |--- |
 | 客户属性订阅限制 | 当您升级到 Analytics Premium 时，附加属性会在延迟 24 小时后才可用。在此延迟期间，您可能会看到出现属性订阅达到最大值错误。 |
+| 同一设备上的多个登录 | 当使用客户属性将客户档案上传到数据源时，Adobe建议共享相同设备（即同一Experience Cloud ID）的用户不要这样做。 这样做可能导致ECID服务（该服务在设备上仍然存在）在同一Experience Cloud ID下链接多个用户，从而导致意外结果 [!DNL Target]。 **** 注意：对于Mobile，安装Mobile应用程序后ECID是永久的，您必须重新安装该应用程序才能生成新ECID。 对于Web，在清除浏览器Cookie后将生成新ECID。 |
 | 每日频率上传限制 | Adobe建议您每天只更新一次客户属性。 您必须等待至少24小时才能为同一组配置文件上传另一个客户配置文件数据文件。 |
-| 客户 Analytics ID (s.visitorID) | 使用 s.visitorID 设置客户 ID 是在 Analytics 中标识用户的一种方法。但是，如果在集成中使用 ID 服务导出或导入 Analytics 数据，则当访客使用 s.visitorID 进行标识时，这些集成将无法正常工作。<br>这包括但不限于，共享的受众、Analytics for Target (A4T) 和客户属性。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
+| Custom Analytics ID (`s.visitorID`) | 使用 `s.visitorID` 设置客户 ID 是在 Analytics 中标识用户的一种方法。但是，当使用 `s.visitorID.`<br>This包括（但不限于）共享受众、Analytics for Target(A4T)和客户属性来标识访客时，使用ID服务导出或导入Analytics数据的集成将不起作用。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
 | Analytics 中的字符长度限制 | 在创建 Analytics 订阅时，上传文件的字段长度会被截断为 255 个字符。 |
 
 ## 关于客户属性的常见问题解答 {#section_E47866EEA83348E09FE43CEC5E44C461}
