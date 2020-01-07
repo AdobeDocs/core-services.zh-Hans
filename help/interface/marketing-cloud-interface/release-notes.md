@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -19,6 +19,10 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 要获取涵盖所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
+
+## 2020年1月至20日
+
+* Feed页已于2019年12月弃用。 请查看产品内的弃用通知。(MCUI-10039)
 
 ## 8 月版 - 2019 年
 
@@ -95,7 +99,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **已知问题**
 
-如果您通过 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 激活]**&#x200B;界面访问 Dynamic Tag Management，但您的 Dynamic Tag Management 帐户没有关联到 Experience Cloud (Adobe ID)，则您将无法登录到 Dynamic Tag Management。要避免出现此问题，请在新的浏览器选项卡中直接导航到 [!DNL dtm.adobe.com]。
+如果您通过 **[!UICONTROL Experience Cloud]**>**[!UICONTROL &#x200B;激活]**界面访问动态标签管理，但您的动态标签管理帐户没有关联到 Experience Cloud (Adobe ID)，则您将无法登录到动态标签管理。要避免出现此问题，请在新的浏览器选项卡中直接导航到 [!DNL dtm.adobe.com]。
 
 ## 16.1 版 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -442,7 +446,8 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>  受众中的<span class="wintitle">保存</span>按钮 </p> </td> 
-   <td colname="col2"> <p>现在创建受众时，在您填写完所有必填字段之前，<span class="wintitle">创建新受众</span>页面上的<span class="wintitle">保存</span>按钮处于禁用状态。<!--MAC-19712 --></p> </td> 
+   <td colname="col2"> <p>现在创建受众时，在您填写完所有必填字段之前，<span class="wintitle">创建新受众</span>页面上的<span class="wintitle">保存</span>按钮处于禁用状态。 
+     <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -504,7 +509,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 删除图像时，如果该图像同时被 Adobe Target Essentials 使用，则资产不会发出警告。
 * 当多个用户同时使用 [!UICONTROL Experience Cloud] 界面时，该界面性能会降低。
 * 删除 [!UICONTROL Experience Cloud 资产]中的图像时，如果该图像同时被 [!DNL Adobe Target Essentials] 使用，则不会发出警告。
-* 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]，则用户将在 15 分钟后被注销。**
+* 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]**，则用户将在 15 分钟后被注销。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
 * 登录到 [!DNL Experience Cloud] 需要花费超过一秒钟的时间。
 * 对于某些用户，从 [!DNL Experience Cloud] 中删除文件时不会与 [!DNL Digital Asset Management] 同步。
@@ -538,7 +543,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 * 在将自定义标签添加到资产后，没有任何其他元数据更改可以持久保留。
 * 用户需要刷新展示板才能使已删除的信息卡在视图中消失。
-* 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]，则用户将在 15 分钟后被注销。**
+* 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]**，则用户将在 15 分钟后被注销。
 * [!DNL Analytics] 解决方案登录页面显示格式错误。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
 * 删除图像时，如果该图像同时被 [!UICONTROL  使用，则]资产[!DNL Adobe Target Essentials]不会发出警告。
@@ -619,5 +624,5 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 * 修复了阻止共享 [!DNL Analytics] 报表应用区段过滤器的问题。
 * 修复了导致即使未关联解决方案帐户，“[!UICONTROL Experience Cloud 解决方案]”页面上的解决方案也显示为已关联的问题。
-* 修复了亚洲的 [!DNL Adobe Target] 客户无法单击关联页面上的 **[!UICONTROL 继续访问 Experience Cloud]** 按钮的问题。
+* 修复了亚洲的 [!DNL Adobe Target] 客户无法单击关联页面上的 **[!UICONTROL 继续访问 Experience Cloud]**按钮的问题。
 * 修复了阻止共享 Youtube 视频的问题。
