@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -115,7 +115,3 @@ ID 为：
 **为什么我的公司没有 Social 但是我却能看到？**
 
 Adobe Social 产品可以随 Analytics 一起购买。因此，如果您有 Analytics，将会看到此解决方案，但您没有它的访问权限，除非您另外购买。
-
-**如何将报表或营销活动共享到 Experience Cloud？**
-
-例如，Analytics 报表或 Target 营销活动都是您可以在[信息源](../feed.md#concept_9256B8768A294009A777282DD8719213)中共享的资产示例。
