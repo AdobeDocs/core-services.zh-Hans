@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 资产
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -71,23 +71,23 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 
 ## 在资产中添加批注 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-单击&#x200B;**[!UICONTROL 注释]后，可以在图像上绘制圆圈或箭头，并在资产中添加批注，以供合作者审阅。**
+单击&#x200B;**[!UICONTROL 注释]**后，可以在图像上绘制圆圈或箭头，并在资产中添加批注，以供合作者审阅。
 
 ![](assets/assets-annotate.png)
 
-## 将资产共享到信息源 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-**从2019年11月1日开始，将不再支持Experience Cloud Feed，并将于2019年12月前弃用。**
+**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
 
-单击工具栏中的&#x200B;**[!UICONTROL 共享]**，以将资产作为[信息源](../feed.md#concept_9256B8768A294009A777282DD8719213)共享到其他 Experience Cloud 用户。
+Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
 
-![](assets/assets-share-card.png)
+![](assets/assets-share-card.png) 
 
-共享后，您的信息源页面上将会显示相关图像，以及您与其共享信息卡的人员。
+Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
 
 ## 全屏查看和缩放资产 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-单击&#x200B;**[!UICONTROL 视图]** &gt; **[!UICONTROL 图像]**，可以查看完整的资产图像并启用缩放功能。
+单击&#x200B;**[!UICONTROL 视图]**>**[!UICONTROL &#x200B;图像]**，可以查看完整的资产图像并启用缩放功能。
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +95,7 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 
 可以在属性信息卡视图、列表视图和列视图之间进行选择，以便更加轻松地查找您的资产。
 
-单击&#x200B;**[!UICONTROL 视图]** &gt; **[!UICONTROL 属性]**，可以查看资产的属性：
+单击&#x200B;**[!UICONTROL 视图]**>**[!UICONTROL &#x200B;属性]**，可以查看资产的属性：
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +103,6 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 
 可以查看用户数量、已用存储空间，以及资产总计等信息。
 
-单击&#x200B;**[!UICONTROL 工具]** &gt; **[!UICONTROL 报表]** &gt; **[!UICONTROL 使用情况报表]**
+单击&#x200B;**[!UICONTROL 工具]**>**[!UICONTROL &#x200B;报表]** > **[!UICONTROL 使用情况报表]**
 
 ![](assets/assets-usage-report.png)
