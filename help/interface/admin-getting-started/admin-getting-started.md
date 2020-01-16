@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. 键入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 及密码。
 
-或者，从 Experience Cloud 菜单 (![](assets/menu-icon.png)) 中，单击&#x200B;**[!UICONTROL 管理]** &gt; **[!UICONTROL 启动 Admin Console]**。
+或者，从 Experience Cloud 菜单 (![](assets/menu-icon.png)) 中，单击&#x200B;**[!UICONTROL 管理]**>**[!UICONTROL &#x200B;启动 Admin Console]**。
 
 **相关帮助**
 
@@ -61,7 +61,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 Analytics 用户 ID 迁移工具可帮助 Analytics 管理员将用户帐户从 Analytics 用户管理迁移到 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)。
 
-Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将现有用户帐户从&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 用户管理]**&#x200B;迁移到 Admin Console 时，Adobe 会通知您并给予协助。
+Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将现有用户帐户从&#x200B;**[!UICONTROL 管理工具]**>**[!UICONTROL &#x200B;用户管理]**迁移到 Admin Console 时，Adobe 会通知您并给予协助。
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com] 和 [!DNL sc.omniture.com]）进行登录，则会被重定向至 [!DNL experiencecloud.adobe.com]。
 
@@ -110,7 +110,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 当您邀请用户加入组织时，您可以授予用户访问产品和产品配置文件的权限。您还可以将有限的管理权限授权给用户。同样，您可以创建用户群组，然后将该群组添加到产品配置文件以启用访问。
 
-1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
+1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，单击&#x200B;**[!UICONTROL 产品]**。
 1. 单击&#x200B;**[!UICONTROL 新建配置文件]**。
 1. 配置该配置文件的详细信息，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 单击&#x200B;**[!UICONTROL 完成]**。
@@ -154,21 +154,24 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 1. 在 Admin Console 中，单击&#x200B;**[!UICONTROL 用户]**，然后单击用户的名称。
 1. 单击&#x200B;**[!UICONTROL 编辑管理权限]**。
 1. 配置用户的管理权限。
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以查看设置，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**以查看设置，然后单击**[!UICONTROL &#x200B;保存]**。
 
 ## 支持的浏览器和系统要求 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
 Experience Cloud 中支持的浏览器。
 
-**Experience Cloud 核心服务**
+Experience cloud支持的浏览器包括：
 
-* Microsoft 最新推出的 Internet Explorer。（Microsoft 已[结束](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，Adobe 将不会修复针对这些特定 Internet Explorer 版本报告的问题。）
-* Google Chrome
-* Mozilla Firefox
-* Apple Safari
+* [!DNL Microsoft Edge] (Microsoft已 [停止对Internet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Explorer 8、9和10的支持。 因此，Adobe 将不会修复针对这些特定 Internet Explorer 版本报告的问题。）
+* [!DNL Google Chrome]
+* [!DNL Firefox]
+* [!DNL Safari]
+* [!DNL Opera]
+
+**** 注意：尽管Experience cloud界面支持这些浏览器，但单个解决方案可能不支持每个浏览器。 (例如， [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera], [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。)
 
 **解决方案和产品要求**
 
-* [分析](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) （包括Adobe Social）
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
