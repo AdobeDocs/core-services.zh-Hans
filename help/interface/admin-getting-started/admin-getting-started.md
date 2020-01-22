@@ -1,9 +1,9 @@
 ---
-description: 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。
+description: 了解如何登录到Admin Console、管理Experience cloud用户权限和产品配置以及浏览器支持。
 keywords: core services
-seo-description: 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。
+seo-description: 了解如何登录到Admin Console、管理Experience cloud用户权限和产品配置以及浏览器支持。
 seo-title: 管理 Experience Cloud 用户和产品
-solution: Marketing Cloud
+solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # 管理 Experience Cloud 用户和产品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。
+了解如何登录到Admin Console、管理Experience cloud用户权限和产品配置以及浏览器支持。
 
 >[!IMPORTANT]
 >
@@ -168,7 +168,7 @@ Experience cloud支持的浏览器包括：
 * [!DNL Safari]
 * [!DNL Opera]
 
-**** 注意：尽管Experience cloud界面支持这些浏览器，但单个解决方案可能不支持每个浏览器。 (例如， [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera], [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。)
+**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
 
 **解决方案和产品要求**
 
