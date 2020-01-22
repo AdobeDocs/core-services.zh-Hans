@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -105,6 +105,11 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
   <tr> 
    <td colname="col1"> <p> <b>（仅限 Target）</b>根据客户 ID 识别访客后，我能否立即定位在客户属性中上传的数据？ </p> </td> 
    <td colname="col2"> <p>是. </p> <p>在对 Target 进行的服务器调用中（其中包括 mbox 第三方 ID），所有客户属性数据都将可用。 </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> （仅限Target）</b> “同步状态”列对于在客户属性来源中上传的文件表示什么？ </p> </td> 
+   <td colname="col2"> <p> 通过单击特定属性文件的“同步状态”图标，可以查看由Target发布和同步的记录数。 “同步%”是一个实时度量，它指定在Target中同步的配置文件的%。 </p> <p> <b></b> 注意：与Target同步的属性可能需要24小时。 </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
