@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ## 你想学什么？
 
+* [所有Experience cloud解决方案的产品文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -通过Experience cloud学习和支持浏览以获取帮助
 * [发行说明和产品更新](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience cloud中的新增功能，可订阅以获取更新
 * [实施核心服务的教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -浏览有关核心服务的视频和教程
 * [Experience League的专家帮助](https://landing.adobe.com/experience-league/) -从专家和社区获得指导式学习
 * [教育和培训](https://helpx.adobe.com/learning.html?promoid=KAUDK) -与Adobe互动，确保您充分利用我们的产品
 * [客户体验博客](https://theblog.adobe.com/customer-experience/) -阅读Experience cloud博客
-* [所有Experience cloud解决方案的产品文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -通过Experience cloud学习和支持浏览以获取帮助
 * [客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html) -联系Adobe客户关怀
 
 ## 核心服务产品文档
