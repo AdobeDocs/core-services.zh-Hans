@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 术语
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: cb161cae8999c0fcbbdca711a82ae5f670d66eb1
+source-git-commit: 5b249be1769d6f10fae68340f0a28082e389e9bd
 
 ---
 
@@ -27,6 +27,7 @@ Experience cloud用户的术语参考，以及这些术语在Creative cloud中�
 | 消费者ID | 无特殊用途。 | 设备协作成员用于识别人员的ID。 此编号由品牌分配，并且通常在CRM系统中进行维护。 **** 注意：此ID不应与setCustomerID混淆 _,_[](https://docs.adobe.com/content/help/en/id-service/using/intro/about-id-service.html) setCustomerID是将消费者ID发送到Experience Cloud的Experience Cloud ID服务函数调用。 |
 | 内容 | 在 Creative Cloud 中，内容是指页面上的文本和图像。该术语在 Creative Cloud 和 Experience Cloud 中的用法类似。 | 在 Experience Cloud 中，上下文指可以作为营销活动一部分的市场营销内容，用于支持某个特定目标。<br>内容用在特定的位置，并可由资产组成。内容既可以是结构化的，如产品信息；也可以是非结构化的，如移动设备应用程序中的网页或屏幕。<br>示例包括：<ul><li>网页</li><li>横幅广告</li><li>状态更新</li><li>评论</li><li>文本广告</li><li>产品信息</li><li>产品评论</li><li>表单数据</li><li>搜索索引中的文档</li><li>社交帖子</li><li>文章</li><li>出版物</li></ul> |
 | 功能板 | 无特殊用途。 | 在单个视图中显示多个关键指标的数据可视化集合。 |
+| 数据使用强制 | 无特殊用途。 | 由系统（解决方案、应用程序、服务、SDK、API等）制定和定义的政策、系统设计、惯例和程序，用于使用数据使用元数据，以使数据使用符合Adobe公司隐私政策、合同考虑事项和一般隐私原则。 |
 | 设备协作 | 无特殊用途。 | 一组品牌同意共享消费者使用的设备相关数据，以便跨设备更好地识别个人并提供更有意义、更一致的体验。 |
 | 链接 | 无特殊用途。关联是指超链接导航，以及关联各种项目，如字体、属性、图层等等。 | 在 Experience Cloud 中，关联通常指将不同的解决方案帐户与界面关联。<br>请参阅[组织和帐户关联](admin-getting-started/organizations.md)。<br>关联/链接还指发送给其他用户的 Analytics 报表所对应的标准 URL。 |
 | 位置 | 在 Creative Cloud 中，位置是指文件位置或打开的图像或文档所处的位置。 | 在 Experience Cloud 中，位置是指向受众显示内容（并且可以与受众进行内容交互）的地方。位置和内容之间的关联可以或多或少地具有一些静态性，也可以根据营销活动的规则进行动态管理。位置总是属于某个特定渠道，该渠道决定内容的交付方式以及量度的收集方式。<br>示例包括：<ul><li>网站</li><li>属性（社交）</li><li>显示库存</li><li>登陆页面</li><li>移动设备应用程序</li><li>插槽（视频）</li></ul> |
