@@ -7,14 +7,23 @@ solution: Experience Cloud
 title: 为核心服务启用解决方案
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 7e2ff64af9b610eafd2e6077012542434a984e6e
 
 ---
 
 
 # 为核心服务启用解决方案
 
-对于现有客户，了解如何使您的解决方案实施现代化并实施Experience Cloud，以便您能够使用客户属性和受众等功能。
+对于现有客户，了解如何使您的解决方案实施现代化并实施Experience Cloud，以便您能够使用客户属性和受众等功能。 要实现此目的，您将：
+
+1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [实施Experience Cloud ID服务](#section_3C9F6DF37C654D939625BB4D485E4354)
+1. [将报表包映射到Experience cloud组织](#section_7B08516B01BA421681DF03D0E86CE3BA)
+1. [更新Analytics appMeasurement代码](#section_1798D9D0F05C47E29816AC4EEB9A0913)
+1. [更新Adobe Target实施](#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [验证核心服务实施](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [管理用户和产品](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
+1. [开始使用核心服务](#section_960C06093623462E8EA247B3E97274A1)
 
 <!-- <p>https://marketing-beta.adobe.com/resources/help/core/core-services.html </p> 
 <p>https://adobe.sharepoint.com/sites/AGSConsulting/CoreServices/PA/_layouts/15/start.aspx#/ </p> -->
@@ -88,17 +97,11 @@ For complete Experience Cloud ID service help (formerly, visitor ID), go [here](
 
 If you are not using [!UICONTROL Experience Platform Launch] or [!UICONTROL Dynamic Tag Management], manually implement the ID service via the JavaScript Deployment ([!DNL VisitorAPI.js]), as follows:
 
-1. [实施适用于 Analytics 的 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html).
-
-   Adobe 还建议设置其他[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)。这些ID与每个访客关联，可在Experience cloud中启用当前和未来功能。
-
-1. 将现有的 [!DNL s_code] 更新到 H.27.3 或更高版本，或将现有的 [!DNL AppMeasurement.js] 更新到 1.4 或更高版本。
-
-   这些文件在 Analytics 管理工具的[代码管理器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)中提供下载。
-
-   （如果您需要了解有关 [ 的更多信息，请参阅 ](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)JavaScript 实施[!DNL AppMeasurement.js]指南。）
-
-1. 为 Analytics 同步客户 ID。请参阅 [Analytics - 同步客户 ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)（见下文）。
+| 任务 | 描述 |
+| -----------| ---------- |  
+| [实施适用于 Analytics 的 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | Adobe 还建议设置其他[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)。这些ID与每个访客关联，可在Experience cloud中启用当前和未来功能。 |
+| 将现有的 [!DNL s_code] 更新到 H.27.3 或更高版本，或将现有的 [!DNL AppMeasurement.js] 更新到 1.4 或更高版本。 | 这些文件在 Analytics 管理工具的[代码管理器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)中提供下载。（如果您需要了解有关 [ 的更多信息，请参阅 ](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)JavaScript 实施[!DNL AppMeasurement.js]指南。） |
+| 同步Analytics的客户ID | 请参阅 [Analytics - 同步客户 ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)（见下文）。 |
 
 ## Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
@@ -125,13 +128,13 @@ In Adobe Target, the `mbox3rdpartyid` needs to get the customer ID and send it t
 
 联系客户关怀以启用历史数据。
 
-## 步骤 3. 将报表包映射到 Experience Cloud 组织 {#section_7B08516B01BA421681DF03D0E86CE3BA}
+## 步骤 3. Map report suites to an Experience Cloud Organization {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-Experience Cloud services (such as Experience Cloud ID service and the [!UICONTROL People service]) are associated with an Experience Cloud organization instead of an individual report suite. 要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到 Experience Cloud 组织。
+Experience Cloud services (such as Experience Cloud ID service and the [!UICONTROL People service]) are associated with an Experience Cloud organization instead of an individual Analytics report suite. 要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到 Experience Cloud 组织。
 
 请参阅[将报表包映射到组织](report-suite-mapping.md)。
 
-## 步骤 4. (Adobe Analytics) 使您的 Analytics AppMeasurement 代码符合现代化要求 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
+## 步骤 4. (Adobe Analytics) Update your Analytics AppMeasurement code {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
 验证您是否位于区域数据收集 (RDC) 中。如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。请参阅[过渡到 RDC](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)，以了解详细信息。If you are using first-party cookies, refer to [CNAME and the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) for information about data collection CNAMEs and cross-domain tracking.
 
@@ -139,12 +142,12 @@ Experience Cloud services (such as Experience Cloud ID service and the [!UICONTR
 
 In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]** > **[!UICONTROL 概述]**>**[!UICONTROL &#x200B;添加工具]** > **[!UICONTROL Adobe Analytics]**。请参阅动态标签管理中的[Adobe Analytics 设置](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)，以了解部署信息。
 
-## 步骤 5. (Adobe Target) 使您的 Adobe Target 实施符合现代化要求 {#section_C2F4493C7A36406DAE2266B429A4BD24}
+## 步骤 5. (Adobe Target) Update your Adobe Target implementation {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * It is recommended that you add an [Adobe Target extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) in [!UICONTROL Experience Platform Launch], so that your library retrieval is automatic. 您还可以使用 [Experience Platform Launch为Target](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) （和其他解决方案）设置 [!UICONTROL Experience Cloud ID服务扩展]。 The [!UICONTROL Experience Cloud ID service] update **is required** for [!UICONTROL Target] to use core services. (如果您使用 [!UICONTROL 动态标签管理]，请添加 [Adobe Target工具](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)。 You can also use [!UICONTROL Dynamic Tag Management] to deploy the Experience Cloud ID service for Target.)
 * 如果您没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]，请手 [动更新mbox库](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) 。
 * Request access to use Adobe Analytics as the reporting source for [!DNL Adobe Target]. [!DNL Target]在处理期间， 和 数据将组合在同一服务器调用中，这样两个解决方案之间的访客就可以连接在一起。[!DNL Analytics]请参阅[为 Target 实施使用 Analytics](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)。
-* 
+
    >[!IMPORTANT]
    >
    >所有Analytics客户都已针对核心服务（如客户属性）进行配置。 如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
@@ -197,7 +200,7 @@ Once you are up and running, navigate to the [Admin Console](https://adminconsol
 
 Users that are added to the [!UICONTROL Customer Attributes] group will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface
 
-## 步骤 8. 开始使用核心服务 {#section_960C06093623462E8EA247B3E97274A1}
+## 步骤 8. Begin using core services {#section_960C06093623462E8EA247B3E97274A1}
 
 充分利用以下核心服务功能。
 
