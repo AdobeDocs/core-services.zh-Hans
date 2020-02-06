@@ -1,13 +1,13 @@
 ---
 description: 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。架构是基于这些设置创建的。架构用于验证未来所有上传到此数据源的数据。此映射过程不更改原始数据。
-keywords: 客户属性;核心服务
+keywords: customer attributes;core services
 seo-description: 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。架构是基于这些设置创建的。架构用于验证未来所有上传到此数据源的数据。此映射过程不更改原始数据。
 seo-title: 验证架构
 solution: Experience Cloud
 title: 验证架构
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 >
 >验证后更新架构会删除客户属性。请参阅[更新架构（同时删除属性）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
-**[!UICONTROL 客户属性来源]** &gt; **[!UICONTROL 新建客户属性来源]** &gt; **[!UICONTROL 查看/编辑架构]**
+**[!UICONTROL 客户属性来源]** > **[!UICONTROL 新建客户属性来源]** > **[!UICONTROL 查看/编辑架构]**
 
 ![](assets/view_edit_schema.png)
 
@@ -36,7 +36,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 * **[!UICONTROL ID 查找：]**&#x200B;输入客户 ID (CID)，从 `.csv` 查找有关此 ID 的 Experience Cloud 信息。此功能可用于解决为何属性数据不对访客显示的问题：
 
-   * **[!UICONTROL MCID (Experience Cloud ID)：]**&#x200B;在您使用最新的 Experience Cloud ID 服务时显示。如果您在使用 MCID 服务，但这里没有列出 ID，则表示 Experience Cloud 还未收到此 CID 对应的别名。这意味着访客还没有登录，或您的实施没有传递此 ID。
+   * **** MCID(Experience Cloud ID):显示您是否使用最新的Experience Cloud ID服务。 如果您在使用 MCID 服务，但这里没有列出 ID，则表示 Experience Cloud 还未收到此 CID 对应的别名。这意味着访客还没有登录，或您的实施没有传递此 ID。
 
    * **[!UICONTROL CID（客户 ID）：]**&#x200B;与此 CID 关联的属性。如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 
