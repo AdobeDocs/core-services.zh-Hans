@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 激活
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 请参阅 [Adobe 的 Launch](https://docs.adobelaunch.com/getting-started)。
 
-## 动态标签管理 {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-要启动动态标签管理，请单击&#x200B;**[!UICONTROL 激活]，并向 Adobe 配置小组发送请求。**&#x200B;您会在一到两个工作日内收到登录凭据。
+要启动动态标签管理，请单击&#x200B;**[!UICONTROL 激活]**，并向 Adobe 配置小组发送请求。您会在一到两个工作日内收到登录凭据。
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -40,7 +40,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服务的实施指南 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID 服务可跨多种 Experience Cloud 解决方案启用核心功能（包括客户属性、受众共享和触发器）。Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID服务支持跨Experience cloud解决方案的核心功能（包括客户属性、受众共享和触发器）。 Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 动态标签管理产品文档 </a> </p> </td> 
