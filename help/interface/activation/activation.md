@@ -69,7 +69,7 @@ source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
   </tr> 
   <tr> 
    <td colname="col1"> <p>在 Adobe Campaign 中使用触发器 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 引入了与新触发器核心服务的集成。此核心服务让企业用户根据在 Adobe Analytics 中捕获的在线行为数据轻松定义触发器。定义触发器后，可在 Adobe Campaign 中使用它，以支持再营销消息用于提高参与度和转化率。这项即时可用的新功能允许营销人员根据购物车放弃、页面查看次数、观看的视频等在线事件，适时触发再营销消息。 </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入了与新触发器服务的集成。 此服务使商业用户能够根据Adobe Analytics中捕获的在线行为数据轻松定义触发器。 定义触发器后，可在 Adobe Campaign 中使用它，以支持再营销消息用于提高参与度和转化率。这项即时可用的新功能允许营销人员根据购物车放弃、页面查看次数、观看的视频等在线事件，适时触发再营销消息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
