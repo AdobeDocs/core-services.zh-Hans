@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: 登录并管理配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # 登录并管理配置文件设置
 
-登录到 Experience Cloud（而不是登录到某个单独的解决方案）可允许您单点登录到您拥有的所有解决方案和核心服务中。了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
+登录到Experience Cloud（而不是登录到单一解决方案）可以对您拥有的所有解决方案和服务进行单一登录。 了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
 
 <!-- t_sign_in.xml -->
 
