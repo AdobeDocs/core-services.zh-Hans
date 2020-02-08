@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. 键入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 及密码。
 
-或者，从 Experience Cloud 菜单 (![](assets/menu-icon.png)) 中，单击&#x200B;**[!UICONTROL 管理]**>**[!UICONTROL &#x200B;启动 Admin Console]**。
+或者，从 Experience Cloud 菜单 (![](assets/menu-icon.png)) 中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 启动 Admin Console]**。
 
 **相关帮助**
 
@@ -61,7 +61,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 Analytics 用户 ID 迁移工具可帮助 Analytics 管理员将用户帐户从 Analytics 用户管理迁移到 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)。
 
-Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将现有用户帐户从&#x200B;**[!UICONTROL 管理工具]**>**[!UICONTROL &#x200B;用户管理]**迁移到 Admin Console 时，Adobe 会通知您并给予协助。
+Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将现有用户帐户从&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]**&#x200B;迁移到 Admin Console 时，Adobe 会通知您并给予协助。
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com] 和 [!DNL sc.omniture.com]）进行登录，则会被重定向至 [!DNL experiencecloud.adobe.com]。
 
@@ -88,7 +88,7 @@ Campaign 中的&#x200B;*租户*&#x200B;会在“Admin Console 产品”页面中
 
 ## Experience Platform Lauch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Lauch 会显示在 Admin Console 的“产品”页面上。您可以在 Launch 产品配置文件中包含其他解决方案和核心服务。
+Experience Platform Lauch 会显示在 Admin Console 的“产品”页面上。您可以在Launch产品配置中包含其他解决方案和服务。
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -154,7 +154,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 1. 在 Admin Console 中，单击&#x200B;**[!UICONTROL 用户]**，然后单击用户的名称。
 1. 单击&#x200B;**[!UICONTROL 编辑管理权限]**。
 1. 配置用户的管理权限。
-1. 单击&#x200B;**[!UICONTROL 下一步]**以查看设置，然后单击**[!UICONTROL &#x200B;保存]**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以查看设置，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 支持的浏览器和系统要求 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
