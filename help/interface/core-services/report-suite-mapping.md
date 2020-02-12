@@ -5,7 +5,7 @@ seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 了解如何将一个或多个报表包映射到组织。
 
-Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核心服务）与某个组织（而非单个报表包）相关联。要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到组织。映射流程：
+Experience cloud服务（如Experience Cloud ID服务和People核心服务）与组织而不是单个报表包相关联。 要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到组织。映射流程：
 
 * 将 Experience Cloud 组织设置为报表包的主要组织。
 * 请勿更改对报表包拥有访问权限的用户（访问权限仍取决于每个用户的 Adobe Analytics 登录帐户）
@@ -27,19 +27,19 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 ## 将一个报表包映射到组织 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 单击 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 报表包映射]**
+1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
 
 1. 要查看对每个报表包拥有访问权限的登录公司，请单击&#x200B;**[!UICONTROL 对登录公司可见]**。
 
    此视图可帮助您针对映射做出明智决定。
 
-1. 单击报表包旁边&#x200B;**[!UICONTROL 已映射的组织]列中的下拉菜单，然后选择要映射到的组织。**
+1. 单击报表包旁边&#x200B;**[!UICONTROL 已映射的组织]**&#x200B;列中的下拉菜单，然后选择要映射到的组织。
 
    有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
 ## 将多个报表包映射到组织 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 单击 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 报表包映射]**。
+1. 单击&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 报表包映射]**。
 
 1. 选择要映射的报表包。
 
@@ -57,7 +57,7 @@ Experience Cloud 服务（例如，Experience Cloud ID 服务和“人员”核�
 
 **我应该选择哪个组织？**
 
-如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. 您可以按照[测试和验证 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
 
 如果为报表包收集数据的网站上尚未部署访客 ID 服务，那么当您将来部署 Experience Cloud 访客 ID 服务时，您将需要确保部署中的组织与您在报表包映射工具中选择的组织一致。
 
