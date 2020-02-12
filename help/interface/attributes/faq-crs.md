@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -71,7 +71,7 @@ source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics：</b>强烈建议迁移 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target：</b>必须迁移。 </li> 
-     </ul> </p> <p>使用 ID 服务可增强该功能，并使您有机会使用最新的 Experience Cloud 功能，包括实时受众、Target 现代化、Analytics 集成和视频心跳跟踪。 </p> <p>有关详细信息，请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服务 - 如何启用您的解决方案</a>。 </p> <p> <b>注意</b>：<span class="term">Experience Cloud ID 服务</span>是以前称为 <span class="term">Analytics 访客 ID 服务</span>的现代化实施。 </p> </td> 
+     </ul> </p> <p>使用 ID 服务可增强该功能，并使您有机会使用最新的 Experience Cloud 功能，包括实时受众、Target 现代化、Analytics 集成和视频心跳跟踪。 </p> <p>有关详细信息，请参阅<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服务 - 如何启用您的解决方案</a>。 </p> <p> <b>注意</b>:Experience Cloud ID服务 <span class="term"> ，是对以前称为</span> Analytics访客ID服务的现代化实施 <span class="term"></span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户属性功能如何与 Adobe Audience Manager 关联？ </p> </td> 
