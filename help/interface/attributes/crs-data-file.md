@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -133,7 +133,7 @@ CSV 文件必须符合以下格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
-   <td colname="col2"> <p> 客户属性绑定到 Analytics 中的基本访客资料。因此，在 Analytics 中访客资料的整个生命周期内，客户属性都与该访客关联。这包括客户首次登录之前发生的行为。 </p> <p> 如果您使用 Data Warehouse 回填方法，数据会绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果您正在使用 Experience Cloud ID 服务，数据会绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客户属性绑定到 Analytics 中的基本访客资料。因此，在 Analytics 中访客资料的整个生命周期内，客户属性都与该访客关联。这包括客户首次登录之前发生的行为。 </p> <p> 如果您使用 Data Warehouse 回填方法，数据会绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果您使用的是Experience Cloud ID服务，则数据将绑定到基于Experience Cloud ID(MID)的post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据馈送 </p> </td> 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 （请参阅[客户 ID 和身份验证状态](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)以了解详细信息。）
 
-在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**&#x200B;中：
+In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
 使用与上方客户 ID 对应的唯一别名 ID 创建两个客户属性来源。使用这种方法，可以将同一参考 ID 发送至多个客户属性来源。
