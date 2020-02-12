@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 将 DNS 预获取用于不同的解决方案和服务
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ DNS 预获取会自动处理页面上嵌入的静态链接。这也意味着自�
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID 服务：**`<link rel="dns-prefetch" href="//fast. *`在此处插入合作伙伴 ID`*.demdex.net">`
+* **** Experience Cloud ID服务：在此 `<link rel="dns-prefetch" href="//fast. *`处插入合作伙伴ID`*.demdex.net">`
 
 * **Dynamic Tag Manager** (DTM)：不需要。当页面开始加载时，即可使用 DTM 链接。
 
