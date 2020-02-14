@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -111,5 +111,17 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
    <td colname="col2"> <p> 通过单击特定属性文件的“同步状态”图标，可以查看由Target发布和同步的记录数。 “同步%”是一个实时度量，它指定在Target中同步的配置文件的%。 </p> <p> <b></b> 注意：与Target同步的属性可能需要24小时。 </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> 文件上传量度在客户属性来源中表示什么？ </p> </td>
+	<td colname="col2"> <p> 您可以借助以下指标检查上传到客户属性的属性的状态： </p>
+		<ul>
+			<li> <b> 记录：属 </b> 性文件中的记录数。 </li>
+			<li> <b> 新记录：属 </b> 性文件中存在的新记录数。 </li>
+			<li> <b> 更新的记录：中 </b> 已存在于“客户属性”中且文件中具有更新值的记录数。 </li>
+			<li> <b> 所有数据（记录）:成 </b> 功上传到客户属性的记录总数。 </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
