@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 5028e1c4a2b5d9d0c225e2bbb36ef2c5a91c5ad9
+source-git-commit: 670ceb31b40250215d47857102a09c9dfecfb131
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 5028e1c4a2b5d9d0c225e2bbb36ef2c5a91c5ad9
 | **（仅限 Analytics）**&#x200B;此功能与 Analytics Premium 中提供的功能有何区别？ | 以前，如果客户希望将客户属性数据与 Analytics 数据组合在一起，他们需要大大依赖 Data Workbench 工具来实现此功能。通过将客户属性作为 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder 中的维度和量度，使更多受众有机会使用此功能。Analytics Standard 客户将有权访问客户属性，但其功能有限。Analytics Premium 客户可以使用其完整的功能。 |
 | **（仅限 Target）**&#x200B;我可以预先加载或上传从未在 Target 中出现过的客户数据吗？ | 可以。在访客向 Target 提出第一个请求时，系统将从客户属性中提取我们目前所拥有的关于他们的信息，并使用该数据进行定位。**注意：**&#x200B;此数据的检索过程可能需要多达 20 分钟，从访客首次与 Target 交互开始算起。 |
 | **（仅限 Target）**&#x200B;我可以通过将客户属性数据与共享受众数据合并在一起来创建超级受众吗？ | 否。共享受众数据是已完成的受众。 |
-| **（仅限 Target）**&#x200B;客户属性功能与 Target 的批量配置文件 API 相比有何不同？ | 可直接通过批量配置文件 API，逐个或批量更新 Target 配置文件。该功能类似于客户属性，但又存在以下不同之处： <ul><li>配置文件 API 是一个 REST API 调用，而客户属性使用的是 FTP。 </li><li>Target 的配置文件 API 仅向 Target 而并非向整个 Experience Cloud 发送数据。 </li><li>客户属性提供了一个简单的界面来创建和管理此外部数据。 </li></ul> |
+| **（仅限 Target）**&#x200B;客户属性功能与 Target 的批量配置文件 API 相比有何不同？ | 可直接通过批量配置文件 API，逐个或批量更新 Target 配置文件。该功能类似于客户属性，但又存在以下不同之处：<ul><li>配置文件 API 是一个 REST API 调用，而客户属性使用的是 FTP。</li><li>Target 的配置文件 API 仅向 Target 而并非向整个 Experience Cloud 发送数据。</li><li>客户属性提供了一个简单的界面来创建和管理此外部数据。 | </li></ul> |
 | **（仅限 Target）**&#x200B;从客户属性向 Adobe Target 上传数据时，是否会延长 Target 访客的配置文件生命周期？ | 可以。请参阅 Adobe Target 帮助中的[访客配置文件生命周期](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html)。 |
 | **（仅限 Target）**&#x200B;根据客户 ID 识别访客后，我能否立即定位在客户属性中上传的数据？ | 可以。在对 Target 进行的服务器调用中（其中包括 mbox 第三方 ID），所有客户属性数据都将可用。 |
 | **（仅限Target）** “同步状态” **** 列代表在“客户属性来源”中上传的文件的哪些内容？ | 通过单击特定属性文件的“同步状态”图标，可以查看由Target发布和同步的记录数。 `Sync %` 是一个实时度量，它指定在Target中同步的配置文件的%。<br> **** 注意：与Target同步的属性可能需要24小时。 |
