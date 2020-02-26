@@ -6,7 +6,7 @@ seo-title: 查看Experience cloud用户和用户详细信息
 solution: Experience Cloud
 title: '查看Experience cloud用户和用户详细信息 '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ Experience Cloud管理工具使管理员能够查看所有Experience cloud用户
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。 列可以按A->Z、Z->A排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。 可以应用筛选器来查看特定ID类型。 有关更 [多信息，请参阅](https://helpx.adobe.com/enterprise/using/identity.html) “管理标识类型”。 |
 | [!UICONTROL 解决方案] | 用户可访问的Experience cloud解决方案摘要。 您可以应用过滤器来缩小具有特定解决方案访问权限的用户列表。 |
-| [!UICONTROL 上次登录] | 最近用户登录Experience cloud的时间和日期。 此列可以按升序或降序日期排序。 <br> **** 重要说明：上次登录数据的保留时间不会超过日期值之前的30天，因此用户可能不会在上次登录前后显示任何信息。 [!UICONTROL 截止日期(DATE)] -用户的上次登录数据将保留365天。 您可以使用此信息查看Experience cloud中的当前登录活动，但不能对非活动帐户执行操作。 此外，最近创建的用户可能没有上次登录状态。 |
+| [!UICONTROL 上次登录] | 最近用户登录Experience cloud的时间和日期。 此列可以按升序或降序日期排序。 <br> **** 重要说明：自2020年1月13日起，用户的上次登录数据将保留365天。 此信息旨在显示Experience cloud中的当前登录活动，而非建议在2020年1月13日之前对不活动帐户采取相应操作。 |
 
 ## 自定义用户列表视图
 
