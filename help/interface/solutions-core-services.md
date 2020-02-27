@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 关于 Experience Cloud 中的新云名称
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -59,9 +59,9 @@ source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
 要开始使用 Analytics，请执行以下操作：
 
 1. 使用 [Adobe Analytics 快速入门](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)中介绍的步骤，创建您的第一个 Analytics 报表包（数据存储库）。
-1. 然后，使用 [Adobe 的 Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) 部署 Analytics 代码。
+1. 然后，使用 [Experience Platform Launch部署Analytics代码](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)。
 
-Experience Platform Lauch 是新一代标签管理工具，可让您轻松地部署和管理所有分析、营销和广告标签。
+Experience Platform Launch是新一代标签管理工具，它为您提供了部署和管理所有分析、营销和广告标签的简单方法。
 
 另请参阅:
 
@@ -111,7 +111,7 @@ Adobe Primetime 是一个多屏幕电视平台，可帮助广播公司为任意�
 
 | 核心服务 | 描述 |
 |--- |--- |
-| [激活](activation/activation.md) | 标签管理系统（Experience Platform Lauch 和 Dynamic Tag Management）。<br>通过触发器，您可以根据 Adobe Analytics 提供的分析信息在 Adobe Campaign 中采取实时行动。 |
+| [激活](activation/activation.md) | 标签管理系统（Experience Platform Launch和动态标签管理）。<br>通过触发器，您可以根据 Adobe Analytics 提供的分析信息在 Adobe Campaign 中采取实时行动。 |
 | [管理](admin-getting-started/admin-getting-started.md) | 管理所有 Adobe 云和解决方案中的用户和产品权限。 |
 | [资产](experience-cloud-assets/experience-cloud-assets.md) | 轻松地在一个中心位置存储、同步和共享所有数字资产，以节省时间并提供更加一致的客户体验。 |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch 是 Adobe 推出的新一代标签管理功能。Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。 |
