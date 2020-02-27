@@ -12,9 +12,9 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# 在管理工具中查看Experience cloud用户
+# Experience Cloud管理工具
 
-管理员可以在管理工具中查看所有Experience cloud用户及其详细信息的可排序和可过滤列表。 用户详细信息包括用户的产品访问、角色和上次访问的信息。** (注**&#x200B;意：用户和产品管理在 [Admin Console中配置](admin-getting-started.md)。)
+Experience Cloud管理工具使管理员能够查看所有Experience cloud用户的可排序和可填写列表。 每个用户详细信息页面都包含有关用户的产品访问、角色和上次访问信息的重要详细信息。  
 
 1. Log in to `https://experience.adobe.com/.`
 
