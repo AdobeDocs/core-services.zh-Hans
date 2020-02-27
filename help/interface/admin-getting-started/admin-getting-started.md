@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -86,9 +86,9 @@ Campaign 中的&#x200B;*租户*&#x200B;会在“Admin Console 产品”页面中
 
 有关安 [全组以及将用户分配给安全组](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) ，请参阅管理组和用户。
 
-## Experience Platform Lauch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Lauch 会显示在 Admin Console 的“产品”页面上。您可以在Launch产品配置中包含其他解决方案和服务。
+Experience Platform Launch显示在Admin Console的“产品”页面上。 您可以在Launch产品配置中包含其他解决方案和服务。
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
