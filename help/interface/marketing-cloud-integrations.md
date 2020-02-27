@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Cloud 是一套业内最佳的综合性集成解决方案，它
 
 解决方案或服务：
 
-* 激活 - Dynamic Tag Management 或 Experience Platform Lauch
+* 激活——动态标签管理或体验平台启动
 * Analytics
 * Target
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/home.html)
