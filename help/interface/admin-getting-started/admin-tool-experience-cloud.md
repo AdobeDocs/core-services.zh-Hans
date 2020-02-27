@@ -5,21 +5,24 @@ seo-description: 了解Experience cloud管理工具，以查看所有Experience 
 seo-title: 查看Experience cloud用户和用户详细信息
 solution: Experience Cloud
 title: '查看Experience cloud用户和用户详细信息 '
+index: true
 translation-type: tm+mt
-source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
 
-# Experience Cloud管理工具
+# 在管理工具中查看Experience cloud用户
 
-Experience Cloud管理工具使管理员能够查看所有Experience cloud用户的可排序和可填写列表。 每个用户详细信息页面都包含有关用户的产品访问、角色和上次访问信息的重要详细信息。  
+管理员可以在管理工具中查看所有Experience cloud用户及其详细信息的可排序和可过滤列表。 用户详细信息包括用户的产品访问、角色和上次访问的信息。** (注**&#x200B;意：用户和产品管理在 [Admin Console中配置](admin-getting-started.md)。)
 
-1. Log in to <https://experience.adobe.com/>.
+1. Log in to `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在Experience cloud主页中，单击管 **[!UICONTROL 理工具。]** (或者，在主页URL中，您可以将主页 _替换为__admin。_)
+1. 在Experience cloud主页中，单击管 **[!UICONTROL 理工具。]**
+
+   (或者，在主页URL中，您可以将主页 _替换为__admin。_)
 
    此时将 [!UICONTROL 显示] “用户”页面。
 
