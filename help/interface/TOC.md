@@ -11,7 +11,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # 核心服务用户指南 {#interface}
 
-+ [Experience cloud和核心服务产品文档](experience-cloud.md)
++ [Experience Cloud和核心服务产品文档](experience-cloud.md)
 + 关于核心服务 {#about-core-services}
    + [核心服务概述](core-services-landing.md)
    + [为核心服务启用解决方案](core-services/core-services.md)
@@ -33,8 +33,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [启用浏览器 Cookie 的隐私设置](cookies/browser-cookie-settings.md)
    + [第三方 Cookie 支持的变化对客户有何影响](cookies/cookies-thirdparty.md)
 + 用户和产品管理 {#manage-users-and-products}
-   + [管理Experience cloud用户和产品(Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [查看Experience cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [管理Experience Cloud用户和产品(Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [查看Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
    + [常见问题解答](admin-getting-started/faq.md)
    + [登录并管理配置文件设置](admin-getting-started/getting-started-experience-cloud.md)
    + [组织和帐户关联](admin-getting-started/organizations.md)
@@ -55,7 +55,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [禁用共享文件夹的同步](experience-cloud-assets/t-disable-asset-sync.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ Experience cloud中的受众 {#audiences}
++ Experience Cloud中的受众 {#audiences}
    + [受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
@@ -76,7 +76,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [标签](offer-management/labels.md)
    + [版面](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
-+ Experience cloud发行说明 {#release-notes}
++ Experience Cloud发行说明 {#release-notes}
    + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [发行说明汇总](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
