@@ -1,7 +1,7 @@
 ---
-description: 了解如何登录到Admin Console、管理Experience cloud用户权限和产品配置以及浏览器支持。
+description: 了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置以及浏览器支持。
 keywords: core services
-seo-description: 了解如何登录到Admin Console、管理Experience cloud用户权限和产品配置以及浏览器支持。
+seo-description: 了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置以及浏览器支持。
 seo-title: 管理 Experience Cloud 用户和产品
 solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
@@ -14,7 +14,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # 管理 Experience Cloud 用户和产品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-了解如何登录到Admin Console、管理Experience cloud用户权限和产品配置以及浏览器支持。
+了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置以及浏览器支持。
 
 >[!IMPORTANT]
 >
@@ -102,7 +102,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 创建 Audience Manager 用户并将其分配到群组。您还可以查看各种限制（特征、区段、目标和 AlgoModel）。
 
-请参 [阅Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) manager帮助中的管理。
+请参 [阅Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) Manager帮助中的管理。
 
 ## 管理 Experience Cloud 产品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -160,7 +160,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 Experience Cloud 中支持的浏览器。
 
-Experience cloud支持的浏览器包括：
+Experience Cloud支持的浏览器包括：
 
 * [!DNL Microsoft Edge] (Microsoft已 [停止对Internet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Explorer 8、9和10的支持。 因此，Adobe 将不会修复针对这些特定 Internet Explorer 版本报告的问题。）
 * [!DNL Google Chrome]
