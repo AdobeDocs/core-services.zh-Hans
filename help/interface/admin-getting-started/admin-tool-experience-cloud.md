@@ -1,10 +1,10 @@
 ---
-description: 了解Experience cloud管理工具，以查看所有Experience cloud用户的可排序和可过滤列表。
+description: 了解Experience Cloud管理工具，以查看所有Experience Cloud用户的可排序和可过滤列表。
 keywords: core services
-seo-description: 了解Experience cloud管理工具，以查看所有Experience cloud用户的可排序和可过滤列表。
-seo-title: 查看Experience cloud用户和用户详细信息
+seo-description: 了解Experience Cloud管理工具，以查看所有Experience Cloud用户的可排序和可过滤列表。
+seo-title: 查看Experience Cloud用户和用户详细信息
 solution: Experience Cloud
-title: '查看Experience cloud用户和用户详细信息 '
+title: '查看Experience Cloud用户和用户详细信息 '
 index: true
 translation-type: tm+mt
 source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
@@ -12,15 +12,15 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# Experience Cloud管理工具
+# 在管理工具中查看Experience Cloud用户
 
-Experience Cloud管理工具使管理员能够查看所有Experience cloud用户的可排序和可填写列表。 每个用户详细信息页面都包含有关用户的产品访问、角色和上次访问信息的重要详细信息。  
+管理员可以在管理工具中查看所有Experience Cloud用户及其详细信息的可排序和可过滤列表。 用户详细信息包括用户的产品访问、角色和上次访问信息。 (注&#x200B;**意：** 用户和产品管理在 [Admin Console中配置](admin-getting-started.md)。)
 
 1. Log in to `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在Experience cloud主页中，单击管 **[!UICONTROL 理工具。]**
+1. 在Experience Cloud主页中，单击管 **[!UICONTROL 理工具。]**
 
    (或者，在主页URL中，您可以将主页 _替换为__admin。_)
 
@@ -28,7 +28,7 @@ Experience Cloud管理工具使管理员能够查看所有Experience cloud用户
 
 ## “用户”页
 
-此页面显示有权访问您组织中的Experience cloud的用户的完整列表。 它提供有关解决方案授权和上次登录的信息。 您可以搜索、排序和筛选用户列表的自定义视图。
+此页面显示有权访问您组织中的Experience Cloud的用户的完整列表。 它提供有关解决方案授权和上次登录的信息。 您可以搜索、排序和筛选用户列表的自定义视图。
 
 ![](assets/admin-tool-users.png)
 
@@ -37,8 +37,8 @@ Experience Cloud管理工具使管理员能够查看所有Experience cloud用户
 | [!UICONTROL 名称] | 用户的名和姓。 您可以将此列从A排序到Z，将Z排序到A。 单击用户名可查看有关该用户的更多详细信息。 |
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。 列可以按A->Z、Z->A排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。 可以应用筛选器来查看特定ID类型。 有关更 [多信息，请参阅](https://helpx.adobe.com/enterprise/using/identity.html) “管理标识类型”。 |
-| [!UICONTROL 解决方案] | 用户可访问的Experience cloud解决方案摘要。 您可以应用过滤器来缩小具有特定解决方案访问权限的用户列表。 |
-| [!UICONTROL 上次登录] | 最近用户登录Experience cloud的时间和日期。 此列可以按升序或降序日期排序。 <br> **** 重要说明：自2020年1月13日起，用户的上次登录数据将保留365天。 此信息旨在显示Experience cloud中的当前登录活动，而非建议在2020年1月13日之前对不活动帐户采取相应操作。 |
+| [!UICONTROL 解决方案] | 用户可访问的Experience Cloud解决方案摘要。 您可以应用过滤器来缩小具有特定解决方案访问权限的用户列表。 |
+| [!UICONTROL 上次登录] | 最近用户登录Experience Cloud的时间和日期。 此列可以按升序或降序日期排序。 <br> **重要说明：** 自2020年1月13日起，用户的上次登录数据将保留365天。 此信息旨在显示Experience Cloud中的当前登录活动，而非建议在2020年1月13日之前对不活动帐户采取相应操作。 |
 
 ## 自定义用户列表视图
 
@@ -76,7 +76,7 @@ Experience Cloud管理工具使管理员能够查看所有Experience cloud用户
 
 ## 解决方案摘要
 
-此部分显示用户可访问的Experience cloud解决方案摘要。 包括产品管理员角色（如果适用）
+此部分显示用户可访问的Experience Cloud解决方案摘要。 包括产品管理员角色（如果适用）
 
 ## 详细的产品访问列表
 
