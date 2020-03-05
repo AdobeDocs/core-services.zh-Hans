@@ -107,7 +107,7 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 **适用的解决方案或服务**
 
 * [Analytics服务器端转发](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-* [将Audience manager细分发送到Analytics](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [将Audience Manager细分发送到Analytics](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
 * [Target 数据集成](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 
 ## 激活 {#section_A23510A2D57842F6BAD043650C06DE42}
