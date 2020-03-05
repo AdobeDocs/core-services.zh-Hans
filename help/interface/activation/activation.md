@@ -40,7 +40,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服务的实施指南 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID服务支持跨Experience cloud解决方案的核心功能（包括客户属性、受众共享和触发器）。 Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID服务支持跨Experience Cloud解决方案的核心功能（包括客户属性、受众共享和触发器）。 Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 动态标签管理产品文档 </a> </p> </td> 
