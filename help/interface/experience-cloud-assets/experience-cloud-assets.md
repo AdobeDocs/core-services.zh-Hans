@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 资产
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 
 使用资产可提高一致性和品牌合规性，并加快投放市场的速度。您可以简化解决方案中的工作流程：
 
-* **[!DNL Social]**：发布到社交属性、Facebook、Twitter、LinkedIn、Google+
+* **[!DNL Social]** ：发布到社交属性、Facebook、Twitter、LinkedIn、Google+
 * **[!DNL Target]**：创建 A/B 和多变量测试体验。
 * **[!DNL Media Optimizer]**：跨不同渠道和营销活动制定广告单元
 * **[!DNL Campaign]**：将资产放入电子邮件新闻稿和营销活动。
@@ -35,7 +35,6 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 * [编辑资产](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [搜索资产](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [在资产中添加批注](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [将资产共享到信息源](../experience-cloud-assets/experience-cloud-assets.md#section_2CD53A99600D4A3D9AA82C3CDA666E6B)
 * [全屏查看和缩放资产](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [查看资产属性](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [运行使用情况报表](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -71,23 +70,13 @@ Experience Cloud 资产提供了一个集中式市场营销类资产存储库，
 
 ## 在资产中添加批注 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-单击&#x200B;**[!UICONTROL 注释]**后，可以在图像上绘制圆圈或箭头，并在资产中添加批注，以供合作者审阅。
+单击&#x200B;**[!UICONTROL 注释]**&#x200B;后，可以在图像上绘制圆圈或箭头，并在资产中添加批注，以供合作者审阅。
 
 ![](assets/assets-annotate.png)
 
-<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
-
-**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
-
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
-
-![](assets/assets-share-card.png) 
-
-Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
-
 ## 全屏查看和缩放资产 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-单击&#x200B;**[!UICONTROL 视图]**>**[!UICONTROL &#x200B;图像]**，可以查看完整的资产图像并启用缩放功能。
+单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 图像]**，可以查看完整的资产图像并启用缩放功能。
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +84,7 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 可以在属性信息卡视图、列表视图和列视图之间进行选择，以便更加轻松地查找您的资产。
 
-单击&#x200B;**[!UICONTROL 视图]**>**[!UICONTROL &#x200B;属性]**，可以查看资产的属性：
+单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 属性]**，可以查看资产的属性：
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +92,6 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 可以查看用户数量、已用存储空间，以及资产总计等信息。
 
-单击&#x200B;**[!UICONTROL 工具]**>**[!UICONTROL &#x200B;报表]** > **[!UICONTROL 使用情况报表]**
+单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 报表]** > **[!UICONTROL 使用情况报表]**
 
 ![](assets/assets-usage-report.png)
