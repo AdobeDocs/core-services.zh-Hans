@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 登录并管理配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
 
-1. 在信息源页面（或您的默认登录页面）上，单击选择器图标 ![](assets/menu-icon.png) 以访问下拉菜单。
+1. 在登陆页面上，单击选择器 ![](assets/menu-icon.png) 图标以访问下拉菜单。
 
    ![](assets/experience-cloud-core-services.png)
 
