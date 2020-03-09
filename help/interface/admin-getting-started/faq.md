@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常见问题解答
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Experience Cloud 中与管理员有关的常见问题及解答。
 
 如果尚未为核心服务配置实施，请参阅[为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了以下操作说明：
 
-
 1. [加入 Experience Cloud 并成为管理员](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用动态标签管理器](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新的Experience Platform Launch [](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))实施Experience Cloud ID服务
 1. [将报表包映射到 Experience Cloud 组织](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Experience Cloud 中与管理员有关的常见问题及解答。
 1. [验证核心服务实施](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [管理用户和产品](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [开始使用核心服务](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 要获取更多帮助，请[联系 Adobe 支持](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
@@ -47,7 +43,7 @@ Experience Cloud 界面提供的功能可为您的业务带来新的价值。这
 
 [联系 Adobe 支持](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
-**什么是&#x200B;*`provisioning`*?**
+**什么是供&#x200B;_应？_**
 
 Experience Cloud 中的配置表示：
 
