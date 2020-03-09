@@ -2,7 +2,7 @@
 title: 发布 Analytics 受众区段
 description: 将 Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
 translation-type: tm+mt
-source-git-commit: 83e70059c9b7c0ef606b14d145b450481ba5c38c
+source-git-commit: 3261248dba00440f12fbd10bd2549ff379d6f06b
 
 ---
 
@@ -13,18 +13,20 @@ source-git-commit: 83e70059c9b7c0ef606b14d145b450481ba5c38c
 
 有关说明，请 [参阅Adobe Analytics文档](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 。
 
-<!-->1.  In Analytics, [build a segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-1. 在区段生成器上，启用&#x200B;**[!UICONTROL 将此区段发布到 Experience Cloud]** 选项。
+<!--
+1.  In Analytics, [build a segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+1.  On the Segment Builder, enable the **[!UICONTROL Publish this segment to the Experience Cloud]** option.
 
-   ![](assets/ec_audience_example.png)
+    ![](assets/ec_audience_example.png) 
 
-   | 元素 | 描述 |
-   |--- |---|
-   | 将此区段发布到 Experience Cloud（对于 &lt;报表包名称>） | 将此区段发布到 Experience Cloud。您可以将该受众用于 Adobe Target、Audience Manager、Advertising Cloud、Campaign 和 Audience Analytics 中的营销和分段活动。<br>对于要发布的区段，必须填写其标题和描述字段。<br>在启用此选项后，会共享标题和受众区段定义，但不共享实际数据。当该受众与 Target 中的某个活动关联时，Analytics 将开始发送具有 Experience Cloud 和 Target 受众资格的访客的 ID。此时，受众名称和相应的数据开始显示在“Experience Cloud 受众”页面中。<br>从 Analytics 共享到 Experience Cloud 的受众数量不能超过 2000 万个受众成员。<br>由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。<br>要删除已发布到 Experience Cloud 的区段，必须先取消发布该区段。要取消发布区段，只需&#x200B;**取消选中**&#x200B;用于发布该区段的复选框。您&#x200B;**无法**&#x200B;取消发布以下任何一个 Adobe 解决方案当前正在使用的区段：[!DNL Analytics]（位于 [!DNL Audience Analytics] 中）、[!DNL Campaign]、[!DNL Advertising Cloud]（适用于 [!DNL Core Service] 和 [!DNL Audience Manager] 客户）和所有其他外部合作伙伴（适用于 [!DNL Audience Manager] 客户）。您&#x200B;**可以**&#x200B;取消发布 [!DNL Target] 正在使用的区段。<br>在访客有资格成为从 Analytics 共享的受众后，该信息需经过 24 - 48 小时的延迟，才能在 Target、Advertising Cloud 和 Campaign 中使用。<br>**数据隐私&#x200B;**<br>受众并非基于访客的身份验证状态进行过滤。如果访客可在未验证或已验证的状态下浏览您的站点，则访客在处于未验证状态时执行的操作仍会导致访客被包含在受众中。请参阅[Analytics 隐私概述](https://docs.adobe.com/help/en/analytics/technotes/privacy-overview.html)，以了解受众共享对隐私的全部影响。 |
-   | 选择用于创建受众的窗口 | 请注意，这是一个&#x200B;**活络的**&#x200B;时间窗口，而不是一个固定窗口。 |
+    | Element | Description |
+    |--- |---|
+    |Publish this segment to the Experience Cloud (for &lt;report suite name&gt;)|Publishes this segment to the Experience Cloud. You can use the audience for marketing and segmentation activities in Adobe Target, Audience Manager, Advertising Cloud, Campaign, and Audience Analytics.<br>The Title and Description fields are required for the segment to be published.<br>When this option is enabled, the title and audience segment definition are shared, but actual data is not. When that audience is associated with an activity in Target, Analytics begins sending IDs for visitors that qualify for that Experience Cloud and Target audience. At that point, the audience name and corresponding data begins displaying on the  Experience Cloud Audiences page.<br>Audiences shared to the Experience Cloud from Analytics cannot exceed 20 million audience members.<br>Due to caching, deleted report suites in Analytics require 12 hours before the deletion is shown in the Experience Cloud.<br>To delete a segment that has been published to the Experience Cloud, you have to unpublish it first. To unpublish a segment, just **unclick** the checkbox that you used to publish it. You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].<br>Once a visitor qualifies for the audience shared from  Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Advertising Cloud, and Campaign.<br>**Data Privacy**<br>Audiences are not filtered based on the authentication state of a visitor. If a visitor can browse your site in un-authenticated and authenticated states, actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Analytics Privacy Overview](https://docs.adobe.com/help/en/analytics/technotes/privacy-overview.html) to understand the full privacy implications of audience sharing.|
+    |Select the window for audience creation|Note that this is a **rolling** time window, not a fixed one.|
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 访问 [!DNL Adobe Target]，单击[!UICONTROL 受众]。
-1. 在[!UICONTROL 受众]页面上，找到来源于 Experience Cloud 的受众。
+1.  Click **[!UICONTROL Save]**.
+1.  Access [!DNL Adobe Target], click [!UICONTROL Audiences].
+1.  On the [!UICONTROL Audiences] page, locate the audience sourced from the Experience Cloud.
 
-   这些受众可在活动中使用。&lt;-->
+    These audiences are available for use in activities
+-->
