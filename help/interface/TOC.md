@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -39,7 +39,6 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [登录并管理配置文件设置](admin-getting-started/getting-started-experience-cloud.md)
    + [组织和帐户关联](admin-getting-started/organizations.md)
    + [升级到 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-   + [嵌入内容](admin-getting-started/oembed.md)
 + Experience Cloud Activation {#activation}
    + [激活概述](activation/activation.md)
    + [Launch 用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
