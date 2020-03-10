@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
@@ -48,7 +48,7 @@ Adobe 管理的证书计划允许您在不增加任何额外费用的情况下�
 
 1. 配置了这些 CNAME 之后，Adobe 将与 DigiCert 一起购买证书并安装在 Adobe 的生产服务器上。如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到 Adobe 生产环境后，您就可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全 (https)，则更新 `s.trackingServer` 变量。如果站点安全 (https)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
 
-1. Ping 主机名（请参阅下文）。
+1. 验证主机名转发（请参阅下文）。
 
 1. 更新实施代码（请参阅下文）。
 
@@ -79,15 +79,29 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
->[!N] 注意：Experience cloud访客ID服务为配置CNAME以启用第一方Cookie提供了一种替代方法，但由于Apple ITP最近发生了更改，因此，即使在使用Experience Cloud ID服务时，仍建议您分配CNAME。
+>[!N注意：] Experience Cloud访客ID服务为配置CNAME以启用第一方Cookie提供了一种替代方法，但由于Apple ITP最近发生了更改，因此，即使在使用Experience Cloud ID服务时，仍建议您分配CNAME。
 
-## Ping 主机名
+## 验证主机名转发
 
-Ping 主机名可确保正确转发。所有主机名都必须响应 Ping 命令，以防数据丢失。
+在浏览器中，单击 <https://sstats.adobe.com/_check>。
 
-在正确配置了 CNAME 记录且 Adobe 已确认安装证书后，打开命令提示符并对主机名执行 Ping 操作。以 `mysite.com` 为例：`ping metrics.mysite.com`
+您应当看到 `SUCCESS` 返回。 如果尚未购买证书，您会看到错误。
 
-如果一切均已成功设置，将返回与下面类似的信息：
+您还可以将 [!DNL curl] 其用作命令行工具进行验证：
+
+1. 如果使 [!DNL Windows]用，请安装curl(<https://curl.haxx.se/windows/>)。
+1. 如果CNAME仍需要证书，请在命 `curl -k https://sstats.adobe.com/_check` 令行中键入。
+1. 如果证书已完成，请键入 `curl https://sstats.adobe.com/_check`。
+
+您应当看到 `SUCCESS` 返回。
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,11 +113,11 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-如果 CNAME 记录未正确设置或者未处于活动状态，则会返回下列信息：
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!N注意：]如果您使用 `https:// protocol`，那么 Ping 仅在 FPC 专家指定的上传日期之后做出响应。此外，请确保ping安全主机名和非安全主机名，以确保在更新实施之前两者均能正确工作。
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## 更新实施代码
 
@@ -111,7 +125,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 * 按照 *Adobe Managed Certificate Program的“实施* ”部分中所述的步骤请求 [SSL证书](#adobe-managed-certificate-program)。
 * 创建 CNAME 记录（请参阅上文）。
-* Ping主机名（请参阅上文）。
+* 验证主机名（请参阅上文）。
 
 在您验证主机名能够响应并转发到 Adobe 数据收集服务器后，您可以更改实施以指向您自己的数据收集主机名。
 
