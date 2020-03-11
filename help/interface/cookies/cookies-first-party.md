@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
+source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
 
 ---
 
@@ -94,15 +94,15 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 可以使用以下方法进行验证：
 
-**浏览器验证**
+### 使用浏览器验证
 
 如果设置了CNAME并安装了证书，则可以使用浏览器进行验证：
 
-<https://sstats.adobe.com/_check>.
+`https://sstats.adobe.com/_check`
 
-注意：如果未安装证书，您将看到安全警告。
+**注意：** 如果未安装证书，您将看到安全警告。
 
-**验证方式[!DNL curl]**
+### 验证方式 [!DNL curl]
 
 Adobe建议从命令行 [使用](https://curl.haxx.se/)[!DNL curl]。 (用[!DNL Windows] 户可以从以下 [!DNL curl] 位置安装： <https://curl.haxx.se/windows/>)
 
@@ -112,7 +112,7 @@ Adobe建议从命令行 [使用](https://curl.haxx.se/)[!DNL curl]。 (用[!DNL 
 
 如果设置了CNAME并安装了证书，请运行：响`curl https://sstats.adobe.com/_check`应： `SUCCESS`
 
-**验证方式[!DNL nslookup]**
+### 验证方式 [!DNL nslookup]
 
 可用于 `nslookup` 验证。 以 `mysite.com`示例为例，打开命令提示并键入 `nslookup metrics.mysite.com`
 
