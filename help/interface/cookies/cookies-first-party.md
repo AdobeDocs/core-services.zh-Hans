@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
+source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
 
 ---
 
@@ -114,18 +114,22 @@ Adobe建议从命令行 [使用](https://curl.haxx.se/)[!DNL curl]。 (用[!DNL 
 
 ### 验证方式 [!DNL nslookup]
 
-可用于 `nslookup` 验证。 以 `mysite.com`示例为例，打开命令提示并键入 `nslookup metrics.mysite.com`
+可用于 `nslookup` 验证。 以 `sstats.adobe.com`示例为例，打开命令提示并键入 `nslookup sstats.adobe.com`
 
 如果一切都成功设置，您将看到类似以下内容的返回：
 
 ```
-nslookup metrics.mysite.com
-Server:  hiodsibxvip01.corp.adobe.com
-Address:  10.50.112.247
+nslookup sstats.adobe.com
+Server:             10.30.7.247
+Address:     10.30.7.247#53
 
-Non-authoritative answer:
-Name:    metrics.mysite.com
-Address:  64.136.20.37
+sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.218.180.161
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 52.39.8.230
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.187.216.46
 ```
 
 ## 更新实施代码 {#update}
