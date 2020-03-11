@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,29 +92,41 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 ## 验证主机名转发 {#validate}
 
-您可以使用验证主机名 <https://sstats.adobe.com/_check>。 如果设置了CNAME并安装了证书，则可以使用浏览器进行验证。 但是，如果未安装证书，您将看到安全警告。
+可以使用以下方法进行验证：
 
-**使用curl验证**
+**浏览器验证**
 
-Adobe建议从 [!DNL curl] 命令行使用。 (如果您在Windows上，则需要从以下位置进行 [!DNL curl] 安装： <https://curl.haxx.se/windows/>)
+如果设置了CNAME并安装了证书，则可以使用浏览器进行验证：
+
+<https://sstats.adobe.com/_check>.
+
+注意：如果未安装证书，您将看到安全警告。
+
+**验证方式[!DNL curl]**
+
+Adobe建议从命令行 [使用](https://curl.haxx.se/)[!DNL curl]。 (用[!DNL Windows] 户可以从以下 [!DNL curl] 位置安装： <https://curl.haxx.se/windows/>)
 
 如果您有CNAME但未安装证书，请运行：响`curl -k https://sstats.adobe.com/_check`应： `SUCCESS`
 
-(注&#x200B;**意：** 该值 `-k` 将禁用安全警告。)
+(该值 `-k` 将禁用安全警告。)
 
-如果设置了CNAME并安装了证书，请运行：响`curl https://sstats.adobe.com/_check`应：成功
+如果设置了CNAME并安装了证书，请运行：响`curl https://sstats.adobe.com/_check`应： `SUCCESS`
 
-**使用nslookup验证**
+**验证方式[!DNL nslookup]**
 
-可以使用nslookup进行验证。 以 `mysite.com` 为例：
-
-打开命令提示符并键入 `nslookup metrics.mysite.com`
+可用于 `nslookup` 验证。 以 `mysite.com`示例为例，打开命令提示并键入 `nslookup metrics.mysite.com`
 
 如果一切都成功设置，您将看到类似以下内容的返回：
 
-nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.com地址： 10.50.112.247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-非权威的答案：名称：   metrics.mysite.com地址： 64.136.20.37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## 更新实施代码 {#update}
 
