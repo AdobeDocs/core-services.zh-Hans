@@ -1,13 +1,13 @@
 ---
 description: 关于 Experience Cloud 帮助更新的信息。
-keywords: 核心服务
+keywords: core services
 seo-description: 关于 Experience Cloud 帮助更新的信息。
 seo-title: 文档更新 - Experience Cloud
 solution: Experience Cloud
 title: 文档更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
 
 ---
 
@@ -15,6 +15,14 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 # 文档更新 - Experience Cloud
 
 关于 Experience Cloud 帮助更新的信息。
+
+**更新：2020年3月10日**
+
+更新 [了第一方Cookies部分中的](cookies/cookies-first-party.md#validate) “验证主机名转发”。
+
+**更新：2020年2月20日**
+
+添加 [了查看Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)。
 
 **更新日期：2018 年 9 月 5 日**
 
