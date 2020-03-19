@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ## 概述
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可利用 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中的数据。
 
@@ -29,16 +29,14 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 * **群组成员资格：**&#x200B;要上传客户属性数据，用户必须是[客户属性群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)的成员。此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-   要知道您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [!DNL Experience Cloud]。导航到&#x200B;**[!UICONTROL 管理]**>**[!UICONTROL &#x200B;启动管理控制台]** > **[!UICONTROL 群组]**。如果&#x200B;*客户属性*显示为其中一个群组，则表示您已经可以开始。
+   要知道您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [!DNL Experience Cloud]。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 启动管理控制台]** > **[!UICONTROL 群组]**。如果&#x200B;*客户属性*&#x200B;显示为其中一个群组，则表示您已经可以开始。
 
    添加到客户属性群组的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项.
 
-* **Target mbox：**&#x200B;客户属性需要安装 mbox.js 版本 58 或更高版本。
+* **客户属性** 需要Adobe Target [!DNL at.js] （任何版本） [!DNL mbox.js] 或版本58或更高版本。
 
 
-   请参阅 [Mbox.js 实施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
-
-* **at.js：**&#x200B;任何版本。
+   请参 [阅如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html或 [Mbox.js实施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +46,7 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 ![](assets/01_crs_usecase.png)
 
-创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]**>**[!UICONTROL &#x200B;客户属性]**中创建的客户属性来源。
+创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性来源。
 
 请参阅[上传客户属性数据](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流程。
 
