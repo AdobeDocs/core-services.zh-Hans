@@ -5,7 +5,7 @@ seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 了解如何将一个或多个报表包映射到组织。
 
-Experience cloud服务（如Experience Cloud ID服务和People核心服务）与组织而不是单个报表包相关联。 要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到组织。映射流程：
+Experience Cloud服务（如Experience Cloud ID服务和People核心服务）与组织而不是单个报表包相关联。 要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到组织。映射流程：
 
 * 将 Experience Cloud 组织设置为报表包的主要组织。
 * 请勿更改对报表包拥有访问权限的用户（访问权限仍取决于每个用户的 Adobe Analytics 登录帐户）
@@ -63,19 +63,23 @@ If the Experience Cloud ID Service is currently deployed on the report suite, en
 
 **为什么有些组织呈灰显状态？**
 
-这种情况表示您没有足够的权限来映射到灰显的报表包。请仔细研究下面的示例：![](assets/rs-mapping.png)在此图表中，蓝色钥匙表示管理员权限。灰色线条表示可见性。
+这种情况表示您没有足够的权限来映射到灰显的报表包。请仔细研究下面的示例：
+
+![](assets/rs-mapping.png)
+
+在此图表中，蓝色钥匙表示管理员权限。灰色线条表示可见性。
 
 此用户对两个 Experience Cloud 组织拥有访问权限。他执行了以下操作：
 
-* 将其在 Chapek Analytics 登录公司中的管理员帐户与其 Chapek Corp Experience Cloud 组织帐户相关联。
-* 将其在 Doohan Analytics 登录公司中的非管理员帐户与其 Chapek Corp Experience Cloud 组织帐户相关联。
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * 将其在 Nigel Analytics 登录公司中的非管理员帐户与其 Nigel Inc Experience Cloud 组织帐户相关联。
 
 以下几点列出了此用户针对这些报表包可以执行以及无法执行的映射操作：
 
-* Chapek-prod 报表包可以映射到 Chapek Corp 组织，因为此用户是已关联的 Analytics 登录公司 (Chapek) 的管理员，并且其帐户已与该组织相关联。
-* Nigel-prod 报表包无法由此用户进行关联，因为他不是可查看此报表包的任何登录公司的管理员。
-* Doohan-prod 报表包可以映射到 Chapek Corp，因为此用户是已与 Experience Cloud 组织关联的登录公司 (Chapek) 的管理员（请注意，他并不是 Doohan Analytics 登录公司的管理员）。请务必注意，Doohan-prod 报表包也可以映射到 Nigel Inc Experience Cloud 组织，尽管此用户无法执行该映射。在此示例中，两个 Experience Cloud 组织都显示在列表中，但 Nigel Inc 呈灰显状态。在映射之前，此用户应咨询 Nigel 登录公司的管理员，以确定哪个组织是映射的最佳选项。如果您选择的组织与报表包最初创建时所在的组织不一致，UI 将显示可能存在冲突的警告。
+* [!UICONTROL Chapek-prod] Report suite可映射到 [!UICONTROL Chapek] Corp org，因为此用户是链接的Analytics登录公司([!UICONTROL chapek])的管理员，且其帐户已链接到此组织。
+* [!UICONTROL Nigel-prod 报表包无法由此用户进行关联，因为他不是可查看此报表包的任何登录公司的管理员。]
+* [!UICONTROL Doohan-prod] Report Suite可映射到 [!UICONTROL Chapek Corp] ，因为此用户是链接到Experience Cloud组织的登录公司([!UICONTROL chapek])的管理员（请注意，他不是Doohan Analytics登录公司的管理员）。 It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. 在映射之前，此用户应咨询 Nigel 登录公司的管理员，以确定哪个组织是映射的最佳选项。如果您选择的组织与报表包最初创建时所在的组织不一致，UI 将显示可能存在冲突的警告。
 
 ## 常见问题解答 {#section_099E485805994C929FF9C9F75219BEE1}
 
