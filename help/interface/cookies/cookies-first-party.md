@@ -8,7 +8,7 @@ title: 第一方 Cookie
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
 >[!N注意：]
+>
 >Experience Cloud访客ID服务为配置CNAME以启用第一方Cookie提供了一种替代方法，但由于Apple ITP最近发生了更改，因此，即使在使用Experience Cloud ID服务时，仍建议您分配CNAME。
 
 ## 验证主机名转发 {#validate}
@@ -100,7 +101,9 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 `https://sstats.adobe.com/_check`
 
-**注意：** 如果未安装证书，您将看到安全警告。
+>[!N注意：]
+>
+>如果未安装证书，您将看到安全警告。
 
 ### 验证方式 [!DNL curl]
 
