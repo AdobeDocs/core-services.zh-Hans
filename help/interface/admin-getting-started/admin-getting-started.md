@@ -1,20 +1,20 @@
 ---
-description: 了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置以及浏览器支持。
+description: 了解如何登录到Admin Console、管理Experience Cloud用户权限和产品用户档案以及浏览器支持。
 keywords: core services
-seo-description: 了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置以及浏览器支持。
+seo-description: 了解如何登录到Admin Console、管理Experience Cloud用户权限和产品用户档案以及浏览器支持。
 seo-title: 管理 Experience Cloud 用户和产品
 solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: b6bd75d92ce96e852a6e548362988a9b4d529fb9
+source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
 
 ---
 
 
 # 管理 Experience Cloud 用户和产品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置以及浏览器支持。
+了解如何登录到Admin Console、管理Experience Cloud用户权限和产品用户档案以及浏览器支持。
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,7 @@ source-git-commit: b6bd75d92ce96e852a6e548362988a9b4d529fb9
 
 了解 Experience Cloud 用户管理的最新功能。
 
-<!--
-
-### Business ID type
+<!-- ### Business ID type
 
 Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
 
@@ -37,12 +35,11 @@ Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organi
 What to do
 
 * Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.)
--->
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### 管理工具
 
-管理员可以在管理工具中查看所有Experience Cloud用户及其详细信息的可排序和可过滤列表。 请参 [阅在管理工具中查看Experience Cloud用户](admin-tool-experience-cloud.md)。
+管理员可以在管理工具中视图所有Experience Cloud用户及其详细信息的可排序和可过滤的列表。 请参 [阅“管理工具”中的视图Experience Cloud用户](admin-tool-experience-cloud.md)。
 
 ## 登录到 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
@@ -57,15 +54,15 @@ Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), clic
 
 **相关帮助**
 
-[Creative Cloud和](https://helpx.adobe.com/enterprise/using/users.html) Document Cloud管理用户指南。 某些信息与Experience Cloud用户管理相关，例如管 [理身份类型](https://helpx.adobe.com/enterprise/help/identity.html)。
+[Creative Cloud和文档云的管理用户指南](https://helpx.adobe.com/enterprise/using/users.html) 。 某些信息与Experience Cloud用户管理相关，例如管 [理身份类型](https://helpx.adobe.com/enterprise/help/identity.html)。
 
-[登录并管理您的配置文件设置](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) ，以管理密码、组织和通知。
+[登录并管理用户档案设置](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) ，以管理密码、组织和通知。
 
-## 产品配置和组 {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## 产品用户档案和组 {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-添加产品配置文件标志着以前（通过使用组）管理解决方案产品和服务的方式发生了变化。 在Admin Console中，权限基于产品配置文件，这些配置文件是您可以分配给用户的产品和服务组。
+产品用户档案的增加标志着解决方案产品和服务先前的管理方式（使用组）发生了变化。 在Admin Console中，权限基于产品用户档案，这些产品和服务组可以分配给用户。
 
-例如，在Analytics中，您可以配置报告工具的集合，如Analysis Workspace和Report Builder，以及报告套件、指标、维度等。 您可以通过将用户添加到配置文件来向产品配置文件授予权限。 See [Assign Analytics access permissions to a product profile](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
+例如，在Analytics中，您可以配置报告工具的集合，如分析工作区和Report Builder，以及报表包、度量、维度等。 您可以通过将用户添加到用户档案来向产品用户档案授予权限。 See [Assign Analytics access permissions to a product profile](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **相关帮助**
 
@@ -91,26 +88,26 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 ## Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-在Target中，工作区是产品配置。 它允许组织将一组特定用户分配到一组特定属性。 在很多方面，工作区与 Adobe Analytics 中的报表包类似。
+在目标中，工作区是产品用户档案。 它允许组织将一组特定用户分配到一组特定属性。 在很多方面，工作区与 Adobe Analytics 中的报表包类似。
 
 请参阅：
 * [企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [管理产品和配置](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* [管理产品和用户档案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 视频：如 [何在Adobe Admin Console中配置目标工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - 产品配置文件、租户和安全群组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Campaign中 *的租户* ，在Admin Console产品页 *面中* ，显示为产品。
+活动 *中的租户**，在“Admin Console产品”页* 面中，显示为产品。
 
-*安全组* 显示为产品配置。
+*安全组* 显示为产品用户档案。
 
 有关安 [全组以及将用户分配给安全组](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) ，请参阅管理组和用户。
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch显示在Admin Console的“产品”页面上。 您可以在Launch产品配置中包含其他解决方案和服务。
+Experience Platform Launch显示在Admin Console的“产品”页面上。 您可以在Launch产品用户档案中包含其他解决方案和服务。
 
-请参 [阅用户管理](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) ，以了解有关Admin Console中用户权限的信息并设置特定于启动项的选项，包括为配置文件分配权限。
+请参 [阅用户管理](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) ，以了解有关Admin Console中用户权限的信息并设置特定于启动项的选项，包括为用户档案分配权限。
 
 ## 动态标签管理器 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -120,15 +117,15 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-创建Audience Manager用户并将其分配给用户组。 您还可以查看限制（特征、区段、目标和AlgoModel）。
+创建受众管理器用户并将其分配给用户组。 您还可以视图限制（特征、区段、目标和AlgoModel）。
 
-请参 [阅Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) Manager帮助中的管理。
+请参 [阅受众](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) Manager帮助中的管理。
 
 ## 管理 Experience Cloud 产品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
-创建产品配置并将其分配给权限组。
+创建产品用户档案并将其分配给权限组。
 
-当您邀请用户加入组织时，您可以授予用户对产品和产品配置的访问权限。 您还可以将有限的管理权限委派给用户。 同样，您可以创建用户组，然后将该用户组添加到产品配置以启用访问。
+当您邀请用户加入组织时，您可以授予用户对产品和产品用户档案的访问权限。 您还可以将有限的管理权限委派给用户。 同样，您可以创建用户组，然后将用户组添加到产品用户档案以启用访问权限。
 
 1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
 1. 单击&#x200B;**[!UICONTROL 新建配置文件]**。
@@ -137,8 +134,8 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 有关更多帮助，请访问：
 
-* [管理产品和配置](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Target帮助中的“企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) ”，以了解更多信息。
+* [管理产品和用户档案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* [目标帮助中的“企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) ”，以了解更多信息。
 * 视频：如 [何在Adobe Admin Console中配置目标工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 将 Analytics 访问权限分配给产品配置文件 {#task_040673FE3E3E429B9531FBCB8B6A4391}
@@ -156,7 +153,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 | Report Suites | 为特定报表包启用权限。 |
 | 量度 | 启用流量、转化、自定义事件、解决方案事件、内容感知等权限。 |
 | 维度 | 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 |
-| 报表包工具 | 为Web服务、报表包管理、工具和报表以及仪表板项目启用用户权限。 |
+| 报表包工具 | 为Web服务、报表包管理、工具和报表以及仪表板项启用用户权限。 |
 | Analytics 工具 | 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。“自定义 Admin Console”类别中的“公司设置”已被移动到“Analytics 工具”中。 |
 
 ## 将管理角色分配给用户 {#task_3A072C4AA9734BC59FFA7E015271BC7E}
