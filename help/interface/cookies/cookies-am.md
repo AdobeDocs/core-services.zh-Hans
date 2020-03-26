@@ -1,20 +1,20 @@
 ---
-description: Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
+description: 受众管理器依赖一些简单的cookie来执行不同的功能。 这些包括指定ID、记录数据调用、错误跟踪和测试，以查看是否可以设置Cookie。 本节列表并描述由受众管理器设置的各种Cookie。
 keywords: cookies
-seo-description: Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
+seo-description: 受众管理器依赖一些简单的cookie来执行不同的功能。 这些包括指定ID、记录数据调用、错误跟踪和测试，以查看是否可以设置Cookie。 本节列表并描述由受众管理器设置的各种Cookie。
 seo-title: Audience Manager Cookie
 solution: Marketing Cloud,Audience Manager
 title: Audience Manager Cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Audience Manager Cookie{#audience-manager-cookies}
 
-Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cookie。其中包括分配 ID、记录数据调用、跟踪错误和测试是否能设置 Cookie 等功能。此部分列出并介绍了 Audience Manager 设置的各种 Cookie。
+受众管理器依赖一些简单的cookie来执行不同的功能。 这些包括指定ID、记录数据调用、错误跟踪和测试，以查看是否可以设置Cookie。 本节列表并描述由受众管理器设置的各种Cookie。
 
 **demdex Cookie**
 
@@ -38,8 +38,8 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
    <td colname="col1"> <p> <b>其他属性</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">存留期：<span class="wintitle">demdex</span> Cookie 的生存时间 (TTL) 间隔为 180 天。每当用户与合作伙伴网站交互时，系统会将 TTL 重置为 180 天。如果用户在 TTL 间隔内没有再次访问您的网站，该 Cookie 将过期。 </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">选择退出：如果用户选择退出数据收集，则 <span class="keyword">Audience Manager</span> 将使用 <span class="codeph">Do Not Target</span> 字符串重置该 Cookie。在这种情况下，Cookie TTL 被设置为 10 年。 </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">存留期：<span class="wintitle">demdex</span> Cookie 的生存时间 (TTL) 间隔为 180 天。每次用户与合作伙伴网站交互时，TTL将重置为180天。 如果用户在TTL间隔内没有返回到您的站点，则Cookie将过期。 </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. 在这种情况下，Cookie TTL 被设置为 10 年。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -65,14 +65,14 @@ Audience Manager 在执行不同的功能时需要依赖于若干简单的 Cooki
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
       <li id="li_03747A433CEB4756A26CD866E716B89D">旧样式：<span class="codeph"><span class="varname">此处为数据提供程序名称 </span>-1490307822097|<span class="varname"> 此处为数据提供程序名称 </span>-1490307822038</span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新样式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
-     </ul> </p> <p>另请参阅下面的 dextp 数据语法部分。 </p> </td> 
+     </ul> </p> <p>另请参阅下面的dextp数据语法部分。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他属性</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">存留期：<span class="wintitle">dextp</span> Cookie 的生存时间 (TTL) 间隔为 180 天。 </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">选择退出：如果用户选择退出数据收集，则 <span class="keyword">Audience Manager</span> 将使用 <span class="codeph">Do Not Target</span> 字符串重置该 Cookie。在这种情况下，Cookie TTL 被设置为 10 年。 </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. 在这种情况下，Cookie TTL 被设置为 10 年。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -85,30 +85,30 @@ dextp Cookie 数据语法：
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 变量位置 </th> 
+   <th colname="col1" class="entry"> 可变位置 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>第一个或第二个</b> </p> </td> 
-   <td colname="col2"> <p>数据提供程序名称或 ID 的位置视具体情况而有所不同，它取决于 Cookie 使用新格式还是旧格式。 </p> <p> <b>旧格式：</b> </p> <p> 
+   <td colname="col2"> <p>数据提供者名称或ID的位置因cookie使用新样式格式还是旧样式格式而异。 </p> <p> <b>旧样式格式：</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">语法：<span class="codeph"> <span class="varname"> 数据提供程序名称 </span> - <span class="varname"> UNIX UTC 时间戳 </span> </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Syntax: <span class="codeph"> <span class="varname"> data provider name </span> - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">示例：<span class="codeph">dataProvider1 – 1490307822038 </span> </li> 
-     </ul> </p> <p>旧格式 Cookie 使用可读名称来标识数据提供程序。 </p> <p> <b>新格式：</b> </p> <p> 
+     </ul> </p> <p>旧样式Cookie使用可读名称标识数据提供者。 </p> <p> <b>新样式格式：</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">语法：<span class="codeph"> <span class="varname"> 数据提供程序 ID </span> - 1|2 - <span class="varname"> UNIX UTC 时间戳 </span> </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">Syntax: <span class="codeph"> <span class="varname"> data provider ID </span> - 1|2 - <span class="varname"> UNIX UTC timestamp </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">示例：<span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
-     </ul> </p> <p>新样式 Cookie： </p> <p> 
+     </ul> </p> <p>新样式Cookie: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
-      <li id="li_A8C9638173684359BABC4207845A4F48">用数字 ID 取代可读的数据提供程序名称。 </li> 
-      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">用 ID 1 或 ID 2 标识调用类型。ID 1 表示 ID 同步调用。ID 2 表示不再使用的已弃用调用。含有 ID 2 的 dextp Cookie 并不多见（或者根本没有）。 </li> 
+      <li id="li_A8C9638173684359BABC4207845A4F48">用数字ID替换可读数据提供程序名称。 </li> 
+      <li id="li_28F1E2DB24904E53BE9718AD788CE61E">使用ID 1或ID 2标识呼叫类型。 ID 1表示ID同步调用。 ID 2表示不再使用的已弃用调用。 您不应看到ID为2的许多（或任何）dextp cookie。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>上次</b> </p> </td> 
-   <td colname="col2"> <p>最后的位置包含一个 UNIX UTC 时间戳。 </p> </td> 
+   <td colname="col1"> <p> <b>最后一个</b> </p> </td> 
+   <td colname="col2"> <p>最后一个位置包含UNIX UTC时间戳。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ dextp Cookie 数据语法：
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">存留期：<span class="wintitle">dst</span> Cookie 的生存时间 (TTL) 间隔为 180 天。 </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">选择退出：如果用户选择退出数据收集，则 <span class="keyword">Audience Manager</span> 将使用 <span class="codeph">Do Not Target</span> 字符串重置该 Cookie。 </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
