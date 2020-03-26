@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 
-您需要具备贵企业 CRM 或类似数据的访问权限。您上传到 Experience Cloud 的数据必须是 `.csv` 文件。如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
+您需要从企业访问CRM或类似数据。 您上传到 Experience Cloud 的数据必须是 `.csv` 文件。如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
 
 上传客户属性是为了每天处理一些文件。为了缓解延迟处理大量小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
 
@@ -35,7 +35,7 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>逗号分隔值文件（例如在 Excel 中创建的文件）。这个文件包含客户属性数据。 </p> <p> <b>命名要求：</b>确保文件扩展名不包含空格。 </p> </td> 
+   <td colname="col2"> <p>以逗号分隔的值文件（如在Excel中创建的文件）。 这是包含客户属性数据的文件。 </p> <p> <b>命名要求：</b> 确保文件扩展名不包含空格。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -53,19 +53,19 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 
 
-**示例 CSV**
+**示例CSV**
 
-CSV 文件必须符合以下格式：
+CSV文件必须遵循以下格式：
 
-示例 CSV：
+示例CSV:
 
 ![](assets/cvs.png)
 
-在文本编辑器中查看的相同文件：
+在文本编辑器中查看的同一文件：
 
 ![](assets/csv_txt.png)
 
-**指南**
+**准则**
 
 <table id="table_A9849CC9AA784763921DE057F0F61515"> 
  <thead> 
@@ -77,37 +77,37 @@ CSV 文件必须符合以下格式：
  <tbody> 
   <tr> 
    <td colname="col1"> <p>拖放 </p> </td> 
-   <td colname="col2"> <p>拖放文件应当小于 100 MB。 </p> <p>在使用拖放上传方法时不需要 <span class="filepath">.fin</span> 文件。 </p> </td> 
+   <td colname="col2"> <p>拖放文件应小于100 MB。 </p> <p>在使用拖放上传方法时不需要 <span class="filepath">.fin</span> 文件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是一个唯一客户 ID。使用的 ID 应当与将要传送至 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，该 ID 存储在 prop 或 eVar 中。 </p> <p>对于 Target，该 ID 为 setCustomerID 值。（请参阅 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是您的 CRM 用于数据库中每位人员的唯一标识符。其余的列是来自您的 CRM 的属性。您将选择要上传多少个属性。 </p> <p>建议使用易记好读的列标题名称，但也不是必需的。在上传后验证架构时，您可以将易记的名称映射到已上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>通常情况下，企业使用来自 CRM 系统的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此 ID 还用作上传到 Experience Cloud 的 CRM 文件中的键值。安<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统会将别名发送到此数据存储（通过 setCustomerIDs）。CRM 文件将被应用到该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col1"> <p>客户ID列 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户ID。 使用的ID应与传递到Experience Cloud ID服务的ID相对应。 </p> <p>对于Analytics,ID存储在prop或eVar中。 </p> <p>对于目标,setCustomerID值。 (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> 此客户ID是CRM为数据库中的每个人使用的唯一标识符。 其余的列是来自您的CRM的属性。 您将选择要上传的属性数。 </p> <p>建议对列标题使用易记、可读的名称，但不要求。 在上传后验证模式时，可以将友好名称映射到已上载的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>通常，企业使用CRM系统中的客户ID。 此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。此ID还用作上传到Experience Cloud的CRM文件中的密钥。 An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. 系统将别名发送到此数据存储（通过setCustomerID）。 CRM文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>后续的标题和列 </p> </td> 
-   <td colname="col2"> <p>后续的标题应表示每个属性的名称。 </p> <p> 这些列应当包含来自 CRM 的客户属性。 </p> </td> 
+   <td colname="col1"> <p>后续标题和列 </p> </td> 
+   <td colname="col2"> <p>后续的标题应代表每个属性的名称。 </p> <p> 这些列应包含来自CRM的客户属性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性限制 </p> </td> 
-   <td colname="col2"> <p>您可以向 Experience Cloud 中的客户属性服务上传数百个 <span class="filepath">.csv</span> 列。但是，在配置订阅和选择属性时，根据您拥有的解决方案，将会受到以下限制： </p> <p> 
+   <td colname="col2"> <p>您可以向 Experience Cloud 中的客户属性服务上传数百个 <span class="filepath">.csv</span> 列。但是，在配置订阅和选择属性时，根据您拥有的解决方案，以下限制适用： </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：总共 3 个 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每个报表包 200 个 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard：</b>5 个 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium：</b>200 个 </li> 
+      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>:3共 </li> 
+      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>:每个报告包200个 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe目标标准：</b> 5 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe目标高级版：</b> 200 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>行限制 </p> </td> 
-   <td colname="col2"> <p>行的数量不存在已知的限制。 </p> </td> 
+   <td colname="col2"> <p>对行数没有已知限制。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>列限制 </p> </td> 
-   <td colname="col2"> <p>从实用性考虑，列的数量限制在 200 个左右。 </p> </td> 
+   <td colname="col2"> <p>为实用起见，将列数限制在200左右。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符限制 </p> </td> 
-   <td colname="col2"> <p>在创建 Analytics 订阅时，上传文件的字段长度会被截断为 255 个字符。 </p> </td> 
+   <td colname="col2"> <p>创建Analytics订阅时，上传文件的字段长度会被截断为255。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>FTP 指南和大小限制 </p> </td> 
@@ -117,11 +117,11 @@ CSV 文件必须符合以下格式：
       <li>最小文件大小限制为每次上传 10 MB。 </li>
       <li>您可以每半小时上传一个文件。 </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> 您应当将您的 <span class="filepath">.csv</span>（和 <span class="filepath">.fin</span>）文件放在 FTP 站点的根文件夹中。 </li> 
-     </ul> </p> <p> <p>重要提示：FTP 帐户允许的总空间量为 40 GB。您将负责删除处理后的文件。 </p> </p> </td> 
+     </ul> </p> <p> <p>重要提示：FTP 帐户允许的总空间量为 40 GB。您有责任删除已处理的文件。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文件要求 </p> </td> 
-   <td colname="col2"> <p> 每个属性来源应当包含相同数量的以逗号分隔的字段。 </p> <p> 包含换行符、双引号或逗号的字段必须用引号引起来。 </p> <p> 字段中的双引号字符必须使用反斜线 (\) 进行转义。 </p> <p> 空白列存储为 <span class="term"> null </span>. </p> </td> 
+   <td colname="col2"> <p> 每个属性源应包含相同数量的以逗号分隔的字段。 </p> <p> 包含换行符、多次引号或逗号的字段必须加引号。 </p> <p> 字段中的多次引号字符必须使用反斜杠(\)进行转义。 </p> <p> 空列存储为 <span class="term"> null </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>多个文件 </p> </td> 
@@ -129,15 +129,15 @@ CSV 文件必须符合以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符编码 </p> </td> 
-   <td colname="col2"> <p>对于日本，必须使用 UTF-8。 </p> </td> 
+   <td colname="col2"> <p>对于日本，UTF-8是必填项。 </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
-   <td colname="col2"> <p> 客户属性绑定到 Analytics 中的基本访客资料。因此，在 Analytics 中访客资料的整个生命周期内，客户属性都与该访客关联。这包括客户首次登录之前发生的行为。 </p> <p> 如果您使用 Data Warehouse 回填方法，数据会绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果您使用的是Experience Cloud ID服务，则数据将绑定到基于Experience Cloud ID(MID)的post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客户属性与Analytics中的基础访客用户档案相关联。 因此，在Analytics中，客户属性与该访客的整个生命周期中的访客相关联。 这包括在客户首次登录之前发生的行为。 </p> <p> 如果使用数据仓库回填方法，则数据将绑定到基于Analytics ID(AID)的post_visid_high/low。 如果您使用的是Experience Cloud ID服务，则数据将绑定到基于Experience Cloud ID(MID)的post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据馈送 </p> </td> 
-   <td colname="col2"> <p>客户属性不能用于数据馈送。 </p> </td> 
+   <td colname="col2"> <p>客户属性在数据馈送中不可用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,11 +145,11 @@ CSV 文件必须符合以下格式：
 
 ## 利用多个数据源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-创建、修改或删除客户属性来源时，大约会有一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。
+在创建、修改或删除客户属性源时，在ID开始与新数据源同步前约有一小时的延迟。
 
-每个客户属性来源的别名 ID 必须是唯一的。如果有多个数据源使用相同的 ID，则应当遵循以下步骤对其进行设置：
+每个客户属性来源的别名ID必须是唯一的。 如果您有多个使用同一ID的数据源，则应按如下方式设置它们：
 
-**在 VisitorAPI.js 或动态标签管理的 Experience Cloud ID 工具中：**
+**在VisitorAPI.js或动态标签管理中的Experience Cloud ID工具中：**
 
 设置两个客户 ID，使其分别对应于适当的数据源：
 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（请参阅[客户 ID 和身份验证状态](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)以了解详细信息。）
+(See [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) for more information.)
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-使用与上方客户 ID 对应的唯一别名 ID 创建两个客户属性来源。使用这种方法，可以将同一参考 ID 发送至多个客户属性来源。
+使用与上述客户ID对应的唯一别名ID创建两个客户属性来源。 使用此方法可将相同的引用ID发送到多个客户属性源
