@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,19 +27,19 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Data Workbench Cookie](cookies/cookies-insight.md)
    + [Experience Cloud Cookie](cookies/cookies-mc.md)
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
-   + [Scene7 Cookie](cookies/cookies-s7.md)
-   + [Search 和 Promote Cookie](cookies/cookies-snp.md)
-   + [Target Cookie](cookies/cookies-target.md)
+   + [[!DNL Scene7] Cookies](cookies/cookies-s7.md)
+   + [[!DNL搜索和提升] cookies](cookies/cookies-snp.md)
+   + [[!DNL目标] cookies](cookies/cookies-target.md)
    + [启用浏览器 Cookie 的隐私设置](cookies/browser-cookie-settings.md)
-   + [第三方 Cookie 支持的变化对客户有何影响](cookies/cookies-thirdparty.md)
+   + [对第三方Cookie支持的更改对客户有何影响](cookies/cookies-thirdparty.md)
 + 用户和产品管理 {#manage-users-and-products}
    + [管理Experience Cloud用户和产品(Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [查看Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [视图Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
    + [常见问题解答](admin-getting-started/faq.md)
    + [登录并管理配置文件设置](admin-getting-started/getting-started-experience-cloud.md)
    + [组织和帐户关联](admin-getting-started/organizations.md)
    + [升级到 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++ Experience Cloud激活 {#activation}
    + [激活概述](activation/activation.md)
    + [Launch 用户指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [动态标签管理器用户指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
@@ -54,7 +54,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [禁用共享文件夹的同步](experience-cloud-assets/t-disable-asset-sync.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud中的受众 {#audiences}
++ 受众Experience Cloud {#audiences}
    + [受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
@@ -68,9 +68,9 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [配置订阅](attributes/subscription.md)
    + [更新架构](attributes/t-update-schema.md)
    + [隐私注意事项 - 客户属性](attributes/privacy-mac.md)
-+ 选件管理 {#offer-management}
-   + [选件管理快速入门](offer-management/getting-started.md)
-   + [选件管理工作流](offer-management/offer-management-workflow.md)
++ 优惠管理 {#offer-management}
+   + [优惠管理入门](offer-management/getting-started.md)
+   + [优惠管理工作流](offer-management/offer-management-workflow.md)
    + [选件](offer-management/offers.md)
    + [标签](offer-management/labels.md)
    + [版面](offer-management/placements.md)
