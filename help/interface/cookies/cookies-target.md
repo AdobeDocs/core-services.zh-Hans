@@ -7,20 +7,20 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Target Cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Target Cookie{#target-cookies}
+# Adobe Target Cookies{#target-cookies}
 
-Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件与访客更相关。
+Adobe目标使用cookies使网站运营商能够测试哪些在线内容和优惠与访客更相关。
 
-您可以根据需要更改这些设置，但 Cookie 持续时间除外。更改 Cookie 设置时可咨询您的客服专员。
+您可以根据需要更改这些设置，但cookie持续时间除外。 更改Cookie设置时，请咨询您的客户代表。
 
 >[!NOTE]
 >
->Target 用户还可以创建自定义的第三方 Cookie。
+>Adobe目标用户还可以创建自定义的第三方Cookie。
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -31,20 +31,20 @@ Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Cookie 名称 </p> </td> 
+   <td colname="col1"> <p>Cookie名称 </p> </td> 
    <td colname="col2"> <p>mbox。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Cookie 域 </p> </td> 
-   <td colname="col2"> <p>提供 mbox 的二级域和顶级域。由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例：<span class="filepath">mycompany.com</span>。 </p> </td> 
+   <td colname="col1"> <p>Cookie域 </p> </td> 
+   <td colname="col2"> <p>您提供mbox的域的二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例：<span class="filepath">mycompany.com</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>服务器域 </p> </td> 
-   <td colname="col2"> <p> <span class="filepath">clientcode.tt.omtrdc.net</span>，使用 Target 帐户的客户代码。 </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>，使用Adobe目标帐户的客户端代码。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Cookie 持续时间 </p> </td> 
-   <td colname="col2"> <p>访客上次登录两年后的浏览器中仍保留该Cookie。 您不能更改 Cookie 持续时间。 </p> </td> 
+   <td colname="col1"> <p>Cookie持续时间 </p> </td> 
+   <td colname="col2"> <p>Cookie将保留在访客的浏览器上，距上次登录两年后。 您无法更改Cookie持续时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件�
 >
 >如果您的任何域名包括国家/地区代码（如 [!DNL mycompany.co.uk]），请咨询客户服务部门来配置您的 [!DNL mbox.js] 以支持此功能。
 
-此 Cookie 保存一系列值，以控制您的访客体验 Target 营销活动的方式：
+Cookie保留许多值，以管理您的访客体验Adobe目标活动的方式：
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
@@ -65,15 +65,15 @@ Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> session ID</span> </p> </td> 
-   <td colname="col2"> <p>用户会话的唯一 ID。默认情况下，该 ID 持续 30 分钟。 </p> </td> 
+   <td colname="col2"> <p>用户会话的唯一ID。 默认情况下，此时间为30分钟。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
-   <td colname="col2"> <p>访客浏览器的半永久性 ID。持续到 Cookie 被手动删除为止。 </p> </td> 
+   <td colname="col2"> <p>访客浏览器的半永久ID。 在手动删除Cookie之前一直有效。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> check</span> </p> </td> 
-   <td colname="col2"> <p>用来确定访客是否支持 Cookie 的简单测试值。每次用户请求页面时设置。 </p> </td> 
+   <td colname="col2"> <p>用于确定访客是否支持cookie的简单测试值。 每次访客请求页面时设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
