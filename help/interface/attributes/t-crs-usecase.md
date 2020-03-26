@@ -1,13 +1,13 @@
 ---
 description: 创建客户属性来源并上传数据。
-keywords: 客户属性;核心服务
+keywords: customer attributes;core services
 seo-description: 创建客户属性来源并上传数据。
 seo-title: 创建客户属性来源并上传数据文件
 solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -35,18 +35,17 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 >[!IMPORTANT]
 >
->要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。（**[!UICONTROL 管理]** &gt; **[!UICONTROL Admin Console]** &gt; **[!UICONTROL 用户]** &gt; ）。添加到客户属性群组的用户将会在 Experience Cloud 界面左侧的“[!UICONTROL 受众]”中看到“[!UICONTROL 客户属性]”菜单项。
+>要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
 >
->此外，还要求具备解决方案群组成员资格。
+>还需要成为解决方案组成员。
 
-要使用“客户属性”功能，用户必须属于用户管理中的 Adobe 客户属性群组，并且属于解决方案级别的群组（Analytics 或 Target）。
+To use the Customer Attributes feature, users must belong to the Adobe Customer Attributes group in user management, and to solution-level groups (Analytics or [!DNL Target]).
 
 请参阅[用户和群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
 
 ## 创建数据文件 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
-此数据是来自您的 CRM 的企业客户数据。此数据可能包含产品的订阅者数据，如成员 ID、获得授权的产品、启动最多的产品等等。
-
+此数据是来自您的CRM的企业客户数据。 数据可能包括产品的订阅者数据，包括成员ID、授权产品、最新启动的产品等。
 
 1. 创建一个 `.csv`.
 
@@ -68,14 +67,12 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 在 Experience Cloud 的“新建客户属性来源”页面中执行这些步骤。
 
-
 >[!IMPORTANT]
 >
 >创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。联系 Audience Manager 客户关怀团队或咨询以获取管理权限。
 
-
 1. 在 [!DNL Experience Cloud] 中，单击菜单 ![](assets/menu-icon.png) 图标。
-1. 在 **[!DNL Experience Platform]** 下，单击&#x200B;**[!UICONTROL 人员]** &gt; **[!UICONTROL 客户属性]**。
+1. Under **[!DNL Experience Platform]**, click **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
 
@@ -90,13 +87,13 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在“别名 ID”字段中为 Experience Cloud UI 的客户属性来源输入的值应当匹配从实施传入的值（无论是通过动态标签管理还是 Mobile SDK 的 JavaScript）。
+   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud UI中客户属性源的别名ID字段中输入的值应与从实施中传入的值（无论是通过动态标签管理还是Mobile SDK的JavaScript）相匹配。
 
-      别名 ID 对应在其中设置其他客户 ID 值的特定区域。例如：
+      别名ID对应于您设置其他客户ID值的某些区域。 例如：
 
-      * **** 动态标签管理：别名ID与Experience Cloud ID服务工 *具中“客户设置* ”下的“集 [!UICONTROL 成代码”值]相对应 [](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) 。
+      * **动态标签管理：** 别名ID与Experience Cloud ID服务工 *具中“客户设置* ”下的“集 [!UICONTROL 成代码”值]相对应 [](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) 。
 
-      * **访客 API：**&#x200B;别名 ID 对应可与每个访客关联的其他[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)。
+      * **访客API:** 别名ID与可与每个访客关 [联的其他客户ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 相对应。
 
          例如，下面的&#x200B;*“crm_id”*：
 
@@ -106,14 +103,14 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
          ```
 
 
-      * **** iOS:别名ID与visitorSyncIdentifiers:identifiers *中的* “ [idType”相对应](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+      * **iOS:** 别名ID与visitorSyncIdentifiers:identifiers *中的* “ [idType”相对应](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android：**&#x200B;别名 ID 对应 *syncIdentifiers中的* “ [idType”](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
+      * **Android:** 别名ID与syncIdentifiers中 *的“idType* ” [相对应](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
 
          例如：
 
@@ -128,7 +125,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
       >存在特定的数据文件要求。请参阅[数据文件要求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，以了解更多信息。
 
 
-      上传文件之后，表格数据显示在此页面的“[!UICONTROL 文件上传]”标题下方。您可以验证架构，配置订阅或设置 FTP。
+      上传文件后，表数据将显示在此页面的“文 [!UICONTROL 件上传] ”标题下。 您可以验证模式、配置订阅或设置FTP。
 
 
 
@@ -140,7 +137,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
    * **[!UICONTROL 别名为 Experience Cloud 访客 ID 的客户提供 ID：]**&#x200B;显示别名为 Experience Cloud 访客 ID 的 ID 数量。
 
-   * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供 ID 很可能不表示个人而表示某类共享登录。系统将与这些 ID 关联的属性分发给 500 个最近的 Experience Cloud 访客 ID 别名，直到别名计数达到 10,000 为止。到那时，系统会使客户提供 ID 无效，且不再分发关联的属性。
+   * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供的ID很可能不代表个人，而是某种共享登录。 系统会将与这些ID关联的属性分发到500个最新别名Experience Cloud访客ID，直到别名计数达到10,000。 到那时，系统会使客户提供 ID 无效，且不再分发关联的属性。
 
 
 
@@ -169,7 +166,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ## 配置订阅和激活属性来源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-配置订阅可设置 Experience Cloud 和各解决方案之间的数据流。激活属性来源允许数据流动到订阅的解决方案。由您上传的客户记录与您的网站或应用程序中传入的 ID 信号匹配。
+配置订阅可设置Experience Cloud和解决方案之间的数据流。 激活属性源后，数据便可流向订阅的解决方案。 您上传的客户记录与您网站或应用程序中传入的ID信号匹配。
 
 请参阅[配置订阅](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -192,7 +189,7 @@ Adobe Analytics
 
 在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
-请参阅 Analytics 帮助中的[客户属性报表](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)，以了解详细信息。
+有关详 [细信息，请参阅Analytics帮助中的](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) “客户属性报告”。
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +197,4 @@ Adobe Analytics
 
 ![](assets/crs-add-attribute-target.png)
 
-请参阅 Target 帮助中的[新建受众](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)。
+请参 [阅帮助中的创建新受众](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)[!DNL Target] 。
