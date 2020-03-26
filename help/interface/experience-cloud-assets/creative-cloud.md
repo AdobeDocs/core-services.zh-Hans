@@ -1,13 +1,13 @@
 ---
-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资产，并在Experience Cloud解决方案(如社交和目标)中使用它们。 共享文件夹必须源自Experience Cloud。
+description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资源，并在Adobe Social和Adobe目标等Experience Cloud解决方案中使用它们。 共享文件夹必须源自Experience Cloud。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资产，并在Experience Cloud解决方案(如社交和目标)中使用它们。 共享文件夹必须源自Experience Cloud。
+seo-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资源，并在Adobe Social和Adobe目标等Experience Cloud解决方案中使用它们。 共享文件夹必须源自Experience Cloud。
 seo-title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 solution: Experience Cloud
 title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
