@@ -1,13 +1,13 @@
 ---
 description: Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
-keywords: cookies;隐私
+keywords: cookies;privacy
 seo-description: Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
 seo-title: Scene7 Cookie
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Scene7 Cookie
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,26 +16,26 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
 
-Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash 查看器查看。
+Scene7将一些基于AS2 Flash的旧查看器的信息存储在本地。
 
-对于 AS2 查看器，Cookie：
+对于AS2查看器，Cookie:
 
-* 跟踪用户的会话状态，例如，查看的当前页面和图像、当前缩放水平，等等。
-* 确定距离上次用户会话的时间。查看器利用此信息决定是继续上一会话，还是启动新会话。此信息还会被发送到 Scene7 服务器，但是服务器不会使用此信息。
+* 跟踪用户的会话状态，如当前查看的页面和图像、当前缩放级别等。
+* 确定自用户上一个会话以来已经有多长时间。 查看器使用此信息决定是否继续上一个会话或开始新会话。 此信息也会发送到Scene7服务器，但不会使用。
 
-对于 AS2 Flash eCatalog 查看器，Cookie：
+对于AS2 Flash eCatalog查看器，Cookie:
 
-* 存储用户生成的内容（尤其是用户在 ecatalog 查看器的“便笺”功能中输入的内容）。当用户继续某个会话时会还原此内容。
-* 当用户发起与其他用户共享 ecatalog 的电子邮件时，系统会将 AS2 查看器的第二个项目符号对应的便笺内容复制到我们的服务器，以将其提供给收件人。当收件人发起查看器会话时，系统会从服务器中检索便笺内容，并将其复制到 Cookie。此功能很少使用，因此它不会过期，系统也不会删除其旧内容。目前，此功能可在服务器上无限期地存在，永久有效。
+* 存储用户生成的内容（最明显的是用户在电子目录查看器的“附注”功能中输入的内容）。 当用户恢复会话时，此内容会恢复。
+* 当用户发起电子邮件以与其他用户共享电子目录时，来自第二个AS2查看器项目符号的便签内容将复制到我们的服务器，以将其提供给收件人。 当收件人启动查看器会话时，将从服务器检索附注内容并将其复制到cookie。 此功能很少使用，因此不会过期且不会删除过时的内容。 此时，它会无限期地保留在服务器上。
 
-较新版本的 AS3 查看器不会实施会话持久性。
+较新的AS3查看器不实现会话持久性。
 
 **Cookie 名称：VatLogin.jsp**
 
 | 属性 | 描述 |
 |---|---|
-| 存储的信息 | 设置会话 Cookie。嵌入 IPS ImageServer（IS、IR 还有 SWF/皮肤和视频上下文）中的 AuthFilter 使用 Cookie 获取访问授权。如果存在，它将允许 HTTP 请求通过。否则，它会返回未授权访问。 |
-| 过期 | 此 Cookie 是会话 Cookie。Scene7 IPS [!DNL web.xml] 中设置的当前会话到期为 45 分钟。 |
+| 存储的信息 | 设置会话Cookie。 嵌入到IPS ImageServer(IS、IR以及SWF/外观和视频上下文)中的AuthFilter使用cookie进行访问授权。 如果存在，则允许HTTP请求通过。 否则，它将返回未授权。 |
+| 过期 | 此Cookie是会话Cookie。 Scene7 IPS [!DNL web.xml] 中设置的当前会话到期为 45 分钟。 |
 
 **Cookie 名称：s7js.flyout.InfoMessage.displayed`assetId`.state**
 
@@ -49,18 +49,18 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
  <tbody> 
   <tr> 
    <td colname="col1"> 存储的信息 </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; 是查看器正在使用的资源名称。 </p> </td> 
+   <td colname="col2"> <p>&lt;assetId&gt;是查看器正在处理的资产的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 过期 </td> 
-   <td colname="col2"> 此 Cookie 是会话 Cookie，关闭浏览器之后即到期。 </td> 
+   <td colname="col2"> 此Cookie是会话Cookie，在浏览器关闭时过期。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Cookie 名称：s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
-旧的 DHTML 查看器使用浏览器 Cookie 来存储状态信息和便笺数据。多屏幕 DHTML 弹出式屏幕还会使用它们来将消息指示器特定于会话。
+传统DHTML查看器使用浏览器Cookie来存储状态信息和附注数据。 多屏幕DHTML弹出窗口还使用它们使消息指示符会话特定。
 
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
@@ -72,11 +72,11 @@ Scene7 将信息存储在本地，以便通过一些较旧版本的 AS2 Flash �
  <tbody> 
   <tr> 
    <td colname="col1"> 存储的信息 </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; 是查看器正在使用的资源名称，&lt;id&gt; 是基于 0 的便笺索引。 </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt;是查看器正在使用的资产名称，&lt;id&gt;是基于0的附注索引。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 过期 </td> 
-   <td colname="col2"> 此 Cookie 是会话 Cookie，关闭浏览器之后即到期。 </td> 
+   <td colname="col2"> 此Cookie是会话Cookie，在浏览器关闭时过期。 </td> 
   </tr> 
  </tbody> 
 </table>
