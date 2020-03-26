@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 登录并管理配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -42,13 +42,13 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 | 元素 | 描述 |
 |--- |--- |
-| [Admin Console 基本知识](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | 了解开始使用 Experience Cloud 解决方案时所需要采取的首要步骤。 |
-| [设置身份](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定义并设置一个身份系统，最终用户将通过该系统进行身份验证。 |
+| [Admin Console基础知识](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | 了解开始使用Experience Cloud解决方案时需要采取的初始步骤。 |
+| [设置标识](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定义并设置一个标识系统，最终用户将通过该系统进行身份验证。 |
 | [用户管理](https://helpx.adobe.com/enterprise/using/users.html) | 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。 |
-| [启动 Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console 是在整个组织范围内管理 Adobe 用户和产品权限的中心位置。<br>您也可以使用[直接链接](https://adminconsole.adobe.com)登录到 Admin Console。 |
-| [管理 Creative Cloud 用户](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud 资产允许营销人员与使用 Creative Cloud 的设计人员及其他创作元素资产针对文件夹进行共享、同步和合作。您可以在此处对经过批准可与您的组织合作的 Creative Cloud 用户进行管理。 |
-| [映射报表包](../core-services/core-services.md) | （仅限 Analytics）Experience Cloud 核心服务与组织（而非单个报表包）相关联。要确保这些服务能够正常运行，必须将每个 Analytics 报表包映射到组织。（此任务是[为核心服务启用 Analytics](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) 这一更广泛工作流程的组成部分。） |
-| [Organization ID](../admin-getting-started/organizations.md) | *组织 ID* 位于“管理”页面的底部。此 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |
+| [启动Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console是管理整个组织中的Adobe用户和产品授权的中心位置。<br>您也可以使用[直接链接](https://adminconsole.adobe.com)登录到 Admin Console。 |
+| [管理 Creative Cloud 用户](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets使营销人员能够使用Creative Cloud与设计人员及其他创意资产共享、同步文件夹并展开协作。 您可以在此处管理获准与您的组织协作的Creative Cloud用户。 |
+| [映射报表包](../core-services/core-services.md) | （仅限分析）Experience Cloud核心服务与组织而非单个报表包相关联。 要确保这些服务正常运行，必须将每个Analytics报表包映射到组织。 (此任务是为核心服务启用Analytics的更广 [泛工作流程的一部分](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
+| [Organization ID](../admin-getting-started/organizations.md) | 组 *织ID位于* “管理”页面底部。 此ID是与您配置的Experience Cloud公司关联的ID。 此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |
 
 ## 登录到 Experience Cloud（用户）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -58,12 +58,12 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 1. 通过您的管理员验证您的[组织](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)是否已在 Experience Cloud 中配置。
 
 
-1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])。
+1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
 
-1. 在登陆页面上，单击选择器 ![](assets/menu-icon.png) 图标以访问下拉菜单。
+1. 在您的登陆页中，单击选择 ![](assets/menu-icon.png) 器图标以访问下拉菜单。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -83,13 +83,13 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ## 启用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-（通过电子邮件或在产品内）获取有关系统更新、维护、帖子、提及次数和共享资产的通知。您还可以指定希望获得相关通知（包括客户属性的上传状态）的产品和解决方案。
+获取有关系统更新、维护声明、帖子、提及次数和共享资产的通知（通过电子邮件或产品内）。 您还可以指定要接收通知的产品和解决方案，包括客户属性的上传状态。
 
 要导航到通知，请单击&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![](assets/notifications-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标 ![](assets/icon_edit_board.png)。
 
-您可以根据消息类型的重要性对显示的通知进行排序，以及搜索通知。您还可以：
+您可以根据对您重要的消息类型对通知显示进行排序，并搜索通知。 您还可以：
 
-* 根据消息类型的重要性进行排序。
+* 按重要的消息类型排序。
 * 搜索通知。
 
 
@@ -103,7 +103,7 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
  <li id="li_03D33D3228884CECA371B58656B2F3E7">Guided analysis shared </li> 
  <li id="li_DCF710F89317487B8DAA86CC05C694CA">Scheduled report failure </li> 
 </ul> 
-<p> <b>Target</b> </p> 
+<p> <b>Adobe Target</b> </p> 
 <p>Test started or stopped </p> 
 <p> <b>Media Optimizer</b> </p> 
 <p>Performance alerts </p> 
@@ -115,7 +115,7 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## 管理配置文件和密码 {#task_7B89F4F38E5A4C4EB0FF842953856382}
+## 管理用户档案和密码 {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
 您可以编辑 Experience Cloud 配置文件，指定默认的组织和登录页面，以及执行更多其他操作。
 
@@ -126,22 +126,22 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
    ![](assets/edit-profile.png)
 1. 单击&#x200B;**[!UICONTROL 编辑配置文件]**。
 
-   在“配置文件和密码”页面上，填写“个人详细信息”下方的字段和选项。
+   在“用户档案和密码”页面上，填写“个人详细信息”下的字段和选项。
 
-## 找回密码 {#task_46541A2806164CB1A4AE8239604E4EB1}
+## 恢复密码 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. 导航至您的解决方案登录页面。
 1. 单击&#x200B;**[!UICONTROL 忘记密码]**。
 
    重置解决方案密码应该能够解决 Experience Cloud 的密码关联问题。
 
-   对于 Adobe Analytics 用户，请导航到 [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html)。
+   For Adobe Analytics users, navigate to [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## 使用直接链接配置解决方案登录 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-您可以选择使用 Experience Cloud 界面提供的身份验证登录到解决方案中的特定页面。
+或者，您也可以使用Experience Cloud界面提供的身份验证登录到解决方案中的特定页面。
 
-### URL 模板
+### URL模板
 
 `https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
 
@@ -151,10 +151,10 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 >[!NOTE]
 >
->在将任何 URL 传递到 `destURL` 参数之前，您必须对其进行编码。（可以参考编码器站点，例如 [URL 解码器/编码器](https://meyerweb.com/eric/tools/dencoder/)。）
+>在将任何 URL 传递到 `destURL` 参数之前，您必须对其进行编码。(Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
-| 参数 | 描述 | 示例 | 必需/可选 |
+| 参数 | 描述 | 示例 | 必需／可选 |
 |--- |--- |--- |--- |
-| tenantId | 用户应登录到的租户的名称。 | aem62tenant | 可选 |
-| destURL | 用户应转到的位置的完整 URL。 | https://sc.omniture.com/x/1_7xxzf | 可选 |
-| solutionname | 拥有 destURL 参数的 MAC 解决方案的名称。用于验证用户是否有权访问拥有该 URL 的解决方案。解决方案应负责确保 solutionname 与 destURL 参数一致。例如：如果 URL 包含的 solutionname 为 Social，而提供的 destURL 为 Analytics URL，则即使用户不具有 Analytics 的访问权限，也会被重定向到该 URL。MAC 不会验证 destURL 的所有者是否与解决方案名称一致。 | analytics | 使用了 destURL 参数时必需。 |
+| tenantId | 用户应登录的租户的名称。 | aem62tenant | 可选 |
+| destURL | 用户应转到的位置的完整URL。 | https://sc.omniture.com/x/1_7xxzf | 可选 |
+| solutionname | destURL参数所有者的MAC解决方案的名称。 用于验证用户是否有权访问拥有该 URL 的解决方案。解决方案应负责确保 solutionname 与 destURL 参数一致。例如：如果URL包含solutionname（作为社交名称），而提供的destURL是分析URL，则即使用户无权访问分析，也会将其重定向到该URL。 MAC不会验证destURL的所有者是否与解决方案名称同步。 | analytics | 如果使用destURL参数，则此为必需字段。 |
