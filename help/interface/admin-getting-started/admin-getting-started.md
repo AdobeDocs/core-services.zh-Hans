@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 [Analytics用户ID迁移](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-在目标中，工作区是产品用户档案。 它允许组织将一组特定用户分配到一组特定属性。 在很多方面，工作区与 Adobe Analytics 中的报表包类似。
+在Adobe目标中，工作区是产品用户档案。 它允许组织将一组特定用户分配到一组特定属性。 在很多方面，工作区与 Adobe Analytics 中的报表包类似。
 
 请参阅：
 * [企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [管理产品和用户档案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 视频：如 [何在Adobe Admin Console中配置目标工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 视频：如 [何在Adobe Admin Console中配置Adobe目标工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - 产品配置文件、租户和安全群组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 有关更多帮助，请访问：
 
 * [管理产品和用户档案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [目标帮助中的“企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) ”，以了解更多信息。
-* 视频：如 [何在Adobe Admin Console中配置目标工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Adobe目标帮助中的](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) “企业用户权限”，以了解更多信息。
+* 视频：如 [何在Adobe Admin Console中配置Adobe目标工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 将 Analytics 访问权限分配给产品配置文件 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 |--- |--- |
 | Report Suites | 为特定报表包启用权限。 |
 | 量度 | 启用流量、转化、自定义事件、解决方案事件、内容感知等权限。 |
-| 维度 | 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 |
+| 维度 | 在粒度级别自定义用户访问权限，包括eVar、流量报告、解决方案报告和路径报告。 |
 | 报表包工具 | 为Web服务、报表包管理、工具和报表以及仪表板项启用用户权限。 |
 | Analytics 工具 | 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。“自定义 Admin Console”类别中的“公司设置”已被移动到“Analytics 工具”中。 |
 
@@ -185,7 +185,7 @@ Experience Cloud支持的浏览器包括：
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
+**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。(For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 **解决方案和产品要求**
 
