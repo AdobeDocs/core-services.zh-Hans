@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
    ![步骤结果](assets/04_crs_usecase.png)
 1. 在“[!UICONTROL 编辑客户属性来源]”页面中，配置以下字段：
 
-
    * **[!UICONTROL 名称：]**&#x200B;数据属性来源的易记名称。对于 [!DNL Adobe Target]，属性名称不能包含空格。如果传递包含空格的属性，[!DNL Target] 会将其忽略。其他不受支持的字符包括：`< , >, ', "`。
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
@@ -97,18 +96,15 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
 
          例如，下面的&#x200B;*“crm_id”*：
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** 别名ID与visitorSyncIdentifiers:identifiers *中的* “ [idType”相对应](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** 别名ID与syncIdentifiers中 *的“idType* ” [相对应](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
 
@@ -119,15 +115,12 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
          请参阅[利用多个数据源](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解有关别名 ID 字段和客户 ID 的数据处理的其他信息。
    * **[!UICONTROL 文件上传：]**&#x200B;您可以拖放 `.csv` 数据文件，或通过 FTP 上传数据。（使用 FTP 还需要 `.fin` 文件。）请参阅[通过 FTP 上传数据](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
-
       >[!IMPORTANT]
       >
       >存在特定的数据文件要求。请参阅[数据文件要求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，以了解更多信息。
 
 
       上传文件后，表数据将显示在此页面的“文 [!UICONTROL 件上传] ”标题下。 您可以验证模式、配置订阅或设置FTP。
-
-
 
       **文件上传图**
 
@@ -138,13 +131,6 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
    * **[!UICONTROL 别名为 Experience Cloud 访客 ID 的客户提供 ID：]**&#x200B;显示别名为 Experience Cloud 访客 ID 的 ID 数量。
 
    * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供的ID很可能不代表个人，而是某种共享登录。 系统会将与这些ID关联的属性分发到500个最新别名Experience Cloud访客ID，直到别名计数达到10,000。 到那时，系统会使客户提供 ID 无效，且不再分发关联的属性。
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
 ## （可选）更新架构（删除属性）{#task_6568898BB7C44A42ABFB86532B89063C}
 
 如何删除和替换架构中的属性。
-
 
 1. 在[!UICONTROL 编辑客户属性来源]页面上，删除 **[!UICONTROL Target]** 或 **[!UICONTROL Analytics]** 订阅（位于[!UICONTROL 配置订阅]下）。
 1. [上传具有更新字段的新数据文件](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)。
@@ -183,7 +168,7 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
 Adobe Analytics
 </keyword> 等解决方案中现在提供的数据，您可以报告数据、分析数据并在市场营销活动中执行相应的操作。
 
-以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。此区段显示最常启动产品为 Photoshop 的 Photoshop Lightroom 订阅者。
+以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Adobe Analytics
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 Target 中，您可以在创建受众时，从“访客配置文件”部分选择客户属性。所有客户属性在列表中都将具有前缀 [!DNL crs.]。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在 [!DNL Target] 中，您可以在创建受众时从“访客配置文件”区域选择一个客户属性。所有客户属性在列表中都将具有前缀 [!DNL crs.]。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![](assets/crs-add-attribute-target.png)
 
