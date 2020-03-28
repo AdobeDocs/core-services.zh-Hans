@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 上传客户属性是为了每天处理一些文件。为了缓解延迟处理大量小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## 允许的文件类型和命名要求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
  </tbody> 
 </table>
 
-
 ## 属性数据文件的要求 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **示例CSV**
 
 CSV文件必须遵循以下格式：
-
-示例CSV:
 
 ![](assets/cvs.png)
 
@@ -142,7 +134,6 @@ CSV文件必须遵循以下格式：
  </tbody> 
 </table>
 
-
 ## 利用多个数据源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 在创建、修改或删除客户属性源时，在ID开始与新数据源同步前约有一小时的延迟。
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-使用与上述客户ID对应的唯一别名ID创建两个客户属性来源。 使用此方法可将相同的引用ID发送到多个客户属性源
+使用与上述客户ID对应的唯一别名ID创建两个客户属性来源。 使用此方法可将相同的引用ID发送到多个客户属性源。
