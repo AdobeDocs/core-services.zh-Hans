@@ -5,9 +5,8 @@ seo-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资
 seo-title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 solution: Experience Cloud
 title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
-uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
