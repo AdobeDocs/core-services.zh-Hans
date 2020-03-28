@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: '视图Experience Cloud用户和用户详细信息 '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ## 解决方案摘要
 
-此部分显示用户可访问的Experience Cloud解决方案摘要。 包括产品管理员角色（如果适用）
+此部分显示用户可访问的Experience Cloud解决方案摘要。 包括产品管理角色（如果适用）。
 
 ## 详细的产品访问列表
 
