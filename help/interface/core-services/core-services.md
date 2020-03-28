@@ -5,9 +5,9 @@ seo-description: 实施Experience Cloud并成为管理员。 此过程使您的�
 seo-title: 为核心服务启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
-uuid: 5820060f-9b18-4339-81e0-401d964f7a03
+index: true
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
