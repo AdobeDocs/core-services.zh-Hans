@@ -1,13 +1,13 @@
 ---
 description: 与 Creative Cloud 用户共享 Experience Cloud 资产文件夹。
-keywords: 资产共享;Creative Cloud; 核心服务
+keywords: asset sharing;Creative Cloud;core services
 seo-description: 与 Creative Cloud 用户共享 Experience Cloud 资产文件夹。
 seo-title: 共享 Experience Cloud 资产文件夹
 solution: Experience Cloud
 title: 共享 Experience Cloud 资产文件夹
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -35,11 +35,11 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
    ![步骤结果](assets/creative_cloud_open_folder.png)
 1. 在共享资产中添加评论以继续：
 
-   在 Creative Cloud 中，您可以单击进入图像，然后单击&#x200B;**[!UICONTROL 活动]，以在图像上添加评论。**&#x200B;评论会在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的资产中同步。
+   在 Creative Cloud 中，您可以单击进入图像，然后单击&#x200B;**[!UICONTROL 活动]**，以在图像上添加评论。评论会在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的资产中同步。
 
    ![](assets/asset_comment_cc.png)
 
-   在 Experience Cloud 中，单击进入图像，然后单击时间轴图标，以在图像上添加评论。评论会在 Creative Cloud 和 Experience Cloud 的资产中同步。
+   在Experience Cloud中，单击进入图像，然后单击时间线图标以在图像上添加评论。 评论会同步到Creative Cloud和Experience Cloud中的资产。
 
    ![](assets/asset_comment_mac.png)
 
@@ -47,10 +47,12 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ![](assets/asset_remove_user.png)
 
-一旦删除完所有的 Creative Cloud 用户，文件夹即被取消共享，且 Creative Cloud 用户不再具有访问权限。使用共享资产的其他方式包括：
+一旦删除完所有的 Creative Cloud 用户，文件夹即被取消共享，且 Creative Cloud 用户不再具有访问权限。
+
+使用共享资产的其他方式包括：
 
 * 在 [!UICONTROL  中将]资产选择器[!DNL Adobe Social]中的资产用于社交帖子。
-* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
+* 在优惠库中加载或交换资 [源](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) ，以 [!DNL Adobe Target] 查看活动中的图像。
 
 在将文件夹共享到 Creative Cloud 之后，您将在文件夹上看到 Creative Cloud 徽标。
 
@@ -58,6 +60,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 相关帮助：
 
-* [Creative Cloud 帮助 - 管理和同步文件](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Creative Cloud 帮助 - 与他人合作](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud 帮助 - 合作常见问题解答](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud帮助——管理和同步文件](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
+* [Creative Cloud帮助——与他人协作](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [Creative Cloud帮助——协作常见问题解答](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
