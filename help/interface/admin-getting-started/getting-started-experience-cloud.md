@@ -1,26 +1,20 @@
 ---
 description: 了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: 了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
 seo-title: 登录并管理配置文件设置
-solution: Marketing Cloud
-title: 登录并管理配置文件设置
+solution: Experience Cloud
+title: 登录并管理Experience Cloud用户档案设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# 登录并管理配置文件设置
+# 登录并管理Experience Cloud用户档案设置
 
-登录到Experience Cloud（而不是登录到单一解决方案）可以对您拥有的所有解决方案和服务进行单一登录。 了解如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+登录到Experience Cloud（而不是登录到单一解决方案）可以对您拥有的所有解决方案和服务进行单一登录。 此帮助介绍如何登录到Experience Cloud、管理密码和通知以及指定默认登陆页。
 
 >[!IMPORTANT]
 >
