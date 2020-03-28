@@ -1,13 +1,13 @@
 ---
 description: 了解组织并将解决方案帐户关联到 Experience Cloud。
-keywords: 核心服务
+keywords: core services
 seo-description: 了解组织并将解决方案帐户关联到 Experience Cloud。
 seo-title: 组织和帐户关联
 solution: Marketing Cloud
 title: 组织和帐户关联
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,13 +16,11 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 了解管理组织并将解决方案帐户关联到 Experience Cloud 的信息。
 
-<!-- accounts-experience-cloud.xml -->
-
 ## 识别您的组织 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-“组织”**&#x200B;是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。
+** 组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。 但是，公司可以有许多组织。
 
-另外，要获得支持，您可能还需要找到组织 ID。您可以使用&#x200B;**[!UICONTROL 组织]菜单验证自己是否处于正确的组织中，或在不同组织之间切换。**
+此外，您可能需要为支持目的查找组织ID。 您可以使用&#x200B;**[!UICONTROL 组织]**&#x200B;菜单验证自己是否处于正确的组织中，或在不同组织之间切换。
 
 ![步骤结果](assets/organization-switch.png)
 
@@ -36,7 +34,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## 将解决方案帐户关联到 Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-通常，Experience Cloud 管理员可授予对解决方案和服务的访问权限。在极少数情况下，您可能需要将解决方案凭据关联到 Adobe ID。
+通常，Experience Cloud管理员会授予对解决方案和服务的访问权限。 在极少的情况下，您可能需要将解决方案凭据关联到Adobe ID。
 
 1. 按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
@@ -66,9 +64,9 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ## 解决帐户关联问题 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
-帮助解决帐户关联问题。
+有关帐户链接问题的帮助。
 
-通常，帐户关联失败的原因是，Adobe ID 关联到以前的用户。当帐户关联失败时，您可以：
+通常，帐户链接会失败，因为Adobe ID已链接到先前的用户。 当帐户链接失败时，您可以：
 
-* [联系 Adobe 支持](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+* [联系Adobe支持](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 * 在我们着手解决问题的同时，使用标准登录访问您的解决方案。
