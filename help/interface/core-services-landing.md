@@ -1,30 +1,37 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 关于核心服务
+description: 了解Adobe Experience Cloud用户和产品管理、人员核心服务(受众和客户属性)、旅程安排、优惠、地点、45 Experience Platform Launch和移动服务。
+seo-description: 了解Adobe Experience Cloud用户和产品管理、人员核心服务(受众和客户属性)、优惠、Experience Platform Launch和移动服务。
+seo-title: Experience Cloud核心服务和用户管理
 solution: Experience Cloud
-title: 关于核心服务
-uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
+title: 关于Experience Cloud核心服务
+index: true
 translation-type: tm+mt
-source-git-commit: 97cc8a1fbc63a87f758a4dc0494a6f953be44006
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# 关于核心服务 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# About Experience Cloud core services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-在 Experience Cloud 中，单击菜单图标 ![](assets/menu-icon.png) 可访问下拉菜单。
+Adobe Experience Cloud核心服务包括人员核心服务(受众和客户属性)、优惠、Experience Platform Launch和Mobile Services。 您还可以在Experience Cloud中访问有关用户和产品管理的帮助。
 
-![](assets/experience-cloud-core-services.png)
+要在Experience Cloud中访问这些服务，请单击“ **[!UICONTROL Experience Platform]** ”菜单 ![](assets/menu-icon.png)。
 
-Adobe Experience Platform 可集中化和标准化整个企业内的数据和内容。Product documentation is located on [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+![](assets/platform-core-services.png)
 
-| 元素 | 描述 |
+Adobe Experience Platform 可集中化和标准化整个企业内的数据和内容。Experience Platform开发 [!UICONTROL 人员的产品文档] ，位于 [Adobe.io上](https://www.adobe.io/apis/experienceplatform/home/services.html)。
+
+本帮助描述以下产品和服务：
+
+| 核心服务 | 描述 |
 |--- |--- |
-| [管理员](admin-getting-started/admin-getting-started.md) | 管理 Experience Cloud 用户权限和产品配置文件。 |
-| [资产](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud 资产提供了一个集中式市场营销类资产存储库，以便您在各解决方案中共享。 |
-| [Exchange](https://experiencecloud.adobeexchange.com/) | 扩展您的 Adobe Experience Cloud 功能，使其包含最佳的扩展、脚本，等等。可使用搜索栏进行查找，或者按产品或应用程序类型进行排序。 |
-| [Launch](activation/activation.md) | 网站和应用程序的数据收集和技术激活。该服务包括：<ul><li>Experience Platform Launch（最新的标签管理解决方案）</li><li>动态标签管理</li><li>触发器</li></ul> |
-| [选件](offer-management/getting-started.md) | 在Experience cloud中跨所有渠道创建、管理和决策。 [!UICONTROL 选件管理] (Offer Management)是一个集中的选件目录，您可以将资格规则和多段内容与每个选件“对象”相关联，跨渠道和位置发布这些选件，并在每次交互时为每个客户提供最佳选件。 |
-| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Mobile Services 可以在整个 Adobe Marketing Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
-| [人员](audience-library/audience-library.md) | 在“受众库”中，您可以创建受众、合并现有受众以创建组合受众，以及查看所有共享的受众。<br>在“客户属性”中，您还可以将企业客户数据上传到 Experience Cloud。 |
+| [激活](activation/activation.md) | 标签管理系统（Experience Platform Launch和动态标签管理）。<br>通过触发器，您可以根据 Adobe Analytics 提供的分析信息在 Adobe Campaign 中采取实时行动。 |
+| [管理](admin-getting-started/admin-getting-started.md) | 跨所有Adobe云和解决方案管理用户和产品权利。 |
+| [资产](experience-cloud-assets/experience-cloud-assets.md) | 在一个中心位置轻松存储、同步和共享所有数字资产，从而节省时间并提供更一致的客户体验。 |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch 是 Adobe 推出的新一代标签管理功能。][!UICONTROL Experience Platform Launch为客户提供了部署和管理支持相关客户体验所需的所有分析、营销和广告标签的简单方法。] |
+| [Journey Orchestration](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | 利用存储在事件或数据源中的情境数据构建实时编排使用案例。 [!UICONTROL 旅程安排] (Journey Orcheration)是与Experience Platform集成的应用程序服务。 |
+| [位置服务](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] （位置服务）是一项地理位置服务，它通过使用丰富且易于使用的SDK界面以及灵活的兴趣点数据库(POI)，使具有位置感知的移动应用程序能够了解位置上下文。 |
+| [选件](offer-management/getting-started.md) | 在Experience Cloud中跨所有渠道创建、管理和决策。 [!UICONTROL 优惠管理] (Management)是一个中心优惠目录，您可以将合格规则和多个内容片段与每个优惠“对象”关联，跨渠道和位置发布这些优惠，并在每次交互时为每个客户提供最佳优惠。 |
+| [Exchange](exchange.md) | 通过应用程序，搜索、浏览、选择、购买并下载 Digital Marketing 扩展。 |
+| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services 可以在整个 Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
+| 人员 | 通过在您的Experience Cloud解决方案中连接Adobe和非Adobe数据，创建全面的个别客户视图。 了解他们跨接触点进行互动时最关心的事情。 识别从不熟悉的设备访问时熟悉的消费者。 甚至将用户分组到受众中，以进行有针对性的营销工作。<br>[受众](audience-library/audience-library.md) - 将不同类型的客户划分为受众，然后在各个 Marketing Cloud 解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) - 作为受众扩充，允许您在 Marketing Cloud 之外访问所收集的客户信息。<br>[设备图](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) -与全球最受欢迎的品牌协作，识别不熟悉设备背后的熟悉消费者。 （在测试版中，仅适用于 Marketing Cloud Device Co-op 成员。） |
