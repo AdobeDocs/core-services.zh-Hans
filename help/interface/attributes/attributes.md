@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # 客户属性
-
-## 概述
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -23,7 +21,6 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 ![](assets/custom_reports.png)
 
 ## 上传客户属性的先决条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
-
 
 * **解决方案启用：**[为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
@@ -34,7 +31,6 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
    添加到客户属性群组的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项.
 
 * **客户属性** 需要Adobe目标 [!DNL at.js] （任何版本） [!DNL mbox.js] 或版本58或更高版本。
-
 
    请参 [阅如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js实施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
@@ -59,4 +55,4 @@ After you create the data file, you can upload it to the customer attribute sour
 | 解决方案 | 优势和用例 |
 |--- |--- |
 | Adobe Analytics | 营销人员和分析师可以理解：<ul><li>对黄金级客户最有效的在线活动。</li><li>黄金级客户搜索的产品与白金级客户搜索的产品。</li><li>重新设计的网站是否对老客户的转化率产生了积极影响。</li><li>对于终身价值较低的客户来说，哪些产品倾向于在我的网站上进行研究。</li></ul> |
-| Adobe Target | 属性数据使Adobe目标用户能够：<ul><li>向忠诚俱乐部会员展示特别折扣和优惠。</li><li>向您的奢侈品客户推荐更昂贵的产品。</li><li>对于已收到电子邮件的客户，在通常为电子邮件注册而保留的空间中显示追加销售优惠</li></ul> |
+| Adobe Target | 属性数据使Adobe目标用户能够：<ul><li>向忠诚俱乐部会员展示特别折扣和优惠。</li><li>向您的奢侈品客户推荐更昂贵的产品。</li><li>对于已收到电子邮件的客户，请在通常为电子邮件注册预留的空间中显示向上销售优惠</li></ul> |
