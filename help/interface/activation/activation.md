@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 激活
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
 
 ---
 
@@ -24,7 +24,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-要启动动态标签管理，请单击&#x200B;**[!UICONTROL 激活]**，并向 Adobe 配置小组发送请求。您会在一到两个工作日内收到登录凭据。
+要启动动态标签管理，请单击&#x200B;**[!UICONTROL 激活]**，并向 Adobe 配置小组发送请求。您应在一到两个工作日内收到登录凭据。
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -40,16 +40,16 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服务的实施指南 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID服务支持跨Experience Cloud解决方案的核心功能（包括客户属性、受众共享和触发器）。 Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID服务支持跨Experience Cloud解决方案的核心功能(包括客户属性、受众共享和触发器)。 Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 动态标签管理产品文档 </a> </p> </td> 
-   <td colname="col2"> <p>了解有关使用动态标签管理部署 Experience Cloud 解决方案的更多信息。 </p> </td> 
+   <td colname="col2"> <p>了解有关使用动态标签管理部署Experience Cloud解决方案的更多信息。 </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-如果要寻求实施动态标签管理的帮助，我们建议联系您的帐户管理员，以获取有关 Adobe 全球服务产品或实施合作伙伴产品的信息。也欢迎您在 [@AdobeExpCare](https://twitter.com/AdobeExpCare) 上使用标签 #DTM 随时联系我们。
+如果您希望在实施动态标签管理时获得帮助，我们建议您联系客户经理，了解有关Adobe全球服务产品或实施合作伙伴产品的信息。 Please also feel free to contact us at [@AdobeExpCare](https://twitter.com/AdobeExpCare) with hashtag #DTM.
 
 ## Experience Cloud 触发器 {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
@@ -58,20 +58,20 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 任务 </th> 
-   <th colname="col2" class="entry"> 描述 </th> 
+   <th colname="col1" class="entry"> 任务 </th>
+   <th colname="col2" class="entry"> 描述 </th>
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> 创建 Experience Cloud 触发器 </a> </p> </td> 
-   <td colname="col2"> <p> 关于使用 Adobe Analytics 数据创建 Experience Cloud 触发器的分步指南。 </p> <p>可以在 Adobe Campaign 中使用 Experience Cloud 触发器。 </p> </td> 
-  </tr> 
+   <td colname="col2"> <p> 使用Adobe Analytics数据创建Experience Cloud触发器的分步说明。 </p> <p>Experience Cloud触发器可用于Adobe Campaign。 </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p>在 Adobe Campaign 中使用触发器 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入了与新触发器服务的集成。 此服务使商业用户能够根据Adobe Analytics中捕获的在线行为数据轻松定义触发器。 定义触发器后，可在 Adobe Campaign 中使用它，以支持再营销消息用于提高参与度和转化率。这项即时可用的新功能允许营销人员根据购物车放弃、页面查看次数、观看的视频等在线事件，适时触发再营销消息。 </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p>在Adobe Campaign中使用触发器 </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign标准16.7引入了与新触发器服务的集成。 此服务使商业用户能够根据Adobe Analytics中捕获的在线行为数据轻松定义触发器。 一旦定义了触发器，它就可以在Adobe Campaign中支持可推动参与和转化的再营销消息。 这一新的现成功能允许营销人员根据在线事件(如放弃购物车、页面视图、观看的视频等)在适当的时间触发再营销消息。 </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 
