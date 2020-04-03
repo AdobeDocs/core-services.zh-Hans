@@ -24,18 +24,18 @@ source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
 
 了解 Experience Cloud 用户管理的最新功能。
 
-### 业务ID类型
+<!-- ### Business ID type
 
-Adobe引入了一种名为 _Business ID的身份类型_。 此标识类型改进了对用户和产品管理的控制，同时提高了团队中Creative Cloud存储使用的灵活性（如果适用）。 Adobe将用于业务的所有Adobe ID（归个人所有）迁移到新的企业业务ID（归您的组织所有）。
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-如果您是现有Experience Cloud客户，Adobe将使用Adobe ID在Admin Console上将您的所有用户迁移到业务ID。 如果您是新的企业或团队客户，您将使用以下一种可用标识类型将用户添加到Admin Console:业务ID、Enterprise ID或Federated ID。
+If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
-<!-- Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM -->
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
-操作
+What to do
 
-* 在将帐户迁移到Type2e之前，您的用户需要接受使用条款(TOU)的更改。
-* 属于多个组织的用户可能会在登录工作流程中看到“用户档案选择”屏幕，并需要选择正确的屏幕。 这可确保他们登录到正确的组织。 (如果用户在迁移之前是多个组织的成员，则可能有多个用户档案可供选择。)
+* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### 管理工具
 
