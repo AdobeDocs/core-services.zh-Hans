@@ -7,14 +7,14 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
 
 # Experience Cloud 和核心服务产品文档
 
-![Experience Cloud](assets/banner.png)
+![Experience Cloud](assets/cloud-pulldown.png)
 
 本页提供Adobe Experience Cloud解决方案和服务的自助、支持以及技术和产品文档。 Experience Cloud是Adobe的集成式数字营销解决方案和服务系列。 它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
 
