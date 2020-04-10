@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
@@ -20,27 +20,27 @@ source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ## 你想学什么？
 
-* [所有Experience Cloud解决方案的产品文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -通过Experience Cloud学习和支持浏览以获取帮助
-* [发行说明和产品更新](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience Cloud中的新增功能，可订阅以获取更新
+* [所有Experience Cloud解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) -通过Experience Cloud学习和支持浏览以获取帮助
+* [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud中的新增功能，可订阅以获取更新
 * [实施核心服务的教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -浏览有关核心服务的视频和教程
 * [Experience League的专家帮助](https://landing.adobe.com/experience-league/) -从专家和社区获得指导式学习
-* [教育和培训](https://helpx.adobe.com/learning.html?promoid=KAUDK) -与Adobe互动，确保您充分利用我们的产品
+* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) -与Adobe互动，确保您充分利用我们的产品
 * [客户体验博客](https://theblog.adobe.com/customer-experience/) -阅读Experience Cloud博客
-* [客户关怀](https://helpx.adobe.com/contact/enterprise-support.ec.html) -联系Adobe客户关怀
+* [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) -联系Adobe客户关怀
 
 ## 核心服务产品文档
 
 * [核心服务概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) （博客）
-* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [受众](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
+* [受众](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
 * [资产](experience-cloud-assets/experience-cloud-assets.md)
-* [客户属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
-* [设备协作](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
-* [动态标签管理](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)
+* [设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
+* [动态标签管理](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud 调试器](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)
 * [通用数据保护条例 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## 管理和启用
@@ -50,7 +50,7 @@ source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 * [常见问题解答](admin-getting-started/admin-getting-started.md)
 * [组织和帐户关联](admin-getting-started/organizations.md)
 * [集成](marketing-cloud-integrations.md)
-* [将Adobe目标与Experience Cloud集成](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [将Adobe目标与Experience Cloud集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience Cloud中的用户档案管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （博客）
 * [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
