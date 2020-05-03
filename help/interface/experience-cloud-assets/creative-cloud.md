@@ -1,24 +1,24 @@
 ---
-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资源，并在Adobe Social和Adobe目标等Experience Cloud解决方案中使用它们。 共享文件夹必须源自Experience Cloud。
+description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资产，并在Experience Cloud解决方案(如Adobe Social和Adobe目标)中使用它们。 共享文件夹必须源自Experience Cloud。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资源，并在Adobe Social和Adobe目标等Experience Cloud解决方案中使用它们。 共享文件夹必须源自Experience Cloud。
+seo-description: 在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资产，并在Experience Cloud解决方案(如Adobe Social和Adobe目标)中使用它们。 共享文件夹必须源自Experience Cloud。
 seo-title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 solution: Experience Cloud
 title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 
-在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资源，并在Adobe Social和Adobe目标等Experience Cloud解决方案中使用它们。 共享文件夹必须源自Experience Cloud。
+在Experience Cloud和Creative Cloud之间共享文件夹和资产。 协作、批注共享资产，并在Experience Cloud解决方案(如Adobe Social和Adobe目标)中使用它们。 共享文件夹必须源自Experience Cloud。
 
 ## 共享的好处 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
 * 简化审阅、批准和发布阶段的创意制作工作流
-* 在多个位置管理处理中的文件和版本所花费的时间更少
+* 减少管理多个位置的处理中文件和版本的时间
 * 更有效地跟踪和管理创意资源
 * 享受提高企业安全性
 * 在创意人员和营销人员之间轻松共享、保存和发送文件
@@ -29,4 +29,4 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-请参阅 [帮助中的优惠](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html)[!DNL Target] 库。
+请参阅 [帮助中](https://docs.adobe.com/help/zh-Hans/target/using/experiences/offers/manage-content.html) 的优惠 [!DNL Target] 库。
