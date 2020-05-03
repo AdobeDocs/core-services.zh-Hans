@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: 核心服务用户指南
+user-guide-title: Experience Cloud界面用户指南
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # 核心服务用户指南 {#interface}
 
-+ [Experience Cloud和核心服务产品文档](experience-cloud.md)
++ [Experience Cloud和产品文档](experience-cloud.md)
 + Experience Cloud中的核心服务 {#about-core-services}
    + [核心服务概述](core-services-landing.md)
    + [为核心服务启用解决方案](core-services/core-services.md)
@@ -19,7 +19,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [关于 Experience Cloud 中的新云名称](solutions-core-services.md)
 + [Experience Cloud 集成](marketing-cloud-integrations.md)
 + Experience Cloud Cookie {#ec-cookies}
-   + [Experience Cloud Cookies概述](cookies/cookies-privacy.md)
+   + [Experience Cloud cookies概述](cookies/cookies-privacy.md)
    + [Experience Cloud中的第一方Cookie](cookies/cookies-first-party.md)
    + [Analytics Cookie](cookies/cookies-analytics.md)
    + [Audience Manager Cookie](cookies/cookies-am.md)
@@ -27,11 +27,11 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [Data Workbench Cookie](cookies/cookies-insight.md)
    + [Experience Cloud Cookie](cookies/cookies-mc.md)
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] Cookies](cookies/cookies-s7.md)
-   + [[!DNL搜索和提升] cookies](cookies/cookies-snp.md)
-   + [[!DNL目标] cookies](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL搜索和提升] Cookie](cookies/cookies-snp.md)
+   + [[!DNL目标] Cookie](cookies/cookies-target.md)
    + [启用浏览器 Cookie 的隐私设置](cookies/browser-cookie-settings.md)
-   + [对第三方Cookie支持的更改对客户有何影响](cookies/cookies-thirdparty.md)
+   + [对第三方cookie支持的更改如何影响客户](cookies/cookies-thirdparty.md)
 + 用户和产品管理 {#manage-users-and-products}
    + [管理Experience Cloud用户标识和产品(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [视图Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
@@ -54,7 +54,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [禁用共享文件夹的同步](experience-cloud-assets/t-disable-asset-sync.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ 受众Experience Cloud {#audiences}
++ Experience Cloud中的受众 {#audiences}
    + [受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
