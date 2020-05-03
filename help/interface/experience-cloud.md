@@ -1,13 +1,13 @@
 ---
-description: Adobe Experience Cloud的自助服务、产品文档和技术文档。 Experience Cloud是Adobe的集成式数字营销解决方案和服务系列。
+description: Adobe Experience Cloud的自助、产品文档和技术文档。 Experience Cloud是Adobe的集成式数字营销解决方案和服务系列。
 keywords: core services
-seo-description: 本页提供Experience Cloud的自助服务、产品文档和技术文档。
+seo-description: 本页提供Experience Cloud的自助、产品文档和技术文档。
 seo-title: Adobe Experience Cloud和核心服务帮助和产品文档。
 solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -20,22 +20,21 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ## 你想学什么？
 
-* [所有Experience Cloud解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) -通过Experience Cloud学习和支持浏览以获取帮助
-* [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud中的新增功能，可订阅以获取更新
+* [所有Experience Cloud解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) -在Experience Cloud学习和支持中浏览以获取帮助
+* [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud的新增功能，通过订阅获取更新
 * [实施核心服务的教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -浏览有关核心服务的视频和教程
-* [Experience League的专家帮助](https://landing.adobe.com/experience-league/) -从专家和社区获得指导式学习
-* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) -与Adobe互动，确保您充分利用我们的产品
+* [Experience League的专家帮助](https://landing.adobe.com/experience-league/) -从专家和社区获得指导性学习
+* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) -与Adobe互动，确保您能够充分利用我们的产品
 * [客户体验博客](https://theblog.adobe.com/customer-experience/) -阅读Experience Cloud博客
-* [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) -联系Adobe客户关怀
+* [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) -与Adobe客户关怀联系
 
-## 核心服务产品文档
+## Experience Platform产品文档
 
-* [核心服务概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) （博客）
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
 * [受众](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
 * [资产](experience-cloud-assets/experience-cloud-assets.md)
 * [客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)
-* [设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
+* [Device Co-op](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
 * [动态标签管理](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
