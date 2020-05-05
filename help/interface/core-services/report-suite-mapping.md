@@ -5,7 +5,7 @@ seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
 
 ---
 
@@ -13,6 +13,8 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 # 将报表包映射到组织 {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
 了解如何将一个或多个报表包映射到组织。
+
+<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloud服务(如Experience Cloud ID服务和人 [!UICONTROL 员])与组织而不是单个报表包相关联。 要确保这些服务能够正确运行，必须将每个Analytics报表包映射到一个组织。 映射过程：
 
@@ -109,4 +111,4 @@ The list shows you all the *possible* organizations your report suite could be m
 
 ### 我在“映射日期”列中看到一个日期。 谁绘制了地图？
 
-您可以参考分析界面中的报表包更改日志来检查进行更改的用户ID。 查找事件“与IMS组织关联的套件”。
+您可以参考分析界面中的报表包更改日志，以检查进行更改的用户ID。 查找事件“与IMS组织关联的套件”。
