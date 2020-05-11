@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 64%
+source-wordcount: '1177'
+ht-degree: 63%
 
 ---
 
@@ -28,23 +28,18 @@ ht-degree: 64%
 1. [验证架构](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [配置订阅并激活属性来源](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 在数据源处于活动状态后，您可以：
 
 * [在Adobe Analytics中使用客户属性](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [在Adobe目标中使用客户属性](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
+>要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到 **[!UICONTROL 管理]** > **[!UICONTROL 管理控制台]** > **[!UICONTROL 产]**&#x200B;品。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
 >
->此外，还需要成为解决方案组成员。
+>要使用“客户属性”功能，用户还必须属于解决方案级组(Analytics或 [!DNL Target])。
 
-To use the Customer Attributes feature, users must belong to the Adobe Customer Attributes group in user management, and to solution-level groups (Analytics or [!DNL Target]).
-
-请参阅[用户和群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## 创建数据文件 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ To use the Customer Attributes feature, users must belong to the Adobe Customer 
 
 1. 创建一个 `.csv`.
 
-
    >[!NOTE]
    >
    >在此过程的后续步骤中，您将拖放此 `.csv` 文件以上传它。然而，如果您[通过 FTP 上传](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，则还需要一个与 `.csv` 文件同名的 `.fin` 文件。
-
-
 
    示例企业客户数据文件：
 
