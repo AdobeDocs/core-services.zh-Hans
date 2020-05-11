@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +75,7 @@ ID服务提供通用的永久ID，可在Experience Cloud中的所有解决方案
 **适用的解决方案或服务**
 
 * Adobe Analytics: [客户属性报表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
-* Adobe目标: 根据客户属性 [配置](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) Adobe目标的订阅
+* Adobe目标: 将Adobe目标的 [](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 订阅配置为客户属性
 
 ## Experience Cloud 资产 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
@@ -134,14 +137,14 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 
 帮助： [将Adobe目标与Experience Cloud集成](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
 
-将 Adobe Target 与 Adobe Analytics 及其他 Experience Cloud 解决方案集成，以便能够在这两个解决方案中使用相同的数据、受众、属性和量度。
+将Adobe目标与Adobe Analytics和其他Experience Cloud解决方案集成，以便在这两种解决方案中使用相同的数据、受众、属性和指标。
 
 **适用的解决方案或服务**
 
 * 客户属性： 根据客户属性 [配置](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) Adobe目标的订阅
 * Experience Cloud受众: [Experience Cloud受众库](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
-* 动态标签管理： [使用DTM实施Adobe目标的最佳实践](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* 动态标签管理： [使用DTM实施Adobe目标的最佳实践](https://docs.adobe.com/content/help/zh-Hans/dtm/implementing/overview.html)
 * 受众经理： [Adobe目标数据与Adobe受众管理器集成](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * 活动: [将Adobe目标与活动集成](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
