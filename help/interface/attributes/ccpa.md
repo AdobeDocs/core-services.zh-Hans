@@ -2,17 +2,17 @@
 title: 加利福尼亚消费者隐私法的客户属性支持
 description: 加利福尼亚消费者隐私法的客户属性支持
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 加利福尼亚消费者隐私法的客户属性支持
 
-本页介绍 [!UICONTROL 对California Consumer Privacy Act] (CCPA)的客户属性支持。
+本页介绍 [!UICONTROL Customer Attributes对] California Consumer Privacy Act(CCPA)的支持。
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ CCPA是加利福尼亚州的新隐私法，自2020年1月1日起生效。 CCPA�
 
 作为您的服务提供商,Adobe Experience Cloud为您的企业提供支持，使其履行CCPA规定的适用于使用Experience Cloud产品和服务的义务，包括管理访问和删除个人信息的请求。
 
-本文档介 [!UICONTROL 绍了客户属性] 如何使用Adobe Experience Platform隐私服务API和隐私服务UI支持数据主体的CCPA数据访问和删除权限。
+本文档介 [!UICONTROL 绍客户属性] 如何使用Adobe Experience Platform隐私服务API和隐私服务UI支持数据主体的CCPA数据访问和删除权限。
 
 有关CCPA的Adobe隐私服务的更多信息，请参 [阅Adobe隐私中心](https://www.adobe.com/privacy/ccpa.html)。
 
@@ -39,7 +39,7 @@ CCPA是加利福尼亚州的新隐私法，自2020年1月1日起生效。 CCPA�
    * 要执行操作的用户档案的CRM ID
    IMS组织ID是附加@AdobeOrg的24个字符的字母数字字符串。 如果您的营销团队或内部Adobe系统管理员不知道您组织的IMS组织ID，请通过gdprsupport@adobe.com与Adobe客户服务部门联系。 您需要IMS组织ID向隐私API提交请求。
 
-1. 在隐 [!UICONTROL 私服务]中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
+1. 在隐 [!UICONTROL 私服务]，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
 
 ## 客户属性JSON请 [!UICONTROL 求中的] “必需”字段值
 
