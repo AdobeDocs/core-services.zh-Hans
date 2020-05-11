@@ -1,12 +1,15 @@
 ---
-description: 了解Adobe Experience Cloud用户和产品管理、人员(受众和客户属性)、旅程安排、优惠、地点、Experience Platform Launch和移动服务。
+description: 了解Adobe Experience Cloud用户和产品管理、人员(受众和客户属性)、旅程安排、优惠、地点、Experience Platform发布和移动服务。
 seo-description: 了解Adobe Experience Cloud用户和产品管理、人员(受众和客户属性)、优惠、Experience Platform Launch和移动服务。
 seo-title: Experience Cloud核心服务和用户管理
 solution: Experience Cloud
 title: 关于Experience Cloud核心服务
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,4 +37,4 @@ Adobe Experience Platform 可集中化和标准化整个企业内的数据和内
 | [选件](offer-management/getting-started.md) | 在Experience Cloud中跨所有渠道创建、管理和决策。 [!UICONTROL 优惠管理] 是一个中心优惠目录，您可以将合格规则和多个内容与每个优惠“对象”关联，跨渠道和位置发布这些优惠，并在每次交互时为每个客户提供最佳优惠。 |
 | [Exchange](exchange.md) | 通过应用程序，搜索、浏览、选择、购买并下载 Digital Marketing 扩展。 |
 | [Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) | Adobe Mobile Services 可以在整个 Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
-| 人员 | 通过在您的Experience Cloud解决方案中连接Adobe和非Adobe数据，全面视图每位客户。 了解客户在接触点间互动时最关心的事情。 识别熟悉的消费者在访问不熟悉的设备时。 甚至将用户分组到受众中，进行有针对性的营销工作。<br>[受众](audience-library/audience-library.md) - 将不同类型的客户划分为受众，然后在各个 Marketing Cloud 解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) - 作为受众扩充，允许您在 Marketing Cloud 之外访问所收集的客户信息。<br>[设备图](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) -与全球最受欢迎的品牌协作，识别不熟悉设备背后的熟悉消费者。 （在测试版中，仅适用于 Marketing Cloud Device Co-op 成员。） |
+| 人员 | 通过在您的Experience Cloud解决方案中连接Adobe和非Adobe数据，全面视图每位客户。 了解客户在接触点间互动时最关心的事情。 识别熟悉的消费者在访问不熟悉的设备时。 甚至将用户分组到受众中，进行有针对性的营销工作。<br>[受众](audience-library/audience-library.md) -将不同类型的客户分类为受众，然后在Marketing Cloud解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) - 作为受众扩充，允许您在 Marketing Cloud 之外访问所收集的客户信息。<br>[设备图](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) -与全球最受欢迎的品牌协作，识别不熟悉设备背后的熟悉消费者。 （在测试版中，仅适用于 Marketing Cloud Device Co-op 成员。） |
