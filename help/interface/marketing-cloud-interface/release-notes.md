@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -138,7 +141,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## Release 15.7 - July 22 2015 {#section_2683A152176944E48EF6C943892975B7}
 
-* 修复了在“视图/编辑”模式页（在客户属性中）上指定的属性描述无法在Analytics报告中更新的问题。 (MAC-25985)
+* 修复了在“视图/编辑”模式页（在“客户属性”中）上指定的属性描述无法在Analytics报告中更新的问题。 (MAC-25985)
 * 修复了无法呈现已上传资产的缩略图的问题。 (MAC-25863)
 * 修复了在报告和分析中创建的新区段无法在Experience Cloud受众中使用的问题。 (MAC-25817)
 * 修复了在使用受众ID服务时无法从Analytics共享访客的问题。 (MAC-25788, MAC-25747)
@@ -174,7 +177,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </tbody> 
 </table>
 
-* 修复了无法为某些客户同步客户属性的问题。
+* 修复了阻止某些客户同步客户属性的问题。
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * 修复了无法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 之间的评论中使用日语文本的问题。
 
