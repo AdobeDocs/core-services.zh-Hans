@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '456'
+ht-degree: 19%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 * **解决方案支持：** [为Experience Platform服务提供解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
-* **群组成员资格：**&#x200B;要上传客户属性数据，用户必须是[客户属性群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)的成员。此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
+* **组成员关系：** 要上传客户属性数据，用户必须是客户属性组 [的成员](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. 如果&#x200B;*客户属性*&#x200B;显示为其中一个群组，则表示您已经可以开始。
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). 导航到 **[!UICONTROL 管理]** > **[!UICONTROL 管理控制台]** > **[!UICONTROL 产]**&#x200B;品。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
 
-   添加到客户属性群组的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项.
+   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
 
 * **客户属** 性需要Adobe目标 [!DNL at.js] (任 [!DNL mbox.js] 何版本)或版本58或更高版本。
 
