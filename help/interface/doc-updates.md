@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 文档更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 有关Experience Cloud产品文档更新的信息。
 
-**更新：2020年3月10日**
+**更新： 3/10/2020**
 
-更新 [了第一方Cookies部分中的](cookies/cookies-first-party.md#validate) “验证主机名转发”。
+更新 [了第一方](cookies/cookies-first-party.md#validate) cookies部分中的验证主机名转发。
 
-**更新：2020年2月20日**
+**更新： 2/20/2020**
 
-添加 [了查看Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)。
+添加 [了视图Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)。
 
 **更新日期：2018 年 9 月 5 日**
 
@@ -30,7 +33,7 @@ source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 **更新日期：2018 年 6 月 8 日**
 
-更新了[关于客户属性的数据文件和数据源](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，其中包含有关上载多个文件的信息。
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **更新日期：2018 年 6 月 6 日**
 
@@ -74,7 +77,7 @@ source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 **更新日期：2015 年 1 月 15 日**
 
-添加了以下内容：Experience Cloud 用户现在可以将文件夹共享到 Creative Cloud，并且还可以在这两个云之间同步资产和评论。请参阅[资产共享](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
+新增的Experience Cloud用户现在可以将文件夹共享到Creative Cloud，并在两个云中同步资产和评论。 请参阅 [资产共享](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
 
 **更新日期：2014 年 7 月 17 日**
 
