@@ -2,9 +2,9 @@
 title: 一般数据保护规定的客户属性支持
 description: 一般数据保护规定的客户属性支持
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Adobe Experience Cloud充当数据处理者，处理其接收的任何个人数据并代表其客户进行存储。 作为数据管理者，您可以决定Adobe Experience Cloud代表您处理和存储的个人数据。
 
-本文档介 [!UICONTROL 绍了客户属性] 如何使用Adobe Experience Platform隐私服务API和隐私服务UI支持数据主体的GDPR数据访问和删除权限。
+本文档介 [!UICONTROL 绍客户属性] 如何使用Adobe Experience Platform隐私服务API和隐私服务UI支持数据主体的GDPR数据访问和删除权限。
 
 有关GDPR对您的业务意味着什么的更多信息，请 [参阅GDPR和您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)。
 
-## 发送客户属性请求的必 [!UICONTROL 需设置]
+## 发送客户属性请求所需 [!UICONTROL 的设置]
 
 要请求访问和删除客户属 [!UICONTROL 性的数]据，您需要：
 
@@ -37,7 +37,7 @@ Adobe Experience Cloud充当数据处理者，处理其接收的任何个人数�
    * 要执行操作的用户档案的CRM ID
    IMS组织ID是附加@AdobeOrg的24个字符的字母数字字符串。 如果您的营销团队或内部Adobe系统管理员不知道您组织的IMS组织ID，请通过gdprsupport@adobe.com与Adobe客户服务部门联系。 您需要IMS组织ID向隐私API提交请求。
 
-1. 在隐 [!UICONTROL 私服务]中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
+1. 在隐 [!UICONTROL 私服务]，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
 
 ## 客户属性JSON请求 [!UICONTROL 中的必填] 字段值
 
