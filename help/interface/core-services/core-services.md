@@ -1,13 +1,16 @@
 ---
 description: 实施Experience Cloud并成为管理员。 该过程使您的解决方案具有现代化功能，如客户属性和受众。
-keywords: core services;customer attributes
+keywords: core services;Customer Attributes
 seo-description: 实施Experience Cloud并成为管理员。 该过程使您的解决方案具有现代化功能，如客户属性和受众。
 seo-title: 为核心服务启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -143,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]
 
    >[!IMPORTANT]
    >
-   >所有Analytics客户都已配置好核心服务，如客户属性。 如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
+   >所有Analytics客户都已配置了核心服务，如客户属性。 如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
 
 ## 步骤 6. 验证核心服务实施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
