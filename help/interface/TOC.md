@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud界面用户指南
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 68%
 
 ---
 
@@ -70,6 +70,8 @@ ht-degree: 0%
    + [验证架构](attributes/validate-schema.md)
    + [配置订阅](attributes/subscription.md)
    + [更新架构](attributes/t-update-schema.md)
+   + [支持一般数据保护规定](attributes/gdpr.md)
+   + [支持加利福尼亚消费者隐私法](attributes/ccpa.md)
    + [隐私注意事项——客户属性](attributes/privacy-mac.md)
 + 优惠管理 {#offer-management}
    + [优惠管理入门](offer-management/getting-started.md)
