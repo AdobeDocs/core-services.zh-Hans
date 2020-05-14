@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3929'
+ht-degree: 57%
 
 ---
 
@@ -22,6 +22,22 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 有关所有解决方案的发行说明，请 [参阅Experience Cloud发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+
+## 2020年4月至20日
+
+* 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
+* Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
+
+## 2020年2月至2月
+
+| 功能 | 描述 |
+| -----------| ---------- |
+| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
+
+**修复**
+
+* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他配置文件状态。(MCUI-10231)
+* **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
 
 ## 2020年1月至2020年
 
