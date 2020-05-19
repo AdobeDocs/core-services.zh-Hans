@@ -6,10 +6,10 @@ solution: Experience Cloud
 title: 关于Experience Cloud核心服务
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 23%
+source-wordcount: '511'
+ht-degree: 26%
 
 ---
 
@@ -34,7 +34,6 @@ Adobe Experience Platform 可集中化和标准化整个企业内的数据和内
 | [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) | [!UICONTROL Experience Platform Launch 是 Adobe 推出的新一代标签管理功能。][!UICONTROL Experience Platform Launch为客户] 提供了部署和管理支持相关客户体验所需的所有分析、营销和广告标签的简单方法。 |
 | [Journey Orchestration](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) | 利用存储在事件或数据源中的情境数据构建实时业务流程使用案例。 [!UICONTROL 旅程编排] 是与Experience Platform集成的应用程序服务。 |
 | [位置服务](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] （位置服务）是一项地理位置服务，它通过使用丰富易用的SDK界面以及灵活的兴趣点数据库(POI)，使具有位置感知的移动应用程序能够了解位置上下文。 |
-| [选件](offer-management/getting-started.md) | 在Experience Cloud中跨所有渠道创建、管理和决策。 [!UICONTROL 优惠管理] 是一个中心优惠目录，您可以将合格规则和多个内容与每个优惠“对象”关联，跨渠道和位置发布这些优惠，并在每次交互时为每个客户提供最佳优惠。 |
 | [Exchange](exchange.md) | 通过应用程序，搜索、浏览、选择、购买并下载 Digital Marketing 扩展。 |
 | [Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) | Adobe Mobile Services 可以在整个 Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
 | 人员 | 通过在您的Experience Cloud解决方案中连接Adobe和非Adobe数据，全面视图每位客户。 了解客户在接触点间互动时最关心的事情。 识别熟悉的消费者在访问不熟悉的设备时。 甚至将用户分组到受众中，进行有针对性的营销工作。<br>[受众](audience-library/audience-library.md) -将不同类型的客户分类为受众，然后在Marketing Cloud解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) -受众扩充，可让您连接您在Marketing Cloud外部收集的消费者信息。<br>[设备图](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) -与全球最受欢迎的品牌协作，识别不熟悉设备背后的熟悉消费者。 （在测试版中，仅适用于 Marketing Cloud Device Co-op 成员。） |
