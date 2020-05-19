@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 文档更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 0%
 # 文档更新 - Experience Cloud
 
 有关Experience Cloud产品文档更新的信息。
+
+**更新： 5/19/2020**
+
+详细的优惠管理文档。
+
+**更新： 5/15/2020**
+
+添加了以下页面：
+
+* [支持一般数据保护规定](attributes/gdpr.md)
+* [支持加利福尼亚消费者隐私法](attributes/ccpa.md)
 
 **更新： 3/10/2020**
 
