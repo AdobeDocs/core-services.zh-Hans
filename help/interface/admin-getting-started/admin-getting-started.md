@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 index: true
 translation-type: tm+mt
-source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 35%
+source-wordcount: '1455'
+ht-degree: 36%
 
 ---
 
@@ -63,7 +63,7 @@ Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), clic
 
 ## 产品用户档案和组 {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-产品用户档案的加入标志着以前（通过使用组）管理解决方案产品和服务的方式发生了转变。 在Admin Console中，权限基于产品用户档案，这些产品和服务组可以分配给用户。
+产品用户档案的加入标志着以前（通过使用组）对解决方案产品和服务进行管理的方式发生了转变。 在Admin Console中，权限基于产品用户档案，这些产品和服务组可以分配给用户。
 
 例如，在Analytics中，您可以配置报告工具的集合，如分析工作区和报表生成器，以及报表包、度量、维度等。 您可以通过将用户添加到产品用户档案来向用户档案授予权限。 See [Assign Analytics access permissions to a product profile](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
@@ -116,7 +116,7 @@ Experience Platform Launch显示在Admin Console的“产品”页面上。 您�
 
 Adobe Enterprise客户在Adobe Admin Console中表示为IMS组织。 这是Adobe客户用来管理其用户和组的产品授权的门户。 AEM客户可以使用Adobe Admin Console以云服务的形式管理其产品授权和对AEM的IMS身份验证。
 
-See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
+See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## 动态标签管理器 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -169,7 +169,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 在Admin Console中，您可以将受限管理权限委派给组织中的其他人。 委托角色使用户能够管理对最终用户的软件访问，提供访问部署功能并充当支持委托。
 
-例如，您可以：
+例如，您可以：:
 
 * 允许您的创意总监授予对Creative Cloud的访问权限。
 * 允许您的营销总监授予对Experience Cloud的访问权限。
@@ -197,5 +197,5 @@ Experience Cloud中支持的浏览器。
 ### 解决方案和产品要求
 
 * [Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html)
-* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html)
