@@ -4,8 +4,11 @@ seo-description: Advertising Cloud 使用 Cookie 将广告互动事件映射到�
 seo-title: Advertising Cloud Cookie
 title: Advertising Cloud Cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
@@ -92,7 +95,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>冲浪者上次访问广告商网站和冲浪者上次搜索单击的时间戳，以及用户单击广告时创建的ef_id</p> </td> 
+   <td colname="col2"> <p>冲浪者上次访问广告商网站和上次搜索点击的时间戳，以及在用户单击广告时创建的 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
