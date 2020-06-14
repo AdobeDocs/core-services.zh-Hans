@@ -6,13 +6,16 @@ seo-title: 第三方 Cookie 支持的变化对客户有何影响
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: 第三方 Cookie 支持的变化对客户有何影响
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '368'
+ht-degree: 100%
 
 ---
 
 
-# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
+# 第三方 Cookie 支持的变化对客户有何影响{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 由于各种浏览器对第三方 Cookie 的支持越来越有限，Adobe 一直在着力开发新的解决方案，以期在各种 Adobe Experience Cloud 解决方案中实现客户需求与用户隐私权利的周密平衡。
 
@@ -21,7 +24,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 ## Adobe Analytics 和 Adobe Target
 
 * 采用[第一方实施](/help/interface/cookies/cookies-first-party.md)的客户基本上不会受影响。
-* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
+* 未使用第一方实施的客户可实施 [Experience Platform ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html)，将 ID Cookie 存储为不带第一方实施的第一方 Cookie。
 
 ## Adobe Experience Manager
 
@@ -35,17 +38,17 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 * 搜索:
 
-   * 如果根据Adobe Analytics数据优化搜索，则搜索将受到与Adobe Analytics相同的影响。
-   * 转换数据的收集应不受影响。
+   * 这里的搜索根据 Adobe Analytics 数据进行了优化，因此搜索受到的影响与 Adobe Analytics 一样。
+   * 转化数据的收集不应受到影响。
 
 * 显示:
 
-   * 现在的展示广告再营销完全取决于第三方cookie的使用。
-   * 显示屏还严重依赖于各种广告网络cookie的可用性以进行同步。
-   * 整体影响未知。 但是，对于第一点，显示受到的影响比其他服务要大。
-   * 我们正与我们的广告合作伙伴进行内部合作，以评估广告投放所受的影响。
+   * 现在的显示重新营销完全取决于第三方 Cookie 的使用情况。
+   * 显示是否同步在很大程度上还取决于各种广告网络 Cookie 的可用性。
+   * 整体影响尚未可知。但是，对于第一点，显示受到的影响要高于其他服务受到的影响。
+   * 我们正在内部开展工作，并与广告合作伙伴合作，全面评估对广告投放的影响。
 
 * Social：
 
-   * 对Facebook市场广告没有影响。
-   * Facebook Exchange(FBX)将与展示广告投放一样受到影响。
+   * 对 Facebook 市场广告没有影响。
+   * Facebook Exchange (FBX) 受到的影响与展示广告投放受到的影响相同。
