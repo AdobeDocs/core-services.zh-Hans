@@ -6,8 +6,11 @@ seo-title: Experience Cloud Cookies
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 
@@ -32,11 +35,11 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
-   <td colname="col2"> <p>2年 </p> </td> 
+   <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用情况 </p> </td> 
-   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此Cookie的用途是在第一方状态中允许持续的ID跟踪，并在AMCV Cookie过期时用作参考ID。 有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
+   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
@@ -51,9 +54,9 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[Experience Platform ID服务使用JavaScript将唯一的访客ID存储在当前网站域的](https://docs.adobe.com/content/help/en/id-service/using/home.html) cookie中，其中 `AMCV_###@AdobeOrg``###` 表示随机字符串，如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
 
-See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+另请参阅 [Cookie 和 ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -65,23 +68,23 @@ See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud解决方案使用的唯一访客ID。 </p> </td> 
+   <td colname="col2"> <p> Experience Cloud 解决方案使用的独特访客 ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
-   <td colname="col2"> <p> 2年 </p> </td> 
+   <td colname="col2"> <p> 2 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用情况 </p> </td> 
-   <td colname="col2"> <p> 此Cookie用于标识唯一访客 </p> </td> 
+   <td colname="col2"> <p> 此 Cookie 用于标识独特访客 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p> 此Cookie存储在网站的域（而非图像请求的域）。 </p> </td> 
+   <td colname="col2"> <p> 此 Cookie 存储在网站的域（而非图像请求的域）中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 因此，大多数客户可能希望此Cookie的长度约为200字节。 </p> </td> 
+   <td colname="col2"> <p> 各不相同，大多数客户可能希望此 Cookie 的长度在 200 字节左右。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
