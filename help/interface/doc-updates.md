@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 64%
+ht-degree: 84%
 
 ---
 
 
 # 文档更新 - Experience Cloud
 
-有关Experience Cloud产品文档更新的信息。
+有关 Experience Cloud 产品文档更新的信息。
 
 **更新： 5/19/2020**
 
@@ -30,13 +30,13 @@ ht-degree: 64%
 * [支持一般数据保护规定](attributes/gdpr.md)
 * [支持加利福尼亚消费者隐私法](attributes/ccpa.md)
 
-**更新： 3/10/2020**
+**更新日期：2020 年 3 月 10 日**
 
-更新 [了第一方](cookies/cookies-first-party.md#validate) cookies部分中的验证主机名转发。
+更新了第一方 Cookie 部分中的[验证主机名转发](cookies/cookies-first-party.md#validate)。
 
-**更新： 2/20/2020**
+**更新日期：2020 年 2 月 20 日**
 
-添加 [了视图Experience Cloud用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)。
+添加了[查看 Experience Cloud 用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)。
 
 **更新日期：2018 年 9 月 5 日**
 
@@ -88,7 +88,7 @@ Updated [About data file and data sources for Customer Attributes](attributes/cr
 
 **更新日期：2015 年 1 月 15 日**
 
-新增的Experience Cloud用户现在可以将文件夹共享到Creative Cloud，并在两个云中同步资产和评论。 请参阅 [资产共享](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
+添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资产和评论。请参阅[资产共享](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
 
 **更新日期：2014 年 7 月 17 日**
 
