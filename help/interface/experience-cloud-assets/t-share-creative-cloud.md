@@ -6,8 +6,11 @@ seo-title: 共享 Experience Cloud 资产文件夹
 solution: Experience Cloud
 title: 共享 Experience Cloud 资产文件夹
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
    ![](assets/asset_comment_cc.png)
 
-   在Experience Cloud中，单击进入图像，然后单击时间线图标以在图像上添加评论。 评论会同步到Creative Cloud和Experience Cloud中的资产。
+   在 Experience Cloud 中，单击进入图像，然后单击时间轴图标以在图像上添加评论。评论会在 Creative Cloud 和 Experience Cloud 的资产中同步。
 
    ![](assets/asset_comment_mac.png)
 
@@ -52,7 +55,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 使用共享资产的其他方式包括：
 
 * 在 [!UICONTROL  中将]资产选择器[!DNL Adobe Social]中的资产用于社交帖子。
-* 在优惠库中加载或交换资 [源](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) ，以 [!DNL Adobe Target] 查看活动中的图像。
+* 在 [!DNL Adobe Target] 中加载或交换[选件库](https://docs.adobe.com/help/zh-Hans/target/using/experiences/offers/manage-content.html)中的资产以用于活动中的图像。
 
 在将文件夹共享到 Creative Cloud 之后，您将在文件夹上看到 Creative Cloud 徽标。
 
@@ -60,6 +63,6 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 相关帮助：
 
-* [Creative Cloud帮助——管理和同步文件](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Creative Cloud帮助——与他人协作](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud帮助——协作常见问题解答](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud 帮助 - 管理和同步文件](https://helpx.adobe.com/cn/creative-cloud/help/sync-files.html)
+* [Creative Cloud 帮助 - 与他人协作](https://helpx.adobe.com/cn/creative-cloud/help/collaboration.html)
+* [Creative Cloud 帮助 - 协作常见问题解答](https://helpx.adobe.com/cn/creative-cloud/help/collaboration-faq.html)
