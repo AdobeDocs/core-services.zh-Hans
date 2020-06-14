@@ -1,23 +1,26 @@
 ---
-description: Adobe Experience Cloud 内的许多服务都使用 Cookie。 Cookie 是网站向网络浏览器提供的一小部分数据。浏览器会存储这部分数据，然后将其返回到提供该数据的网站。此操作与随后的每个页面和图像请求一起执行。
-seo-description: Adobe Experience Cloud 内的许多服务都使用 Cookie。 Cookie 是网站向网络浏览器提供的一小部分数据。浏览器会存储这部分数据，然后将其返回到提供该数据的网站。此操作与随后的每个页面和图像请求一起执行。
+description: Adobe Experience Cloud 中的许多服务都使用 Cookie。Cookie 是网站提供给 Web 浏览器的一小段数据。浏览器将存储这段数据，然后将其返回到提供此数据的网站。对每个后续的页面和图像请求都会执行此操作。
+seo-description: Adobe Experience Cloud 中的许多服务都使用 Cookie。Cookie 是网站提供给 Web 浏览器的一小段数据。浏览器将存储这段数据，然后将其返回到提供此数据的网站。对每个后续的页面和图像请求都会执行此操作。
 seo-title: Experience Cloud 中使用的 Cookie
 title: Experience Cloud 中使用的 Cookie
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+workflow-type: ht
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud 中使用的 Cookie{#cookies-used-in-the-experience-cloud}
 
-Adobe Experience Cloud 内的许多服务都使用 Cookie。 Cookie 是网站向网络浏览器提供的一小部分数据。浏览器会存储这部分数据，然后将其返回到提供该数据的网站。此操作与随后的每个页面和图像请求一起执行。
+Adobe Experience Cloud 中的许多服务都使用 Cookie。Cookie 是网站提供给 Web 浏览器的一小段数据。浏览器将存储这段数据，然后将其返回到提供此数据的网站。对每个后续的页面和图像请求都会执行此操作。
 
-提供 Cookie 是为了在访问某个网站期间以及有时在两次访问网站之间维护信息。Cookie 可让设备与查看网站的其他浏览器唯一地区分开。
+提供的 Cookie 可在访问网站期间和访问之间维护相关信息。Cookie 允许将设备与查看该网站的其他浏览器以独特的方式区分开。
 
 >[!NOTE]
 >
->法律、法规和自我监管原则可能要求您先获得访客的同意，然后才能存储或检索有关计算机或其他网络连接设备的信息。我们建议您向律师咨询哪些法律、法规和原则对 Cookie 的使用有一定的控制。
+>法律、法规和自我监管原则可能要求您先获得访客的同意，然后才能存储或检索有关计算机或其他网络连接设备的信息。我们建议您与律师一起审查您对 Cookie 的使用受哪些法律、法规和原则控制。
 
-本文档介绍了 Suite 所使用的 Cookie，可用来帮助您了解您的同意义务。
+本文档描述了报表包使用的 Cookie，并有助于您了解您的同意义务。
