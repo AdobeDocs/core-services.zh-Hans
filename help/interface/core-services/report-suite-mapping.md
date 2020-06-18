@@ -4,11 +4,11 @@ seo-description: 了解如何将一个或多个报表包映射到组织。
 seo-title: 将报表包映射到组织
 title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+workflow-type: tm+mt
+source-wordcount: '1174'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ## 将一个报表包映射到组织 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 单击 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 报表包映射]**
+1. 导航到数据管理报表包， [!DNL Analytics] 位 **[!UICONTROL 置为]** >管 **[!UICONTROL 理员]** > [数据管理(请参阅视图/管理报表包的数据管理设置](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
 
 1. 要查看对每个报表包拥有访问权限的登录公司，请单击&#x200B;**[!UICONTROL 对登录公司可见]**。
 
