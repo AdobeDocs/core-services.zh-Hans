@@ -6,11 +6,11 @@ seo-title: 第三方 Cookie 支持的变化对客户有何影响
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: 第三方 Cookie 支持的变化对客户有何影响
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 ## Adobe Analytics 和 Adobe Target
 
 * 采用[第一方实施](/help/interface/cookies/cookies-first-party.md)的客户基本上不会受影响。
-* 未使用第一方实施的客户可实施 [Experience Platform ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html)，将 ID Cookie 存储为不带第一方实施的第一方 Cookie。
+* 未使用第一方实施的客户可实施 [Experience Platform ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/implementation-guides.html)，将 ID Cookie 存储为不带第一方实施的第一方 Cookie。
 
 ## Adobe Experience Manager
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## Adobe Social
 
-* 只要客户使用了最新版本的代码，Social 便不会受到影响。
+* 只要客户有最新版本的代码，Social将不受影响。
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 * 显示:
 
    * 现在的显示重新营销完全取决于第三方 Cookie 的使用情况。
-   * 显示是否同步在很大程度上还取决于各种广告网络 Cookie 的可用性。
+   * 显示屏还严重依赖于各种广告网络cookie的可用性以进行同步。
    * 整体影响尚未可知。但是，对于第一点，显示受到的影响要高于其他服务受到的影响。
    * 我们正在内部开展工作，并与广告合作伙伴合作，全面评估对广告投放的影响。
 
