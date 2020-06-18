@@ -7,10 +7,10 @@ solution: Marketing Cloud
 title: 触发器
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 96%
    | 没有行动后开始新会话 | 为会话开始和会话结束事件创建触发器。 |
 
 5. 单击&#x200B;**[!UICONTROL 保存]**。
-6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)。
+6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ### 触发器示例
 
