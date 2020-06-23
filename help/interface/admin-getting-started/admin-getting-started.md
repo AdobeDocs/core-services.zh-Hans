@@ -6,11 +6,11 @@ seo-title: 管理 Experience Cloud 用户和产品
 solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -114,9 +114,9 @@ Experience Platform Launch 会显示在 Admin Console 的“产品”页面上�
 
 ## Experience Manager 云服务
 
-Adobe Enterprise客户在Adobe Admin Console中表示为IMS组织。 这是Adobe客户用来管理其用户和组的产品授权的门户。 AEM客户可以使用Adobe Admin Console以云服务的形式管理其产品授权和对AEM的IMS身份验证。
+Adobe 企业客户在 Adobe Admin Console 中表示为 IMS 组织。这是 Adobe 客户管理其用户和组的产品权利的门户。AEM 客户可以使用 Adobe Admin Console 管理其产品权利以及对 AEM 云服务的 IMS 身份验证。
 
-See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+请参阅 [AEM 云服务的 IMS 支持](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)。
 
 ## 动态标签管理器 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
