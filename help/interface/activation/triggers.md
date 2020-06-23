@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 94%
 
 ## 创建 Experience Cloud 触发器 {#task_821F37183AC045E5AC8EED20317598FE}
 
-创建触发器并配置触发器的条件。 例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
+创建触发器并配置触发器的条件。例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
 
 >[!NOTE]
 >
 >当前的技术限制为 100 个触发器。
 
-1. In the Experience Cloud, click ![](assets/menu-icon.png), then click **[!UICONTROL Launch]**.
-2. Locate the [!UICONTROL Triggers] card, then click **[!UICONTROL Manage Triggers]**.
+1. 在 Experience Cloud 中，单击 ![](assets/menu-icon.png)，然后单击&#x200B;**[!UICONTROL 启动]**。
+2. 找到“[!UICONTROL 触发器]”信息卡，然后单击&#x200B;**[!UICONTROL 管理触发器]**。
 3. 单击&#x200B;**[!UICONTROL 新建触发器]**，然后指定触发器类型：
 
    ![步骤结果](assets/add-trigger.png)
