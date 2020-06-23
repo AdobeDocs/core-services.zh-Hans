@@ -6,11 +6,11 @@ seo-title: 术语
 solution: Experience Cloud
 title: 术语
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1474'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 |--- |----- |---- |
 | 资产 | 在 Creative Cloud 中，资产通常是指图像文件。<br>资产可以是 Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面以及 ZIP 包中的文件。 | 在 Experience Cloud 中，资产指数字文档、图像、视频或音频，它可以有多个演绎版，也可以带有子资产。示例包括：<ul><li>文件</li><li>文档</li><li>图像</li><li>视频</li><li>音频 剪辑</li><li>演示文稿</li><li>图像模板</li><li>视频模板</li></ul> |
 | 属性 |  | 符合[区段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)资格的人员之间所共有的属性。（类似于 Audience Manager 中的[特征](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/aam-glossary.html#s-t)。） |
-| 受众 | 在 Creative Cloud 中，受众可以是指观看视频的人员。 | 在Experience Cloud中，受众是可以在活动活动中目标的人员集合。<br>受众中的成员资格可根据一组规则确定并在访客的上下文中运行，或根据固定的列表确定。例如，某 Facebook 群组中订阅者或成员的电子邮件列表。<br>在 [Experience Cloud受众](audience-library/audience-library.md)，创建和管理受众与创建和使用细分相似，并添加了将其共享到Experience Cloud的功能。<br>**Adobe **<br>Target在Adobe Target中，受众以前称为区段。<br>**Adobe**<br> Analytics在Analytics中，受众可以被视为网站的访客。 您可以创建受众区段，并将受众发布到 Experience Cloud。 |
+| 受众 | 在 Creative Cloud 中，受众可以是指观看视频的人员。 | 在 Experience Cloud 中，受众指我们可在营销活动中定位的人员集合。<br>受众中的成员资格可根据一组规则确定并在访客的上下文中运行，或根据固定的列表确定。例如，某 Facebook 群组中订阅者或成员的电子邮件列表。<br>在 [Experience Cloud 受众](audience-library/audience-library.md)中，创建和管理受众与创建和使用区段类似，还增加了将受众共享到 Experience Cloud 的功能。<br>**Adobe Target **<br>在 Adobe Target 中，受众以前称为区段。<br>**Adobe Analytics**<br>&#x200B;在 Analytics 中，受众可以被视为网站的访客。您可以创建受众区段，并将受众发布到 Experience Cloud。 |
 | 促销活动 | 在 Creative Cloud 中，营销活动可被视为使用 Creative Cloud 图像资产的市场营销活动。 | 在 Experience Cloud 中，营销活动可确定向受众显示的内容。它还可以确定显示内容的区域（位置）以及时间。营销活动具有特定目标，可以通过量度进行跟踪。<br>运行营销活动需要将访客的上下文与营销活动中设置的规则相匹配，并根据位置渠道的技术限制来交付内容。<br>在 Adobe Target 中，术语营销活动和活动是同义词。 |
 | 渠道 | 在 Creative Cloud 中，渠道可以是指存储不同信息类型的灰度图像。它们包括信息渠道和颜色渠道。 | 在 Experience Cloud 中，渠道指位置的一种属性，或营销活动中的活动。<br>在 Analytics 中，营销渠道通常用于分析访客是如何抵达您的网站的，例如通过电子邮件营销活动。<br>示例包括：<ul><li>电子邮件</li><li>显示广告</li><li>社交网站</li><li>付费搜索</li><li>免费搜索</li><li>反向链接域名</li></ul> |
 | 上下文 | 通常指与某个选择或正在执行的任务相关的可用菜单或信息。 | 上下文描述访客当前与某个数字财产交互的详细信息。例如，上下文包括他们的鼠标位置、表单字段的状态、其购物车的金额或他们所使用的设备。<br>Dynamic tag management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.html) 提供当今市场上最强大的上下文检测和服务激活功能，并提供配置文件和受众服务的上下文组件。 |
@@ -44,5 +44,5 @@ ht-degree: 95%
 | 计划 | 可以指 Adobe Story 中的一系列场景或 ColdFusion 中的计划任务。 | 在 Experience Cloud 中，计划是指激活营销活动、渠道和活动的开始日期(年、月、日)和结束日期。活动计划的粒度细化至分钟。更改计划将会创建一张信息卡。<br>示例包括：<ul><li>营销活动计划</li><li>渠道计划</li><li>活动计划</li></ul> |
 | 区段 | 不适用 | 用于限定受众的一组规则的输出。在 Analytics 中，可以选择使用[区段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)来定义可以传递到 Experience Cloud 的受众。<br>在 Audience Manager 中，区段是使访客有资格成为该区段成员或包括在该区段中的[特征](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/traits/traits-overview.html)和所有条件的集合。而且，这是拥有共同属性的人员的集合。 |
 | 共享 | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在 Experience Cloud 中，您可以在界面中的展示板内，仅将资产共享为信息卡。登录到网站的用户可以进行共享。 |
-| 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Adobe Analytics、Adobe Social、Adobe Target 等等。<br>[请参阅关于 Experience Cloud 中的新云名称](solutions-core-services.md). |
+| 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Adobe Analytics、Adobe Social、Adobe Target 等等。<br>请参阅[关于 Experience Cloud 中的新云名称](solutions-core-services.md)。 |
 | 特征 | 不适用 | 键值对，例如 color=blue。在 Audience Manager 中，[特征](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/traits/traits-overview.html)用于构建区段。 |
