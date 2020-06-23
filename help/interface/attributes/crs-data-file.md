@@ -1,23 +1,23 @@
 ---
-description: 将客户属性上传到Experience Cloud的数据文件要求和多个数据源。
+description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 keywords: Customer Attributes;core services
-seo-description: 将客户属性上传到Experience Cloud的数据文件要求和多个数据源。
+seo-description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 seo-title: 关于客户属性的数据文件和数据源
 solution: Experience Cloud
 title: 关于客户属性的数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # 关于客户属性的数据文件和数据源
 
-将客户属性上传到Experience Cloud的数据文件要求和多个数据源。
+将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
 
 您将需要拥有从企业访问 CRM 或类似数据的权限。您上传到 Experience Cloud 的数据必须是 `.csv` 文件。如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
 
@@ -39,7 +39,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>（必需）<span class="filepath">.fin</span> 文件会告知系统您已完成数据上传。<span class="filepath">.fin</span> 文件的名称必须匹配 <span class="filepath">.csv</span> 文件的名称。 </p> <p>Adobe 建议创建一个具有 <span class="filepath">.fin</span> 扩展名的空文本文件。空文件可节省空间和上传时间。 </p> <p> <p>注意：不允许重新命名已上传的 <span class="filepath">.fin</span> 文件。<span class="filepath">.fin</span> 文件必须单独上传，并且不得是之前已上传的重命名文件。 </p> </p> <p>After you upload the <span class="filepath"> .fin </span> file in the Customer Attributes FTP, the system retrieves data quickly (within one minute). 其他基于 FTP 的 Adobe 系统则与之不同，它们提取数据并不那么频繁（大约每小时一次）。 </p> <p>在使用拖放上传方法时不需要 <span class="filepath">.fin</span> 文件。 </p> </td> 
+   <td colname="col2"> <p>（必需）<span class="filepath">.fin</span> 文件会告知系统您已完成数据上传。<span class="filepath">.fin</span> 文件的名称必须匹配 <span class="filepath">.csv</span> 文件的名称。 </p> <p>Adobe 建议创建一个具有 <span class="filepath">.fin</span> 扩展名的空文本文件。空文件可节省空间和上传时间。 </p> <p> <p>注意：不允许重新命名已上传的 <span class="filepath">.fin</span> 文件。<span class="filepath">.fin</span> 文件必须单独上传，并且不得是之前已上传的重命名文件。 </p> </p> <p>在客户属性 FTP 中上传 <span class="filepath">.fin</span> 文件后，系统会快速检索数据（在一分钟之内）。其他基于 FTP 的 Adobe 系统则与之不同，它们提取数据并不那么频繁（大约每小时一次）。 </p> <p>在使用拖放上传方法时不需要 <span class="filepath">.fin</span> 文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> 或 <span class="filepath">.zip </span> </p> </td> 
@@ -80,7 +80,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
-   <td colname="col2"> <p>后续标题应表示每个属性的名称。 </p> <p> 这些列应包含来自CRM的客户属性。 </p> </td> 
+   <td colname="col2"> <p>后续标题应表示每个属性的名称。 </p> <p> 这些列应包含来自 CRM 的客户属性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性限制 </p> </td> 
@@ -120,7 +120,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多个文件 </p> </td> 
-   <td colname="col2"> <p>上传客户属性数据时，如果您要快速且连续上传多个文件，尤其是文件较大时，请确保在上一个文件处理完成之后再上传下一个文件。您可以通过检查先前文件何时被移动到客户属性FTP帐户中的已处理或失败文件夹来监视此情况。 </p> <p> 如果将大文件分成较小的文件，并连续快速提交这些文件，实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前已完全处理每个文件。 </p> </td> 
+   <td colname="col2"> <p>上传客户属性数据时，如果您要快速且连续上传多个文件，尤其是文件较大时，请确保在上一个文件处理完成之后再上传下一个文件。您可以通过查看上一个文件被移动到客户属性 FTP 帐户中已处理或失败文件夹中的时间来监控上传情况。 </p> <p> 如果将大文件分成较小的文件，并连续快速提交这些文件，实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前已完全处理每个文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符编码 </p> </td> 
@@ -128,7 +128,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
-   <td colname="col2"> <p> 客户属性与 Analytics 中的基础访客配置文件关联。因此，在Analytics中，访客属性与该访客用户档案整个生命周期的相关联。 这包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客户属性与 Analytics 中的基础访客配置文件关联。因此，在 Analytics 中，客户属性在访客配置文件的整个生命周期内都与该访客相关联。这包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据馈送 </p> </td> 
@@ -158,4 +158,4 @@ Visitor.setCustomerIDs({
 
 在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**&#x200B;中：
 
-使用与上述客户ID对应的唯一别名ID创建两个客户属性源。 使用此方法可以将相同的引用 ID 发送到多个客户属性来源。
+使用与上述客户 ID 对应的唯一别名 ID 创建两个客户属性来源。使用此方法可以将相同的引用 ID 发送到多个客户属性来源。
