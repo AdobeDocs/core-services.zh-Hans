@@ -6,11 +6,11 @@ seo-title: 文档更新 - Experience Cloud
 solution: Experience Cloud
 title: 文档更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 84%
 
 有关 Experience Cloud 产品文档更新的信息。
 
-**更新： 5/19/2020**
+**更新日期：2020 年 5 月 19 日**
 
-详细的优惠管理文档。
+弃用了选件管理文档。
 
-**更新： 5/15/2020**
+**更新日期：2020 年 5 月 15 日**
 
 添加了以下页面：
 
-* [支持一般数据保护规定](attributes/gdpr.md)
-* [支持加利福尼亚消费者隐私法](attributes/ccpa.md)
+* [对《通用数据保护条例》的支持](attributes/gdpr.md)
+* [对《加州消费者隐私法案》的支持](attributes/ccpa.md)
 
 **更新日期：2020 年 3 月 10 日**
 
@@ -44,7 +44,7 @@ ht-degree: 84%
 
 **更新日期：2018 年 6 月 8 日**
 
-Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
+更新了[关于客户属性的数据文件和数据源](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，其中包含有关上传多个文件的信息。
 
 **更新日期：2018 年 6 月 6 日**
 
