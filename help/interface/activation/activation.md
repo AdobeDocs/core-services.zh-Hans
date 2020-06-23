@@ -6,11 +6,11 @@ seo-title: 激活
 solution: Experience Cloud
 title: 激活
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服务的实施指南 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID服务支持跨Experience Cloud解决方案(包括客户属性、受众共享和触发器)的核心功能。 Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID 服务可以在 Experience Cloud 解决方案（包括客户属性、受众共享和触发器）之间实现核心功能。Adobe 强烈建议您实施 ID 服务并利用这些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html" format="https" scope="external"> Dynamic Tag Management 产品文档 </a> </p> </td> 
@@ -52,7 +52,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-如果要寻求实施 Dynamic Tag Management 的帮助，我们建议您联系自己的帐户经理，以获取有关 Adobe 全球服务产品或实施合作伙伴产品的信息。此外，我们欢迎您 at [@AdobeExpCare](https://twitter.com/AdobeExpCare)，使用标签 #DTM 随时联系我们。
+如果要寻求实施 Dynamic Tag Management 的帮助，我们建议您联系自己的帐户经理，以获取有关 Adobe 全球服务产品或实施合作伙伴产品的信息。此外，我们欢迎您通过 [@AdobeExpCare](https://twitter.com/AdobeExpCare)，使用标签 #DTM 随时联系我们。
 
 ## Experience Cloud 触发器 {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
