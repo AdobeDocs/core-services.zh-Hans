@@ -1,23 +1,23 @@
 ---
-description: 将客户属性上传到Experience Cloud的概述和先决条件。
+description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
 keywords: core services;Customer Attributes
-seo-description: 将客户属性上传到Experience Cloud的概述和先决条件。
+seo-description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
 seo-title: 客户属性
 solution: Experience Cloud
 title: 客户属性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # 客户属性
 
-导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** >客 **[!UICONTROL 户属性]**
+导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可利用 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中的数据。
 
@@ -25,15 +25,15 @@ ht-degree: 71%
 
 ## 上传客户属性的先决条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **解决方案支持：** [为Experience Platform服务提供解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
+* **解决方案启用：**[为 Experience Platform 服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
-* **组成员关系：** 要上传客户属性数据，用户必须是客户属性组 [的成员](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
+* **群组成员资格：**&#x200B;要上传客户属性数据，用户必须是[客户属性群组](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)的成员。此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
+   要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。
 
-   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
+   添加到客户属性的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项。
 
-* **客户属性** 需要Adobe Target [!DNL at.js] (任 [!DNL mbox.js] 何版本)或版本58或更高版本。
+* 客户属性需要使用 **Adobe Target** [!DNL at.js]（任何版本）或者 [!DNL mbox.js] 版本 58 或更高版本。
 
    请参阅[如何部署 at.js](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js 实施](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
