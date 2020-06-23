@@ -4,11 +4,11 @@ user-guide-title: Experience Cloud 界面用户指南
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 88%
    + [受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
++ Experience Cloud 中的客户属性 {#customer-attributes}
    + [客户属性概述](attributes/attributes.md)
    + [常见问题解答、各种限制和最佳实践](attributes/faq-crs.md)
    + [关于客户属性的数据文件和数据源](attributes/crs-data-file.md)
@@ -71,9 +71,9 @@ ht-degree: 88%
    + [验证架构](attributes/validate-schema.md)
    + [配置订阅](attributes/subscription.md)
    + [更新架构](attributes/t-update-schema.md)
-   + [支持一般数据保护规定](attributes/gdpr.md)
-   + [支持加利福尼亚消费者隐私法](attributes/ccpa.md)
-   + [隐私注意事项——客户属性](attributes/privacy-mac.md)
+   + [对《通用数据保护条例》的支持](attributes/gdpr.md)
+   + [对《加州消费者隐私法案》的支持](attributes/ccpa.md)
+   + [隐私注意事项 - 客户属性](attributes/privacy-mac.md)
 + Experience Cloud 的发行说明 {#release-notes}
    + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)
    + [发行说明汇总](marketing-cloud-interface/release-notes.md)
