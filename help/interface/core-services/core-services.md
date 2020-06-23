@@ -1,23 +1,23 @@
 ---
-description: 实施 Experience Cloud 并成为管理员。该过程使您的解决方案具有现代化功能，如客户属性和受众。
+description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
 keywords: core services;Customer Attributes
-seo-description: 实施 Experience Cloud 并成为管理员。该过程使您的解决方案具有现代化功能，如客户属性和受众。
+seo-description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
 seo-title: 为核心服务启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # 为核心服务启用解决方案
 
-对于现有客户，了解如何实现解决方案实施的现代化并实施Experience Cloud，以便您能够使用客户属性和受众等功能。 为此，您将执行以下操作：
+对于现有客户，了解如何使解决方案实施符合现代化要求和如何实施 Experience Cloud，以便能够使用客户属性和受众等功能。为此，您将执行以下操作：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -120,7 +120,7 @@ ht-degree: 96%
 
 ### 启用历史数据的属性
 
-客户属性数据在访客登录后可用。如果您尚未实施最新的 Experience Cloud ID 服务，并且以前一直在 prop 或 eVar 中跟踪客户 ID，则可以请求一个流程，以将历史登录发送到 Experience Cloud。此流程允许您立即开始使用客户属性。
+客户属性数据在访客登录后可用。如果您尚未实施最新的 Experience Cloud ID 服务，并且以前一直在 prop 或 eVar 中跟踪客户 ID，则可以请求一个流程，以将历史登录发送到 Experience Cloud。凭借此流程，您可以立即开始使用客户属性。
 
 请联系客户关怀以启用历史数据。
 
@@ -146,7 +146,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
    >[!IMPORTANT]
    >
-   >所有Analytics客户都已配置了核心服务，如客户属性。 如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
+   >已针对客户属性等核心服务配置了所有 Analytics 客户。如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
 
 ## 步骤 6. 验证核心服务实施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
