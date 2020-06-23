@@ -6,11 +6,11 @@ seo-title: 发行说明汇总
 solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
-## 2020年4月至20日
+## 4 月版 - 2020 年
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
 * Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
 
-## 2020年2月至2月
+## 2 月版 - 2020 年
 
 | 功能 | 描述 |
 | -----------| ---------- |
@@ -150,18 +150,18 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 ## 15.9 版 - 2015 年 9 月 10 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* 修复了在上传客户属性数据时导致间歇性超时的Audience Manager API性能问题。 (MAC-26305)
-* 修复了阻止用户向订阅添加最多200个客户属性的问题。 (MAC-26188)
+* 修复了在上传客户属性数据时导致间歇性超时的 Audience Manager API 性能问题。(MAC-26305)
+* 修复了导致用户最多向订阅添加 200 个客户属性的问题。(MAC-26188)
 * 修复了导致受众无法共享 Analytics 分段的 Audience Library 问题。此问题将导致显示“正在收集数据”（0 个受众）。为防止出现此问题，Adobe 建议将每个区段的受众成员数量控制在 50000 个以下。(MAC-25788)
 * 修复了“客户属性 - 编辑架构”页面上的先前已知问题，该问题导致在更改显示名称时产生“内容识别”错误。（MAC-25589、AN-103834）
 
 ## 15.7 版 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
 
-* 修复了在“视图/编辑”模式页（在“客户属性”中）上指定的属性描述无法在Analytics报告中更新的问题。 (MAC-25985)
+* 修复了导致无法在 Analytics 报表中更新“查看/编辑架构”页面（位于客户属性中）上指定的属性描述的问题。(MAC-25985)
 * 修复了无法呈现已上传资产的缩略图的问题。(MAC-25863)
 * 修复了导致在 Reports &amp; Analytics 中创建的新区段在 Marketing Cloud 受众中不可用的问题。(MAC-25817)
 * 修复了受众在使用访客 ID 服务时无法从 Analytics 共享的问题。（MAC-25788、MAC-25747）
-* 增加了对客户属性中多字节字符的支持。 (MAC-25552)
+* 在客户属性中添加了对多字节字符的支持。(MAC-25552)
 
 **已知问题**
 
@@ -193,7 +193,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  </tbody> 
 </table>
 
-* 修复了阻止某些客户同步客户属性的问题。
+* 修复了无法为某些客户同步客户属性的问题。
 * 修复了 [Adobe Target 产品文档](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)页面无法以日文显示的问题。
 * 修复了无法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 之间的评论中使用日语文本的问题。
 
@@ -372,7 +372,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 某些用户可以删除过期的资产，而不会收到错误通知。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 
 ## 14.9.1 版 - 2014 年 9 月 18 日 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
@@ -390,7 +390,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 某些用户在 [!DNL Creative Cloud] 中取消共享的 [!DNL Experience Cloud] 内容可能会从他们的文件夹中删除。
 
 ## 14.8.1 版 - 2014 年 8 月 21 日 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
@@ -424,7 +424,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 某些用户在 [!DNL Creative Cloud] 中取消共享的 [!DNL Experience Cloud] 内容可能会从他们的文件夹中删除。
 
 ## 14.7.1 版 - 2014 年 7 月 24 日 {#section_B22D4F830756463DB27BB4D508D9ADD5}
@@ -437,7 +437,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 某些 [!UICONTROL Exchange] 用户可能在备注中发现他们的名称为一个较长的字符串 ID，而不是他们的名称
 * 某些 [!DNL .png] 文件无法在信息卡中呈现
 * 上传文件比拖放方法支持更多的文件类型。为获得最佳结果，请使用 [!UICONTROL Assets] 上传。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * [!DNL Exchange] 用户必须清除 Cookie 才能改善体验。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面速度可能会减慢。
 * 某些用户在 [!DNL Creative Cloud] 中取消共享的 [!DNL Experience Cloud] 内容可能会从他们的文件夹中删除。
@@ -475,7 +475,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 * 从 [!DNL Experience Cloud] 删除的文件不会从 [!DNL Digital Asset Management] 中删除。
 * 上传文件比拖放方法支持更多的文件类型。为获得最佳结果，请使用 Assets 上传。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
 * 某些用户无法将他们的受众管理帐户与其 [!DNL Experience Cloud] 帐户相关联。
 * 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销将会使您从整个 Experience Cloud 中注销。
@@ -573,7 +573,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 在 [!DNL Experience Cloud] 中创建了某个用户后，Adobe [!DNL Media Optimizer] 不会自动创建该用户。
 * 如果 [!DNL Adobe Target] 登录凭据可以在多个 [!DNL Target] 服务器上使用，则 [!DNL Experience Cloud] 无法关联到 [!DNL Adobe Target]。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面速度可能会减慢。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * [!DNL Adobe Media Optimizer] 模拟信息卡未正确呈现。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
 * 从 Analytics 对趋势报表应用的过滤器不会应用到 Experience Cloud 中的信息卡。
@@ -610,7 +610,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 共享 Flickr 图像失败。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 Experience Cloud 中的信息卡。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
-* 无法在“[!DNL Search&Promote]组织和产品访问[!UICONTROL ”页面中关联 ]。
+* 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 用户必须刷新展示板才能使删除的信息卡从视图中消失。
 * 某些 Excel 或 CSV 文件无法上传至展示板。
 * [!DNL Adobe Media Optimizer] 模拟信息卡未正确呈现。
