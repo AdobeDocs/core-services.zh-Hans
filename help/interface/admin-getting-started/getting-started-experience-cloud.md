@@ -6,11 +6,11 @@ seo-title: 登录并管理配置文件设置
 solution: Experience Cloud
 title: 登录并管理 Experience Cloud 配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 ## 启用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-获取有关系统更新、维护通知、帖子、提及次数和共享资产的通知（通过电子邮件或在产品内）。您还可以指定要通知的产品和解决方案，包括客户属性的上传状态。
+获取有关系统更新、维护通知、帖子、提及次数和共享资产的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和解决方案，包括客户属性的上传状态。
 
 要导航到通知，请单击&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![](assets/notifications-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标 ![](assets/icon_edit_board.png)。
 
@@ -116,7 +116,7 @@ ht-degree: 97%
 
 您可以编辑 Experience Cloud 配置文件，指定默认的组织和登录页面，以及执行更多其他操作。
 
-1. [登录到 Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. [登录到 Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985)。
 
 1. 从 Experience Cloud 菜单中，单击您的配置文件图片。
 
