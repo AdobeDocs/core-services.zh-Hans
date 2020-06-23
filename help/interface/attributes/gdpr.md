@@ -1,70 +1,70 @@
 ---
-title: 一般数据保护规定的客户属性支持
-description: 一般数据保护规定的客户属性支持
-translation-type: tm+mt
+title: 客户属性对《通用数据保护条例》的支持
+description: 客户属性对《通用数据保护条例》的支持
+translation-type: ht
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 一般数据保护规定的客户属性支持
+# 客户属性对《通用数据保护条例》的支持
 
-本页介绍客户属性如何支持一般数据保护规定(GDPR)。
+本页介绍客户属性如何支持《通用数据保护条例》(GDPR)。
 
 >[!IMPORTANT]
 >
->本文档的内容不是法律建议，也不是用来代替法律建议。 请咨询您的法律顾问，以获得有关GDPR的建议。
+>本文档的内容不是法律建议，也不会代替法律建议。请咨询您的法律顾问，以获得有关 GDPR 的建议。
 
-2018 [年5月](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html)25日生效的《一般数据保护条例》赋予欧洲合并(EU)境内的所有个人（数据主体）对其个人数据的控制权。 它还简化了国际业务的监管环境。 本法适用于在处理个人数据时优惠商品或服务到欧盟境内个人、监控其行为或从其收集个人数据的所有企业（数据管理者），无论数据管理者的业务位置如何。
+[《通用数据保护条例》](https://www.adobe.com/cn/privacy/general-data-protection-regulation/what-is-gdpr.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。该法规还简化了国际业务的监管环境。该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
 
-Adobe Experience Cloud充当数据处理者，处理其接收的任何个人数据并代表其客户进行存储。 作为数据管理者，您可以决定Adobe Experience Cloud代表您处理和存储的个人数据。
+Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并存储的任何个人数据。作为数据控制者，您可以决定 Adobe Experience Cloud 代表您处理和存储的个人数据。
 
-本文档介 [!UICONTROL 绍客户属性] 如何使用Adobe Experience Platform隐私服务API和隐私服务UI支持数据主体的GDPR数据访问和删除权限。
+本文档介绍了[!UICONTROL 客户属性]如何使用 Adobe Experience Platform 隐私服务 API 和隐私服务 UI 支持数据主体的 GDPR 数据访问和删除权利。
 
-有关GDPR对您的业务意味着什么的更多信息，请 [参阅GDPR和您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)。
+有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)。
 
-## 发送客户属性请求所需 [!UICONTROL 的设置]
+## 发送[!UICONTROL 客户属性]请求所需的设置
 
-要请求访问和删除客户属 [!UICONTROL 性的数]据，您需要：
+要请求访问和删除[!UICONTROL 客户属性]的数据，您需要：
 
 1. 识别以下内容：
 
-   * IMS组织ID
-   * 要执行操作的CRS数据源的别名ID
-   * 要执行操作的用户档案的CRM ID
-   IMS组织ID是附加@AdobeOrg的24个字符的字母数字字符串。 如果您的营销团队或内部Adobe系统管理员不知道您组织的IMS组织ID，请通过gdprsupport@adobe.com与Adobe客户服务部门联系。 您需要IMS组织ID向隐私API提交请求。
+   * IMS 组织 ID
+   * 要执行操作的 CRS 数据源的别名 ID
+   * 要执行操作的配置文件的 CRM ID
+   IMS 组织 ID 是一个由 24 个字符组成的字母数字字符串，其后附加有 @AdobeOrg。如果您的营销团队或内部 Adobe 系统管理员不知道您组织的 IMS 组织 ID，请通过 gdprsupport@adobe.com 与 Adobe 客户关怀团队联系。您需要拥有 IMS 组织 ID 才能向隐私 API 提交请求。
 
-1. 在隐 [!UICONTROL 私服务]，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
+1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
 
-## 客户属性JSON请求 [!UICONTROL 中的必填] 字段值
+## [!UICONTROL 客户属性] JSON 请求中的必填字段值
 
-“公司上下文”:
+&quot;company context&quot;：
 
-* “命名空间”: **imsOrgID**
-* “值”: &lt;*您的IMS组织ID值*>
+* &quot;namespace&quot;：**imsOrgID**
+* &quot;value&quot;：&lt;*您的 IMS 组织 ID 值*>
 
-“用户”:
+&quot;users&quot;：
 
-* “键”: &lt;*通常是客户的名称*>
+* &quot;key&quot;：&lt;*通常是客户的名称*>
 
-* “操作”: 访 **问** 或删 **除**
+* &quot;action&quot;：**access** 或 **delete**
 
-* “用户ID”:
+* &quot;user IDs&quot;：
 
-   * “命名空间”: &lt;*CRS数据源的别名ID*>
+   * &quot;namespace&quot;：&lt;*CRS 数据源的别名 ID*>
 
-   * “类型”: **integrationCode**
+   * &quot;type&quot;：**integrationCode**
 
-   * “值”: &lt;*CRM ID*>
+   * &quot;value&quot;：&lt;*CRM ID*>
 
-* “include”: **CRS** （即适用于请求的Adobe产品）
+* &quot;include&quot;：**CRS**（即适用于该请求的 Adobe 产品）
 
-* “条例”: **gdpr** （适用于请求的隐私法规）
+* &quot;regulation&quot;：**gdpr**（即适用于该请求的隐私法规）
 
-## JSON请求示例
+## JSON 请求的示例
 
 ```
 {
@@ -96,7 +96,7 @@ Adobe Experience Cloud充当数据处理者，处理其接收的任何个人数�
 }
 ```
 
-## 为访问请求返回的数据字段
+## 针对访问请求返回的数据字段
 
 ```
 attributes:
