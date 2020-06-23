@@ -6,11 +6,11 @@ seo-title: 创建客户属性来源并上传数据文件
 solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 89%
 
 在数据源处于活动状态后，您可以：
 
-* [在Adobe Analytics中使用客户属性](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [在Adobe Target中使用客户属性](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [在 Adobe Analytics 中使用客户属性](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [在 Adobe Target 中使用客户属性](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 >[!IMPORTANT]
 >
->要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。添加到客户属性群组的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项。
 >
->要使用“客户属性”功能，用户还必须属于解决方案级组(Analytics或 [!DNL Target])。
+>要使用“客户属性”功能，用户还必须属于解决方案级别的群组（Analytics 或 [!DNL Target]）。
 
-See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+请参阅[管理 Experience Cloud 用户和产品](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
 
 ## 创建数据文件 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -156,7 +156,7 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
 ![步骤结果](assets/activate_attribute_source.png)
 
-## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## 在 Adobe Analytics 中使用客户属性 {#task_7EB0680540CE4B65911B2C779210915D}
 
 通过使用 
 <keyword>
@@ -167,14 +167,14 @@ Adobe Analytics
 
 ![](assets/08_crs_usecase.png)
 
-当您将区段发布到Experience Cloud时，Experience Cloud受众和Audience Manager中会提供该区段。
+在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
 有关更多信息，请参阅 Analytics 帮助中的[客户属性报表](https://docs.adobe.com/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)。
 
-## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可以在创建受众时从“访客配置文件”区域选择一个客户属性。All Customer Attributes will have the prefix [!DNL crs.] in the list. 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在 [!DNL Target] 中，您可以在创建受众时从“[!UICONTROL 访客配置文件]”区域选择一个客户属性。所有客户属性在列表中都将具有前缀 [!DNL crs.]。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的 [创建新受众](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/create-audiences/audiences.html)。
+请参阅 [!DNL Target] 帮助中的[创建新受众](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/create-audiences/audiences.html)。
