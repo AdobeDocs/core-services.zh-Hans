@@ -6,9 +6,9 @@ seo-title: Analytics Cookie
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics Cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 >[!NOTE]
 >
-> 如果使用单个 CNAME 跨多个域或属性进行跟踪，则应将 `s_vi` 的 SameSite 设置为“无”。要获取更改 Analytics Cookie 设置的帮助，请联系客户关怀。
+>如果使用单个 CNAME 跨多个域或属性进行跟踪，则应将 `s_vi` 的 SameSite 设置为“无”。要获取更改 Analytics Cookie 设置的帮助，请联系客户关怀。
 
 ## 插件设置的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
