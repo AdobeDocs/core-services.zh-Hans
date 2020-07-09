@@ -6,9 +6,9 @@ seo-title: 为核心服务启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -84,8 +84,6 @@ ht-degree: 100%
 [!UICONTROL Experience Cloud ID 服务]为跨解决方案集成提供了一个通用 ID。它提供了跨域访客标识功能，并为基于通过[!UICONTROL 客户属性]上传的 CRM 数据进行跨设备/浏览器定位和个性化提供了一种途径。
 
 启用 Experience Cloud 核心服务的最简单方法是，通过 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID 服务扩展](https://docs.adobe.com/content/help/zh-Hans/launch/using/implement/solutions/idservice-save.html)或者通过 [!UICONTROL Dynamic Tag Management] 中的 ECID 工具，为 Analytics 和 Adobe Target 自动激活核心服务。（强烈建议使用 Experience Platform Launch。）
-
-![](assets/menu-activation-shell.png)
 
 有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
@@ -187,20 +185,11 @@ mbox 请求中的 Experience Cloud ID：
 
 ### 客户属性
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
 添加到[!UICONTROL 客户属性]群组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单项。
 
 ## 步骤 8. 开始使用核心服务 {#section_960C06093623462E8EA247B3E97274A1}
 
 充分利用以下功能。
-
-![](assets/menu-audiences-shell.png)
 
 ### [!UICONTROL 人员] > [!UICONTROL 客户属性]
 
