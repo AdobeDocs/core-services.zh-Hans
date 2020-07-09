@@ -6,11 +6,11 @@ seo-title: 登录并管理配置文件设置
 solution: Experience Cloud
 title: 登录并管理 Experience Cloud 配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 97%
 
 ---
 
@@ -27,14 +27,11 @@ ht-degree: 100%
 
 登录并验证您是否处于正确的[组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)中。
 
-1. 单击 Experience Cloud 下拉菜单 (![](assets/menu-icon.png))，然后单击&#x200B;**[!UICONTROL 管理]**。
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   如果未显示&#x200B;**[!UICONTROL 管理]**&#x200B;链接，您便不是所显示[组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)（在此示例中为 Adobe Corp）的 Experience Cloud 管理员。有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). 有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
 1. 单击&#x200B;**[!UICONTROL 管理]**。
 
-   ![](assets/admin-landing.png)
 1. 单击以下链接之一，以便继续操作：
 
 | 元素 | 描述 |
