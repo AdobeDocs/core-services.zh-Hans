@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 第一方 Cookie
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ SSL 证书的颁发过程往往令人感到混乱和费时。为此，Adobe 与�
 
 为第一方 Cookie 实施新的第一方 SSL 证书时，建议使用 Adobe 管理的证书计划流程。
 
-通过Adobe托管证书项目，您可以免费为第一方Cookie实施新的第一方SSL证书（对于前100个CNAME）。 如果您目前拥有自己的客户管理的 SSL 证书，请联系 Adobe 客户关怀部门，以便将其迁移到 Adobe 管理的证书计划。
+Adobe 管理的证书计划允许您为第一方 Cookie 实施新的第一方 SSL 证书，而不需增加任何额外费用（适用于您的前 100 个 CNAME）。如果您目前拥有自己的客户管理的 SSL 证书，请联系 Adobe 客户关怀部门，以便将其迁移到 Adobe 管理的证书计划。
 
 ### 实施
 
@@ -72,7 +72,7 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 | 问题 | 回答 |
 |---|---|
 | **此过程是否安全？** | 是，Adobe 管理的证书计划较传统的方法更加安全，因为证书或私钥不会在 Adobe 和证书颁发机构的外部易手。 |
-| **Adobe 如何为我们的域购买证书？** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. 这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
+| **Adobe 如何为我们的域购买证书？** | 仅当您将指定的主机名（例如 `smetrics.example.com`）指向 Adobe 拥有的主机名时，Adobe 才能为您购买证书。这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
 | **我是否可以请求吊销证书？** | 是，作为域所有者，您有权请求我们吊销证书。您只需通过客户关怀部门开立一个票证，即可完成此项操作。 |
 | **此证书是否使用 SHA-2 加密？** | 是，Adobe 将与 DigicerT 一起颁发 SHA-2 证书。 |
 | **这会产生任何额外费用吗？** | 不会，Adobe 可以向当前所有 Adobe Digital Experience 客户提供此服务，不会产生任何额外费用。 |
