@@ -5,9 +5,9 @@ seo-title: 资产
 solution: Experience Cloud
 title: 资产
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -94,6 +94,6 @@ Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型
 
 可以查看用户数量、已用存储空间，以及资产总计等信息。
 
-单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 报表]****[!UICONTROL > 使用情况报表]**
+单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 报表]** > **[!UICONTROL 使用情况报表]**
 
 ![](assets/assets-usage-report.png)
