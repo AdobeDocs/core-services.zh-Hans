@@ -5,11 +5,11 @@ seo-title: Experience Cloud 核心服务和用户管理
 solution: Experience Cloud
 title: 关于 Experience Cloud 核心服务
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 Adobe Experience Cloud 服务包括[!UICONTROL 人员]（受众和客户属性）、选件、Experience Platform Launch 和 Mobile Services。您还可以在 Experience Cloud 中访问有关用户和产品管理的帮助。
 
-To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
+要在 Experience Cloud 中访问这些服务，请单击&#x200B;**[!UICONTROL 应用程序选择器]** ![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
