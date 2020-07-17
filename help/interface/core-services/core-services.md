@@ -2,31 +2,33 @@
 description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
 keywords: core services;Customer Attributes
 seo-description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
-seo-title: 为核心服务启用 Experience Cloud 解决方案
+seo-title: 为客户属性和Experience Cloud启用受众解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2402'
+ht-degree: 96%
 
 ---
 
 
-# 为核心服务启用解决方案
+# 实现跨解决方案服务的实施
 
-对于现有客户，了解如何使解决方案实施符合现代化要求和如何实施 Experience Cloud，以便能够使用客户属性和受众等功能。为此，您将执行以下操作：
+如果您最近使用Experience Cloud实施了Experience Platform Launch，则已经为客户属性和Experience Cloud受众设置了。 您还可以在Admin Console中管理用户和产品。
+
+对于现有客户，您可能需要使解决方案实施现代化并实施Experience Cloud。 这样，您就可以在AdobeAnalytics、Audience Manager和Adobe Target中利用客户属性和受众功能。 为此，您将执行以下操作：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [将报表包映射到 Experience Cloud 组织](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [更新 Analytics AppMeasurement 代码](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [更新 Adobe Target 实施](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [验证核心服务实施](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [验证实施](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [管理用户和产品](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [开始使用核心服务](#section_960C06093623462E8EA247B3E97274A1)
+1. [开始共享属性和受众数据](#section_960C06093623462E8EA247B3E97274A1)
 
 ## 步骤 1. 加入 Experience Cloud 并成为管理员 {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ mbox 请求中的 Experience Cloud ID：
 
 添加到[!UICONTROL 客户属性]群组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单项。
 
-## 步骤 8. 开始使用核心服务 {#section_960C06093623462E8EA247B3E97274A1}
+## 步骤 8. 开始共享属性和受众数据 {#section_960C06093623462E8EA247B3E97274A1}
 
 充分利用以下功能。
 
