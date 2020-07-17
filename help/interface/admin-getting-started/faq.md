@@ -2,15 +2,15 @@
 description: Experience Cloud 中与管理员有关的常见问题及解答。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Experience Cloud 中与管理员有关的常见问题及解答。
-seo-title: 关于 Experience Cloud 核心服务的常见问题解答。
+seo-title: 关于Experience Cloud核心服务的常见问题解答。
 solution: Adobe Experience Cloud
 title: 常见问题解答
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 中与管理员有关的常见问题及解答。
 1. [将报表包映射到 Experience Cloud 组织](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Adobe Target）使您的 Adobe Target 实施符合现代化要求](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [验证核心服务实施](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [验证实施](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [管理用户和产品](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [开始使用核心服务](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
