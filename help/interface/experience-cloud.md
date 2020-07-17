@@ -6,22 +6,42 @@ seo-title: Adobe Experience Cloud 和核心服务帮助和产品文档。
 solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Experience Cloud 界面产品文档
 
+Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
+
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-本页提供了 Adobe Experience Cloud 解决方案和服务的自助资源、支持以及技术文档和产品文档。Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
+本页提供对以下功能和服务的产品文档的访问：
 
-## 您想了解哪些内容？
+* [受众库](audience-library/audience-library.md)
+* [客户属性](attributes/attributes.md)
+* [触发器](activation/triggers.md)
+* [Experience Cloud 资产](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud Cookie](cookies/cookies-privacy.md)
+
+## 用户和产品管理
+
+* [用户和产品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
+* [为核心服务启用解决方案](core-services/core-services.md)
+* [常见问题解答](admin-getting-started/admin-getting-started.md)
+* [组织和帐户关联](admin-getting-started/organizations.md)
+* [集成](marketing-cloud-integrations.md)
+* [将 Adobe Target 与 Experience Cloud 集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
+* [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Adobe Experience Cloud 中的配置文件管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（博客）
+* [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+
+## 相关Experience Cloud帮助
 
 * [所有 Experience Cloud 解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) - 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud 的新增功能，订阅可获取更新
@@ -45,14 +65,4 @@ ht-degree: 100%
 * [Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)
 * [《通用数据保护条例》(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-## 管理和启用
 
-* [用户和产品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [为核心服务启用解决方案](core-services/core-services.md)
-* [常见问题解答](admin-getting-started/admin-getting-started.md)
-* [组织和帐户关联](admin-getting-started/organizations.md)
-* [集成](marketing-cloud-integrations.md)
-* [将 Adobe Target 与 Experience Cloud 集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud 中的配置文件管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（博客）
-* [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
