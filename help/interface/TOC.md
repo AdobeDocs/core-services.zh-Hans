@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 # Experience Cloud interface help {#interface}
 
 + [Experience Cloud 和产品文档](experience-cloud.md)
-+ Experience Cloud 中的核心服务 {#about-core-services}
-   + [核心服务概述](core-services-landing.md)
-   + [为核心服务启用解决方案](core-services/core-services.md)
++ Application services in Experience Cloud {#about-core-services}
+   + [应用程序服务概述](core-services-landing.md)
+   + [实现跨解决方案服务的实施](core-services/core-services.md)
    + [将报表包映射到组织](core-services/report-suite-mapping.md)
    + [关于 Experience Cloud 中的新云名称](solutions-core-services.md)
 + [Experience Cloud 集成](marketing-cloud-integrations.md)
