@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud 和核心服务帮助和产品文档。
 solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '405'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-本页提供对以下功能和服务的产品文档的访问：
+本页提供对有关以下功能和服务的产品文档的访问权限：
 
 * [受众库](audience-library/audience-library.md)
 * [客户属性](attributes/attributes.md)
@@ -41,7 +41,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [Adobe Experience Cloud 中的配置文件管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（博客）
 * [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## 相关Experience Cloud帮助
+## 相关的 Experience Cloud 帮助
 
 * [所有 Experience Cloud 解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) - 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud 的新增功能，订阅可获取更新
