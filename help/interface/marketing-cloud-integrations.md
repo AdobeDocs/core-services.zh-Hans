@@ -6,11 +6,11 @@ seo-title: Experience Cloud 集成
 solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1521'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud 是一套业内最佳的综合性集成解决方案，它
 
 解决方案或服务：
 
-* 激活-Experience Platform Launch（推荐）或动态标签管理
+* 激活 - Experience Platform Launch（推荐）或 Dynamic Tag Management
 * Analytics
 * Target
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
@@ -42,7 +42,7 @@ Adobe Experience Cloud 是一套业内最佳的综合性集成解决方案，它
 
 ID 服务提供了一个通用的永久性 ID，用于在 Experience Cloud 的所有解决方案中标识您的访客。它可以取代各种服务（如 Analytics、Audience Manager、Adobe Target、视频心率）以及其他 Experience Cloud 解决方案或功能的 ID 生成代码。
 
-See [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
+请参阅 [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
 
 **适用的解决方案或服务**
 
@@ -182,7 +182,7 @@ See [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hans/id
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+帮助（需要登录）：[与 Adobe Experience Cloud 解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **适用的解决方案或服务**
 
