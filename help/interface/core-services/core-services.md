@@ -19,7 +19,7 @@ ht-degree: 96%
 
 如果您最近使用Experience Cloud实施了Experience Platform Launch，则已经为客户属性和Experience Cloud受众设置了。 您还可以在Admin Console中管理用户和产品。
 
-对于现有客户，您可能需要使解决方案实施现代化并实施Experience Cloud。 这样，您就可以在AdobeAnalytics、Audience Manager和Adobe Target中利用客户属性和受众功能。 为此，您将执行以下操作：
+对于现有客户，您可能需要使解决方案实施现代化并实施Experience Cloud。 这样，您就可以在Adobe Analytics、Audience Manager和Adobe Target中利用客户属性和客户功能。 为此，您将执行以下操作：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
