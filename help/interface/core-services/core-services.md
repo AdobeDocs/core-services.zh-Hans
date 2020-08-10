@@ -2,24 +2,24 @@
 description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
 keywords: core services;Customer Attributes
 seo-description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
-seo-title: 为客户属性和Experience Cloud启用受众解决方案
+seo-title: 为客户属性和受众功能启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 实现跨解决方案服务的实施
+# 实施跨解决方案的服务
 
-如果您最近使用Experience Cloud实施了Experience Platform Launch，则已经为客户属性和Experience Cloud受众设置了。 您还可以在Admin Console中管理用户和产品。
+如果您最近通过 Experience Platform Launch 实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
-对于现有客户，您可能需要使解决方案实施现代化并实施Experience Cloud。 这样，您就可以在Adobe Analytics、Audience Manager和Adobe Target中利用客户属性和客户功能。 为此，您将执行以下操作：
+对于现有客户，您可能需要以更符合现代化的要求来实施解决方案，并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中利用客户属性和受众功能。为此，您将执行以下操作：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
