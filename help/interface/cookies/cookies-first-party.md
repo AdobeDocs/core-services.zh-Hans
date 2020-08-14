@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: 第一方 Cookie
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
->[!N注意：]
+>[!NOTE]
 >
 >Experience Cloud 访客 ID 服务提供了配置 CNAME 以启用第一方 Cookie 的替代方法，但由于最近 Apple ITP 发生了更改，因此即便使用 Experience Cloud ID 服务，也建议分配 CNAME。
 
@@ -104,7 +104,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 `https://sstats.adobe.com/_check`
 
->[!N注意：]
+>[!NOTE]
 >
 >如果未安装证书，您将会看到安全警告。
 
