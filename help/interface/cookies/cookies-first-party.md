@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 第一方 Cookie
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
 ht-degree: 100%
 
@@ -159,6 +159,6 @@ Address: 54.187.216.46
 
 1. 如果您从一个长期存在的实施移至第一方 Cookie，或更改为其他第一方收集主机名，我们建议您将访客从先前的域迁移至新域。
 
-请参阅“Analytics 实施指南”中的[访客迁移](https://docs.adobe.com/help/zh-Hans/analytics/implementation/javascript-implementation/visitor-migration.html)。
+请参阅“Analytics 实施指南”中的[访客迁移](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html)。
 
 在上传了该 JavaScript 文件后，将针对第一方 Cookie 数据收集完成所有相应的配置。我们建议您在接下来的几个小时监控 Analytics 报告，以确保数据收集持续正常进行。如果未能正常进行数据收集，请验证上述所有步骤是否已经完成，并安排贵组织的一名受支持用户联系客户关怀部门。
