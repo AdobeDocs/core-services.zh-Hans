@@ -1,23 +1,23 @@
 ---
-description: 了解 Experience Cloud 管理工具，以查看所有 Experience Cloud 用户的可排序和可过滤列表。
+description: 了解Experience Cloud管理工具，以视图所有Experience Cloud用户和策略的可排序和可过滤的列表。
 keywords: core services
-seo-description: 了解 Experience Cloud 管理工具，以查看所有 Experience Cloud 用户的可排序和可过滤列表。
+seo-description: 了解Experience Cloud管理工具，以视图所有Experience Cloud用户和策略的可排序和可过滤的列表。
 seo-title: 查看 Experience Cloud 用户和用户详细信息
 solution: Experience Cloud
 title: '查看 Experience Cloud 用户和用户详细信息 '
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 54%
 
 ---
 
 
-# 在“管理工具”中查看 Experience Cloud 用户
+# 视图Experience Cloud工具中的用户和策略
 
-管理员可以在“管理工具”中查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。（**注意：**&#x200B;应在 [Admin Console](admin-getting-started.md) 中配置用户和产品管理。）
+管理员可以使用管理工具中的详细信息视图所有Experience Cloud用户和策略的可排序和可过滤的列表。 用户详细信息包括用户的产品访问、角色和上次访问信息。 策略详细信息包括策略的(产品用户档案)用户、组、开发人员、集成和管理列表，以及策略的详细权限和资源信息。 (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
 
 1. 登录 `https://experience.adobe.com/.`
 
@@ -92,3 +92,63 @@ ht-degree: 100%
 | [!UICONTROL 产品配置文件] | 产品配置文件的唯一名称。 |
 | [!UICONTROL 按组分配] | 将用户关联到产品配置文件的用户组的名称。空白结果表示未通过组直接将用户分配到产品配置文件。 |
 | [!UICONTROL 产品角色] | 产品配置文件中用户的角色分配。目前，此信息仅适用于 Adobe Target 产品配置文件。 |
+
+## 策略页
+
+此页显示组织中Experience Cloud策略的完整列表。 它提供有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和筛选策略视图的自定义列表。
+
+| 元素 | 描述 |
+|---|---|
+| [!UICONTROL 产品配置文件] | 产品用户档案的名称。 列可以按A->Z、Z->A排序。单击产品用户档案的名称可查看有关策略的更多详细信息。 |
+| [!UICONTROL 产品] | 与产品用户档案关联的产品。 此列可以按 A->Z、Z->A 进行排序。 |
+| [!UICONTROL 实例] | 与产品公司关联的实例(例如租户或登录用户档案)。 没有唯一实例或租户的产品将显示“ - ”作为值。 此列可以按 A->Z、Z->A 进行排序。 |
+| [!UICONTROL 用户数] | 与产品用户档案关联的唯一用户计数，包括直接分配和组分配。 列可以按最小到最大或最大到最小的顺序排序。 |
+| [!UICONTROL 开发者数量] | 与产品用户档案关联的开发人员角色计数。 列可以按最小到最大或最大到最小的顺序排序。 |
+
+## 自定义策略列表视图
+
+您可以搜索、排序或筛选列以自定义策略列表。
+
+* 按名称搜索产品用户档案。 搜索与您键入的文本字符串匹配。
+* 按升序或降序值对列排序。这适用于产 [!UICONTROL 品用户档案、] 产 [!UICONTROL 品、] 实 [!UICONTROL 例、用] 户数、 [!UICONTROL 、开] 发者数量、列。
+* Click the **[!UICONTROL Filter By]** icon to apply multiple filters to list product profiles with specific criteria. 应用多个筛选类别时，搜索包含与组关联的实 `AND` 例解决 `AND` 方案。
+
+| 元素 | 描述 |
+|---------|----------|
+| [!UICONTROL 实例筛选] | 在实例列中搜索字符串，将结果缩小为一个或多个实例。 在每个搜索词后按 Enter 键可添加多个过滤器. |
+| [!UICONTROL 解决方案]过滤器 | 从可用的解决方案中进行选择。多个解决方案过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
+
+## 视图策略详细信息
+
+在“策 [!UICONTROL 略] ”页面上，要视图策略的详细信息，请单击产品用户档案名称。
+
+每个产品用户档案的详细视图会显示有关产品用户档案的主题（用户、组等）以及产品用户档案启用的权限和资源的重要详细信息。  产品用户档案的详细信息可导出为CSV文件。  导 [!UICONTROL 出CSV] 选项将生成2个CSV文件：主题详细信息（用户、用户组、开发人员、集成、管理员）以及权限和资源项。
+
+## 摘要部分
+
+此部分显示产品用户档案的摘要，包括：
+
+* 产品用户档案名称
+* 用户数
+* 开发者数量
+* 集成数
+* 产品关联
+* 实例
+
+
+## 详细主题列表
+
+此部分显示分配给产品列表的所有用户、用户组、开发人员、集成和管理员的完整用户档案。
+
+| 制表符 | 描述 |
+|---------|----------|
+| [!UICONTROL 用户] | 产品列表中包含的用户用户档案。 用户组关联将显示在“按 [!UICONTROL 用户组分配] ”列中。 |
+| [!UICONTROL 用户组] | 与产品列表关联的用户组用户档案。 |
+| [!UICONTROL 开发人员] | 与产品用户档案关联的开发人员的列表。 |
+| [!UICONTROL 集成] | 与产品列表关联的集成用户档案。 |
+| [!UICONTROL 管理员] | 与产品用户档案关联的管理员列表。 |
+
+## 详细权限和资源列表
+
+此部分显示产品列表可用的权限和资源的完整用户档案。 产品用户档案中包含的权限和资源已标记为“✔”。  列表权限和资源已分为选项卡和列，以便更轻松地查看。  选项卡和列显示应用于当前产品的章节的列表。
+
