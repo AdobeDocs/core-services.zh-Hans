@@ -6,11 +6,11 @@ seo-title: 发行说明汇总
 solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: ht
-source-wordcount: '3929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+workflow-type: tm+mt
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
+## 2020年8月至8月
+
+| 功能 | 描述 |
+| -----------| ---------- |
+| 管理工具——策略 | 此页显示组织中Experience Cloud策略的完整列表。 它提供有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和筛选策略视图的自定义列表。 有关详细信息，请参阅 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)。 |
+
 ## 4 月版 - 2020 年
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
@@ -32,7 +38,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
+| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)。 |
 
 **修复**
 
