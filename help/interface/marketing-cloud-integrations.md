@@ -6,11 +6,11 @@ seo-title: Experience Cloud 集成
 solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '1521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ ID 服务提供了一个通用的永久性 ID，用于在 Experience Cloud 的�
 
 使用 Experience Cloud 激活解决方案来设置和调试您的 Experience Cloud 解决方案。
 
-1. 使用 [Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) 或 [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html) 插入可在您的页面上激活 [Adobe Experience Cloud 解决方案](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)的代码。
+1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
 1. 使用 [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/en/auditor/using/overview.html) 对您的实施进行测试。
 
 使用 Adobe Experience Cloud Debugger 扩展来调试 Auditor 发现的问题或检查有关您实施的其他信息。
