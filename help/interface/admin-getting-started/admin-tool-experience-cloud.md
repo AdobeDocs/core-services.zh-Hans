@@ -7,23 +7,27 @@ solution: Experience Cloud
 title: '查看 Experience Cloud 用户和用户详细信息 '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 
 # 视图Experience Cloud工具中的用户和策略
 
-管理员可以使用管理工具中的详细信息视图所有Experience Cloud用户和策略的可排序和可过滤的列表。 用户详细信息包括用户的产品访问、角色和上次访问信息。 策略详细信息包括策略的(产品用户档案)用户、组、开发人员、集成和管理列表，以及策略的详细权限和资源信息。 (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
+管理员可以使用管理工具中的详细信息视图所有Experience Cloud用户和策略的可排序和可过滤的列表。 用户详细信息包括用户的产品访问、角色和上次访问信息。 策略详细信息包括策略的(产品用户档案)用户、组、开发人员、集成和管理列表，以及策略的详细权限和资源信息。
+
+>[!NOTE]
+>
+>User and product management is configured in the [Admin Console](admin-getting-started.md).
 
 1. 登录 `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在 Experience Cloud 主页上，单击&#x200B;**[!UICONTROL 管理工具]**。
+1. 在“快 [!UICONTROL 速访问]”下，单 **[!UICONTROL 击“管理工具”。]**
 
    （或者，在主页 URL 中，您可以将 _home_ 替换为 _admin_。）
 
@@ -65,7 +69,7 @@ ht-degree: 54%
 
 每个用户的详细视图将显示有关用户的解决方案访问权限、管理员和产品角色以及上次访问信息的重要详细信息。
 
-## “关于”部分
+## 关于部分
 
 此部分显示用户帐户的摘要，包括：
 
@@ -97,6 +101,8 @@ ht-degree: 54%
 
 此页显示组织中Experience Cloud策略的完整列表。 它提供有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和筛选策略视图的自定义列表。
 
+![](assets/admin-tool-policies.png)
+
 | 元素 | 描述 |
 |---|---|
 | [!UICONTROL 产品配置文件] | 产品用户档案的名称。 列可以按A->Z、Z->A排序。单击产品用户档案的名称可查看有关策略的更多详细信息。 |
@@ -122,7 +128,14 @@ ht-degree: 54%
 
 在“策 [!UICONTROL 略] ”页面上，要视图策略的详细信息，请单击产品用户档案名称。
 
-每个产品用户档案的详细视图会显示有关产品用户档案的主题（用户、组等）以及产品用户档案启用的权限和资源的重要详细信息。  产品用户档案的详细信息可导出为CSV文件。  导 [!UICONTROL 出CSV] 选项将生成2个CSV文件：主题详细信息（用户、用户组、开发人员、集成、管理员）以及权限和资源项。
+![](assets/admin-tool-policy-detail.png)
+
+每个产品用户档案的详细视图会显示有关产品用户档案的主题（用户、组等）的重要详细信息。 它还显示产品用户档案启用的权限和资源。
+
+产品用户档案的详细信息可导出为CSV文件。 “导 [!UICONTROL 出CSV] ”选项会生成两个CSV文件：
+
+* 主题详细信息（用户、用户组、开发人员、集成、管理员）
+* 权限和资源项目
 
 ## 摘要部分
 
@@ -134,7 +147,6 @@ ht-degree: 54%
 * 集成数
 * 产品关联
 * 实例
-
 
 ## 详细主题列表
 
@@ -150,5 +162,4 @@ ht-degree: 54%
 
 ## 详细权限和资源列表
 
-此部分显示产品列表可用的权限和资源的完整用户档案。 产品用户档案中包含的权限和资源已标记为“✔”。  列表权限和资源已分为选项卡和列，以便更轻松地查看。  选项卡和列显示应用于当前产品的章节的列表。
-
+此部分显示产品列表可用的权限和资源的完整用户档案。 产品用户档案中包含的权限和资源已标记为“✔”。 列表权限和资源已分为选项卡和列，以便更轻松地查看。 选项卡和列显示应用于当前产品的章节的列表。
