@@ -6,9 +6,9 @@ seo-title: 管理 Experience Cloud 用户和产品
 solution: Experience Cloud
 title: 管理 Experience Cloud 用户和产品
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 在 Adobe Target 中，工作区就是产品配置文件。它允许组织为一组特定用户分配一组特定属性。在很多方面，工作区与 Adobe Analytics 中的报表包类似。
 
 请参阅：
+
 * [企业用户权限](https://docs.adobe.com/content/help/zh-Hans/target/using/administer/manage-users/enterprise/property-channel.html)
 * [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)
 * 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/cn/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
