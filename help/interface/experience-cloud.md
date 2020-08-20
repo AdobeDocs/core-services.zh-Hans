@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud 和核心服务帮助和产品文档。
 solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 99%
 
 ---
 
 
-# Experience Cloud 界面产品文档
+# Experience Cloud 界面文档
 
 Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
 
@@ -23,9 +23,9 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 本页提供对有关以下功能和服务的产品文档的访问权限：
 
-* [受众库](audience-library/audience-library.md)
-* [客户属性](attributes/attributes.md)
-* [触发器](activation/triggers.md)
+* [[!UICONTROL 受众库]](audience-library/audience-library.md)
+* [[!UICONTROL 客户属性]](attributes/attributes.md)
+* [[!UICONTROL 触发器]](activation/triggers.md)
 * [Experience Cloud 资产](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
 
@@ -51,10 +51,10 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [客户体验博客](https://theblog.adobe.com/customer-experience/) - 阅读 Experience Cloud 博客
 * [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) - 联系 Adobe 客户关怀部门
 
-## Experience Platform 产品文档
+## Experience Platform 文档
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
-* [受众](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
+* [[!UICONTROL 受众]](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
 * [资产](experience-cloud-assets/experience-cloud-assets.md)
 * [客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
