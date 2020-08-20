@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [[!UICONTROL 受众库]](audience-library/audience-library.md)
 * [[!UICONTROL 客户属性]](attributes/attributes.md)
 * [[!UICONTROL 触发器]](activation/triggers.md)
-* [Experience Cloud 资产](experience-cloud-assets/experience-cloud-assets.md)
+* [[!UICONTROL Experience Cloud 资产]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
 
 ## 用户和产品管理
@@ -37,8 +37,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [组织和帐户关联](admin-getting-started/organizations.md)
 * [集成](marketing-cloud-integrations.md)
 * [将 Adobe Target 与 Experience Cloud 集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud 中的配置文件管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)（博客）
+* [Experience Cloud隐私和安全概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 相关的 Experience Cloud 帮助
@@ -55,14 +54,11 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
 * [[!UICONTROL 受众]](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)
-* [资产](experience-cloud-assets/experience-cloud-assets.md)
-* [客户属性](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)
+* [[!UICONTROL 客户属性]](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
-* [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)
 * [《通用数据保护条例》(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-
-
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
