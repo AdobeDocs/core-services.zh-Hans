@@ -6,11 +6,11 @@ seo-title: 查看 Experience Cloud 用户和用户详细信息
 solution: Experience Cloud
 title: '查看 Experience Cloud 用户和用户详细信息 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->User and product management is configured in the [Admin Console](admin-getting-started.md).
+>应在 [Admin Console](admin-getting-started.md) 中配置用户和产品管理。
 
 1. 登录 `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在“快 [!UICONTROL 速访问]”下，单 **[!UICONTROL 击“管理工具”。]**
+1. 在[!UICONTROL 快速访问]下，单击&#x200B;**[!UICONTROL 管理工具]**。
 
    （或者，在主页 URL 中，您可以将 _home_ 替换为 _admin_。）
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 每个用户的详细视图将显示有关用户的解决方案访问权限、管理员和产品角色以及上次访问信息的重要详细信息。
 
-## 关于部分
+## “关于”部分
 
 此部分显示用户帐户的摘要，包括：
 
@@ -130,14 +130,14 @@ ht-degree: 93%
 
 ![](assets/admin-tool-policy-detail.png)
 
-每个产品用户档案的详细视图会显示有关产品用户档案的主题（用户、组等）的重要详细信息。 它还显示产品用户档案启用的权限和资源。
+每个产品配置文件的详细视图会显示有关产品配置文件主体（用户、组等）的重要详细信息。它还会显示产品配置文件启用的权限和资源。
 
-产品配置文件的详细信息可导出为 CSV 文件。“导 [!UICONTROL 出CSV] ”选项会生成两个CSV文件：
+产品配置文件的详细信息可导出为 CSV 文件。[!UICONTROL 导出 CSV] 选项会生成两个 CSV 文件：
 
-* 主题详细信息（用户、用户组、开发人员、集成、管理员）
-* 权限和资源项目
+* 主体详细信息（用户、用户组、开发人员、集成、管理员）
+* 权限和资源项
 
-## 摘要部分
+## “摘要”部分
 
 此部分显示产品配置文件的摘要，包括：
 
@@ -148,7 +148,7 @@ ht-degree: 93%
 * 关联的产品
 * 实例
 
-## 详细主题列表
+## 详细的主体列表
 
 此部分显示分配给产品配置文件的所有用户、用户组、开发人员、集成和管理员的完整列表。
 
@@ -160,6 +160,6 @@ ht-degree: 93%
 | [!UICONTROL 集成] | 与产品配置文件关联的集成列表。 |
 | [!UICONTROL 管理员] | 与产品配置文件关联的管理员列表。 |
 
-## 详细权限和资源列表
+## 详细的权限和资源列表
 
 此部分显示产品配置文件可用的权限和资源的完整列表。产品配置文件中包含的权限和资源已标记“✔”。权限和资源列表已分类为不同的选项卡和列，以便更轻松地查看。选项卡和列显示应用于当前产品的各个部分的列表。
