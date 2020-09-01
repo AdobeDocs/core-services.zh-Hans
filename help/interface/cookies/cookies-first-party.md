@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 第一方 Cookie
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 ### 使用 [!DNL curl] 进行验证
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. （[!DNL Windows] 用户可以从以下位置安装 [!DNL curl]：<https://curl.haxx.se/windows/>）
+Adobe 建议从命令行中使用 [[!DNL curl]](https://curl.haxx.se/)。（[!DNL Windows] 用户可以从以下位置安装 [!DNL curl]：<https://curl.haxx.se/windows/>）
 
 如果您有 CNAME，但未安装证书，请运行：
 `curl -k https://sstats.adobe.com/_check`
