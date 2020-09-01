@@ -6,11 +6,11 @@ seo-title: 发行说明汇总
 solution: Experience Cloud
 title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
-## 2020年8月至8月
+## 8 月版 - 2020 年
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具——策略 | 此页显示组织中Experience Cloud策略的完整列表。 它提供有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和筛选策略视图的自定义列表。 有关详细信息，请参阅 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)。 |
+| 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。有关详细信息，请参阅 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)帮助。 |
 
 ## 4 月版 - 2020 年
 
@@ -108,8 +108,8 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud 资产改进 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud 资产中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud 资产可利用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col1"> <p>Experience Cloud Assets 改进 </p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud Assets 可利用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户关联改进 </p> </td> 
@@ -311,13 +311,13 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 **修复**
 
 * 修复了 PNG 文件无法在信息卡中呈现的问题。
-* 修复了通过执行拖放操作将文件上传到 Experience Cloud 资产时出现的问题。
+* 修复了通过执行拖放操作将文件上传到 Experience Cloud Assets 时出现的问题。
 
 **已知问题**
 
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
-* 某些用户在将大文件类型上传到 Experience Cloud 资产时可能会遇到问题。
+* 某些用户在将大文件类型上传到 Experience Cloud Assets 时可能会遇到问题。
 * 用户可能无法从 Media Optimizer 中看到他们 Experience Cloud 信息卡上的链接。
 * 某些管理用户在接受加入 Experience Cloud 的邀请后关联其帐户时可能会遇到问题。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面性能可能会降低。
@@ -533,7 +533,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 * 将自定义标签添加到资产后，不会保留任何其他元数据更改。
 * 删除图像时，如果该图像同时被 Adobe Target Essentials 使用，则资产不会发出警告。
 * 当多个用户同时使用 [!UICONTROL Experience Cloud] 界面时，该界面性能会降低。
-* 删除 [!UICONTROL Experience Cloud 资产]中的图像时，如果该图像同时被 [!DNL Adobe Target Essentials] 使用，则不会发出警告。
+* 删除 [!UICONTROL Experience Cloud Assets] 中的图像时，如果该图像同时被 [!DNL Adobe Target Essentials] 使用，则不会发出警告。
 * 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]**，则用户将在 15 分钟后被注销。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
 * 登录到 [!DNL Experience Cloud] 需要花费超过一秒钟的时间。
@@ -600,7 +600,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **已知问题**
 
-* 删除 Experience Cloud 资产中的图像时，如果该图像同时被 Adobe Target Essentials 使用，则不会发出警告。
+* 删除 Experience Cloud Assets 中的图像时，如果该图像同时被 Adobe Target Essentials 使用，则不会发出警告。
 * 在 [!DNL Analytics] 中刷新信息卡有时会导致扩展信息卡中出现空图表。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
 * 如果未在登录期间选择 *`Remember me`*，则用户将在 15 分钟后被注销。
