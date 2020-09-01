@@ -4,11 +4,11 @@ user-guide-title: Experience Cloud 界面用户指南
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 98%
    + [升级到 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 激活 {#activation}
    + [激活概述](activation/activation.md)
-   + [Experience Platform Launch用户指南](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)
+   + [Experience Platform Launch 用户指南](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)
    + [Dynamic Tag Manager 用户指南](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
    + [触发器](activation/triggers.md)
-+ Experience Cloud 资产 {#assets}
-   + [Experience Cloud 资产概述](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud Assets {#assets}
+   + [Experience Cloud Assets 概述](experience-cloud-assets/experience-cloud-assets.md)
    + [与 Creative Cloud 共享 Experience Cloud 文件夹和资产](experience-cloud-assets/creative-cloud.md)
    + [管理 Creative Cloud 用户](experience-cloud-assets/t-admin-add-cc-user.md)
    + [共享 Experience Cloud 资产文件夹](experience-cloud-assets/t-share-creative-cloud.md)
