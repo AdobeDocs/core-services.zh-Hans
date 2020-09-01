@@ -6,11 +6,11 @@ seo-title: Experience Cloud 集成
 solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ID 服务提供了一个通用的永久性 ID，用于在 Experience Cloud 的�
 * Adobe Analytics：[客户属性报表](https://docs.adobe.com/content/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
 * Adobe Target：配置 Adobe Target 的客户属性[订阅](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/customer-attributes/subscription.html)
 
-## Experience Cloud 资产 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
+## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 帮助：[与 Creative Cloud 共享 Experience Cloud 文件夹](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/assets/creative-cloud.html)
 
@@ -119,7 +119,7 @@ ID 服务提供了一个通用的永久性 ID，用于在 Experience Cloud 的�
 
 使用 Experience Cloud 激活解决方案来设置和调试您的 Experience Cloud 解决方案。
 
-1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. 使用 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) 或 [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html) 插入可在您的页面上激活 [Adobe Experience Cloud 解决方案](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)的代码。
 1. 使用 [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/en/auditor/using/overview.html) 对您的实施进行测试。
 
 使用 Adobe Experience Cloud Debugger 扩展来调试 Auditor 发现的问题或检查有关您实施的其他信息。
@@ -192,6 +192,6 @@ ID 服务提供了一个通用的永久性 ID，用于在 Experience Cloud 的�
 
 **Experience Cloud 受众：**（具有显示管理需求的广告商）您可以将任何 [Adobe Experience Cloud 受众](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/audiences/audience-library.html)用作显示广告的目标。您可以自动使用在 Adobe Experience Cloud 中创建的受众以及 Analytics 中已发布到 Adobe Experience Cloud 的受众，并且在将 Media Optimizer 帐户配置为允许后，您可以从 Audience Manager 中使用受众。请联系您的客户经理，以获取有关访问 Adobe Experience Cloud 和“配置文件与受众”的信息，以及有关 Media Optimizer 和 Adobe Experience Cloud 受众之间初始设置的更多信息。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
 
-**Experience Cloud 资产：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资产用作显示广告的创意。您必须[通过 Adobe Experience Cloud 登录 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm) 才能访问您的 Adobe Experience Cloud 资产。有关访问 Adobe Experience Cloud 的信息，请联系您的帐户管理员。
+**Experience Cloud Assets：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资产用作显示广告的创意。您必须[通过 Adobe Experience Cloud 登录 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm) 才能访问您的 Adobe Experience Cloud Assets。有关访问 Adobe Experience Cloud 的信息，请联系您的帐户管理员。
 
 **Experience Cloud 通知：**&#x200B;通过每个页面顶部的通知链接，可以查看从测试版搜索警告模板生成的所有警告，以及 Adobe Experience Cloud 系统更新、帖子、提及次数和共享资产。您必须[通过 Adobe Experience Cloud 登录 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm) 才能访问您的通知。有关访问 Adobe Experience Cloud 的信息，请联系您的帐户管理员。
