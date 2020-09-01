@@ -6,11 +6,11 @@ seo-title: 文档更新 - Experience Cloud
 solution: Experience Cloud
 title: 文档更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 **更新日期：2020 年 8 月 19 日**
 
-更新 [了视图Experience Cloud用户详细信息(管理工具](admin-getting-started/admin-tool-experience-cloud.md) )以及策略信息。
+更新了[查看 Experience Cloud 用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)以及策略信息。
 
 **更新日期：2020 年 5 月 19 日**
 
@@ -84,7 +84,7 @@ ht-degree: 95%
 
 **更新日期：2016 年 2 月 11 日**
 
-添加了 [Experience Cloud 资产](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)。
+添加了 [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)。
 
 **更新日期：2015 年 3 月 2 日**
 
