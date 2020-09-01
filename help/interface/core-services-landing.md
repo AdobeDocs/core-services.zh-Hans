@@ -5,11 +5,11 @@ seo-title: Experience Cloud 核心服务和用户管理
 solution: Experience Cloud
 title: 关于 Experience Cloud 核心服务
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud 服务包括[!UICONTROL 人员]（受众和客户属性�
 | [激活](activation/activation.md) | 标签管理系统（Experience Platform Launch 和 Dynamic Tag Management）。<br>通过触发器，您可以根据 Adobe Analytics 提供的分析信息在 Adobe Campaign 中采取实时行动。 |
 | [管理](admin-getting-started/admin-getting-started.md) | 管理所有 Adobe 云和解决方案中的用户和产品权利。 |
 | [资产](experience-cloud-assets/experience-cloud-assets.md) | 在中心位置轻松存储、同步和共享所有数字资产，可节省时间并提供更一致的客户体验。 |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) | [!UICONTROL Experience Platform Launch] 是面向站点和应用程序的新一代数据收集和技术实施。 [!UICONTROL Experience Platform Launch] 为客户提供了一种简单的方式来部署和管理所有用来改善相关客户体验的分析、营销和广告标记。 |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) | [!UICONTROL Experience Platform Launch] 为网站和应用程序提供了新一代数据收集和技术实施服务。[!UICONTROL Experience Platform Launch] 为客户提供了一种简单的方式来部署和管理所有用来改善相关客户体验的分析、营销和广告标记。 |
 | [Journey Orchestration](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) | 利用存储在事件或数据源中的上下文数据构建实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
 | [位置服务](https://docs.adobe.com/content/help/en/places/using/home.html) | [!UICONTROL Adobe Experience Platform 位置服务]（位置服务）是一项地理位置服务，通过此服务，具有位置感知功能的移动设备应用程序可以使用丰富且易于使用的 SDK 接口（灵活的关注点 (POI) 数据库随附），了解位置背景信息。 |
 | [Exchange](exchange.md) | 通过应用程序，搜索、浏览、选择、购买并下载 Digital Marketing 扩展。 |
