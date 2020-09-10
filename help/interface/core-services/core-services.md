@@ -6,11 +6,11 @@ seo-title: 为客户属性和受众功能启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。完成此任务的简单方法是在 Dynamic Tag Management 中添加 [!DNL Adobe Analytics] 工具，以指定 *`Automatic`* 作为配置方法。
 
-在 [!UICONTROL Dynamic Tag Management] 中，单击 **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. 有关部署信息，请参阅 Dynamic Tag Management 中的 [Adobe Analytics 设置](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/analytics-dtm.html)。
+在 [!UICONTROL Dynamic Tag Management] 中，单击 **`<Web Property Name>`** > **[!UICONTROL 概述]** > **[!UICONTROL 添加工具]** > **[!UICONTROL Adobe Analytics]**。有关部署信息，请参阅 Dynamic Tag Management 中的 [Adobe Analytics 设置](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/analytics-dtm.html)。
 
 ## 步骤 5. (Adobe Target) 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
