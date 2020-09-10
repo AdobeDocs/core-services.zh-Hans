@@ -6,11 +6,11 @@ seo-title: 创建客户属性来源并上传数据文件
 solution: Experience Cloud
 title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 97%
 
 ## 在 Adobe Analytics 中使用客户属性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-利用Adobe Analytics等解决方案中现有的数据，您可以报告数据、分析数据并在营销活动采取适当措施。
+利用 Adobe Analytics 等解决方案中现在提供的数据，您可以报告数据、分析数据并在营销活动中采取适当措施。
 
 以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。此区段显示最常启动产品为 Photoshop 的 [!DNL Photoshop Lightroom] 订阅者。
 
