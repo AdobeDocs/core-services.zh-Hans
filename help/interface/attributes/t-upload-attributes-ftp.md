@@ -6,9 +6,9 @@ seo-title: 可选 - 通过 FTP 上传数据文件
 solution: Experience Cloud
 title: 可选 - 通过 FTP 上传数据文件
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. [创建客户属性来源并上传数据文件...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   确保您已登录到位于 `ftp.adobe.com/<sftpname>`.
+   确保您已登录位于 `ftp.adobe.com/<sftpname>` 的 FTP 站点。
 
 1. 单击&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 文件上传]**。
 
