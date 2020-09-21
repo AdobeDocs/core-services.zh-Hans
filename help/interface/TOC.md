@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Experience Cloud 界面用户指南
+user-guide-title: Experience Cloud界面指南
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [从 Creative Cloud 桌面将资产上传到共享文件夹](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud 中的受众 {#audiences}
-   + [受众概述](audience-library/audience-library.md)
++ Experience Cloud 受众 {#audiences}
+   + [Experience Cloud受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 中的客户属性 {#customer-attributes}
