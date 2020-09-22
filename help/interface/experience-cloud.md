@@ -7,9 +7,9 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 和核心服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 80%
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-本指南提供有关Experience Cloud中用户和产品管理以及客户属性和Experience Cloud受众(受众库)的产品文档。 本指南中的文章包括：
+Adobe Experience Cloud管理指南包括有关Experience Cloud用户和产品管理、受众库、客户属性和Experience Cloud资产的帮助。 本指南中的文章包括：
 
 * [[!UICONTROL 受众库]](audience-library/audience-library.md)
 * [[!UICONTROL 客户属性]](attributes/attributes.md)
