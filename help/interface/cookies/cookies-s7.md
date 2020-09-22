@@ -3,12 +3,12 @@ description: Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览�
 keywords: cookies;privacy
 seo-description: Scene7 使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
 seo-title: Scene7 Cookie
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Scene7 Cookie
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
