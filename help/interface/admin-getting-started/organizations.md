@@ -3,12 +3,12 @@ description: 了解组织并将解决方案帐户关联到 Experience Cloud。
 keywords: core services
 seo-description: 了解组织并将解决方案帐户关联到 Experience Cloud。
 seo-title: 组织和帐户关联
-solution: Marketing Cloud
+solution: Experience Cloud
 title: 组织和帐户关联
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
 
