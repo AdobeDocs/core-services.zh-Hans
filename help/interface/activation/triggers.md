@@ -3,14 +3,14 @@ description: 如何配置 Experience Cloud 触发器。
 keywords: integrations;Triggers
 seo-description: 如何配置 Experience Cloud 触发器。
 seo-title: 触发器
-solution: Marketing Cloud
+solution: Experience Cloud
 title: 触发器
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,13 +55,13 @@ ht-degree: 98%
    |--- |--- |
    | 名称 | 此触发器的友好名称。 |
    | 描述 | 此触发器的描述、使用方式等。 |
-   | 报表包 | 用于此触发器的 Analytics [报表包](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/analytics-basics/ref-reports-report-suites.html)。此设置标识要使用的报表数据。 |
+   | 报表包 | 用于此触发器的 Analytics [报表包](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html)。此设置标识要使用的报表数据。 |
    | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可能是：<ul><li>必须包括的访问：购物车加货（量度）和存在。（您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>必须排除的访问：结帐。</li><li>没有行动后启动触发器：10 分钟。</li><li>包括元数据：允许您添加特定的营销活动维度或与访客行为相关的变量。此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定 Any、And 或 Or 逻辑，具体取决于您确定的标准是否对规则很重要。 |
    | 容器 | 容器是您设置和存储定义触发器的规则、条件或过滤器的位置。如果希望事件同时发生，请将其置于同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 没有行动后开始新会话 | 为会话开始和会话结束事件创建触发器。 |
 
 5. 单击&#x200B;**[!UICONTROL 保存]**。
-6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
+6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ### 触发器示例
 
