@@ -3,12 +3,12 @@ description: 维护客户隐私和数据安全是 Adobe 的首要任务。Adobe 
 keywords: cookies;privacy
 seo-description: 维护客户隐私和数据安全是 Adobe 的首要任务。Adobe 参与了多个隐私保护组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
 seo-title: 关于 Cookie 和隐私
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: 关于 Cookie 和隐私
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
