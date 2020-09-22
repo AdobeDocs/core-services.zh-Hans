@@ -3,12 +3,12 @@ description: Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求�
 keywords: cookies;privacy
 seo-description: Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储应用程序以后可以使用的有用信息。还可使用它们将浏览信息与客户记录相关联。
 seo-title: Analytics Cookie
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics Cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
