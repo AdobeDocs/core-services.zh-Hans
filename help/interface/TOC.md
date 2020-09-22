@@ -1,22 +1,22 @@
 ---
-audience: end-user
-user-guide-title: Experience Cloud界面指南
-breadcrumb-title: Interface Guide
-user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and user and product management.
+audience: admin
+user-guide-title: Experience Cloud管理、受众和客户属性
+breadcrumb-title: Experience Cloud Administration Guide
+user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: dc1c43ddd5cf0328257cb559ac9706cfd004e631
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 95%
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
 
-# Experience Cloud Interface Guide {#interface}
+# Experience Cloud管理、受众和客户属性 {#interface}
 
-+ [Experience Cloud界面指南](experience-cloud.md)
++ [Experience Cloud管理员、受众和客户属性](experience-cloud.md)
 + Experience Cloud 中的应用程序服务 {#about-core-services}
    + [应用程序服务概述](core-services-landing.md)
    + [实施跨解决方案的服务](core-services/core-services.md)
