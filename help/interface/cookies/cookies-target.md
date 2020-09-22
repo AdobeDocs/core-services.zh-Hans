@@ -3,12 +3,12 @@ description: Target 使用 Cookie 让网站运营者能够测试哪些在线内�
 keywords: cookies;privacy
 seo-description: Target 使用 Cookie 让网站运营者能够测试哪些在线内容和选件与访客更相关。
 seo-title: Target Cookie
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Target Cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
