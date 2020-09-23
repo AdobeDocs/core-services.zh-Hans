@@ -1,27 +1,27 @@
 ---
-description: Adobe Experience Cloud 的自助资源、产品文档和技术文档。Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。
-keywords: core services
-seo-description: 本页提供了 Experience Cloud 的自助资源、产品文档和技术文档。
-seo-title: Adobe Experience Cloud 和核心服务帮助和产品文档。
-solution: Experience Cloud
-title: Experience Cloud 和核心服务帮助
+description: Adobe Experience Cloud 的自助资源、产品文档和技术文档。包括Admin Console中的用户和产品管理、支持平台服务的解决方案，以及受众库、客户属性、Experience Cloud资产等方面的帮助。
+keywords: platform services
+seo-description: 有关Admin Console中用户和产品管理的帮助，支持平台服务解决方案，以及有关受众库、客户属性、Experience Cloud资产等的帮助。
+seo-title: Adobe Experience Cloud和平台服务帮助和产品文档。
+solution: Adobe Experience Cloud
+title: Experience Cloud和平台服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 75%
 
 ---
 
 
-# Experience Cloud 界面指南
+# Experience Cloud管理、受众和客户属性
 
 Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Adobe Experience Cloud管理指南包括有关Experience Cloud用户和产品管理、受众库、客户属性和Experience Cloud资产的帮助。 本指南中的文章包括：
+本指南提供有关Experience Cloud用户和Admin Console产品管理的帮助，支持平台服务解决方案。 您还可以访问受众库、客户属性、Experience Cloud资产等相关帮助：
 
 * [[!UICONTROL 受众库]](audience-library/audience-library.md)
 * [[!UICONTROL 客户属性]](attributes/attributes.md)
