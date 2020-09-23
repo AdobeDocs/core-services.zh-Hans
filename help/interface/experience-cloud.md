@@ -3,11 +3,11 @@ description: Adobe Experience Cloud 的自助资源、产品文档和技术文�
 keywords: platform services
 seo-description: 有关Admin Console中用户和产品管理的帮助，支持平台服务解决方案，以及有关受众库、客户属性、Experience Cloud资产等的帮助。
 seo-title: Adobe Experience Cloud和平台服务帮助和产品文档。
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Experience Cloud和平台服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 75%
