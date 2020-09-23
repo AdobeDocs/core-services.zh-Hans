@@ -1,14 +1,14 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud管理、受众和客户属性
-breadcrumb-title: Experience Cloud Interface Guide
+breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 93%
 
 ---
@@ -58,8 +58,8 @@ ht-degree: 93%
    + [从 Creative Cloud 桌面将资产上传到共享文件夹](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud 受众 {#audiences}
-   + [Experience Cloud受众概述](audience-library/audience-library.md)
++ Experience Cloud Audience Library {#audiences}
+   + [Experience Cloud 受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 中的客户属性 {#customer-attributes}
