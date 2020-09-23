@@ -5,18 +5,18 @@ seo-title: Experience Cloud 受众概述
 solution: Experience Cloud
 title: Experience Cloud 受众概述
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '832'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
 
 # Experience Cloud 受众概述{#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-受众是访客的集合（访客 ID 列表）。Adobe 的受众服务管理如何将访客数据转换为受众分段。因此，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 [!DNL Experience Cloud] 的功能。
+受众是访客的集合（访客 ID 列表）。Adobe的受众库允许您管理将访客数据转换为受众细分。 As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to products and services in [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
