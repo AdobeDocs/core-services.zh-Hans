@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Cloud管理指南包括有关Experience Cloud用户和产品管
 
 ## 指南
 
-相关Experience Cloud指南包括：
+相关的 Experience Cloud 指南包括：
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
 * [设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
@@ -52,13 +52,13 @@ Adobe Experience Cloud管理指南包括有关Experience Cloud用户和产品管
 
 ## 教程
 
-充分利用Experience League中的自助教程和快速入门：
+充分利用以下 Experience League 中的自助式教程和简短的使用说明：
 
-* [Experience League中的所有教程](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Experience Platform教程](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Real-time Customer Data Platform](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience League 中的所有教程](https://experienceleague.corp.adobe.com/?lang=zh-Hans#quick-how-tos)
+* [Experience Platform 教程](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=zh-Hans)
+* [实时客户数据平台](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 
-## 发行说明和相关Experience Cloud帮助
+## 发行说明和相关的 Experience Cloud 帮助
 
 * [所有 Experience Cloud 解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) - 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud 的新增功能，订阅可获取更新
