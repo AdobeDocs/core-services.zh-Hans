@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 
-# Experience Cloud管理、受众和客户属性
+# Experience Cloud 管理、受众和客户属性
 
 Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
 
