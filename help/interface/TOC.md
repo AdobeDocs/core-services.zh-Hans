@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
    + [从 Creative Cloud 桌面将资产上传到共享文件夹](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud Audience Library {#audiences}
++ Experience Cloud 受众库{#audiences}
    + [Experience Cloud 受众概述](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
