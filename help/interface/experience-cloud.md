@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud 和平台服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 相关的 Experience Cloud 指南包括：
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
-* [设备协作](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
+* [Experience Platform合作图](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
