@@ -6,11 +6,11 @@ seo-title: 术语
 solution: Experience Cloud
 title: 术语
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: ht
-source-git-commit: c00eb57a226945f71307b33afdf147c93334c083
-workflow-type: ht
-source-wordcount: '1474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 | 促销活动 | 在 Creative Cloud 中，营销活动可被视为使用 Creative Cloud 图像资产的市场营销活动。 | 在 Experience Cloud 中，营销活动可确定向受众显示的内容。它还可以确定显示内容的区域（位置）以及时间。营销活动具有特定目标，可以通过量度进行跟踪。<br>运行营销活动需要将访客的上下文与营销活动中设置的规则相匹配，并根据位置渠道的技术限制来交付内容。<br>在 Adobe Target 中，术语营销活动和活动是同义词。 |
 | 渠道 | 在 Creative Cloud 中，渠道可以是指存储不同信息类型的灰度图像。它们包括信息渠道和颜色渠道。 | 在 Experience Cloud 中，渠道指位置的一种属性，或营销活动中的活动。<br>在 Analytics 中，营销渠道通常用于分析访客是如何抵达您的网站的，例如通过电子邮件营销活动。<br>示例包括：<ul><li>电子邮件</li><li>显示广告</li><li>社交网站</li><li>付费搜索</li><li>免费搜索</li><li>反向链接域名</li></ul> |
 | 上下文 | 通常指与某个选择或正在执行的任务相关的可用菜单或信息。 | 上下文描述访客当前与某个数字财产交互的详细信息。例如，上下文包括他们的鼠标位置、表单字段的状态、其购物车的金额或他们所使用的设备。<br>[Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html) 提供当今市场上最强大的上下文检测和服务激活功能，并提供配置文件和受众服务的上下文组件。 |
-| 消费者 ID | 无特殊用途。 | 设备协作成员用于识别人员的 ID。此号码由品牌分配，通常在 CRM 系统中维护。**注意：**&#x200B;不应将此 ID 与 _setCustomerIDs_（将消费者 ID 发送到 Experience Cloud 的 [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/about-id-service.html)函数调用）混淆。 |
+| 消费者 ID | 无特殊用途。 | Experience Platform合作社图成员用于识别人员的ID。 此号码由品牌分配，通常在 CRM 系统中维护。**注意：**&#x200B;不应将此 ID 与 _setCustomerIDs_（将消费者 ID 发送到 Experience Cloud 的 [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/about-id-service.html)函数调用）混淆。 |
 | 内容 | 在 Creative Cloud 中，内容是指页面上的文本和图像。该术语在 Creative Cloud 和 Experience Cloud 中的用法类似。 | 在 Experience Cloud 中，上下文指可以作为营销活动一部分的市场营销内容，用于支持某个特定目标。<br>内容用在特定的位置，并可由资产组成。内容既可以是结构化的，如产品信息；也可以是非结构化的，如移动设备应用程序中的网页或屏幕。<br>示例包括：<ul><li>网页</li><li>横幅</li><li>状态更新</li><li>评论</li><li>文本广告</li><li>产品信息</li><li>产品评价</li><li>表单数据</li><li>搜索索引中的文档</li><li>社交帖子</li><li>文章</li><li>出版物</li></ul> |
 | 功能板 | 无特殊用途。 | 数据可视化图表的集合，可在单个视图中显示多个关键量度。 |
 | 数据使用情况强制实施 | 无特殊用途。 | 系统（解决方案、应用程序、服务、SDK、API 等）为使用数据使用情况元数据而制定和定义的政策、系统设计、惯例和程序，以使数据使用符合 Adobe Corporate 隐私策略、合同注意事项和一般隐私原则。 |
