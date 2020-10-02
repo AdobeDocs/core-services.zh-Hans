@@ -1,24 +1,24 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud应用服务和管理
-breadcrumb-title: Experience Cloud Application Services and Administration
-user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
+user-guide-title: Experience Cloud服务和管理
+breadcrumb-title: Experience Cloud Services and Administration
+user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '360'
+ht-degree: 93%
 
 ---
 
 
-# Experience Cloud Application Services and Administration {#interface}
+# Experience Cloud Services and Administration {#interface}
 
-+ [Experience Cloud 管理、受众和客户属性](experience-cloud.md)
-+ Experience Cloud 中的应用程序服务 {#about-core-services}
-   + [应用程序服务概述](core-services-landing.md)
++ [Experience Cloud服务和管理](experience-cloud.md)
++ Experience Cloud services {#about-core-services}
+   + [Experience Cloud服务概述](core-services-landing.md)
    + [实施跨解决方案的服务](core-services/core-services.md)
    + [将报表包映射到组织](core-services/report-suite-mapping.md)
    + [关于 Experience Cloud 中的新云名称](solutions-core-services.md)
