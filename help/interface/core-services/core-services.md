@@ -6,16 +6,16 @@ seo-title: 为客户属性和受众功能启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: ht
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
-source-wordcount: '2402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '2403'
+ht-degree: 99%
 
 ---
 
 
-# 实施跨解决方案的服务
+# 实现Experience Cloud服务
 
 如果您最近通过 Experience Platform Launch 实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
