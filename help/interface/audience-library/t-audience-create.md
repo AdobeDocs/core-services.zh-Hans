@@ -6,11 +6,11 @@ seo-title: 创建受众
 solution: Experience Cloud
 title: 创建受众
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在完成指定期限的数据收集以后，受众会得到完全定义。以下示例演示了如何为复合受众创建规则。此受众包括：
+>在完成指定期限的数据收集以后，受众会得到完全定义。
+
+以下示例演示了如何为复合受众创建规则。此受众包括：
 
 * 从页面数据或原始分析数据派生的“家居和园艺”部分。
 * 来源于[发布](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)到 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 区段的 Chrome 和 Safari 用户。
