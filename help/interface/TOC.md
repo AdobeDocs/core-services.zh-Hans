@@ -6,10 +6,10 @@ user-guide-description: Adobe Experience Cloud 服务和管理指南包含有关
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 98%
+source-wordcount: '390'
+ht-degree: 95%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 98%
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud 受众库{#audiences}
-   + [Experience Cloud 受众概述](audience-library/audience-library.md)
+   + [Experience Cloud受众服务](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud 中的客户属性 {#customer-attributes}
-   + [客户属性概述](attributes/attributes.md)
++ Experience Cloud Customer Attributes {#customer-attributes}
+   + [客户属性服务](attributes/attributes.md)
    + [常见问题解答、各种限制和最佳实践](attributes/faq-crs.md)
    + [关于客户属性的数据文件和数据源](attributes/crs-data-file.md)
    + [创建客户属性来源并上传数据文件](attributes/t-crs-usecase.md)
