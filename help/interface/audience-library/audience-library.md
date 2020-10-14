@@ -1,20 +1,20 @@
 ---
-description: 在 Experience Cloud 受众库中，管理如何将访客数据转换为受众分段。
-seo-description: 在 Experience Cloud 受众库中，管理如何将访客数据转换为受众分段。
-seo-title: Experience Cloud 受众概述
+description: Manage the translation of visitor data into audience segmentation in Experience Cloud Audience service.
+seo-description: 在访客受众服务中，管理受众数据到Experience Cloud细分的转换。
+seo-title: Experience Cloud受众服务
 solution: Experience Cloud
-title: Experience Cloud 受众概述
+title: 'Experience Cloud 受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud 受众概述{#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud 受众 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 受众是访客的集合（访客 ID 列表）。通过 Adobe 的受众库，您可以管理如何将访客数据转换为受众分段。就这点而论，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 [!DNL Experience Cloud] 中产品和服务的功能。
 
