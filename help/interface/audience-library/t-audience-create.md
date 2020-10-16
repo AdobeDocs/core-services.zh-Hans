@@ -1,23 +1,23 @@
 ---
-description: 了解如何在 Experience Cloud 中使用属性规则来创建受众和定义组合受众。
+description: 了解如何在 Experience Cloud 中使用属性规则来创建受众和定义复合受众。
 keywords: core services
-seo-description: 了解如何在 Experience Cloud 中使用属性规则来创建受众和定义组合受众。
+seo-description: 了解如何在 Experience Cloud 中使用属性规则来创建受众和定义复合受众。
 seo-title: 创建受众
 solution: Experience Cloud
 title: 创建受众
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # 创建受众
 
-了解如何在 Experience Cloud 中使用属性规则来创建受众和定义组合受众。
+了解如何在 Experience Cloud 中使用属性规则来创建受众和定义复合受众。
 
 本文可帮助您了解如何执行以下操作：
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->在完成指定期限的数据收集以后，受众会得到完全定义。
+>在完成指定期限的数据收集后，将会对受众进行充分定义。
 
 以下示例演示了如何为复合受众创建规则。此受众包括：
 
