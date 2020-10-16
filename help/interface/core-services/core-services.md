@@ -6,16 +6,16 @@ seo-title: 为客户属性和受众功能启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 实现Experience Cloud服务
+# 为 Experience Cloud 服务启用实施
 
 如果您最近通过 Experience Platform Launch 实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
@@ -89,7 +89,7 @@ ht-degree: 99%
 
 有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
-**没有使用[!UICONTROL Experience Platform Launch]或[!UICONTROL Dynamic Tag Management]？**
+**没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]？**
 
 如果您没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]，请通过 JavaScript 部署 ([!DNL VisitorAPI.js]) 手动实施 ID 服务，如下所示：
 
@@ -201,7 +201,7 @@ mbox 请求中的 Experience Cloud ID：
 
 ### [!UICONTROL 人员] > [!UICONTROL 受众库]
 
-Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建受众，合并现有受众以创建组合受众，以及查看所有共享受众。
+Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建受众，合并现有受众以创建复合受众，以及查看所有共享受众。
 
 请参阅[受众](../audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
