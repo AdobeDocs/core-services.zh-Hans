@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 95%
 # Experience Cloud 服务和管理 {#interface}
 
 + [Experience Cloud 服务和管理](experience-cloud.md)
-+ Experience Cloud services {#about-core-services}
-   + [Experience Cloud服务概述](core-services-landing.md)
++ Experience Cloud 服务 {#about-core-services}
+   + [Experience Cloud 概述](core-services-landing.md)
    + [实施跨解决方案的服务](core-services/core-services.md)
    + [将报表包映射到组织](core-services/report-suite-mapping.md)
    + [关于 Experience Cloud 中的新云名称](solutions-core-services.md)
@@ -62,7 +62,7 @@ ht-degree: 95%
    + [Experience Cloud受众服务](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud Customer Attributes {#customer-attributes}
++ Experience Cloud 客户属性 {#customer-attributes}
    + [客户属性服务](attributes/attributes.md)
    + [常见问题解答、各种限制和最佳实践](attributes/faq-crs.md)
    + [关于客户属性的数据文件和数据源](attributes/crs-data-file.md)
