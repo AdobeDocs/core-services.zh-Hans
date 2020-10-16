@@ -6,11 +6,11 @@ seo-title: Experience Cloud Cookies
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>仅当浏览器URL中显示的域与cookie的域匹配时，才会发送具有此设置的cookie。 这是Chrome中Cookie的新默认设置。</p> </td> 
+   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。这是 Chrome 中新增的 Cookie 默认设置。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,8 +91,8 @@ Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 解决�
    <td colname="col2"> <p> 各不相同，大多数客户可能希望此 Cookie 的长度在 200 字节左右。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>没有增加值。 Chrome将默认为Lax。 </p> </td> 
-   <td colname="col2"> <p> 仅当浏览器URL中显示的域与cookie的域匹配时，才会发送具有此设置的cookie。 这是Chrome中Cookie的新默认设置。 </p> </td> 
+   <td colname="col1"> <p>没有添加任何值。Chrome 将默认设置为 Lax。 </p> </td> 
+   <td colname="col2"> <p> 仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。这是 Chrome 中新增的 Cookie 默认设置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
