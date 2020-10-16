@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud 和平台服务帮助以及产品文档。
 solution: Experience Cloud
 title: Experience Cloud 和平台服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 相关的 Experience Cloud 指南包括：
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
-* [Experience Platform合作图](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
+* [Experience Platform Co-op Graph](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
