@@ -1,15 +1,15 @@
 ---
-description: Manage the translation of visitor data into audience segmentation in Experience Cloud Audience service.
-seo-description: 在访客受众服务中，管理受众数据到Experience Cloud细分的转换。
-seo-title: Experience Cloud受众服务
+description: 在 Experience Cloud 受众服务中，管理如何将访客数据转换为受众分段。
+seo-description: 在 Experience Cloud 受众服务中，管理如何将访客数据转换为受众分段。
+seo-title: Experience Cloud 受众服务
 solution: Experience Cloud
 title: 'Experience Cloud 受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
