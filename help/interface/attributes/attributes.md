@@ -2,20 +2,20 @@
 description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
 keywords: core services;Customer Attributes
 seo-description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
-seo-title: Experience Cloud客户属性服务
+seo-title: Experience Cloud 客户属性服务
 solution: Experience Cloud
-title: Experience Cloud客户属性服务
+title: Experience Cloud 客户属性服务
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud客户属性服务
+# Experience Cloud 客户属性服务
 
 导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
 
