@@ -5,11 +5,11 @@ breadcrumb-title: Experience Cloud 服务和管理
 user-guide-description: Adobe Experience Cloud 服务和管理指南包含有关 Experience Cloud 用户和产品管理、受众库、客户属性、Cookie 和 Experience Cloud 资产的帮助。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 98%
    + [共享的资产文件要求](experience-cloud-assets/assets-file-reqs.md)
    + [共享文件夹的行为](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud 受众库{#audiences}
-   + [Experience Cloud受众服务](audience-library/audience-library.md)
+   + [Experience Cloud 受众服务](audience-library/audience-library.md)
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 客户属性 {#customer-attributes}
