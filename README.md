@@ -1,16 +1,16 @@
 ---
 source-git-commit: 05854701fc4de2d0657a09a070322944e713bc57
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '509'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 # 贡献文章
 
 | EXL-PR | EXL | 预览 | 激活 | 发布日期 | 帮助 |
 |--- |--- |--- |--- |--- |--- |
-| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/lastBuild) | [预览URL](https://experienceleague.corp.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时URL](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
+| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/core-services.en_exl/lastBuild/lastBuild) | [预览 URL](https://experienceleague.corp.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-cn) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时 URL](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-cn) | [创作指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=zh-cn) |
 
 我们欢迎社区成员以及文档团队以外的 Adobe 员工积极贡献文章。
 
