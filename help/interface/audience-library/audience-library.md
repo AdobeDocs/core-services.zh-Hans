@@ -5,11 +5,11 @@ seo-title: Experience Cloud 受众服务
 solution: Experience Cloud
 title: 'Experience Cloud 受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '835'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 **实时与历史受众比较**
 
-所有受众，无论其来源如何，都可供实时定位用例访问。但是，从 Analytics 到 Audience Manager 共享的受众不可供实时定位访问。系统将以两种方式评估受众：
+所有受众，无论其来源如何，都可供实时定位用例访问。但是，从Analytics共享到Audience Manager的受众无法用于实时定位。 系统将以两种方式评估受众：
 
 * 每 4 小时对 Analytics 的历史受众评估一次。处理和共享的总时间最长可能需要 8 小时。历史受众始终包括回访访客。
 * 实时受众源于 Experience Cloud 受众并接受实时评估。
@@ -72,6 +72,6 @@ ht-degree: 100%
 | 新建 | [创建受众](../audience-library/audience-library.md)。 |
 | 标题和描述 | 列标题，用于识别和描述受众。 |
 | 作者 | 创建受众区段的人员。 |
-| 来源 | 标识创建受众的位置。<ul><li>**Analytics：**&#x200B;在 Reports &amp; Analytics 或 Ad Hoc Analysis 中创建，然后[发布到 Experience Cloud](../audience-library/audience-library.md) 的区段。</li><li>**Experience Cloud：**&#x200B;新受众[在 Experience Cloud 受众中创建](../audience-library/audience-library.md)。</li><li>**Audience Manager：**&#x200B;由 Audience Manager 创建的受众自动显示在 Experience Cloud 受众中。</li></ul> |
+| 来源 | 标识创建受众的位置。<ul><li>**分析：** 在Adobe Analytics创建的区段， [然后发布到Experience Cloud](../audience-library/audience-library.md)。</li><li>**Experience Cloud：**&#x200B;新受众[在 Experience Cloud 受众中创建](../audience-library/audience-library.md)。</li><li>**Audience Manager：**&#x200B;由 Audience Manager 创建的受众自动显示在 Experience Cloud 受众中。</li></ul> |
 | 当前数量 | 当前受众数量。 |
 | 活动 | 区段的活动状态。 |
