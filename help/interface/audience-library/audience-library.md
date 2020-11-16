@@ -5,11 +5,11 @@ seo-title: Experience Cloud 受众服务
 solution: Experience Cloud
 title: 'Experience Cloud 受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 从发布到 [!DNL Analytics] 的 [!DNL Experience Cloud] 区段
 * 从 [!DNL Audience Manager]
 
-**实时与历史受众比较**
+**实时与历史受众**
 
 所有受众，无论其来源如何，都可供实时定位用例访问。但是，从 Analytics 共享到 Audience Manager 的受众不可供实时定位访问。系统将以两种方式评估受众：
 
