@@ -1,23 +1,31 @@
 ---
-description: Experience Cloud 中与管理员有关的常见问题及解答。
+description: 浏览器支持、Experience Cloud中管理员的常见问题和答案。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Experience Cloud 中与管理员有关的常见问题及解答。
+seo-description: 浏览器支持、Experience Cloud中管理员的常见问题和答案。
 seo-title: 有关 Experience Cloud 核心服务的常见问题。
 solution: Experience Cloud
 title: 常见问题解答
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 89%
 
 ---
 
 
 # 关于 Experience Cloud 的常见问题解答
 
-Experience Cloud 中与管理员有关的常见问题及解答。
+了解该Experience Cloud中针对管理员的浏览器支持以及常见问题和答案。
+
+## Experience Cloud支持哪些浏览器？
+
+* Microsoft Edge（当前和后两个版本）
+* Google Chrome（当前和后两个版本）
+* Mozilla Firefox（当前和后两个版本）
+* Safari（当前和后两个版本）
+* Opera（当前和后两个版本）
 
 ## 如何知道是否已为核心服务启用我的解决方案？
 
