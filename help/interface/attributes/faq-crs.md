@@ -6,11 +6,11 @@ seo-title: 常见问题解答、各种限制和最佳实践
 solution: Experience Cloud
 title: 常见问题解答、各种限制和最佳实践
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '1247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8a7693ea41cf74ceaca2de22aa81f01a24ef3bd2
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 81%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 
 | 问题 | 描述 |
 |--- |--- |
-| [!UICONTROL 客户属性]订阅限制 | 当您升级到 Analytics Premium 时，附加属性会在延迟 24 小时后才可用。在此延迟期间，您可能会看到出现属性订阅达到最大值错误。 |
-| 同一台设备上的多次登录 | 使用客户属性将客户配置文件上传到数据源时，Adobe 建议用户不要共享同一设备（即同一 Experience Cloud ID）。这样做可能会导致设备上存在的 ECID 服务链接同一 Experience Cloud ID 下的多个用户，从而在 [!DNL Target] 中导致意外结果。**注意：**&#x200B;对于移动设备，安装移动应用程序后，ECID 便会永久性存在，您必须重新安装该应用程序才能生成新的 ECID。对于 Web，在清除浏览器 Cookie 之后便可生成新的 ECID。 |
+| [!UICONTROL 客户属性]订阅限制 | 升级到Analytics Premium后，在提供更多属性之前会有24小时的延迟。 在此延迟期间，您可能会看到出现属性订阅达到最大值错误。 |
+| 同一台设备上的多次登录 | 当使用“客户属性”将客户用户档案上传到数据源时，Adobe建议共享设备的用户使用相同的Experience CloudID。 Experience CloudID(ECID)在设备上仍然存在。 共享设备可能导致ECID将多个用户链接到同一ECID，从而导致意外结果 [!DNL Target]。 **注意：** 对于Mobile，安装Mobile应用程序后ECID将永久存在。必须重新安装应用程序才能生成新ECID。 对于 Web，在清除浏览器 Cookie 之后便可生成新的 ECID。 |
 | 每日上传频率限制 | Adobe 建议每天只更新一次客户属性。您必须至少等待 24 小时，才能为同一组配置文件上传另一个客户配置文件数据文件。 |
 | 自定义 Analytics ID (`s.visitorID`) | 使用 `s.visitorID` 设置客户 ID 是在 Analytics 中标识用户的一种方法。但是，当使用 `s.visitorID.`<br> 标识某个访客时，使用 ID 服务导出或导入 Analytics 数据的集成将不起作用。这包括但不限于共享受众、Analytics for Adobe Target (A4T) 和客户属性。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
 | Analytics 中的字符长度限制 | 创建 Analytics 订阅时，已上传文件的字段长度将被截断为 255。 |
@@ -36,10 +36,10 @@ ht-degree: 100%
 | 问题 | 回答 |
 |--- |--- |
 | 我是否可以接收有关客户属性上传状态的通知？ | 可以。请参阅[管理通知](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html#concept_0105453AD71847B8BFCAF4A40915F157)。 |
-| 我应该怎么做才能开始使用客户属性？ | <ol><li>进行配置。如果您是 Analytics 客户，Adobe 将为您配置客户属性。如果您只使用 Adobe Target 而没有使用 Analytics，则必须联系客户关怀请求配置核心服务。</li> <li>与您的 CRM 团队进行交谈。了解哪些类型的客户数据可以在 Analytics 和整个 Experience Cloud 中使用。</li><li>实施核心服务。有关如何实现实施现代化的步骤，请参阅[启用核心服务的解决方案](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/core-services.html)。（有关重要信息，请参阅有关同步客户 ID 的部分。）</li></ol> **注意：**[此处](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91)提供了关于实施核心服务的管理员常见问题解答。 |
+| 我应该怎么做才能开始使用客户属性？ | <ol><li>进行配置。如果您是 Analytics 客户，Adobe 将为您配置客户属性。如果您仅使用Adobe Target并且没有Analytics，请联系客户服务部门以请求核心服务的供应。</li> <li>与您的 CRM 团队进行交谈。了解您希望在Analytics中和整个Experience Cloud中使用哪种客户数据。</li><li>实施核心服务。有关如何实现实施现代化的步骤，请参阅[启用核心服务的解决方案](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/core-services.html)。（有关重要信息，请参阅同步客户ID一节。）</li></ol> **注意：**[此处](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91)提供了关于实施核心服务的管理员常见问题解答。 |
 | 我可以使用多少个客户属性？ | 您可以向客户属性服务上传数百个 `.csv` 列。但是，在配置订阅和选择属性时，根据您拥有的解决方案，将会受到以下限制（每个报表包）：  <ul><li>Foundation：0 个</li><li>Select：3 个</li><li>Prime：15 个</li><li>Ultimate：200 个</li><li>Standard：总共允许 3 个</li><li>Premium：200 个</li><li>Adobe Target Standard：5 个</li><li>Adobe Target Premium：200 个</li></ul> |
-| 是否需要迁移到 Experience Cloud ID 服务？ | 迁移取决于您使用的解决方案。 <ul><li>Adobe Analytics：强烈推荐 </li><li>Adobe Target：必需。 </li></ul><br>使用 ID 服务可增强功能，为使用最新的 Experience Cloud 功能（包括实时受众、Adobe Target 现代化、Analytics 集成和视频心率跟踪）的打开了大门。<br>有关更多详细信息，请参阅[启用核心服务的解决方案](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/core-services.html)。<br>**注意：** [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/overview.html)是以前称为 _Analytics 访客 ID 服务_&#x200B;的现代化实施。 |
-| 客户属性功能与 Adobe Audience Manager 有何关系？ | 虽然 Audience Manager 可以接收数据来执行受众识别，但它不能执行将属性与历史行为数据绑定的分析功能，也不能提供 Adobe Analytics 中拥有的报告、分析和分段功能。[!UICONTROL 人员]服务可将不同解决方案中的丰富数据捆绑在一起，并将其与单个 ID 关联，以在整个 Experience Cloud 中使用。<br>在 Adobe Target 中，客户属性显示为单个属性，这些属性可以与其他规则组合使用以构建受众。共享给[!UICONTROL 人员]服务的受众是完整受众，无法进行修改。 |
+| 是否需要迁移到 Experience Cloud ID 服务？ | 迁移取决于您使用的解决方案。 <ul><li>Adobe Analytics：强烈推荐 </li><li>Adobe Target：必需。 </li></ul><br>使用Experience CloudID服务可启用最新的Experience Cloud功能，包括实时受众、Adobe Target现代化、Analytics集成和视频心跳跟踪。 <br> 有关详细信息，请参 [阅启用核心服务的解决方案](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/core-services.html)。 <br>**注意：** Experience Cloud [ID服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/overview.html) ，是对以前称为“分析访客ID”服务 _的现代化实施。_ |
+| 客户属性功能与 Adobe Audience Manager 有何关系？ | Audience Manager可以接收数据以执行受众识别，但无法执行将属性与历史行为数据关联的分析功能。 它也不提供Adobe Analytics提供的报告、分析和细分功能。 [!UICONTROL 人员]服务可将不同解决方案中的丰富数据捆绑在一起，并将其与单个 ID 关联，以在整个 Experience Cloud 中使用。<br>在 Adobe Target 中，客户属性显示为单个属性，这些属性可以与其他规则组合使用以构建受众。共享给[!UICONTROL 人员]服务的受众是完整受众，无法进行修改。 |
 | **（仅限 Analytics）**&#x200B;此功能与 Analytics Premium 中提供的功能有何不同？ | 过去，希望将客户属性数据与 Analytics 数据结合在一起的客户在很大程度上依赖 Data Workbench 工具来实现此功能。客户属性通过在 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder 中提供客户属性作为维度和量度，来向更广泛的受众公开此功能。Analytics Standard 客户将有权访问客户属性，但其可以使用的功能有限。Analytics Premium 客户可以使用所有功能。 |
 | **（仅限 Adobe Target）**&#x200B;我是否可以为从未使用过 Adobe Target 的客户预加载或上传数据？ | 可以。当访客首次向 Adobe Target 发出请求时，系统将从“客户属性”中获取我们拥有的关于访客的现有信息，并将这些数据用于定位。**注意：**&#x200B;此数据的检索过程可能需要多达 20 分钟，从访客首次与 Adobe Target 交互开始算起。 |
 | **（仅限 Adobe Target）**&#x200B;是否可以通过将客户属性数据与共享的受众数据结合来创建超级受众？ | 否。共享的受众数据是一个完整的受众。 |
