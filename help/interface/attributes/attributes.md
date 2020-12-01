@@ -1,21 +1,21 @@
 ---
-description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
-keywords: core services;Customer Attributes
+description: 有关将客户属性上传到Adobe Experience Cloud的概述和先决条件。
+keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: 有关将客户属性上传到 Experience Cloud 的概述和先决条件。
 seo-title: Experience Cloud 客户属性服务
 solution: Experience Cloud
-title: Experience Cloud 客户属性服务
+title: Adobe Experience Cloud-客户属性服务
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud 客户属性服务
+# Adobe Experience Cloud的客户属性
 
 导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
 
