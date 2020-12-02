@@ -1,30 +1,30 @@
 ---
-description: 在 Experience Cloud 受众服务中，管理如何将访客数据转换为受众分段。
+description: 了解如何在Adobe Experience Cloud受众服务中管理访客数据到受众细分的转换。
 seo-description: 在 Experience Cloud 受众服务中，管理如何将访客数据转换为受众分段。
 seo-title: Experience Cloud 受众服务
 solution: Experience Cloud
-title: 'Experience Cloud 受众 '
+title: 'Adobe Experience Cloud受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Experience Cloud 受众 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-受众是访客的集合（访客 ID 列表）。通过 Adobe 的受众库，您可以管理如何将访客数据转换为受众分段。就这点而论，创建和管理受众与创建和使用区段类似，只是前者增加了一项将受众区段共享到 [!DNL Experience Cloud] 中产品和服务的功能。
+受众是访客的集合（访客 ID 列表）。通过 Adobe 的受众库，您可以管理如何将访客数据转换为受众分段。因此，创建和管理受众与创建和使用区段类似。 您还可以将受众细分共享到中的产品和服务 [!DNL Experience Cloud]。
 
 ![](assets/audiences.png)
 
 受众可从各种来源创建或派生，如：
 
 * 在 [!DNL Experience Cloud] 中创建的新受众
-* 从发布到 [!DNL Analytics] 的 [!DNL Experience Cloud] 区段
-* 从 [!DNL Audience Manager]
+* [!DNL Analytics] 发布到 [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **实时与历史受众比较**
 
