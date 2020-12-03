@@ -113,11 +113,11 @@ Experience Platform Launch 会显示在 Admin Console 的“产品”页面上�
 
 有关 Admin Console 中用户权限以及设置特定于 Launch 的选项（包括为配置文件分配权限）的信息，请参阅[用户管理](https://docs.adobelaunch.com/launch-reference/administration/user-permissions)。
 
-## Experience Manager 云服务
+## Experience Manager as a Cloud Service 
 
-Adobe 企业客户在 Adobe Admin Console 中表示为 IMS 组织。这是 Adobe 客户管理其用户和组的产品权利的门户。AEM 客户可以使用 Adobe Admin Console 管理其产品权利以及对 AEM 云服务的 IMS 身份验证。
+Adobe 企业客户在 Adobe Admin Console 中表示为 IMS 组织。这是 Adobe 客户管理其用户和组的产品权利的门户。AEM 客户可以使用 Adobe Admin Console 管理其产品权利以及对 AEM as a Cloud Service 的 IMS 身份验证。
 
-请参阅 [AEM 云服务的 IMS 支持](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)。
+请参阅 [AEM as a Cloud Service 的 IMS 支持](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)。
 
 ## 动态标签管理器 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
