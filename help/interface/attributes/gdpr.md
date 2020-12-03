@@ -1,9 +1,9 @@
 ---
 title: 客户属性对《通用数据保护条例》的支持
 description: 客户属性对《通用数据保护条例》的支持
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -35,6 +35,7 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
    * IMS 组织 ID
    * 要执行操作的 CRS 数据源的别名 ID
    * 要执行操作的配置文件的 CRM ID
+
    IMS 组织 ID 是一个由 24 个字符组成的字母数字字符串，其后附加有 @AdobeOrg。如果您的营销团队或内部 Adobe 系统管理员不知道您组织的 IMS 组织 ID，请通过 gdprsupport@adobe.com 与 Adobe 客户关怀团队联系。您需要拥有 IMS 组织 ID 才能向隐私 API 提交请求。
 
 1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
