@@ -6,9 +6,9 @@ seo-title: Experience Cloud 的新增功能
 solution: Experience Cloud
 title: Experience Cloud 的新增功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Experience Cloud 中的新增功能和更新概述。
 | 功能 | 描述 |
 |--- |--- |
 | 批量报表包映射 | 在管理 > 报表包映射中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>[将多个报表包映射到一个组织有助于在 Experience Cloud 中启用跨解决方案功能和服务。](../core-services/core-services.md) |
-| 针对 Experience Cloud 受众的更新 | **应用报表包&#x200B;**<br>您现在可以将报表包应用于所有[受众规则](../audience-library/t-audience-create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
+| 针对 Experience Cloud 受众的更新 | **应用报表包**<br>&#x200B;您现在可以将报表包应用于所有[受众规则](../audience-library/t-audience-create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>&#x200B;除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
 
 ## 2016 年 11 月 8 日 - 16.11.1 版{#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
