@@ -6,9 +6,9 @@ seo-title: 为客户属性和受众功能启用 Experience Cloud 解决方案
 solution: Experience Cloud
 title: 为核心服务启用解决方案
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
 
