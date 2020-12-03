@@ -6,9 +6,9 @@ seo-title: 共享 Experience Cloud 资产文件夹
 solution: Experience Cloud
 title: 共享 Experience Cloud 资产文件夹
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
