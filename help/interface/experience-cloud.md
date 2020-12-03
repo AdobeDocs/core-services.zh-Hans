@@ -6,9 +6,9 @@ seo-title: Adobe Experience Cloud 和平台服务帮助以及产品文档。
 solution: Experience Cloud
 title: Experience Cloud 和平台服务帮助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
