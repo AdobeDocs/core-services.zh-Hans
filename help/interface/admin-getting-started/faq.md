@@ -6,9 +6,9 @@ seo-title: 有关 Experience Cloud 核心服务的常见问题。
 solution: Experience Cloud
 title: 常见问题解答
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
 
