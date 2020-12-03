@@ -1,9 +1,9 @@
 ---
 title: 客户属性对《加州消费者隐私法案》的支持
 description: 客户属性对《加州消费者隐私法案》的支持
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -37,6 +37,7 @@ CCPA 是加利福尼亚州的新隐私法，于 2020 年 1 月 1 日生效。CCP
    * IMS 组织 ID
    * 要执行操作的 CRS 数据源的别名 ID
    * 要执行操作的配置文件的 CRM ID
+
    IMS 组织 ID 是一个由 24 个字符组成的字母数字字符串，其后附加有 @AdobeOrg。如果您的营销团队或内部 Adobe 系统管理员不知道您组织的 IMS 组织 ID，请通过 gdprsupport@adobe.com 与 Adobe 客户关怀团队联系。您需要拥有 IMS 组织 ID 才能向隐私 API 提交请求。
 
 1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
