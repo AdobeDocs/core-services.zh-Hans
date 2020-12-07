@@ -1,21 +1,19 @@
 ---
 description: 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
 keywords: Customer Attributes;core services
-seo-description: 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
-seo-title: 隐私注意事项 - 客户属性
 solution: Experience Cloud
-title: 隐私注意事项 - 客户属性
+title: 客户属性的隐私注意事项 |Adobe Experience Cloud
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 96%
 
 ---
 
 
-# 隐私注意事项 - 客户属性
+# Experience Cloud中客户属性的隐私注意事项
 
 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
 
