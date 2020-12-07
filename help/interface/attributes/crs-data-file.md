@@ -1,16 +1,14 @@
 ---
-description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
+description: 将客户属性上传到Adobe Experience Cloud的数据文件要求和多个数据源。
 keywords: Customer Attributes;core services
-seo-description: 将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
-seo-title: 关于客户属性的数据文件和数据源
 solution: Experience Cloud
-title: 关于客户属性的数据文件和数据源
+title: 了解客户属性的数据文件和数据源 |Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1199'
+ht-degree: 97%
 
 ---
 
