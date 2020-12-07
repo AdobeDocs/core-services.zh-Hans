@@ -1,16 +1,14 @@
 ---
-description: Adobe Experience Cloud 的自助资源、产品文档和技术文档。包括如何在 Admin Console 中管理用户和产品、如何启用面向平台服务的解决方案，并且提供有关受众库、客户属性和 Experience Cloud Assets 等更多方面的帮助。
-keywords: platform services
-seo-description: 帮助内容涉及如何在 Admin Console 中管理用户和产品、如何启用面向平台服务的解决方案，并且提供有关受众库、客户属性和 Experience Cloud Assets 等更多方面的帮助。
-seo-title: Adobe Experience Cloud 和平台服务帮助以及产品文档。
+description: 了解Adobe Admin Console的用户和产品管理，启用Experience Cloud服务解决方案，并了解受众库、客户属性、Experience Cloud资产等。
+keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
-title: Experience Cloud 和平台服务帮助
+title: Experience Cloud服务和管理 |Adobe Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 91%
 
 ---
 
