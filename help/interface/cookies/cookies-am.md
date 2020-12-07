@@ -1,16 +1,14 @@
 ---
-description: Audience Manager 依靠一些简单的 Cookie 来执行不同的功能。这些功能包括指定 ID、记录数据调用、错误跟踪和测试以查看是否可以设置 Cookie。本部分列出和描述了由 Audience Manager 设置的各种 Cookie。
+description: 了解Adobe Experience Cloud的Audience Managercookie。
 keywords: cookies
-seo-description: Audience Manager 依靠一些简单的 Cookie 来执行不同的功能。这些功能包括指定 ID、记录数据调用、错误跟踪和测试以查看是否可以设置 Cookie。本部分列出和描述了由 Audience Manager 设置的各种 Cookie。
-seo-title: Audience Manager Cookie
 solution: Experience Cloud, Audience Manager
-title: Audience Manager Cookie
+title: Audience ManagerCookie |Adobe Experience Cloud
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 97%
 
 ---
 
