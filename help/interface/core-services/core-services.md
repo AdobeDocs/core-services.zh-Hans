@@ -1,16 +1,14 @@
 ---
-description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
+description: 了解如何实施Adobe Experience Cloud并成为管理员。
 keywords: core services;Customer Attributes
-seo-description: 实施 Experience Cloud 并成为管理员。此过程可使客户属性和受众等功能的解决方案符合现代化要求。
-seo-title: 为客户属性和受众功能启用 Experience Cloud 解决方案
 solution: Experience Cloud
-title: 为核心服务启用解决方案
+title: 为核心服务启用解决方案 |Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
