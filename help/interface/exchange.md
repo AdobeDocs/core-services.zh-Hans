@@ -1,16 +1,14 @@
 ---
-description: Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。
+description: 了解Exchange Marketplace，它是一个单一的目标，您可以通过应用程序搜索、浏览、选择、支付和下载数字营销扩展。
 keywords: core services
-seo-description: Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。
-seo-title: Exchange Marketplace
 solution: Experience Cloud
-title: Exchange Marketplace
+title: Exchange市场 |Adobe Experience Cloud
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 80%
 
 ---
 
