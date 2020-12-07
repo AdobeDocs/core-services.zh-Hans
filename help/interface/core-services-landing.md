@@ -3,10 +3,10 @@ description: 了解 Adobe Experience Cloud 用户和产品管理、人员（受�
 solution: Experience Cloud
 title: Experience Cloud服务概述 |Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 95%
+source-wordcount: '479'
+ht-degree: 90%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 95%
 
 Adobe Experience Cloud 服务包括[!UICONTROL 人员]（受众和客户属性）、Experience Platform Launch 和 Mobile Services。您还可以找到有关 Experience Cloud 用户和产品管理的帮助。
 
-To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]**
-
-![](assets/menu-icon.png)。
+要在 Experience Cloud 中访问这些服务，请单击&#x200B;**[!UICONTROL 应用程序选择器]** ![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
@@ -34,7 +32,7 @@ To access these services in the Experience Cloud, click the **[!UICONTROL Applic
 | [资产](experience-cloud-assets/experience-cloud-assets.md) | 在中心位置轻松存储、同步和共享所有数字资产，可节省时间并提供更一致的客户体验。 |
 | [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html) | [!UICONTROL Experience Platform Launch] 为网站和应用程序提供了新一代数据收集和技术实施服务。[!UICONTROL Experience Platform Launch] 为客户提供了一种简单的方式来部署和管理所有用来改善相关客户体验的分析、营销和广告标记。 |
 | [Journey Orchestration](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) | 利用存储在事件或数据源中的上下文数据构建实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
-| [位置服务](https://docs.adobe.com/content/help/en/places/using/home.html) | [!UICONTROL Adobe Experience Platform 位置服务]（位置服务）是一项地理位置服务，通过此服务，具有位置感知功能的移动设备应用程序可以使用丰富且易于使用的 SDK 接口（灵活的关注点 (POI) 数据库随附），了解位置背景信息。 |
+| [位置服务](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs). |
 | [Exchange](exchange.md) | 通过应用程序，搜索、浏览、选择、购买并下载 Digital Marketing 扩展。 |
 | [Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html) | Adobe Mobile Services 可以在整个 Experience Cloud 范围内将移动设备应用程序的移动营销功能整合在一起，以便您了解和提高移动设备应用程序的用户参与度。 |
 | 人员 | 通过在您的 Experience Cloud 解决方案中连接 Adobe 和非 Adobe 数据来为各个客户建立全面的视图。了解客户在接触点间互动时最关心的事情。识别访问不熟悉的设备时的熟悉消费者。甚至可以针对定位营销工作将用户分组为受众。<br>[受众](audience-library/audience-library.md) - 将不同类型的客户划分为受众，然后在各个 Marketing Cloud 解决方案中共享这些受众。<br>[客户属性](attributes/attributes.md) - 作为受众扩充，允许您在 Marketing Cloud 之外访问所收集的客户信息。<br>[设备图形](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 与全球最受欢迎的品牌协作，识别不熟悉设备背后的熟悉消费者。 |
