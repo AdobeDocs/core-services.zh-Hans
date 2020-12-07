@@ -3,12 +3,12 @@ description: 了解云的最新品牌更新，如何导航界面，以及在何�
 seo-description: 了解云的最新品牌更新，如何导航界面，以及在何处查找有关解决方案和核心服务的帮助。
 seo-title: 关于 Experience Cloud 中的新云名称
 solution: Experience Cloud
-title: 关于 Experience Cloud 中的新云名称
+title: 关于 Experience Cloud 中的新云名称 | Adobe Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '670'
 ht-degree: 100%
 
 ---
