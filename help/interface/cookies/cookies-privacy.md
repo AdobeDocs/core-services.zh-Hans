@@ -1,16 +1,14 @@
 ---
-description: 维护客户隐私和数据安全是 Adobe 的首要任务。Adobe 参与了多个隐私保护组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
+description: 了解Adobe Experience Cloud解决方案和服务中的cookie和隐私。
 keywords: cookies;privacy
-seo-description: 维护客户隐私和数据安全是 Adobe 的首要任务。Adobe 参与了多个隐私保护组织，并结合隐私法规和自我监管原则（例如 Digital Advertising Alliance AdChoices 计划）为客户提供有关其信息如何使用的信息，以及有关这些信息使用的选项。
-seo-title: 关于 Cookie 和隐私
 solution: Experience Cloud,Analytics,Target
-title: 关于 Cookie 和隐私
+title: Cookie和隐私概述 |Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
