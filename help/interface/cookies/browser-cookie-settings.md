@@ -1,16 +1,14 @@
 ---
 description: 删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。此隐私设置不适用于选择退出 Analytics 数据收集的用户。
 keywords: cookies;privacy
-seo-description: 删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。此隐私设置不适用于选择退出 Analytics 数据收集的用户。
-seo-title: 启用浏览器 Cookie 的隐私设置
 solution: Experience Cloud, Analytics, Target, Social
-title: 启用浏览器 Cookie 的隐私设置
+title: 如何为浏览器cookie启用隐私设置 |Adobe Experience Cloud
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 96%
 
 ---
 
