@@ -1,10 +1,10 @@
 ---
-title: 客户属性对《加州消费者隐私法案》的支持
+title: 客户属性对《加州消费者隐私法案》的支持 | Adobe Experience Cloud
 description: 客户属性对《加州消费者隐私法案》的支持
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
