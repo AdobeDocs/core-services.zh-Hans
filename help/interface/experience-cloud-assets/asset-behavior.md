@@ -1,16 +1,14 @@
 ---
-description: 有关在移动、删除和还原共享文件夹时其行为方式的规则。
+description: 了解在Experience Cloud中移动、删除和还原共享文件夹时的行为方式规则。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 有关在移动、删除和还原共享文件夹时其行为方式的规则。
-seo-title: 共享文件夹的行为
 solution: Experience Cloud
-title: 共享文件夹的行为
+title: 共享文件夹的行为 |Adobe Experience Cloud
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 20%
+source-wordcount: '564'
+ht-degree: 15%
 
 ---
 
