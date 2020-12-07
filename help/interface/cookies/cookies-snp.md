@@ -1,16 +1,14 @@
 ---
-description: Search&Promote 使用 Cookie 了解和预见访客的搜索意图。
+description: 了解Search&Promote如何使用Cookies了解和预测访客搜索意图。
 keywords: cookies;privacy
-seo-description: Search&Promote 使用 Cookie 了解和预见访客的搜索意图。
-seo-title: Search 和 Promote Cookie
 solution: Experience Cloud,Analytics,Target
-title: Search 和 Promote Cookie
+title: 搜索和提升Cookie |Adobe Experience Cloud
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 83%
 
 ---
 
