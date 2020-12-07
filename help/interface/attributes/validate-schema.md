@@ -1,16 +1,14 @@
 ---
-description: 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。将根据这些设置创建架构。该架构用于验证将来上传到此数据源的所有数据。此映射过程不会更改原始数据。
-keywords: Customer Attributes;core services
-seo-description: 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。将根据这些设置创建架构。该架构用于验证将来上传到此数据源的所有数据。此映射过程不会更改原始数据。
-seo-title: 验证架构
+description: 了解如何验证Adobe Experience Cloud的客户属性模式。
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: 验证架构
+title: 如何验证客户属性模式 |Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
