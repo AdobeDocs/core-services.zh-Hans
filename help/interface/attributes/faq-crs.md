@@ -1,11 +1,11 @@
 ---
 description: 关于Adobe Experience Cloud、Adobe Analytics和Adobe Target客户属性的常见问题解答。
 keywords: Customer Attributes
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: 获取有关客户属性的常见问题解答 |Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 96%
