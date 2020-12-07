@@ -1,16 +1,14 @@
 ---
-description: 由于各种浏览器对第三方 Cookie 的支持越来越有限，Adobe 一直在着力开发新的解决方案，以期在各种 Adobe Experience Cloud 解决方案中实现客户需求与用户隐私权利的周密平衡。
+description: 了解第三方Cookie的支持如何在各种浏览器中变得越来越有限。
 keywords: cookies;privacy
-seo-description: 由于各种浏览器对第三方 Cookie 的支持越来越有限，Adobe 一直在着力开发新的解决方案，以期在各种 Adobe Experience Cloud 解决方案中实现客户需求与用户隐私权利的周密平衡。
-seo-title: 第三方 Cookie 支持的变化对客户有何影响
 solution: Experience Cloud,Analytics,Target
-title: 第三方 Cookie 支持的变化对客户有何影响
+title: 对第三方cookie支持的更改如何影响客户 |Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
