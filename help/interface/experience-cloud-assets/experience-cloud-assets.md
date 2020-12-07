@@ -1,20 +1,18 @@
 ---
-description: Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指的数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版并可以具有子资产（例如，Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
-seo-description: Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指的数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版并可以具有子资产（例如，Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
-seo-title: 资产
+description: 了解Experience Cloud资产。
 solution: Experience Cloud
-title: 资产
+title: Experience Cloud资产概述 |Adobe Experience Cloud
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 
 
-# 资产
+# Experience Cloud资产概述
 
 Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
