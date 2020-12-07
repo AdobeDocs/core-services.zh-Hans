@@ -1,16 +1,14 @@
 ---
-description: Data Connectors 使用 Cookie 跨多个广告渠道向广告商提供优化的活动和转化绩效指标。
+description: 了解Adobe数据连接器如何使用cookies为广告商提供跨多个广告渠道的优化活动和转化效果指标。
 keywords: cookies;privacy
-seo-description: Data Connectors 使用 Cookie 跨多个广告渠道向广告商提供优化的活动和转化绩效指标。
-seo-title: Data Connectors Cookie
 solution: Experience Cloud, Analytics, Target
-title: Data Connectors Cookie
+title: 数据连接器Cookie |Adobe Experience Cloud
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 64%
 
 ---
 
