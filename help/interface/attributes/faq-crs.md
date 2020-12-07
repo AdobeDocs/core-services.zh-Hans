@@ -1,23 +1,21 @@
 ---
-description: 客户属性 - Adobe Analytics 和 Adobe Target 的常见问题解答和最佳实践。
+description: 关于Adobe Experience Cloud、Adobe Analytics和Adobe Target客户属性的常见问题解答。
 keywords: Customer Attributes
-seo-description: 关于 Analytics 和 Target 中的客户属性的常见问题解答和最佳实践
-seo-title: 常见问题解答、各种限制和最佳实践
-solution: Experience Cloud
-title: 客户属性 - Adobe Experience Cloud 的常见问题解答
+solution: Adobe Experience Cloud
+title: 获取有关客户属性的常见问题解答 |Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 96%
 
 ---
 
 
 # 常见问题解答、各种限制和最佳实践
 
-关于 Analytics 和 Target 中的客户属性的常见问题解答和最佳实践
+Adobe Analytics和Adobe Target客户属性的常见问题解答和最佳实践。
 
 ## 最佳实践和限制 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
