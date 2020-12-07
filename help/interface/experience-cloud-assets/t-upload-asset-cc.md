@@ -1,16 +1,14 @@
 ---
-description: 从 Creative Cloud 浏览器将资产上传到共享文件夹。
+description: 如何将资产从Creative Cloud浏览器上传到共享文件夹到Experience Cloud。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 从 Creative Cloud 浏览器将资产上传到共享文件夹。
-seo-title: 从 Creative Cloud 浏览器将资产上传到共享文件夹
 solution: Experience Cloud
-title: 从 Creative Cloud 浏览器将资产上传到共享文件夹
+title: 从Creative Cloud浏览器将资产上传到共享文件夹 |Adobe Experience Cloud
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 87%
+source-wordcount: '86'
+ht-degree: 47%
 
 ---
 
