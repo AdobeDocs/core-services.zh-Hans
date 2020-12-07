@@ -1,15 +1,13 @@
 ---
-description: 对不同的解决方案和服务实施 DNS 预获取，以帮助缩短页面加载时间。
-seo-description: 对不同的解决方案和服务实施 DNS 预获取，以帮助缩短页面加载时间。
-seo-title: 将 DNS 预获取用于不同的解决方案和服务
+description: 如何实施DNS预取，以帮助减少Adobe Experience Cloud不同解决方案和服务的页面加载时间。
 solution: Experience Cloud
-title: 将 DNS 预获取用于不同的解决方案和服务
+title: 将DNS预取用于不同的解决方案和服务 |Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 91%
 
 ---
 
