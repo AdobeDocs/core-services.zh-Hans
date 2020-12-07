@@ -1,11 +1,11 @@
 ---
 description: 了解如何登录Adobe Admin Console、管理Experience Cloud用户权限和产品用户档案以及浏览器支持。
 keywords: Experience Cloud services
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: 了解如何管理用户和产品 |Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 97%
