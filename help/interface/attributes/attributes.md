@@ -1,23 +1,23 @@
 ---
-description: 了解Adobe Experience Cloud的客户属性。
+description: 了解Adobe Experience Cloud的客户属性服务以及如何上传数据以用于分析和目标。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: 客户属性服务 |Adobe Experience Cloud
+title: 如何使用客户属性 |Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 79%
 
 ---
 
 
-# Adobe Experience Cloud 中的客户属性
+# 如何在Adobe Experience Cloud使用客户属性
 
-导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
+Adobe Experience Cloud的客户属性允许您从客户关系管理(CRM)数据库上传捕获的企业数据。 您可以将数据上传到Experience Cloud中的客户属性数据源，然后使用Adobe Analytics和Adobe Target的数据。
 
-如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可利用 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中的数据。
+To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    添加到客户属性的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项。
 
-* 客户属性需要使用 **Adobe Target** [!DNL at.js]（任何版本）或者 [!DNL mbox.js] 版本 58 或更高版本。
+* 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
    请参阅[如何部署 at.js](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js 实施](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 请参阅[上传客户属性数据](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流程。
 
-## 解决方案用例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## 分析和目标中的客户属性示例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 数据保留在 Experience Cloud 中后，您可以对其进行自定义，并将其共享给报表、分段、活动和促销活动等解决方案。
 
