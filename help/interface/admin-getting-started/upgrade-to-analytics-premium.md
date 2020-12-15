@@ -2,14 +2,14 @@
 description: 管理员可以了解在升级到 Analytics Premium 时的相应要求和预期，以及作为一名 Experience Cloud 管理员，应在何处查找帮助。
 keywords: Adobe Analytics Premium upgrade
 solution: Experience Cloud
-title: 如何升级到Analytics Premium和Experience Cloud |Adobe Experience Cloud
+title: '如何升级到Analytics Premium和Experience Cloud '
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 97%
+source-wordcount: '641'
+ht-degree: 98%
 
 ---
 
