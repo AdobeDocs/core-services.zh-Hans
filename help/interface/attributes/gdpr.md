@@ -1,10 +1,10 @@
 ---
-title: 客户属性对《通用数据保护条例》的支持 | Adobe Experience Cloud
+title: '客户属性对《通用数据保护条例》的支持 '
 description: 了解一般数据保护规定的客户属性支持
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 97%
 
 ---
