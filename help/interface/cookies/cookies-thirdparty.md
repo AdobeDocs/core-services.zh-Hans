@@ -1,5 +1,5 @@
 ---
-description: 了解第三方Cookie的支持如何在各种浏览器中变得越来越有限。
+description: 了解对第三方 Cookie 的支持如何在各种浏览器中变得越来越有限。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: '对第三方cookie支持的更改如何影响客户 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
