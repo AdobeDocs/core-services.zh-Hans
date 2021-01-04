@@ -84,7 +84,7 @@ Adobe Target 可与 Analytics 和其他 Experience Cloud 核心服务相集成�
 
 作为内容管理解决方案，Adobe Experience Manager 有助于您轻松管理网站、移动应用程序、社区和表单中的资产和内容。
 
-请参阅 [Adobe Experience Manager 6.5](https://helpx.adobe.com/cn/support/experience-manager/6-5.html) 以获取帮助。
+请参阅 [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) 以获取帮助。
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/aam-home.html)
 
