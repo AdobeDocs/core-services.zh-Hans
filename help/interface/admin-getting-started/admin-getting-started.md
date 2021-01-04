@@ -1,5 +1,5 @@
 ---
-description: 了解如何登录Adobe Admin Console、管理Experience Cloud用户权限和产品用户档案以及浏览器支持。
+description: 了解有关登录到 Adobe Admin Console 并管理 Experience Cloud 用户权限和产品配置文件，以及浏览器支持的信息。
 keywords: Experience Cloud services
 solution: Experience Cloud
 title: '了解如何管理用户和产品 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1432'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 **相关帮助**
 
-Creative Cloud 和 Document Cloud 的[管理用户指南](https://helpx.adobe.com/cn/enterprise/using/users.html)。某些信息与 Experience Cloud 用户管理相关，例如[管理身份类型](https://helpx.adobe.com/cn/enterprise/help/identity.html)。
+Creative Cloud 和 Document Cloud 的[管理用户指南](https://helpx.adobe.com/cn/enterprise/using/users.html)。某些信息与 Experience Cloud 用户管理相关，例如[管理身份类型](https://helpx.adobe.com/enterprise/help/identity.html)。
 
 [登录并管理配置文件设置](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)，以管理密码、组织和通知。
 
@@ -127,7 +127,7 @@ Adobe 企业客户在 Adobe Admin Console 中表示为 IMS 组织。这是 Adobe
 
 创建 Audience Manager 用户并将其分配给组。您还可以查看限制（特征、区段、目标和 [!DNL AlgoModel]）。
 
-请参阅 Audience Manager 帮助中的[管理](https://docs.adobe.com/content/help/zh-Hans/dtm/using/admin/users.html)。
+请参阅 Audience Manager 帮助中的[管理](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html)。
 
 ## 管理 Experience Cloud 产品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -142,9 +142,9 @@ Adobe 企业客户在 Adobe Admin Console 中表示为 IMS 组织。这是 Adobe
 
 有关更多帮助，请访问：
 
-* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)
-* 有关更多信息，请参阅 Adobe Target 帮助中的[企业用户权限](https://docs.adobe.com/content/help/zh-Hans/target/using/administer/manage-users/enterprise/property-channel.html)。
-* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/cn/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* 有关更多信息，请参阅 Adobe Target 帮助中的[企业用户权限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)。
+* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 将 Analytics 访问权限分配给产品配置文件 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -195,6 +195,6 @@ Experience Cloud 中支持的浏览器。
 
 ### 解决方案和产品要求
 
-* [Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
