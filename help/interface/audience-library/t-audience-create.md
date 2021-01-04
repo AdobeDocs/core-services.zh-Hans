@@ -1,5 +1,5 @@
 ---
-description: 了解如何在Adobe Experience Cloud使用属性规则创建受众和定义复合受众。
+description: 了解如何在 Adobe Experience Cloud 中使用属性规则来创建受众和定义组合受众。
 keywords: core services
 solution: Experience Cloud
 title: '创建受众 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
