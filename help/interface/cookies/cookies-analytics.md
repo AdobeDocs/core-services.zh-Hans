@@ -1,5 +1,5 @@
 ---
-description: 了解Adobe AnalyticsAdobe Experience Cloud饼干。
+description: 了解 Adobe Experience Cloud 中的 Adobe Analytics Cookie。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: '如何使用Adobe AnalyticsCookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
