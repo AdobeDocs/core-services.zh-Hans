@@ -1,5 +1,5 @@
 ---
-description: 了解Adobe数据连接器如何使用cookies为广告商提供跨多个广告渠道的优化活动和转化效果指标。
+description: 了解 Adobe Data Connectors 如何使用 Cookie 跨多个广告渠道向广告商提供优化的活动和转化绩效指标。
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors Cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
