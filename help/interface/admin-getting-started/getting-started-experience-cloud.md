@@ -1,5 +1,5 @@
 ---
-description: 了解如何登录Adobe Experience Cloud、管理口令和通知以及指定默认登陆页。
+description: 了解如何登录到 Adobe Experience Cloud、管理密码和通知，以及指定默认登录页面。
 keywords: core services, sign in to Experience Cloud
 solution: Experience Cloud
 title: '登录并管理 Experience Cloud 配置文件设置 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
