@@ -1,5 +1,5 @@
 ---
-description: 如何与Experience Cloud用户共享Creative Cloud资产文件夹。
+description: 如何与 Creative Cloud 用户共享 Experience Cloud 资产文件夹。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: '共享 Experience Cloud 资产文件夹 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
