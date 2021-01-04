@@ -228,7 +228,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **已知问题**
 
-* 将 Dynamic Tag Management 组织与 Experience Cloud 关联和取消关联的操作不适用于新创建的 Experience Cloud 组织。我们正在努力修复此问题，并会在 5 月版本中恢复正常功能。如果您在尝试通过 Experience Cloud 以单点登录方式访问动态标签管理时遇到问题，请采用以往的登录方式访问 [!DNL dtm.adobe.com]。
+* 将 Dynamic Tag Management 组织与 Experience Cloud 关联和取消关联的操作不适用于新创建的 Experience Cloud 组织。我们正在努力修复此问题，并会在 5 月版本中恢复正常功能。如果您在尝试通过 Experience Cloud 以单点登录方式访问 Dynamic Tag Management 时遇到问题，请采用以往的登录方式访问 [!DNL dtm.adobe.com]。
 * 一个已知的问题是：对于不属于关联的 Analytics 帐户的报表包，访客将无法共享其内容。我们目前正在修复这个问题。
 
 ## 15.3.2 版 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
