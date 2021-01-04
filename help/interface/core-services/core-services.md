@@ -1,5 +1,5 @@
 ---
-description: 了解如何实施Adobe Experience Cloud并成为管理员。
+description: 了解如何实施 Adobe Experience Cloud 并成为管理员。
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '为核心服务启用解决方案 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '2362'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 96%
 
 ## Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需要获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。）
 
@@ -212,7 +212,7 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 * [!DNL Analytics] 键/值对（prop、eVar、list var 等等）。默认情况下，日志行包含 IP 地址，其中包含 IP 的最后一个八位字节（假定 IP 地址没有被 Adobe [!DNL Analytics] 中的 IP 模糊设置所修改）。
 * 根据 Audience Manager 中设置的规则，受众符合资格的特征和区段。
 * （可选）您的一个或多个 ID。根据 ID 服务的实施，您可能还会发送一个或多个 ID，例如 CRM ID 或哈希电子邮件地址。如果此数据被发送到 Adobe [!DNL Analytics]，则会转给 Adobe 受众管理。Adobe 不建议将个人数据提交给 Adobe [!DNL Analytics]。而是使用单向哈希对数据进行掩饰，然后再发送给 Adobe。
-* Segments originating in [!DNL Analytics] via the back-end segment sharing capability
+* 通过后端段共享功能来源于[!DNL Analytics]的段
 * 如果未阻止第三方 Cookie，则设置 demdex.net Cookie。`AMCV_###@AdobeOrg` 第一方 Cookie 始终通过 Experience Cloud ID 设置。
 
 所有这些数据元素都将以日志文件的形式传送到 Adobe Audience Manager。Audience Manager 将在美国境内的服务器上处理并存储这些数据。Audience Manager 不提供在美国境外的服务器上存储或处理此数据的选项。
@@ -225,4 +225,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/data-collection/opt-out.html)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
