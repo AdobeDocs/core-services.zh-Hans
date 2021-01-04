@@ -1,12 +1,12 @@
 ---
-description: 了解Adobe Ad CloudCookies，将广告参与事件映射到转化事件，并潜在地使用该信息优化广告竞价。
+description: 了解用于将广告互动事件映射到转化事件的 Adobe Ad Cloud Cookie，并可能使用该信息来优化广告投标。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
