@@ -1,18 +1,18 @@
 ---
 description: 了解可以跨解决方案共享的Experience Cloud资产。
 solution: Experience Cloud
-title: 'Experience Cloud资产概述 '
+title: 'Experience Cloud Assets 概述 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud资产概述
+# Experience Cloud Assets 概述
 
 Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
