@@ -1,5 +1,5 @@
 ---
-description: 了解Adobe Analytics如何使用cookies提供有关图像请求和浏览器会话之间不存在的变量和组件的信息。
+description: 了解 Adobe Analytics 如何使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
 title: '如何使用第一方cookie '
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 ### 使用 [!DNL curl] 进行验证
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. （[!DNL Windows] 用户可以从以下位置安装 [!DNL curl]：<https://curl.haxx.se/windows/>）
+Adobe 建议从命令行中使用 [[!DNL curl]](https://curl.haxx.se/)。（[!DNL Windows] 用户可以从以下位置安装 [!DNL curl]：<https://curl.haxx.se/windows/>）
 
 如果您有 CNAME，但未安装证书，请运行：
 `curl -k https://sstats.adobe.com/_check`
