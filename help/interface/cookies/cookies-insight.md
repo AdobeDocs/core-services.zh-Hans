@@ -1,5 +1,5 @@
 ---
-description: Data Workbench如何使用cookies实时分析大量快速演变的数据。
+description: Data Workbench 如何使用 Cookie 实时分析大量瞬息万变的数据。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench Cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
