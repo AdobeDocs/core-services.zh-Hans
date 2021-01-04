@@ -1,5 +1,5 @@
 ---
-description: '了解如何在Experience Cloud和Creative Cloud之间共享文件夹和资产。 '
+description: '了解如何在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资产。 '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: '与 Creative Cloud 共享 Experience Cloud 文件夹和资产 '
@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
 
-在Experience Cloud和Creative Cloud之间共享文件夹和资产。 在 Experience Cloud 解决方案（如 Adobe Social 和 Adobe Target）中进行协作、对共享资产添加批注和使用它们。共享文件夹必须源自Experience Cloud。
+在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资产。在 Experience Cloud 解决方案（如 Adobe Social 和 Adobe Target）中进行协作、对共享资产添加批注和使用它们。共享文件夹必须源于 Experience Cloud。
 
 ## 共享的好处 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
