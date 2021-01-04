@@ -1,5 +1,5 @@
 ---
-description: 了解Adobe Experience Cloud语的术语，以及Creative Cloud语中的术语差异。
+description: 了解 Adobe Experience Cloud 中的术语，以及这些术语在 Creative Cloud 中差异。
 keywords: asset sharing;audience services;Creative Cloud;core services
 seo-description: 'null'
 seo-title: 术语
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 | 组合 | 多个文件或资源的集合。 | 营销活动的容器。 |
 | 产品配置文件 | 请参阅[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)。 | 要使用户有权使用产品或服务，该用户必须是产品配置文件的一部分。通过将产品配置文件与您购买的计划关联，产品管理员可向产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，而每个产品配置文件会将不同的许可证授予该用户。用户的最终资格为每个产品配置文件向该用户授予的所有许可证的总和。 |
 | 计划 | 可以指 Adobe Story 中的一系列场景或 ColdFusion 中的计划任务。 | 在 Experience Cloud 中，计划是指激活营销活动、渠道和活动的开始日期(年、月、日)和结束日期。活动计划的粒度细化至分钟。更改计划将会创建一张信息卡。<br>示例包括：<ul><li>营销活动计划</li><li>渠道计划</li><li>活动计划</li></ul> |
-| 区段 | 不适用 | 用于限定受众的一组规则的输出。在 Analytics 中，可以选择使用[区段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/seg-home.html)来定义可以传递到 Experience Cloud 的受众。<br>在 Audience Manager 中，区段是使访客有资格成为该区段成员或包括在该区段中的[特征](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/traits/traits-overview.html)和所有条件的集合。而且，这是拥有共同属性的人员的集合。 |
+| 区段 | 不适用 | 用于限定受众的一组规则的输出。在 Analytics 中，可以选择使用[区段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)来定义可以传递到 Experience Cloud 的受众。<br>在 Audience Manager 中，区段是使访客有资格成为该区段成员或包括在该区段中的[特征](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/traits/traits-overview.html)和所有条件的集合。而且，这是拥有共同属性的人员的集合。 |
 | 共享 | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在 Experience Cloud 中，您可以在界面中的展示板内，仅将资产共享为信息卡。登录到网站的用户可以进行共享。 |
 | 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Adobe Analytics、Adobe Social、Adobe Target 等等。<br>请参阅[关于 Experience Cloud 中的新云名称](solutions-core-services.md)。 |
-| 特征 | 不适用 | 键值对，例如 color=blue。在 Audience Manager 中，[特征](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/traits/traits-overview.html)用于构建区段。 |
+| 特征 | 不适用 | 键值对，例如 color=blue。在 Audience Manager 中，[特征](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html)用于构建区段。 |
