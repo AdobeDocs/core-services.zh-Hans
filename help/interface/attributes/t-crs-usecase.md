@@ -1,5 +1,5 @@
 ---
-description: 了解如何创建客户属性源并将其上传到Adobe Experience Cloud。
+description: 了解如何创建客户属性来源并将其上传到 Adobe Experience Cloud。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: '创建客户属性来源并上传数据文件 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
