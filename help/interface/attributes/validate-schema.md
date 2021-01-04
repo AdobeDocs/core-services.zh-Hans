@@ -1,5 +1,5 @@
 ---
-description: 了解如何验证Adobe Experience Cloud的客户属性模式。
+description: 了解如何验证 Adobe Experience Cloud 中的客户属性架构。
 keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
 title: '如何验证客户属性模式 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
