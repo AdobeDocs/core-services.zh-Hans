@@ -1,5 +1,5 @@
 ---
-description: Adobe Scene7如何使用cookies存储可用于将动态媒体投放到浏览器的有用信息。
+description: Adobe Scene7 如何使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
