@@ -1,9 +1,9 @@
 ---
 source-git-commit: 9ee72351a36bc545665be727120ee9fe639b9c87
-workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+translation-type: ht
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 # 贡献文章
