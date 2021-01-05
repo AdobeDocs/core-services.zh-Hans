@@ -1,5 +1,5 @@
 ---
-description: 了解 Search&Promote 如何使用 Cookie 来了解和预见访客的搜索意图。
+description: 了解 Search&Promote 如何使用 Cookie 来领会和预见访客的搜索意图。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Search 和 Promote Cookie '
