@@ -1,5 +1,5 @@
 ---
-description: 了解用于将广告互动事件映射到转化事件的 Adobe Ad Cloud Cookie，并可能使用该信息来优化广告投标。
+description: 了解用于将广告互动事件映射到转化事件的 Adobe Ad Cloud Cookie，并可能会使用该信息来优化广告投标。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
