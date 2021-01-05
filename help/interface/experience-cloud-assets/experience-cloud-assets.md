@@ -1,5 +1,5 @@
 ---
-description: 了解可以跨解决方案共享的Experience Cloud资产。
+description: 了解可在各个解决方案之间共享的 Experience Cloud Assets。
 solution: Experience Cloud
 title: 'Experience Cloud Assets 概述 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud Assets 概述
 
-Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
+Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
 资产服务包括：
 
@@ -28,9 +28,9 @@ Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型
 * **[!DNL Media Optimizer]**：跨不同渠道和营销活动制定广告单元
 * **[!DNL Campaign]**：将资产放入电子邮件新闻稿和营销活动。
 
-在 [!UICONTROL Experience Cloud 资产]中，您可以：
+在 [!UICONTROL Experience Cloud Assets] 中，您可以：
 
-* [导航到 Experience Cloud 资产](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
+* [导航到 Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [访问工具栏](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [编辑资产](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [搜索资产](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
@@ -40,7 +40,7 @@ Experience Cloud 资产为可在各个解决方案之间共享的营销就绪型
 * [运行使用情况报表](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 * [与 Experience Manager 共享资产](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
-## 导航到 Experience Cloud 资产 {#section_3657039DD3524F2AA88753BFF4781125}
+## 导航到 Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![](assets/asset-nav.png)
 
