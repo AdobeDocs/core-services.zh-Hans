@@ -1,9 +1,9 @@
 ---
 title: '客户属性对《通用数据保护条例》的支持 '
 description: 了解客户属性对《通用数据保护条例》的支持
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
