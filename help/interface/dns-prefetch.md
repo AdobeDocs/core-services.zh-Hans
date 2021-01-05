@@ -3,9 +3,9 @@ description: 如何对 Adobe Experience Cloud 中不同的解决方案和服务�
 solution: Experience Cloud
 title: '将 DNS 预获取用于不同的解决方案和服务 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
 ht-degree: 100%
 
