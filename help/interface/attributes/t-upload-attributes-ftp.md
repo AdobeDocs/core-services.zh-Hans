@@ -2,13 +2,13 @@
 description: 如果您不使用拖放操作上传，则可以通过 FTP 将客户属性数据上传到 Experience Cloud。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: '通过FTP上传客户属性数据文件 '
+title: '通过 FTP 上传客户属性数据文件 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >
 >在上传文件之前，先查看[上传客户属性的数据文件要求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)。
 
-文件上传到客户属性FTP站点可通过FTP或SFTP完成：
+可通过 FTP 或 SFTP，将文件上传到客户属性 FTP 站点。
 
 * 您需要支持 SFTP 连接的客户端。
 * 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://docs.adobe.com/help/zh-Hans/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所示。
