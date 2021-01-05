@@ -1,14 +1,14 @@
 ---
-description: 了解 Adobe Target 如何使用 Cookie 让网站运营者能够测试哪些在线内容和选件与访客更相关。
+description: 了解 Adobe Target 如何使用 Cookie，以便让网站运营者能够测试哪些在线内容和选件与访客更相关。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target,Social
-title: '如何使用Adobe TargetCookie '
+title: '如何使用 Adobe Target Cookie '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
