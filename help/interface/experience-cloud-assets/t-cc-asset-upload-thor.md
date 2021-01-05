@@ -1,5 +1,5 @@
 ---
-description: 了解如何从 Creative Cloud 桌面将资产上传到 Experience Cloud 中的共享文件夹。
+description: 了解如何将资产从 Creative Cloud 桌面版上传到 Experience Cloud 中的共享文件夹。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: '从 Creative Cloud 桌面将资产上传到共享文件夹 '
