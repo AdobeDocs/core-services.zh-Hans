@@ -4,13 +4,13 @@ keywords: core services
 seo-description: 激活包括以下最新的标签管理产品：Experience Platform Launch。Dynamic Tag Management (DTM)；以及触发器。
 seo-title: 激活
 solution: Experience Cloud
-title: 激活服务Experience Cloud
+title: Experience Cloud 中的激活服务
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
