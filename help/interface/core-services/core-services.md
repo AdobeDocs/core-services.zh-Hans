@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '为核心服务启用解决方案 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ## 步骤 1. 加入 Experience Cloud 并成为管理员 {#section_2423F0BD3DF642658103310EE5EA6154}
 
-加入Experience Cloud必须做的事：
+加入 Experience Cloud 时必须执行的操作：
 
 ![](assets/step1_icon.png) 确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
 
@@ -99,7 +99,7 @@ ht-degree: 97%
 
 ## Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需要获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。）
 
@@ -173,7 +173,7 @@ mbox 请求中的 Experience Cloud ID：
 
 例如，如果网站的支持部分是在单独的 CMS 中管理的，则此部分可能有不同的 Analytics JavaScript 文件。如果您在将 ID 服务部署到支持网站之前，在主要网站上部署了 Experience Cloud ID，则新访客在访问支持部分时会收到一个旧版 Analytics ID，而且跨两个网站区域的访问都将会报告为不同访问。
 
-在使用多个JavaScript文件或其他技术(如Experience Cloud)的站点上部署Experience CloudID服务可能会导致协调问题，因为您必须同时在站点的所有部分上启用FlashID服务。 通过配置一个宽限期，新的访客可以继续从 ID 服务中接收 Analytics 访客 ID，这样对于网站中没有升级为使用访客 ID 服务的部分而言，也可以始终如一地识别访客。
+在使用多个 JavaScript 文件或其他技术（例如 Flash）的网站上部署 Experience Cloud ID 服务时，可能会导致协调问题，因为您必须同时对网站的所有部分都启用 Experience Cloud ID 服务。通过配置一个宽限期，新的访客可以继续从 ID 服务中接收 Analytics 访客 ID，这样对于网站中没有升级为使用访客 ID 服务的部分而言，也可以始终如一地识别访客。
 
 ## 步骤 7. 管理用户和产品 {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -212,7 +212,7 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 * [!DNL Analytics] 键/值对（prop、eVar、list var 等等）。默认情况下，日志行包含 IP 地址，其中包含 IP 的最后一个八位字节（假定 IP 地址没有被 Adobe [!DNL Analytics] 中的 IP 模糊设置所修改）。
 * 根据 Audience Manager 中设置的规则，受众符合资格的特征和区段。
 * （可选）您的一个或多个 ID。根据 ID 服务的实施，您可能还会发送一个或多个 ID，例如 CRM ID 或哈希电子邮件地址。如果此数据被发送到 Adobe [!DNL Analytics]，则会转给 Adobe 受众管理。Adobe 不建议将个人数据提交给 Adobe [!DNL Analytics]。而是使用单向哈希对数据进行掩饰，然后再发送给 Adobe。
-* 通过后端段共享功能来源于[!DNL Analytics]的段
+* 来自 [!DNL Analytics] 且通过后端区段共享功能获得的区段。
 * 如果未阻止第三方 Cookie，则设置 demdex.net Cookie。`AMCV_###@AdobeOrg` 第一方 Cookie 始终通过 Experience Cloud ID 设置。
 
 所有这些数据元素都将以日志文件的形式传送到 Adobe Audience Manager。Audience Manager 将在美国境内的服务器上处理并存储这些数据。Audience Manager 不提供在美国境外的服务器上存储或处理此数据的选项。
@@ -225,4 +225,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/data-collection/opt-out.html)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
