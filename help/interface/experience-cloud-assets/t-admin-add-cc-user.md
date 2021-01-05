@@ -1,12 +1,12 @@
 ---
-description: '了解用于管理 Experience Cloud 中已批准的 Creative Cloud 用户的管理工具。 '
+description: '了解 Experience Cloud 中用于管理已批准的 Creative Cloud 用户的管理工具。 '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: '管理 Creative Cloud 用户 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
