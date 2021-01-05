@@ -1,14 +1,14 @@
 ---
-description: 了解Exchange Marketplace，它是一个单一的目标，您可以通过应用程序搜索、浏览、选择、支付和下载数字营销扩展。
+description: 了解 Exchange Marketplace，这是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。
 keywords: core services
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
