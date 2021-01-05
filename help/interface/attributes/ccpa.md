@@ -1,9 +1,9 @@
 ---
 title: '客户属性对《加州消费者隐私法案》的支持 '
 description: 客户属性对《加州消费者隐私法案》的支持
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
