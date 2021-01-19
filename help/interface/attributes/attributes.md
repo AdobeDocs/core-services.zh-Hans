@@ -1,19 +1,19 @@
 ---
-description: 了解 Adobe Experience Cloud 中的客户属性服务，并了解如何上传数据以便在 Analytic 和 Target 中使用。
-keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
+title: 如何使用客户属性
+description: 了解Adobe Experience Cloud的客户属性服务。 了解如何上传数据以用于Adobe分析和Adobe Target。
 solution: Experience Cloud
-title: '如何使用客户属性 '
-uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+feature: Customer Attributes
+role: Administrator
+translation-type: tm+mt
+source-git-commit: 654b13b2053df2c91b4c539b4d37b66c6008d759
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 92%
 
 ---
 
 
-# 如何使用 Adobe Experience Cloud 中的客户属性
+# 如何在Adobe Experience Cloud使用客户属性
 
 Adobe Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以将该数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
 
