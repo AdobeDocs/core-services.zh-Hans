@@ -1,19 +1,19 @@
 ---
-title: 什么是客户属性以及它们如何工作？
+title: 什么是客户属性？
 description: 了解Adobe Experience Cloud的客户属性服务。 了解如何上传客户属性数据以用于Adobe分析和Adobe Target。
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 253ec3d13c66be792214e09616f83e8b24929c3c
+source-git-commit: 9aebc0221b4d35c31968394ebb159f10f82960bd
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 91%
+source-wordcount: '482'
+ht-degree: 93%
 
 ---
 
 
-# 如何在Experience Cloud中使用客户属性
+# Experience Cloud 中的客户属性
 
 Adobe Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以将该数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
 
