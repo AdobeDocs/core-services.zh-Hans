@@ -1,13 +1,12 @@
 ---
-description: 了解如何在 Adobe Experience Cloud 受众服务中管理访客数据到受众分段的转换。
 solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud 受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
-workflow-type: ht
-source-wordcount: '814'
+translation-type: tm+mt
+source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ ht-degree: 100%
 | 帮助信息 | 资源 |
 |--- |--- |
 | 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md)。<br>单击[此处](https://www.adobe.com/go/audiences)请求“配置文件与受众”（集成配置表单）的访问权限。 |
-| 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://helpx.adobe.com/cn/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 论坛 | [受众论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是获取受众相关帮助的额外资源。 |
 
 ## 受众库界面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
