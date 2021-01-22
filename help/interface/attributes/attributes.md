@@ -1,14 +1,14 @@
 ---
 title: 如何使用客户属性
-description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据以在Adobe Analytics和Adobe Target使用。
+description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87676bd0159ec0a4505799b0ca6b70a604f0a61f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
