@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: '为核心服务启用解决方案 '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ ht-degree: 96%
 
 加入 Experience Cloud 时必须执行的操作：
 
-![](assets/step1_icon.png) 确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
+1.  确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
 
-* **Adobe Analytics：** Standard 或 Premium（不是旧版 [!DNL SiteCatalyst] SKU）。
-* **Adobe Target：** Standard 或 Premium。
+   * **Adobe Analytics：** Standard 或 Premium（不是旧版 [!DNL SiteCatalyst] SKU）。
+   * **Adobe Target：** Standard 或 Premium。
 
->[!NOTE]
->
->对于 [!DNL Target]，请从 [!DNL mbox.js] 迁移到 at.js。请参阅[从 at.js 1.x 升级到 at.js 2.x](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)。
+   >[!NOTE]
+   >
+   >对于 [!DNL Target]，请从 [!DNL mbox.js] 迁移到 at.js。请参阅[从 at.js 1.x 升级到 at.js 2.x](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)。
 
-![](assets/step2_icon.png) 使您的实施符合现代化要求并进行管理员身份配置。
+1.  使您的实施符合现代化要求并进行管理员身份配置。
 
-1. 请按照下文[部署 [!UICONTROL Experience Cloud ID 服务]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的步骤执行操作。
-1. 请联系您的客户经理，然后开始配置 Experience Cloud。
+   * 按照[实施[!UICONTROL Experience CloudID服务]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的以下步骤操作。
+   * 请联系您的客户经理，然后开始配置 Experience Cloud。
 
-![](assets/step3_icon.png)在 [!UICONTROL Admin Console] 中管理用户和产品。
+1. 在 [!UICONTROL Admin Console] 中管理用户和产品。
 
 ### 管理员登录
 
@@ -54,18 +54,18 @@ ht-degree: 96%
 
 您将会在 Experience Cloud 菜单导航中看到&#x200B;**[!UICONTROL 管理]**&#x200B;链接。
 
-如需帮助，请参阅 [Experience Cloud 用户和产品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
+有关详细信息，请参阅[Experience Cloud用户和产品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
 
 ### 用户登录
 
 要登录到 Experience Cloud，您的用户必须：
 
-1. 拥有 Adobe ID（或您公司的 Enterprise ID）。
-1. 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-1. 属于映射到企业群组的解决方案群组。
-1. 如有必要，请将其解决方案帐户关联到 Adobe ID（如下所述）。
+* 拥有 Adobe ID（或您公司的 Enterprise ID）。
+* 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+* 属于映射到企业群组的解决方案群组。
+* 如有必要，请将其解决方案帐户关联到 Adobe ID（如下所述）。
 
-![](assets/step4_icon.png)可选：关联现有的用户帐户。
+### 可选：关联现有的用户帐户。
 
 您的用户很有可能已经是解决方案群组的成员，例如先前在 [!UICONTROL Analytics] > [!UICONTROL 管理工具]中管理的 Analytics 群组。
 
