@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '为核心服务启用解决方案 '
 index: true
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '2362'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '2351'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 1. [管理用户和产品](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [开始共享属性和受众数据](#section_960C06093623462E8EA247B3E97274A1)
 
-## 步骤 1. 加入 Experience Cloud 并成为管理员 {#section_2423F0BD3DF642658103310EE5EA6154}
+## 加入 Experience Cloud 并成为管理员 {#section_2423F0BD3DF642658103310EE5EA6154}
 
 加入 Experience Cloud 时必须执行的操作：
 
@@ -79,13 +79,13 @@ ht-degree: 100%
 
 以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在 Experience Cloud 中启用核心服务。
 
-## 步骤 2. 使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management] 实施 [!UICONTROL Experience Cloud ID 服务]。{#section_3C9F6DF37C654D939625BB4D485E4354}
+## 实施[!UICONTROL Experience CloudID服务] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 [!UICONTROL Experience Cloud ID 服务]为跨解决方案集成提供了一个通用 ID。它提供了跨域访客标识功能，并为基于通过[!UICONTROL 客户属性]上传的 CRM 数据进行跨设备/浏览器定位和个性化提供了一种途径。
 
-启用 Experience Cloud 核心服务的最简单方法是，通过 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID 服务扩展](https://docs.adobe.com/content/help/zh-Hans/launch/using/implement/solutions/idservice-save.html)或者通过 [!UICONTROL Dynamic Tag Management] 中的 ECID 工具，为 Analytics 和 Adobe Target 自动激活核心服务。（强烈建议使用 Experience Platform Launch。）
+启用Experience Cloud核心服务的最简单方法是通过[!UICONTROL Experience Platform Launch]中的[Experience CloudID服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref)为Analytics和Adobe Target自动激活它。
 
-有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
+有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)。
 
 **没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]？**
 
@@ -97,9 +97,9 @@ ht-degree: 100%
 | 将现有的 [!DNL s_code] 更新到 H.27.3 或更高版本，或将现有的 [!DNL AppMeasurement.js] 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/code-manager-admin.html)中下载获得。（如果您需要了解有关 [!DNL AppMeasurement.js] 的更多信息，请参阅 [JavaScript 实施](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)指南。） |
 | 为 Analytics 同步客户 ID | 请参阅 [Analytics - 同步客户 ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437)（如下）。 |
 
-## Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
+### Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需要获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。）
 
@@ -122,21 +122,25 @@ ht-degree: 100%
 
 请联系客户关怀以启用历史数据。
 
-## 步骤 3. 将报表包映射到 Experience Cloud 组织 {#section_7B08516B01BA421681DF03D0E86CE3BA}
+## 将报表包映射到 Experience Cloud 组织 {#section_7B08516B01BA421681DF03D0E86CE3BA}
+
+>[!NOTE]
+>
+>报表包映射功能在2020年11月弃用。 如有任何问题，请联系客户支持。
 
 Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员服务]）与 Experience Cloud 组织相关联，而不是与单个 Analytics 报表包关联。为确保这些服务能够正确运行，必须将每个 Analytics 报表包映射到 Experience Cloud 组织。
 
 请参阅[将报表包映射到组织](report-suite-mapping.md)。
 
-## 步骤 4. (Adobe Analytics) 更新 Analytics AppMeasurement 代码 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
+## 更新 Analytics AppMeasurement 代码 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-验证您是否位于区域数据收集 (RDC) 中。如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/rdc/regional-data-collection.html)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
+如果您使用的是Analytics，请验证您是否使用区域数据收集(RDC)。 如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/rdc/regional-data-collection.html)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
 
 建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。完成此任务的简单方法是在 Dynamic Tag Management 中添加 [!DNL Adobe Analytics] 工具，以指定 *`Automatic`* 作为配置方法。
 
 在 [!UICONTROL Dynamic Tag Management] 中，单击 **`<Web Property Name>`** > **[!UICONTROL 概述]** > **[!UICONTROL 添加工具]** > **[!UICONTROL Adobe Analytics]**。有关部署信息，请参阅 Dynamic Tag Management 中的 [Adobe Analytics 设置](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/analytics-dtm.html)。
 
-## 步骤 5. (Adobe Target) 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
+## 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform Launch] 为 Adobe Target（和其他解决方案）设置 [Experience Cloud ID 服务扩展](https://docs.adobe.com/content/help/zh-Hans/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)。Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。（如果使用 [!UICONTROL Dynamic Tag Management]，请添加 [Adobe Target 工具](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/target.html)。您还可以使用 [!UICONTROL Dynamic Tag Management] 来为 Adobe Target 部署 Experience Cloud ID 服务。）
 * 如果您没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]，请手动[更新 mbox 库](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html)。
@@ -146,7 +150,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
    >
    >已针对客户属性等核心服务配置了所有 Analytics 客户。如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
 
-## 步骤 6. 验证实施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## 验证实施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 请使用以下流程以确保在您的网站上正确实施 Experience Cloud ID 服务。
 
@@ -175,7 +179,7 @@ mbox 请求中的 Experience Cloud ID：
 
 在使用多个 JavaScript 文件或其他技术（例如 Flash）的网站上部署 Experience Cloud ID 服务时，可能会导致协调问题，因为您必须同时对网站的所有部分都启用 Experience Cloud ID 服务。通过配置一个宽限期，新的访客可以继续从 ID 服务中接收 Analytics 访客 ID，这样对于网站中没有升级为使用访客 ID 服务的部分而言，也可以始终如一地识别访客。
 
-## 步骤 7. 管理用户和产品 {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
+## 管理用户和产品 {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
 启动并运行后，导航至 [Admin Console](https://adminconsole.adobe.com/)，您可以在其中管理用户和产品配置文件。
 
@@ -187,7 +191,7 @@ mbox 请求中的 Experience Cloud ID：
 
 添加到[!UICONTROL 客户属性]群组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单项。
 
-## 步骤 8. 开始共享属性和受众数据 {#section_960C06093623462E8EA247B3E97274A1}
+## 开始共享属性和受众数据 {#section_960C06093623462E8EA247B3E97274A1}
 
 充分利用以下功能。
 
@@ -225,4 +229,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/data-collection/opt-out.html)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
