@@ -2,11 +2,11 @@
 description: 了解如何在 Experience Cloud 中将一个或多个报表包映射到组织。
 title: '将报表包映射到组织 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->报表包映射功能在2020年11月弃用。 如有任何问题，请联系客户支持。
+>报表包映射功能已于 2020 年 11 月被弃用。如有任何问题，请联系客户支持。
 
 Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员]）与组织关联，而不是与单个报表包关联。为确保这些服务能够正确运行，必须将每个 Analytics 报表包映射到组织。映射过程：
 
