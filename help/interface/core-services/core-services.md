@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
 source-wordcount: '2352'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ ht-degree: 95%
 
 以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在 Experience Cloud 中启用核心服务。
 
-## 实施[!UICONTROL Experience CloudID服务] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## 实施 [!UICONTROL Experience Cloud ID 服务] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 [!UICONTROL Experience Cloud ID 服务]为跨解决方案集成提供了一个通用 ID。它提供了跨域访客标识功能，并为基于通过[!UICONTROL 客户属性]上传的 CRM 数据进行跨设备/浏览器定位和个性化提供了一种途径。
 
-启用Experience Cloud核心服务的最简单方法是通过[!UICONTROL Experience Platform Launch]中的[Experience CloudID服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref)为Analytics和Adobe Target自动激活它。
+启用 Experience Cloud 核心服务的最简单方法是，通过 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=zh-Hans#extensions-ref)为 Analytics 和 Adobe Target 自动激活核心服务。
 
-有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)。
+有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans#intro)。
 
 **没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]？**
 
@@ -126,7 +126,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->报表包映射功能在2020年11月弃用。 如有任何问题，请联系客户支持。
+>报表包映射功能已于 2020 年 11 月被弃用。如有任何问题，请联系客户支持。
 
 Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员服务]）与 Experience Cloud 组织相关联，而不是与单个 Analytics 报表包关联。为确保这些服务能够正确运行，必须将每个 Analytics 报表包映射到 Experience Cloud 组织。
 
@@ -134,7 +134,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ## 更新 Analytics AppMeasurement 代码 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-如果您使用的是Analytics，请验证您是否使用区域数据收集(RDC)。 如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/rdc/regional-data-collection.html)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
+如果您使用的是 Analytics，请验证您是否使用区域数据收集 (RDC)。如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://docs.adobe.com/content/help/zh-Hans/analytics/technotes/rdc/regional-data-collection.html)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
 
 建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。完成此任务的简单方法是在 Dynamic Tag Management 中添加 [!DNL Adobe Analytics] 工具，以指定 *`Automatic`* 作为配置方法。
 
