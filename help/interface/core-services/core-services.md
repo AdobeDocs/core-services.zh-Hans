@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '为核心服务启用解决方案 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2352'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 加入 Experience Cloud 时必须执行的操作：
 
-1.  确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
+1. 确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
 
    * **Adobe Analytics：** Standard 或 Premium（不是旧版 [!DNL SiteCatalyst] SKU）。
    * **Adobe Target：** Standard 或 Premium。
@@ -41,9 +41,9 @@ ht-degree: 99%
    >
    >对于 [!DNL Target]，请从 [!DNL mbox.js] 迁移到 at.js。请参阅[从 at.js 1.x 升级到 at.js 2.x](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)。
 
-1.  使您的实施符合现代化要求并进行管理员身份配置。
+1. 使您的实施符合现代化要求并进行管理员身份配置。
 
-   * 按照[实施[!UICONTROL Experience CloudID服务]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的以下步骤操作。
+   * 请按照下文[实施 [!UICONTROL Experience Cloud ID 服务]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的步骤执行操作。
    * 请联系您的客户经理，然后开始配置 Experience Cloud。
 
 1. 在 [!UICONTROL Admin Console] 中管理用户和产品。
@@ -54,7 +54,7 @@ ht-degree: 99%
 
 您将会在 Experience Cloud 菜单导航中看到&#x200B;**[!UICONTROL 管理]**&#x200B;链接。
 
-有关详细信息，请参阅[Experience Cloud用户和产品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
+有关更多信息，请参阅 [Experience Cloud 用户和产品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
 
 ### 用户登录
 
@@ -99,7 +99,7 @@ ht-degree: 99%
 
 ### Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需要获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。）
 
@@ -229,4 +229,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/data-collection/opt-out.html)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
