@@ -1,14 +1,13 @@
 ---
-description: 了解有关登录到 Adobe Admin Console 并管理 Experience Cloud 用户权限和产品配置文件，以及浏览器支持的信息。
-keywords: Experience Cloud services
-solution: Experience Cloud
-title: '了解如何管理用户和产品 '
+description: 了解如何管理Adobe Experience Cloud用户权限和产品用户档案。 了解如何登录Adobe Admin Console以及浏览器支持Experience Cloud。
+solution: Admin
+title: '如何管理用户和产品 '
 index: true
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 100%
+source-wordcount: '1421'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 ## Experience Cloud 用户管理中的新增功能 {#concept_06A0A13362F644FB90F947238407637A}
 
-了解 Experience Cloud 用户管理的最新功能。
+了解Experience Cloud用户和产品管理的最新功能。
 
 <!-- ### Business ID type
 
@@ -44,7 +43,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 ## 登录到 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-管理员不再管理解决方案中的用户。Experience Cloud 的用户和产品管理现在在 Admin Console 中进行。
+管理员不再管理特定产品解决方案中的用户。 Experience Cloud 的用户和产品管理现在在 Admin Console 中进行。
 
 要登录 Admin Console，请执行以下操作：
 
@@ -57,17 +56,17 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 Creative Cloud 和 Document Cloud 的[管理用户指南](https://helpx.adobe.com/cn/enterprise/using/users.html)。某些信息与 Experience Cloud 用户管理相关，例如[管理身份类型](https://helpx.adobe.com/enterprise/help/identity.html)。
 
-[登录并管理配置文件设置](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)，以管理密码、组织和通知。
+[登录并管理配置文件设置](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
 ## 产品配置文件和组 {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 产品配置文件的添加标志着以前管理解决方案产品和服务的方式（通过使用组）发生了转变。在 Admin Console 中，权限基于产品配置文件，即您可以分配给用户的产品和服务组。
 
-例如，在 Analytics 中，您可以配置报表工具集合（如 Analysis Workspace 和 Report Builder）以及报表包、量度、维度等。您可以通过将用户添加到产品配置文件来授予其对产品配置文件的权限。请参阅[将 Analytics 访问权限分配给产品配置文件](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)。
+例如，在 Analytics 中，您可以配置报表工具集合（如 Analysis Workspace 和 Report Builder）以及报表包、量度、维度等。您可以通过将用户添加到产品配置文件来授予其对产品配置文件的权限。请参阅本页中的[为产品用户档案](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)分配Analytics访问权限。
 
-**相关帮助**
+**委托管理权**
 
-[授权有限的管理权限](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
+请参阅本页中的[委派受限管理权限](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)。
 
 ## Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -117,17 +116,17 @@ Adobe 企业客户在 Adobe Admin Console 中表示为 IMS 组织。这是 Adobe
 
 请参阅 [AEM as a Cloud Service 的 IMS 支持](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)。
 
-## 动态标签管理器 {#section_3A41CF2BD5994B9891537D063571D4ED}
+## Experience Platform Launch{#section_3A41CF2BD5994B9891537D063571D4ED}
 
-您可以邀请用户使用 Dynamic Tag Management、分配用户角色和将用户添加到群组。
+邀请用户加入[!UICONTROL 平台启动]并分配用户角色和权限。
 
-有关如何邀请用户使用 Dynamic Tag Management、分配用户角色以及将用户添加到群组的信息，请参阅[用户和权限](https://docs.adobe.com/content/help/zh-Hans/dtm/using/admin/users.html)。
+请参阅[用户权限](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#admin)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 创建 Audience Manager 用户并将其分配给组。您还可以查看限制（特征、区段、目标和 [!DNL AlgoModel]）。
 
-请参阅 Audience Manager 帮助中的[管理](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html)。
+请参阅 Audience Manager 帮助中的[管理](https://docs.adobe.com/content/help/zh-Hans/dtm/using/admin/users.html)。
 
 ## 管理 Experience Cloud 产品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
