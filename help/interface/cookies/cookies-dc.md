@@ -1,14 +1,18 @@
 ---
 description: 了解 Adobe Data Connectors 如何使用 Cookie 跨多个广告渠道向广告商提供优化的活动和转化绩效指标。
-keywords: cookies;privacy
+keywords: cookies;隐私
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors Cookie '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '72'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 98%
 
 ---
 
