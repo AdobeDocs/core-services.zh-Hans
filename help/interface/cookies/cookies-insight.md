@@ -1,14 +1,18 @@
 ---
 description: Data Workbench 如何使用 Cookie 实时分析大量瞬息万变的数据。
-keywords: cookies;privacy
+keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench Cookie '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
+feature: Cookie
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 98%
 
 ---
 
