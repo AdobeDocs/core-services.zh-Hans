@@ -1,14 +1,18 @@
 ---
 description: 有关 Adobe Experience Cloud 帮助的更新信息。
-keywords: Experience Cloud services
+keywords: Experience Cloud 服务
 solution: Experience Cloud
-title: '文档更新 - Experience Cloud '
+title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '251'
-ht-degree: 100%
+feature: “客户属性、受众库、Admin Console、资产”
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 96%
 
 ---
 
