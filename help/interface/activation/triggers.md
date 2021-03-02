@@ -1,16 +1,20 @@
 ---
-description: 如何配置 Experience Cloud 触发器。
-keywords: integrations;Triggers
+description: 了解如何配置Experience Cloud触发器。
+keywords: 集成;触发器
 seo-description: 如何配置 Experience Cloud 触发器。
 seo-title: 触发器
 solution: Experience Cloud
 title: '触发器概述 '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
+feature: Admin Console
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 98%
 
 ---
 
