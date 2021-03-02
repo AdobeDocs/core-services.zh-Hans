@@ -1,15 +1,19 @@
 ---
 description: 了解 Adobe Analytics 如何使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。
-keywords: cookies;privacy
+keywords: cookies;隐私
 solution: Experience Cloud,Analytics
-title: '如何使用第一方 Cookie '
+title: '"第一方 Cookie "'
 index: y
 snippet: y
+feature: Cookie
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 100%
+source-wordcount: '1447'
+ht-degree: 99%
 
 ---
 
