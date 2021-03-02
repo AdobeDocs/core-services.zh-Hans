@@ -1,11 +1,15 @@
 ---
 title: '发布 Analytics 受众区段 '
 description: 如何将 Adobe Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '65'
-ht-degree: 100%
+feature: 受众库
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 98%
 
 ---
 
