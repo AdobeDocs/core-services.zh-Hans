@@ -1,14 +1,18 @@
 ---
 description: 了解 Adobe Experience Cloud 中的可用解决方案集成。
-keywords: integrations
+keywords: 集成
 solution: Experience Cloud
 title: 'Experience Cloud 集成 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
+feature: Admin Console
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 100%
+source-wordcount: '1516'
+ht-degree: 99%
 
 ---
 
