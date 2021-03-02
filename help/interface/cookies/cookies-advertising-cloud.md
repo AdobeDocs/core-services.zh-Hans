@@ -2,11 +2,11 @@
 description: 了解用于将广告互动事件映射到转化事件的 Adobe Ad Cloud Cookie，并可能会使用该信息来优化广告投标。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
-   <td colname="col2"> <p>于2021年2月24日或更早版本设置的Cookie在730天后过期。 设置于2021年2月25日或更高版本的Cookie在364天后过期。</p> </td> 
+   <td colname="col2"> <p>在 2021 年 2 月 24 日或之前设置的 Cookie 在 730 天后过期。在 2021 年 2 月 25 日或之后设置的 Cookie 在 364 天后过期。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用情况 </p> </td> 
