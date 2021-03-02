@@ -3,13 +3,17 @@ description: 了解云的最新品牌更新，如何导航界面，以及在何�
 seo-description: 了解云的最新品牌更新，如何导航界面，以及在何处查找有关解决方案和核心服务的帮助。
 seo-title: 关于 Experience Cloud 中的新云名称
 solution: Experience Cloud
-title: '关于 Experience Cloud 中的新云名称 '
+title: '关于Experience Cloud中的云名称 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
+feature: Admin Console
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
