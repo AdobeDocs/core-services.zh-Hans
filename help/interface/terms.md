@@ -1,16 +1,20 @@
 ---
 description: 了解 Adobe Experience Cloud 中的术语，以及这些术语在 Creative Cloud 中差异。
-keywords: asset sharing;audience services;Creative Cloud;core services
+keywords: 资产共享;受众服务;Creative Cloud;核心服务
 seo-description: 'null'
 seo-title: 术语
 solution: Experience Cloud
 title: '术语 '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
+feature: “客户属性、受众库、Admin Console”
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 100%
+source-wordcount: '1506'
+ht-degree: 99%
 
 ---
 
