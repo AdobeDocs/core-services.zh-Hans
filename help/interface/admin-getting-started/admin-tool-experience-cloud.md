@@ -1,14 +1,18 @@
 ---
-description: 了解 Experience Cloud 管理工具，以查看所有 Experience Cloud 用户和策略的可排序和可过滤列表。
-keywords: core services
+description: 了解Experience Cloud Admin Tool。视图所有Experience Cloud用户和策略的可排序和可过滤的列表。
+keywords: 核心服务
 solution: Experience Cloud
 title: '查看 Experience Cloud 用户和用户详细信息 '
 index: true
-translation-type: ht
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: ht
-source-wordcount: '1243'
-ht-degree: 100%
+feature: Admin Console
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +79,7 @@ ht-degree: 100%
 * 名称
 * 电子邮件
 * 用户名（Federated ID 帐户的用户名可能与电子邮件地址不同）
-* [ID 类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)
+* [ID 类型](https://helpx.adobe.com/enterprise/using/identity.html)
 * 国家/地区
 * 上次登录
 
