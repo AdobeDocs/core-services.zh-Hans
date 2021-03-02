@@ -1,14 +1,18 @@
 ---
 description: 有关 Adobe Experience Cloud、Adobe Analytics 和 Adobe Target 中客户属性的常见问题解答。
-keywords: Customer Attributes
+keywords: 客户属性
 solution: Experience Cloud
 title: '获取有关客户属性的常见问题解答 '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
+feature: 客户属性
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 100%
+source-wordcount: '1240'
+ht-degree: 99%
 
 ---
 
