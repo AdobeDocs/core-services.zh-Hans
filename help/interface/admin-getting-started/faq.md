@@ -1,14 +1,18 @@
 ---
 description: 了解 Adobe Experience Cloud 支持的浏览器，以及面向管理员的常见问题解答。
-keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
+keywords: 核心服务，Experience Cloud,Experience Platform，分析，目标，用户管理。
 solution: Experience Cloud
 title: '关于 Experience Cloud 的常见问题解答 '
 index: true
+feature: Admin Console
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
