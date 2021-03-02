@@ -1,16 +1,16 @@
 ---
 description: Experience Cloud 中的新增功能和更新概述。
-keywords: core services
+keywords: 核心服务
 seo-description: Experience Cloud 中的新增功能和更新概述。
 seo-title: Experience Cloud 的新增功能
 solution: Experience Cloud
 title: 'Experience Cloud 的新增功能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud 中的新增功能和更新概述。
 * 改进了 Creative Cloud 和 Experience Cloud 之间的资产评论同步。(CORE-15971)
 * 添加了用于控制 Experience Cloud 与 Creative Cloud 间资产同步的功能标记。(CORE-15938)
 * 改进了受众区段的创建，包括更好的搜索和列表体验。（CORE-5833、CORE-14278）
-* 修复了阻止将文件夹从 MAC 共享到 Creative Cloud 的高优先级问题。(CORE-16677)
+* 修复了阻止文件夹共享从Experience Cloud到Creative Cloud的高优先级问题。 (CORE-16677)
 
 ## 2018 年 7 月 19 日 {#section_EBB549EBABB7480884A180237ADCCD02}
 
