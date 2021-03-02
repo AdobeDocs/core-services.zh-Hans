@@ -1,14 +1,14 @@
 ---
 description: 了解如何实施 Adobe Experience Cloud 并成为管理员。
-keywords: core services;Customer Attributes
+keywords: 核心服务；客户属性
 solution: Experience Cloud
 title: '为核心服务启用解决方案 '
 index: true
-translation-type: ht
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
-workflow-type: ht
-source-wordcount: '2352'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '2357'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如果您最近通过 Experience Platform Launch 实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
-对于现有客户，您可能需要以更符合现代化的要求来实施解决方案，并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中利用客户属性和受众功能。为此，您将执行以下操作：
+对于现有客户，您可能需要以更符合现代化的要求来实施解决方案，并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中利用客户属性和受众功能。要完成此实施，您将：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -99,7 +99,7 @@ ht-degree: 100%
 
 ### Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需要获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。）
 
@@ -229,4 +229,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/data-collection/opt-out.html)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以启用跨域跟踪。
