@@ -1,14 +1,18 @@
 ---
-description: Experience Cloud 界面的功能、发行说明和已知问题。
-keywords: core services
+description: “Experience Cloud服务的最新功能、发行说明和已知问题，如客户属性、受众和用户管理。”
+keywords: 核心服务
 solution: Experience Cloud
 title: '发行说明汇总 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '3954'
-ht-degree: 100%
+feature: “客户属性、受众库、Admin Console”
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '3973'
+ht-degree: 99%
 
 ---
 
