@@ -1,14 +1,18 @@
 ---
 description: Adobe Scene7 如何使用 Cookie 存储可用来将动态媒体传递到浏览器的有用信息。
-keywords: cookies;privacy
+keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
+feature: Cookie
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 99%
 
 ---
 
