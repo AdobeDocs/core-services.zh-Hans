@@ -1,14 +1,14 @@
 ---
 description: 如何与 Creative Cloud 用户共享 Experience Cloud 资产文件夹。
-keywords: asset sharing;Creative Cloud;core services
+keywords: 资产共享;Creative Cloud; 核心服务
 solution: Experience Cloud
 title: '共享 Experience Cloud 资产文件夹 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 100%
 
    ![](assets/asset_comment_mac.png)
 
-1. 要取消共享文件夹，请单击&#x200B;**[!UICONTROL 使用 Creative Cloud 共享]**（与[步骤 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996) 类似），然后单击 X 以删除用户，然后再单击&#x200B;**[!UICONTROL 共享]**。
+1. 要取消共享文件夹，请单击&#x200B;**[!UICONTROL 使用Creative Cloud]**&#x200B;共享（与[步骤3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)相似），然后单击X以删除用户，然后单击&#x200B;**[!UICONTROL 共享]**。
 
 ![](assets/asset_remove_user.png)
 
-一旦删除完所有的 Creative Cloud 用户，文件夹即被取消共享，且 Creative Cloud 用户不再具有访问权限。
+删除所有Creative Cloud用户后，该文件夹即取消共享，Creative Cloud用户不再有权访问。
 
-使用共享资产的其他方式包括：
+使用共享资源的更多方式包括：
 
 * 在 [!UICONTROL  中将]资产选择器[!DNL Adobe Social]中的资产用于社交帖子。
 * 在 [!DNL Adobe Target] 中加载或交换[选件库](https://docs.adobe.com/help/zh-Hans/target/using/experiences/offers/manage-content.html)中的资产以用于活动中的图像。
