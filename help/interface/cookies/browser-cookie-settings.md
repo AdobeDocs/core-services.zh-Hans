@@ -1,14 +1,18 @@
 ---
-description: 删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。此隐私设置不适用于选择退出 Analytics 数据收集的用户。
-keywords: cookies;privacy
+description: 了解如何为浏览器cookie启用隐私设置。 您可以删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。
+keywords: cookies;隐私
 solution: Experience Cloud, Analytics, Target, Social
-title: '如何启用浏览器 Cookie 的隐私设置 '
+title: '浏览器Cookie的隐私设置 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 95%
 
 ---
 
