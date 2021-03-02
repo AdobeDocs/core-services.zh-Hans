@@ -1,12 +1,12 @@
 ---
 solution: Experience Cloud
-type: Documentation
+type: 文档
 title: 'Adobe Experience Cloud 受众 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: ht
-source-wordcount: '796'
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!DNL Target] | 利用 [ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的区段创建过程中显示的[发布到 Experience Cloud](../audience-library/audience-library.md) 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 Analytics 或 Audience Manager 中创建的区段可用于 [!DNL Target] 中的活动。例如，您可以根据 [!DNL Analytics] 转化量度和在 [!DNL Analytics] 中创建的受众区段，来创建营销活动。 |
 | Audience Manager | 共享受众可在 Audience Manager 分段中使用。所有 Experience Cloud 受众均可在 Audience Manager 本地使用，Audience Manager 提供了以下功能：<ul><li>关于如何在解决方案工作流程中共享和使用受众的内置自动化功能</li><li>非现场目标</li><li>相似建模</li></ul> |
 | Campaign | <ul><li>将从不同 Adobe Experience Cloud 解决方案共享的受众导入到 Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可在您使用的其他 Adobe Experience Cloud 解决方案中使用。</li></ul> |
-| Media Optimizer | 将受众用作目标。 |
+| Advertising Cloud | 将受众用作目标。 |
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 帮助信息 | 资源 |
 |--- |--- |
 | 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md)。<br>单击[此处](https://www.adobe.com/go/audiences)请求“配置文件与受众”（集成配置表单）的访问权限。 |
-| 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://helpx.adobe.com/cn/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 论坛 | [受众论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是获取受众相关帮助的额外资源。 |
 
 ## 受众库界面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
