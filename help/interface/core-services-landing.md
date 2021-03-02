@@ -2,11 +2,15 @@
 description: 了解 Adobe Experience Cloud 用户和产品管理、人员（受众和客户属性）、Journey Orchestration、选件、位置、Experience Platform Launch 和 Mobile Services。
 solution: Experience Cloud
 title: 'Experience Cloud 服务概述 '
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+feature: “客户属性，受众库”
+topic: 管理
+role: 管理员
+level: 富有经验
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 98%
 
 ---
 
