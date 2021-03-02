@@ -1,14 +1,18 @@
 ---
-description: 了解如何实施 Adobe Experience Cloud 并成为管理员。
+description: “实现Adobe Analytics和Adobe Target解决方案的现代化以提供跨解决方案服务。 了解如何使用Experience Cloud服务进行开始。”
 keywords: 核心服务；客户属性
 solution: Experience Cloud
-title: '为核心服务启用解决方案 '
+title: “为您的跨解决方案服务提供解决方案”
 index: true
+feature: 客户属性
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 99%
+source-wordcount: '2369'
+ht-degree: 98%
 
 ---
 
