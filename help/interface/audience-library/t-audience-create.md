@@ -1,14 +1,14 @@
 ---
 description: 了解如何在 Adobe Experience Cloud 中使用属性规则来创建受众和定义复合受众。
-keywords: core services
+keywords: 核心服务
 solution: Experience Cloud
 title: '创建受众 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 97%
 
 ---
 
@@ -89,4 +89,4 @@ ht-degree: 100%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他解决方案。例如，您可以在 Adobe Target 活动中包含共享受众。
+保存受众后，它便可用于其他解决方案。例如，您可以在Adobe Target活动中包含共享受众。
