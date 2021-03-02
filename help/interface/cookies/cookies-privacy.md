@@ -1,14 +1,18 @@
 ---
 description: 了解 Adobe Experience Cloud 解决方案和服务中的 Cookie 和隐私。
-keywords: cookies;privacy
+keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
-title: 'Cookie 和隐私概述 '
+title: 'Cookie和隐私 '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
+feature: Cookie
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 98%
 
 ---
 
