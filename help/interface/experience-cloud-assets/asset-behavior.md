@@ -1,14 +1,18 @@
 ---
 description: 了解共享文件夹在 Experience Cloud 中移动、删除和还原时的行为方式。
-keywords: asset sharing;Creative Cloud;core services
+keywords: 资产共享;Creative Cloud; 核心服务
 solution: Experience Cloud
 title: '共享文件夹的行为 '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
+feature: 资产
+topic: 管理
+role: 管理员
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 99%
 
 ---
 
