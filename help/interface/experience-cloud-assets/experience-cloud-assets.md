@@ -11,14 +11,14 @@ translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
 
 # Experience Cloud Assets 概述
 
-Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其一部分），可以具有多个演绎版并且可以具有子资产（例如，[!DNL Photoshop]文件中的图层、[!DNL PowerPoint]文件中的幻灯片、PDF中的页面、ZIP中的文件）。
+Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
 资产服务包括：
 
@@ -68,7 +68,7 @@ Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪�
 
 ## 搜索资产 {#section_50FE049010B446FC9640AA6A30E5A730}
 
-可以按关键字、文件类型、大小、上次修改时间、发布状态、方向和样式进行搜索。
+您可以按关键词、文件类型、大小、上次修改时间、发布状态、方向和样式进行搜索。
 
 ![](assets/asset-search.png)
 
