@@ -1,6 +1,6 @@
 ---
 description: “实现Adobe Analytics和Adobe Target解决方案的现代化以提供跨解决方案服务。 了解如何使用Experience Cloud服务进行开始。”
-keywords: 核心服务；客户属性
+keywords: 核心服务;客户属性
 solution: Experience Cloud
 title: “为您的跨解决方案服务提供解决方案”
 index: true
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 如果您最近通过 Experience Platform Launch 实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
-对于现有客户，您可能需要以更符合现代化的要求来实施解决方案，并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中利用客户属性和受众功能。要完成此实施，您将：
+对于现有客户，您可能需要以更符合现代化的要求来实施解决方案，并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中利用客户属性和受众功能。要完成此实施，您将执行以下操作：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
