@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -93,4 +93,4 @@ ht-degree: 97%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他解决方案。例如，您可以在Adobe Target活动中包含共享受众。
+保存受众后，它便可用于其他解决方案。例如，您可以在 Adobe Target 活动中包含共享受众。
