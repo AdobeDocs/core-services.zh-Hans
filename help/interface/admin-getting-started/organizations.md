@@ -1,6 +1,6 @@
 ---
 description: 了解组织并将解决方案帐户关联到 Experience Cloud。
-keywords: Adobe Experience Cloud
+keywords: Adobe Experience Cloud 服务
 solution: Experience Cloud
 title: '组织和帐户关联 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
