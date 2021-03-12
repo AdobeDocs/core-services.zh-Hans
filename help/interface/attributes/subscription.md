@@ -1,6 +1,6 @@
 ---
 description: 了解解决方案数据源和配置订阅。订阅后，可在 Experience Cloud 和解决方案（Analytics 和 Target）之间传输客户属性数据流。
-keywords: 客户属性；核心服务
+keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '如何配置订阅 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
@@ -8,11 +8,11 @@ feature: 客户属性
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
