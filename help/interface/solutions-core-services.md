@@ -3,17 +3,17 @@ description: 了解云的最新品牌更新，如何导航界面，以及在何�
 seo-description: 了解云的最新品牌更新，如何导航界面，以及在何处查找有关解决方案和核心服务的帮助。
 seo-title: 关于 Experience Cloud 中的新云名称
 solution: Experience Cloud
-title: '关于Experience Cloud中的云名称 '
+title: '关于 Experience Cloud 中的云名称 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Target 可与 Analytics 和其他 Experience Cloud 核心服务相集成�
 
 作为内容管理解决方案，Adobe Experience Manager 有助于您轻松管理网站、移动应用程序、社区和表单中的资产和内容。
 
-请参阅 [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) 以获取帮助。
+请参阅 [Adobe Experience Manager 6.5](https://helpx.adobe.com/cn/support/experience-manager/6-5.html) 以获取帮助。
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/aam-home.html)
 
