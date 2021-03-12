@@ -1,5 +1,5 @@
 ---
-description: 了解最新的称为“Experience Platform Launch”的标签管理产品。
+description: 了解最新的标签管理产品：Experience Platform Launch。
 keywords: 核心服务
 seo-description: 激活包括以下最新的标签管理产品：Experience Platform Launch。Dynamic Tag Management (DTM)；以及触发器。
 seo-title: 激活
@@ -10,11 +10,11 @@ feature: Admin Console
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
