@@ -8,11 +8,11 @@ feature: 受众库
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 99%
 | 帮助信息 | 资源 |
 |--- |--- |
 | 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md)。<br>单击[此处](https://www.adobe.com/go/audiences)请求“配置文件与受众”（集成配置表单）的访问权限。 |
-| 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://helpx.adobe.com/cn/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 论坛 | [受众论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是获取受众相关帮助的额外资源。 |
 
 ## 受众库界面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
