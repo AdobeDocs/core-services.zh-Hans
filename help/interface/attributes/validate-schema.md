@@ -1,6 +1,6 @@
 ---
 description: 了解如何验证 Adobe Experience Cloud 中的客户属性架构。
-keywords: 客户属性；Experience Cloud服务
+keywords: 客户属性;Experience Cloud 服务
 solution: Experience Cloud
 title: '如何验证客户属性架构 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
@@ -8,11 +8,11 @@ feature: 客户属性
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
