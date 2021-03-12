@@ -1,6 +1,6 @@
 ---
 description: 了解 Adobe Experience Cloud 支持的浏览器，以及面向管理员的常见问题解答。
-keywords: 核心服务，Experience Cloud,Experience Platform，分析，目标，用户管理。
+keywords: 核心服务, Experience Cloud, Experience Platform, Analytics, Target, 用户管理。
 solution: Experience Cloud
 title: '关于 Experience Cloud 的常见问题解答 '
 index: true
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 ## 如何消除有关迁移我的公司的疑虑？
 
-[联系 Adobe 支持部门](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+[联系 Adobe 支持部门](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)。
 
 ## 什么是&#x200B;_配置？_
 
@@ -77,7 +77,7 @@ Experience Cloud 中的配置表示：
 
 Admin Console 管理员可以授予用户访问权限。将会向用户发送包含登录说明的电子邮件。
 
-您可能需要[联系 Adobe 支持部门](https://helpx.adobe.com/marketing-cloud/contact-support.html)来验证您的公司是否已完全配置。
+您可能需要[联系 Adobe 支持部门](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)来验证您的公司是否已完全配置。
 
 ## 用户可在何处管理帐户关联？
 
