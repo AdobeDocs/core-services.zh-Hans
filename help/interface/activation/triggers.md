@@ -1,5 +1,5 @@
 ---
-description: 了解如何配置Experience Cloud触发器。
+description: 了解如何配置 Experience Cloud 触发器。
 keywords: 集成;触发器
 seo-description: 如何配置 Experience Cloud 触发器。
 seo-title: 触发器
@@ -10,11 +10,11 @@ feature: Admin Console
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
