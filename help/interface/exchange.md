@@ -8,16 +8,16 @@ feature: “客户属性、受众库、Admin Console”
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Exchange市场
+# Exchange Marketplace
 
 Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。
 
