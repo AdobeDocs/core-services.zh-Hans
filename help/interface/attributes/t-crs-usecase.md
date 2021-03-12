@@ -1,6 +1,6 @@
 ---
 description: 了解如何创建客户属性来源并将其上传到 Adobe Experience Cloud。
-keywords: 客户属性；核心服务
+keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '创建客户属性来源并上传数据文件 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -8,11 +8,11 @@ feature: 客户属性
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
