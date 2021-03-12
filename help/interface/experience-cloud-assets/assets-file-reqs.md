@@ -1,6 +1,6 @@
 ---
 description: 了解在 Adobe Experience Cloud 和 Creative Cloud 之间共享资产所允许的文件类型和大小限制。
-keywords: 资产共享;Creative Cloud; 核心服务
+keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: '共享资产的文件要求 '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
@@ -8,11 +8,11 @@ feature: 资产
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 99%
 | Internet Explorer 6 | 2 GB | 2 GB，对于分块或关闭连接的传输，为 4 GB。 |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
-| Internet Explorer 9 至 11 | 4 GB | 17,592吉字节 |
+| Internet Explorer 9 至 11 | 4 GB | 17,592 GB |
