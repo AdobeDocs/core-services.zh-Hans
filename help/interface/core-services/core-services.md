@@ -1,8 +1,8 @@
 ---
-description: 实现Adobe Analytics和Adobe Target解决方案的现代化以提供跨解决方案服务。 了解如何使用Experience Cloud服务进行开始。
+description: 实现 Adobe Analytics 和 Adobe Target 解决方案的现代化，以提供跨解决方案服务。了解如何开始使用 Experience Cloud 服务。
 keywords: 核心服务;客户属性
 solution: Experience Cloud
-title: 为跨解决方案服务提供解决方案
+title: 让您的解决方案提供跨解决方案服务
 index: true
 feature: 客户属性
 topic: 管理
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
