@@ -1,5 +1,5 @@
 ---
-description: 了解如何实施DNS预取，以帮助在Experience Cloud中使用不同的解决方案和服务减少页面加载时间。
+description: 了解如何对 Experience Cloud 中不同的解决方案和服务实施 DNS 预获取，以帮助缩短页面加载时间。
 solution: Experience Cloud
 title: '将 DNS 预获取用于不同的解决方案和服务 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -7,11 +7,11 @@ feature: “客户属性、受众库、Admin Console”
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
