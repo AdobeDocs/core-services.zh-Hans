@@ -1,5 +1,5 @@
 ---
-description: “Experience Cloud服务的最新功能、发行说明和已知问题，如客户属性、受众和用户管理。”
+description: “Experience Cloud 服务的最新功能、发行说明和已知问题，如客户属性、受众和用户管理。”
 keywords: 核心服务
 solution: Experience Cloud
 title: '发行说明汇总 '
@@ -8,11 +8,11 @@ feature: “客户属性、受众库、Admin Console”
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3973'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
