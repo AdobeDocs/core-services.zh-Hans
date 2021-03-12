@@ -1,6 +1,6 @@
 ---
-description: 了解如何通过FTP将客户属性数据上传到Experience Cloud。
-keywords: 客户属性；核心服务
+description: 了解如何通过 FTP 将客户属性数据上传到 Experience Cloud。
+keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '通过 FTP 上传客户属性数据文件 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
@@ -8,11 +8,11 @@ feature: 客户属性
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
