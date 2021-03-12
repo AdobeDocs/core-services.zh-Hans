@@ -1,18 +1,18 @@
 ---
-description: 了解升级到Analytics Premium时的要求和预期。
-keywords: Adobe Analytics Premium升级
+description: 了解升级到 Analytics Premium 的要求和预期。
+keywords: Adobe Analytics Premium 升级
 solution: Experience Cloud
-title: '升级到Analytics Premium和Experience Cloud '
+title: '升级到 Analytics Premium 和 Experience Cloud '
 topic: 管理
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: 管理员
 level: 富有经验
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Analytics Premium 允许您：
 
 | 产品 | 升级 |
 |---|---|
-| Reports and Analytics | [贡献分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports and Analytics | [贡献分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 用于受众资格和预测营销的预建工作区。 |
 | Analytics Platform | 实时流（功能板和触发器） |
 
