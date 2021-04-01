@@ -6,10 +6,10 @@ user-guide-description: 了解如何管理 Adobe Experience Cloud 中的用户�
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 100%
    + [创建受众](audience-library/t-audience-create.md)
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 客户属性 {#customer-attributes}
-   + [Adobe Experience Cloud 中的客户属性](attributes/attributes.md)
-   + [常见问题解答、各种限制和最佳实践](attributes/faq-crs.md)
+   + [客户属性概述](attributes/attributes.md)
+   + [有关客户属性的常见问题解答](attributes/faq-crs.md)
    + [关于客户属性的数据文件和数据源](attributes/crs-data-file.md)
    + [创建客户属性来源并上传数据文件](attributes/t-crs-usecase.md)
    + [可选 - 通过 FTP 上传数据文件](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 100%
    + [更新架构](attributes/t-update-schema.md)
    + [对《通用数据保护条例》的支持](attributes/gdpr.md)
    + [对《加州消费者隐私法案》的支持](attributes/ccpa.md)
-   + [隐私注意事项 - 客户属性](attributes/privacy-mac.md)
+   + [客户属性的隐私注意事项](attributes/privacy-mac.md)
 + Experience Cloud 的发行说明 {#release-notes}
    + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)
    + [发行说明汇总](marketing-cloud-interface/release-notes.md)
-+ [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
 + 更多资源 {#more-resources}
    + [论坛](https://forums.adobe.com/community/experience-cloud)
    + [术语](terms.md)
    + [将 DNS 预获取用于不同的解决方案和服务](dns-prefetch.md)
-   + [文档更新 - Experience Cloud](doc-updates.md)
+   + [文档更新](doc-updates.md)
