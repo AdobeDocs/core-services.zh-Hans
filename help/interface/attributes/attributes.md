@@ -6,16 +6,16 @@ feature: 客户属性
 role: 管理员
 topic: 管理
 level: 富有经验
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '488'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud 中的客户属性
+# 客户属性概述
 
 Adobe Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以将该数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
 
