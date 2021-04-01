@@ -8,16 +8,16 @@ feature: “客户属性、受众库、Admin Console”
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud 服务和管理
+# Experience Cloud服务和管理指南
 
 Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
 
