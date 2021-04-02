@@ -4,15 +4,15 @@ keywords: Experience Cloud 服务
 solution: Experience Cloud
 title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: “客户属性、受众库、Admin Console、Assets”
+feature: “客户属性，资产”
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
