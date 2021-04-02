@@ -4,20 +4,20 @@ keywords: 核心服务
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: “客户属性、受众库、Admin Console”
+feature: '"客户属性"'
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '143'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
 
-# Exchange Marketplace
+# Exchange市场
 
 Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。
 
