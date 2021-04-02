@@ -4,14 +4,14 @@ keywords: 核心服务
 solution: Experience Cloud
 title: '发行说明汇总 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: “客户属性、受众库、Admin Console”
+feature: '"客户属性"'
 topic: 管理
 role: 管理员
 level: 富有经验
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '3973'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '3969'
 ht-degree: 100%
 
 ---
