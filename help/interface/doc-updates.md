@@ -9,9 +9,9 @@ topic: 管理
 role: 管理员
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,3 @@ ht-degree: 100%
 **更新日期：2014 年 5 月 22 日**
 
 更新了[管理 Experience Cloud 用户和产品](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)，以便了解有关成为 Experience Cloud 管理员的信息。
-
-**更新日期：2014 年 5 月 22 日**
-
-添加了 [Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59)。
