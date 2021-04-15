@@ -7,16 +7,16 @@ index: y
 snippet: y
 feature: Cookie
 topic: 管理
-role: 管理员
-level: 富有经验
+role: Administrator
+level: Experienced
+exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
-source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
+source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 95%
+source-wordcount: '1499'
+ht-degree: 86%
 
 ---
-
 
 # 关于第一方 Cookie
 
@@ -49,23 +49,25 @@ Adobe 管理的证书计划允许您为第一方 Cookie 实施新的第一方 SS
 
 下面是如何为第一方 Cookie 实施新的第一方 SSL 证书的步骤：
 
-1. 填写[第一方 Cookie 请求表](/help/interface/cookies/assets/FPC_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的证书计划设置第一方 Cookie。文档中通过示例描述了每个字段。
+1. 填写[第一方 Cookie 请求表](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的证书计划设置第一方 Cookie。文档中通过示例描述了每个字段。
 
-1. 创建 CNAME 记录（请参阅下面的说明）。
+2. 创建 CNAME 记录（请参阅下面的说明）。
 
-   当客户关怀代表收到票证后，将为您提供一对 CNAME 记录。您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAMES 将与以下内容类似：
+   收到票证后，客户关怀代表应向您提供CNAME记录。 您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAME将类似于：
 
-   **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.ssl.d1.omtrdc.net`。
+   **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
-   **非安全** - 例如，主机名 `metrics.example.com` 指向：`example.com.d1.omtrdc.net`。
+>[!NOTE]
+> 过去，我们建议客户为HTTPS设置两个CNAME，为HTTP设置一个。 由于加密通信是最佳做法，并且大多数浏览器都强烈阻止HTTP，因此我们不再建议为HTTP设置CNAME。 如果需要，将显示如下：
+>    **非安全** — 主机名`metrics.example.com`指向：`example.com.adobedc.net`。
 
-1. 配置了这些 CNAME 之后，Adobe 将与 DigiCert 一起购买证书并安装在 Adobe 的生产服务器上。
+1. CNAME到位后，Adobe将与DigiCert合作购买证书并在Adobe的生产服务器上安装证书。
 
    如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到 Adobe 生产环境后，您就可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全 (HTTP)，则更新 `s.trackingServer` 变量。如果站点安全 (HTTPS)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
 
-1. [验证主机名转发](#validate)（请参阅下文）。
+2. [验证主机名转发](#validate)（请参阅下文）。
 
-1. [更新实施代码](#update)（请参阅下文）。
+3. [更新实施代码](#update)（请参阅下文）。
 
 ### 维护和续订
 
@@ -76,7 +78,7 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 | 问题 | 回答 |
 |---|---|
 | **此过程是否安全？** | 是，Adobe 管理的证书计划较传统的方法更加安全，因为证书或私钥不会在 Adobe 和证书颁发机构的外部易手。 |
-| **Adobe 如何为我们的域购买证书？** | 仅当您将指定的主机名（例如 `smetrics.example.com`）指向 Adobe 拥有的主机名时，Adobe 才能为您购买证书。这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
+| **Adobe 如何为我们的域购买证书？** | 仅当您将指定的主机名（例如 `telemetry.example.com`）指向 Adobe 拥有的主机名时，Adobe 才能为您购买证书。这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
 | **我是否可以请求吊销证书？** | 是，作为域所有者，您有权请求我们吊销证书。您只需通过客户关怀部门开立一个票证，即可完成此项操作。 |
 | **此证书是否使用 SHA-2 加密？** | 是，Adobe 将与 DigicerT 一起颁发 SHA-2 证书。 |
 | **这会产生任何额外费用吗？** | 不会，Adobe 可以向当前所有 Adobe Digital Experience 客户提供此服务，不会产生任何额外费用。 |
@@ -85,12 +87,16 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 
 贵组织的网络运营团队应通过创建新的 CNAME 记录来配置 DNS 服务器。每个主机名都将数据转发至 Adobe 的数据收集服务器。
 
-FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 CNAME。例如：
+FPC专家会向您提供配置的主机名和要指向的CNAME。 例如：
 
 * **SSL 主机名**：`smetrics.mysite.com`
-* **SSL CNAME**：`mysite.com.ssl.sc.omtrdc.net`
-* **非 SSL 主机名**：`metrics.mysite.com`
-* **非 SSL CNAME**：`mysite.com.sc.omtrdc.net`
+* **SSL CNAME**：`mysite.com.adobedc.net`
+
+>[!NOTE]
+> 如果您仍使用非安全设备，则将显示为此。
+> * **非 SSL 主机名**：`metrics.mysite.com`
+> * **非 SSL CNAME**：`mysite.com.adobedc.net`
+
 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
 
@@ -106,7 +112,7 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 
 如果已设置 CNAME 并且安装了证书，则可以使用浏览器进行验证：
 
-`https://sstats.adobe.com/_check`
+`https://smetrics.adobe.com/_check`
 
 >[!NOTE]
 >
@@ -117,27 +123,27 @@ FPC 专家为会您提供配置的主机名以及这些主机名所要指向的 
 Adobe 建议从命令行中使用 [[!DNL curl]](https://curl.haxx.se/)。（[!DNL Windows] 用户可以从以下位置安装 [!DNL curl]：<https://curl.haxx.se/windows/>）
 
 如果您有 CNAME，但未安装证书，请运行：
-`curl -k https://sstats.adobe.com/_check`
+`curl -k https://smetrics.adobe.com/_check`
 响应：`SUCCESS`
 
 （`-k` 值将禁用安全警告。）
 
 如果已设置 CNAME 并且安装了证书，请运行：
-`curl https://sstats.adobe.com/_check`
+`curl https://smetrics.adobe.com/_check`
 响应：`SUCCESS`
 
 ### 使用 [!DNL nslookup] 进行验证
 
-你可以使用 `nslookup` 进行验证。以 `sstats.adobe.com` 为例，打开命令提示符并键入 `nslookup sstats.adobe.com`
+你可以使用 `nslookup` 进行验证。以 `smetrics.adobe.com` 为例，打开命令提示符并键入 `nslookup smetrics.adobe.com`
 
 如果已成功设置一切，您将看到类似以下内容的返回：
 
 ```
-nslookup sstats.adobe.com
+nslookup smetrics.adobe.com
 Server:             10.30.7.247
 Address:     10.30.7.247#53
 
-sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+smetrics.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.218.180.161
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
