@@ -3,10 +3,10 @@ description: 了解如何对 Experience Cloud 中不同的解决方案和服务�
 solution: Experience Cloud
 title: '将 DNS 预获取用于不同的解决方案和服务 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: 客户属性
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

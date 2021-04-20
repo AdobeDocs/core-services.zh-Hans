@@ -4,10 +4,10 @@ keywords: 核心服务;客户属性
 solution: Experience Cloud
 title: 让您的解决方案提供跨解决方案服务
 index: true
-feature: 客户属性
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt

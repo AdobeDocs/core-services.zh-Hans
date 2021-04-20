@@ -3,8 +3,8 @@ description: 了解可在各个解决方案之间共享的 Experience Cloud Asse
 solution: Experience Cloud
 title: Assets 概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-feature: 资产
-topic: 管理
+feature: Assets
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4

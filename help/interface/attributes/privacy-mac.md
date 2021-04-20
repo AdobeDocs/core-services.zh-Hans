@@ -4,10 +4,10 @@ keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '客户属性的隐私注意事项 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: 客户属性
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

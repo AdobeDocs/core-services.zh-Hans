@@ -2,10 +2,10 @@
 description: 了解用于将广告互动事件映射到转化事件的 Adobe Ad Cloud Cookie，并可能会使用该信息来优化广告投标。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-feature: Cookie
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: ht

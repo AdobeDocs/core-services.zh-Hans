@@ -4,10 +4,10 @@ keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: '从 Creative Cloud 浏览器将资产上传到共享文件夹 '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
-feature: 资产
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Assets
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

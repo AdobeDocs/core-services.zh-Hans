@@ -4,10 +4,10 @@ keywords: Adobe Experience Cloud 服务, 客户属性, 受众, 用户和产品�
 solution: Experience Cloud
 title: 'Experience Cloud 服务和管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"客户属性"'
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

@@ -4,10 +4,10 @@ keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: '共享资产的文件要求 '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
-feature: 资产
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Assets
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

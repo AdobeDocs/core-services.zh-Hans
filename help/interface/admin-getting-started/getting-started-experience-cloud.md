@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: '登录并管理 Experience Cloud 配置文件设置 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: 管理
-role: 管理员
-level: 富有经验
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

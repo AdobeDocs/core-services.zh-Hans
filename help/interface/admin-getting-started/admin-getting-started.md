@@ -4,9 +4,9 @@ solution: Admin
 title: '用户和产品管理 '
 index: true
 feature: Admin Console
-topic: 管理
-role: 管理员
-level: 富有经验
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

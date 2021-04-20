@@ -4,10 +4,10 @@ keywords: 客户属性;Experience Cloud 服务
 solution: Experience Cloud
 title: '如何验证客户属性架构 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: 客户属性
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

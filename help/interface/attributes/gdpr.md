@@ -1,10 +1,10 @@
 ---
 title: '客户属性对《通用数据保护条例》的支持 '
 description: 了解客户属性对《通用数据保护条例》的支持
-feature: 客户属性
-topic: 管理
-role: 管理员
-level: 富有经验
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

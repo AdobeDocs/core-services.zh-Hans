@@ -3,9 +3,9 @@ description: 了解如何在 Experience Cloud 中将一个或多个报表包映�
 title: '将报表包映射到组织 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: 管理
-role: 管理员
-level: 富有经验
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht
