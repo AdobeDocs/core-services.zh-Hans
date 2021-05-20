@@ -4,18 +4,17 @@ keywords: 核心服务
 solution: Experience Cloud
 title: '发行说明汇总 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: "Customer Attributes"
-topic: Administration
+feature: '"客户属性"'
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
+exl-id: b71d144c-a097-4cdb-9721-671519d38aff
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
-source-wordcount: '3966'
-ht-degree: 100%
+source-wordcount: '4111'
+ht-degree: 96%
 
 ---
-
 
 # 发行说明汇总
 
@@ -24,6 +23,16 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+
+## 5月版 — 2021年
+
+| 功能 | 日期 | 描述 |
+| ------- | ------- | ------- |
+| Experience Cloud标题和导航 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包括对标题的浅色主题进行更改，以便能够轻松切换回深色主题并链接以控制Experience Cloud标题中用户头像的其他首选项。 虽然Experience Cloud中的并非所有应用程序都支持主题，但此功能会解锁未来的主题支持。 |
+| Experience Cloud全局搜索 | 2021 年 5 月 20 日 | 在此版本中，Experience Cloud全局搜索允许您搜索任何[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)文档、课程和教程。 (目前，全局搜索仅适用于Experience Platform用户。 全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
+| Experience Cloud语言首选项 | 2021 年 5 月 20 日 | 此更新包括在Experience Cloud[首选项](https://experience.adobe.com/preferences)中设置首选语言的功能。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 8 月版 - 2020 年
 
@@ -175,7 +184,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 一个已知问题是：导致在 Audience Manager 中创建自动生成帐户重复，并自动将其关联到某个用户的 Experience Cloud 身份。如果您在关联帐户之前尝试导航到 Audience Manager，则会出现此问题。Adobe 建议您先将 Audience Manager 帐户关联到 Experience Cloud，然后再导航到 Audience Manager。(MAC-25640)
 
-## 15.6.1 版 - 2015 年 6 月 11 日{#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## 15.6.1 版 - 2015 年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 没有可用的信息
 
