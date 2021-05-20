@@ -5,11 +5,10 @@ breadcrumb-title: Experience Cloud 服务和管理
 user-guide-description: 了解如何管理 Adobe Experience Cloud 中的用户和产品，以及如何使用客户属性和 Audience Library 服务。还了解 Cookie 和 Experience Cloud Assets。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +39,7 @@ ht-degree: 98%
 + 用户和产品管理 {#manage-users-and-products}
    + [管理 Experience Cloud 用户标识和产品 (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [查看 Experience Cloud 用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
-   + [常见问题解答](admin-getting-started/faq.md)
+   + [关于 Experience Cloud 核心服务](admin-getting-started/faq.md)
    + [登录并管理配置文件设置](admin-getting-started/getting-started-experience-cloud.md)
    + [组织和帐户关联](admin-getting-started/organizations.md)
    + [升级到 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
@@ -64,7 +63,7 @@ ht-degree: 98%
    + [发布 Analytics 受众区段](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 客户属性 {#customer-attributes}
    + [客户属性概述](attributes/attributes.md)
-   + [有关客户属性的常见问题解答](attributes/faq-crs.md)
+   + [有关客户属性的常见问题](attributes/faq-crs.md)
    + [关于客户属性的数据文件和数据源](attributes/crs-data-file.md)
    + [创建客户属性来源并上传数据文件](attributes/t-crs-usecase.md)
    + [可选 - 通过 FTP 上传数据文件](attributes/t-upload-attributes-ftp.md)
@@ -82,3 +81,4 @@ ht-degree: 98%
    + [术语](terms.md)
    + [将 DNS 预获取用于不同的解决方案和服务](dns-prefetch.md)
    + [文档更新](doc-updates.md)
+
