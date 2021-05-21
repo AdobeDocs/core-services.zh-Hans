@@ -10,28 +10,29 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 86%
+source-wordcount: '1629'
+ht-degree: 71%
 
 ---
 
 # 关于第一方 Cookie
 
-Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。这些源自 Adobe 托管域的无害 Cookie，称为第三方 Cookie。
+Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。在可能的情况下，Adobe会使用第一方Cookie记录您网站上的活动。 要记录您在不同网站（如您可能拥有的其他域）上的活动，需要使用第三方Cookie。
 
-许多浏览器和防间谍软件应用程序旨在拒绝并删除第三方 Cookie，包括 Analytics 数据收集中使用的 Cookie。为了支持您跟踪访客与网站的交互方式，您可以实施第一方 Cookie。
+许多浏览器和防间谍软件应用程序旨在拒绝并删除第三方 Cookie，包括 Analytics 数据收集中使用的 Cookie。要支持您跟踪访客与网站的交互方式，您应确保已将数据收集配置为使用第一方Cookie:
 
 有两个方案可用来实施第一方 Cookie：
 
-* Experience Platform ID 服务。这个 ID 服务可使用 JavaScript 在第一方上下文中设置 Cookie。
-* 公司的 DNS 服务器上的 DNS 条目，用于为 Adobe 托管的域配置 CNAME 别名。请注意，尽管各种 Adobe 产品都支持使用 CNAME，但 CNAME 在任何情况下都用于为特定客户创建受信任的第一方端点，并且归此客户拥有。如果该客户控制多个域，则他们可能使用单个 CNAME 端点来跟踪其域内的用户，但由于这需要 CNAME 域外所有域的第三方 Cookie，因此当第三方 Cookie 被阻止时，它将不起作用，因而不建议使用。Adobe CNAME 从来不会用于跨不同客户拥有的域跟踪个人或设备。
+* 如果您使用的是Experience Platform标识服务（即ECID服务），它将使用JavaScript在第一方上下文中自动设置Cookie。
+* 如果您使用的是Analytics旧版标识符（即“s_vi”Cookie），则将取决于您如何配置数据收集服务器。 如果数据收集服务器与您网站的域相匹配，则Cookie将设置为第一方。 如果收集服务器与您的当前域不匹配，则Cookie将设置为第三方。 在这种情况下，如果第三方Cookie被阻止，Analytics将设置第一方[回退id(&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7)，而不是标准的“s_vi”Cookie。
+
+为确保您的收集服务器与您网站的域相匹配，您可以使用CNAME实施，该实施允许在第一方上下文中设置Cookie。 这涉及对公司的DNS设置进行更改，以配置CNAME别名以指向Adobe托管的域。 请注意，尽管各种 Adobe 产品都支持使用 CNAME，但 CNAME 在任何情况下都用于为特定客户创建受信任的第一方端点，并且归此客户拥有。如果您控制多个域，则他们可能使用单个CNAME端点来跟踪其域中的用户，但是当站点域与CNAME域Cookie不匹配时，这些端点将设置为第三方。
 
 >[!NOTE]
 >
->对于这两个选项，Apple的Intelligent Tracking Prevention(ITP)项目将使第一方Cookie在受ITP管理的浏览器（包括MacOS上的Safari以及iOS和iPadOS上的所有浏览器）上变得短暂。 截至2020年11月，这两种Cookie的有效期均为七天。 此到期日可能更改。
+>对于这两个选项，Apple的智能防跟踪(ITP)程序将使第一方Cookie在受ITP管辖的浏览器（包括MacOS上的Safari以及iOS和iPadOS上的所有浏览器）上的生命周期缩短。 自2020年11月起，这两种类型的Cookie将有7天的有效期。 此过期日期可能会更改。
 
 对于使用 CNAME 的第二个方案，如果您的站点具有使用 HTTPS 协议的安全页面，则可以与 Adobe 合作获取 SSL 证书，以实施第一方 Cookie。Adobe 强烈建议您只使用 HTTPS 进行数据收集，因为我们将在 2020 年下半年停止对 HTTP 收集的支持。
 
@@ -53,12 +54,12 @@ Adobe 管理的证书计划允许您为第一方 Cookie 实施新的第一方 SS
 
 2. 创建 CNAME 记录（请参阅下面的说明）。
 
-   收到票证后，客户关怀代表应向您提供CNAME记录。 您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAME将类似于：
+   客户关怀代表收到票证后，应向您提供CNAME记录。 您必须在贵公司的 DNS 服务器上配置这些记录，只有这样，Adobe 才能代表您购买证书。CNAME将类似于：
 
    **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
 >[!NOTE]
-> 过去，我们建议客户为HTTPS设置两个CNAME，为HTTP设置一个。 由于加密通信是最佳做法，并且大多数浏览器都强烈阻止HTTP，因此我们不再建议为HTTP设置CNAME。 如果需要，将显示如下：
+> 过去，我们建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 如果需要，将如下所示：
 >    **非安全** — 主机名`metrics.example.com`指向：`example.com.adobedc.net`。
 
 1. CNAME到位后，Adobe将与DigiCert合作购买证书并在Adobe的生产服务器上安装证书。
@@ -87,13 +88,13 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 
 贵组织的网络运营团队应通过创建新的 CNAME 记录来配置 DNS 服务器。每个主机名都将数据转发至 Adobe 的数据收集服务器。
 
-FPC专家会向您提供配置的主机名和要指向的CNAME。 例如：
+FPC专家会为您提供配置的主机名以及这些主机名要指向的CNAME。 例如：
 
 * **SSL 主机名**：`smetrics.mysite.com`
 * **SSL CNAME**：`mysite.com.adobedc.net`
 
 >[!NOTE]
-> 如果您仍使用非安全设备，则将显示为此。
+> 如果您仍使用非安全，则将如下所示。
 > * **非 SSL 主机名**：`metrics.mysite.com`
 > * **非 SSL CNAME**：`mysite.com.adobedc.net`
 
