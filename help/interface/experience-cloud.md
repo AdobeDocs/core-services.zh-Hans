@@ -9,15 +9,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: tm+mt
 source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
-# Experience Cloud服务和管理指南
+# Experience Cloud 服务和管理指南
 
 Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
 
@@ -32,7 +31,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
 * [用户和产品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
 * [为核心服务启用解决方案](core-services/core-services.md)
-* [常见问题解答](admin-getting-started/admin-getting-started.md)
+* [关于 Experience Cloud 核心服务](admin-getting-started/admin-getting-started.md)
 * [组织和帐户关联](admin-getting-started/organizations.md)
 * [集成](marketing-cloud-integrations.md)
 * [将 Adobe Target 与 Experience Cloud 集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
@@ -62,10 +61,10 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
-* [所有 Experience Cloud 解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) - 浏览 Experience Cloud 学习和支持页面以获取帮助
-* [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) - Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - 浏览有关核心服务的视频和教程
-* [Experience League 的专家帮助](https://landing.adobe.com/experience-league/) - 从专家和社区获得指导性学习
-* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) - 与 Adobe 互动，确保您能够充分利用我们的产品
-* [客户体验博客](https://theblog.adobe.com/customer-experience/) - 阅读 Experience Cloud 博客
-* [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) - 联系 Adobe 客户关怀部门
+* [所有 Experience Cloud 解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) — 浏览 Experience Cloud 学习和支持页面以获取帮助
+* [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) — Experience Cloud 的新增功能，订阅可获取更新
+* [实施核心服务的教程](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/tutorials/overview.html) — 浏览有关核心服务的视频和教程
+* [Experience League 的专家帮助](https://landing.adobe.com/experience-league/) — 从专家和社区获得指导性学习
+* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) — 与 Adobe 互动，确保您能够充分利用我们的产品
+* [客户体验博客](https://theblog.adobe.com/customer-experience/) — 阅读 Experience Cloud 博客
+* [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) — 联系 Adobe 客户关怀部门
