@@ -2,12 +2,11 @@
 title: 如何使用客户属性
 description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
 solution: Experience Cloud
-feature: Customer Attributes
+feature: 客户属性
 role: Administrator
-topic: Administration
+topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-translation-type: tm+mt
 source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
 workflow-type: tm+mt
 source-wordcount: '494'
@@ -19,7 +18,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->客户属性是旧式核心服务，现在正在维护中。
+>客户属性是一项旧版核心服务，现在正在维护中。
 
 Adobe Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以将该数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
 
@@ -41,7 +40,7 @@ Adobe Experience Cloud 中的客户属性允许您上传从客户关系管理 (C
 
    请参阅[如何部署 at.js](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js 实施](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
-## 什么是企业客户数据？{#section_6F34C29F11414842AA57D2B1248FA3C6}
+## 什么是企业客户数据？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 企业数据保留在其他系统中。企业数据十分复杂，而且对于不同的人员具有不同的意义。此数据可以包括成员资格、忠诚度、年龄、性别、拥有的产品、兴趣和存留期值等信息。
 
@@ -53,7 +52,7 @@ Adobe Experience Cloud 中的客户属性允许您上传从客户关系管理 (C
 
 请参阅[上传客户属性数据](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流程。
 
-## Analytics 和 Target 中的客户属性示例{#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Analytics 和 Target 中的客户属性示例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 数据保留在 Experience Cloud 中后，您可以对其进行自定义，并将其共享给报表、分段、活动和促销活动等解决方案。
 
