@@ -6,9 +6,9 @@ feature: '"中央界面组件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Experience Cloud搜索允许您在[Experience League](https://experienceleague.a
 * **[!UICONTROL 支持]:** 创建支持票证或联系支持  人员Twitter。
 * **[!UICONTROL 反馈]:** 使用反馈联系Adobe，并告知我们您的想法。
 * **[!UICONTROL 状态]:** 导航到并 `https://status.adobe.com/experience_cloud` 检查产品运行状态和 [!UICONTROL 管理订阅]。
-* **[!UICONTROL Developer Connection]:** 导航到 [AdobeI/O](adobe.io) ，并查找开发人员文档。
+* **[!UICONTROL Developer Connection]:** 导航到开发 `adobe.io` 人员文档并查找。
 
 ## ![](assets/preferences-icon.png) 帐户首选项  {#account-menu}
 
