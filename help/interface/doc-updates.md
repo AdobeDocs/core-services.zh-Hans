@@ -4,22 +4,25 @@ keywords: Experience Cloud 服务
 solution: Experience Cloud
 title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
+exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 93%
 
 ---
-
 
 # 文档更新 - Experience Cloud
 
 有关 Experience Cloud 产品文档更新的信息。
+
+**更新日期：5/26/2021**
+
+添加了[Experience Cloud界面](experience-cloud-interface.md)，以获取有关访问Experience Cloud、全局搜索、首选项和通知的帮助。
 
 **更新日期：2020 年 8 月 19 日**
 
@@ -55,10 +58,6 @@ ht-degree: 100%
 **更新日期：2018 年 6 月 6 日**
 
 内容和屏幕的常规更新。
-
-**更新日期：2018 年 2 月 6 日**
-
-[管理 Experience Cloud 用户和产品](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)的更新。
 
 **更新日期：2018 年 1 月 17 日**
 
@@ -105,7 +104,3 @@ ht-degree: 100%
 添加了有关受众的文档。
 
 请参阅[受众](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
-
-**更新日期：2014 年 5 月 22 日**
-
-更新了[管理 Experience Cloud 用户和产品](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)，以便了解有关成为 Experience Cloud 管理员的信息。
