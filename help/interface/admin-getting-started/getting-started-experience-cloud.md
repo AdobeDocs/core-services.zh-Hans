@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '登录并管理 Experience Cloud 配置文件设置 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 99%
 
 ---
-
 
 # 登录并管理 Experience Cloud 配置文件设置
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 >
 >对于管理员，请参阅[管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)以了解有关用户和产品管理更新的信息。
 
-## 登录到 Experience Cloud（管理员）{#task_034FC955031347F3B02B686A09801A08}
+## 登录到 Experience Cloud（管理员） {#task_034FC955031347F3B02B686A09801A08}
 
 登录并验证您是否处于正确的[组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)中。
 
@@ -46,12 +45,12 @@ ht-degree: 100%
 | [映射报表包](../core-services/core-services.md) | （仅限 Analytics）Experience Cloud 核心服务与组织关联，而不与单个报表包关联。为确保这些服务能够正确运行，必须将每个 Analytics 报表包映射到组织。（此任务是[为核心服务启用 Analytics](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) 的更广泛工作流的一部分）。 |
 | [Organization ID](../admin-getting-started/organizations.md) | *组织 ID* 位于“管理”页面的底部。此 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |
 
-## 登录到 Experience Cloud（用户）{#task_1BFE87E20DCB44078CAC82F3CD44B985}
+## 登录到 Experience Cloud（用户） {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
 帮助非管理用户登录到 Experience Cloud。
 
 
-1. 通过您的管理员验证您的[组织](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)是否已在 Experience Cloud 中配置。
+1. 通过您的管理员验证您的[组织](../admin-getting-started/organizations.md)是否已在 Experience Cloud 中配置。
 
 
 1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])。
@@ -115,9 +114,9 @@ ht-degree: 100%
 
 您可以编辑 Experience Cloud 配置文件，指定默认的组织和登录页面，以及执行更多其他操作。
 
-1. [登录到 Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985)。
+1. 登录到 Experience Cloud.
 
-1. 从 Experience Cloud 菜单中，单击您的配置文件图片。
+1. 在Experience Cloud时，单击您的个人资料图片。
 
    ![](assets/edit-profile.png)
 1. 单击&#x200B;**[!UICONTROL 编辑配置文件]**。
