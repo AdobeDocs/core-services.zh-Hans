@@ -6,14 +6,14 @@ feature: '"中央界面组件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
 
-# Experience Cloud 界面
+# Experience Cloud 界面帮助
 
 Experience Cloud的中央界面组件具有以下功能：
 
@@ -43,11 +43,7 @@ Experience Cloud的中央界面组件具有以下功能：
 
 ## 搜索和支持Experience Cloud {#search}
 
-Experience Cloud搜索允许您在[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)上搜索帮助（文档、教程和课程）。 您还可以搜索业务对象，如区段、数据集、架构等。
-
->[!NOTE]
->
->业务对象搜索仅可用于Experience Platform用户。
+Experience Cloud搜索允许您在[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)上搜索帮助（文档、教程和课程）。
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ Experience Cloud搜索允许您在[Experience League](https://experienceleague.a
 
 ### 管理Experience Cloud[!UICONTROL 首选项] {#preferences}
 
-Experience Cloud首选项包括通知、订阅和警报。 您可以配置
+Experience Cloud首选项包括通知、订阅和警报。
 
 单击帐户菜单![](assets/preferences-icon-sm.png)中的&#x200B;**[!UICONTROL 首选项]**&#x200B;以管理首选项。
 
