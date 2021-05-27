@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
-## 5月版 — 2021年
+## 5 月 - 2021 年
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
-| Experience Cloud标题和导航 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包括对标题的浅色主题进行更改，以便能够轻松切换回深色主题并链接以控制Experience Cloud标题中用户头像的其他首选项。 虽然Experience Cloud中的并非所有应用程序都支持主题，但此功能会解锁未来的主题支持。 |
-| Experience Cloud全局搜索 | 2021 年 5 月 20 日 | 在此版本中，Experience Cloud全局搜索允许您搜索任何[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)文档、课程和教程。 (目前，全局搜索仅适用于Experience Platform用户。 全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
-| Experience Cloud语言首选项 | 2021 年 5 月 20 日 | 此更新包括在Experience Cloud[首选项](https://experience.adobe.com/preferences)中设置首选语言的功能。 |
+| Experience Cloud 标题和导航 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
+| Experience Cloud 全局搜索 | 2021 年 5 月 20 日 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。通过 [!UICONTROL Platform] 全局搜索，可搜索 Experience Cloud 中的任何业务对象，如区段、数据集、架构等等。） |
+| Experience Cloud 语言首选项 | 2021 年 5 月 20 日 | 此更新包括可在 Experience Cloud [首选项](https://experience.adobe.com/preferences)中设置您的首选语言。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -38,7 +38,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。有关详细信息，请参阅 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)帮助。 |
+| 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。有关详细信息，请参阅 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)。 |
 
 ## 4 月版 - 2020 年
 
@@ -135,7 +135,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **已知问题**
 
-如果您通过 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 激活]**&#x200B;界面访问 Dynamic Tag Management，但您的 Dynamic Tag Management 帐户没有关联到 Experience Cloud (Adobe ID)，则您将无法登录到 Dynamic Tag Management。要避免出现此问题，请在新的浏览器选项卡中直接导航到 [!DNL dtm.adobe.com]。
+如果您通过 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 激活]**&#x200B;界面访问 Dynamic Tag Management，但您的 Dynamic Tag Management 帐户没有关联到 Experience Cloud (Adobe ID)，则您将无法登录到 Dynamic Tag Management。要避免出现此问题，请在新的浏览器标签页中直接导航到 [!DNL dtm.adobe.com]。
 
 ## 16.1 版 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -176,7 +176,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 * 修复了导致无法在 Analytics 报表中更新“查看/编辑架构”页面（位于客户属性中）上指定的属性描述的问题。(MAC-25985)
 * 修复了无法呈现已上传资产的缩略图的问题。(MAC-25863)
-* 修复了导致在 Reports &amp; Analytics 中创建的新区段在 Marketing Cloud 受众中不可用的问题。(MAC-25817)
+* 修复了导致在 Reports &amp; Analytics 中创建的新区段在 Experience Cloud 受众中不可用的问题。(MAC-25817)
 * 修复了受众在使用访客 ID 服务时无法从 Analytics 共享的问题。（MAC-25788、MAC-25747）
 * 在客户属性中添加了对多字节字符的支持。(MAC-25552)
 
@@ -186,7 +186,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 ## 15.6.1 版 - 2015 年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
-没有可用的信息
+无信息可用
 
 ## 15.5.1 版 - 2015 年 5 月 13 日 {#section_EF197410964E40D294D0D8024738CFBA}
 
@@ -395,7 +395,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
 
 **修复和改进功能**
 
-* 现在，在导航到 [!DNL experiencecloud.adobe.com] 时，登录体验和 Adobe 的 Creative Cloud 登录一样。
+* 现在，在导航到 [!DNL experience.adobe.com] 时，登录体验和 Adobe 的 Creative Cloud 登录一样。
 * 在“管理组织”页面上，每个解决方案的帐户关联体验（收到邀请后）现在都是一致的。
 
 **已知问题**
@@ -518,7 +518,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 受众 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">受众</span></p> <p> 在<span class="wintitle">受众</span>中，您可以创建、编辑和管理受众，其方式与处理区段类似。例如，您可以在 Reports &amp; Analytics 中创建一个区段，然后将其共享到 <span class="wintitle">Experience Cloud</span> <span class="wintitle">受众</span>。共享之后，该受众即可用于 <span class="keyword">Adobe Target</span> 营销活动，并出现在 Adobe Audience Manager 的区段中。 </p> <p> <p>注意：要在 Target 中请求启用受众，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">http://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">受众</span></p> <p> 在<span class="wintitle">受众</span>中，您可以创建、编辑和管理受众，其方式与处理区段类似。例如，您可以在 Reports &amp; Analytics 中创建一个区段，然后将其共享到 <span class="wintitle">Experience Cloud</span> <span class="wintitle">受众</span>。共享之后，该受众即可用于 <span class="keyword">Adobe Target</span> 营销活动，并出现在 Adobe Audience Manager 的区段中。 </p> <p> <p>注意：要在 Target 中请求启用受众，请访问 <a href="https://www.adobe.com/go/audiences_cn" format="http" scope="external">http://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
