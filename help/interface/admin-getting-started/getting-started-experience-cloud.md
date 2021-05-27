@@ -9,7 +9,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 99%
@@ -53,7 +53,7 @@ ht-degree: 99%
 1. 通过您的管理员验证您的[组织](../admin-getting-started/organizations.md)是否已在 Experience Cloud 中配置。
 
 
-1. 导航到 [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])。
+1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com])。
 1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
@@ -138,11 +138,11 @@ ht-degree: 99%
 
 ### URL 模板
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 示例 URL：
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
