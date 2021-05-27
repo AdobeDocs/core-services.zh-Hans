@@ -6,10 +6,10 @@ feature: '"中央界面组件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 6%
+source-wordcount: '434'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud的中央界面组件具有以下功能：
 
 登录并验证您是否处于正确的[组织](admin-getting-started/organizations.md)中。
 
-1. 导航到[Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)。
+1. 导航到[Adobe Experience Cloud](https://experience.adobe.com)。
 1. 单击&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
 1. 在Adobe Experience Cloud上，单击您的组织。
 
@@ -43,7 +43,7 @@ Experience Cloud的中央界面组件具有以下功能：
 
 ## 搜索和支持Experience Cloud {#search}
 
-Experience Cloud搜索允许您在[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)上搜索帮助（文档、教程和课程）。
+Experience Cloud搜索允许您在[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上搜索帮助（文档、教程和课程）。
 
 ![](assets/search-menu.png)
 
