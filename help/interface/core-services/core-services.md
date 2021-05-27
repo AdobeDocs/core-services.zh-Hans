@@ -4,18 +4,17 @@ keywords: 核心服务;客户属性
 solution: Experience Cloud
 title: 让您的解决方案提供跨解决方案服务
 index: true
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
-
 
 # 为 Experience Cloud 服务启用实施
 
@@ -54,9 +53,9 @@ ht-degree: 100%
 
 ### 管理员登录
 
-在成为管理员后，您可以登录 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+在成为管理员后，您可以登录到[experience.adobe.com](https://experience.adobe.com)。
 
-您将会在 Experience Cloud 菜单导航中看到&#x200B;**[!UICONTROL 管理]**&#x200B;链接。
+您将在Admin Console菜单导航中看到&#x200B;**[!UICONTROL Experience Cloud]**&#x200B;链接。
 
 有关更多信息，请参阅 [Experience Cloud 用户和产品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
 
@@ -65,7 +64,7 @@ ht-degree: 100%
 要登录到 Experience Cloud，您的用户必须：
 
 * 拥有 Adobe ID（或您公司的 Enterprise ID）。
-* 登录到 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+* 登录到[experience.adobe.com](https://experience.adobe.com)。
 * 属于映射到企业群组的解决方案群组。
 * 如有必要，请将其解决方案帐户关联到 Adobe ID（如下所述）。
 
