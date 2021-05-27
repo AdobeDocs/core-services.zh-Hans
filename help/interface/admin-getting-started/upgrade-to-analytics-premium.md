@@ -3,19 +3,18 @@ description: 了解升级到 Analytics Premium 的要求和预期。
 keywords: Adobe Analytics Premium 升级
 solution: Experience Cloud
 title: '升级到 Analytics Premium 和 Experience Cloud '
-topic: Administration
+topic: 管理
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '636'
+exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
-
 
 # 升级到 Analytics Premium 和 Experience Cloud
 
@@ -55,7 +54,7 @@ Analytics Premium 允许您：
 
 | 产品 | 升级 |
 |---|---|
-| Reports and Analytics | [贡献分析](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports and Analytics | [贡献分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 用于受众资格和预测营销的预建工作区。 |
 | Analytics Platform | 实时流（功能板和触发器） |
 
@@ -85,7 +84,7 @@ Analytics Premium 允许您：
 
 Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用解决方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述的实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
 
-加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL experiencecloud.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
+加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL experience.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
 
 ### 管理用户和群组
 
