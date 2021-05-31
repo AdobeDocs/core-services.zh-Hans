@@ -3,16 +3,15 @@ description: 了解可在各个解决方案之间共享的 Experience Cloud Asse
 solution: Experience Cloud
 title: Assets 概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-feature: Assets
-topic: Administration
+feature: 资产
+topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-translation-type: tm+mt
 source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +19,9 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->资产是旧式核心服务，现在正在维护中。
+>Assets 是一项旧版核心服务，现在处于维护状态。
 
-Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪型资产提供了一个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
+Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源提供单个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
 资产服务包括：
 
@@ -40,13 +39,13 @@ Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪�
 
 * [导航到 Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [访问工具栏](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
-* [编辑资产](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
-* [搜索资产](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
-* [在资产中添加批注](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [全屏查看和缩放资产](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
-* [查看资产属性](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
+* [编辑资源](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
+* [搜索资源](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
+* [为资源作批注](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
+* [查看全屏资源和缩放](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
+* [查看资源属性](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [运行使用情况报表](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [与 Experience Manager 共享资产](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
+* [用 Experience Manager 共享资源](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
 ## 导航到 Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
@@ -60,7 +59,7 @@ Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪�
 
 ![](assets/asset-tools.png)
 
-## 编辑资产 {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## 编辑资源 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 编辑资产时可启用多种功能，其中包括：
 
@@ -70,27 +69,27 @@ Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪�
 
 ![](assets/asset-edit.png)
 
-## 搜索资产 {#section_50FE049010B446FC9640AA6A30E5A730}
+## 搜索资源 {#section_50FE049010B446FC9640AA6A30E5A730}
 
-您可以按关键词、文件类型、大小、上次修改时间、发布状态、方向和样式进行搜索。
+可按关键词、文件类型、大小、上次修改时间、发布状态、方向和样式进行搜索。
 
 ![](assets/asset-search.png)
 
-## 在资产中添加批注 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## 为资源作批注 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-单击&#x200B;**[!UICONTROL 注释]**&#x200B;后，可以在图像上绘制圆圈或箭头，并在资产中添加批注，以供合作者审阅。
+通过在图像上画圆或箭头而单击&#x200B;**[!UICONTROL “批注”]**，然后为资源作批注以供同事审阅。
 
 ![](assets/assets-annotate.png)
 
-## 全屏查看和缩放资产 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## 查看全屏资源和缩放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 图像]**，可以查看完整的资产图像并启用缩放功能。
+单击&#x200B;**[!UICONTROL “查看”]**>**[!UICONTROL “图像”]**&#x200B;以查看完整资源图像并启用缩放。
 
 ![](assets/asset-zoom.png)
 
-## 查看资产属性 {#section_FED28711DAB14E1BBEEA7CA890EE9573}
+## 查看资源属性 {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
-可以在属性信息卡视图、列表视图和列视图之间进行选择，以便更加轻松地查找您的资产。
+在带属性的卡视图、列表视图与列视图之间选择以更轻松地找到您的资源。
 
 单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 属性]**，可以查看资产的属性：
 
@@ -98,7 +97,7 @@ Experience Cloud Assets 为可在各个解决方案之间共享的营销就绪�
 
 ## 运行使用情况报表 {#section_15D782FFB8D74CF4A735116CC03AD902}
 
-可以查看用户数量、已用存储空间，以及资产总计等信息。
+查看用户数、已用存储容量和资源总数。
 
 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 报表]** > **[!UICONTROL 使用情况报表]**
 
