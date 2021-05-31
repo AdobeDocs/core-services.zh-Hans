@@ -10,9 +10,9 @@ role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
 * [用户和产品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [为核心服务启用解决方案](core-services/core-services.md)
-* [关于 Experience Cloud 核心服务](admin-getting-started/admin-getting-started.md)
+* [为核心服务启用您的解决方案](core-services/core-services.md)
+* [常见问题](admin-getting-started/admin-getting-started.md)
 * [组织和帐户关联](admin-getting-started/organizations.md)
 * [集成](marketing-cloud-integrations.md)
 * [将 Adobe Target 与 Experience Cloud 集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
@@ -55,9 +55,9 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 充分利用以下 Experience League 中的自助式教程和简短的使用说明：
 
-* [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Experience Platform 教程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=zh-Hans#quick-how-tos)
+* [Experience Platform 教程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=zh-Hans)
+* [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
