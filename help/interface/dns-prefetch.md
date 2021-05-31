@@ -3,18 +3,17 @@ description: 了解如何对 Experience Cloud 中不同的解决方案和服务�
 solution: Experience Cloud
 title: '将 DNS 预获取用于不同的解决方案和服务 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: tm+mt
-source-wordcount: '385'
+exl-id: caf2ff76-2076-436d-a5a7-aff531464480
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
-
 
 # 将 DNS 预获取用于不同的解决方案和服务
 
