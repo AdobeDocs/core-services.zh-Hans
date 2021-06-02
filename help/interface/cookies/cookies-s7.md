@@ -4,18 +4,17 @@ keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
-
 
 # Scene7 Cookie{#scene-cookies}
 
@@ -31,7 +30,7 @@ Scene7 会在本地存储一些基于旧版 AS2 Flash 的查看器的信息。
 对于 AS2 Flash eCatalog 查看器，Cookie 能够：
 
 * 存储用户生成的内容（主要是用户在 ecatalog 查看器的“附注”功能中输入的内容）。当用户继续某个会话时，此内容会恢复。
-* 当用户发起电子邮件以与其他用户共享 ecatalog 时，系统会将来自第二个 AS2 查看器项目符号的附注内容复制到我们的服务器中，以提供给收件人。当收件人启动查看器会话时，将从服务器检索附注内容并将该内容复制到 Cookie。此功能很少使用，因此不会过期，也不会删除旧内容。此时，它将无限期地保留在服务器上。
+* 当用户发起电子邮件以与其他用户共享 ecatalog 时，系统会将来自第二个 AS2 查看器项目符号的附注内容复制到我们的服务器中，以提供给收件人。当收件人启动查看器会话时，将从服务器检索附注内容并将该内容复制到 Cookie。此功能很少使用，因此不会过期，也不会删除旧内容。当前，它会无限期地保留在服务器上。
 
 新版的 AS3 查看器不实施会话持久性。
 
@@ -85,4 +84,3 @@ Scene7 会在本地存储一些基于旧版 AS2 Flash 的查看器的信息。
   </tr> 
  </tbody> 
 </table>
-
