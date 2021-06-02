@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud中心界面组件 '
 breadcrumb-title: Experience Cloud中心界面组件
 user-guide-description: 了解Experience Cloud的界面、配置首选项、搜索帮助和业务对象。 获取有关用户和产品管理、客户属性、受众库、Cookie和Experience Cloud资产的帮助。
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 82%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 86%
    + [[!DNL Search and Promote] Cookie](cookies/cookies-snp.md)
    + [[!DNL Target] Cookie](cookies/cookies-target.md)
    + [启用浏览器 Cookie 的隐私设置](cookies/browser-cookie-settings.md)
-   + [对第三方 Cookie 的支持发生变化如何影响客户](cookies/cookies-thirdparty.md)
+   + [第三方Cookie支持的变化对客户有何影响](cookies/cookies-thirdparty.md)
 + 用户和产品管理 {#manage-users-and-products}
    + [管理 Experience Cloud 用户标识和产品 (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [查看 Experience Cloud 用户详细信息（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 86%
    + [升级到 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 激活 {#activation}
    + [激活概述](activation/activation.md)
-   + [Experience Platform Launch 用户指南](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)
-   + [Dynamic Tag Manager 用户指南](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
+   + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hans)
+   + [Dynamic Tag Manager 用户指南](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=zh-Hans)
    + [触发器](activation/triggers.md)
 + Experience Cloud Assets {#assets}
    + [Experience Cloud Assets 概述](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 86%
    + [对《加州消费者隐私法案》的支持情况](attributes/ccpa.md)
    + [客户属性的隐私注意事项](attributes/privacy-mac.md)
 + Experience Cloud 的发行说明 {#release-notes}
-   + [Experience Cloud 的新增功能](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)
+   + [Experience Cloud 的新增功能](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [发行说明汇总](marketing-cloud-interface/release-notes.md)
 + 更多资源 {#more-resources}
-   + [论坛](https://forums.adobe.com/community/experience-cloud)
+   + [论坛](https://experienceleaguecommunities.adobe.com/)
    + [术语](terms.md)
    + [将 DNS 预获取用于不同的解决方案和服务](dns-prefetch.md)
    + [文档更新](doc-updates.md)
