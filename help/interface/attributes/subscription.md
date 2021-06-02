@@ -4,22 +4,21 @@ keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '如何配置订阅 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
-
 # 如何在 Experience Cloud 中配置订阅
 
-了解解决方案数据源和配置订阅。订阅后，可在 Experience Cloud 和解决方案（Analytics 和 [!DNL Target]）之间传输客户属性数据流。
+了解解决方案数据源和配置订阅。订阅后，Experience Cloud和解决方案（[!DNL Analytics]和[!DNL Target]）之间的客户属性数据流将得以实现。
 
 例如，Adobe Analytics 订阅允许将属性数据纳入报表中。如果使用 Adobe Target，则可以上传客户属性以进行定位和分段。
 
