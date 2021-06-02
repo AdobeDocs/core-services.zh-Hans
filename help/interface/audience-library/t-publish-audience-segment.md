@@ -1,21 +1,20 @@
 ---
 title: '发布 Analytics 受众区段 '
 description: 如何将 Adobe Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
-feature: Audience Library
-topic: Administration
+feature: 受众库
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '70'
-ht-degree: 100%
+exl-id: 6d097492-864b-412c-bfd6-f97be4a03558
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 62%
 
 ---
 
-
 # 发布 Analytics 受众区段
 
-将 Analytics 受众区段发布到 Experience Cloud 和 Adobe Target，以便开展受众市场营销活动。
+将[!DNL Analytics]受众区段发布到Experience Cloud和Adobe Target，以便开展受众营销活动。
 
-有关说明，请参阅 [Adobe Analytics 文档](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。
+有关说明，请参阅 [Adobe Analytics 文档](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en)。
