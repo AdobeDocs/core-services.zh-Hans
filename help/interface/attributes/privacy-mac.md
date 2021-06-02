@@ -6,16 +6,15 @@ title: '客户属性的隐私注意事项 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: 客户属性
 topic: 管理
-role: 管理员
-level: 富有经验
-translation-type: ht
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 89%
 
 ---
-
 
 # 客户属性的隐私注意事项
 
@@ -38,7 +37,7 @@ Adobe 意识到这些类型的营销和广告决策可能会对消费者的隐�
 
 在将 PII 上传到 Adobe Analytics 或 Adobe Target 时，Adobe 建议客户在将其上传到 Adobe 之前对 PII 进行哈希处理。经过哈希处理的信息仍可用于分析和营销目的。请注意，Adobe 禁止广告商向 Adobe Analytics 和 Adobe Target 发送敏感的个人信息，如医疗记录、财务帐户信息和未成年人的信息。
 
-Adobe 建议其广告商仔细考虑以下两点：哪些信息适合用于营销目的；广告商在哪些情况下有权使用此类信息。
+Adobe建议其广告商仔细考虑哪些信息适合用于营销目的，以及广告商在哪些情况下有权使用此类信息。
 
 由于消费者隐私法不断变化，因此 Adobe 建议广告商遵守以下三项通用原则：
 
@@ -46,4 +45,4 @@ Adobe 建议其广告商仔细考虑以下两点：哪些信息适合用于营�
 1. 说您所做（在隐私政策中）。
 1. 不要欺瞒消费者。
 
-考虑到这些期望，Adobe 建议广告商将浏览活动关联到 PII 时，该广告商可提供通知或进行个性化设置，表明消费者已通过身份验证。例如，在网站标题中插入问候语。Adobe 还建议广告商在其隐私权政策中描述以下两点：哪种类型的浏览信息与 PII 相关联以及在什么情况下浏览信息会与 PII 关联。最后，Adobe 强烈建议广告商查看他们为消费者提供的选择退出选项，了解他们选择退出后是否可以以及如何使用未经身份验证的个人资料信息。
+考虑到这些期望，Adobe 建议广告商将浏览活动关联到 PII 时，该广告商可提供通知或进行个性化设置，表明消费者已通过身份验证。例如，在网站标题中插入问候语。Adobe 还建议广告商在其隐私权政策中描述以下两点：哪种类型的浏览信息与 PII 相关联以及在什么情况下浏览信息会与 PII 关联。最后，Adobe强烈建议广告商查看他们为消费者提供的选择退出选项，以了解他们在选择退出后是否以及如何使用未经身份验证的用户档案信息。
