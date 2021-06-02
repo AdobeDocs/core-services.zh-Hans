@@ -4,24 +4,23 @@ keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
 title: 'Analytics Cookie '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
-
 # Analytics Cookie{#analytics-cookies}
 
-Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储应用程序以后可以使用的有用信息。还可使用它们将浏览信息与客户记录相关联。
+Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储应用程序以后可以使用的有用信息。它们还可用于将浏览信息与客户记录相关联。
 
-尤其是，Analytics 使用 Cookie 匿名定义新访客、帮助分析点击流数据并跟踪网站上的历史活动，如对特定营销活动的响应或销售周期的长度。
+Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟踪网站上的历史活动，如对特定促销活动的响应或销售周期的长度。
 
 * [Cookie 名称：s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie 名称：AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -48,7 +47,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 | 属性 | 描述 |
 |--- |--- |
-| 存储的信息 | 此 Cookie 通过 JavaScript 代码设置和读取，以确定是否已启用 Cookie（只需将其设置为“True”） |
+| 存储的信息 | 此Cookie由JavaScript代码设置和读取，以确定是否启用了Cookie（设置为“True”） |
 | 过期 | 此 Cookie 是会话 Cookie，在浏览器关闭时过期 |
 | 使用情况 | 所有帐户都只能使用一个 Cookie |
 | 位置 | 此 Cookie 存储在页面的域中 |
@@ -102,10 +101,10 @@ Analytics 帮助中提供了有关[第一方 Cookie](/help/interface/cookies/coo
 
 >[!NOTE]
 >
->如果使用单个 CNAME 跨多个域或属性进行跟踪，则应将 `s_vi` 的 SameSite 设置为“无”。要获取更改 Analytics Cookie 设置的帮助，请联系客户关怀。
+>如果使用单个 CNAME 跨多个域或属性进行跟踪，则应将 `s_vi` 的 SameSite 设置为“无”。如需有关更改Analytics Cookie设置的帮助，请联系客户关怀团队。
 
 ## 插件设置的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-可根据 Analytics 插件的使用情况来设置其他 Cookie。这些 Cookie 是代码片段，可供客户端在各种情况下使用。这些情况包括：从 URL 检索值；合并值以传递给 Analytics；捕获表单放弃，等等。有关每个插件所设置的 Cookie 的特定信息，请与 ClientCare 联系。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *插件使用* Cookie。
+可根据 Analytics 插件的使用情况来设置其他 Cookie。这些Cookie是可供客户端在各种情况下使用的代码片段。 这些情况包括：从 URL 检索值；合并值以传递给 Analytics；捕获表单放弃，等等。有关每个插件所设置的 Cookie 的特定信息，请与 ClientCare 联系。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *插件使用* Cookie。
 
-仅当电子邮件和浏览器共享相同的 Cookie 空间时，才能正确识别未使用 JavaScript 而传入图像请求的 Conversion 变量 (eVarX)，例如置入电子邮件内的代码。
+仅当电子邮件客户端和Web浏览器共享Cookie空间时，才能正确识别在不使用JavaScript的图像请求中传入的转化变量(eVarX)，例如放置在电子邮件中的代码。
