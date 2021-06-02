@@ -36,8 +36,8 @@ ht-degree: 93%
 
 添加了以下页面：
 
-* [对《通用数据保护条例》的支持](attributes/gdpr.md)
-* [对《加州消费者隐私法案》的支持](attributes/ccpa.md)
+* [对《通用数据保护条例》的支持情况](attributes/gdpr.md)
+* [对《加州消费者隐私法案》的支持情况](attributes/ccpa.md)
 
 **更新日期：2020 年 3 月 10 日**
 
