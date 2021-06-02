@@ -5,18 +5,17 @@ breadcrumb-title: Experience Cloud 服务和管理
 user-guide-description: 了解如何管理 Adobe Experience Cloud 中的用户和产品，以及如何使用客户属性和 Audience Library 服务。还了解 Cookie 和 Experience Cloud Assets。
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: 6744ddeeaad42054497230e1214033f36746b8e3
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud 服务和管理 {#interface}
+# Experience Cloud Services 和管理 {#interface}
 
-+ [Experience Cloud 服务和管理](experience-cloud.md)
-+ [Experience Cloud 界面](experience-cloud-interface.md)
++ [Experience Cloud中心界面组件](experience-cloud.md)
 + Experience Cloud 服务 {#about-core-services}
    + [Experience Cloud 服务概述](core-services-landing.md)
    + [启用您对跨解决方案服务的实现](core-services/core-services.md)
