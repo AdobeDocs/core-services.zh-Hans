@@ -4,24 +4,23 @@ keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '通过 FTP 上传客户属性数据文件 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
+exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
-
 
 # 可选 - 通过 FTP 上传数据文件
 
 如果您不使用拖放操作上传，则可以通过 FTP 将客户属性数据上传到 Experience Cloud。
 
-在 Experience Cloud 中创建客户属性来源和 FTP 帐户后，您可以上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并通过另一个 `.fin` 文件指示上传已完成。
+在 Experience Cloud 中创建客户属性来源和 FTP 帐户后，您可以上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。数据必须为`.csv`格式，并通过另一个`.fin`文件指示上传已完成。
 
 >[!IMPORTANT]
 >
@@ -30,7 +29,7 @@ ht-degree: 100%
 可通过 FTP 或 SFTP，将文件上传到客户属性 FTP 站点。
 
 * 您需要支持 SFTP 连接的客户端。
-* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://docs.adobe.com/help/zh-Hans/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所示。
+* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)所示。
 
 **通过 FTP 上传数据文件的方法**
 
