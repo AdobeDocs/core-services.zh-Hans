@@ -4,18 +4,17 @@ keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '创建客户属性来源并上传数据文件 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1174'
-ht-degree: 100%
+exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 91%
 
 ---
-
 
 # 创建客户属性来源并上传数据文件
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 1. [创建数据文件](../attributes/t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [创建属性来源并上传数据文件](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [验证架构](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [配置订阅并激活属性来源](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [配置订阅 和激活属性来源](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 在数据源处于活动状态后，您可以：
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。添加到客户属性群组的用户将在 Experience Cloud 界面的左侧看到“[!UICONTROL 客户属性]”菜单项。
+>要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。添加到客户属性群组的用户在Experience Cloud界面的左侧看到[!UICONTROL 客户属性]菜单。
 >
 >要使用“客户属性”功能，用户还必须属于解决方案级别的群组（Analytics 或 [!DNL Target]）。
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >在此过程的后续步骤中，您将拖放此 `.csv` 文件以上传它。然而，如果您[通过 FTP 上传](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，则还需要一个与 `.csv` 文件同名的 `.fin` 文件。
+   >在此过程的后续步骤中，您拖放`.csv`以上传文件。 然而，如果您[通过 FTP 上传](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，则还需要一个与 `.csv` 文件同名的 `.fin` 文件。
 
    示例企业客户数据文件：
 
@@ -87,9 +86,9 @@ ht-degree: 100%
 
       别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/macid.html)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hans)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://docs.adobe.com/content/help/zh-Hans/id-service/using/reference/authenticated-state.html)。
+      * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)。
 
          例如，下面的&#x200B;*“crm_id”*：
 
@@ -97,13 +96,13 @@ ht-degree: 100%
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS：**&#x200B;别名 ID 对应于 [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html) 中的 *&quot;idType&quot;*。
+      * **iOS：**&#x200B;别名 ID 对应于 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en) 中的 *&quot;idType&quot;*。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android：**&#x200B;别名 ID 对应于 [syncIdentifiers](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/overview.html) 中的“idType”**。
+      * **Android™:** 别名ID对应于 *syncIdentifiers* 中的 [“idType”](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en)。
 
          例如：
 
@@ -127,7 +126,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 别名为 Experience Cloud 访客 ID 的客户提供 ID：]**&#x200B;显示别名为 Experience Cloud 访客 ID 的 ID 数量。
 
-   * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。到那时，系统会使客户提供 ID 无效，且不再分发关联的属性。
+   * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。然后，系统将使客户提供的ID失效，并且不再分发关联的属性。
 
 
 
@@ -139,7 +138,7 @@ ht-degree: 100%
 
 要删除属性，请参阅[（可选）更新架构（删除属性）](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
-## （可选）更新架构（删除属性）{#task_6568898BB7C44A42ABFB86532B89063C}
+## （可选）更新架构（删除属性） {#task_6568898BB7C44A42ABFB86532B89063C}
 
 如何删除和替换架构中的属性。
 
@@ -168,7 +167,7 @@ ht-degree: 100%
 
 在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
-有关更多信息，请参阅 Analytics 帮助中的[客户属性报表](https://docs.adobe.com/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)。
+有关更多信息，请参阅 Analytics 帮助中的[客户属性报表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=zh-Hans)。
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -176,4 +175,4 @@ ht-degree: 100%
 
 ![](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的[创建新受众](https://docs.adobe.com/content/help/zh-Hans/target/using/audiences/create-audiences/audiences.html)。
+请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en)。
