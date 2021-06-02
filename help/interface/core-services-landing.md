@@ -18,7 +18,7 @@ ht-degree: 73%
 
 Adobe Experience Cloud 服务包括[!UICONTROL 人员]（受众和客户属性）、Experience Platform Launch 和 Mobile Services。您还可以找到有关 Experience Cloud 用户和产品管理的帮助。
 
-要在 Experience Cloud 中访问这些服务，请单击&#x200B;**[!UICONTROL 应用程序选择器]** ![](assets/menu-icon.png)。
+要在 Experience Cloud 中访问这些服务，请单击&#x200B;**[!UICONTROL 应用程序选择器]**![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
