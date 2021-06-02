@@ -1,34 +1,33 @@
 ---
 title: '客户属性对《通用数据保护条例》的支持 '
 description: 了解客户属性对《通用数据保护条例》的支持
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 95%
 
 ---
 
-
 # 客户属性对《通用数据保护条例》的支持
 
-本页介绍客户属性如何支持《通用数据保护条例》(GDPR)。
+本页介绍[!UICONTROL 客户属性]如何支持《通用数据保护条例》(GDPR)。
 
 >[!IMPORTANT]
 >
 >本文档的内容不是法律建议，也不会代替法律建议。请咨询您的法律顾问，以获得有关 GDPR 的建议。
 
-[《通用数据保护条例》](https://www.adobe.com/cn/privacy/general-data-protection-regulation/what-is-gdpr.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。该法规还简化了国际业务的监管环境。该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
+[《通用数据保护条例》](https://business.adobe.com/privacy/general-data-protection-regulation.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。该法规还简化了国际业务的监管环境。该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
 
 Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并存储的任何个人数据。作为数据控制者，您可以决定 Adobe Experience Cloud 代表您处理和存储的个人数据。
 
 本文档介绍了[!UICONTROL 客户属性]如何使用 Adobe Experience Platform 隐私服务 API 和隐私服务 UI 支持数据主体的 GDPR 数据访问和删除权利。
 
-有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)。
+有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## 发送[!UICONTROL 客户属性]请求所需的设置
 
