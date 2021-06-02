@@ -1,26 +1,104 @@
 ---
-description: 了解 Adobe Admin Console 中的用户和产品管理，为 Experience Cloud 服务启用解决方案，并了 Audience Library、客户属性、Experience Cloud Assets 等内容。
-keywords: Adobe Experience Cloud 服务, 客户属性, 受众, 用户和产品管理
+description: 了解用于Experience Cloud的中央界面组件。 此帮助包括在Admin Console中管理用户和产品，为Experience Cloud服务启用应用程序，以及获取有关受众库、客户属性、Experience Cloud资产等内容的帮助。
 solution: Experience Cloud
-title: 'Experience Cloud 服务和管理 '
+title: Experience Cloud界面帮助和文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: '"客户属性"'
 topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 34%
 
 ---
 
-# Experience Cloud 服务和管理指南
+# Experience Cloud中心界面组件
 
-Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务系列。它还是一个直观的界面，可让您快速访问云解决方案和核心服务。
+[Experience Cloud](https://experience.adobe.com) Adobe的集成式数字营销应用程序、产品和服务系列。从其直观的界面，您可以快速访问云应用程序、产品功能和服务。
 
-![Experience Cloud](assets/cloud-pulldown.png)
+![Experience Cloud](assets/landing.png)
+
+从Experience Cloud的标题中，您可以：
+
+* 访问您的应用程序和服务
+* 搜索产品文档、教程和社区帖子
+* 使用全局搜索全局搜索业务对象(仅限Experience Platform用户)
+* 管理帐户首选项（警报、通知和订阅）
+
+## 登录到 Experience Cloud
+
+登录并验证您是否处于正确的[组织](admin-getting-started/organizations.md)中。
+
+1. 导航到[Adobe Experience Cloud](https://experience.adobe.com)。
+1. 单击&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
+1. 在Adobe Experience Cloud上，单击您的组织。
+
+   ![](assets/organizations-menu.png)
+
+   您的管理员可以帮助您验证您是否位于右侧[组织](admin-getting-started/organizations.md)中。
+
+## 访问Experience Cloud应用程序 {#navigation}
+
+登录到Experience Cloud后，您可以从统一的标题快速访问所有应用程序、服务和组织。
+
+要访问您拥有的Experience Cloud服务，请单击应用程序选择器![](assets/menu-icon.png)。
+
+![](assets/platform-core-services.png)
+
+## 获取帮助和支持 {#search}
+
+Unified Help提供了一个产品内位置，用于在[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上搜索和访问帮助内容（文档、教程和课程）。 您还可以提交不限成员名额的反馈并创建按优先级排列的支持票证。
+
+![](assets/search-menu.png)
+
+[!UICONTROL Help]菜单还允许您访问：
+
+* **[!UICONTROL 支持]:** 创建支持票证或联系支持  人员Twitter。
+* **[!UICONTROL 反馈]:** 分享有关您的Experience Cloud体验的反馈。您的反馈用于改进Adobe的产品和服务。
+* **[!UICONTROL 状态]:** 导航到并 `https://status.adobe.com/experience_cloud` 检查产品运行状态和 [!UICONTROL 管理订阅]。
+* **[!UICONTROL Developer Connection]:** 导航到开发 `adobe.io` 人员文档并查找。
+
+## 全局搜索对象和实体
+
+通过全局搜索，您可以在无缝、一致的一键式体验中查找任何可搜索的业务对象或实体。 此搜索可显示您最近访问的对象。
+
+![](assets/platform-search.png)
+
+此搜索仅供Experience Platform用户使用。
+
+## 管理帐户首选项 {#preferences}
+
+Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜单中，您可以：
+
+* 指定深色主题（并非所有应用程序都支持此主题）
+* 搜索[组织](admin-getting-started/organizations.md)
+* 注销
+* 配置帐户首选项、通知和订阅
+
+要管理首选项，请在帐户菜单![](assets/preferences-icon-sm.png)中单击&#x200B;**[!UICONTROL 首选项]**。
+
+![](assets/preferences-page.png)
+
+在[!UICONTROL Experience Cloud首选项]上，可以配置以下功能：
+
+| 功能 | 描述 |
+|--- |--- |
+| 默认[organization](admin-getting-started/organizations.md) | 选择要在启动Experience Cloud时查看的组织。 |
+| [!UICONTROL 订阅] | 选择要订阅的产品和类别。 [!UICONTROL Notifications]弹出窗口和电子邮件中的通知。 |
+| [!UICONTROL 优先级] | 选择要被视为高优先级的类别。 这些类别带有高标记，可配置为像警报一样进行交付。 |
+| [!UICONTROL 警报] | 选择要在浏览器中显示警报的通知。 警报会在窗口的右上角显示几秒钟。 |
+| 电子邮件 | 指定您希望接收通知电子邮件的频率。 （未发送、即时、每日或每周。） |
+
+## 通知和公告
+
+单击&#x200B;**[!UICONTROL 通知]**&#x200B;可收到有关可操作的相关更新（包括产品版本、维护通知、共享项目和批准请求）的警报。
+
+![](assets/notifications-menu-small.png)
+
+## 获取有关管理和跨应用程序服务的帮助
 
 本指南提供的帮助内容涉及如何在 Admin Console 中管理用户和产品，以及如何启用面向平台服务的解决方案。另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
 
@@ -34,7 +112,7 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 * [常见问题](admin-getting-started/admin-getting-started.md)
 * [组织和帐户关联](admin-getting-started/organizations.md)
 * [集成](marketing-cloud-integrations.md)
-* [将 Adobe Target 与 Experience Cloud 集成](https://docs.adobe.com/content/help/zh-Hans/target/using/integrate/a4t/a4t.html)
+* [将 Adobe Target 与 Experience Cloud 集成](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 * [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -42,29 +120,29 @@ Experience Cloud 是 Adobe 的集成式 Digital Marketing 解决方案和服务�
 
 相关的 Experience Cloud 指南包括：
 
-* [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)
-* [Experience Platform Co-op Graph](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)
-* [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud 调试器](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
+* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Platform数据收集/启动](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)
 * [《通用数据保护条例》(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=zh-Hans)
 
 ## 教程
 
 充分利用以下 Experience League 中的自助式教程和简短的使用说明：
 
 * [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=zh-Hans#quick-how-tos)
-* [Experience Platform 教程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=zh-Hans)
-* [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
+* [Experience Platform 教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
+* [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
-* [所有 Experience Cloud 解决方案的产品文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html) — 浏览 Experience Cloud 学习和支持页面以获取帮助
-* [发行说明和产品更新](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html) — Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/tutorials/overview.html) — 浏览有关核心服务的视频和教程
-* [Experience League 的专家帮助](https://landing.adobe.com/experience-league/) — 从专家和社区获得指导性学习
-* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) — 与 Adobe 互动，确保您能够充分利用我们的产品
-* [客户体验博客](https://theblog.adobe.com/customer-experience/) — 阅读 Experience Cloud 博客
-* [客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html) — 联系 Adobe 客户关怀部门
+* [所有 Experience Cloud 解决方案的产品文档](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en) — 浏览 Experience Cloud 学习和支持页面以获取帮助
+* [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) — Experience Cloud 的新增功能，订阅可获取更新
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en) — 浏览有关核心服务的视频和教程
+* [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
+* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)  — 与Adobe互动，确保您能够充分利用Adobe的产品
+* [客户体验博客](https://blog.adobe.com/customer-experience/) — 阅读 Experience Cloud 博客
+* [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support) — 联系 Adobe 客户关怀部门
