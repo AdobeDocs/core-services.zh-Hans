@@ -3,17 +3,16 @@ description: 了解如何在 Experience Cloud 中将一个或多个报表包映�
 title: '将报表包映射到组织 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1165'
+ht-degree: 72%
 
 ---
-
 
 # 将报表包映射到组织 {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
@@ -23,18 +22,18 @@ ht-degree: 100%
 
 Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员]）与组织关联，而不是与单个报表包关联。为确保这些服务能够正确运行，必须将每个 Analytics 报表包映射到组织。映射过程：
 
-* 将 Experience Cloud 组织设置为报表包的主组织。
+* 将Experience Cloud组织设置为报表包的主组织。
 * 不要更改可以访问报表包的主体（访问权限仍由每个用户的 Adobe Analytics 登录帐户决定）
 
 ## 要求
 
-您必须是登录公司内对要映射的报表包拥有访问权限的 Analytics 管理员。此外，必须将此帐户[链接到 Experience Cloud 组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)，才能将报表包映射到该组织。
+您必须是登录公司内对要映射的报表包拥有访问权限的 Analytics 管理员。此外，此帐户必须[链接到Experience Cloud组织](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)，才能将报表包映射到该组织。
 
 如果您不具备组织下对给定报表包拥有访问权限的登录公司的 Analytics 管理员权限，则组织将呈灰显状态。
 
 ## 将一个报表包映射到组织 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 在 [!DNL Analytics] > **[!UICONTROL 管理员]** > **[!UICONTROL 数据管理]**&#x200B;中导航到“数据管理报表包”（请参阅[查看/管理报表包的数据管理设置](https://docs.adobe.com/help/zh-Hans/analytics/admin/data-governance/gdpr-view-settings.html)）
+1. 在 [!DNL Analytics] > **[!UICONTROL 管理员]** > **[!UICONTROL 数据管理]**&#x200B;中导航到“数据管理报表包”（请参阅[查看/管理报表包的数据管理设置](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)）
 
 1. 要查看对每个报表包拥有访问权限的登录公司，请单击&#x200B;**[!UICONTROL 对登录公司可见]**。
 
@@ -64,31 +63,31 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ### 我应该选择哪个组织？
 
-如果当前已在报表包上部署 Experience Cloud ID 服务，请确保您在报表包映射工具中选择的组织与在您网站上的 [!DNL visitorAPI.js] 文件中指定的组织相同。您可以按照[测试和验证 Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation-guides/test-verify.html)中的说明来查找访客 ID 服务所使用的组织 ID。
+如果Experience CloudID服务已部署在报表包上，请确保您在报表包映射工具中选择的组织与在您网站的[!DNL visitorAPI.js]文件中指定的组织相同。 您可以按照[测试和验证 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/test-verify.html?lang=en)中的说明来查找访客 ID 服务所使用的组织 ID。
 
-如果尚未在收集报表包数据的网站上部署访客 ID 服务，但将来要部署 Experience Cloud 访客 ID 服务，则需要确保您的部署与您在报表包映射工具中选择的组织相匹配。
+如果尚未在收集报表包数据的网站上部署访客ID服务，则如果将来部署Experience Cloud访客ID服务，请确保您的部署与您在报表包映射工具中选择的组织匹配。
 
 ### 为什么某些组织呈灰显状态？
 
-这表示您没有足够的权限来映射到呈灰显状态的报表包。请仔细研究下面的示例：
+灰显的组织表示您没有足够的权限映射到呈灰显状态的报表包。 请仔细研究下面的示例：
 
 ![](assets/rs-mapping.png)
 
 在此图表中，蓝色钥匙表示管理员权限。灰色线条表示可见性。
 
-此用户具有两个 Experience Cloud 组织的访问权限。他执行了以下操作：
+此用户具有两个 Experience Cloud 组织的访问权限。他们执行了以下操作：
 
-* 将他在 [!UICONTROL chapek] Analytics 登录公司中的管理员帐户链接到其 [!UICONTROL Chapek] Corp Experience Cloud 组织帐户。
-* 将他在 [!UICONTROL doohan] Analytics 登录公司中的非管理员帐户链接到其 [!UICONTROL Chapek] Corp Experience Cloud 组织帐户。
-* 将他在 nigel Analytics 登录公司中的非管理员帐户链接到其 Nigel Inc Experience Cloud 组织帐户。
+* 将他们在[!UICONTROL chapek] Analytics登录公司中的管理员帐户链接到其[!UICONTROL Chapek] CorpExperience Cloud组织帐户。
+* 将他们在[!UICONTROL doohan] Analytics登录公司中的非管理员帐户链接到其[!UICONTROL Chapek]公司Experience Cloud组织帐户。
+* 将他们在Nigel Analytics登录公司中的非管理员帐户关联到其Nigel IncExperience Cloud组织帐户。
 
 以下几点列出了该用户可以和不可以对这些报表包执行的映射操作：
 
 * 可以将 [!UICONTROL Chapek-prod] 报表包映射到 [!UICONTROL Chapek] Corp 组织，因为该用户是链接的 Analytics 登录公司 ([!UICONTROL chapek]) 的管理员，并且其帐户已链接到此组织。
-* 该用户无法链接 [!UICONTROL Nigel-prod] 报表包，因为该用户不是显示此报表包的任何登录公司的管理员。
-* 可以将 [!UICONTROL Doohan-prod] 报表包映射到 [!UICONTROL Chapek Corp]，因为该用户是链接到 Experience Cloud 组织的登录公司 ([!UICONTROL chapek]) 的管理员（请注意，他不是 doohan Analytics 登录公司的管理员）。请注意，[!UICONTROL doohan-prod] 报表包还可以映射到 Nigel Inc Experience Cloud 组织，即使此用户无法执行该映射，这一点非常重要。在这种情况下，两个 Experience Cloud 组织都会显示在列表中，但 [!UICONTROL Nigel Inc] 呈灰显状态。在映射之前，该用户应该咨询 Nigel 登录公司的管理员，以确定适合映射的最佳候选组织。如果您选择的组织与最初创建报表包的组织不同，则 UI 会显示“可能冲突”警告。
+* [!UICONTROL 此用户无] 法链接Nigel-prodreport包，因为他们不是显示此报表包的任何登录公司的管理员。
+* 可以将 [!UICONTROL Doohan-prod] 报表包映射到 [!UICONTROL Chapek Corp]，因为该用户是链接到 Experience Cloud 组织的登录公司 ([!UICONTROL chapek]) 的管理员（请注意，他不是 doohan Analytics 登录公司的管理员）。请注意，[!UICONTROL doohan-prod] 报表包还可以映射到 Nigel Inc Experience Cloud 组织，即使此用户无法执行该映射，这一点非常重要。在这种情况下，两个 Experience Cloud 组织都会显示在列表中，但 [!UICONTROL Nigel Inc] 呈灰显状态。在映射之前，该用户应该咨询 Nigel 登录公司的管理员，以确定适合映射的最佳候选组织。如果您选择的组织与最初创建报表包的组织不同，则UI会显示“可能冲突”警告。
 
-## 常见问题解答 {#section_099E485805994C929FF9C9F75219BEE1}
+## 常见问题 {#section_099E485805994C929FF9C9F75219BEE1}
 
 ### 我为何看不到所有的报表包？
 
@@ -96,7 +95,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ### 如果我无法分辨下拉列表中针对某个报表包列出的某些组织，该怎么办？
 
-该列表显示了您的报表包可以映射到的所有&#x200B;*可能*&#x200B;组织，即使您并没有映射到所有这些报表包的权限。如果您不确定是否应该将报表包映射到列表中呈灰显状态的其中一个报表包，请咨询贵组织中的 Experience Cloud 管理员，以确定最佳选择。
+该列表显示了您的报表包可以映射到的所有&#x200B;*可能*&#x200B;组织，即使您并没有映射到所有这些报表包的权限。如果您不确定是否应将报表包映射到列表中呈灰显状态的其中一个报表包，请咨询贵组织的Experience Cloud管理员，以确定最佳选择。
 
 ### 如果我无法分辨“对登录公司可见”列中针对报表包列出的某些登录公司，该怎么办？
 
@@ -108,11 +107,11 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ### 如何知道报表包是否已映射？
 
-已映射的报表包将以不可编辑的格式显示。如果您需要更改映射，请联系客户关怀。
+映射的报表包以不可编辑的格式显示。 如果必须更改映射，请联系客户关怀团队。
 
 ### 如果我只知道 Experience Cloud 组织的组织 ID，该怎么办？如何查找我的组织 ID 的名称？
 
-您可以在[组织和帐户设置](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)中找到您的组织名称。
+您可以在[组织和帐户设置](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=en)中找到您的组织名称。
 
 ### 我在“映射日期”列中看到一个日期。是谁执行了此映射？
 
