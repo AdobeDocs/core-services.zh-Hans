@@ -4,22 +4,21 @@ keywords: 客户属性;Experience Cloud 服务
 solution: Experience Cloud
 title: '如何验证客户属性架构 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Customer Attributes
-topic: Administration
+feature: 客户属性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 91%
 
 ---
 
-
 # 验证架构
 
-验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。将根据这些设置创建架构。该架构用于验证将来上传到此数据源的所有数据。此映射过程不会更改原始数据。
+验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。将根据这些设置创建架构。该架构用于验证将来上传到此数据源的所有数据。映射过程不会更改原始数据。
 
 >[!NOTE]
 >
@@ -47,9 +46,9 @@ ht-degree: 100%
 
    * **[!UICONTROL AVID（Analytics 访客 ID）：]**&#x200B;在您使用 prop 或 eVar 上传 CID 时显示。如果这些 ID 正在传递到 Experience Cloud，则与您输入的 CID 相关联的所有访客 ID 都将显示在此处。
 
-在 Experience Cloud 中创建客户属性来源和 FTP 帐户之后，您还可以通过 FTP 上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 .csv 格式，并通过另一个 .fin 文件指示上传已完成。
+在 Experience Cloud 中创建客户属性来源和 FTP 帐户之后，您还可以通过 FTP 上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。数据必须采用`.csv`格式，并通过另一个`.fin`文件指示上传已完成
 
-指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。有关详细信息，请参阅 [!DNL Analytics] 帮助中的[客户属性报表](https://docs.adobe.com/help/zh-Hans/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)。
+指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。有关详细信息，请参阅 [!DNL Analytics] 帮助中的[客户属性报表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=zh-Hans)。
 
 * **[!UICONTROL 属性：]**&#x200B;从上传的 `.csv` 文件中读取的属性数据。
 
@@ -61,6 +60,6 @@ ht-degree: 100%
 
    * **数字：**&#x200B;最多可以保留两位小数。
 
-* **[!UICONTROL 显示名称：]**&#x200B;属性的易记名称。例如，您可以从&#x200B;*客户年龄*&#x200B;更改为&#x200B;*自从以下时间以来的客户*。
+* **[!UICONTROL 显示名称：]**&#x200B;属性的易记名称。例如，您可以将属性&#x200B;*客户年龄*&#x200B;更改为&#x200B;*自*&#x200B;以来的客户。
 
 * **[!UICONTROL 描述：]**&#x200B;属性的易懂描述。
