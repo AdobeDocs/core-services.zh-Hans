@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 79%
+ht-degree: 77%
 
 ---
 
@@ -74,7 +74,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 >
 >客户属性是一项旧版服务，现在处于维护状态。
 
-如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的数据。
+如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud中的客户属性数据源。 上传后，使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的数据。
 
 **适用的解决方案或服务**
 
@@ -149,7 +149,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 **适用的解决方案或服务**
 
-* 客户属性：配置 Adobe Target 的客户属性[订阅](subscription.md)
+* 客户属性：将Adobe Target的[subscription](subscription.md)配置为客户属性
 * Experience Cloud 受众：[Experience Cloud Audience Library](audience-library.md)
 * Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 * Dynamic Tag Management：[使用 DTM 实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=zh-Hans)
