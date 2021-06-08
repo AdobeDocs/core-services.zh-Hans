@@ -9,14 +9,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Experience Cloud 受众 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud受众 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 受众是访客的集合（访客 ID 列表）。通过 Adobe 的受众库，您可以管理如何将访客数据转换为受众分段。因此，创建和管理受众与创建和使用区段类似。您还可以将受众区段共享到 [!DNL Experience Cloud] 中的产品和服务。
 
