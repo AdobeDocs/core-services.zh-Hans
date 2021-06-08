@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '4094'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -256,7 +256,7 @@ Experience Cloud 界面的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务解决方案实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用解决方案</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud中的客户属性数据源。 在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务解决方案实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用解决方案</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
