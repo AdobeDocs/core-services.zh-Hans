@@ -1,5 +1,5 @@
 ---
-description: 了解如何验证 Adobe Experience Cloud 中的客户属性架构。
+description: 了解如何在Adobe Experience Cloud中验证客户属性架构。
 keywords: 客户属性;Experience Cloud 服务
 solution: Experience Cloud
 title: '如何验证客户属性架构 '
@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
    * **[!UICONTROL AVID（Analytics 访客 ID）：]**&#x200B;在您使用 prop 或 eVar 上传 CID 时显示。如果这些 ID 正在传递到 Experience Cloud，则与您输入的 CID 相关联的所有访客 ID 都将显示在此处。
 
-在 Experience Cloud 中创建客户属性来源和 FTP 帐户之后，您还可以通过 FTP 上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。数据必须为`.csv`格式，并通过另一个`.fin`文件指示上传已完成。
+在Experience Cloud中创建客户属性来源和FTP帐户后，您还可以通过FTP上传数据。 为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。数据必须为`.csv`格式，并通过另一个`.fin`文件指示上传已完成。
 
 指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 量度。
 
