@@ -1,5 +1,5 @@
 ---
-description: 了解如何创建客户属性来源并将其上传到 Adobe Experience Cloud。
+description: 了解如何创建客户属性来源并将其上传到Adobe Experience Cloud。
 keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '创建客户属性来源并上传数据文件 '
@@ -9,18 +9,18 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 77%
 
 ---
 
 # 创建客户属性来源并上传数据文件
 
-创建客户属性源（CSV 和 FIN 文件）并上传数据。您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
+创建客户属性来源（CSV和FIN文件）并上传数据。 您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
 
-## 客户属性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+## 客户属性工作流 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。联系 Audience Manager 客户关怀团队或咨询以获取管理权限。
+>创建、修改或删除客户属性来源时，ID在开始与新数据源同步之前会延迟多达一小时。 您必须在Audience Manager中拥有管理权限，才能创建或修改客户属性来源。 联系 Audience Manager 客户关怀团队或咨询以获取管理权限。
 
 1. 在 [!DNL Experience Cloud] 中，单击菜单 ![](assets/menu-icon.png) 图标。
 1. 在 **[!DNL Experience Platform]** 下，单击&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**。
@@ -82,7 +82,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在 Experience Cloud UI 中的客户属性来源的“别名 ID”字段中输入的值应与从实施中传入的值（无论是通过 Dynamic Tag Management 还是通过 Mobile SDK 的 JavaScript 传入）匹配。
+   * **[!UICONTROL 别名ID:]** 表示客户属性数据的来源，如特定的CRM系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience CloudUI中客户属性来源的“别名ID”字段中输入的值应与从实施中传入的值（无论是通过动态标签管理还是Mobile SDK的JavaScript）匹配。
 
       别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
@@ -169,7 +169,7 @@ ht-degree: 90%
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可以在创建受众时从“[!UICONTROL 访客配置文件]”区域选择一个客户属性。所有客户属性在列表中的前缀都为`crs.`。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在[!DNL Target]中，您可以在创建受众时从[!UICONTROL 访客配置文件]部分选择“客户属性”。 所有客户属性在列表中的前缀都为`crs.`。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![](assets/crs-add-attribute-target.png)
 
