@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '2334'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -198,7 +198,7 @@ mbox 请求中的 Experience Cloud ID：
 
 ### [!UICONTROL 人员] > [!UICONTROL 客户属性]
 
-如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的数据。
+如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud中的客户属性数据源。 上传后，使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的数据。
 
 请参阅[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)。
 
