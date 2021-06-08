@@ -6,7 +6,7 @@ feature: '"中央界面组件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Experience Cloud的中央界面组件具有以下功能：
 
 ## 登录到 Experience Cloud
 
-登录并验证您是否处于正确的[组织](admin-getting-started/organizations.md)中。
+登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到[Adobe Experience Cloud](https://experience.adobe.com)。
 1. 单击&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
@@ -31,7 +31,7 @@ Experience Cloud的中央界面组件具有以下功能：
 
    ![](assets/organizations-menu.png)
 
-   您的管理员可以帮助您验证您是否位于右侧[组织](admin-getting-started/organizations.md)中。
+   您的管理员可以帮助您验证您是否位于右侧[组织](organizations.md)中。
 
 ## 访问Experience Cloud应用程序 {#navigation}
 
@@ -59,7 +59,7 @@ Experience Cloud搜索允许您在[Experience League](https://experienceleague.a
 在帐户首选项菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
-* 搜索[组织](admin-getting-started/organizations.md)
+* 搜索[组织](organizations.md)
 * 注销
 * 配置帐户[首选项、通知和订阅](#preferences)
 
@@ -75,7 +75,7 @@ Experience Cloud首选项包括通知、订阅和警报。
 
 | 功能 | 描述 |
 |--- |--- |
-| 默认[organization](admin-getting-started/organizations.md) | 选择要在启动Experience Cloud时查看的组织。 |
+| 默认[organization](organizations.md) | 选择要在启动Experience Cloud时查看的组织。 |
 | [!UICONTROL 订阅] | 选择要订阅的产品和类别。 [!UICONTROL Notifications]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择要被视为高优先级的类别。 这些类别带有高标记，可配置为像警报一样进行交付。 |
 | [!UICONTROL 警报] | 选择要在浏览器中显示警报的通知。 警报会在窗口的右上角显示几秒钟。 |
