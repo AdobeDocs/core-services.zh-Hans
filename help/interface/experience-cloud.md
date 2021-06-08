@@ -8,7 +8,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 33%
@@ -30,7 +30,7 @@ ht-degree: 33%
 
 ## 登录到 Experience Cloud
 
-登录并验证您是否处于正确的[组织](admin-getting-started/organizations.md)中。
+登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到[Adobe Experience Cloud](https://experience.adobe.com)。
 1. 单击&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
@@ -38,7 +38,7 @@ ht-degree: 33%
 
    ![](assets/organizations-menu.png)
 
-   您的管理员可以帮助您验证您是否位于右侧[组织](admin-getting-started/organizations.md)中。
+   您的管理员可以帮助您验证您是否位于右侧[组织](organizations.md)中。
 
 ## 访问Experience Cloud应用程序 {#navigation}
 
@@ -75,7 +75,7 @@ Unified Help提供了一个产品内位置，用于在[Experience League](https:
 Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
-* 搜索[组织](admin-getting-started/organizations.md)
+* 搜索[组织](organizations.md)
 * 注销
 * 配置帐户首选项、通知和订阅
 
@@ -87,13 +87,13 @@ Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜
 
 | 功能 | 描述 |
 |--- |--- |
-| 默认[organization](admin-getting-started/organizations.md) | 选择要在启动Experience Cloud时查看的组织。 |
+| 默认[organization](organizations.md) | 选择要在启动Experience Cloud时查看的组织。 |
 | [!UICONTROL 订阅] | 选择要订阅的产品和类别。 [!UICONTROL Notifications]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择要被视为高优先级的类别。 这些类别带有高标记，可配置为像警报一样进行交付。 |
 | [!UICONTROL 警报] | 选择要在浏览器中显示警报的通知。 警报会在窗口的右上角显示几秒钟。 |
 | 电子邮件 | 指定您希望接收通知电子邮件的频率。 （未发送、即时、每日或每周。） |
 
-## 通知和公告
+## 通知和公告 {#notifications}
 
 单击&#x200B;**[!UICONTROL 通知]**&#x200B;可收到有关可操作的相关更新（包括产品版本、维护通知、共享项目和批准请求）的警报。
 
@@ -103,19 +103,19 @@ Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜
 
 本指南提供的帮助内容涉及如何在 Admin Console 中管理用户和产品，以及如何启用面向平台服务的解决方案。另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
 
-* [[!UICONTROL 受众库]](audience-library/audience-library.md)
-* [[!UICONTROL 客户属性]](attributes/attributes.md)
-* [[!UICONTROL 触发器]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
-* [Experience Cloud Cookie](cookies/cookies-privacy.md)
-* [用户和产品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [为核心服务启用您的解决方案](core-services/core-services.md)
-* [常见问题](admin-getting-started/admin-getting-started.md)
-* [组织和帐户关联](admin-getting-started/organizations.md)
+* [[!UICONTROL 受众库]](audience-library.md)
+* [[!UICONTROL 客户属性]](attributes.md)
+* [[!UICONTROL 触发器]](triggers.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
+* [Experience Cloud Cookie](cookies-privacy.md)
+* [用户和产品管理](admin-getting-started.md) (Admin Console)
+* [为核心服务启用您的解决方案](core-services.md)
+* [常见问题](admin-getting-started.md)
+* [组织和帐户关联](organizations.md)
 * [集成](marketing-cloud-integrations.md)
 * [将 Adobe Target 与 Experience Cloud 集成](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 * [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [DNS 预获取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+* [DNS 预获取](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 指南
 
