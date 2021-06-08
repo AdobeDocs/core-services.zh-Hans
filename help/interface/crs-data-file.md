@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 78%
+ht-degree: 69%
 
 ---
 
@@ -85,7 +85,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性限制 </p> </td> 
-   <td colname="col2"> <p>您可以向 Experience Cloud 中的客户属性服务上传数百个 <span class="filepath">.csv</span> 列。但是，在配置订阅和选择属性时，根据您拥有的解决方案，将会受到以下限制： </p> <p> 
+   <td colname="col2"> <p>您可以向Experience Cloud中的客户属性服务上传数百个<span class="filepath"> .csv </span>列。 但是，在配置订阅和选择属性时，根据您拥有的解决方案，将会受到以下限制： </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：总共 3 个 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每个报表包 200 个 </li> 
@@ -121,7 +121,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多个文件 </p> </td> 
-   <td colname="col2"> <p>上传客户属性数据时，如果您要快速且连续上传多个文件，尤其是文件较大时，请确保在上一个文件处理完成之后再上传下一个文件。您可以通过检查上一个文件何时被移动到[!UICONTROL客户属性] FTP帐户中已处理或失败的文件夹，来监视此情况。 </p> <p> 将大文件拆分为较小文件并连续快速提交这些文件实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前处理每个文件。 </p> </td> 
+   <td colname="col2"> <p>在上传客户属性数据时，如果您要快速连续上传多个文件，特别是文件较大时，请确保在上一个文件处理完成后，再上传下一个文件。 您可以通过检查上一个文件何时被移动到[!UICONTROL客户属性] FTP帐户中已处理或失败的文件夹，来监视此情况。 </p> <p> 将大文件拆分为较小文件并连续快速提交这些文件实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前处理每个文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符编码 </p> </td> 
@@ -140,9 +140,9 @@ CSV 文件必须遵循以下格式：
 
 ## 使用多个数据源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-创建、修改或删除客户属性来源时，大约会有一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。
+创建、修改或删除客户属性来源时，大约会有一小时的延迟，ID才会开始与新数据源同步。
 
-每个客户属性来源的别名 ID 必须是唯一的。如果您有多个数据源使用相同的ID，则可以按如下方式进行设置：
+每个客户属性来源的别名ID必须唯一。 如果您有多个数据源使用相同的ID，则可以按如下方式进行设置：
 
 **在 VisitorAPI.js 或 Dynamic Tag Management 的 Experience Cloud ID 工具中：**
 
@@ -159,4 +159,4 @@ Visitor.setCustomerIDs({
 
 在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**&#x200B;中：
 
-使用与上述客户 ID 对应的唯一别名 ID 创建两个客户属性来源。使用此方法可以将相同的引用 ID 发送到多个客户属性来源。
+使用与上述客户 ID 对应的唯一别名 ID 创建两个客户属性来源。使用此方法可以将相同的引用ID发送到多个客户属性来源。
