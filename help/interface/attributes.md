@@ -1,16 +1,16 @@
 ---
 title: 如何使用客户属性
-description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
+description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据以在Adobe Analytics和Adobe Target中使用。
 solution: Experience Cloud
 feature: 客户属性
 role: Administrator
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 87%
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >
 >[!UICONTROL 客户属性是一项旧版服务，现在处于维护状态。]
 
-[!UICONTROL  Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。]您可以将该数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
+[!UICONTROL  Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。]您可以将数据上传到Experience Cloud的客户属性数据源，然后在Adobe Analytics和Adobe Target中使用数据。
 
 要找到这项功能，请导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
 
@@ -48,7 +48,7 @@ ht-degree: 87%
 
 ![](assets/01_crs_usecase.png)
 
-创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性来源。
+创建数据文件后，您可以将其上传到您在&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性来源。
 
 请参阅[上传客户属性数据](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流程。
 
