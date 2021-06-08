@@ -4,22 +4,22 @@ user-guide-title: 'Experience Cloud中心界面组件 '
 breadcrumb-title: Experience Cloud中心界面组件
 user-guide-description: 了解Experience Cloud的界面、配置首选项、搜索帮助和业务对象。 获取有关用户和产品管理、客户属性、受众库、Cookie和Experience Cloud资产的帮助。
 index: true
-source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
 
 # Experience Cloud中心界面组件 {#interface}
 
-+ [Experience Cloud中央界面组件](experience-cloud.md)
++ [Experience Cloud中心界面组件指南](experience-cloud.md)
 + Experience Cloud 服务 {#services}
-   + [Experience Cloud 服务概述](core-services-landing.md)
+   + [Experience Cloud 服务](core-services-landing.md)
    + [启用您对跨解决方案服务的实现](core-services.md)
-   + Experience Cloud 受众 {#audiences}
-      + [Experience Cloud 受众服务](audience-library.md)
+   + Experience Cloud 受众库{#audiences}
+      + [Experience Cloud受众](audience-library.md)
       + [创建受众](t-audience-create.md)
       + [发布 Analytics 受众区段](t-publish-audience-segment.md)
    + Experience Cloud 客户属性 {#customer-attributes}
