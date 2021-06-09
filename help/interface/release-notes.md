@@ -9,20 +9,27 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: f28f7f7824981b76fd05b8fb4eab874b04312712
 workflow-type: tm+mt
-source-wordcount: '4094'
-ht-degree: 91%
+source-wordcount: '4189'
+ht-degree: 89%
 
 ---
 
 # 发行说明汇总
 
-Experience Cloud 界面的功能、发行说明和已知问题。
+Experience Cloud中心界面组件的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。
+
+## 6月版 — 2021年
+
+| 功能 | 日期 | 描述 |
+| ------- | ------- | ------- |
+| 对AdobeFederated ID的单点登录支持 | 2021 年 6 月 17 日 | 如果您使用Federated ID，则无需输入电子邮件地址或密码即可登录Experience Cloud。 要使用此功能，请将`#/sso:@domain`添加到Experience CloudURL。 <br>例如，假定您拥有该域 `adobecustomer.com` 并希望登录Adobe Analytics。URL应为：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。 |
+| Experience League搜索 | 2021 年 6 月 1 日 | Experience League文档搜索已得到改进。 导航到[Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段找到教程、文档、课程等。 |
 
 ## 5 月 - 2021 年
 
