@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud中心界面组件 '
 breadcrumb-title: Experience Cloud中心界面组件
 user-guide-description: 了解Experience Cloud的界面、配置首选项、搜索帮助和业务对象。 获取有关用户和产品管理、客户属性、受众库、Cookie和Experience Cloud资产的帮助。
 index: true
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 77%
+source-wordcount: '344'
+ht-degree: 76%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 77%
       + [客户属性的隐私注意事项](privacy-mac.md)
    + Experience Cloud 激活 {#activation}
       + [激活概述](activation.md)
-      + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans)
       + [触发器](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets 概述](experience-cloud-assets.md)
@@ -70,8 +70,8 @@ ht-degree: 77%
       + [启用浏览器 Cookie 的隐私设置](browser-cookie-settings.md)
       + [第三方 Cookie 支持的变化对客户有何影响](cookies-thirdparty.md)
 + Experience CloudUI {#release-notes}的发行说明
-   + [Experience Cloud 的新增功能](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
-   + [发行说明汇总](release-notes.md)
+   + [中央界面组件的发行说明](release-notes.md)
+   + [所有Experience Cloud的发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
 + 更多资源 {#more-resources}
    + [论坛](https://experienceleaguecommunities.adobe.com/)
    + [术语](terms.md)
