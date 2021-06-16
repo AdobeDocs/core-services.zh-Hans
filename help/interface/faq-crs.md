@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1181'
 ht-degree: 69%
 
 ---
@@ -32,6 +32,8 @@ Adobe Analytics和Adobe Target中[!UICONTROL 客户属性]的常见问题和最�
 | 自定义 Analytics ID (`s.visitorID`) | 使用 `s.visitorID` 设置客户 ID 是在 Analytics 中标识用户的一种方法。但是，当使用`s.visitorID.`<br>标识某个访客时，使用ID服务导出或导入[!DNL Analytics]数据的集成将不起作用。这包括但不限于共享受众、[!DNL Analytics] for Adobe Target(A4T)和[!UICONTROL 客户属性]。<br>对于这些集成，不支持设置自定义 Analytics ID。 |
 |  中的字符长度限制[!DNL Analytics] | 创建[!DNL Analytics]订阅时，已上传文件的字段长度将被截断为255。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 关于客户属性的常见问题解答 {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 | 问题 | 回答 |
@@ -49,3 +51,5 @@ Adobe Analytics和Adobe Target中[!UICONTROL 客户属性]的常见问题和最�
 | **（仅限 Adobe Target）**&#x200B;通过客户 ID 标识访客后，是否可以立即定位客户属性中上传的数据？ | 可以。在对Adobe Target（包括mbox第三方ID）的服务器调用中，所有客户属性数据均可用。 |
 | **(仅限Adobe Target)** 对于“客户属性” **[!UICONTROL 来]** 源中上传的文件，“同步状态”列表示什么？ | Adobe Target 发布并同步的记录数可以通过单击针对某个特定属性文件的“同步状态”图标来进行查看。`Sync %` 是一个实时量度，用于指定已在Adobe Target中同步的用户档案的百分比。<br> **注意：**&#x200B;属性可能需要长达 24 小时才能与 Adobe Target 同步。 |
 | 文件上传量度在“客户属性来源”中表示什么？ | 借助以下量度，您可以检查已上传到“客户属性”的属性状态： <ul><li>记录：属性文件中的记录数。</li><li>**新记录：**&#x200B;属性文件中存在的新记录数。</li> <li>**更新的记录：** 客户属性中存在且文件中的值已更新的记录数。</li><li>**所有数据（记录）：**&#x200B;已成功上传到“客户属性”的记录总数。</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
