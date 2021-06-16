@@ -10,9 +10,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1579'
 ht-degree: 60%
 
 ---
@@ -83,6 +83,8 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 | **我是否可以请求吊销证书？** | 是，作为域所有者，您有权请求我们吊销证书。您只需通过客户关怀部门开立一个票证，即可完成此项操作。 |
 | **此证书是否使用 SHA-2 加密？** | 是，Adobe 将与 DigicerT 一起颁发 SHA-2 证书。 |
 | **这会产生任何额外费用吗？** | 不会，Adobe 可以向当前所有 Adobe Digital Experience 客户提供此服务，不会产生任何额外费用。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 创建 CNAME 记录
 
