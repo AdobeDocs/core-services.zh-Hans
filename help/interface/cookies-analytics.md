@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 84%
 
 ---
@@ -43,6 +43,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 仅限 CNAME 客户。不适用于第三方场景。Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 |
 | 大小 | 45 字节 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie 名称：s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | 属性 | 描述 |
@@ -52,6 +54,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 使用情况 | 所有帐户都只能使用一个 Cookie |
 | 位置 | 此 Cookie 存储在页面的域中 |
 | 大小 | 4 字节 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Cookie 名称：s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 存储在页面的域中 |
 | 大小 | 根据页面 URL 大小而异，但通常为 100 - 200 字节 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie 名称：s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | 属性 | 描述 |
@@ -72,6 +78,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 使用情况 | 此 Cookie 用于标识独特访客 |
 | 位置 | 此 Cookie 存储在图像请求的域中 - 如果您使用的是第三方 Cookie，或您的域使用的是第一方 Cookie，则通常存储在 2o7.net 或 omtrdc.net 下客户特定的子域中。 |
 | 大小 | 44 字节 |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 将作为第一方 Cookie 存储在您的域中。 |
 | 大小 | 33 字节 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie 标记
 
 下表介绍了 Analytics Cookie 的标记：
@@ -98,6 +108,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | s_fid (Javascript) | 否 | 否 | 未设置 |
 | s_cc (Javascript) | 否 | 否 | 未设置 |
 | s_sq (Javascript) | 否 | 否 | 未设置 |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
