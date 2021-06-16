@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2272'
 ht-degree: 71%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 71%
 
 ### 管理员登录
 
-在成为管理员后，您可以登录到[experience.adobe.com](https://experience.adobe.com)。
+在成为管理员后，您可以登录到 [experience.adobe.com](https://experience.adobe.com)。
 
 **[!UICONTROL Admin Console]**&#x200B;链接在Experience Cloud菜单导航中可用。
 
@@ -64,7 +64,7 @@ ht-degree: 71%
 要登录到 Experience Cloud，您的用户必须：
 
 * 拥有 Adobe ID（或您公司的 Enterprise ID）。
-* 登录到[experience.adobe.com](https://experience.adobe.com)。
+* 登录到 [experience.adobe.com](https://experience.adobe.com)。
 * 属于映射到企业群组的解决方案群组。
 * 如有必要，请将其解决方案帐户关联到 Adobe ID（如下所述）。
 
@@ -100,7 +100,7 @@ ht-degree: 71%
 | 将现有的 [!DNL s_code] 更新到 H.27.3 或更高版本，或将现有的 [!DNL AppMeasurement.js] 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en)中下载获得。（如果您需要了解有关 [!DNL AppMeasurement.js] 的更多信息，请参阅 [JavaScript 实施](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js)指南。） |
 | 为 Analytics 同步客户 ID | 请参阅 [Analytics - 同步客户 ID](core-services.md#section_AD473A6A21C1446498E700363F9A8437)（如下）。 |
 
-### Analytics 和 Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
+### Analytics 和 Adobe Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
 在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) 与 Experience Cloud 同步。
 
@@ -135,16 +135,14 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ## 更新 Analytics AppMeasurement 代码 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-如果您使用的是 Analytics，请验证您是否使用区域数据收集 (RDC)。如果您的数据收集域是 [!DNL omtrdc.net]，或者，如果您的 CNAME 被映射到 [!DNL omtrdc.net]，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
+如果您使用的是 Analytics，请验证您是否使用区域数据收集 (RDC)。如果您的数据收集域是 `omtrdc.net`，或者，如果您的 CNAME 被映射到 `omtrdc.net`，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
 
-建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。完成+632581的简单方法是在动态标签管理中添加一个[!DNL Adobe Analytics]工具，将&#x200B;*`Automatic`*&#x200B;指定为配置方法。
-
-在[!UICONTROL Dynamic Tag Management]中，单击&#x200B;**`<Web Property Name>`** > **[!UICONTROL 概述]** > **[!UICONTROL 添加工具]** > **[!UICONTROL Adobe Analytics]**。 有关部署信息，请参阅 Dynamic Tag Management 中的 [Adobe Analytics 设置](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en)。
+建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。要完成此操作，简单的方法是在Experience Platform数据收集(Launch)中添加[Adobe Analytics扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=zh-Hans)。
 
 ## 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform Launch] 为 Adobe Target（和其他解决方案）设置 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)。Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。（如果使用 [!UICONTROL Dynamic Tag Management]，请添加 [Adobe Target 工具](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en)。您还可以使用 [!UICONTROL Dynamic Tag Management] 来为 Adobe Target 部署 Experience Cloud ID 服务。）
-* 如果您没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]，请手动[更新 mbox 库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en)。
+* 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform Launch] 为 Adobe Target（和其他解决方案）设置 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en)。Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。
+* 如果您没有使用[!UICONTROL Experience Platform Launch]，则[请手动更新mbox库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en)。
 * 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报告来源。[!DNL Target]在处理期间， 和 数据将组合在同一服务器调用中，这样两个解决方案之间的访客就可以连接在一起。[!DNL Analytics]请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
 
    >[!IMPORTANT]
