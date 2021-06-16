@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4199'
 ht-degree: 89%
 
 ---
@@ -29,7 +29,9 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
 | 对AdobeFederated ID的单点登录支持 | 2021 年 6 月 17 日 | 如果您使用Federated ID，则无需输入电子邮件地址或密码即可登录Experience Cloud。 要使用此功能，请将`#/sso:@domain`添加到Experience CloudURL。 <br>例如，假定您拥有该域 `adobecustomer.com` 并希望登录Adobe Analytics。URL应为：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。 |
-| Experience League搜索 | 2021 年 6 月 1 日 | Experience League文档搜索已得到改进。 导航到[Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段找到教程、文档、课程等。 |
+| Experience League搜索 | 2021 年 6 月 1 日 | Experience League文档搜索已得到改进。 导航到[Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)并使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档、课程等内容。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 5 月 - 2021 年
 
@@ -47,6 +49,8 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 | -----------| ---------- |
 | 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。有关详细信息，请参阅 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 4 月版 - 2020 年
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
@@ -57,6 +61,8 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 | 功能 | 描述 |
 | -----------| ---------- |
 | 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 **修复**
 
