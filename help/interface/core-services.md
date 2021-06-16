@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2275'
 ht-degree: 71%
 
 ---
@@ -99,6 +99,8 @@ ht-degree: 71%
 | [实施适用于 Analytics 的 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | Adobe 还建议设置其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)。这些 ID 与每个访客相关联，并可以启用 Experience Cloud 中现有和未来的功能。 |
 | 将现有的 [!DNL s_code] 更新到 H.27.3 或更高版本，或将现有的 [!DNL AppMeasurement.js] 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en)中下载获得。（如果您需要了解有关 [!DNL AppMeasurement.js] 的更多信息，请参阅 [JavaScript 实施](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js)指南。） |
 | 为 Analytics 同步客户 ID | 请参阅 [Analytics - 同步客户 ID](core-services.md#section_AD473A6A21C1446498E700363F9A8437)（如下）。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Analytics 和 Adobe Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
