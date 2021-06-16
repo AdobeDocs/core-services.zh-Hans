@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 33%
+source-wordcount: '914'
+ht-degree: 63%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 33%
 * 访问您的应用程序和服务
 * 搜索产品文档、教程和社区帖子
 * 使用全局搜索全局搜索业务对象(仅限Experience Platform用户)
-* 管理帐户首选项（警报、通知和订阅）
+* 管理您的帐户首选项（警报、通知和订阅）
 
 ## 登录到 Experience Cloud
 
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
-1. 导航到[Adobe Experience Cloud](https://experience.adobe.com)。
-1. 单击&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
-1. 在Adobe Experience Cloud上，单击您的组织。
+1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
+1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
+1. 在 Adobe Experience Cloud 上，单击您的组织。
 
    ![](assets/organizations-menu.png)
 
-   您的管理员可以帮助您验证您是否位于右侧[组织](organizations.md)中。
+   您的管理员可以帮助您验证您是否属于正确的[组织](organizations.md)。
 
-## 访问Experience Cloud应用程序 {#navigation}
+## 访问 Experience Cloud 应用程序 {#navigation}
 
-登录到Experience Cloud后，您可以从统一的标题快速访问所有应用程序、服务和组织。
+登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
 要访问您拥有的Experience Cloud服务，请单击应用程序选择器![](assets/menu-icon.png)。
 
@@ -54,12 +54,12 @@ Unified Help提供了一个产品内位置，用于在[Experience League](https:
 
 ![](assets/search-menu.png)
 
-[!UICONTROL Help]菜单还允许您访问：
+通过[!UICONTROL 帮助]菜单，您还可以访问：
 
-* **[!UICONTROL 支持]:** 创建支持票证或联系支持  人员Twitter。
+* **[!UICONTROL 支持]：**&#x200B;创建支持工单或使用 Twitter 联系支持[!UICONTROL 支持]部门。
 * **[!UICONTROL 反馈]:** 分享有关您的Experience Cloud体验的反馈。您的反馈用于改进Adobe的产品和服务。
-* **[!UICONTROL 状态]:** 导航到并 `https://status.adobe.com/experience_cloud` 检查产品运行状态和 [!UICONTROL 管理订阅]。
-* **[!UICONTROL Developer Connection]:** 导航到开发 `adobe.io` 人员文档并查找。
+* **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
+* **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
 ## 全局搜索对象和实体
 
@@ -72,7 +72,7 @@ Unified Help提供了一个产品内位置，用于在[Experience League](https:
 
 ## 管理帐户首选项 {#preferences}
 
-Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜单中，您可以：
+Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
 * 搜索[组织](organizations.md)
@@ -83,15 +83,17 @@ Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜
 
 ![](assets/preferences-page.png)
 
-在[!UICONTROL Experience Cloud首选项]上，可以配置以下功能：
+在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
 
 | 功能 | 描述 |
 |--- |--- |
-| 默认[organization](organizations.md) | 选择要在启动Experience Cloud时查看的组织。 |
-| [!UICONTROL 订阅] | 选择要订阅的产品和类别。 [!UICONTROL Notifications]弹出窗口和电子邮件中的通知。 |
-| [!UICONTROL 优先级] | 选择要被视为高优先级的类别。 这些类别带有高标记，可配置为像警报一样进行交付。 |
-| [!UICONTROL 警报] | 选择要在浏览器中显示警报的通知。 警报会在窗口的右上角显示几秒钟。 |
-| 电子邮件 | 指定您希望接收通知电子邮件的频率。 （未发送、即时、每日或每周。） |
+| 默认[组织](organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
+| [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出窗口和电子邮件中的通知。 |
+| [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有“高”标签，可以配置为像警报一样发送。 |
+| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报所针对的通知。警报会在窗口右上角出现几秒钟。 |
+| 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 通知和公告 {#notifications}
 
@@ -121,10 +123,10 @@ Experience Cloud首选项包括通知、订阅和警报。 在帐户首选项菜
 
 相关的 Experience Cloud 指南包括：
 
-* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hans)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
-* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 * [Experience Platform数据收集/启动](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)
 * [《通用数据保护条例》(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
