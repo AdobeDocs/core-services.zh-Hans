@@ -11,9 +11,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 253a6df12e603713a282b3c000311b0d67d0ccda
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 74%
 
 ---
@@ -49,3 +49,5 @@ ht-degree: 74%
 | 共享 | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在 Experience Cloud 中，您可以在界面中的展示板内，仅将资产共享为信息卡。登录到网站的用户可以进行共享。 |
 | 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，解决方案又叫产品，如 Adobe Analytics、Adobe Social、Adobe Target 等等。 |
 | 特征 | 不适用 | 键值对，例如color=blue。 在 Audience Manager 中，[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)用于构建区段。 |
+
+{style=&quot;table-layout:auto&quot;}
