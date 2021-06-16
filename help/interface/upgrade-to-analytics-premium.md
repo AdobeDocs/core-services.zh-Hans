@@ -9,10 +9,10 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 70%
+source-wordcount: '625'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 70%
 Analytics Premium 允许您：
 
 * 访问 250 个转化变量 (eVar)
-* [移动设备应用程序 Analytics](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [移动设备应用程序 Analytics](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hans)
 * 使用 Data Workbench（可视数据查询；基于规则的属性；跨渠道分析）
 
 >[!NOTE]
@@ -48,6 +48,8 @@ Analytics Premium 允许您：
 | Data Workbench | <ul><li>算法归因</li><li>预建工作区</li></ul> |
 | Analytics Platform | [实时流](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)（原始数据、功能板、触发器） |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 升级到 Predictive Intelligence 可启用 [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) 以及：
@@ -58,6 +60,8 @@ Analytics Premium 允许您：
 | Data Workbench | 用于受众资格和预测营销的预建工作区。 |
 | Analytics Platform | 实时流（功能板和触发器） |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 升级到 Customer 360 可启用 [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) 以及：
@@ -67,6 +71,8 @@ Analytics Premium 允许您：
 | [客户属性](attributes.md) | 客户属性（分析和区段共享） |
 | Data Workbench | <ul><li>派生的客户属性</li><li>用于受众发现的预建工作区</li></ul> |
 | Analytics Platform | [客户属性](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 高级属性 {#section_9E4986A8389946CCAA7D003268343296}
 
