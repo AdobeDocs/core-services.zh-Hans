@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 77%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 77%
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名ID:]** 表示客户属性数据的来源，如特定的CRM系统。在您的客户属性来源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience CloudUI中客户属性来源的“别名ID”字段中输入的值应与从实施中传入的值（无论是通过动态标签管理还是Mobile SDK的JavaScript）匹配。
+   * **[!UICONTROL 别名ID:]** 表示客户属性数据的来源，如特定的CRM系统。[!UICONTROL 别] 名ID是在您的客户属性来源代码中使用的唯一ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中客户属性来源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值(无论是通过Mobile SDK的数据收集(Launch)、动态标签管理还是JavaScript传入)匹配。
 
       别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
