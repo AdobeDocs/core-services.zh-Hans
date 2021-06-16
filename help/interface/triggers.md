@@ -11,9 +11,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 71%
    | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可以是：<ul><li>必须包括的访问：[!UICONTROL 购物车加货]（量度）和[!UICONTROL 存在]。 （您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>必须排除的访问： [!UICONTROL 结帐]。</li><li>没有行动后启动触发器：10 分钟。</li><li>[!UICONTROL 包括元数据]:允许您添加与 [!DNL Campaign] 访客行为相关的特定维度或变量。此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容  [!UICONTROL 器内或容器之]间指定Any      、Andor或Orlogic，具体取决于您确定的标准是否对规则很重要。 |
    | [!UICONTROL 容器] | [!UICONTROL 容器是您设置和存储定义触发器的规则、条件或过滤器的位置。]如果希望事件同时发生，请将其置于同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 没有行动后开始新会话 | 为会话开始和会话结束事件创建触发器。 |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. 单击&#x200B;**[!UICONTROL 保存]**。
 6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en)。
