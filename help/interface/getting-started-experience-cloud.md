@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 82%
+source-wordcount: '939'
+ht-degree: 83%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 82%
 | [管理 Creative Cloud 用户](t-admin-add-cc-user.md) | Experience Cloud资产允许营销人员使用Creative Cloud与设计人员共享、同步和协作处理文件夹和其他创意资产。 您可以在此处管理获准与您的组织协作的 Creative Cloud 用户。 |
 | [映射报表包](core-services.md) | （仅限 Analytics）Experience Cloud 核心服务与组织关联，而不与单个报表包关联。为确保这些服务能够正确运行，必须将每个 Analytics 报表包映射到组织。（此任务是[为核心服务启用 Analytics](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) 的更广泛工作流的一部分）。 |
 | [Organization ID](organizations.md) | *组织 ID* 位于“管理”页面的底部。此 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 登录到 Experience Cloud（用户） {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -78,7 +80,7 @@ ht-degree: 82%
 
 ## 启用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-获取有关系统更新、维护通知、帖子、提及次数和共享资产的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和解决方案，包括客户属性的上传状态。
+获取有关系统更新、维护通知、帖子、提及次数和共享资源的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和解决方案，包括客户属性的上传状态。
 
 要导航到通知，请单击&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![](assets/notifications-icon.png)，然后单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标 ![](assets/icon_edit_board.png)。
 
@@ -111,9 +113,9 @@ ht-degree: 82%
 
 您可以编辑 Experience Cloud 配置文件，指定默认的组织和登录页面，以及执行更多其他操作。
 
-1. 登录到 Experience Cloud.
+1. 登录到 Experience Cloud。
 
-1. 在Experience Cloud时，单击您的个人资料图片。
+1. 在 Experience Cloud 上，单击您的个人资料图片。
 
    ![](assets/edit-profile.png)
 1. 单击&#x200B;**[!UICONTROL 编辑配置文件]**。
@@ -150,3 +152,5 @@ ht-degree: 82%
 | `tenantId` | 用户应登录的租户的名称。 | aem62tenant | 可选 |
 | `destURL` | 用户应转到的位置的完整 URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 可选 |
 | `solutionname` | `destURL`参数所有者的MAC解决方案的名称。 用于验证用户是否有权访问拥有该 URL 的解决方案。解决方案负责确保`solutionname`与`destURL`参数同步。  例如：如果URL包含`solutionname`作为Social，并且提供的`destURL`是分析URL，则即使用户无权访问分析，该用户也将被重定向到该URL。 MAC不会验证`destURL`的所有者是否与解决方案名称同步。 | analytics | 如果使用`destURL`参数，则此为必需参数。 |
+
+{style=&quot;table-layout:auto&quot;}
