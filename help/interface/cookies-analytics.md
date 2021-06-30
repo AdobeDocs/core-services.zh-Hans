@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -61,7 +61,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 
 | 属性 | 描述 |
 |--- |--- |
-| 存储的信息 | 当启用 ClickMap 功能或 Activity Map 功能时，此 Cookie 通过 JavaScript 代码设置和读取；它包含有关用户点击的上一个链接的信息 |
+| 存储的信息 | 在启用SelectMap功能或Activity Map功能时，此Cookie由JavaScript代码设置和读取；其中包含有关用户选择的上一个链接的信息 |
 | 过期 | 此 Cookie 是会话 Cookie，在浏览器关闭时过期 |
 | 使用情况 | 所有帐户都只能使用一个 Cookie |
 | 位置 | 此 Cookie 存储在页面的域中 |
