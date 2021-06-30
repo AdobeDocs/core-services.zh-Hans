@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 63%
+source-wordcount: '915'
+ht-degree: 62%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 63%
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
-1. 在 Adobe Experience Cloud 上，单击您的组织。
+1. 选择&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
+1. 在Adobe Experience Cloud上，选择您的组织。
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ ht-degree: 63%
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-要访问您拥有的Experience Cloud服务，请单击应用程序选择器![](assets/menu-icon.png)。
+要访问您拥有的Experience Cloud服务，请转到应用程序选择器![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 * 注销
 * 配置帐户首选项、通知和订阅
 
-要管理首选项，请在帐户菜单![](assets/preferences-icon-sm.png)中单击&#x200B;**[!UICONTROL 首选项]**。
+要管理首选项，请从帐户菜单![](assets/preferences-icon-sm.png)中选择&#x200B;**[!UICONTROL 首选项]**。
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 
 ## 通知和公告 {#notifications}
 
-单击&#x200B;**[!UICONTROL 通知]**&#x200B;可收到有关可操作的相关更新（包括产品版本、维护通知、共享项目和批准请求）的警报。
+选择&#x200B;**[!UICONTROL Notifications]**&#x200B;以收到有关可操作更新（包括产品版本、维护通知、共享项目和批准请求）的警报。
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,10 +142,10 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
-* [所有 Experience Cloud 解决方案的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=en) — 浏览 Experience Cloud 学习和支持页面以获取帮助
-* [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) — Experience Cloud 的新增功能，订阅可获取更新
+* [所有 Experience Cloud 解决方案的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) — 浏览 Experience Cloud 学习和支持页面以获取帮助
+* [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) — Experience Cloud 的新增功能，订阅可获取更新
 * [实施核心服务的教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) — 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)  — 与Adobe互动，确保您能够充分利用Adobe的产品
 * [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation.html) — 阅读 Experience Cloud 博客
-* [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support) — 联系 Adobe 客户关怀部门
+* [客户关怀](https://experienceleague.adobe.com/?lang=zh-Hans?support-solution=General#support) — 联系 Adobe 客户关怀部门
