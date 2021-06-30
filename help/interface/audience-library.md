@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 | 帮助信息 | 资源 |
 |--- |--- |
-| 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用解决方案](core-services.md)。<br>单击[此处](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)请求“配置文件与受众”（集成配置表单）的访问权限。 |
+| 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用解决方案](core-services.md)。<br>请访 [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) 问此处以请求Profiles &amp; Audiences（集成配置表单）的访问权限。 |
 | 用例 | 有关使用哪种解决方案的更多指导，请转到知识库文章中的[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
 | 论坛 | [受众论坛](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是获取受众相关帮助的另一个资源。 |
 
