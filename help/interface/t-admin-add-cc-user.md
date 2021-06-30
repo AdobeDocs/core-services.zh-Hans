@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 89%
+ht-degree: 74%
 
 ---
 
@@ -24,8 +24,8 @@ Experience Cloud 提供了用于管理已批准的 Creative Cloud 用户的管�
 >
 >您必须是管理员才能执行此步骤。
 
-1. 在 Experience Cloud 中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理 Creative Cloud 协作者]**。
-1. 单击 **[!UICONTROL Creative Cloud 资产共享]**。
-1. 单击&#x200B;**[!UICONTROL 添加新用户]**。![](assets/mac_add_icon.png)
+1. 在Experience Cloud中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud协作者]**。
+1. 选择&#x200B;**[!UICONTROL Creative Cloud资产共享]**。
+1. 选择&#x200B;**[!UICONTROL 添加新用户]**。 ![](assets/mac_add_icon.png)
 1. 键入电子邮件、显示名称、职位，并选择性地添加头像。
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+1. 选择&#x200B;**[!UICONTROL 创建]**。
