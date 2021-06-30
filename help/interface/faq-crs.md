@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics和Adobe Target中[!UICONTROL 客户属性]的常见问题和最�
 | **（仅限 Adobe Target）**[!UICONTROL 与 Adobe Target 的批量配置文件 API 相比，客户属性功能如何？] | 可直接通过批量配置文件 API，逐个或批量更新 Adobe Target 配置文件。该功能与客户属性类似，主要区别如下：<ul><li>配置文件 API 是一种 REST API 调用，而客户属性使用 FTP。</li><li>Adobe Target 的配置文件 API 只向 Adobe Target 发送数据，而不会向整个 Experience Cloud 发送数据。</li><li>客户属性提供了一个简单的界面，用于创建和管理此外部数据。</li></ul> |
 | **（仅限 Adobe Target）**&#x200B;将数据从客户属性上传到 Adobe Target 是否可以延长 Adobe Target 访客配置文件的生命周期？ | 可以。请参阅 Adobe Target 帮助中的[访客配置文件生命周期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=en)。 |
 | **（仅限 Adobe Target）**&#x200B;通过客户 ID 标识访客后，是否可以立即定位客户属性中上传的数据？ | 可以。在对Adobe Target（包括mbox第三方ID）的服务器调用中，所有客户属性数据均可用。 |
-| **(仅限Adobe Target)** 对于“客户属性” **[!UICONTROL 来]** 源中上传的文件，“同步状态”列表示什么？ | Adobe Target 发布并同步的记录数可以通过单击针对某个特定属性文件的“同步状态”图标来进行查看。`Sync %` 是一个实时量度，用于指定已在Adobe Target中同步的用户档案的百分比。<br> **注意：**&#x200B;属性可能需要长达 24 小时才能与 Adobe Target 同步。 |
+| **(仅限Adobe Target)** 对于“客户属性” **[!UICONTROL 来]** 源中上传的文件，“同步状态”列表示什么？ | 通过为特定属性文件选择“同步状态”图标，可以查看由Adobe Target发布和同步的记录数。 `Sync %` 是一个实时量度，用于指定已在Adobe Target中同步的用户档案的百分比。<br> **注意：**&#x200B;属性可能需要长达 24 小时才能与 Adobe Target 同步。 |
 | 文件上传量度在“客户属性来源”中表示什么？ | 借助以下量度，您可以检查已上传到“客户属性”的属性状态： <ul><li>记录：属性文件中的记录数。</li><li>**新记录：**&#x200B;属性文件中存在的新记录数。</li> <li>**更新的记录：** 客户属性中存在且文件中的值已更新的记录数。</li><li>**所有数据（记录）：**&#x200B;已成功上传到“客户属性”的记录总数。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
