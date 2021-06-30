@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
-workflow-type: ht
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,5 +20,5 @@ ht-degree: 100%
 
 1. 启用共享。
 1. 启动 [!DNL Creative Cloud] 桌面版，并导航到&#x200B;[!UICONTROL **资产**]。
-1. 单击&#x200B;**[!UICONTROL 打开文件夹]。**
+1. 选择&#x200B;**[!UICONTROL 打开文件夹]。**
 1. 使用操作系统的文件浏览功能选择或移动资产。
