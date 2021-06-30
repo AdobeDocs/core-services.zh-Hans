@@ -11,10 +11,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 74%
 | [!UICONTROL Experience Platform Identity 服务] | 无特殊用途。 | 关联身份的服务。它是用于基于人员的体验管理的设备链接服务。 |
 | 链接 | 无特殊用途。关联是指超链接导航，以及关联各种项目，如字体、属性、图层等等。 | 在 Experience Cloud 中，关联通常指将不同的解决方案帐户与界面关联。<br>请参阅[组织和帐户关联](organizations.md)。<br>关联/链接还指发送给其他用户的 Analytics 报表所对应的标准 URL。 |
 | 位置 | 在Creative Cloud中，位置是指文件位置或打开的图像或文档上的位置。 | 在 Experience Cloud 中，位置是指向受众显示内容（并且可以与受众进行内容交互）的地方。位置和内容之间的关联可以近乎静态，也可以根据营销活动规则对其进行动态管理。位置始终属于可确定如何交付内容以及如何收集量度的特定渠道。<br>示例包括：<ul><li>站点</li><li>属性（社交）</li><li>显示清单</li><li>登陆页面</li><li>移动设备应用程序</li><li>版块（视频）</li></ul> |
-| 量度 | 未在Creative Cloud中使用。 | 有关关键概念和目标的汇总数量。在 Analytics 中，量度是有关访客活动的量化信息，包括查看次数、点进次数、重新载入、平均逗留时间、件数、订购和收入等。请参阅[量度说明](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en)。 |
+| 量度 | 未在Creative Cloud中使用。 | 有关关键概念和目标的汇总数量。在Analytics中，量度是有关访客活动的量化信息，包括查看次数、点进次数、重新载入、平均逗留时间、件数、订购和收入等。 请参阅[量度说明](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en)。 |
 | 组织 | 未在Creative Cloud中使用。 | 组织是Experience Cloud实体，它允许管理员配置用户和产品，并控制单点登录Experience Cloud。 大多数情况下，组织就是付费公司。 |
 | 组合 | 多个文件或资源的集合。 | 营销活动的容器。 |
 | 产品配置文件 | 请参阅[管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products.html)。 | 要使用户有权使用产品或服务，用户必须是产品配置文件的一部分。 通过将产品配置文件与您购买的计划关联，产品管理员可向产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，而每个产品配置文件会将不同的许可证授予该用户。用户的最终资格为每个产品配置文件向该用户授予的所有许可证的总和。 |
