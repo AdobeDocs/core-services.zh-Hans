@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '297'
+ht-degree: 57%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 **启用浏览器 Cookie 的隐私设置**
 
 1. 导航至&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]**。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 隐私设置]**。
+1. 转到&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 隐私设置]**。
 1. 启用&#x200B;**[!UICONTROL 隐私设置]**（适用于桌面和移动设备）。
 
 >[!IMPORTANT]
