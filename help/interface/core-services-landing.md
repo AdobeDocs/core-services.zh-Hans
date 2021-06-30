@@ -7,7 +7,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 56%
@@ -18,7 +18,7 @@ ht-degree: 56%
 
 本文档适用于Experience Cloud统一标头的功能，例如[!UICONTROL People]服务（受众和客户属性）、Experience Cloud、Cookie、帐户首选项、通知等的用户和产品管理。
 
-要在Experience Cloud中访问这些服务，请单击&#x200B;**[!UICONTROL 应用程序选择器]**
+要在Experience Cloud中访问这些服务，请选择&#x200B;**[!UICONTROL 应用程序选择器]**
 ![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
