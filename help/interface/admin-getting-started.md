@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 95%
 
 ---
 
@@ -40,10 +40,10 @@ ht-degree: 100%
 
 邀请用户加入组织时，您可以授予用户访问产品和产品配置文件的权限。您还可以将有限的管理权限委派给某个用户。同样，您可以创建用户组，然后将该组添加到产品配置文件以启用访问权限。
 
-1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，单击&#x200B;**[!UICONTROL 产品]**。
-1. 单击您的组织名称。
-1. 单击&#x200B;**[!UICONTROL 新建配置文件]**。
-1. 配置该配置文件的详细信息，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 在[Admin Console](https://adminconsole.adobe.com/enterprise/)中，选择&#x200B;**[!UICONTROL 产品]**。
+1. 选择您的组织名称。
+1. 选择&#x200B;**[!UICONTROL 新建配置文件]**。
+1. 配置配置文件详细信息，然后选择&#x200B;**[!UICONTROL Save]**。
 
 有关更多信息（以及有关 Creative Cloud 和 Document Cloud 产品管理的帮助），请参阅[管理用户指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/users.ug.html)中的[身份](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/identity.ug.html)。
 
@@ -82,16 +82,16 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 通过使用这些角色，您可以将管理同时委派给其他人，而不会提供超出其需求的更多功能。
 
-1. 在 Admin Console 中，单击&#x200B;**[!UICONTROL 用户]**，然后单击用户的名称。
+1. 在Admin Console中，选择&#x200B;**[!UICONTROL Users]**，然后选择用户名。
 
    ![](assets/edit-admin-rights.png)
 
-1. 单击&#x200B;**[!UICONTROL 编辑管理权限]**。
+1. 选择&#x200B;**[!UICONTROL 编辑管理权限]**。
 
    ![](assets/edit-admin-rights-page.png)
 
 1. 指定用户的管理权限。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 选择 **[!UICONTROL Save]**。
 
 ## 管理 Analytics 用户和产品 {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 例如，您可以创建包含多个 Analytics 工具（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Report Builder]）的产品配置文件。这些配置文件包含对特定量度和维度（包括 eVar）的权限，以及区段或计算量度创建等功能。
 
-1. 登录到 [Admin Console](https://adminconsole.adobe.com/enterprise)，然后单击&#x200B;**[!UICONTROL 产品]**。
-1. 在[!UICONTROL 产品]页面上，单击您的产品，然后单击&#x200B;**[!UICONTROL 权限]**（仅适用于管理员）。
+1. 登录到[Admin Console](https://adminconsole.adobe.com/enterprise)，然后选择&#x200B;**[!UICONTROL 产品]**。
+1. 在[!UICONTROL 产品]页面上，选择您的产品，然后选择&#x200B;**[!UICONTROL 权限]**（仅供管理员使用）。
 1. 配置该配置文件的权限：
 
 | 元素 | 描述 |
