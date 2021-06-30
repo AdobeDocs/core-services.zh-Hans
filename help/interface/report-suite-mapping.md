@@ -7,10 +7,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -35,17 +35,17 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 1. 在 [!DNL Analytics] > **[!UICONTROL 管理员]** > **[!UICONTROL 数据管理]**&#x200B;中导航到“数据管理报表包”（请参阅[查看/管理报表包的数据管理设置](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)）
 
-1. 要查看对每个报表包拥有访问权限的登录公司，请单击&#x200B;**[!UICONTROL 对登录公司可见]**。
+1. 要查看对每个报表包拥有访问权限的登录公司，请选择&#x200B;**[!UICONTROL 对登录公司可见]**。
 
    此视图可帮助您针对映射做出明智决定。
 
-1. 单击报表包旁边&#x200B;**[!UICONTROL 已映射的组织]**&#x200B;列中的下拉菜单，然后选择要映射到的组织。
+1. 选择报表包旁边&#x200B;**[!UICONTROL 已映射的组织]**&#x200B;列中的下拉列表，然后选择要映射到的组织。
 
    有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
 ## 将多个报表包映射到组织 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 单击 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 报表包映射]**。
+1. 选择&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 报表包映射]**。
 
 1. 选择要映射的报表包。
 
@@ -55,7 +55,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
    有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
-1. 单击&#x200B;**[!UICONTROL 保存映射]**。
+1. 选择&#x200B;**[!UICONTROL 保存映射]**。
 
 ## 关于选择 Experience Cloud 组织的提示 {#mapping-tips}
 
