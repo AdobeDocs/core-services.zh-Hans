@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
    ![](assets/admin-tool.png)
 
-1. 在[!UICONTROL 快速访问]下，单击&#x200B;**[!UICONTROL 管理工具]**。
+1. 在[!UICONTROL 快速访问]下，选择&#x200B;**[!UICONTROL 管理工具。]**
 
    （或者，在主页 URL 中，您可以将 _home_ 替换为 _admin_。）
 
@@ -42,7 +42,7 @@ ht-degree: 87%
 
 | 元素 | 描述 |
 |---|---|
-| [!UICONTROL 名称] | 用户的名字和姓氏。您可以按从 A 到 Z 以及 Z 到 A 对此列进行排序。单击用户名可查看有关该用户的更多详细信息。 |
+| [!UICONTROL 名称] | 用户的名字和姓氏。您可以将此列从A排序到Z，Z排序到A。选择用户的名称可查看有关该用户的更多详细信息。 |
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
 | [!UICONTROL 解决方案] | 用户可访问的 Experience Cloud 解决方案摘要。您可以应用过滤器来缩小具有特定解决方案访问权限的用户列表。 |
@@ -54,7 +54,7 @@ ht-degree: 87%
 
 * 按名称或电子邮件搜索用户。搜索与您键入的文本字符串匹配。
 * 按升序或降序值对列排序。此排序适用于[!UICONTROL 名称、] [!UICONTROL 电子邮件、]和[!UICONTROL 上次登录]列。
-* 要应用多个过滤器以列出具有特定条件的用户，请单击&#x200B;**[!UICONTROL 过滤依据]**&#x200B;图标。 应用多个过滤类别后，搜索将包含“电子邮件域”`AND`“ID 类型”`AND`“解决方案”。
+* 要应用多个过滤器以列出具有特定条件的用户，请选择&#x200B;**[!UICONTROL 过滤依据]**&#x200B;图标。 应用多个过滤类别后，搜索将包含“电子邮件域”`AND`“ID 类型”`AND`“解决方案”。
 
 | 元素 | 描述 |
 |---------|----------|
@@ -64,7 +64,7 @@ ht-degree: 87%
 
 ## 查看用户详细信息
 
-在[!UICONTROL 用户]页面上，要查看用户的详细信息，请单击用户的电子邮件。
+在[!UICONTROL Users]页面上，要查看用户的详细信息，请选择用户的电子邮件。
 
 ![](assets/admin-tool-user-details.png)
 
@@ -106,7 +106,7 @@ ht-degree: 87%
 
 | 元素 | 描述 |
 |---|---|
-| [!UICONTROL 产品配置文件] | 产品配置文件的名称。列可以按A->Z、Z->A进行排序。要查看有关策略的更多详细信息，请单击产品配置文件的名称。 |
+| [!UICONTROL 产品配置文件] | 产品配置文件的名称。列可以按A->Z、Z->A进行排序。要查看有关策略的更多详细信息，请选择产品配置文件的名称。 |
 | [!UICONTROL 产品] | 与产品配置文件关联的产品。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL 实例] | 与产品配置文件关联的实例（例如，租户或登录公司）。 对于没有唯一实例或租户的产品，该值会显示“ — ”。 此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL 用户数量] | 与产品配置文件关联的唯一用户计数，包括直接分配和组分配。此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
@@ -118,7 +118,7 @@ ht-degree: 87%
 
 * 按名称搜索产品配置文件。搜索与您键入的文本字符串匹配。
 * 按升序或降序值对列排序。此排序适用于[!UICONTROL 产品配置文件] [!UICONTROL 产品、] [!UICONTROL 实例、] [!UICONTROL 用户数、]和[!UICONTROL 开发人员数，]列。
-* 单击&#x200B;**[!UICONTROL 过滤依据]**&#x200B;图标可应用多个过滤器，以列出符合特定条件的产品配置文件。应用多个过滤类别时，搜索包含与 `AND` 实例 `AND` 解决方案关联的组。
+* 选择&#x200B;**[!UICONTROL 过滤依据]**&#x200B;图标可应用多个过滤器以列出符合特定条件的产品配置文件。 应用多个过滤类别时，搜索包含与 `AND` 实例 `AND` 解决方案关联的组。
 
 | 元素 | 描述 |
 |---------|----------|
@@ -127,7 +127,7 @@ ht-degree: 87%
 
 ## 查看策略详细信息
 
-在“[!UICONTROL 策略]”页面上，要查看策略的详细信息，请单击产品配置文件名称。
+在[!UICONTROL Policys]页面上，要查看策略的详细信息，请选择产品配置文件名称。
 
 ![](assets/admin-tool-policy-detail.png)
 
