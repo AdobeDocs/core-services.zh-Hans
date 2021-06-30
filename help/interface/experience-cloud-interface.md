@@ -6,10 +6,10 @@ feature: “中央界面组件”
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -26,8 +26,8 @@ Experience Cloud 的中央界面组件包括的功能使您能够：
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
-1. 在 Adobe Experience Cloud 上，单击您的组织。
+1. 选择&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
+1. 在Adobe Experience Cloud上，选择您的组织。
 
    ![](assets/organizations-menu.png)
 
@@ -37,7 +37,7 @@ Experience Cloud 的中央界面组件包括的功能使您能够：
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-单击应用程序选择器 ![](assets/menu-icon.png) 以访问您拥有的 Experience Cloud 服务。
+选择应用程序选择器![](assets/menu-icon.png)以访问您拥有的Experience Cloud服务。
 
 ![](assets/platform-core-services.png)
 
@@ -54,7 +54,7 @@ Experience Cloud 的中央界面组件包括的功能使您能够：
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
-## 帐户首选项{#account-menu}
+## 帐户首选项 {#account-menu}
 
 在帐户首选项菜单中，您可以：
 
@@ -67,7 +67,7 @@ Experience Cloud 的中央界面组件包括的功能使您能够：
 
 Experience Cloud 首选项包括通知、订阅和警报。
 
-单击帐户菜单 ![](assets/preferences-icon-sm.png) 中的&#x200B;**[!UICONTROL 首选项]**&#x200B;以管理首选项。
+从帐户菜单![](assets/preferences-icon-sm.png)中选择&#x200B;**[!UICONTROL 首选项]**&#x200B;以管理首选项。
 
 ![](assets/preferences-page.png)
 
@@ -85,7 +85,7 @@ Experience Cloud 首选项包括通知、订阅和警报。
 
 ## 通知和公告
 
-单击&#x200B;**[!UICONTROL 通知]**&#x200B;以查看对您很重要的通知，以及来自 Adobe 的公告。
+选择&#x200B;**[!UICONTROL 通知]**&#x200B;以查看对您重要的通知和Adobe中的公告。
 
 ![](assets/notifications-menu-small.png)
 
