@@ -1,17 +1,17 @@
 ---
-description: '了解如何在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资产。 '
+description: '了解如何在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资源。 '
 keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: '与 Creative Cloud 共享 Experience Cloud 文件夹和资产 '
 feature: 资产
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 94%
 
 在 Creative Cloud 用户可以访问资产之前，必须在 Experience Cloud 中将这些资产列入白名单。[管理 Creative Cloud 用户](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)。
 
-## 关于与 Adobe Target 共享资产 {#section_B7CD64CAB35D43A4B12957B304072DC9}
+## 关于与 Adobe Target 共享资源 {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
 在 [!DNL Adobe Target] 中创建活动时，您可以在[!UICONTROL 选件库]中交换图像时使用共享的图像资产。
 
-请参阅 [!DNL Target] 帮助中的[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en)。
+请参阅 [!DNL Target] 帮助中的[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)。
