@@ -6,13 +6,13 @@ title: '创建受众 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: 受众库
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 1. 在[!UICONTROL 创建新受众]页面，指定标题和描述。
 1. 在[!UICONTROL 规则]下，选择一个属性来源：
 
-   * **[!UICONTROL Real-Time Analytics数据：]** （或原始数据）这是从Real-Time Analytics图像请求派生的属性数据，包括eVar和事件等数据。使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
+   * **[!UICONTROL 实时 Analytics 数据：]**（或原始数据）此类数据是指从实时 Analytics 图像请求派生而来的属性数据，包括 eVar 和事件等数据。使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
    >[!NOTE]
    >
    >由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。
