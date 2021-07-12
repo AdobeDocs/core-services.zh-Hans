@@ -1,24 +1,24 @@
 ---
-description: 了解如何跨Experience Cloud应用程序存储和使用ID服务。
+description: 了解如何跨 Experience Cloud 应用程序存储和使用 ID 服务。
 keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Cookie{#experience-cloud-cookies}
 
-Adobe Experience Cloud使用cookie存储跨Experience Cloud应用程序使用的访客ID。
+Adobe Experience Cloud 使用 Cookie 来存储跨多个 Experience Cloud 应用程序使用的访客 ID。
 
 **Cookie 名称：s_ecid**
 
@@ -52,7 +52,7 @@ Adobe Experience Cloud使用cookie存储跨Experience Cloud应用程序使用的
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。此设置是Chrome中Cookie的新默认设置。</p> </td> 
+   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Adobe Experience Cloud使用cookie存储跨Experience Cloud应用程序使用的
 
 [Experience Platform ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
 
-另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en)。
+另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -92,8 +92,8 @@ Adobe Experience Cloud使用cookie存储跨Experience Cloud应用程序使用的
    <td colname="col2"> <p> 各不相同，大多数客户可能希望此 Cookie 的长度在 200 字节左右。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>没有添加任何值。Chrome默认为Lax。 </p> </td> 
-   <td colname="col2"> <p> 仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。此设置是Chrome中Cookie的新默认设置。 </p> </td> 
+   <td colname="col1"> <p>没有添加任何值。Chrome 的默认值为 Lax。 </p> </td> 
+   <td colname="col2"> <p> 仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。该设置是 Chrome 中为 Cookie 新增的默认设置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
