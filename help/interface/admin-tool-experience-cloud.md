@@ -6,13 +6,13 @@ title: '查看 Experience Cloud 用户和用户详细信息 '
 index: true
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -46,14 +46,14 @@ ht-degree: 82%
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
 | [!UICONTROL 解决方案] | 用户可访问的 Experience Cloud 解决方案摘要。您可以应用过滤器来缩小具有特定解决方案访问权限的用户列表。 |
-| [!UICONTROL 上次登录] | 用户最近登录 Experience Cloud 的时间和日期。此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自 2020 年 1 月 13 日起，用户的上次登录数据将保留 365 天。此信息旨在显示Experience Cloud中的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取操作。 |
+| [!UICONTROL 上次登录] | 用户最近登录 Experience Cloud 的时间和日期。此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自 2020 年 1 月 13 日起，用户的上次登录数据将保留 365 天。该信息旨在显示 Experience Cloud 中的当前登录活动，而不是建议在 2020 年 1 月 13 日之前对不活动帐户采取行动。 |
 
 ## 自定义用户列表视图
 
 您可以搜索、排序或过滤列以自定义用户列表。
 
 * 按名称或电子邮件搜索用户。搜索与您键入的文本字符串匹配。
-* 按升序或降序值对列排序。此排序适用于[!UICONTROL 名称、] [!UICONTROL 电子邮件、]和[!UICONTROL 上次登录]列。
+* 按升序或降序值对列排序。该排序适用于[!UICONTROL 姓名、] [!UICONTROL 电子邮箱]和[!UICONTROL 上次登录]列。
 * 要应用多个过滤器以列出具有特定条件的用户，请选择&#x200B;**[!UICONTROL 过滤依据]**&#x200B;图标。 应用多个过滤类别后，搜索将包含“电子邮件域”`AND`“ID 类型”`AND`“解决方案”。
 
 | 元素 | 描述 |
@@ -77,7 +77,7 @@ ht-degree: 82%
 * 用户头像和系统管理员徽章（如果适用）
 * 名称
 * 电子邮件
-* 用户名(Federated ID帐户的用户名可能与电子邮件地址不同)
+* 用户名（Federated ID 帐户的用户名可能与电子邮件地址不同）
 * [ID 类型](https://helpx.adobe.com/enterprise/using/identity.html)
 * 国家/地区
 * 上次登录
@@ -95,7 +95,7 @@ ht-degree: 82%
 | [!UICONTROL 产品] | 与产品配置文件关联的产品名称。 |
 | [!UICONTROL 实例] | 与产品和产品配置文件关联的实例的名称（如登录公司或租户）。 |
 | [!UICONTROL 产品配置文件] | 产品配置文件的唯一名称。 |
-| [!UICONTROL 按组分配] | 将用户关联到产品配置文件的用户组的名称。空白结果表示用户是直接分配给产品配置文件的，而不是通过组分配的。 |
+| [!UICONTROL 按组分配] | 将用户关联到产品配置文件的用户组的名称。空白结果表示未通过组直接将用户分配到产品配置文件。 |
 | [!UICONTROL 产品角色] | 产品配置文件中用户的角色分配。目前，此信息仅适用于 Adobe Target 产品配置文件。 |
 
 ## “策略”页面
@@ -108,7 +108,7 @@ ht-degree: 82%
 |---|---|
 | [!UICONTROL 产品配置文件] | 产品配置文件的名称。列可以按A->Z、Z->A进行排序。要查看有关策略的更多详细信息，请选择产品配置文件的名称。 |
 | [!UICONTROL 产品] | 与产品配置文件关联的产品。此列可以按 A->Z、Z->A 进行排序。 |
-| [!UICONTROL 实例] | 与产品配置文件关联的实例（例如，租户或登录公司）。 对于没有唯一实例或租户的产品，该值会显示“ — ”。 此列可以按 A->Z、Z->A 进行排序。 |
+| [!UICONTROL 实例] | 与产品配置文件关联的实例（例如，租户或登录公司）。对于没有唯一实例或租户的产品，此值将显示为“-”。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL 用户数量] | 与产品配置文件关联的唯一用户计数，包括直接分配和组分配。此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
 | [!UICONTROL 开发人员数量] | 与产品配置文件关联的开发人员角色计数。此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
 
@@ -117,7 +117,7 @@ ht-degree: 82%
 您可以对各个列进行搜索、排序或过滤，以自定义策略列表。
 
 * 按名称搜索产品配置文件。搜索与您键入的文本字符串匹配。
-* 按升序或降序值对列排序。此排序适用于[!UICONTROL 产品配置文件] [!UICONTROL 产品、] [!UICONTROL 实例、] [!UICONTROL 用户数、]和[!UICONTROL 开发人员数，]列。
+* 按升序或降序值对列排序。该排序适用于[!UICONTROL 产品配置文件、] [!UICONTROL 产品、] [!UICONTROL 实例、] [!UICONTROL 用户数量]和[!UICONTROL 开发人员数量]列。
 * 选择&#x200B;**[!UICONTROL 过滤依据]**&#x200B;图标可应用多个过滤器以列出符合特定条件的产品配置文件。 应用多个过滤类别时，搜索包含与 `AND` 实例 `AND` 解决方案关联的组。
 
 | 元素 | 描述 |
@@ -155,7 +155,7 @@ ht-degree: 82%
 
 | 选项卡 | 描述 |
 |---------|----------|
-| [!UICONTROL 用户] | 产品配置文件中包含的用户列表。用户组关联显示在[!UICONTROL 按组]分配列中。 |
+| [!UICONTROL 用户] | 产品配置文件中包含的用户列表。用户组关联将显示在[!UICONTROL 按组分配]列中。 |
 | [!UICONTROL 用户组] | 与产品配置文件关联的用户组列表。 |
 | [!UICONTROL 开发人员] | 与产品配置文件关联的开发人员列表。 |
 | [!UICONTROL 集成] | 与产品配置文件关联的集成列表。 |
