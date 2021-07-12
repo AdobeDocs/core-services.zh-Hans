@@ -6,13 +6,13 @@ title: '共享 Experience Cloud 资产文件夹 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: 资产
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 62%
 使用共享资产的其他方式包括：
 
 * 在 [!UICONTROL  中将]资产选择器[!DNL Adobe Social]中的资产用于社交帖子。
-* 在 [!DNL Adobe Target] 中加载或交换[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en)中的资产以用于活动中的图像。
+* 在 [!DNL Adobe Target] 中加载或交换[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)中的资产以用于活动中的图像。
 
 在将文件夹共享到 Creative Cloud 之后，您将在文件夹上看到 Creative Cloud 徽标。
 
@@ -64,6 +64,6 @@ ht-degree: 62%
 
 相关帮助：
 
-* [Creative Cloud 帮助 - 管理和同步文件](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Creative Cloud 帮助 - 与他人协作](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud 帮助 - 协作常见问题解答](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud 帮助 - 管理和同步文件](https://helpx.adobe.com/cn/creative-cloud/help/sync-creative-cloud-files.html)
+* [Creative Cloud 帮助 - 与他人协作](https://helpx.adobe.com/cn/creative-cloud/help/collaboration.html)
+* [Creative Cloud 帮助 - 协作常见问题解答](https://helpx.adobe.com/cn/creative-cloud/help/collaboration-faq.html)
