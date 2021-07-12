@@ -4,13 +4,13 @@ title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -131,11 +131,11 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>执行同步的日期，格式为yyyymmdd </p> </td> 
+   <td colname="col2"> <p>执行同步的日期，格式为 yyyymmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
-   <td colname="col2"> <p>执行同步的日期，格式为yyyymmdd </p> </td> 
+   <td colname="col2"> <p>执行同步的日期，格式为 yyyymmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用情况 </p> </td> 
