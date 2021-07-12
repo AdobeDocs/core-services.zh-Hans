@@ -6,19 +6,19 @@ title: '管理 Creative Cloud 用户 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 feature: 资产
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
 # 管理 Creative Cloud 用户
 
-Experience Cloud 提供了用于管理已批准的 Creative Cloud 用户的管理工具。这些用户可以临时被邀请到活动文件夹中。只有管理员已添加到此列表中的用户才能受邀参加营销活动。添加的用户将显示在Experience Cloud的自动完成用户列表中。
+Experience Cloud 提供了用于管理已批准的 Creative Cloud 用户的管理工具。这些用户可以临时被邀请到活动文件夹中。只有管理员已添加到此列表中的用户才能受邀参加营销活动。添加的用户将显示在 Experience Cloud 的自动完成用户列表中。
 
 >[!NOTE]
 >
