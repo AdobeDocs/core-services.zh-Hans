@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: 'Experience Cloud 中央 UI 组件 '
 feature: “中央界面组件”
 topic: 管理
-role: Administrator, User
+role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 88%
