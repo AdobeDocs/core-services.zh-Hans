@@ -6,13 +6,13 @@ title: '关于 Experience Cloud 的常见问题解答 '
 index: true
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 87%
 
 ## Experience Cloud 支持哪些浏览器？
 
-* Microsoft® Edge（当前版本及前两个版本）
+* Microsoft® Edge（当前版本和之前两个版本）
 * Google Chrome（当前版本及前两个版本）
 * Mozilla Firefox（当前版本及前两个版本）
 * Safari（当前版本及前两个版本）
@@ -33,7 +33,7 @@ ht-degree: 87%
 如果尚未为核心服务配置实施，请参阅[为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了以下操作说明：
 
 1. [加入 Experience Cloud 并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en)。
+1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=zh-Hans)。
 1. [将报表包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Adobe Target）使您的 Adobe Target 实施符合现代化要求](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -49,7 +49,7 @@ ht-degree: 87%
 
 ## 为什么我的公司需要通过 Experience Cloud 界面登录？
 
-Experience Cloud 界面提供的功能为您的业务带来新价值。它还是今后访问解决方案的标准途径，最终将取代其他单独的解决方案登录流程。 通过Experience Cloud登录有助于以后实现更平稳的过渡。
+Experience Cloud 界面提供的功能为您的业务带来新价值。该界面也是今后访问解决方案的标准途径，最终将取代其他单独的解决方案登录流程。通过 Experience Cloud 登录有助于以后实现更平稳的过渡。
 
 ## 如何消除有关迁移我的公司的疑虑？
 
@@ -68,9 +68,9 @@ Experience Cloud 中的配置表示：
 
 * 有关帮助，请参阅 [Admin Console 用户指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html)。
 
-* 用户权限和产品管理在[Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
+* 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)，以了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
+* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，以了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
 
 ## 如果有人无法登录到 Experience Cloud，我该怎么做？
 
@@ -98,13 +98,13 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 组织 ID 显示在 Experience Cloud 登录页面和 [Admin Console 登录页面](https://adminconsole.adobe.com)中。
 
-或者，管理员也可以登录到特定组织的Admin Console(导航到[https://adminconsole.adobe.com](https://adminconsole.adobe.com#))，此时您便能够在URL中看到您的IMS组织ID。
+或者，管理员还可以登录到特定组织的 Admin Console（导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)），此时您能够在 URL 中看到您的 IMS 组织 ID。
 
 例如，在以下 URL 中：
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-ID为：
+ID 为：
 
 `C538193582390300A495CC9@AdobeOrg`
 
