@@ -5,13 +5,13 @@ title: '将 DNS 预获取用于不同的解决方案和服务 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 feature: 客户属性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ DNS 预获取会自动处理页面上的静态嵌入式链接。这也意味着�
 
 ## DNS 预获取代码示例 {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-下面的示例说明了如何对不同的 [!DNL Experience Cloud] 解决方案和服务执行 DNS 预获取调用。有些预获取调用需要使用您的 [!DNL Adobe] 组织 ID 或跟踪服务器信息。在这些示例中，*斜体*&#x200B;格式的代码表示变量占位符。您需要将该代码替换为您自己的[!DNL Adobe]合作伙伴ID、客户代码或跟踪服务器信息等。
+下面的示例说明了如何对不同的 [!DNL Experience Cloud] 解决方案和服务执行 DNS 预获取调用。有些预获取调用需要使用您的 [!DNL Adobe] 组织 ID 或跟踪服务器信息。在这些示例中，*斜体*&#x200B;格式的代码表示变量占位符。您需要将这些代码替换为您自己的 [!DNL Adobe] 合作伙伴 ID、客户代码或跟踪服务器信息等。
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -44,9 +44,9 @@ DNS 预获取会自动处理页面上的静态嵌入式链接。这也意味着�
 
 * **Experience Cloud ID 服务**：`<link rel="dns-prefetch" href="//fast. *`在此处插入合作伙伴 ID`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM)：不需要。DTM链接在页面加载时可用。
+* **Dynamic Tag Manager** (DTM)：不需要。DTM 链接在加载页面时提供。
 
-* **Media Optimizer(Advertising Cloud):**
+* **Media Optimizer (Advertising Cloud)：**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
