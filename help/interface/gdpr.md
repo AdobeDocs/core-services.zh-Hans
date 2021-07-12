@@ -3,13 +3,13 @@ title: '客户属性对《通用数据保护条例》的支持 '
 description: 了解客户属性对《通用数据保护条例》的支持
 feature: 客户属性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
 
 ## 发送[!UICONTROL 客户属性]请求所需的设置
 
-要请求访问和删除[!UICONTROL 客户属性]的数据，您必须：
+要提出访问和删除[!UICONTROL 客户属性]数据的请求，您必须：
 
 1. 识别以下内容：
 
@@ -39,7 +39,7 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
    * 要执行操作的 CRS 数据源的别名 ID
    * 要执行操作的配置文件的 CRM ID
 
-   IMS 组织 ID 是一个由 24 个字符组成的字母数字字符串，其后附加有 @AdobeOrg。如果您的营销团队或内部 Adobe 系统管理员不知道您组织的 IMS 组织 ID，请通过 gdprsupport@adobe.com 与 Adobe 客户关怀团队联系。您需要IMS组织ID才能向隐私API提交请求。
+   IMS 组织 ID 是一个由 24 个字符组成的字母数字字符串，其后附加有 @AdobeOrg。如果您的营销团队或内部 Adobe 系统管理员不知道您组织的 IMS 组织 ID，请通过 gdprsupport@adobe.com 与 Adobe 客户关怀团队联系。您需要 IMS 组织 ID 才能将请求提交到 Privacy API。
 
 1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
 
