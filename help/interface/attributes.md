@@ -1,16 +1,16 @@
 ---
 title: 如何使用客户属性
-description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据以在Adobe Analytics和Adobe Target中使用。
+description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
 solution: Experience Cloud
 feature: 客户属性
-role: Administrator
+role: Admin
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 客户属性是一项旧版服务，现在处于维护状态。]
+>[!UICONTROL 客户属性]是一项旧版服务，现在处于维护状态。
 
-[!UICONTROL  Experience Cloud 中的客户属性允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。]您可以将数据上传到Experience Cloud的客户属性数据源，然后在Adobe Analytics和Adobe Target中使用数据。
+Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以将数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
 
 要找到这项功能，请导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
 
@@ -34,11 +34,11 @@ ht-degree: 75%
 
    要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。
 
-   添加到“客户属性”的用户将在Experience Cloud界面左侧看到“客户属性”]菜单项。[!UICONTROL 
+   添加到客户属性的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单项。
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-   请参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) 或 [Mbox.js 实现](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en)。
+   请参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=zh-Hans) 或 [Mbox.js 实现](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=zh-Hans)。
 
 ## 企业客户数据是什么？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +48,7 @@ ht-degree: 75%
 
 ![](assets/01_crs_usecase.png)
 
-创建数据文件后，您可以将其上传到您在&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性来源。
+创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性源。
 
 请参阅[上传客户属性数据](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流程。
 
@@ -60,7 +60,7 @@ ht-degree: 75%
 
 | 解决方案 | 优势和用例 |
 |--- |--- |
-| Adobe Analytics | 营销人员和分析人员可以了解：<ul><li>对黄金级客户最有效的在线促销活动。</li><li>黄金级客户搜索的产品与白金级客户搜索的产品。</li><li>重新设计网站是否对老客户的转化率产生积极影响。</li><li>生命周期值较低的客户倾向于在我的网站上研究产品。</li></ul> |
+| Adobe Analytics | 营销人员和分析人员可以了解：<ul><li>对黄金级客户最有效的在线促销活动。</li><li>黄金级客户搜索的产品与白金级客户搜索的产品。</li><li>重新设计网站是否对老客户的转化率产生积极影响。</li><li>存留期值较低的客户更喜欢在我网站上研究的产品。</li></ul> |
 | Adobe Target | 属性数据使 Adobe Target 用户能够：<ul><li>向忠诚俱乐部成员显示特价折扣和优惠。</li><li>向您的奢侈品客户推荐更昂贵的产品。</li><li>对于已收到电子邮件的客户，在通常为电子邮件注册所保留的空间中显示追加销售选件</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
