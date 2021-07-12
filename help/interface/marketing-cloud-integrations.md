@@ -6,13 +6,13 @@ title: 'Experience Cloud 集成 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1396'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 **适用的解决方案或服务**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=en)
+* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=zh-Hans)
+* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=zh-Hans)
 
 ## 受众 {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -74,7 +74,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 >
 >客户属性是一项旧版服务，现在处于维护状态。
 
-如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud中的客户属性数据源。 上传后，使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的数据。
+如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
 
 **适用的解决方案或服务**
 
@@ -127,7 +127,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 使用 Experience Cloud 激活解决方案来设置和调试您的 Experience Cloud 解决方案。
 
-1. 使用[Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans)插入可在您的页面上激活Experience Cloud应用程序的代码。
+1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans) 插入可在您的页面上激活 Experience Cloud 应用程序的代码。
 1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hans) 对您的实施进行测试。
 
 使用 Adobe Experience Cloud Debugger 扩展来调试 Auditor 发现的问题或检查有关您实施的其他信息。
@@ -135,7 +135,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 **适用的解决方案或服务**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)
-* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
+* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=zh-Hans)
 * [Media Optimizer](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=zh-Hans)
 * [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=zh-Hans)
 * [MAC ID 服务](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hans)
@@ -149,7 +149,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 **适用的解决方案或服务**
 
-* 客户属性：将Adobe Target的[subscription](subscription.md)配置为客户属性
+* 客户属性：配置 Adobe Target 的客户属性[订阅](subscription.md)
 * Experience Cloud 受众：[Experience Cloud Audience Library](audience-library.md)
 * Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 * Dynamic Tag Management：[使用 DTM 实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=zh-Hans)
@@ -195,10 +195,10 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 **Analytics：**&#x200B;可每天将网站参与和转化数据发送到 [!DNL Adobe Advertising]，从中可将这些数据用于广告优化和报表。此外，[!DNL Advertising] 还可每天将搜索引擎和社交网络流量数据发送到 Analytics，从中可将这些数据用于 Reports &amp; Analytics、Report Builder 和临时分析功能中的报表。
 
-**动态标签管理器：** 您可以使用 [动态标签管理器为您的搜索、社交和显示广告登陆页面创建基于广告像素的转化跟踪标签](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en)和第三方跟踪标签。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
+**Dynamic Tag Manager：**&#x200B;可[使用 Dynamic Tag Manager 创建基于广告像素的转化跟踪标记](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en)以及第三方跟踪标记，以用于您的搜索、社交和显示广告着陆页。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
 
-**Experience Cloud 受众：**（需要管理显示的广告商）可适用任何 [Adobe Experience Cloud 受众](audience-library.md)作为显示广告的目标。您可以自动使用在“Experience Cloud”中创建的受众，以及从Analytics中发布到Adobe Experience Cloud的受众。 在将[!DNL Adobe Advertising]帐户配置为允许后，您还可以使用Audience Manager中的受众。 有关访问 Adobe Experience Cloud 以及个人资料和受众以及有关 [!DNL Adobe Advertising] 与 Adobe Experience Cloud 受众之间的初始设置的详细信息，请与您的客户经理联系。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
+**Experience Cloud 受众：**（需要管理显示的广告商）可适用任何 [Adobe Experience Cloud 受众](audience-library.md)作为显示广告的目标。可自动使用已在 Experience Cloud 中创建的受众以及 Analytics 中已发布到 Adobe Experience Cloud 的受众。并可在将 [!DNL Adobe Advertising] 帐户配置为允许使用 Audience Manager 中的受众时这样做。有关访问 Adobe Experience Cloud 以及个人资料和受众以及有关 [!DNL Adobe Advertising] 与 Adobe Experience Cloud 受众之间的初始设置的详细信息，请与您的客户经理联系。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
 
 **Experience Cloud Assets：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资产用作显示广告的创意。必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问 Adobe Experience Cloud 资源。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
 
-**Experience Cloud通知：** 从每个页面顶部的通知链接，可以查看从测试版搜索警报模板生成的所有警报。您还可以获取Experience Cloud系统更新、帖子、提及次数和共享资产。 必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问通知。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
+**Experience Cloud 通知：**&#x200B;通过每页顶部的通知链接，您可以查看基于搜索测试版警报模板生成的所有警报。您还可以获取有关 Experience Cloud 系统更新、帖子、提及次数和共享资源的通知。必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问通知。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
