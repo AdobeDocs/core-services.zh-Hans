@@ -6,30 +6,30 @@ title: '发行说明汇总 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: '"客户属性"'
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '4199'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
 # 发行说明汇总
 
-Experience Cloud中心界面组件的功能、发行说明和已知问题。
+Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
 
-## 6月版 — 2021年
+## 2021 年 6 月
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
-| 对AdobeFederated ID的单点登录支持 | 2021 年 6 月 17 日 | 如果您使用Federated ID，则无需输入电子邮件地址或密码即可登录Experience Cloud。 要使用此功能，请将`#/sso:@domain`添加到Experience CloudURL。 <br>例如，假定您拥有该域 `adobecustomer.com` 并希望登录Adobe Analytics。URL应为：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。 |
-| Experience League搜索 | 2021 年 6 月 1 日 | Experience League文档搜索已得到改进。 导航到[Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en)并使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档、课程等内容。 |
+| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。<br>例如，假设您拥有域 `adobecustomer.com` 且希望登录到 Adobe Analytics。URL 应为：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。 |
+| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到 [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=zh-Hans)，使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档和课程等。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -71,7 +71,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 
 ## 1 月版 - 2020 年
 
-* “信息源”页面已于2019年12月被弃用。 请查看产品内的弃用通知。(MCUI-10039)
+* “信息源”页面已在 2019 年 12 月被弃用。请查看产品内的弃用通知。(MCUI-10039)
 
 ## 8 月版 - 2019 年
 
@@ -108,11 +108,11 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>在 Admin Console 中预配置了产品配置 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud客户管理员可以使用预先创建并映射到Analytics和动态标签管理默认权限组的产品配置。 </p> <p>此优化适用于新配置的组织，它减少了组织在 Admin Console 中管理用户所需的时间。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 客户管理员可以使用预先创建并映射到 Analytics 和 Dynamic Tag Management 的默认权限组的产品配置。 </p> <p>此优化适用于新配置的组织，它减少了组织在 Admin Console 中管理用户所需的时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>信息源改进 </p> </td> 
-   <td colname="col2"> <p> 在Experience Cloud馈送中创建帖子时，“收件人”行现在默认使用当前活动主题，而不是使用组织。</p> </td> 
+   <td colname="col2"> <p> 在 Experience Cloud 信息源中创建帖子时，“收件人”行现在默认使用当前活动主题，而不是使用组织。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,11 +133,11 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets 改进 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud资产使用<span class="keyword"> Adobe Experience Manager</span>(AEM)中提供的某些功能。 </p> <p>请参阅 <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud Assets 使用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户关联改进 </p> </td> 
-   <td colname="col2"> <p>改进了用于将解决方案帐户与 Experience Cloud (Adobe ID) 关联的界面工作流程。这个新的工作流程会查找与组织关联的所有用户帐户，并允许您选择要关联的帐户。我们还简化了帐户关联体验，因此您不再需要访问“管理组织”页面即可手动关联帐户。 </p> </td> 
+   <td colname="col2"> <p>改进了用于将解决方案帐户与 Experience Cloud (Adobe ID) 关联的界面工作流程。这个新的工作流程会查找与组织关联的所有用户帐户，并允许您选择要关联的帐户。我们还简化了帐户关联体验，因此您将不再需要访问“管理组织”页面来手动关联帐户。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -169,7 +169,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 
 >[!NOTE]
 >
->对于Internet Explorer 8、9和10,Microsoft®为[结束支持](https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support)。 因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
+>Microsoft® 即将[结束](https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，我们将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。
 
 ## 15.10 版 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -241,7 +241,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
    <td colname="col1"> <p>管理功能改进： </p> 
     <ul id="ul_7D5FCBEFA262435D865CA1018BFB792E"> 
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle">管理控制台</span> </li> 
-     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">企业和Federated ID支持 </li> 
+     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise 和 Federated ID 支持 </li> 
     </ul> </td> 
    <td colname="col2"> <p>用户和群组管理功能已移至 Admin Console。新的导航路径是： </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">启动管理控制台</span></p> <p> 此外，还增加了对 Enterprise ID 和 Federated ID 的支持。您可以在同一企业部署中使用 Enterprise ID、Federated ID 和 Adobe ID。例如，对可能使用其他 Adobe 产品和服务的用户使用 Adobe ID。对需要严格管理其帐户的用户使用 Enterprise ID 或 Federated ID。 </p> </td> 
   </tr> 
@@ -254,7 +254,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 
 **已知问题**
 
-* 将 Dynamic Tag Management 组织与 Experience Cloud 关联和取消关联的操作不适用于新创建的 Experience Cloud 组织。Adobe正在修复此问题，并在5月版中恢复正常功能。 如果您在尝试通过 Experience Cloud 以单点登录方式访问 Dynamic Tag Management 时遇到问题，请采用以往的登录方式访问 [!DNL dtm.adobe.com]。
+* 将 Dynamic Tag Management 组织与 Experience Cloud 关联和取消关联的操作不适用于新创建的 Experience Cloud 组织。Adobe 正在努力修复此问题，并会在 5 月版本中恢复正常功能。如果您在尝试通过 Experience Cloud 以单点登录方式访问 Dynamic Tag Management 时遇到问题，请采用以往的登录方式访问 [!DNL dtm.adobe.com]。
 * 一个已知的问题是：对于不属于关联的 Analytics 帐户的报表包，访客将无法共享其内容。我们目前正在修复这个问题。
 
 ## 15.3.2 版 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -269,7 +269,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p>如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud中的客户属性数据源。 在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务解决方案实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用解决方案</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务解决方案实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用解决方案</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -471,7 +471,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 * [!DNL Exchange] 用户必须清除 Cookie 才能改善体验。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面速度可能会减慢。
 * 某些用户在 [!DNL Creative Cloud] 中取消共享的 [!DNL Experience Cloud] 内容可能会从他们的文件夹中删除。
-* 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销会使您从[!DNL Experience Cloud]中注销。
+* 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销将会使您从整个 [!DNL Experience Cloud] 中注销。
 * 某些用户可能无法将他们的 Audience Manager 帐户关联到 [!DNL Experience Cloud]。
 * [!UICONTROL Exchange] 用户在语言选择器中只能看到“英语”。
 
@@ -508,7 +508,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 * 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
 * 某些用户无法将他们的受众管理帐户与其 [!DNL Experience Cloud] 帐户相关联。
-* 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销会使您从该Experience Cloud中注销。
+* 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销将会使您从整个 Experience Cloud 中注销。
 * 某些 Exchange 用户可能在备注中发现他们的名称为一个较长的字符串 ID，而不是他们的名称
 
 **修复**
@@ -527,11 +527,11 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">帮助</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 </p> <p>应用程序包括Data Connectors、Adobe核心产品的自定义配置、第三方应用程序、报表和<span class="keyword">Experience Cloud</span>卡。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">帮助</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span> <span class="wintitle">Exchange</span> 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 </p> <p>这些应用程序包括 Data Connector、Adobe 核心产品的自定义配置、第三方应用程序、报表和 <span class="keyword"> Experience Cloud</span> 信息卡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 受众 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">受众</span></p> <p> 在<span class="wintitle">受众</span>中，您可以创建、编辑和管理受众，其方式与处理区段类似。例如，您可以在Reports &amp; Analytics中创建一个区段，然后将其共享到<span class="wintitle">Experience Cloud</span><span class="wintitle">受众</span>。 共享之后，该受众即可用于 <span class="keyword">Adobe Target</span> 营销活动，并出现在 Adobe Audience Manager 的区段中。 </p> <p> <p>注意：要在Target中请求启用受众，请访问<a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">受众</span></p> <p> 在<span class="wintitle">受众</span>中，您可以创建、编辑和管理受众，其方式与处理区段类似。例如，您可以在 Reports &amp; Analytics 中创建一个区段，然后将其共享到 <span class="wintitle"> Experience Cloud</span><span class="wintitle"> 受众</span>。共享之后，该受众即可用于 <span class="keyword">Adobe Target</span> 营销活动，并出现在 Adobe Audience Manager 的区段中。 </p> <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -539,11 +539,11 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>新Adobe用户可以将其Scene7帐户关联到Adobe ID及其团队成员。 管理员也可以取消用户与 Scene7 帐户的关联。 </p> </td> 
+   <td colname="col2"> <p>新的 Adobe 用户可以将其 Scene7 帐户关联到 Adobe ID 及其团队成员。管理员也可以取消用户与 Scene7 帐户的关联。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>资产同步。 </p> </td> 
-   <td colname="col2"> <p> 您可以与Experience Manager资产中的Experience Cloud和Creative Cloud共享资产。 对这些资产所做的任何更改都会反映在Experience Cloud和Creative Cloud中共享的资产副本中。 </p> </td> 
+   <td colname="col2"> <p> 您可以将 Experience Manager 资源中的资源与 Experience Cloud 和 Creative Cloud 共享。对这些资源所做的更改会反映到 Experience Cloud 和 Creative Cloud 中的共享资源副本。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -564,7 +564,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 * 对于某些用户，从 [!DNL Experience Cloud] 中删除文件时不会与 [!DNL Digital Asset Management] 同步。
 * 用户在浏览器处于非活动状态仅 15 分钟后即被注销。
 * 用户不能在展示板上共享 PowerPoint 文件。
-* 某些用户在Internet Explorer 10中的可视布局较差。
+* 某些用户在 Internet Explorer 10 中的可视布局较差。
 
 ## 14.4.1 版 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
@@ -615,7 +615,7 @@ Experience Cloud中心界面组件的功能、发行说明和已知问题。
 
 ## 14.3.1 版 - 2014 年 3 月 13 日 {#section_5D142E3225E3477A84DC01B8197D39BC}
 
-版本14.3.1是一个维护版本，其重点关注速度、稳定性和安全性。 它不包括主要的新功能。
+14.3.1 版是一个维护版本，其侧重于速度、稳定性和安全性。它不包括主要的新功能。
 
 **修复**
 
