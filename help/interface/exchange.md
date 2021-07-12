@@ -6,19 +6,19 @@ title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: '"客户属性"'
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Exchange Marketplace
 
-Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。这些应用程序包括Data Connectors、Adobe核心产品的自定义配置、第三方应用程序和报表。
+Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 帮助]** > **[!UICONTROL Exchange]**
 
