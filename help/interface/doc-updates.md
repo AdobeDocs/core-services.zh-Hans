@@ -6,13 +6,13 @@ title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: 客户属性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 86%
 
 有关 Experience Cloud 产品文档更新的信息。
 
-**更新日期：6/4/2021**
+**更新日期：2021 年 6 月 4 日**
 
-重组了指南的结构和目录。
+重新组织了指南结构和目录。
 
-**更新日期：6/1/2021**
+**更新日期：2021 年 6 月 1 日**
 
-更新了[登陆页面](experience-cloud.md)，提供了有关访问Experience Cloud、全局搜索、首选项和通知的新帮助。
+更新了[登陆页面](experience-cloud.md)，其中新增了有关访问 Experience Cloud、全局搜索首选项和通知的帮助。
 
 **更新日期：2020 年 8 月 19 日**
 
@@ -34,7 +34,7 @@ ht-degree: 86%
 
 **更新日期：2020 年 5 月 19 日**
 
-已弃用的选件管理文档。
+弃用了选件管理文档。
 
 **更新日期：2020 年 5 月 15 日**
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
 **更新日期：2018 年 9 月 5 日**
 
-添加了如何删除客户属性。 请参阅[（可选）更新架构（删除属性）](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
+添加了客户属性的删除方式。请参阅[（可选）更新架构（删除属性）](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
 **更新日期：2018 年 6 月 8 日**
 
