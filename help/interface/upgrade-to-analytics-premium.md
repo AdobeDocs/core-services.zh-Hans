@@ -6,13 +6,13 @@ title: '升级到 Analytics Premium 和 Experience Cloud '
 topic: 管理
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Analytics Premium 允许您：
 >
 >升级时不需要迁移，但是要注意一些注意事项：
 >
->* eVar 76-250和100-250（标准）在管理工具中可见，但未启用。
->* 贡献分析由 Adobe 启用。它不会更改位置（仍在“异常检测”页面上可用），但会自动开始分析所有数据点。
+>* eVars 76-250 和 100-250（标准）在管理工具中提供，但并未启用。
+>* 贡献分析由 Adobe 启用。它没有更改位置（仍位于异常检测页面上），但是现在它将自动开始分析所有数据点。
 
 
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
@@ -44,7 +44,7 @@ Analytics Premium 允许您：
 
 | 产品 | 升级 |
 |--- |--- |
-| Reports and Analytics | <ul><li>[贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en)</li><li>[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最多 200 个）</li></ul> |
+| Reports and Analytics | <ul><li>[贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hans)</li><li>[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)（最多 200 个）</li></ul> |
 | Data Workbench | <ul><li>算法归因</li><li>预建工作区</li></ul> |
 | Analytics Platform | [实时流](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)（原始数据、功能板、触发器） |
 
@@ -80,15 +80,15 @@ Analytics Premium 允许您：
 
 ## Data Workbench 要求 {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
-通过向 `dwb@adobe.com` 发送电子邮件，受支持的用户可请求更新所有的客户端许可证，以便反映 Analytics Premium。此更新可启用算法归因等功能。
+通过向 `dwb@adobe.com` 发送电子邮件，受支持的用户可请求更新所有的客户端许可证，以便反映 Premium。该更新可以启用算法归因等功能。
 
-技术运营人员审查您的合同承诺并确定适当的托管基础结构，以增加或减少容量，然后他们通过客户经理或咨询人员与您协调以部署任何更改。
+技术运营人员审查您的合同承诺并确定适当的托管基础结构，以增加或减少容量，然后他们将通过客户经理或咨询人员与您进行协调以部署任何更改。
 
-必须停用在本地运行的所有软件，此软件包括传感器，这意味着您必须确保通过[!DNL Analytics]标记进行正确跟踪。
+必须停用在本地运行的所有软件。该软件包括传感器，这意味着您必须确保通过 [!DNL Analytics] 标签进行正确的跟踪。
 
 ## Experience Cloud - 管理用户和产品 {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud和核心服务可供Analytics Standard和Premium用户使用，前提是您已遵循[快速入门 — 为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述的实施现代化。 （该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
+Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
 
 加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL experience.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
 
@@ -96,7 +96,7 @@ Experience Cloud和核心服务可供Analytics Standard和Premium用户使用，
 
 用户管理在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)（产品链接）中执行。
 
-您可以将在 Adobe Admin Console 中创建的群组与解决方案群组（例如 Adobe Analytics）之间的映射设置为 1:1。之后，添加到映射的Admin Console群组的新用户将自动创建一个Analytics解决方案帐户，并将其链接到用户的Adobe ID。 （现有用户必须手动关联其解决方案帐户凭据，才能通过 Experience Cloud 登录访问解决方案。）
+您可以将在 Adobe Admin Console 中创建的群组与解决方案群组（例如 Adobe Analytics）之间的映射设置为 1:1。之后，将会为添加到 Admin Console 映射组的新用户自动创建 Analytics 解决方案帐户，并将其关联到该用户的 Adobe ID。（现有用户必须手动关联其解决方案帐户凭据，才能通过 Experience Cloud 登录访问解决方案。）
 
 >[!NOTE]
 >
