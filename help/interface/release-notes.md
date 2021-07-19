@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4199'
-ht-degree: 97%
+source-wordcount: '4224'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
+
+## 7月版 — 2021年
+
+统一搜索已更新，可用于Journey Optimizer、选件和Experience League。 以前，此功能仅适用于Experience Platform用户。
 
 ## 2021 年 6 月
 
