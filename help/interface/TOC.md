@@ -1,32 +1,32 @@
 ---
 audience: administrator
-user-guide-title: 'Experience Cloud中心界面组件 '
-breadcrumb-title: Experience Cloud中心界面组件
-user-guide-description: 了解Experience Cloud的界面、配置首选项、搜索帮助和业务对象。 获取有关用户和产品管理、客户属性、受众库、Cookie和Experience Cloud资产的帮助。
+user-guide-title: 'Experience Cloud 中央界面组件 '
+breadcrumb-title: Experience Cloud 中央界面组件
+user-guide-description: 了解 Experience Cloud 的界面、配置首选项、搜索帮助和业务对象。获取有关产品管理、客户属性、受众库、Cookie 和 Experience Cloud Assets 的帮助。
 index: true
 source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud中心界面组件 {#interface}
+# Experience Cloud 中央界面组件 {#interface}
 
-+ [Experience Cloud中心界面组件指南](experience-cloud.md)
++ [Experience Cloud 中央界面组件指南](experience-cloud.md)
 + Experience Cloud 服务 {#services}
    + [Experience Cloud 服务](core-services-landing.md)
    + [启用您对跨解决方案服务的实现](core-services.md)
    + Experience Cloud 受众库{#audiences}
-      + [Experience Cloud受众](audience-library.md)
+      + [Experience Cloud 受众](audience-library.md)
       + [创建受众](t-audience-create.md)
       + [发布 Analytics 受众区段](t-publish-audience-segment.md)
    + Experience Cloud 客户属性 {#customer-attributes}
       + [客户属性概述](attributes.md)
       + [关于客户属性的常见问题](faq-crs.md)
       + [关于客户属性的数据文件和数据源](crs-data-file.md)
-      + [创建客户属性来源并上传数据文件](t-crs-usecase.md)
+      + [创建客户属性源并上传数据文件](t-crs-usecase.md)
       + [可选 - 通过 FTP 上传数据文件](t-upload-attributes-ftp.md)
       + [验证架构](validate-schema.md)
       + [配置订阅](subscription.md)
@@ -47,7 +47,7 @@ ht-degree: 76%
       + [从 Creative Cloud 桌面将资源上传到共享文件夹](t-cc-asset-upload-thor.md)
       + [针对共享的资源文件要求](assets-file-reqs.md)
       + [共享文件夹的行为](asset-behavior.md)
-+ Experience Cloud管理{#administration}
++ Experience Cloud 管理{#administration}
    + [管理 Experience Cloud 用户标识和产品 (Admin Console)](admin-getting-started.md)
    + [查看 Experience Cloud 用户详细信息（管理工具）](admin-tool-experience-cloud.md)
    + [常见问题](faq.md)
@@ -69,9 +69,9 @@ ht-degree: 76%
       + [[!DNL Target] Cookie](cookies-target.md)
       + [启用浏览器 Cookie 的隐私设置](browser-cookie-settings.md)
       + [第三方 Cookie 支持的变化对客户有何影响](cookies-thirdparty.md)
-+ Experience CloudUI {#release-notes}的发行说明
-   + [中央界面组件的发行说明](release-notes.md)
-   + [所有Experience Cloud的发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
++ Experience Cloud UI 发行说明{#release-notes}
+   + [中央界面组件发行说明](release-notes.md)
+   + [所有 Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
 + 更多资源 {#more-resources}
    + [论坛](https://experienceleaguecommunities.adobe.com/)
    + [术语](terms.md)
