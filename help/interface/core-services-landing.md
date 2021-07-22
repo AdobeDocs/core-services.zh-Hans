@@ -7,10 +7,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+source-wordcount: '364'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 | [人员 - 客户属性](attributes.md) | 利用存储在事件或数据源中的上下文数据构建实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
 | [位置服务](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans) | Adobe [!UICONTROL Experience Platform 位置服务]是一种地理定位服务。它通过使用伴有兴趣点 (POI) 灵活数据库的丰富且易于使用的 SDK 界面，使具有位置感知功能的移动应用程序能够了解位置上下文。 |
 | [激活](activation.md) | 激活中包括名为 Experience Platform 数据收集 (Launch) 和 Experience Cloud 触发器的最新标签管理产品。 |
-| [资源](experience-cloud-assets.md) | Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源提供单个集中的存储库。（Assets 是一项旧版服务，现在处于维护状态。） |
+| [资源](experience-cloud-assets.md) | Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源提供单个集中的存储库。 |
 | [管理](admin-getting-started.md) | 了解有关登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件，以及浏览器支持的信息。 |
 | [Cookie](cookies-privacy.md) | 维护客户隐私和数据安全是 Adobe 的首要任务。Adobe 加入多个隐私组织并与隐私管理机构合作，同时实行自我监管原则。 |
 
