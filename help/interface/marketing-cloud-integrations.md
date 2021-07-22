@@ -9,9 +9,9 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 100%
 
 ---
@@ -70,10 +70,6 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 帮助：[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->客户属性是一项旧版服务，现在处于维护状态。
-
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
 
 **适用的解决方案或服务**
@@ -84,10 +80,6 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 帮助：[与 Creative Cloud 共享 Experience Cloud 文件夹](creative-cloud.md)
-
->[!NOTE]
->
->Assets 是一项旧版核心服务，现在处于维护状态。
 
 在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资产。在 Experience Cloud 解决方案（如 [!DNL Social] 和 [!DNL Target]）中进行协作、对共享资产添加批注和使用它们。
 
