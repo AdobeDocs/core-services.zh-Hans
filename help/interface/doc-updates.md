@@ -9,16 +9,20 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
 # 文档更新 - Experience Cloud
 
 有关 Experience Cloud 产品文档更新的信息。
+
+**更新日期：8/6/2021**
+
+更新了[第一方Cookie](cookies-first-party.md)。
 
 **更新日期：2021 年 6 月 4 日**
 
