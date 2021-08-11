@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 96%
+source-wordcount: '4279'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
+
+## 8月版 — 2021年
+
+| 功能 | 日期 | 描述 |
+| ------- | ------- | -------|
+| [!UICONTROL 统一客户]  — 对最近访问的业务对象的扩展支持 | 2021 年 8 月 10 日 | [!UICONTROL 统一] 记录扩展到Journey Optimizer和Experience Platform中的其他业务对象。Journey Optimizer客户可以从Adobe Journey Optimizer主页中查找其最近访问的对象(消息、历程、区段、架构、数据集、数据源、事件、操作、源和目标)。 |
 
 ## 7月版 — 2021年
 
