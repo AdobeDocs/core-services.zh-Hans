@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 
       别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hans)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
       * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
