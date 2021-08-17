@@ -11,10 +11,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 部署和管理提升相关客户体验所必需的分析、营销和广告标签。
 
-参阅 [Experience Platform 启动快速入门指南](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=zh-Hans)。
+参阅 [Experience Platform 启动快速入门指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
 
 ## Experience Cloud [!UICONTROL 触发器] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
