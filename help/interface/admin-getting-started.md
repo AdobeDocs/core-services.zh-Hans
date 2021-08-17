@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 95%
+source-wordcount: '1274'
+ht-degree: 94%
 
 ---
 
@@ -105,7 +105,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 | 元素 | 描述 |
 |--- |--- |
-| Report Suites | 启用对特定报表包的权限。 |
+| 报表包 | 启用对特定报表包的权限。 |
 | 量度 | 启用流量、转化、自定义事件、解决方案事件和内容识别等的权限。 |
 | 维度 | 在粒度级别自定义用户访问权限，包括 eVar、流量报表、解决方案报表和路径报表。 |
 | 报表包工具 | 启用 Web 服务、报表包管理、工具和报表及功能板项目的用户权限。 |
@@ -147,7 +147,7 @@ Experience Platform [!UICONTROL 数据收集] ([!UICONTROL Launch]) 会显示在
 
 邀请用户访问 [!UICONTROL Platform Launch]，并分配用户角色和权限。
 
-有关 Admin Console 中用户权限以及设置特定于 Launch 的选项（包括为配置文件分配权限）的信息，请参阅[用户管理](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=zh-Hans#admin)。
+有关 Admin Console 中用户权限以及设置特定于 Launch 的选项（包括为配置文件分配权限）的信息，请参阅[用户管理](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)。
 
 ## Experience Manager 即云服务
 
