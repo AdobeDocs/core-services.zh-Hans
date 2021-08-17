@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 如果尚未为核心服务配置实施，请参阅[为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了以下操作说明：
 
 1. [加入 Experience Cloud 并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=zh-Hans)。
+1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
 1. [将报表包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Adobe Target）使您的 Adobe Target 实施符合现代化要求](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
