@@ -7,16 +7,20 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 88%
+source-wordcount: '571'
+ht-degree: 84%
 
 ---
 
 # Advertising Cloud Cookie{#advertising-cloud-cookies}
 
 Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并可能使用该信息来优化广告投标。
+
+>[!NOTE]
+>
+>使用[Adobe Experience Cloud ID(ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)的测试版Advertising Cloud Javascript标记创建[第一方Experience Clouds_ecid cookie](cookies-first-party.md)，而不是Advertising Cloud Cookie。
 
 ## Cookie 名称：_lcc
 
