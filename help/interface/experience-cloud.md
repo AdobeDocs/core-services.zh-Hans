@@ -8,7 +8,7 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 63%
@@ -89,7 +89,7 @@ Experience Cloud支持在Adobe用户帐户首选项中设置的每个用户首�
 
 ## 获取帮助和支持 {#support}
 
-使用标题中的“帮助”图标(![asset](assets\help-icon.png))访问学习和帮助，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程），以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标题中的“帮助”图标(![asset](assets/help-icon.png))访问学习和帮助，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程），以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![](assets/search-menu.png)
 
