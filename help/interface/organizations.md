@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 90%
+source-wordcount: '511'
+ht-degree: 67%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 90%
 
 ** 组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
-出于支持目的，您可能还需要查找组织 ID。您可以使用&#x200B;**[!UICONTROL 组织]**&#x200B;菜单验证自己是否处于正确的组织中，或在不同组织之间切换。
+要验证您是否已登录到正确的组织，请单击个人资料头像以查看组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看并切换到另一个组织。
+
+如果贵组织使用Federated ID，则Experience Cloud允许您使用贵组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 为此，请将`#/sso:@domain`添加到Experience CloudURL(`https://experience.adobe.com`)。
+
+例如，对于具有Federated ID和域`adobecustomer.com`的组织，请将您的URL链接设置为`https://experience.adobe.com/#/sso:@adobecustomer.com`。 您还可以通过将此URL添加书签并附加应用程序路径，直接转到特定应用程序。 (例如，对于Adobe Analytics,`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ![步骤结果](assets/organization-switch.png)
 
 ## 查找您的组织 ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+
+出于支持目的，您可能需要查找组织ID。 您可以使用&#x200B;**[!UICONTROL 组织]**&#x200B;菜单验证自己是否处于正确的组织中，或在不同组织之间切换。
 
 **组织 ID** 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）@AdobeOrg。
 
