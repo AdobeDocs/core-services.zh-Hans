@@ -9,16 +9,20 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '275'
+ht-degree: 89%
 
 ---
 
 # 文档更新 - Experience Cloud
 
 有关 Experience Cloud 产品文档更新的信息。
+
+**更新日期：8/24/2021**
+
+更新了[中央组件](experience-cloud.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持、组织更新、登录，以及有关域的信息。
 
 **更新日期：8/6/2021**
 
