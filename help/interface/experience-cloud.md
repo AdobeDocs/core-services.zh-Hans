@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 91%
+source-wordcount: '1306'
+ht-degree: 63%
 
 ---
 
@@ -28,29 +28,68 @@ ht-degree: 91%
 * 使用全局搜索的全局搜索业务对象（仅向 Experience Platform 用户开放）
 * 管理您的帐户首选项（警报、通知和订阅）
 
-## 登录到 Experience Cloud
+## 登录到 Experience Cloud {#signin}
 
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
 1. 选择&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登录。
-1. 在Adobe Experience Cloud上，选择您的组织。
+1. 确认您处于正确的组织中。
 
    ![](assets/organizations-menu.png)
 
-   您的管理员可以帮助您验证您是否属于正确的[组织](organizations.md)。
+   **验证您的组织**
+
+   要验证您是否已登录到正确的[organization](organizations.md)，请单击您的个人资料头像以查看组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看并切换到另一个组织。
+
+   如果贵组织使用Federated ID，则Experience Cloud允许您使用贵组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 为此，请将`#/sso:@domain`添加到Experience CloudURL(`https://experience.adobe.com`)。
+
+   例如，对于具有Federated ID和域`adobecustomer.com`的组织，请将您的URL链接设置为`https://experience.adobe.com/#/sso:@adobecustomer.com`。 您还可以通过将此URL添加书签并附加应用程序路径，直接转到特定应用程序。 (例如，对于Adobe Analytics,`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ## 访问 Experience Cloud 应用程序 {#navigation}
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-要访问您拥有的Experience Cloud服务，请转到应用程序选择器![](assets/menu-icon.png)。
+要访问组织内为您配置的Experience Cloud应用程序和服务，请转到应用程序选择器![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
-## 获取帮助和支持 {#search}
+## 浏览器支持Experience Cloud {#browser}
 
-统一的“帮助”提供了一个产品内的位置，可用于搜索和访问有关 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助内容（文档、教程和课程）。您也可以提交开放式的反馈并创建优先支持服务单。
+为获得最佳性能，已针对最常用的浏览器（包括最新版本）以及之前的两个版本对Experience Cloud进行优化。
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+如果您的浏览器未列出，则仍可能支持它，但建议您使用列出的浏览器之一。
+
+>[!NOTE]
+>
+>并非所有在Experience Cloud域上运行的应用程序都支持所有浏览器。 如果您不确定，请查看特定应用程序的文档。
+
+## Experience Cloud中的语言支持 {#languages}
+
+Experience Cloud支持在Adobe用户帐户首选项中设置的每个用户首选语言。 目前支持的语言包括：
+
+* 中文
+* 英语
+* 法语
+* 德语
+* 意大利语
+* 日语
+* 朝鲜语
+* 葡萄牙语
+* 西班牙语
+* 台湾语
+
+尽管所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都以上述所有语言提供。 如果Experience Cloud应用程序不支持主语言，您还可以将辅助语言设置为默认（如果适用）。 可以在[Experience Cloud用户首选项](https://experience.adobe.com/preferences)中执行此操作。
+
+## 获取帮助和支持 {#support}
+
+使用标题中的“帮助”图标(![asset](assets\help-icon.png))访问学习和帮助，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程），以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![](assets/search-menu.png)
 
@@ -61,7 +100,7 @@ ht-degree: 91%
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
-## 全局搜索对象和实体
+## 全局搜索对象和实体 {#search}
 
 全局搜索让您只需单击即可通过无缝、一致的方式找到可搜索的业务对象或实体。该搜索会显示您最近访问的对象。
 
@@ -69,9 +108,12 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->全局搜索仅可用于Experience Platform、Journey Optimizer、选件和Experience League。
+>全局搜索并非在所有Experience Cloud应用程序中都可用，但是随着更多内容被编入索引，它将被添加到相关应用程序中。 自2021年7月起可用：
 
-## 管理帐户首选项 {#preferences}
+* Experience Platform
+* Journey Optimizer
+
+## 用户配置文件和帐户首选项 {#preferences}
 
 Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜单中，您可以：
 
@@ -102,6 +144,17 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 
 ![](assets/notifications-menu-small.png)
 
+## Experience Cloud域 {#domains}
+
+Experience Cloud使用以下主机来交付应用程序、提高性能和产品体验。 Adobe建议将这些域添加到防火墙的允许列表，以获得最佳体验。 其他域也可能用于特定的Experience Cloud应用程序，如Adobe Analytics。 有关更多信息，请查看这些应用程序的文档。
+
+| 技术 | 域 |
+|--- |--- |
+| Adobe Experience Cloud域 | `adobe.com`、`adobe.net`、`adobe.io` |
+| AdobeIdentity Management服务(IMS) | `adobelogin.com` |
+| Experience Cloud字体 | `typekit.net` |
+| Gainsight（用于产品指导和帮助） | `esp.aptrinsic.com` |
+
 ## 获取有关管理和跨应用程序服务的帮助
 
 本指南提供的帮助内容涉及如何在 Admin Console 中管理用户和产品，以及如何启用面向平台服务的解决方案。另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
@@ -131,7 +184,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 * [Experience Platform 数据收集/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
 * [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)
 * [《通用数据保护条例》(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 
 ## 教程
 
