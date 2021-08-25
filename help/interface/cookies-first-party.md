@@ -5,15 +5,15 @@ solution: Experience Cloud,Analytics
 title: '"第一方 Cookie "'
 index: y
 snippet: y
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 71%
+source-wordcount: '1614'
+ht-degree: 70%
 
 ---
 
@@ -166,6 +166,6 @@ Address: 54.187.216.46
 
 1. 如果您要从长期实施转移到第一方数据收集，或更改为其他第一方收集主机名，则Adobe建议将访客从先前的域迁移到新域。
 
-请参阅“Analytics 实施指南”中的[访客迁移](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=zh-Hans)。
+请参阅“Analytics 实施指南”中的[访客迁移](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)。
 
 在上传了该 JavaScript 文件后，将针对第一方 数据收集完成所有相应的配置。Adobe 建议您在接下来的几个小时监控 Analytics 报告，以确保数据收集持续正常进行。如果未能正常进行数据收集，请验证上述所有步骤是否已经完成，并安排贵组织的一名受支持用户联系客户关怀部门。
