@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: '关于 Experience Cloud 的常见问题解答 '
 index: true
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 98%
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 如果尚未为核心服务配置实施，请参阅[为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了以下操作说明：
 
 1. [加入 Experience Cloud 并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
+1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)。
 1. [将报表包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Adobe Target）使您的 Adobe Target 实施符合现代化要求](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -98,7 +98,7 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 组织 ID 显示在 Experience Cloud 登录页面和 [Admin Console 登录页面](https://adminconsole.adobe.com)中。
 
-或者，管理员还可以登录到特定组织的 Admin Console（导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)），此时您能够在 URL 中看到您的 IMS 组织 ID。
+或者，管理员还可以登录到特定组织的 Admin Console（导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)），此时您能够在 URL 中看到您的 IMS 组织 ID。
 
 例如，在以下 URL 中：
 
