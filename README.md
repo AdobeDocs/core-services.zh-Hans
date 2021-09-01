@@ -2,7 +2,7 @@
 source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 # 贡献文章
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 ## 关于您对 Adobe 内容的贡献
 
-请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
 
 您的参与方式取决于您的身份以及您想提供的更改类型：
 

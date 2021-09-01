@@ -1,20 +1,20 @@
 ---
 description: 了解最新的标签管理产品：Experience Platform Launch。
 keywords: 核心服务
-seo-description: 激活包括以下最新的标签管理产品：Experience Platform Launch。Dynamic Tag Management (DTM)；以及触发器。
-seo-title: 激活
+seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
+seo-title: Activation
 solution: Experience Cloud Services
 title: Experience Cloud 中的激活服务
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 96%
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 部署和管理提升相关客户体验所必需的分析、营销和广告标签。
 
-参阅 [Experience Platform 启动快速入门指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
+参阅 [Experience Platform 启动快速入门指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)。
 
 ## Experience Cloud [!UICONTROL 触发器] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 

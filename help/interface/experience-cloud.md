@@ -3,14 +3,14 @@ description: 了解 Experience Cloud 的中央界面组件。该帮助包括如�
 solution: Experience Cloud
 title: Experience Cloud 界面帮助和文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"客户属性"'
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1303'
 ht-degree: 63%
 
 ---

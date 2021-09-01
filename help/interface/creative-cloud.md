@@ -3,14 +3,14 @@ description: '了解如何在 Experience Cloud 和 Creative Cloud 之间共享�
 keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: '与 Creative Cloud 共享 Experience Cloud 文件夹和资产 '
-feature: 资产
-topic: 管理
+feature: Assets
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 100%
 
 ---

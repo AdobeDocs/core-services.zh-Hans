@@ -4,14 +4,14 @@ keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: '管理 Creative Cloud 用户 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-feature: 资产
-topic: 管理
+feature: Assets
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '124'
 ht-degree: 84%
 
 ---

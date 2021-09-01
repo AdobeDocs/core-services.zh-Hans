@@ -1,14 +1,14 @@
 ---
 title: '客户属性对《加州消费者隐私法案》的支持 '
 description: 了解客户属性对《加州消费者隐私法案》的支持
-feature: 客户属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '434'
 ht-degree: 100%
 
 ---

@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: 'Experience Cloud 集成 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 84%
+source-wordcount: '1422'
+ht-degree: 89%
 
 ---
 
@@ -115,11 +115,11 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 ## 激活 {#section_A23510A2D57842F6BAD043650C06DE42}
 
-帮助：[快速入门](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
+帮助：[快速入门](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)
 
 使用 Experience Cloud 激活解决方案来设置和调试您的 Experience Cloud 解决方案。
 
-1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 插入可在您的页面上激活 Experience Cloud 应用程序的代码。
+1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans) 插入可在您的页面上激活 Experience Cloud 应用程序的代码。
 1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hans) 对您的实施进行测试。
 
 使用 Adobe Experience Cloud Debugger 扩展来调试 Auditor 发现的问题或检查有关您实施的其他信息。

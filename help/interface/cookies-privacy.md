@@ -4,14 +4,14 @@ keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie 和隐私 '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 100%
 
 ---

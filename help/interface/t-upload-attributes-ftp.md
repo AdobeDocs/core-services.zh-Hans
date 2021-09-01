@@ -4,14 +4,14 @@ keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '通过 FTP 上传客户属性数据文件 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: 客户属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 98%
 
 ---

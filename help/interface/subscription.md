@@ -4,14 +4,14 @@ keywords: 客户属性;核心服务
 solution: Experience Cloud
 title: '如何配置订阅 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: 客户属性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
