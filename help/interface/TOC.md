@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 中央界面组件
 user-guide-description: 了解 Experience Cloud 的界面、配置首选项、搜索帮助和业务对象。获取有关产品管理、客户属性、受众库、Cookie 和 Experience Cloud Assets 的帮助。
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
       + [客户属性的隐私注意事项](privacy-mac.md)
    + Experience Cloud 激活 {#activation}
       + [激活概述](activation.md)
-      + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+      + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
       + [触发器](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud Assets 概述](experience-cloud-assets.md)
