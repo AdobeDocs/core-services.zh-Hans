@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 96%
 
 **创建受众**
 
-1. 在[!DNL Experience Cloud]的[!DNL Experience Platform]下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
-1. 在[!UICONTROL 受众]页面上，选择&#x200B;**[!UICONTROL 新建]**。 ![](assets/add_icon_small.png)
+1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
+1. 在[!UICONTROL 受众]页面上，选择&#x200B;**[!UICONTROL 新建]**。![](assets/add_icon_small.png)
 
    ![步骤结果](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ ht-degree: 96%
 
    * **[!UICONTROL Experience Cloud：]**&#x200B;从 [!DNL Experience Cloud] 来源派生的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
-1. 定义受众规则，然后选择&#x200B;**[!UICONTROL Save]。**
+1. 定义受众规则，然后选择&#x200B;**[!UICONTROL 保存]。**
 
 >[!NOTE]
 >
