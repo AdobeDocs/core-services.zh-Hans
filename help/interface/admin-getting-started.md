@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ ht-degree: 94%
 
 邀请用户加入组织时，您可以授予用户访问产品和产品配置文件的权限。您还可以将有限的管理权限委派给某个用户。同样，您可以创建用户组，然后将该组添加到产品配置文件以启用访问权限。
 
-1. 在[Admin Console](https://adminconsole.adobe.com/enterprise/)中，选择&#x200B;**[!UICONTROL 产品]**。
+1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，选择&#x200B;**[!UICONTROL 产品]**。
 1. 选择您的组织名称。
-1. 选择&#x200B;**[!UICONTROL 新建配置文件]**。
-1. 配置配置文件详细信息，然后选择&#x200B;**[!UICONTROL Save]**。
+1. 选择&#x200B;**[!UICONTROL 新个人资料]**。
+1. 配置该个人资料的详细信息，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 有关更多信息（以及有关 Creative Cloud 和 Document Cloud 产品管理的帮助），请参阅[管理用户指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/users.ug.html)中的[身份](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/identity.ug.html)。
 
@@ -82,7 +82,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 通过使用这些角色，您可以将管理同时委派给其他人，而不会提供超出其需求的更多功能。
 
-1. 在Admin Console中，选择&#x200B;**[!UICONTROL Users]**，然后选择用户名。
+1. 在 Admin Console 中，选择&#x200B;**[!UICONTROL 用户]**，然后选择用户的名称。
 
    ![](assets/edit-admin-rights.png)
 
@@ -91,7 +91,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
    ![](assets/edit-admin-rights-page.png)
 
 1. 指定用户的管理权限。
-1. 选择 **[!UICONTROL Save]**。
+1. 选择&#x200B;**[!UICONTROL 保存]**。
 
 ## 管理 Analytics 用户和产品 {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 例如，您可以创建包含多个 Analytics 工具（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Report Builder]）的产品配置文件。这些配置文件包含对特定量度和维度（包括 eVar）的权限，以及区段或计算量度创建等功能。
 
-1. 登录到[Admin Console](https://adminconsole.adobe.com/enterprise)，然后选择&#x200B;**[!UICONTROL 产品]**。
-1. 在[!UICONTROL 产品]页面上，选择您的产品，然后选择&#x200B;**[!UICONTROL 权限]**（仅供管理员使用）。
+1. 登录到 [Admin Console](https://adminconsole.adobe.com/enterprise)，然后选择&#x200B;**[!UICONTROL 产品]**。
+1. 在[!UICONTROL 产品]页面上，选择您的产品，然后选择&#x200B;**[!UICONTROL 权限]**（仅适用于管理员）。
 1. 配置该配置文件的权限：
 
 | 元素 | 描述 |
@@ -129,9 +129,9 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 请参阅：
 
-* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理产品和配置文件](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)
+* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/cn/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -173,6 +173,6 @@ Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织�
 
 ### 解决方案和产品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hans)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans)
