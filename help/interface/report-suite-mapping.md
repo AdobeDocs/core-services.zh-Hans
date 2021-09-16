@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
    此视图可帮助您针对映射做出明智决定。
 
-1. 选择报表包旁边&#x200B;**[!UICONTROL 已映射的组织]**&#x200B;列中的下拉列表，然后选择要映射到的组织。
+1. 选择报表包旁边&#x200B;**[!UICONTROL 已映射的组织]**&#x200B;列中的下拉菜单，然后选择要映射到的组织。
 
    有关选择 Experience Cloud 组织的提示，请参阅下一部分。
 
 ## 将多个报表包映射到组织 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 选择&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 报表包映射]**。
+1. 选择 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 报表包映射]**。
 
 1. 选择要映射的报表包。
 
