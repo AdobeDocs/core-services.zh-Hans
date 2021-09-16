@@ -4,15 +4,15 @@ keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Adobe Target Cookie '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 source-git-commit: a244ee8927e0417fbb502e8eaa3c371151ec3044
-workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Cookie 会保留大量值以管理访客对 Adobe Target 促销活动的体验�
 
 | 值 | 定义 |
 | --- | --- |
-| session ID | 给定用户会话的唯一标识符。默认情况下，会话在闲置 30 分钟后到期。如果您自己生成 sessionId（例如，用于服务器端实现），请确保以下各项：<ul><li>会话 ID 可以是任何可打印的字符串，但空格、问号 (? ) 或正斜杠 (/) 除外。</li><li>* 会话 ID 应为 1 至 128 个字符长。</li><li>对于特定会话，其值必须在多个请求间保持相同</li><li>对于给定访客，在任何时刻都不应存在同时进行的会话（不同的 sessionId）。</li></ul>使用会话 ID 路由到边缘群集中的特定节点。<ul><li>会话在服务器端活跃 30 分钟。因此，不应在用特定 `tntId/thirdPartyId` 提出上次请求后 30 分钟内对该 `tntId/thirdPartyId` 使用不同的会话 ID。否则，对个人资料的更改可能会不一致且不可预测。</li><li>对多个 `tntIds/thirdPartyIds` 使用同一会话 ID 可能会导致由 `tntId/thirdPartyIDs` 标识的个人资料产生不可预测的更改。</li></ul>**注意**:请参 [阅对给定会话ID的](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=en#content-delivery) 并发请求数的限制。 |
+| session ID | 给定用户会话的唯一标识符。默认情况下，会话在闲置 30 分钟后到期。如果您自己生成 sessionId（例如，用于服务器端实现），请确保以下各项：<ul><li>会话 ID 可以是任何可打印的字符串，但空格、问号 (? ) 或正斜杠 (/) 除外。</li><li>* 会话 ID 应为 1 至 128 个字符长。</li><li>对于特定会话，其值必须在多个请求间保持相同</li><li>对于给定访客，在任何时刻都不应存在同时进行的会话（不同的 sessionId）。</li></ul>使用会话 ID 路由到边缘群集中的特定节点。<ul><li>会话在服务器端活跃 30 分钟。因此，不应在用特定 `tntId/thirdPartyId` 提出上次请求后 30 分钟内对该 `tntId/thirdPartyId` 使用不同的会话 ID。否则，对个人资料的更改可能会不一致且不可预测。</li><li>对多个 `tntIds/thirdPartyIds` 使用同一会话 ID 可能会导致由 `tntId/thirdPartyIDs` 标识的个人资料产生不可预测的更改。</li></ul>**注意**：请查看给定会话 ID 的[并发请求数限制](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=en#content-delivery)。 |
 | pc ID | 访客浏览器的半永久 ID。持续存在，直到手动删除 Cookie 为止。 |
 | check | 用于确定访客是否支持 Cookie 的简单测试值。在每次访客请求页面时设置。 |
 | disable | 如果访客的加载时间超出在 at.js 文件中配置的超时，则设置此项。默认情况下，此过程持续 1 小时。 |
