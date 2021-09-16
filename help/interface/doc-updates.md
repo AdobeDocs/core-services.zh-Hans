@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 有关 Experience Cloud 产品文档更新的信息。
 
-**更新日期：8/24/2021**
+**更新日期：2021 年 8 月 24 日**
 
-更新了[中央组件](experience-cloud.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持、组织更新、登录，以及有关域的信息。
+更新了[中央组件](experience-cloud.md)页面（本指南的登陆页面）。添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
 
-**更新日期：8/6/2021**
+**更新日期：2021 年 8 月 6 日**
 
-更新了[第一方Cookie](cookies-first-party.md)。
+更新了[第一方 Cookie](cookies-first-party.md)。
 
 **更新日期：2021 年 6 月 4 日**
 
@@ -105,7 +105,7 @@ ht-degree: 89%
 
 **更新日期：2015 年 1 月 15 日**
 
-添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资产和评论。请参阅[资产共享](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
+添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资源和评论。请参阅[资源共享](creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
 
 **更新日期：2014 年 7 月 17 日**
 
