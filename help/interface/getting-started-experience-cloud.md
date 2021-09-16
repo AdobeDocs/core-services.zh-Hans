@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 90%
 
 登录并验证您是否处于正确的[组织](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)中。
 
-1. 选择Experience Cloud菜单(![](assets/menu-icon.png))，然后选择&#x200B;**[!UICONTROL 管理]**。
+1. 选择 Experience Cloud 菜单 (![](assets/menu-icon.png))，然后选择&#x200B;**[!UICONTROL 管理]**。
 
    如果未显示&#x200B;**[!UICONTROL 管理]**&#x200B;链接，您便不是所显示[组织](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理员。有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
 1. 选择&#x200B;**[!UICONTROL 管理]**。
 
-1. 选择以下链接之一以继续操作：
+1. 选择下列链接之一以继续操作：
 
 | 元素 | 描述 |
 |--- |--- |
@@ -56,11 +56,11 @@ ht-degree: 90%
 
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com])。
-1. 选择&#x200B;**[!UICONTROL 使用Adobe ID登录]**。
+1. 选择&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
 
-1. 在登陆页面上，选择选择器图标![](assets/menu-icon.png)以访问下拉菜单。
+1. 在登陆页面上，选择选择器图标 ![](assets/menu-icon.png) 以访问下拉菜单。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -68,12 +68,12 @@ ht-degree: 90%
 
 ## 配置默认的个人帐户设置 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
-您可以编辑个人详细信息，并指定在登录到 Experience Cloud 后要显示的默认[组织](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2)和登录页面。
+您可以编辑个人详细信息，并指定在登录到 Experience Cloud 后要显示的默认[组织](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2)和登陆页面。
 
-1. 登录到Experience Cloud，然后选择您的配置文件图标。
+1. 登录到 Experience Cloud，然后选择您的个人资料图标。
 
    ![](assets/edit-profile.png)
-1. 选择&#x200B;**[!UICONTROL 编辑配置文件]**。
+1. 选择&#x200B;**[!UICONTROL 编辑个人资料]**。
 
    ![](assets/default-organization.png)
 1. 继续配置和编辑个人信息，然后选择&#x200B;**[!UICONTROL 保存更改]**。
@@ -82,7 +82,7 @@ ht-degree: 90%
 
 获取有关系统更新、维护通知、帖子、提及次数和共享资源的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和解决方案，包括客户属性的上传状态。
 
-要导航到“通知”，请选择&#x200B;**[!UICONTROL Notifications]**&#x200B;图标![](assets/notifications-icon.png)，然后选择&#x200B;**[!UICONTROL Settings]**&#x200B;图标![](assets/icon_edit_board.png)。
+要导航到通知，请选择&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![](assets/notifications-icon.png)，然后选择&#x200B;**[!UICONTROL 设置]**&#x200B;图标 ![](assets/icon_edit_board.png)。
 
 您可以根据您认为重要的消息类型对“通知”显示进行排序，然后搜索通知。您还可以：
 
@@ -115,12 +115,12 @@ ht-degree: 90%
 
 1. 登录到 Experience Cloud。
 
-1. 在Experience Cloud时，选择您的个人资料图片。
+1. 在 Experience Cloud 上，选择您的个人资料图片。
 
    ![](assets/edit-profile.png)
-1. 选择&#x200B;**[!UICONTROL 编辑配置文件]**。
+1. 选择&#x200B;**[!UICONTROL 编辑个人资料]**。
 
-   在“配置文件和密码”页面上，填写“个人详细信息”下的字段和选项。
+   在“个人资料和密码”页面上，填写“个人详细信息”下的字段和选项。
 
 ## 恢复密码 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
