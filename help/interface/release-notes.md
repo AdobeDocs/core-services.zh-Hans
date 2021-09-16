@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4276'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 有关涉及所有解决方案的发行说明，请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
 
-## 8月版 — 2021年
+## 2021 年 8 月
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | -------|
-| [!UICONTROL 统一客户]  — 对最近访问的业务对象的扩展支持 | 2021 年 8 月 10 日 | [!UICONTROL 统一] 记录扩展到Journey Optimizer和Experience Platform中的其他业务对象。Journey Optimizer客户可以从Adobe Journey Optimizer主页中查找其最近访问的对象(消息、历程、区段、架构、数据集、数据源、事件、操作、源和目标)。 |
+| [!UICONTROL 统一的最近访问] - 对最近访问的业务对象的扩展支持 | 2021 年 8 月 10 日 | [!UICONTROL 统一的最近访问]已扩展到 Journey Optimizer 和 Experience Platform 中的其他业务对象。Journey Optimizer 客户可以从 Adobe Journey Optimizer 主页找到他们最近访问的对象（消息、历程、区段、架构、数据集、数据源、事件、操作、源和目标）。 |
 
-## 7月版 — 2021年
+## 2021 年 7 月
 
-统一搜索已更新，可用于Journey Optimizer、选件和Experience League。 以前，此功能仅适用于Experience Platform用户。
+统一搜索功能已更新，可用于 Journey Optimizer、选件和 Experience League。以前，此功能仅可供 Experience Platform 用户使用。
 
 ## 2021 年 6 月
 
@@ -53,7 +53,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 {style=&quot;table-layout:auto&quot;}
 
-## 8 月版 - 2020 年
+## 2020 年 8 月
 
 | 功能 | 描述 |
 | -----------| ---------- |
@@ -61,12 +61,12 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 {style=&quot;table-layout:auto&quot;}
 
-## 4 月版 - 2020 年
+## 2020 年 4 月
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
 * Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
 
-## 2 月版 - 2020 年
+## 2020 年 2 月
 
 | 功能 | 描述 |
 | -----------| ---------- |
@@ -79,18 +79,18 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他配置文件状态。(MCUI-10231)
 * **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
 
-## 1 月版 - 2020 年
+## 2020 年 1 月
 
 * “信息源”页面已在 2019 年 12 月被弃用。请查看产品内的弃用通知。(MCUI-10039)
 
-## 8 月版 - 2019 年
+## 2019 年 8 月
 
 * 修复了 Experience Cloud 登录中导致某些用户会话注销的关键问题。(MCUI-6908)
 * 更新了 Experience Cloud 登录，以提高性能并减少延迟。（MCUI-6854、MCUI-6869 和 MCUI-6883）
 * 更新了界面外观。（MCUI-6861、MCUI-6911 和 MCUI-6862）
 * 修复了 Experience Cloud [!UICONTROL 触发器]存在的问题，之前该问题会导致[!UICONTROL 触发器]定义中的 _Like_ 子句的解释有误。(MCUI-6611)
 
-## 4 月版 - 2019 年
+## 2019 年 4 月
 
 * 更新了应用程序切换器，以便在 Experience Cloud 解决方案套件中包含 Marketo，同时将品牌更新为“Experience Platform”。(MCUI-6529)
 * 更新了 Experience Cloud 主页，以包含指向“信息源”和“管理”页面的导航链接。(MCUI-6682)
@@ -129,7 +129,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 **修复**
 
-* 修复了缩略图无法显示从 Assets on Demand 共享到 Experience Cloud 信息源的资产问题。(MAC-29955)
+* 修复了缩略图无法显示从 Assets on Demand 共享到 Experience Cloud 信息源的资源问题。(MAC-29955)
 
 ## 16.2 版 - 2016 年 2 月 18 日 {#section_D9610373116C4D77A38F67815C725EA3}
 
@@ -143,7 +143,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets 改进 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以从一个中心位置存储、共享和同步数字资产。Experience Cloud Assets 使用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以从一个中心位置存储、共享和同步数字资源。Experience Cloud Assets 使用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户关联改进 </p> </td> 
@@ -198,7 +198,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 ## 15.7 版 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
 
 * 修复了导致无法在 Analytics 报表中更新“查看/编辑架构”页面（位于客户属性中）上指定的属性描述的问题。(MAC-25985)
-* 修复了无法呈现已上传资产的缩略图的问题。(MAC-25863)
+* 修复了无法呈现已上传资源的缩略图的问题。(MAC-25863)
 * 修复了导致在 Reports &amp; Analytics 中创建的新区段在 Experience Cloud 受众中不可用的问题。(MAC-25817)
 * 修复了受众在使用访客 ID 服务时无法从 Analytics 共享的问题。（MAC-25788、MAC-25747）
 * 在客户属性中添加了对多字节字符的支持。(MAC-25552)
@@ -304,7 +304,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
   </tr> 
   <tr> 
    <td colname="col1"> <p>激活 </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">激活</a>现在显示在 <span class="keyword">Experience Cloud</span> 的左侧导航区域中。<span class="wintitle"> </span> Activation是Experience  <span class="keyword"> Cloud</span> 的一项服务，目前由动态标签管理技术组成，在选择时会将您导向该处。 </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">激活</a>现在显示在 <span class="keyword">Experience Cloud</span> 的左侧导航区域中。<span class="wintitle"> 激活</span>功能目前是 <span class="keyword"> Experience Cloud</span> 的一项服务，由动态标记管理技术组成，选择时会将您定向到该处。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文档更新 - 核心服务 </p> </td> 
@@ -318,7 +318,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 修复：
 
 * 改进了用于帐户设置的用户电子邮件邀请工作流程。
-* 修复了 [!DNL Experience Cloud] 和 [!DNL Adobe Campaign] 资产无法显示同一文件夹层次结构的资产文件夹问题。
+* 修复了 [!DNL Experience Cloud] 和 [!DNL Adobe Campaign] 资源无法显示同一文件夹层次结构的资源文件夹问题。
 * 修复了无法删除隶属于已停用 [!DNL Target] 活动的受众的问题。
 * 修复了[!UICONTROL 新建受众]页面的[!UICONTROL 规则]下无法显示“添加”（加号）图标的问题。
 * 改进了对 Internet Explorer 9 的 Experience Cloud 界面支持。
@@ -355,21 +355,21 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 用户可能无法从 Media Optimizer 中看到他们 Experience Cloud 信息卡上的链接。
 * 某些管理用户在接受加入 Experience Cloud 的邀请后关联其帐户时可能会遇到问题。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面性能可能会降低。
-* 某些用户可以删除过期的资产，而不会收到错误通知。
+* 某些用户可以删除过期的资源，而不会收到错误通知。
 * 某些用户在使用同一 Adobe ID 同时登录两个浏览器时可能会遇到问题。
 * 某些用户在删除了一个 Creative Cloud 用户之后，可能无法再次向共享文件夹添加该 Creative Cloud 用户。
 * 在将文件夹从 Experience Cloud 共享到 Creative Cloud 时，某些用户可能会遇到通知延迟问题。
 * 某些用户在 Experience Cloud 和 Creative Cloud 之间共享文件夹时可能会遇到问题。
 * 启用共享受众后，某些用户在 Analytics 报表包中创建受众时可能会遇到问题。
-* 某些用户在将资产上传到展示板时可能会遇到问题。
+* 某些用户在将资源上传到展示板时可能会遇到问题。
 
 ## 14.11.1 版 - 2014 年 11 月 13 日 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 已知问题:
 
-* 某些用户可以删除过期的资产，而不会收到错误通知。
+* 某些用户可以删除过期的资源，而不会收到错误通知。
 * 某些 [!DNL .png] 文件无法在信息卡中呈现。
-* 某些用户在将资产上传到展示板时可能会遇到问题。
+* 某些用户在将资源上传到展示板时可能会遇到问题。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 管理员必须注销然后重新登录，才能查看“帐户设置”中所做的更改。
 * 用户不能在展示板上共享 PowerPoint 文件。
@@ -405,11 +405,11 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 **已知问题**
 
-* 某些用户在将资产上传到展示板时可能会遇到问题。
+* 某些用户在将资源上传到展示板时可能会遇到问题。
 * 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户可能无法从 PDF 创建信息卡并将其共享到展示板。
-* 某些用户可以删除过期的资产，而不会收到错误通知。
+* 某些用户可以删除过期的资源，而不会收到错误通知。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
 * 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
@@ -424,9 +424,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 **已知问题**
 
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
-* 某些用户无法从PDF创建信息卡并将其共享到展示板。
-* 某些用户在将资产上传到展示板时可能会遇到问题。
-* 某些用户可以删除过期的资产，而不会收到错误通知。
+* 部分用户无法使用 PDF 创建信息卡并将其共享到展示板。
+* 某些用户在将资源上传到展示板时可能会遇到问题。
+* 某些用户可以删除过期的资源，而不会收到错误通知。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 某些 [!DNL .png] 文件无法在信息卡中呈现。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面性能可能会降低。
@@ -456,10 +456,10 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户可能无法从 PDF 创建信息卡并将其共享到展示板。
-* 某些用户在将资产上传到展示板时可能会遇到问题。
+* 某些用户在将资源上传到展示板时可能会遇到问题。
 * 某些用户可能无法从 [!DNL Target] 登录到 [!DNL Experience Cloud]。
 * 某些 Audience Manager 用户无法登录到 [!DNL Experience Cloud]。
-* 某些用户可以删除过期的资产，而不会收到错误通知。
+* 某些用户可以删除过期的资源，而不会收到错误通知。
 * 从 [!DNL Experience Cloud] 删除的文件不会从 [!DNL Digital Asset Management] 中删除。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 某些 [!DNL .png] 文件无法在信息卡中呈现。
@@ -552,7 +552,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
    <td colname="col2"> <p>新的 Adobe 用户可以将其 Scene7 帐户关联到 Adobe ID 及其团队成员。管理员也可以取消用户与 Scene7 帐户的关联。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>资产同步。 </p> </td> 
+   <td colname="col1"> <p>资源同步。 </p> </td> 
    <td colname="col2"> <p> 您可以将 Experience Manager 资源中的资源与 Experience Cloud 和 Creative Cloud 共享。对这些资源所做的更改会反映到 Experience Cloud 和 Creative Cloud 中的共享资源副本。 </p> </td> 
   </tr> 
  </tbody> 
@@ -563,9 +563,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * [!DNL Experience Cloud] 未关联到 [!DNL Adobe Target]。如果 [!DNL Adobe Target] 登录凭据可以在多个 [!DNL Target] 服务器上使用，则会发生此问题。
 * 在 [!DNL Experience Cloud] 中创建了某个用户后，[!DNL Adobe Media Optimizer] 不会自动创建该用户。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
-* 资产卡片视图中的“评论”链接不可选。
-* 将自定义标签添加到资产后，不会保留任何其他元数据更改。
-* 删除图像时，如果该图像同时被 Adobe Target Essentials 使用，则资产不会发出警告。
+* 资源信息卡视图中的“评论”链接不可选择。
+* 将自定义标签添加到资源后，不会保留任何其他元数据更改。
+* 删除图像时，如果该图像同时被 Adobe Target Essentials 使用，则资源不会发出警告。
 * 当多个用户同时使用 [!UICONTROL Experience Cloud] 界面时，该界面性能会降低。
 * 删除 [!UICONTROL Experience Cloud Assets] 中的图像时，如果该图像同时被 [!DNL Adobe Target Essentials] 使用，则不会发出警告。
 * 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]**，则用户将在 15 分钟后被注销。
@@ -590,9 +590,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
    <td colname="col1"> <p>从帮助主题创建信息卡 </p> </td> 
    <td colname="col2"> <p>在浏览器的“书签”工具栏中启用“共享到 Adobe Experience Cloud”功能后，您现在可以从微型网站 URL 共享帮助页面。 </p> <p> <b>共享帮助主题</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>在<span class="keyword">Experience Cloud</span>中，选择<span class="uicontrol">管理</span>。 </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>在 <span class="keyword"> Experience Cloud</span> 中，选择<span class="uicontrol">管理</span>。 </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>将<span class="uicontrol">共享到 Adobe Experience Cloud</span> 按钮拖动到“书签”工具栏。 </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>导航到帮助页面（或停留在此页面上），然后在浏览器的“书签”工具栏中选择<span class="uicontrol">共享到Adobe Experience Cloud</span> 。 </p> <p>此步骤会创建一个信息卡，您可以在 <span class="wintitle">Experience Cloud</span> 中进行查看。 </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>导航到帮助页面（或者停留在此页面上），然后选择浏览器“书签”工具栏上的<span class="uicontrol">共享到 Adobe Experience Cloud</span>。 </p> <p>此步骤会创建一个信息卡，您可以在 <span class="wintitle">Experience Cloud</span> 中进行查看。 </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -600,13 +600,13 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 **修复**
 
-* 将自定义标签添加到资产后，不会保留任何其他元数据更改。
+* 将自定义标签添加到资源后，不会保留任何其他元数据更改。
 * 用户必须刷新展示板才能使删除的信息卡从视图中消失。
 * 如果未在登录期间选择&#x200B;**[!UICONTROL 记住我]**，则用户将在 15 分钟后被注销。
-* [!DNL Analytics] 解决方案登录页面显示格式错误。
+* [!DNL Analytics] 解决方案登陆页面显示格式错误。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
-* 删除图像时，如果该图像同时被 [!UICONTROL  使用，则]资产[!DNL Adobe Target Essentials]不会发出警告。
-* 资产信息卡视图中的“评论”链接不可选。
+* 删除图像时，如果该图像同时被 [!UICONTROL  使用，则]资源[!DNL Adobe Target Essentials]不会发出警告。
+* 资源信息卡视图中的“评论”链接不可选择。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
 * 登录到 [!DNL Experience Cloud] 需要花费超过一秒钟的时间。
 * 从 [!DNL Media Optimizer] 共享的数据不能在 [!DNL Experience Cloud] 中正确显示。
@@ -620,7 +620,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 某些 Excel 或 CSV 文件无法上传至展示板。
 * 某些用户可能无法将他们的受众管理帐户与其 [!DNL Experience Cloud] 相关联。
 * 某些用户在 [!DNL Experience Cloud] 中共享 [!DNL Analytics] 区段时可能会遇到错误。
-* 某些用户可能无法向下展开至[!UICONTROL 资产选择器]中的子文件夹。
+* 某些用户可能无法向下展开至[!UICONTROL 资源选择器]中的子文件夹。
 * 某些用户无法在 [!DNL Experience Cloud] 中共享 AdLens 小工具。
 
 ## 14.3.1 版 - 2014 年 3 月 13 日 {#section_5D142E3225E3477A84DC01B8197D39BC}
@@ -638,12 +638,12 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 在 [!DNL Analytics] 中刷新信息卡有时会导致扩展信息卡中出现空图表。
 * 用户必须先注销，然后再次登录，才能使所有许可和授权更改生效。
 * 如果未在登录期间选择 *`Remember me`*，则用户将在 15 分钟后被注销。
-* [!DNL Analytics] 解决方案登录页面显示格式错误。
-* 资产卡片视图中的“评论”链接不可选。
+* [!DNL Analytics] 解决方案登陆页面显示格式错误。
+* 资源信息卡视图中的“评论”链接不可选择。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面速度可能会减慢。
 * 如果 [!DNL Adobe Target] 登录凭据可以在多个 Target 服务器上使用，则 Experience Cloud 无法关联到 [!DNL Adobe Target]。
 * 登录到 Experience Cloud 需要花费超过一秒钟的时间。
-* 将自定义标签添加到资产后，不会保留任何其他元数据更改。
+* 将自定义标签添加到资源后，不会保留任何其他元数据更改。
 * 在 Experience Cloud 中创建了某个用户后，[!DNL Adobe Media Optimizer] 不会自动创建该用户。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
 * 从 [!DNL Media Optimizer] 共享的数据不能在 Experience Cloud 中正确显示。
@@ -683,5 +683,5 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 * 修复了阻止共享 [!DNL Analytics] 报表应用区段过滤器的问题。
 * 修复了导致即使未关联解决方案帐户，“[!UICONTROL Experience Cloud 解决方案]”页面上的解决方案也显示为已关联的问题。
-* 修复了亚洲的[!DNL Adobe Target]客户无法在链接页面上选择&#x200B;**[!UICONTROL 继续Experience Cloud]**&#x200B;按钮的问题。
-* 修复了阻止共享 Youtube 视频的问题。
+* 修复了亚洲的 [!DNL Adobe Target] 客户无法选择关联页面上的&#x200B;**[!UICONTROL 继续访问 Experience Cloud]** 按钮的问题。
+* 修复了阻止共享 YouTube 视频的问题。
