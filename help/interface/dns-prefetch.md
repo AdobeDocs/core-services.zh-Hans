@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ## 了解 DNS 预获取 {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-浏览器使用 DNS 预获取将网页上关联的域名自动解析为相应的 IP 地址。当您的浏览器加载网页时，会启动预获取过程。例如，假定您的页面包含指向`www.adobe.com`的可选链接。 当浏览器加载此页面时，会使用 [DNS 系统](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)查找关联的域名，并将其解析为相应的数字 IP 地址。DNS 预获取有助于提高页面性能，因为在网站访客单击该链接或按钮之前，系统已将域名解析为 IP 地址。DNS 预获取过程对用户是透明的。
+浏览器使用 DNS 预获取将网页上关联的域名自动解析为相应的 IP 地址。当您的浏览器加载网页时，会启动预获取过程。例如，假设您的页面中包含可选择的 `www.adobe.com` 链接。当浏览器加载此页面时，会使用 [DNS 系统](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)查找关联的域名，并将其解析为相应的数字 IP 地址。DNS 预获取有助于提高页面性能，因为在网站访客单击该链接或按钮之前，系统已将域名解析为 IP 地址。DNS 预获取过程对用户是透明的。
 
 ## DNS 预获取和 Adobe Experience Cloud 解决方案 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
