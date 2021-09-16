@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Scene7 会在本地存储一些基于旧版 AS2 Flash 的查看器的信息。
  <tbody> 
   <tr> 
    <td colname="col1"> 存储的信息 </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; 是查看器正在处理的资产的名称。 </p> </td> 
+   <td colname="col2"> <p>&lt;assetId&gt; 是查看器正在处理的资源的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 过期 </td> 
@@ -76,7 +76,7 @@ Scene7 会在本地存储一些基于旧版 AS2 Flash 的查看器的信息。
  <tbody> 
   <tr> 
    <td colname="col1"> 存储的信息 </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; 是查看器正在处理的资产名称，&lt;id&gt; 是基于 0 的附注索引。 </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; 是查看器正在处理的资源名称，&lt;id&gt; 是基于 0 的附注索引。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 过期 </td> 
