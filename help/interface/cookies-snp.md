@@ -2,7 +2,7 @@
 description: 了解 Search&Promote 如何使用 Cookie 来领会和预见访客的搜索意图。
 keywords: cookies;隐私
 solution: Experience Cloud,Analytics,Target
-title: 'Search 和 Promote Cookie '
+title: 'Search&Promote Cookie '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 feature: Cookies
 topic: Administration
@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# Search 和 Promote Cookie{#search-and-promote-cookies}
+# Search&amp;Promote Cookie{#search-and-promote-cookies}
 
 Search&amp;Promote 使用 Cookie 了解和预见访客的搜索意图。
 
