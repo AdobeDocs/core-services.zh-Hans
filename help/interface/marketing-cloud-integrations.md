@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1422'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Experience Cloud 是在通用数据平台上构建的一整套一流、集
 * 激活 - Experience Platform 数据收集（以前称为 Launch）
 * Analytics
 * Target
-* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 ## Experience Cloud ID 服务 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中的所有解决方案间标识您的访客。它可取代 Analytics、Audience Manager、Adobe Target、视频检测信号和其他 Experience Cloud 应用程序和产品等服务的 ID 生成代码。
 
-请参阅 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+请参阅 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 **适用的解决方案或服务**
 
@@ -81,7 +81,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 帮助：[与 Creative Cloud 共享 Experience Cloud 文件夹](creative-cloud.md)
 
-在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资产。在 Experience Cloud 解决方案（如 [!DNL Social] 和 [!DNL Target]）中进行协作、对共享资产添加批注和使用它们。
+在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资源。在 Experience Cloud 解决方案（如 [!DNL Social] 和 [!DNL Target]）中进行协作、对共享资源添加批注和使用它们。
 
 **适用的解决方案或服务**
 
@@ -94,7 +94,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 帮助：[Analytics 中的 AEM Assets 报表](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=zh-Hans)
 
-使 Analytics 能够从 AEM 资产分析收集投放资产的展示次数和点击次数。
+使 Analytics 能够从 AEM 资源分析收集投放资源的展示次数和点击次数。
 
 **适用的解决方案或服务**
 
@@ -128,10 +128,10 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
-* [Media Optimizer](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [MAC ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Nielsen 跟踪](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Media Optimizer](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [MAC ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [Nielsen 跟踪](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
@@ -144,8 +144,8 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 * 客户属性：配置 Adobe Target 的客户属性[订阅](subscription.md)
 * Experience Cloud 受众：[Experience Cloud Audience Library](audience-library.md)
 * Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
-* Dynamic Tag Management：[使用 DTM 实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* Audience Manager：[Adobe Target 与 Adobe Audience Manager 的数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
+* Dynamic Tag Management：[使用 DTM 实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* Audience Manager：[Adobe Target 与 Adobe Audience Manager 的数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
 * Campaign：[将 Adobe Target 与 Campaign 集成](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hans)
 
 ## Experience Manager 集成 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
@@ -171,7 +171,7 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 帮助：[配置 AEM Assets 与 Experience Cloud 和 Creative Cloud 的集成](https://experienceleague.adobe.com/docs/)
 
-将 Adobe Experience Manager (AEM) Assets 中的资产与 Adobe Creative Cloud 同步，反之亦然。您还可以将资产与 Experience Cloud 同步，反之亦然。您可以通过 Experience Cloud 设置此同步。
+将 Adobe Experience Manager (AEM) Assets 中的资源与 Adobe Creative Cloud 同步，反之亦然。您还可以将资源与 Experience Cloud 同步，反之亦然。您可以通过 Experience Cloud 设置此同步。
 
 **适用的解决方案或服务**
 
@@ -187,10 +187,10 @@ ID 服务提供一个通用、永久性的 ID，后者在 Experience Cloud 中�
 
 **Analytics：**&#x200B;可每天将网站参与和转化数据发送到 [!DNL Adobe Advertising]，从中可将这些数据用于广告优化和报表。此外，[!DNL Advertising] 还可每天将搜索引擎和社交网络流量数据发送到 Analytics，从中可将这些数据用于 Reports &amp; Analytics、Report Builder 和临时分析功能中的报表。
 
-**Dynamic Tag Manager：**&#x200B;可[使用 Dynamic Tag Manager 创建基于广告像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)以及第三方跟踪标记，以用于您的搜索、社交和显示广告着陆页。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
+**Dynamic Tag Manager：**&#x200B;可[使用 Dynamic Tag Manager 创建基于广告像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)以及第三方跟踪标记，以用于您的搜索、社交和显示广告着陆页。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
 
 **Experience Cloud 受众：**（需要管理显示的广告商）可适用任何 [Adobe Experience Cloud 受众](audience-library.md)作为显示广告的目标。可自动使用已在 Experience Cloud 中创建的受众以及 Analytics 中已发布到 Adobe Experience Cloud 的受众。并可在将 [!DNL Adobe Advertising] 帐户配置为允许使用 Audience Manager 中的受众时这样做。有关访问 Adobe Experience Cloud 以及个人资料和受众以及有关 [!DNL Adobe Advertising] 与 Adobe Experience Cloud 受众之间的初始设置的详细信息，请与您的客户经理联系。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
 
-**Experience Cloud Assets：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资产用作显示广告的创意。必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问 Adobe Experience Cloud 资源。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
+**Experience Cloud Assets：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资源用作显示广告的创意。必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问 Adobe Experience Cloud 资源。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
 
 **Experience Cloud 通知：**&#x200B;通过每页顶部的通知链接，您可以查看基于搜索测试版警报模板生成的所有警报。您还可以获取有关 Experience Cloud 系统更新、帖子、提及次数和共享资源的通知。必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问通知。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
