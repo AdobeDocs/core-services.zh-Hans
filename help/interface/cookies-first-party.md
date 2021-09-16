@@ -11,9 +11,9 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1614'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -21,18 +21,18 @@ ht-degree: 70%
 
 Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。Adobe 尽可能使用第一方 Cookie 记录您网站上的活动。记录不同网站（如您可能拥有的其他域）上的活动需要使用第三方 cookie。
 
-许多浏览器和防间谍软件应用程序旨在拒绝和删除第三方Cookie。 Adobe可确保即使阻止第三方Cookie，我们也始终能够设置Cookie。 具体行为会因您使用的是Experience Platform标识服务（ECID服务）还是Analytics的旧版标识符（即s_vi Cookie）而异：
+许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe 确保我们始终可以设置 Cookie，即使第三方 Cookie 被阻止也是如此。具体行为取决于您使用的是 Experience Platform Identity Service（ECID 服务）还是 Analytics 旧版标识符（又称 s_vi Cookie）：
 
-* [Experience Platform标识服务（ECID服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)将自动设置第一方Cookie，无论您的收集域是否与您的网站域相匹配。 如果二者不匹配，Identity服务将使用JavaScript在您网站的域中设置Cookie。
-* 如果您使用的是[Analytics旧版标识符](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en)（即`s_vi` Cookie），则取决于您如何配置数据收集服务器。 如果数据收集服务器与您网站的域相同，则 Cookie 被设置为第一方。如果收集服务器与您当前的域不同，则 Cookie 被设置为第三方。在这种情况下，如果阻止第三方Cookie，Analytics会设置第一方[回退id(s_fid)](cookies-analytics.md)，而不是标准的“s_vi”Cookie。
+* [Experience Platform Identity Service（ECID 服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en)将自动设置第一方 Cookie，无论您的收集域是否与网站域匹配。如果两者不匹配，Identity Service 将使用 JavaScript 在网站的域中设置 Cookie。
+* 如果使用 [Analytics 旧版标识符](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en)（又称 `s_vi` Cookie），则它将取决于您配置数据收集服务器的方式。如果数据收集服务器与您网站的域相同，则 Cookie 被设置为第一方。如果收集服务器与您当前的域不同，则 Cookie 被设置为第三方。在这种情况下，如果第三方 Cookie 被阻止，则 Analytics 将设置第一方[后备 ID (s_fid)](cookies-analytics.md) 而非标准“s_vi”Cookie。
 
-如果您希望确保收集服务器与网站的域相匹配，则可以使用CNAME实施，该实施将允许从CNAME实施中指定的自定义域转发到Adobe的收集服务器。 这涉及对公司的DNS设置进行更改，以配置CNAME别名以指向Adobe托管的域。 请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个 CNAME 端点在其域间跟踪用户，但是，只要网站域与 CNAME 域不同，Cookie 就被设置为第三方。
+如果您想确保收集服务器与网站的域相匹配，则可使用 CNAME 实施，从而支持从 CNAME 实施中指定的自定义域转发到 Adobe 的收集服务器。其中涉及更改您公司的 DNS 设置以配置指向某个 Adobe 托管域的 CNAME 别名。请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个 CNAME 端点在其域间跟踪用户，但是，只要网站域与 CNAME 域不同，Cookie 就被设置为第三方。
 
 >[!NOTE]
 >
->无论您的收集域是否与您的网站域相匹配，Apple的智能防跟踪(ITP)程序都会使由Adobe设置的第一方Cookie在受ITP控制的浏览器（包括macOS上的Safari以及iOS和iPadOS上的所有浏览器）上短暂存留。 自2020年11月起，通过CNAME设置的Cookie的到期时间与通过JavaScript设置的Cookie的到期时间相同。 此有效期可能会有变化。
+>无论您的收集域是否与网站域匹配，Apple 的智能反跟踪 (ITP) 程序都将缩短由 Adobe 设置的第一方 Cookie 在受 ITP 控制的浏览器上存在的时间，这些浏览器包括 macOS 上的 Safari 以及 iOS 和 iPadOS 上的所有浏览器。自 2020 年 11 月起，通过 CNAME 设置的 Cookie 与通过 JavaScript 设置的 Cookie 具有相同的有效期。此有效期可能会有变化。
 
-如果要为数据收集建立CNAME，并且您的站点使用HTTPS协议来提供安全页面，则可以与Adobe合作以获取SSL证书。
+如果您要为数据收集建立 CNAME，并且您的网站具有使用 HTTPS 协议的安全页面，则可以与 Adobe 合作以获取 SSL 证书。
 
 SSL 证书的颁发过程往往令人感到混乱和费时。为此，Adobe 与 DigiCert 这一行业领先的证书颁发机构 (CA) 建立了合作伙伴关系，并制定出一个集成式流程，进而实现了购买和管理这些证书的自动化。
 
@@ -40,15 +40,15 @@ SSL 证书的颁发过程往往令人感到混乱和费时。为此，Adobe 与 
 
 ## Adobe 管理的证书计划
 
-Adobe管理的证书计划是设置CNAME实施所需的第一方SSL证书的推荐流程，该流程可确保您的Adobe收集服务器与您的网站域相匹配。
+Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL 证书的推荐流程，可确保您的 Adobe 收集服务器与网站域相匹配。
 
-Adobe管理的证书计划允许您实施新的第一方SSL证书，而无需支付额外费用（适用于您的前100个CNAME）。 如果您目前拥有自己的客户管理的 SSL 证书，请联系 Adobe 客户关怀部门，以便将其迁移到 Adobe 管理的证书计划。
+利用 Adobe 管理的证书计划，您可以实施新的第一方 SSL 证书，而不会产生额外费用（适用于前 100 个 CNAME）。如果您目前拥有自己的客户管理的 SSL 证书，请联系 Adobe 客户关怀部门，以便将其迁移到 Adobe 管理的证书计划。
 
 ### 实施
 
-以下是如何为第一方数据收集实施新的第一方SSL证书：
+下面说明了如何为第一方数据收集实施新的第一方 SSL 证书：
 
-1. 填写[第一方域请求表](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，并与客户关怀部门打开一个票证，请求在Adobe管理的程序上设置第一方数据收集。 文档中通过示例描述了每个字段。
+1. 填写[第一方域请求表](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的计划设置第一方数据收集。文档中通过示例描述了每个字段。
 
 2. 创建 CNAME 记录（请参阅下面的说明）。
 
@@ -151,7 +151,7 @@ Address: 54.187.216.46
 
 ## 更新实施代码 {#update}
 
-在网站上编辑代码以使用第一方数据收集之前，请完成以下先决条件：
+在网站上编辑代码以使用第一方数据收集之前，请完成以下前提条件：
 
 * 按照 [Adobe 管理的证书计划](#adobe-managed-certificate-program)的&#x200B;*实施*&#x200B;部分中描述的步骤，请求 SSL 证书。
 * 创建 CNAME 记录（请参阅上文）。
@@ -160,12 +160,12 @@ Address: 54.187.216.46
 在您验证主机名能够响应并转发到 Adobe 数据收集服务器后，您可以更改实施以指向您自己的数据收集主机名。
 
 1. 打开您的核心 Javascript 文件 (`s_code.js/AppMeasurement.js`)。
-1. 如果您想要更新您的代码版本，请使用较新版本替换整个 `s_code.js/AppMeasurement.js` 文件，然后替换任意插件或自定义设置（如果有）。**或者**，如果您只想更新与第一方数据收集相关的代码，请找到s.trackingServer和s.trackingServerSecure（如果使用SSL）变量，并将它们指向您的新数据收集主机名。以 mysite.com 为例：`s.trackingServer = "metrics.mysite.com"``s.trackingServerSecure = "smetrics.mysite.com"`
+1. 如果您想要更新您的代码版本，请使用较新版本替换整个 `s_code.js/AppMeasurement.js` 文件，然后替换任意插件或自定义设置（如果有）。**或者**，如果您只想更新与第一方数据收集相关的代码，请找到 s.trackingServer 和 s.trackingServerSecure（如果使用 SSL）变量，并将它们指向您的新数据收集主机名。以 mysite.com 为例：`s.trackingServer = "metrics.mysite.com"``s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 将更新后的核心 Javascript 文件上传到您的网站。
 
-1. 如果您要从长期实施转移到第一方数据收集，或更改为其他第一方收集主机名，则Adobe建议将访客从先前的域迁移到新域。
+1. 如果您从一个长期存在的实施移至第一方数据收集，或更改为其他第一方收集主机名，Adobe 建议您将访客从先前的域迁移至新域。
 
 请参阅“Analytics 实施指南”中的[访客迁移](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)。
 
-在上传了该 JavaScript 文件后，将针对第一方 数据收集完成所有相应的配置。Adobe 建议您在接下来的几个小时监控 Analytics 报告，以确保数据收集持续正常进行。如果未能正常进行数据收集，请验证上述所有步骤是否已经完成，并安排贵组织的一名受支持用户联系客户关怀部门。
+在上传了 JavaScript 文件后，将针对第一方数据收集完成所有相应的配置。Adobe 建议您在接下来的几个小时监控 Analytics 报告，以确保数据收集持续正常进行。如果未能正常进行数据收集，请验证上述所有步骤是否已经完成，并安排贵组织的一名受支持用户联系客户关怀部门。
