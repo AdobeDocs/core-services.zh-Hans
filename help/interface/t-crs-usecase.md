@@ -12,7 +12,7 @@ exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,8 +67,8 @@ ht-degree: 97%
 >
 >创建、修改或删除客户属性源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性源。联系 Audience Manager 客户关怀团队或咨询人员以获取管理权限。
 
-1. 在[!DNL Experience Cloud]中，选择菜单![](assets/menu-icon.png)图标。
-1. 在&#x200B;**[!DNL Experience Platform]**&#x200B;下，选择&#x200B;**[!UICONTROL People]** > **[!UICONTROL 客户属性]**。
+1. 在 [!DNL Experience Cloud] 中，选择菜单 ![](assets/menu-icon.png) 图标。
+1. 在 **[!DNL Experience Platform]** 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**。
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
 
@@ -152,7 +152,7 @@ ht-degree: 97%
 
 **激活属性来源的方法**
 
-在[!UICONTROL 新建[或编辑]客户属性来源]页面上，找到[!UICONTROL 激活]标题，然后选择&#x200B;**[!UICONTROL 活动]**。
+在[!UICONTROL 新建[或编辑]客户属性来源]页面上，选择[!UICONTROL 激活]标题，然后选择&#x200B;**[!UICONTROL 活动]**。
 
 ![步骤结果](assets/activate_attribute_source.png)
 
