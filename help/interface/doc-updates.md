@@ -9,16 +9,33 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 12d5a76eaffd2aff43f23e56de44879199d0a4fe
+source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 83%
 
 ---
 
 # 文档更新 - Experience Cloud
 
 有关 Experience Cloud 产品文档更新的信息。
+
+**更新日期：10/28/2021**
+
+| 功能 | 描述 |
+| ------- | ------- |
+| 首页 | Experience Cloud主页页脚信息已移至用户配置文件卡，包括“首选项”中的法律声明和语言选择。 |
+| AEP功能板 | [!DNL Helios Lite] 在Experience Platform小组件创建工作流中提供图表推荐。 如果选择了数据（当前为单变量数据选择），helios建议在选择数据时使用适当的可视化。 |
+| AEP功能板 | [!DNL Instory] 为图表提供基于ML的书面叙述和字幕。 它对AEP功能板页面中的图表进行修饰，以包含相关要点，指出图表数据中的主要更改和事件。 |
+
+**更新日期：10/13/2021**
+
+| 功能 | 描述 |
+| ------- | ------- |
+| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>选件</li><li>组件</li><li>消息</li><li>历程</li></ul> |
+| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
+| Experience Cloud [!UICONTROL 触发器]导航 | [Experience Cloud 触发器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en)适用于从已设置用户标头中的应用程序切换器的直接导航。 |
+| **注意：**&#x200B;计划的界面导航更新 | 2021 年 11 月，将从 <https://experience.adobe.com/implement> 中删除&#x200B;_[!UICONTROL 转至启动/数据收集]_&#x200B;导航功能。 |
 
 **更新日期：2021 年 8 月 24 日**
 
