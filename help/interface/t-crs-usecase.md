@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 客户属性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
-![](assets/crs.png)
+![客户属性工作流程](assets/crs.png)
 
 1. [创建数据文件](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [创建属性源并上传数据文件](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
@@ -38,7 +38,7 @@ ht-degree: 100%
 >
 >要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。添加到客户属性组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单。
 >
->要使用“客户属性”功能，用户还必须属于解决方案级别的群组（Analytics 或 [!DNL Target]）。
+>要使用“客户属性”功能，用户还必须属于应用程序级别的群组(Analytics或 [!DNL Target])。
 
 请参阅[管理 Experience Cloud 用户和产品](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    示例企业客户数据文件：
 
-   ![](assets/01_crs_usecase.png)
+   ![示例企业客户数据文件](assets/01_crs_usecase.png)
 
 1. 在继续操作之前，请先查看[数据文件要求](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)中的重要信息，然后再上传文件。
 1. [创建客户属性源并上传数据](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，如下所述。
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 ## 配置订阅和激活属性源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-配置订阅可以设置 Experience Cloud 和解决方案之间的数据流。激活属性来源后，数据便可流向订阅的解决方案。您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置订阅可设置Experience Cloud和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -158,11 +158,11 @@ ht-degree: 100%
 
 ## 在 Adobe Analytics 中使用客户属性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-利用 Adobe Analytics 等解决方案中现在提供的数据，您可以报告数据、分析数据并在营销活动中采取适当措施。
+利用Adobe Analytics等应用程序中现有的数据，您可以报告数据、分析数据，并在营销活动中采取适当的措施。
 
 以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。此区段显示最常启动产品为 Photoshop 的 [!DNL Photoshop Lightroom] 订阅者。
 
-![](assets/08_crs_usecase.png)
+![基于上传属性的Analytics区段](assets/08_crs_usecase.png)
 
 在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
@@ -170,6 +170,6 @@ ht-degree: 100%
 
 在 [!DNL Target] 中，您可以在创建受众时从[!UICONTROL 访客配置文件]区域选择一个客户属性。列表中的所有客户属性都有前缀 `crs.`。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
-![](assets/crs-add-attribute-target.png)
+![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
 请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。

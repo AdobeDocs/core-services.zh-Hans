@@ -11,16 +11,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud 触发器
 
-Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨解决方案通信以便重新吸引访客。
+[!UICONTROL 触发器] 在Experience Cloud中，您可以识别、定义并监视关键客户行为，然后生成跨应用程序通信以重新吸引访客。
 
 ## 触发器概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
 * 表单和应用程序不完整
 * 网站上的任何操作或操作序列
 
-![](assets/trigger-abandonment-2.png)
+![触发器示例](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Experience Cloud 触发器示例：
 
 例如，以下页面显示了可用于[!UICONTROL 购物车放弃]触发器的规则，该规则基于访问期间查看的产品。
 
-![](assets/abandonment-trigger.png)
+![购物车放弃触发器](assets/abandonment-trigger.png)
 
 #### 反向链接触发器
 
 当点击中包含 Men&#39;s Boots 的产品和 Facebook 的反向链接时，就会触发以下触发器。对于要在同一点击中评估的两个条件（*产品*&#x200B;和&#x200B;*反向链接*），应将它们添加到同一容器中。
 
-![](assets/fb-boots-promo.png)
+![反向链接触发器](assets/fb-boots-promo.png)

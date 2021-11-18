@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 首页 | Experience Cloud 主页页脚信息已移至用户配置文件卡，包括首选项中的法律声明和语言选择。 |
-| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流中提供图表推荐。给定某个数据选择（当前为单变量数据选择），Helios 将推荐合适的可视化以配合该数据选择。 |
-| AEP 仪表板 | [!DNL Instory] 为图表提供基于 ML 的书面叙述和说明。它用图示数据中表示重大变化和事件的相关编号修饰 AEP 仪表板页面中的图表。 |
+| 主页 | Experience Cloud 主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
+| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流程中提供图表建议。给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
+| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它用图示数据中表示重大变化和事件的相关编号修饰 AEP 仪表板页面中的图表。 |
 
 **2021 年 10 月 13 日更新**
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 **更新日期：2015 年 3 月 2 日**
 
-添加了[为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+添加了 [为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **更新日期：2015 年 1 月 15 日**
 

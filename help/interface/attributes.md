@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '482'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系�
 
 要找到这项功能，请导航到 **[!DNL Experience Platform]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**
 
-![](assets/custom_reports.png)
+![客户属性概述](assets/custom_reports.png)
 
 ## 上传客户属性的先决条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,7 +42,7 @@ Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系�
 
 下图是一个数据文件的示例，该文件显示了产品的订阅者数据，包括成员 ID、授权产品、最新推出的产品等等。
 
-![](assets/01_crs_usecase.png)
+![企业客户数据是什么？](assets/01_crs_usecase.png)
 
 创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性源。
 

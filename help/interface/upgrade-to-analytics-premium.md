@@ -9,10 +9,10 @@ feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ Analytics Premium 允许您：
 
 | 产品 | 升级 |
 |---|---|
-| Reports and Analytics | [贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hans) |
+| Reports and Analytics | [贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | 用于受众资格和预测营销的预建工作区。 |
 | Analytics Platform | 实时流（功能板和触发器） |
 
@@ -88,7 +88,7 @@ Analytics Premium 允许您：
 
 ## Experience Cloud - 管理用户和产品 {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
+Experience Cloud和核心服务可供Analytics Standard和Premium用户使用，前提是您已遵循 [快速入门 — 为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). （该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
 
 加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL experience.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
 
@@ -96,8 +96,8 @@ Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使�
 
 用户管理在 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)（产品链接）中执行。
 
-您可以将在 Adobe Admin Console 中创建的群组与解决方案群组（例如 Adobe Analytics）之间的映射设置为 1:1。之后，将会为添加到 Admin Console 映射组的新用户自动创建 Analytics 解决方案帐户，并将其关联到该用户的 Adobe ID。（现有用户必须手动关联其解决方案帐户凭据，才能通过 Experience Cloud 登录访问解决方案。）
+您可以将在 Adobe Admin Console 中创建的群组与解决方案群组（例如 Adobe Analytics）之间的映射设置为 1:1。之后，添加到映射的Admin Console群组的新用户将自动创建一个Analytics应用程序帐户，并将其链接到用户的Adobe ID。 (现有用户必须手动链接其应用程序帐户凭据，才能通过Experience Cloud登录访问应用程序。)
 
 >[!NOTE]
 >
->您可以将多个解决方案群组映射到一个 Admin Console 群组。但是，Adobe 建议设置 1:1 映射。提前映射组允许您通过上传 CSV 来邀请、创建、许可和添加多个用户。
+>您可以将多个应用程序组映射到一个Admin Console组。 但是，Adobe 建议设置 1:1 映射。提前映射组允许您通过上传 CSV 来邀请、创建、许可和添加多个用户。

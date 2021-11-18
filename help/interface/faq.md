@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 * Safari（当前版本及前两个版本）
 * Opera（当前版本及前两个版本）
 
-## 如何知道是否已为核心服务启用我的解决方案？
+## 如何知道是否已为核心服务启用我的应用程序？
 
-如果尚未为核心服务配置实施，请参阅[为核心服务启用解决方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了以下操作说明：
+如果尚未为核心服务配置实施，请参阅 [为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了如何：
 
 1. [加入 Experience Cloud 并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)。
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 为什么我的公司需要通过 Experience Cloud 界面登录？
 
-Experience Cloud 界面提供的功能为您的业务带来新价值。该界面也是今后访问解决方案的标准途径，最终将取代其他单独的解决方案登录流程。通过 Experience Cloud 登录有助于以后实现更平稳的过渡。
+Experience Cloud 界面提供的功能为您的业务带来新价值。它还是今后访问应用程序的标准路径，最终取代其他单独的应用程序登录流程。 通过 Experience Cloud 登录有助于以后实现更平稳的过渡。
 
 ## 如何消除有关迁移我的公司的疑虑？
 
@@ -59,10 +59,10 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 Experience Cloud 中的配置表示：
 
-* 您的用户可以开始登录到 [!DNL Experience Cloud] 并关联解决方案。
+* 您的用户可以开始登录到 [!DNL Experience Cloud] 和链接应用程序。
 * 他们可以开始使用 Experience Cloud 提供的功能，如人员。
-* 您可以准备停用特定于解决方案的登录过程。
-* 您可以保留对解决方案的访问控制。
+* 您可以准备停用特定于应用程序的登录过程。
+* 您可以保留对应用程序的访问控制。
 
 ## 如何管理用户和产品配置文件？
 
@@ -80,9 +80,9 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 ## 用户可在何处管理帐户关联？
 
-有些用户可能需要将其解决方案 (Analytics) 帐户关联到 Adobe ID 或 Enterprise ID。
+某些用户可能需要将其应用程序(Analytics)帐户关联到Adobe ID或Enterprise ID。
 
-请参阅[将解决方案帐户关联到 Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369)。
+请参阅 [将应用程序帐户关联到Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
 ## 如何管理用户帐户配置文件和组织？
 
@@ -90,7 +90,7 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 ## 什么是组织？
 
-** 组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有 Experience Cloud 产品和解决方案的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
+** 组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有Experience Cloud产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
 ## 我可以在哪里找到我的 IMS 组织 ID？
 
@@ -110,16 +110,16 @@ ID 为：
 
 ## 如果我的一位用户离开了我的公司怎么办？
 
-应将他们的访问权限从解决方案中删除。他们将无法从 Experience Cloud 中或通过直接登录访问产品。您还应在 Experience Cloud 级别删除它们。
+应从应用程序本身中删除其访问权限。 他们将无法从 Experience Cloud 中或通过直接登录访问产品。您还应在 Experience Cloud 级别删除它们。
 
 ## 什么是 Adobe ID？
 
 请参阅[身份类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。
 
-## 我可以为我的用户关联解决方案帐户吗？
+## 我可以为我的用户关联应用程序帐户吗？
 
-否。用户必须将自己的解决方案与自己的用户名和密码相关联。
+否。用户必须将自己的应用程序与其用户名和密码相关联。
 
 ## 为什么我的公司没有 Social 但是我却能看到？
 
-Adobe Social 是一款可与 Analytics 组合销售的产品。因此，如果您拥有 Analytics，将会看到此解决方案，但只有您购买它后，才有权访问它。
+Adobe Social 是一款可与 Analytics 组合销售的产品。因此，如果您拥有Analytics，将会看到此应用程序，但您将无权访问，除非您已购买它。

@@ -1,5 +1,5 @@
 ---
-description: 了解可在各个解决方案之间共享的 Experience Cloud Assets。
+description: 了解可以跨应用程序共享的Experience Cloud资产。
 solution: Experience Cloud
 title: Assets 概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -8,23 +8,23 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Experience Cloud Assets 概述
 
-Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源提供单个集中式存储库。资源是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资源（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
+Experience Cloud资产提供了一个集中的营销就绪型资产存储库，您可以在各个应用程序之间共享该存储库。 资源是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资源（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
 资源服务包括：
 
-* 资源存储、管理界面、嵌入式选择界面（通过解决方案访问）。
-* 与 Creative Cloud、Experience Cloud 协作和 Experience Cloud 解决方案的集成。
+* 资产存储、管理界面、嵌入式选择界面（通过应用程序访问）。
+* 与Creative Cloud、Experience Cloud协作和Experience Cloud应用程序集成。
 
-使用资源可以提高一致性和品牌合规性，并缩短上市时间。您可以简化解决方案中的工作流：
+使用资源可以提高一致性和品牌合规性，并缩短上市时间。您可以简化应用程序中的工作流：
 
 * **[!DNL Social]** ：发布到社交属性、Facebook、Twitter、LinkedIn、Google+
 * **[!DNL Target]**：创建 A/B 和多变量测试体验。
@@ -45,7 +45,7 @@ Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源�
 
 ## 导航到 Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
-![](assets/asset-nav.png)
+![导航到 Experience Cloud Assets](assets/asset-nav.png)
 
 ## 访问工具栏 {#section_EC2E401D225148818F3753248556BE6B}
 
@@ -53,7 +53,7 @@ Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源�
 
 您可以通过工具栏快速访问多种功能，包括搜索、时间线、呈现形式、编辑、批注和下载。
 
-![](assets/asset-tools.png)
+![访问工具栏](assets/asset-tools.png)
 
 ## 编辑资源 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
@@ -63,25 +63,25 @@ Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源�
 * 旋转
 * 翻转
 
-![](assets/asset-edit.png)
+![编辑资产](assets/asset-edit.png)
 
 ## 搜索资源 {#section_50FE049010B446FC9640AA6A30E5A730}
 
 可按关键词、文件类型、大小、上次修改时间、发布状态、方向和样式进行搜索。
 
-![](assets/asset-search.png)
+![搜索资源](assets/asset-search.png)
 
 ## 为资源作批注 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
 选择&#x200B;**[!UICONTROL 注释]**&#x200B;后，可以在图像上绘制圆圈或箭头，并在资源中添加批注，以供合作者审阅。
 
-![](assets/assets-annotate.png)
+![为资源作批注](assets/assets-annotate.png)
 
 ## 查看全屏资源和缩放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
 选择&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 图像]**&#x200B;可查看完整资源图像并启用缩放。
 
-![](assets/asset-zoom.png)
+![全屏查看资产](assets/asset-zoom.png)
 
 ## 查看资源属性 {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
@@ -89,7 +89,7 @@ Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源�
 
 选择&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 属性]**&#x200B;可查看资源的属性：
 
-![](assets/asset-properties.png)
+![查看资源属性](assets/asset-properties.png)
 
 ## 运行使用情况报表 {#section_15D782FFB8D74CF4A735116CC03AD902}
 
@@ -97,4 +97,4 @@ Experience Cloud Assets 为可在解决方案间共享的营销就绪型资源�
 
 选择&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 报表]** > **[!UICONTROL 使用情况报表]**
 
-![](assets/assets-usage-report.png)
+![运行使用情况报表](assets/assets-usage-report.png)

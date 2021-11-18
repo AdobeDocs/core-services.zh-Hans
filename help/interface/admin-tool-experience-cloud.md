@@ -1,7 +1,7 @@
 ---
 description: 了解 Experience Cloud 管理工具。查看所有 Experience Cloud 用户和策略的可排序和可过滤列表。
 keywords: 核心服务
-solution: Experience Cloud
+application: Experience Cloud
 title: '查看 Experience Cloud 用户和用户详细信息 '
 index: true
 feature: Admin Console
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1245'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. 登录 `https://experience.adobe.com/.`
 
-   ![](assets/admin-tool.png)
+   ![访问Admin Console](assets/admin-tool.png)
 
 1. 在[!UICONTROL 快速访问]下，选择&#x200B;**[!UICONTROL 管理工具]**。
 
@@ -36,16 +36,16 @@ ht-degree: 100%
 
 ## “用户”页面
 
-此页面显示贵组织中有权访问 Experience Cloud 的完整用户列表。它会提供有关解决方案权利和上次登录的信息。您可以搜索、排序和过滤用户列表的自定义视图。
+此页面显示贵组织中有权访问 Experience Cloud 的完整用户列表。它提供有关应用程序权利和上次登录的信息。 您可以搜索、排序和过滤用户列表的自定义视图。
 
-![](assets/admin-tool-users.png)
+![Admin Console用户页面](assets/admin-tool-users.png)
 
 | 元素 | 描述 |
 |---|---|
 | [!UICONTROL 名称] | 用户的名字和姓氏。您可以按从 A 到 Z 以及从 Z 到 A 的顺序对此列进行排序。选择用户名可查看有关该用户的更多详细信息。 |
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
-| [!UICONTROL 解决方案] | 用户可访问的 Experience Cloud 解决方案摘要。您可以应用过滤器来缩小具有特定解决方案访问权限的用户列表。 |
+| [!UICONTROL 解决方案] | 用户可访问的Experience Cloud应用程序的摘要。 您可以应用过滤器来缩小具有特定应用程序访问权限的用户列表。 |
 | [!UICONTROL 上次登录] | 用户最近登录 Experience Cloud 的时间和日期。此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自 2020 年 1 月 13 日起，用户的上次登录数据将保留 365 天。该信息旨在显示 Experience Cloud 中的当前登录活动，而不是建议在 2020 年 1 月 13 日之前对不活动帐户采取行动。 |
 
 ## 自定义用户列表视图
@@ -60,15 +60,15 @@ ht-degree: 100%
 |---------|----------|
 | [!UICONTROL 电子邮件域]过滤器 | 在“电子邮件”列中搜索字符串，以将结果范围缩小到一个或多个域。在每个搜索词后按 Enter 键可添加多个过滤器 |
 | [!UICONTROL ID 类型]过滤器 | 从可用的 ID 类型中进行选择。可以将多个 ID 类型用作过滤器。 |
-| [!UICONTROL 解决方案]过滤器 | 从可用的解决方案中进行选择。多个解决方案过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
+| [!UICONTROL 解决方案]过滤器 | 从可用的应用程序中进行选择。 多个应用程序过滤器搜索包含解决方案1的结果 `OR` 解决方案2. |
 
 ## 查看用户详细信息
 
 在[!UICONTROL 用户]页面上，要查看用户的详细信息，请选择用户的电子邮件。
 
-![](assets/admin-tool-user-details.png)
+![在Admin Console中查看用户详细信息](assets/admin-tool-user-details.png)
 
-每个用户的详细视图将显示有关用户的解决方案访问权限、管理员和产品角色以及上次访问信息的重要详细信息。
+每个用户的详细视图会显示有关用户的应用程序访问权限、管理员和产品角色以及上次访问信息的重要详细信息。
 
 ## “关于”部分
 
@@ -78,13 +78,13 @@ ht-degree: 100%
 * 名称
 * 电子邮件
 * 用户名（Federated ID 帐户的用户名可能与电子邮件地址不同）
-* [ID 类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)
+* [ID 类型](https://helpx.adobe.com/enterprise/using/identity.html)
 * 国家/地区
 * 上次登录
 
 ## 解决方案摘要
 
-此部分会显示用户可访问的 Experience Cloud 解决方案的摘要。包括产品管理角色（如果适用）。
+此部分显示用户可访问的Experience Cloud应用程序的摘要。 包括产品管理角色（如果适用）。
 
 ## 详细的产品访问列表
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。
 
-![](assets/admin-tool-policies.png)
+![策略页面Admin Console](assets/admin-tool-policies.png)
 
 | 元素 | 描述 |
 |---|---|
@@ -123,13 +123,13 @@ ht-degree: 100%
 | 元素 | 描述 |
 |---------|----------|
 | “[!UICONTROL 实例]”过滤器 | 在“实例”列中搜索字符串，以将结果范围缩小到一个或多个实例。在每个搜索词后按 Enter 键可添加多个过滤器。 |
-| “[!UICONTROL 解决方案]”过滤器 | 从可用的解决方案中进行选择。多个解决方案过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
+| “[!UICONTROL 解决方案]”过滤器 | 从可用的应用程序中进行选择。 多个应用程序过滤器搜索包含解决方案1的结果 `OR` 解决方案2. |
 
 ## 查看策略详细信息
 
 在[!UICONTROL 策略]页面上，要查看策略的详细信息，请选择产品配置文件名称。
 
-![](assets/admin-tool-policy-detail.png)
+![在Admin Console中查看策略详细信息](assets/admin-tool-policy-detail.png)
 
 每个产品配置文件的详细视图会显示有关产品配置文件主体（用户、组等）的重要详细信息。它还会显示产品配置文件启用的权限和资源。
 

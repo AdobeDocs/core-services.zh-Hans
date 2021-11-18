@@ -1,15 +1,15 @@
 ---
 description: Experience Cloud 中的新增功能和更新概述。
 keywords: 核心服务
-seo-description: Experience Cloud 中的新增功能和更新概述。
-seo-title: Experience Cloud 的新增功能
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Experience Cloud 的新增功能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 87%
 
 ---
 
@@ -51,7 +51,7 @@ Experience Cloud 中的新增功能和更新概述。
 
 | 功能 | 描述 |
 |--- |--- |
-| 新的管理登录页 | 登录 Experience Cloud 并导航到“管理”页面时，会提供一个新的直观界面，帮助您快速访问 Experience Cloud 解决方案和核心服务。 |
+| 新的管理登录页 | 登录到Experience Cloud并导航到“管理”页面时，提供了一个新的直观界面，帮助您快速访问Experience Cloud应用程序和核心服务。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,8 +70,8 @@ Experience Cloud 中的新增功能和更新概述。
 
 | 功能 | 描述 |
 |--- |--- |
-| 通知 - 粒度设置 | 您可以启用产品和解决方案事件和活动的通知，包括有关[客户属性](attributes.md)上传活动的通知。 |
-| 通知 - 维护通知 | 在“通知”设置中，您可以为产品和解决方案启用维护通知。 |
+| 通知 - 粒度设置 | 您可以启用产品和应用程序事件及活动的通知，包括有关 [客户属性](attributes.md) 上传活动。 |
+| 通知 - 维护通知 | 在“通知”设置中，您可以为产品和应用程序启用维护通知。 |
 | 适用于 Experience Cloud 解决方案的 Admin Console | 新的 Experience Cloud 客户可以开始使用 Admin Console，该控制台是在整个组织中管理 Adobe 权利的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 在需要进行迁移时会联系您（系统管理员）。<br>Analytics 管理员，请参阅 [Analytics 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans)。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -80,7 +80,7 @@ Experience Cloud 中的新增功能和更新概述。
 
 | 功能 | 描述 |
 |--- |--- |
-| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>[将多个报表包映射到一个组织有助于在 Experience Cloud 中启用跨解决方案功能和服务。](core-services.md) |
+| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>[映射报表包](core-services.md) 通过单个组织，可帮助在Experience Cloud中启用跨应用程序功能和服务。 |
 | 针对 Experience Cloud 受众的更新 | **应用报表包**<br>&#x200B;您现在可以将报表包应用于所有[受众规则](t-audience-create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>&#x200B;除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
 
 {style=&quot;table-layout:auto&quot;}

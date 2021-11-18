@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 1. 选择&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 1. 验证您是否处于正确的组织中。
 
-   ![](assets/organizations-menu.png)
+   ![验证您的组织](assets/organizations-menu.png)
 
    要验证您是否已登录到正确的[组织](organizations.md)，请单击您的个人资料头像来查看组织名称。如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
 
@@ -76,13 +76,13 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 选择应用程序选择器 ![](assets/menu-icon.png) 以访问您拥有的 Experience Cloud 服务。
 
-![](assets/platform-core-services.png)
+![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
 ## Experience Cloud 中的搜索和支持 {#search}
 
 利用 Experience Cloud 搜索功能，您可以搜索关于 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助（文档、教程和课程）。
 
-![](assets/search-menu.png)
+![Experience Cloud 中的搜索和支持](assets/search-menu.png)
 
 通过[!UICONTROL 帮助]菜单，您还可以访问：
 
@@ -106,7 +106,7 @@ Experience Cloud 首选项包括通知、订阅和警报。
 
 选择帐户菜单 ![](assets/preferences-icon-sm.png) 中的&#x200B;**[!UICONTROL 偏好设置]**&#x200B;以管理偏好设置。
 
-![](assets/preferences-page.png)
+![管理Experience Cloud](assets/preferences-page.png)
 
 在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
 
@@ -124,6 +124,6 @@ Experience Cloud 首选项包括通知、订阅和警报。
 
 选择&#x200B;**[!UICONTROL 通知]**&#x200B;以查看对您很重要的通知，以及来自 Adobe 的公告。
 
-![](assets/notifications-menu-small.png)
+![通知和公告](assets/notifications-menu-small.png)
 
 您可以在 [Experience Cloud 偏好设置](#preferences)中配置通知。

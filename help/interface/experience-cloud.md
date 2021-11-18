@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
-workflow-type: ht
-source-wordcount: '1303'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1333'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 1. 选择&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 1. 验证您是否处于正确的组织中。
 
-   ![](assets/organizations-menu.png)
+   ![验证您是否处于正确的组织中](assets/organizations-menu.png)
 
    **验证您的组织**
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 要访问组织中为您配置的 Experience Cloud 应用程序和服务，请转至应用程序选择器 ![](assets/menu-icon.png)。
 
-![](assets/platform-core-services.png)
+![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
 ## Experience Cloud 中的浏览器支持 {#browser}
 
@@ -91,7 +91,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 使用标头中的帮助图标（![资源](assets/help-icon.png)）访问学习和帮助，包括有关 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
-![](assets/search-menu.png)
+![获取帮助和支持](assets/search-menu.png)
 
 通过[!UICONTROL 帮助]菜单，您还可以访问：
 
@@ -104,7 +104,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 全局搜索让您只需单击即可通过无缝、一致的方式找到可搜索的业务对象或实体。该搜索会显示您最近访问的对象。
 
-![](assets/platform-search.png)
+![全局搜索对象和实体](assets/platform-search.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 
 要管理偏好设置，请选择帐户菜单 ![](assets/preferences-icon-sm.png) 中的&#x200B;**[!UICONTROL 偏好设置]**。
 
-![](assets/preferences-page.png)
+![用户个人资料和帐户偏好设置](assets/preferences-page.png)
 
 在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
 
@@ -142,7 +142,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 
 选择&#x200B;**[!UICONTROL 通知]**，即可收到有关相关的可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
 
-![](assets/notifications-menu-small.png)
+![通知和公告](assets/notifications-menu-small.png)
 
 ## Experience Cloud 域 {#domains}
 
@@ -157,7 +157,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 ## 获取有关管理和跨应用程序服务的帮助
 
-本指南提供的帮助内容涉及如何在 Admin Console 中管理用户和产品，以及如何启用面向平台服务的解决方案。另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
+本指南提供有关Experience CloudAdmin Console中用户和产品管理以及为平台服务启用应用程序的帮助。 另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
 
 * [[!UICONTROL 受众库]](audience-library.md)
 * [[!UICONTROL 客户属性]](attributes.md)
@@ -165,7 +165,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies-privacy.md)
 * [用户和产品管理](admin-getting-started.md) (Admin Console)
-* [为核心服务启用您的解决方案](core-services.md)
+* [为核心服务启用应用程序](core-services.md)
 * [常见问题](admin-getting-started.md)
 * [组织和帐户关联](organizations.md)
 * [集成](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
-* [所有 Experience Cloud 解决方案的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) — 浏览 Experience Cloud 学习和支持页面以获取帮助
+* [所有Experience Cloud应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans)  — 浏览Experience Cloud学习与支持页面以获取帮助
 * [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) — Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=zh-Hans) — 浏览有关核心服务的视频和教程
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) — 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) - 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
 * [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation.html) — 阅读 Experience Cloud 博客

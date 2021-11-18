@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 83%
 
 ---
 
 # 登录并管理 Experience Cloud 配置文件设置
 
-登录到 Experience Cloud（而不是登录到某个单独的解决方案）可允许您单点登录到您拥有的所有解决方案和服务中。此帮助介绍了如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
+登录到Experience Cloud（而不是登录到单个应用程序）可让您单点登录到您拥有的所有应用程序和服务。 此帮助介绍了如何登录到 Experience Cloud、管理密码和通知，以及指定默认登录页面。
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 | 元素 | 描述 |
 |--- |--- |
-| [Admin Console 基础知识](experience-cloud.md) | 了解开始使用 Experience Cloud 解决方案所必须执行的初始步骤。 |
+| [Admin Console 基础知识](experience-cloud.md) | 了解开始使用Experience Cloud应用程序时必须采取的初始步骤。 |
 | [设置标识](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html) | 定义并设置一个标识系统，最终用户将通过该系统进行身份验证。 |
 | [用户管理](https://helpx.adobe.com/cn/enterprise/using/users.html) | 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。 |
 | [启动 Admin Console](admin-getting-started.md) | Admin Console 是管理整个组织中的 Adobe 用户和产品权利的中心位置。<br>您也可以使用[直接链接](https://adminconsole.adobe.com)登录到 Admin Console。 |
@@ -64,7 +64,7 @@ ht-degree: 100%
 
    ![](assets/experience-cloud-core-services.png)
 
-   此菜单中具体显示哪些解决方案和服务，取决于您的[管理员](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)定义的应用程序权限。
+   此菜单中显示的应用程序和服务取决于您定义的应用程序权限 [管理员](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## 配置默认的个人帐户设置 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,15 +72,15 @@ ht-degree: 100%
 
 1. 登录到 Experience Cloud，然后选择您的个人资料图标。
 
-   ![](assets/edit-profile.png)
+   ![选择您的配置文件图标](assets/edit-profile.png)
 1. 选择&#x200B;**[!UICONTROL 编辑个人资料]**。
 
-   ![](assets/default-organization.png)
+   ![默认组织和登录页面Experience Cloud](assets/default-organization.png)
 1. 继续配置和编辑个人信息，然后选择&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 启用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-获取有关系统更新、维护通知、帖子、提及次数和共享资源的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和解决方案，包括客户属性的上传状态。
+获取有关系统更新、维护通知、帖子、提及次数和共享资源的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和应用程序，包括客户属性的上传状态。
 
 要导航到通知，请选择&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![](assets/notifications-icon.png)，然后选择&#x200B;**[!UICONTROL 设置]**&#x200B;图标 ![](assets/icon_edit_board.png)。
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 * 按您认为重要的消息类型排序。
 * 搜索通知。
 
-![](assets/notifications-admin.png)
+![Experience Cloud通知](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 1. 在 Experience Cloud 上，选择您的个人资料图片。
 
-   ![](assets/edit-profile.png)
+   ![编辑Experience Cloud配置文件](assets/edit-profile.png)
 1. 选择&#x200B;**[!UICONTROL 编辑个人资料]**。
 
    在“个人资料和密码”页面上，填写“个人详细信息”下的字段和选项。
@@ -131,7 +131,7 @@ ht-degree: 100%
 
    对于 Adobe Analytics 用户，请导航到 [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html)。
 
-## 使用直接链接配置解决方案登录 {#concept_8BE493A08786469B88B210E13F78FF2F}
+## 使用直接链接配置应用程序登录 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 或者，您也可以使用 Experience Cloud 界面提供的身份验证登录到解决方案中的特定页面。
 
@@ -151,6 +151,6 @@ ht-degree: 100%
 |--- |--- |--- |--- |
 | `tenantId` | 用户应登录的租户的名称。 | aem62tenant | 可选 |
 | `destURL` | 用户应转到的位置的完整 URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 可选 |
-| `solutionname` | `destURL` 参数所有者的 MAC 解决方案的名称。用于验证用户是否有权访问拥有该 URL 的解决方案。解决方案应负责确保 `solutionname` 与 `destURL` 一致。例如：如果 URL 包含 `solutionname` 作为社交，并且提供的 `destURL` 是 Analytics URL，那么即使用户无权访问 Analytics，该用户也将被重定向到该 URL。MAC 不会验证 `destURL` 的所有者是否与解决方案名称一致。 | analytics | 如果使用 `destURL` 参数，则此为必填字段。 |
+| `solutionname` | `destURL` 参数所有者的 MAC 解决方案的名称。用于验证用户是否有权访问URL所有者的应用程序。  应用程序有责任确保 `applicationname` 与 `destURL` 参数。  例如：如果 URL 包含 `solutionname` 作为社交，并且提供的 `destURL` 是 Analytics URL，那么即使用户无权访问 Analytics，该用户也将被重定向到该 URL。Mac不会验证 `destURL` 与应用程序名称同步。 | analytics | 如果使用 `destURL` 参数，则此为必填字段。 |
 
 {style=&quot;table-layout:auto&quot;}

@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 第三方 Cookie 支持的变化对客户有何影响{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-对第三方 Cookie 的支持在各种浏览器中变得日益有限。因此，Adobe 一直致力于开发全新解决方案，在客户需求与客户的隐私权力之间进行认真权衡以打造 Experience Cloud 应用程序。
+对第三方 Cookie 的支持在各种浏览器中变得日益有限。因此，Adobe一直在开发新应用程序，以在客户要求与消费者跨Experience Cloud应用程序的隐私权之间进行仔细的平衡。
 
 下表列出了第三方 Cookie 支持对当前实施 Experience Cloud 应用程序的影响：
 
