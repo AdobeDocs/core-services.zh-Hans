@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 93%
+source-wordcount: '1281'
+ht-degree: 100%
 
 ---
 
@@ -84,11 +84,11 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 1. 在 Admin Console 中，选择&#x200B;**[!UICONTROL 用户]**，然后选择用户的名称。
 
-   ![Admin Console中的管理权限](assets/edit-admin-rights.png)
+    ![Admin Console 中的管理权限](assets/edit-admin-rights.png)
 
 1. 选择&#x200B;**[!UICONTROL 编辑管理权限]**。
 
-   ![在Admin Console中编辑管理权限](assets/edit-admin-rights-page.png)
+    ![编辑 Admin Console 中的管理权限](assets/edit-admin-rights-page.png)
 
 1. 指定用户的管理权限。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
@@ -107,7 +107,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 |--- |--- |
 | 报表包 | 启用对特定报表包的权限。 |
 | 量度 | 启用流量、转化、自定义事件、应用程序事件和内容识别等的权限。 |
-| 维度 | 在粒度级别自定义用户访问权限，包括eVar、流量报表、应用程序报表和路径报表。 |
+| 维度 | 在细粒度级别自定义用户访问权限，包括 eVar、流量报表、应用程序报表和路径报表。 |
 | 报表包工具 | 启用 Web 服务、报表包管理、工具和报表及功能板项目的用户权限。 |
 | Analytics 工具 | 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。“自定义 Admin Console”类别中的“公司设置”已被移动到“Analytics 工具”中。 |
 
@@ -117,11 +117,11 @@ Analytics 用户 ID 迁移工具可帮助 Analytics 管理员将用户帐户从 
 
 Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将现有用户帐户从&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]**&#x200B;迁移到 Admin Console 时，Adobe 会通知您并给予协助。
 
-迁移后，用户在以下位置使用其Adobe ID(或Enterprise ID)登录，并对其Experience Cloud应用程序和服务进行身份验证： [experience.adobe.com](https://experience.adobe.com). 如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com]）进行登录，则会被重定向至 [!DNL experience.adobe.com]。
+迁移后，用户在 [experience.adobe.com](https://experience.adobe.com) 上使用他们的 Adobe ID（或 Enterprise ID）登录，并对其 Experience Cloud 应用程序和服务进行身份验证。如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com]）进行登录，则会被重定向至 [!DNL experience.adobe.com]。
 
 **相关帮助**
 
-有关详细信息，请参阅 [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
+有关详细信息，请参阅 [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
 
 ## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -143,11 +143,11 @@ Campaign 中的&#x200B;*租户*&#x200B;在 Admin Console“产品”页面上显
 
 ## 管理 Experience Platform 数据收集 (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 数据收集] ([!UICONTROL Launch]) 会显示在 [!UICONTROL Admin Console] 的[!UICONTROL 产品]页面上。您可以在Launch产品配置文件中包含其他应用程序和服务。
+Experience Platform [!UICONTROL 数据收集] ([!UICONTROL Launch]) 会显示在 [!UICONTROL Admin Console] 的[!UICONTROL 产品]页面上。您可以在 Launch 产品配置文件中包含其他应用程序和服务。
 
 邀请用户访问 [!UICONTROL Platform Launch]，并分配用户角色和权限。
 
-有关 Admin Console 中用户权限以及设置特定于 Launch 的选项（包括为配置文件分配权限）的信息，请参阅[用户管理](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)。
+有关 Admin Console 中用户权限以及设置特定于 Launch 的选项（包括为配置文件分配权限）的信息，请参阅[用户管理](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans)。
 
 ## Experience Manager 即云服务
 
