@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Cookie 只能存储和提供先前存储在其中的信息。它们无法执行�
 
 下图说明了标准图像请求的 Cookie 用法：
 
-![标准图像请求的Cookie用法](assets/CookiesProcessGraphic-01.png)
+![标准图像请求的 Cookie 用法](assets/CookiesProcessGraphic-01.png)
 
 下图说明了直接图像请求（在未加载 JS 文件的情况下使用）的 Cookie 用法：
 
-![直接图像请求的Cookie用法](assets/CookiesProcessGraphic2.png)
+![直接图像请求的 Cookie 用法](assets/CookiesProcessGraphic2.png)
