@@ -1,5 +1,5 @@
 ---
-description: 使您的Adobe Analytics和Adobe Target应用程序符合现代化要求，以便提供跨应用程序服务。 了解如何开始使用 Experience Cloud 服务。
+description: 实现 Adobe Analytics 和 Adobe Target 应用程序的现代化，以提供跨应用程序服务。了解如何开始使用 Experience Cloud 服务。
 keywords: 核心服务;客户属性
 solution: Experience Cloud
 title: 为跨应用程序服务启用应用程序
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2294'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 如果您最近通过 Experience Platform Launch 实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
-现有客户可以使其应用程序实施符合现代化要求并实施Experience Cloud。 这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中使用客户属性和受众功能。要完成此实施，您将执行以下操作：
+现有客户可以使他们的应用程序实施实现现代化并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中使用客户属性和受众功能。要完成此实施，您将执行以下操作：
 
 1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -65,30 +65,30 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 * 拥有 Adobe ID（或您公司的 Enterprise ID）。
 * 登录到 [experience.adobe.com](https://experience.adobe.com)。
-* 属于映射到企业组的应用程序组。
-* 如有必要，请将其应用程序帐户关联到其Adobe ID（如下所述）。
+* 属于映射到企业群组的应用程序群组。
+* 如有必要，请将其应用程序帐户关联到 Adobe ID（如下所述）。
 
 ### 可选：关联现有的用户帐户。
 
-您的用户很有可能已经是应用程序组（例如您之前在中管理的Analytics组）的成员 [!UICONTROL Analytics] > [!UICONTROL 管理工具].
+您的用户很有可能已经是应用程序群组的成员，例如先前在 [!UICONTROL Analytics] > [!UICONTROL 管理工具]中管理的 Analytics 群组。
 
-将这些组映射到Experience Cloud企业组时，这些用户必须手动将其应用程序帐户凭据关联到其Adobe ID。
+将这些群组映射到 Experience Cloud 企业群组时，这些用户必须手动将其应用程序帐户凭据关联到其 Adobe ID。
 
-请参阅[在 Experience Cloud 中关联帐户](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
+请参阅[在 Experience Cloud 中关联帐户](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
 
 >[!NOTE]
 >
->在映射企业组和应用程序组后，将自动关联新用户。 （将自动创建解决方案凭据，并将凭据关联到其 Adobe ID。）
+>在映射企业群组和应用程序群组后，将会自动关联新用户。（将自动创建解决方案凭据，并将凭据关联到其 Adobe ID。）
 
 以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在 Experience Cloud 中启用核心服务。
 
 ## 实施 [!UICONTROL Experience Cloud ID 服务] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-的 [!UICONTROL Experience CloudID服务] 为跨应用程序集成提供了通用ID。 它提供了跨域访客标识功能，并为基于通过[!UICONTROL 客户属性]上传的 CRM 数据进行跨设备/浏览器定位和个性化提供了一种途径。
+[!UICONTROL Experience Cloud ID 服务] 为跨应用程序集成提供了一个通用 ID。它提供了跨域访客标识功能，并为基于通过[!UICONTROL 客户属性]上传的 CRM 数据进行跨设备/浏览器定位和个性化提供了一种途径。
 
 启用 Experience Cloud 核心服务的最简单方法是，通过 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)为 Analytics 和 Adobe Target 自动激活核心服务。
 
-有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)。
+有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans#intro)。
 
 **没有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]？**
 
@@ -104,7 +104,7 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 ### Analytics 和 Adobe Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 必须获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。）
 
@@ -143,9 +143,9 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ## 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en)，以便自动检索库。您还可以设置 [Experience CloudID服务扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) 对于Adobe Target（和其他应用程序）使用 [!UICONTROL Experience Platform Launch]. Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。
-* 如果您没有使用 [!UICONTROL Experience Platform Launch]，请手动[更新 mbox 库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en)。
-* 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报告来源。[!DNL Target] 和 [!DNL Analytics] 在处理期间，数据将组合在同一服务器调用中，这样两个应用程序之间的访客就可以连接在一起。 请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
+* 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform Launch] 为 Adobe Target（和其他应用程序）设置 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans) 。Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。
+* 如果您没有使用 [!UICONTROL Experience Platform Launch]，请手动[更新 mbox 库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans)。
+* 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
 
    >[!IMPORTANT]
    >
@@ -162,15 +162,15 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 包含 Experience Cloud ID 的预期响应：
 
-![包含Experience CloudID的预期响应](assets/mac_id_response.png)
+![包含 Experience Cloud ID 的预期响应](assets/mac_id_response.png)
 
 包含 Experience Cloud ID（也称为 `mid` 或&#x200B;_访客 ID_）的 Analytics 图像请求：
 
-![包含Experience CloudID的Analytics图像请求](assets/mid.png)
+![包含 Experience Cloud ID 的 Analytics 图像请求](assets/mid.png)
 
 mbox 请求中的 Experience Cloud ID：
 
-![Experience CloudID（在mbox请求中）](assets/mbox_request.png)
+![mbox 请求中的 Experience Cloud ID](assets/mbox_request.png)
 
 ### 什么是宽限期？
 
@@ -184,7 +184,7 @@ mbox 请求中的 Experience Cloud ID：
 
 启动并运行后，导航至 [Admin Console](https://adminconsole.adobe.com/)，您可以在其中管理用户和产品配置文件。
 
-![访问Admin Console](assets/menu-administration-shell.png)
+![访问 Admin Console](assets/menu-administration-shell.png)
 
 请参阅 [Experience Cloud 用户和产品管理](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
 
@@ -230,4 +230,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=zh-Hans)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hans)，以启用跨域跟踪。
