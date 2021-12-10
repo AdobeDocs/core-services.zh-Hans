@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 >
 >要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。添加到客户属性组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单。
 >
->要使用“客户属性”功能，用户还必须属于应用程序级别的群组(Analytics或 [!DNL Target])。
+>要使用“客户属性”功能，用户还必须属于应用程序级别的群组（Analytics 或[!DNL Target]）。
 
 请参阅[管理 Experience Cloud 用户和产品](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
 
@@ -46,7 +46,7 @@ ht-degree: 93%
 
 此数据是 CRM 中的企业客户数据。数据可能包含产品的订阅者数据，包括成员 ID、授权产品、最常启动产品等。
 
-1. 创建一个 `.csv`.
+1. 创建一个 `.csv`。
 
    >[!NOTE]
    >
@@ -146,7 +146,7 @@ ht-degree: 93%
 
 ## 配置订阅和激活属性源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-配置订阅可设置Experience Cloud和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置订阅可以设置 Experience Cloud 和应用程序之间的数据流。激活属性来源后，数据便可流向订阅的应用程序。您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -158,11 +158,11 @@ ht-degree: 93%
 
 ## 在 Adobe Analytics 中使用客户属性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-利用Adobe Analytics等应用程序中现有的数据，您可以报告数据、分析数据，并在营销活动中采取适当的措施。
+利用 Adobe Analytics 等应用程序中现在提供的数据，您可以报告数据、分析数据并在营销活动中采取适当措施。
 
 以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。此区段显示最常启动产品为 Photoshop 的 [!DNL Photoshop Lightroom] 订阅者。
 
-![基于上传属性的Analytics区段](assets/08_crs_usecase.png)
+![基于已上传属性的 Analytics 区段](assets/08_crs_usecase.png)
 
 在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
 
