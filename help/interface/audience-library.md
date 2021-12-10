@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,16 +37,16 @@ ht-degree: 87%
 
 ## 应用程序如何使用受众 {#concept_01EB9345C5344597BC94A864EDD38EE1}
 
-下表介绍了受众在Experience Cloud应用程序中的使用方式：
+下表介绍了受众在 Experience Cloud 应用程序中的使用方式：
 
 | 解决方案 | 描述 |
 |--- |--- |
 | Experience Cloud 受众 | 使用[受众库](audience-library.md)界面在本地创建、管理和共享受众。您可以：<ul><li>通过原始 Analytics 属性使用实时受众</li><li>合并受众以创建复合受众，从而将实时数据和历史数据联合起来</li><li>查看估计的受众量的图形视图</li></ul><br>有关要创建哪种受众类型的建议，请参阅：[Experience Cloud 受众](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)。 |
 | Analytics | 在分段中，您可以构建区段，将其与报表包组合，然后将该区段发布到 Experience Cloud。发布区段会将该区段显示在 Experience Cloud 的[!UICONTROL 受众库]页面上。（有关详细信息，请参阅 Analytics 帮助中的[将区段发布到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)。）该受众还会作为一个目标受众在以下两个位置可用：Adobe Target 提供的营销活动体验中，以及在 Audience Manager 中。在您通过 Adobe Analytics 共享受众，并选择在有效营销活动中使用之后，过去 90 天之内符合区段定义标准的访客个人资料将被发送到[!UICONTROL 受众服务]。共享受众数量的限制已增加到 75 个。从 Analytics 共享到 Experience Cloud 的受众数量不能超过 2000 万个独特成员。另外由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。 |
 | Mobile Services | 使用[!UICONTROL 设备类型]报表中的旭日可视化图表分析移动流量。 |
-| [!DNL Target] | 的 [ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) 将访客ID和数据统一到单个可操作的配置文件中，以便跨应用程序使用。 在 Adobe Analytics 的区段创建过程中显示的[发布到 Experience Cloud](audience-library.md) 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 Analytics 或 Audience Manager 中创建的区段可用于 [!DNL Target] 中的活动。例如，您可以根据 [!DNL Analytics] 转化量度和在 [!DNL Analytics] 中创建的受众区段，来创建营销活动。 |
-| Audience Manager | 共享受众可在 Audience Manager 分段中使用。所有 Experience Cloud 受众均可在 Audience Manager 本地使用，Audience Manager 提供了以下功能：<ul><li>关于如何在应用程序工作流中共享和使用这些组件的内置自动化功能</li><li>非现场目标</li><li>相似建模</li></ul> |
-| Campaign | <ul><li>将共享受众从不同的Adobe Experience Cloud应用程序导入Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可在您使用的不同Adobe Experience Cloud应用程序中使用。</li></ul> |
+| [!DNL Target] | 利用 [ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)将访客 ID 和数据统一到单个可操作的个人资料中，以供在应用程序间使用。在 Adobe Analytics 的区段创建过程中显示的[发布到 Experience Cloud](audience-library.md) 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 Analytics 或 Audience Manager 中创建的区段可用于 [!DNL Target] 中的活动。例如，您可以根据 [!DNL Analytics] 转化量度和在 [!DNL Analytics] 中创建的受众区段，来创建营销活动。 |
+| Audience Manager | 共享受众可在 Audience Manager 分段中使用。所有 Experience Cloud 受众均可在 Audience Manager 本地使用，Audience Manager 提供了以下功能：<ul><li>关于如何在应用程序工作流程中共享和使用受众的内置自动化功能</li><li>非现场目标</li><li>相似建模</li></ul> |
+| Campaign | <ul><li>将从不同 Adobe Experience Cloud 应用程序共享的受众导入到 Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可在您使用的其他 Adobe Experience Cloud 应用程序中使用。</li></ul> |
 | Advertising Cloud | 将受众用作目标。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -59,8 +59,8 @@ ht-degree: 87%
 
 | 帮助信息 | 资源 |
 |--- |--- |
-| 找不到受众？ | 确保您已进行配置。请参阅 [快速入门 — 为核心服务启用应用程序](core-services.md).<br>转到[此处](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)请求“个人资料与受众”（集成配置表单）的访问权限。 |
-| 用例 | 有关使用哪些应用程序的更多指导，请转到 [受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) 在知识库中。 |
+| 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用应用程序](core-services.md)。<br>转到[此处](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)请求“个人资料与受众”（集成配置表单）的访问权限。 |
+| 用例 | 有关使用哪种应用程序的更多指导，请转到知识库文章中的[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)。 |
 | 论坛 | [受众论坛](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是获取受众相关帮助的另一资源。 |
 
 {style=&quot;table-layout:auto&quot;}
