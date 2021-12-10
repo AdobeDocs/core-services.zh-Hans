@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 ## 获取有关管理和跨应用程序服务的帮助
 
-本指南提供有关Experience CloudAdmin Console中用户和产品管理以及为平台服务启用应用程序的帮助。 另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
+本指南提供的帮助内容涉及如何在 Admin Console 中管理 Experience Cloud 用户和产品，以及如何启用面向平台服务的应用程序。另外，您还可以获取有关受众库、客户属性、Experience Cloud Assets 等更多方面的帮助：
 
 * [[!UICONTROL 受众库]](audience-library.md)
 * [[!UICONTROL 客户属性]](attributes.md)
@@ -196,9 +196,9 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
-* [所有Experience Cloud应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans)  — 浏览Experience Cloud学习与支持页面以获取帮助
+* [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) - 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) — Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) — 浏览有关核心服务的视频和教程
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=zh-Hans) — 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) - 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
 * [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation.html) — 阅读 Experience Cloud 博客
