@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 75%
 
 ## 识别您的组织 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-** 组织是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的作用类似于一个衔接所有Experience Cloud产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
+*组织* 是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
 要验证您是否已登录到正确的组织，请单击您的个人资料头像来查看组织名称。如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
 
@@ -42,22 +42,22 @@ ht-degree: 75%
 
 ![](assets/administration-page.png)
 
-## 将应用程序帐户关联到Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
+## 将应用程序帐户关联到 Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-通常，Experience Cloud管理员会授予对应用程序和服务的访问权限。 在极少数情况下，您可能需要将应用程序凭据关联到Adobe ID。
+通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。在极少的情况下，您可能需要将应用程序凭据关联到 Adobe ID。
 
 1. 按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
-1. 选择应用程序选择器。( ![](assets/menu-icon.png))。
+1. 选择应用程序选择器。 ( ![](assets/menu-icon.png))。
 
-   ![将应用程序帐户关联到Adobe ID](assets/solutions-active.png)
+   ![将应用程序帐户关联到 Adobe ID](assets/solutions-active.png)
 
    您有权访问的应用程序会用彩色标出。
 1. 选择所需的应用程序。
 
    ![选择所需的应用程序](assets/analytics-link-accounts.png)
 
-   如果您属于相应的组（并拥有应用程序的权限），但尚未将帐户凭据关联到Adobe ID，则会显示此类型的消息。
+   如果您属于相应的群组（并拥有应用程序的访问权限），但还没有将帐户凭据关联到 Adobe ID，则会显示此类型的消息。
 1. 选择&#x200B;**[!UICONTROL 关联帐户]**，然后提供您的凭据。
 
 ## 指定默认组织和登录页面 {#concept_6A191B42A9874A9780882903BA18F071}
@@ -66,11 +66,11 @@ ht-degree: 75%
 
 在您的个人资料中，选择&#x200B;**[!UICONTROL 编辑个人资料]**。
 
-![编辑配置文件](assets/edit-profile.png)
+![编辑个人资料](assets/edit-profile.png)
 
 在“默认组织和登录页面”下方，您可以定制登录体验。
 
-![默认组织和登陆页面](assets/default-organization.png)
+![默认组织和登录页面](assets/default-organization.png)
 
 ## 解决帐户关联问题 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
@@ -79,4 +79,4 @@ ht-degree: 75%
 通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。当帐户关联失败时，您可以：
 
 * [联系 Adobe 支持](https://experienceleague.adobe.com/?support-solution=General#support)。
-* 在问题得到解决的同时，使用标准登录访问您的应用程序。
+* 在我们着手解决问题的同时，使用标准登录访问您的应用程序。
