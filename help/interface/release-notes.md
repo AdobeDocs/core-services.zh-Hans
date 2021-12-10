@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-有关涵盖所有应用程序的发行说明，请参阅 [Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans).
+请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
 ## 2021 年 8 月
 
@@ -92,7 +92,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 ## 2019 年 4 月
 
-* 更新了应用程序切换器，以在Experience Cloud应用程序包中包含Marketo，并将品牌更新为Experience Platform。 (MCUI-6529)
+* 更新了应用程序切换器，现已在 Experience Cloud 应用程序套件中包含 Marketo，同时将品牌更新为“Experience Platform”。(MCUI-6529)
 * 更新了 Experience Cloud 主页，以包含指向“信息源”和“管理”页面的导航链接。(MCUI-6682)
 * 修复了[!UICONTROL 触发器]定义中存在的问题，以纠正“like”子句的用法。(MCUI-6611)
 * 改进了客户属性，让登录“订阅”服务的过程变得更加顺畅。(MCUI-6519)
@@ -147,7 +147,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
   </tr> 
   <tr> 
    <td colname="col1"> <p>帐户关联改进 </p> </td> 
-   <td colname="col2"> <p>改进了用于将应用程序帐户与Experience Cloud(Adobe ID)关联的界面工作流。 这个新的工作流程会查找与组织关联的所有用户帐户，并允许您选择要关联的帐户。我们还简化了帐户关联体验，因此您将不再需要访问“管理组织”页面来手动关联帐户。 </p> </td> 
+   <td colname="col2"> <p>改进了用于将应用程序帐户与 Experience Cloud (Adobe ID) 关联的界面工作流程。这个新的工作流程会查找与组织关联的所有用户帐户，并允许您选择要关联的帐户。我们还简化了帐户关联体验，因此您将不再需要访问“管理组织”页面来手动关联帐户。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,11 +223,11 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>左侧导航菜单已更新并排列，以便提供对所有核心服务和应用程序的访问。 值得注意的更改包括： </p> 
+   <td colname="col2"> <p>对左侧导航器菜单进行了更新和组织，现可提供对所有核心服务和应用程序的访问权限。值得注意的更改包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">受众库</span>和<span class="term">客户属性</span>菜单选项现在位于<span class="term">受众</span>下方。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4"><span class="term">Exchange</span> 菜单选项已从“帮助”下拉菜单移至左侧导航器边栏。 </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解决方案</span>已被删除。您可以从导航边栏的下半部分启动所有应用程序。 </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解决方案</span>已被删除。您可以从导航器边栏的下半部分启动所有应用程序。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -279,7 +279,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的应用程序实现核心服务现代化的信息，请参阅 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 为核心服务启用应用程序</a>. </p> </td> 
+   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务应用程序实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用应用程序</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,11 +296,11 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>群组映射 </p> </td> 
-   <td colname="col2"> <p>群组管理页面已作为一个管理界面进行了重新设计，您可以在其中创建群组、将用户添加到群组，以及跨Experience Cloud应用程序应用权限。 </p> </td> 
+   <td colname="col2"> <p>群组管理页面已作为一个管理界面进行了重新设计，您可以在其中创建群组、将用户添加到群组，以及跨多个 Experience Cloud 应用程序来应用相关权限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>一对多映射 </p> </td> 
-   <td colname="col2"> <p>在Experience Cloud中关联应用程序帐户时，如果您有多个应用程序和组织，则现在可以将多个产品和服务映射到单个组织。 </p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 中关联应用程序帐户时，如果您拥有多个应用程序和组织，那么现在可以将多个产品和服务映射到单个组织。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>激活 </p> </td> 
@@ -308,7 +308,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
   </tr> 
   <tr> 
    <td colname="col1"> <p>文档更新 - 核心服务 </p> </td> 
-   <td colname="col2"> <p>添加了主题 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 为核心服务启用应用程序</a> 以帮助您实施核心服务。 </p> </td> 
+   <td colname="col2"> <p>添加了以下主题：<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用应用程序</a>，以帮助您实施核心服务。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +419,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 **修复和改进功能**
 
 * 现在，在导航到 [!DNL experience.adobe.com] 时，登录体验和 Adobe 的 Creative Cloud 登录一样。
-* 现在，在“管理组织”页面上，每个应用程序的关联体验（收到邀请后）都保持一致。
+* 在“管理组织”页面上，每个应用程序的帐户关联体验（收到邀请后）现在都是一致的。
 
 **已知问题**
 
@@ -674,7 +674,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
   <tr> 
    <td colname="col1"> <p>刷新数据 </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->的 <span class="uicontrol"> 刷新数据</span> 现在，如果应用程序不允许数据刷新，则信息卡上图形的图标会隐藏。 </p> </td> 
+     <!--MAC-18174-->现在，如果应用程序不允许数据刷新，则信息卡上图像的<span class="uicontrol">刷新数据</span>图标会隐藏。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -682,6 +682,6 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 **修复**
 
 * 修复了阻止共享 [!DNL Analytics] 报表应用区段过滤器的问题。
-* 修复了导致应用程序在 [!UICONTROL Experience Cloud解决方案] 页面关联，即使未关联应用程序帐户也是如此。
+* 修复了导致即使未关联应用程序帐户，[!UICONTROL Experience Cloud 解决方案]页面上的应用程序也显示为已关联的问题。
 * 修复了亚洲的 [!DNL Adobe Target] 客户无法选择关联页面上的&#x200B;**[!UICONTROL 继续访问 Experience Cloud]** 按钮的问题。
 * 修复了阻止共享 YouTube 视频的问题。
