@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -79,19 +79,19 @@ ht-degree: 91%
 * **[!UICONTROL 属性来源：]** Experience Cloud
 * **[!UICONTROL 维度：]** Chrome 和 Safari 访客
 
-![Chrome和Safari访客](assets/chrome_safari.png)
+![Chrome 和 Safari 访客](assets/chrome_safari.png)
 
 要进行比较，需要添加 *OR* 规则查看某个站点区域（例如庭院和家具）的所有访客。
 
-![受众的OR规则](assets/audiences_rule_patio.png)
+![受众的 OR 规则](assets/audiences_rule_patio.png)
 
 由此产生的规则是由访问了“家居和园艺”的“Chrome 和 Safari 用户”组成的已定义受众。“庭院和家具”区段提供了有关访问该网站区域的所有访客的更多分析信息。
 
-![在Experience Cloud中定义的受众](assets/defined_audience.png)
+![Experience Cloud 中的已定义受众](assets/defined_audience.png)
 
 * **历史估计：**（虚线圈）代表基于 [!DNL Analytics] 数据创建的规则。
 * **实际受众：**（实心圆）创建的任何规则，其中包含来自 Audience Manager 的 30 天数据。当 Audience Manager 数据达到 30 天时，该行将变为实线并表示实际数字。
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，该受众便可用于其他应用程序。 例如，您可以在 Adobe Target 活动中包含共享受众。
+保存受众后，可用于其他应用程序。例如，您可以在 Adobe Target 活动中包含共享受众。
