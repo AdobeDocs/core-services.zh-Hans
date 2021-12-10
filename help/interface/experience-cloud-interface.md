@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Experience Cloud 首选项包括通知、订阅和警报。
 
 选择帐户菜单 ![](assets/preferences-icon-sm.png) 中的&#x200B;**[!UICONTROL 偏好设置]**&#x200B;以管理偏好设置。
 
-![管理Experience Cloud](assets/preferences-page.png)
+![管理 Experience Cloud](assets/preferences-page.png)
 
 在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
 
