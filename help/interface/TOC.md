@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 中央界面组件
 user-guide-description: 了解 Experience Cloud 的界面、配置首选项、搜索帮助和业务对象。获取有关产品管理、客户属性、受众库、Cookie 和 Experience Cloud Assets 的帮助。
 index: true
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 95%
    + [组织和帐户关联](organizations.md)
    + [升级到 Analytics Premium 和 Experience Cloud](upgrade-to-analytics-premium.md)
    + [Experience Cloud 集成](marketing-cloud-integrations.md)
-   + [将DNS预获取用于不同的应用程序和服务](dns-prefetch.md)
+   + [将 DNS 预获取用于不同的应用程序和服务](dns-prefetch.md)
    + Experience Cloud Cookie {#ec-cookies}
       + [Experience Cloud Cookie 概述](cookies-privacy.md)
       + [Experience Cloud 中的第一方 Cookie](cookies-first-party.md)
