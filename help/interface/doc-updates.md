@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 | ------- | ------- |
 | 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>选件</li><li>组件</li><li>消息</li><li>历程</li></ul> |
 | 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
-| Experience Cloud [!UICONTROL 触发器]导航 | [Experience Cloud 触发器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en)适用于从已设置用户标头中的应用程序切换器的直接导航。 |
+| Experience Cloud [!UICONTROL 触发器]导航 | [Experience Cloud 触发器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hans)适用于从已设置用户标头中的应用程序切换器的直接导航。 |
 | **注意：**&#x200B;计划的界面导航更新 | 2021 年 11 月，将从 <https://experience.adobe.com/implement> 中删除&#x200B;_[!UICONTROL 转至启动/数据收集]_&#x200B;导航功能。 |
 
 **更新日期：2021 年 8 月 24 日**
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 **更新日期：2015 年 3 月 2 日**
 
-添加了 [为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+添加了[为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
 **更新日期：2015 年 1 月 15 日**
 
@@ -132,4 +132,4 @@ ht-degree: 98%
 
 添加了有关受众的文档。
 
-请参阅[受众](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
+请参阅[受众](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)。
