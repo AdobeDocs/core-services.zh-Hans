@@ -32,7 +32,7 @@ ht-degree: 100%
 例如，在 Analytics 中，您可以配置报表工具集合（如 Analysis Workspace 和 Report Builder）以及报表包、量度和维度。您可以通过将用户添加到产品配置文件来授予对产品配置文件的权限。
 
 * 请参阅本页面上的[将 Analytics 访问权限分配给产品配置文件](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)。
-* 请参阅此页面上的[将管理角色委派给用户](#delegate-rights)
+* 请参阅此页面上的[将管理角色委派给用户](#delegate-rights)。
 
 ## 管理 Experience Cloud 产品配置文件 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -121,7 +121,7 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 **相关帮助**
 
-有关详细信息，请参阅 [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
+有关详细信息，请参阅 [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)。
 
 ## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
