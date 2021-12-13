@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -54,6 +54,12 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 ## 如何消除有关迁移我的公司的疑虑？
 
 [联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)。
+
+## 如何 [!DNL Adobe Support] 访问我的Adobe云环境以解决问题？
+
+[!DNL Adobe Support] 可以提交模拟请求，您会收到一封Adobe品牌的电子邮件（示例如下），请求您的明确授权。 授予访问权限的时间有限。 授予后，您可以随时吊销访问权限。 Adobe记录Adobe代表采取的所有操作。
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## 什么是&#x200B;_配置？_
 
