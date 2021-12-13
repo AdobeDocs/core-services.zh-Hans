@@ -9,16 +9,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 96%
 
 ---
 
 # 文档更新 - Experience Cloud
 
 有关 Experience Cloud 产品文档更新的信息。
+
+**2021 年 12 月 13 日更新**
+
+更新了 [管理常见问题解答](faq.md) 提供了有关Adobe支持如何访问您的Adobe云环境以对问题进行故障诊断的信息。
 
 **2021 年 10 月 28 日更新**
 
