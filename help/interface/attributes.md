@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系�
 
 创建数据文件后，您可以将其上传到您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中创建的客户属性源。
 
-请参阅 [上传客户属性数据](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) 以了解此工作流。
+请参阅[上传客户属性数据](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，以了解此工作流。
 
 ## Analytics 和 Target 中客户属性的示例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
