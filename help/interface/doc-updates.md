@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 96%
 
 有关 Experience Cloud 产品文档更新的信息。
 
-**2021 年 12 月 13 日更新**
+**更新日期：2021 年 12 月 13 日**
 
-更新了 [管理常见问题解答](faq.md) 提供了有关Adobe支持如何访问您的Adobe云环境以对问题进行故障诊断的信息。
+更新了[管理常见问题解答](faq.md)中关于 Adobe 支持人员如何访问您的 Adobe 云环境以进行故障排除的相关信息。
 
-**2021 年 10 月 28 日更新**
+**更新日期：2021 年 10 月 28 日**
 
 | 功能 | 描述 |
 | ------- | ------- |
@@ -32,7 +32,7 @@ ht-degree: 96%
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流程中提供图表建议。给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它用图示数据中表示重大变化和事件的相关编号修饰 AEP 仪表板页面中的图表。 |
 
-**2021 年 10 月 13 日更新**
+**更新日期：2021 年 10 月 13 日**
 
 | 功能 | 描述 |
 | ------- | ------- |
