@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Experience Cloud 服务 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-该文档适用于 Experience Cloud 统一页头的功能，如[!UICONTROL 人员]服务（受众和客户属性）、Experience Cloud 的用户和产品管理、Cookie、帐户首选项、通知等等。
+本文档适用于Experience Cloud统一标头的功能，例如 [!UICONTROL 人员] 服务（受众和客户属性）、Experience Cloud、Cookie、帐户首选项、通知等的用户和产品管理。
 
 要在 Experience Cloud 中访问这些服务，请选择&#x200B;**[!UICONTROL 应用程序选择器]**
 ![服务选择器](assets/menu-icon.png).
