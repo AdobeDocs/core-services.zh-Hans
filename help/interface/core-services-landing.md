@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
 # Experience Cloud 服务 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-本文档适用于Experience Cloud统一标头的功能，例如 [!UICONTROL 人员] 服务（受众和客户属性）、Experience Cloud、Cookie、帐户首选项、通知等的用户和产品管理。
+该文档适用于 Experience Cloud 统一页头的功能，如[!UICONTROL 人员]服务（受众和客户属性）、Experience Cloud 的用户和产品管理、Cookie、帐户偏好设置、通知等等。
 
 要在 Experience Cloud 中访问这些服务，请选择&#x200B;**[!UICONTROL 应用程序选择器]**
 ![服务选择器](assets/menu-icon.png).
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 | 核心服务 | 描述 |
 |--- |--- |
-| [中央界面组件](experience-cloud.md) | 访问帐户首选项、搜索产品帮助以及访问应用程序和服务。 |
+| [中央界面组件](experience-cloud.md) | 访问帐户偏好设置、搜索产品帮助以及访问应用程序和服务。 |
 | [为 Experience Cloud 服务启用实施](core-services.md) | 现有客户可以使他们的应用程序实施实现现代化并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中使用客户属性和受众功能。 |
 | [人员 - 受众库](audience-library.md) | 受众是访客的集合（访客 ID 列表）。通过 Adobe 的受众库，您可以管理如何将访客数据转换为受众分段。  |
 | [人员 - 客户属性](attributes.md) | 利用存储在事件或数据源中的上下文数据构建实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
