@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '4276'
-ht-degree: 100%
+source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
+workflow-type: tm+mt
+source-wordcount: '4525'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,27 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
+
+## 11月版 — 2021年
+
+| 功能 | 描述 |
+| ------- | ------- |
+| 主页 | Experience Cloud 主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
+| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流程中提供图表建议。给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
+| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
+
+{style=&quot;table-layout:auto&quot;}
+
+## 10月版 — 2021年
+
+| 功能 | 描述 |
+| ------- | ------- |
+| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>选件</li><li>组件</li><li>消息</li><li>历程</li></ul> |
+| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
+| Experience Cloud [!UICONTROL 触发器]导航 | [Experience Cloud 触发器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hans)适用于从已设置用户标头中的应用程序切换器的直接导航。 |
+| **注意：**&#x200B;计划的界面导航更新 | 2021 年 11 月，将从 <https://experience.adobe.com/implement> 中删除&#x200B;_[!UICONTROL 转至启动/数据收集]_&#x200B;导航功能。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2021 年 8 月
 
@@ -142,7 +163,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Assets 改进 </p> </td> 
+   <td colname="col1"> <p>Experience Cloud 资产改进 </p> </td> 
    <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以从一个中心位置存储、共享和同步数字资源。Experience Cloud Assets 使用 <span class="keyword">Adobe Experience Manager</span> (AEM) 中提供的某些功能。 </p> <p>请参阅 <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
