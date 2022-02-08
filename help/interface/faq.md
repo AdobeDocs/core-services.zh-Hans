@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 [!DNL Adobe Support]会提交一个模拟请求，向您发送带有 Adobe 品牌标志的电子邮件（见下面示例），请求您的明确授权。授予的访问权限仅限于一段时间。授予访问权限后，您可随时撤销。Adobe 会记录 Adobe 代表执行的所有操作。
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Adobe支持案例](assets/support-email.png)
 
 ## 什么是&#x200B;_配置？_
 
@@ -96,23 +96,11 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 ## 什么是组织？
 
-*组织* 是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
+[组织](organizations.md) 是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
-## 我可以在哪里找到我的 IMS 组织 ID？
+## 在哪里可以找到我的IMS组织ID?
 
-请参阅[查找组织 ID](organizations.md)。
-
-组织 ID 显示在 Experience Cloud 登录页面和 [Admin Console 登录页面](https://adminconsole.adobe.com)中。
-
-或者，管理员还可以登录到特定组织的 Admin Console（导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)），此时您能够在 URL 中看到您的 IMS 组织 ID。
-
-例如，在以下 URL 中：
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-ID 为：
-
-`C538193582390300A495CC9@AdobeOrg`
+请参阅 [查找组织ID](organizations.md) 以了解详细信息。
 
 ## 如果我的一位用户离开了我的公司怎么办？
 
