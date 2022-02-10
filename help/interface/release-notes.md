@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: ht
-source-wordcount: '4525'
-ht-degree: 100%
+source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+workflow-type: tm+mt
+source-wordcount: '4606'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,14 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
+
+## 2022 年 2 月
+
+| 功能 | 描述 |
+| ------- |-------|
+| 快捷键(**[!UICONTROL 收件人]**)已添加到 [Experience Cloud](https://experience.adobe.com/home) home | 您可以在新的Journey Optimizer和Experience Platform下访问最近使用的快捷键 _收件人_ 标题。 此更新还包括常规布局和响应性改进。 |
+| **[!UICONTROL 沙箱]** 移到标题栏 | 沙盒指示器现在集成在所有Experience Platform界面应用程序的标题中。 请参阅 [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans) Experience Platform。 |
+
 
 ## 2021 年 11 月
 
