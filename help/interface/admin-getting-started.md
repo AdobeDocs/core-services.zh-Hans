@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1567'
 ht-degree: 69%
 
 ---
@@ -141,7 +141,8 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 **相关帮助**
 
-有关详细信息，请参阅 [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)。
+* [ Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
 
 ## 管理Adobe Target — 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -189,7 +190,7 @@ Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans) 不支持[!DNL Opera]，[Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans) 不支持[!DNL Safari]。）
+**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) 不支持[!DNL Opera]，[Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans) 不支持[!DNL Safari]。）
 
 ### 解决方案和产品要求
 
