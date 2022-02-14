@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 98%
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 键入您的Adobe电子邮件地址，然后选择 **[!UICONTROL 继续]**.
+1. 输入您的 Adobe 电子邮件地址，然后选择&#x200B;**[!UICONTROL 继续]**。
 
-   管理员，请参阅 [Experience Cloud用户身份验证](admin-getting-started.md#migration) 以获取身份类型（业务ID）的重要更新。
+   管理员可查看 [Experience Cloud 用户身份验证](admin-getting-started.md#migration)，以获取身份类型的重要更新 (Business ID)。
 
 1. 选择帐户。
 1. 键入您的密码。
@@ -105,7 +105,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
-## 全局搜索对象和实体 {#search}
+## 全局搜索对象和实体 {#globally-search}
 
 全局搜索让您只需单击即可通过无缝、一致的方式找到可搜索的业务对象或实体。该搜索会显示您最近访问的对象。
 
