@@ -1,6 +1,6 @@
 ---
 title: 管理用户和产品
-description: 了解如何登录到Admin Console并管理Experience Cloud用户权限和产品配置文件。 了解有关向 Experience Cloud 用户委派管理权限以及 Experience Cloud 浏览器支持的信息。
+description: 了解如何登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件。了解有关向 Experience Cloud 用户委派管理权限以及 Experience Cloud 浏览器支持的信息。
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,13 +11,13 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
 # 管理 Experience Cloud 用户和产品
 
-了解如何登录到Admin Console、管理Experience Cloud用户权限和产品配置文件，以及浏览器支持。
+了解有关登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件，以及浏览器支持的信息。
 
 >[!IMPORTANT]
 >
@@ -25,57 +25,57 @@ ht-degree: 69%
 
 您可以在“管理工具”中查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。请参阅[在管理工具中查看 Experience Cloud 用户](admin-tool-experience-cloud.md)。
 
-## Experience Cloud用户身份验证（计划迁移）{#migration}
+## Experience Cloud 用户身份验证（计划内迁移）{#migration}
 
-从2022年2月开始，Adobe将更新其配置文件管理系统，以使组织能够更好地管理个人配置文件的业务权利。 因此，具有个人资料(对应于单个Adobe ID（类型1）)的所有用户都将迁移到新的业务资料。 此用户档案对应于 _业务ID_ （类型2e）。
+从 2022 年 2 月开始，Adobe 将更新其配置文件管理系统，以允许组织更好地管理对各个配置文件的企业权限。因此，拥有对应于单独 Adobe ID (Type1) 的个人配置文件的所有用户将迁移到新的企业配置文件。此配置文件对应于 _Business ID_ (Type2e)。
 
-请参阅 [Adobe Admin Console上的身份类型](https://helpx.adobe.com/cn/enterprise/using/identity.html) ，以了解有关身份类型的信息。
+有关身份类型的信息，请参阅 [Adobe Admin Console 上的身份类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。
 
 ### 迁移过程
 
-当您需要迁移时，组织管理员将在迁移前30天收到通知电子邮件。
+在进行迁移时，组织管理员将在迁移前 30 天收到通知电子邮件，
 
-* 迁移时间安排在晚上10点之间。上午6:00，根据组织的主要时区或周末。
-* 在迁移期间，Experience Cloud应用程序可能无法访问大约15分钟，Admin Console可能无法访问长达30分钟。 否则，此迁移将是无缝的。
+* 将根据组织所在的主要时区，在晚上 10 点到凌晨 6 点之间或在周末进行迁移。
+* 在迁移期间，Experience Cloud应用程序可能无法访问大约15分钟，Admin Console可能无法访问长达30分钟。 另一方面，此迁移将无缝进行。
 
-### 迁移后的更改
+### 迁移后的变化
 
 Admin Console
 
-* 具有多个帐户的管理员在登录时可能会看到配置文件选择器 [!UICONTROL Admin Console].
-* 单个Adobe ID用户将更新为业务ID。
-* 业务ID目录将添加在 **[!UICONTROL 设置]** > **[!UICONTROL 身份]** > **[!UICONTROL 目录]**.
+* 登录到 [!UICONTROL Admin Console] 后，具有多个帐户的管理员可能会看到配置文件选择器。
+* 各个 Adobe ID 用户将更新为 Business ID 用户。
+* Business ID 目录将添加到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 身份识别]** > **[!UICONTROL 目录]**&#x200B;中。
 
-   ![Admin Console标识 — 业务ID](assets/identity-home.png)
+   ![Admin Console 身份识别 - Business ID](assets/identity-home.png)
 
 ### 迁移后登录
 
-您的登录体验不会随此更新而发生更改：
+您的登录体验不会随此更新而改变：
 
-1. 登录位置 `experience.adobe.com` 使用相同的凭据。
+1. 可在 `experience.adobe.com` 上使用相同的凭据登录。
 
-1. 将创建与业务ID关联的新用户档案。 系统会提示您 **[!UICONTROL 立即加入]** 或 **[!UICONTROL 跳过]**.
+1. 将创建与 Business ID 关联的新配置文件。系统会提示您&#x200B;**[!UICONTROL 立即加入]**&#x200B;或&#x200B;**[!UICONTROL 跳过]**。
 
-1. 选择其中一个选项可提供现有的登陆页面体验。
+1. 选择其中一个选项，即可获得现成的登陆页体验。
 
-1. Adobe配置文件与每个业务计划关联，从而能够组织通过其他Adobe云产品(Creative Cloud和Document Cloud)创建的资产。
+1. Adobe 配置文件与每个业务计划相关联，并提供整理从其他 Adobe Cloud 产品/服务（Creative Cloud 和 Document Cloud）创建的资产的功能。
 
-有关更多信息，请参阅 [Adobe配置文件简介](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html).
+有关更多信息，请参阅[Adobe 配置文件简介](https://helpx.adobe.com/cn/enterprise/kb/introducing-adobe-profiles.html)。
 
 ## 什么是产品配置文件？ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和服务组。在 Experience Cloud 中，权限基于产品的配置文件，而不是基于用户。（但是，您可以将管理权限委派给特定用户。）
 
-例如，在 Analytics 中，您可以配置报表工具集合（如 Analysis Workspace 和 Report Builder）以及报表包、量度和维度。您可以通过向产品配置文件添加用户来授予产品配置文件的权限。
+例如，在 Analytics 中，您可以配置报表工具集合（如 Analysis Workspace 和 Report Builder）以及报表包、量度和维度。您可以通过将用户添加到产品配置文件来授予对产品配置文件的权限。
 
-* 请参阅 [将Analytics访问权限分配给产品配置文件](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) 在此页面上。
+* 请参阅本页面上的[将 Analytics 访问权限分配给产品配置文件](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)。
 * 请参阅此页面上的[将管理角色委派给用户](#delegate-rights)。
 
-## 管理Experience Cloud产品配置文件 {#task_16335111C52D40E9BAC73D0699584DBF}
+## 管理 Experience Cloud 产品配置文件 {#task_16335111C52D40E9BAC73D0699584DBF}
 
-您可以创建产品配置文件并将其分配给权限组。
+您可以创建产品配置文件，并将其分配给权限组。
 
-在邀请用户加入组织时，您可以授予用户访问产品和产品配置文件的权限。 您还可以将有限的管理权限委派给某个用户。同样，您也可以创建用户群组，然后将该群组添加到产品配置文件以启用访问权限。
+邀请用户加入组织时，您可以授予用户访问产品和产品配置文件的权限。您还可以将有限的管理权限委派给某个用户。同样，您可以创建用户组，然后将该组添加到产品配置文件中以启用访问权限。
 
 1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，选择&#x200B;**[!UICONTROL 产品]**。
 1. 选择您的组织名称。
@@ -115,9 +115,9 @@ _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和
 
 ## 管理 Analytics 用户和产品 {#section_97DE101F92CD494AB073893680992F1A}
 
-您可以将Analytics报表访问权限（报表包、量度、维度等）分配给产品配置文件。
+您可以将 Analytics 报表访问权限（报表包、量度、维度等）分配给产品配置文件。
 
-例如，您可以创建一个包含多个Analytics工具([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics]和 [!UICONTROL Report Builder])。 这些配置文件包含对特定量度和维度（包括 eVar）的权限，以及区段或计算量度创建等功能。
+例如，您可以创建包含多个 Analytics 工具（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Report Builder]）的产品配置文件。这些配置文件包含对特定量度和维度（包括 eVar）的权限，以及区段或计算量度创建等功能。
 
 1. 登录到 [Admin Console](https://adminconsole.adobe.com/enterprise)，然后选择&#x200B;**[!UICONTROL 产品]**。
 1. 在[!UICONTROL 产品]页面上，选择您的产品，然后选择&#x200B;**[!UICONTROL 权限]**（仅适用于管理员）。
@@ -144,9 +144,9 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 * [ Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
 * [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
 
-## 管理Adobe Target — 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-在Adobe Target中，工作区是产品配置文件。 它允许组织为一组特定用户分配一组特定属性。在很多方面，工作区与 Adobe Analytics 中的报表包类似。
+在 Adobe Target 中，工作区就是产品配置文件。它允许组织为一组特定用户分配一组特定属性。在很多方面，工作区与 Adobe Analytics 中的报表包类似。
 
 请参阅：
 
@@ -154,17 +154,17 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 * [管理产品和配置文件](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
 * 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-## 管理Campaign产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
+## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Campaign 中的&#x200B;*租户*&#x200B;在 Admin Console“产品”页面上显示为&#x200B;*产品*。
 
-*安全组* 显示为产品配置文件。
+*安全组*&#x200B;显示为产品配置文件。
 
 有关安全组以及将用户分配给安全组的信息，请参阅[管理组和用户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hans)。
 
 ## 管理 Experience Platform 数据收集 (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 数据收集] ([!UICONTROL Launch]) 会显示在 [!UICONTROL Admin Console] 的[!UICONTROL 产品]页面上。您可以在Launch产品配置文件中包含其他应用程序和服务。
+Experience Platform [!UICONTROL 数据收集] ([!UICONTROL Launch]) 会显示在 [!UICONTROL Admin Console] 的[!UICONTROL 产品]页面上。您可以在 Launch 产品配置文件中包含其他应用程序和服务。
 
 邀请用户访问 [!UICONTROL Platform Launch]，并分配用户角色和权限。
 

@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ ht-degree: 87%
 
 ![步骤结果](assets/organization-switch.png)
 
-## 查找您的组织ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 查找您的组织 ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 出于支持目的，您可能需要查找组织 ID。您可以使用&#x200B;**[!UICONTROL 组织]**&#x200B;菜单验证自己是否处于正确的组织中，或在不同组织之间切换。
 
-组织 ID 是与您配置的 Experience Cloud 公司关联的 ID。此ID是由24个字符组成的字母数字字符串，其后跟（且必须包括） `@AdobeOrg`.
+组织 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）`@AdobeOrg`。
 
-您可以使用键盘快捷键查看您的组织ID以及其他帐户信息 **Ctrl+i** 从任意页面 `https://experience.adobe.com`，然后单击 **[!UICONTROL 分配的组织]** 选项卡。
+您可以使用键盘快捷键 **Ctrl+i** 从 `https://experience.adobe.com` 上的任何页面查看组织 ID 及其他帐户信息，然后单击对话框中的&#x200B;**[!UICONTROL 已分配组织]**&#x200B;选项卡。
 
-![分配的组织ID](assets/assigned-organization.png)
+![已分配组织 ID](assets/assigned-organization.png)
 
-或者，管理员也可以登录Admin Console(导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的IMS组织ID。
+或者，管理员还可以登录到 Admin Console（导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)），在 URL 中查看您的 IMS 组织 ID。
 
 例如，在以下 URL 中：
 
@@ -58,7 +58,7 @@ ID 为：
 
 1. 按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
-1. 选择应用程序选择器。 ( ![](assets/menu-icon.png))。
+1. 选择应用程序选择器 (![](assets/menu-icon.png))。
 
    ![将应用程序帐户关联到 Adobe ID](assets/solutions-active.png)
 
