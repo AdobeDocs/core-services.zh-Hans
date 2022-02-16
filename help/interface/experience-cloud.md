@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
+source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 84%
@@ -156,8 +156,8 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 要优化搜索，请单击以下任一项：
 
-* **[!UICONTROL 全部学习]**:在Experience League中打开搜索
-* **[!UICONTROL 显示全部……]**:可让您进一步优化和筛选结果
+* **[!UICONTROL 全部学习]**:在Experience League中打开搜索。
+* **[!UICONTROL 显示全部……]**:可让您进一步优化和筛选结果。
 
 ## 用户个人资料和帐户偏好设置 {#preferences}
 
