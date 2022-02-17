@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 84%
+source-wordcount: '1540'
+ht-degree: 82%
 
 ---
 
@@ -118,7 +118,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 * Experience Platform(AEP)
 * Journey Optimizer(AJO)
 
-随着更多内容已编入索引，此功能将添加到相关应用程序中。
+随着更多内容已编入索引，此功能会添加到相关应用程序中。
 
 ### 可搜索对象和字段
 
@@ -229,7 +229,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 * [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 * [Experience Platform 数据收集/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
 * [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)
-* [《通用数据保护条例》(GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [《通用数据保护条例》(GDPR) API](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 
 ## 教程
@@ -237,15 +237,15 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 充分利用以下 Experience League 中的自助式教程和简短的使用说明：
 
 * [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=zh-Hans#quick-how-tos)
-* [Experience Platform 教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=zh-Hans)
+* [Experience Platform 教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
 * [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) - 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) — Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) — 浏览有关核心服务的视频和教程
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) — 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) - 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
-* [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation.html) — 阅读 Experience Cloud 博客
+* [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation) — 阅读 Experience Cloud 博客
 * [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support) — 联系 Adobe 客户关怀部门
