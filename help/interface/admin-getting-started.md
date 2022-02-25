@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 98%
 
 ### 迁移过程
 
-在进行迁移时，组织管理员将在迁移前 30 天收到通知电子邮件，
+轮到您迁移时，组织管理员将在迁移前 30 天收到一封通知的电子邮件，
 
-* 将根据组织所在的主要时区，在晚上 10 点到凌晨 6 点之间或在周末进行迁移。
-* 在迁移期间，Experience Cloud应用程序可能无法访问大约15分钟，Admin Console可能无法访问长达30分钟。 另一方面，此迁移将无缝进行。
+* 安排在晚上 10 点至凌晨 6 点（取决于组织所在的主时区）或在周末进行迁移。
+* 在迁移期间，可能约有 15 分钟时间无法访问 Experience Cloud 应用程序，可能最多有 30 分钟时间无法访问 Admin Console。另一方面，此迁移将无缝进行。
 
 ### 迁移后的变化
 
@@ -141,7 +141,7 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 **相关帮助**
 
-* [ Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
 * [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
 
 ## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
@@ -150,9 +150,9 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 请参阅：
 
-* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理产品和配置文件](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)
+* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://helpx.adobe.com/cn/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -190,10 +190,10 @@ Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) 不支持[!DNL Opera]，[Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans) 不支持[!DNL Safari]。）
+**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans) 不支持[!DNL Opera]，[Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans) 不支持[!DNL Safari]。）
 
 ### 解决方案和产品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hans)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans)
