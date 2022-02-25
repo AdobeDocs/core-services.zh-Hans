@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | ------- |-------|
-| 快捷键(**[!UICONTROL 收件人]**)已添加到 [Experience Cloud](https://experience.adobe.com/home) home | 您可以在新的Journey Optimizer和Experience Platform下访问最近使用的快捷键 _收件人_ 标题。 此更新还包括常规布局和响应性改进。 |
-| **[!UICONTROL 沙箱]** 移到标题栏 | 沙盒指示器现在集成在所有Experience Platform界面应用程序的标题中。 请参阅 [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans) Experience Platform。 |
+| 快捷方式（**[!UICONTROL 最近访问]**）已添加到 [Experience Cloud](https://experience.adobe.com/home) 主页 | 您可以在登陆页上新的&#x200B;_最近访问_&#x200B;标题下访问您最近的 Journey Optimizer 和 Experience Platform 工作的快捷方式。此更新还包括布局和响应性方面的总体改进。 |
+| **[!UICONTROL 沙盒]**&#x200B;移至标题栏 | “沙盒”指示器现在集成在所有 Experience Platform 界面应用程序的标题中。有关详细信息，请参阅 Experience Platform 中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。 |
 
 ## 2021 年 11 月
 
