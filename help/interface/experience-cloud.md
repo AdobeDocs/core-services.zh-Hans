@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 95%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -104,60 +104,6 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 * **[!UICONTROL 反馈]：**&#x200B;共享您对 Experience Cloud 体验的反馈。您的反馈将用于改进 Adobe 的支持和服务。
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
-
-## [!UICONTROL 统一搜索]对象和实体 {#globally-search}
-
-[!UICONTROL 统一搜索]让您在一种无缝、一致、只需点击一下的体验下，即可找到可搜索的业务对象或实体。此搜索可揭示您最近访问的对象。
-
-![全局搜索对象和实体](assets/platform-search.png)
-
-### 可用性
-
-“统一搜索”显示在页面顶部（在 Experience Cloud 标题中），并且对于支持的产品始终可见，这些产品目前包括：
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-随着更多内容已编入索引，此功能会添加到相关应用程序中。
-
-### 可搜索的对象和字段
-
-随着键入，将显示从您有权访问的对象找到的最匹配的前几个结果。
-
-![Experience Cloud 中的统一搜索](assets/unified-search-results.png)
-
-可搜索的业务对象包括：
-
-* 区段（名称、描述）
-* 架构（名称、描述）
-* 数据集（名称、描述）
-* 源（名称、描述）
-* 目标（名称、描述）
-* 查询（名称、描述）
-* 消息（名称、描述）
-* 选件（名称、描述）
-* 组件（名称、描述）
-* 历程（名称、描述）
-
-如果关键字与导航页面匹配，则可以快速获取导航页面示例数据集的链接。
-
-还可从 Experience League 和 Communities 找到帮助文章。支持自然语言查询。
-
-例如， _如何创建架构_ 在下Experience League生成结果 _[!UICONTROL 学习]_:
-
-![Experience Cloud 中的统一搜索帮助](assets/unified-search-learning.png)
-
-搜索算法首先显示最相关的记录。结果的顺序取决于多种因素，如：
-
-* 用户是否有权访问对象
-* 匹配百分比
-* 精确匹配
-* _[!UICONTROL 前几个结果]_&#x200B;部分显示前 30 个结果。
-
-要细化搜索，请单击以下各项之一：
-
-* **[!UICONTROL 所有学习]**：在 Experience League 中打开搜索。
-* **[!UICONTROL 全部显示...]**：使您可进一步细化和筛选结果.
 
 ## 用户个人资料和帐户偏好设置 {#preferences}
 

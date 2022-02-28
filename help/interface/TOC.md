@@ -4,9 +4,9 @@ user-guide-title: 'Experience Cloud 中央界面组件 '
 breadcrumb-title: Experience Cloud 中央界面组件
 user-guide-description: 了解 Experience Cloud 的界面、配置首选项、搜索帮助和业务对象。获取有关产品管理、客户属性、受众库、Cookie 和 Experience Cloud Assets 的帮助。
 index: true
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '344'
+source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
+workflow-type: tm+mt
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 100%
 + [Experience Cloud 中央界面组件指南](experience-cloud.md)
 + Experience Cloud 服务 {#services}
    + [Experience Cloud 服务](core-services-landing.md)
+   + [Experience Cloud 中的统一搜索](search-experience-cloud.md)
    + [为跨应用程序服务启用实施](core-services.md)
    + Experience Cloud 受众库{#audiences}
       + [Experience Cloud 受众](audience-library.md)
@@ -38,8 +39,8 @@ ht-degree: 100%
       + [激活概述](activation.md)
       + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
       + [触发器](triggers.md)
-   + Experience Cloud Assets {#assets}
-      + [Experience Cloud Assets 概述](experience-cloud-assets.md)
+   + Experience Cloud 资产 {#assets}
+      + [Experience Cloud 资产概述](experience-cloud-assets.md)
       + [与 Creative Cloud 共享 Experience Cloud 文件夹和资源](creative-cloud.md)
       + [管理 Creative Cloud 用户](t-admin-add-cc-user.md)
       + [共享 Experience Cloud 资源文件夹](t-share-creative-cloud.md)
