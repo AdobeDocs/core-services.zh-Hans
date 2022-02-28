@@ -7,10 +7,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 30%
+source-wordcount: '644'
+ht-degree: 31%
 
 ---
 
@@ -92,14 +92,14 @@ ht-degree: 30%
 
 {style=&quot;table-layout:auto&quot;}
 
-## 找不到预期结果或获得的结果过多？
+## 找不到它？
 
 尝试使用以下提示：
 
 * 输入更具体的搜索词
 * 检查拼写
 * 尝试编写完整的搜索词
-* 确保您拥有对象的权限，您正在搜索
+* 确保您拥有搜索对象的权限
 
 
 
