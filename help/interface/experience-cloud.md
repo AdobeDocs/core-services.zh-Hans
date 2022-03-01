@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 充分利用以下 Experience League 中的自助式教程和简短的使用说明：
 
-* [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=zh-Hans#quick-how-tos)
+* [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
 * [Experience Platform 教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 
