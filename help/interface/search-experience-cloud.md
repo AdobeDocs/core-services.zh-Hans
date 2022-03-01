@@ -7,17 +7,17 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 31%
+source-wordcount: '655'
+ht-degree: 32%
 
 ---
 
 
 # [!UICONTROL 统一搜索]对象和实体 {#globally-search}
 
-[!UICONTROL 统一搜索]让您在一种无缝、一致、只需点击一下的体验下，即可找到可搜索的业务对象或实体。此搜索可揭示您最近访问的对象。
+[!UICONTROL 统一搜索]让您在一种无缝、一致、只需点击一下的体验下，即可找到可搜索的业务对象或实体。此搜索也会显示您最近访问的对象。
 
 ![全局搜索对象和实体](assets/platform-search.png)
 
@@ -30,7 +30,7 @@ ht-degree: 31%
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-随着更多内容已编入索引，此功能会添加到相关应用程序中。
+随着将更多内容加入索引，此功能将添加到相关的应用程序。
 
 ## 可搜索的对象和字段
 
@@ -44,22 +44,22 @@ ht-degree: 31%
 
 可搜索的业务对象包括：
 
-* 区段（名称、描述）
-* 架构（名称、描述）
-* 数据集（名称、描述）
-* 源（名称、描述）
-* 目标（名称、描述）
-* 查询（名称、描述）
-* 消息（名称、描述）
-* 选件（名称、描述）
-* 组件（名称、描述）
-* 历程（名称、描述）
+* 区段（名称、描述、ID）
+* 架构（名称、描述、ID）
+* 数据集（名称、描述、ID）
+* 源（名称、描述、ID）
+* 目标（名称、描述、ID）
+* 查询（名称、描述、ID）
+* 消息（名称、描述、ID）
+* 选件（名称、描述、ID）
+* 组件（名称、描述、ID）
+* 历程（名称、描述、ID）
 
-如果关键字与导航页面匹配，则可以快速获取导航页面示例数据集的链接。 顶部结果部分显示前30个结果。
+如果关键字与某个导航页面匹配，则您可获得该导航页面的示例数据集的快速访问链接。顶部结果部分显示前30个结果。
 
 还可从 Experience League 和 Communities 找到帮助文章。支持自然语言查询。
 
-例如， _如何创建架构_ 在下Experience League生成结果 _[!UICONTROL 学习]_:
+例如，_如何创建架构_&#x200B;将从 Experience League 中的&#x200B;_[!UICONTROL 学习]_&#x200B;下产生结果：
 
 ![Experience Cloud 中的统一搜索帮助](assets/unified-search-learning.png)
 
@@ -73,7 +73,7 @@ ht-degree: 31%
 要细化搜索，请单击以下各项之一：
 
 * **[!UICONTROL 所有学习]**：在 Experience League 中打开搜索。
-* **[!UICONTROL 全部显示...]**：使您可进一步细化和筛选结果.
+* **[!UICONTROL 全部显示...]**：使您可进一步细化和筛选结果。
 
 ## 统一搜索功能
 
