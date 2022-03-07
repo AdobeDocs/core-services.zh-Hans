@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 中央界面组件
 user-guide-description: 了解 Experience Cloud 的界面、配置首选项、搜索帮助和业务对象。获取有关产品管理、客户属性、受众库、Cookie 和 Experience Cloud Assets 的帮助。
 index: true
 source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
    + [Experience Cloud 服务](core-services-landing.md)
    + [Experience Cloud 中的统一搜索](search-experience-cloud.md)
    + [为跨应用程序服务启用实施](core-services.md)
-   + Experience Cloud 受众库{#audiences}
+   + Experience Cloud 受众库 {#audiences}
       + [Experience Cloud 受众](audience-library.md)
       + [创建受众](t-audience-create.md)
       + [发布 Analytics 受众区段](t-publish-audience-segment.md)
