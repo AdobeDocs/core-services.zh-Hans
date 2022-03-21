@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
-## 3月版 — 2022年
+## 2022 年 3 月
 
 | 功能 | 描述 |
 | ------- |-------|
-| 访问 [!UICONTROL 收件人] 跨Experience Platform和Journey Optimizer | 用户现在可以通过统一的搜索栏从AEP和AJO的每个页面访问最近访问的对象。 |
+| 通过搜索栏在 Experience Platform 和 Journey Optimizer 间访问[!UICONTROL 最近使用项] | 用户现在可从 AEP 和 AJO 的每页中通过统一的搜索栏访问最近访问过的对象。 |
 
 ## 2022 年 2 月
 
