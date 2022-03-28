@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
-workflow-type: ht
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+workflow-type: tm+mt
 source-wordcount: '4640'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 **修复**
 
-* 修复了一个阻止在 [!DNL Experience Cloud] 和 [!DNL Media Optimizer] 之间进行单点登录的问题。
+* 修复了一个阻止在 [!DNL Experience Cloud] 和 [!DNL Advertising Cloud] 之间进行单点登录的问题。
 
 **已知问题**
 
@@ -386,7 +386,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户在将大文件类型上传到 Experience Cloud Assets 时可能会遇到问题。
-* 用户可能无法从 Media Optimizer 中看到他们 Experience Cloud 信息卡上的链接。
+* 用户可能缺少Advertising Cloud中其Experience Cloud卡上的链接。
 * 某些管理用户在接受加入 Experience Cloud 的邀请后关联其帐户时可能会遇到问题。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面性能可能会降低。
 * 某些用户可以删除过期的资源，而不会收到错误通知。
@@ -595,7 +595,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 **修复**
 
 * [!DNL Experience Cloud] 未关联到 [!DNL Adobe Target]。如果 [!DNL Adobe Target] 登录凭据可以在多个 [!DNL Target] 服务器上使用，则会发生此问题。
-* 在 [!DNL Experience Cloud] 中创建了某个用户后，[!DNL Adobe Media Optimizer] 不会自动创建该用户。
+* 在 [!DNL Experience Cloud] 中创建了某个用户后，[!DNL Adobe Advertising Cloud] 不会自动创建该用户。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
 * 资源信息卡视图中的“评论”链接不可选择。
 * 将自定义标签添加到资源后，不会保留任何其他元数据更改。
@@ -643,12 +643,12 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 资源信息卡视图中的“评论”链接不可选择。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
 * 登录到 [!DNL Experience Cloud] 需要花费超过一秒钟的时间。
-* 从 [!DNL Media Optimizer] 共享的数据不能在 [!DNL Experience Cloud] 中正确显示。
-* 在 [!DNL Experience Cloud] 中创建了某个用户后，Adobe [!DNL Media Optimizer] 不会自动创建该用户。
+* 从 [!DNL Advertising Cloud] 共享的数据不能在 [!DNL Experience Cloud] 中正确显示。
+* 在 [!DNL Experience Cloud] 中创建了某个用户后，Adobe [!DNL Advertising Cloud] 不会自动创建该用户。
 * 如果 [!DNL Adobe Target] 登录凭据可以在多个 [!DNL Target] 服务器上使用，则 [!DNL Experience Cloud] 无法关联到 [!DNL Adobe Target]。
 * 当多个用户同时使用 [!DNL Experience Cloud] 界面时，该界面速度可能会减慢。
 * 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
-* [!DNL Adobe Media Optimizer] 模拟信息卡未正确呈现。
+* [!DNL Adobe Advertising Cloud] 模拟信息卡未正确呈现。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
 * 从 Analytics 对趋势报表应用的过滤器不会应用到 Experience Cloud 中的信息卡。
 * 某些 Excel 或 CSV 文件无法上传至展示板。
@@ -664,7 +664,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 **修复**
 
 * 添加了删除头像图像的功能。
-* 修复了无法取消关联 [!DNL Adobe Media Optimizer] 帐户的问题。
+* 修复了无法取消关联 [!DNL Adobe Advertising Cloud] 帐户的问题。
 
 **已知问题**
 
@@ -678,16 +678,16 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 如果 [!DNL Adobe Target] 登录凭据可以在多个 Target 服务器上使用，则 Experience Cloud 无法关联到 [!DNL Adobe Target]。
 * 登录到 Experience Cloud 需要花费超过一秒钟的时间。
 * 将自定义标签添加到资源后，不会保留任何其他元数据更改。
-* 在 Experience Cloud 中创建了某个用户后，[!DNL Adobe Media Optimizer] 不会自动创建该用户。
+* 在 Experience Cloud 中创建了某个用户后，[!DNL Adobe Advertising Cloud] 不会自动创建该用户。
 * 组合框内用于添加新用户的选项在键入内容时暂时消失。
-* 从 [!DNL Media Optimizer] 共享的数据不能在 Experience Cloud 中正确显示。
+* 从 [!DNL Advertising Cloud] 共享的数据不能在 Experience Cloud 中正确显示。
 * 共享 Flickr 图像失败。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 Experience Cloud 中的信息卡。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 用户必须刷新展示板才能使删除的信息卡从视图中消失。
 * 某些 Excel 或 CSV 文件无法上传至展示板。
-* [!DNL Adobe Media Optimizer] 模拟信息卡未正确呈现。
+* [!DNL Adobe Advertising Cloud] 模拟信息卡未正确呈现。
 * 某些 PNG 文件无法在信息卡中呈现。
 * 无法提交测试版反馈。
 
