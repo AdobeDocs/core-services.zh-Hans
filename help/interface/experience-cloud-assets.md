@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,8 @@ Experience Cloud Assets 为可在应用程序间共享的营销就绪型资源�
 您可以通过工具栏快速访问多种功能，包括搜索、时间线、呈现形式、编辑、批注和下载。
 
 ![访问工具栏](assets/asset-tools.png)
+
+! 请注意，要删除在Target中已使用或正在使用的资产，您将需要删除该资产的所有使用实例。
 
 ## 编辑资源 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
