@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 96%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Experience Platform 的产品文档位于[此处](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)。面向 [!UICONTROL Experience Platform] 开发人员的技术文档位于 [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)。
+>Experience Platform 的产品文档位于[此处](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)。的技术文档 [!UICONTROL Experience Platform] 开发人员位于 [Adobe开发人员](https://developer.adobe.com/apis).
