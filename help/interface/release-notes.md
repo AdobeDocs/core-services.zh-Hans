@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -386,7 +386,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 * 用户不能在展示板上共享 PowerPoint 文件。
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户在将大文件类型上传到 Experience Cloud Assets 时可能会遇到问题。
-* 用户可能缺少Advertising Cloud中其Experience Cloud卡上的链接。
+* 用户可能在其 Experience Cloud 卡片上缺少来自 Advertising Cloud 的链接。
 * 某些管理用户在接受加入 Experience Cloud 的邀请后关联其帐户时可能会遇到问题。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面性能可能会降低。
 * 某些用户可以删除过期的资源，而不会收到错误通知。
