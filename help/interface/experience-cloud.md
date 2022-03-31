@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
 ht-degree: 100%
 
@@ -174,7 +174,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 * [Experience Platform 数据收集/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hans)
-* [Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)
+* [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 
 ## 教程
@@ -182,14 +182,14 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 充分利用以下 Experience League 中的自助式教程和简短的使用说明：
 
 * [Experience League 中的所有教程](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Experience Platform 教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Experience Platform 教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hans)
 * [实时客户数据平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hans)
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
 * [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) - 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) — Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) — 浏览有关核心服务的视频和教程
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hans) — 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) - 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
 * [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation) — 阅读 Experience Cloud 博客
