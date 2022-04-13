@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: ht
-source-wordcount: '1614'
-ht-degree: 100%
+source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+workflow-type: tm+mt
+source-wordcount: '1616'
+ht-degree: 96%
 
 ---
 
@@ -57,8 +57,7 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
    **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
 >[!NOTE]
-> Adobe 以前建议客户设置两个 CNAME，一个用于 HTTPS，一个用于 HTTP。由于将流量加密是一项最佳实践，并且大多数浏览器都极力阻止使用 HTTP，因此我们不再建议为 HTTP 设置 CNAME。如果需要这样做，则它看上去将类似于此：
->    **不安全** - 主机名 `metrics.example.com` 指向：`example.com.adobedc.net`。
+> 过去，Adobe建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 如果您需要为HTTP配置CNAME，请联系Adobe客户关怀团队。
 
 1. 设置好 CNAME 后，Adobe 与 DigiCert 合作以购买证书并安装到 Adobe 的生产服务器上。
 
