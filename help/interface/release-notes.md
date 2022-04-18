@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '4640'
-ht-degree: 100%
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+workflow-type: tm+mt
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
+
+## 2022 年 4 月
+
+| 功能 | 描述 |
+| ------- |-------|
+| 免费语言搜索 | 通过统一搜索，通过一个界面即时获得所有帮助问题的答案。 此功能始终在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2022 年 3 月
 
