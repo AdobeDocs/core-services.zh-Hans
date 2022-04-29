@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | ------- |-------|
-| 免费语言搜索 | 通过统一搜索，通过一个界面即时获得所有帮助问题的答案。 此功能始终在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer]. |
+| 免费语言搜索 | 通过统一搜索，通过一个界面即时获得所有帮助问题的答案。 您始终可以在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer] 的每个页面上访问此功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
