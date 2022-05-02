@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 ## 在哪里可以找到我的 IMS 组织 ID？
 
-请参阅 [查看您的组织ID](organizations.md) 以了解详细信息。
+有关详细信息，请参阅[查看您的组织 ID](organizations.md)。
 
 ## 如果我的一位用户离开了我的公司怎么办？
 
