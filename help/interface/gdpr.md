@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
 
 要提出访问和删除[!UICONTROL 客户属性]数据的请求，您必须：
 
-1. 识别以下内容：
+1. 确认以下各项：
 
    * [组织 ID](#organizations.md)
    * 要执行操作的 CRS 数据源的别名 ID
    * 要执行操作的配置文件的 CRM ID
 
-   您的 [组织ID](#organizations.md) 是一个由24个字符组成的字母数字字符串，其后附加有@AdobeOrg。 您需要组织的ID才能向隐私API提交请求。 请联系Adobe客户关怀，地址为 `gdprsupport@adobe.com` 如果您找不到ID，请执行以下操作：
+   您的[组织 ID](#organizations.md) 是一个 24 字符的数字字母字符串，在末尾附加了 @AdobeOrg。需要组织的 ID 才能将请求提交到隐私 API。如果找不到 ID，请通过 `gdprsupport@adobe.com` 联系 Adobe 客户关怀。
 
 1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
 
