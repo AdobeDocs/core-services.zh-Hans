@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息�
 
 >[!NOTE]
 >
->无论您的收集域是否与网站域匹配，Apple 的智能反跟踪 (ITP) 程序都将缩短由 Adobe 设置的第一方 Cookie 在受 ITP 控制的浏览器上存在的时间，这些浏览器包括 macOS 上的 Safari 以及 iOS 和 iPadOS 上的所有浏览器。自 2020 年 11 月起，通过 CNAME 设置的 Cookie 与通过 JavaScript 设置的 Cookie 具有相同的有效期。此有效期可能会有变化。
+>无论您的收集域是否与您的网站域相匹配，Apple的智能防跟踪(ITP)程序都会使由Adobe设置的第一方Cookie在受ITP管辖的浏览器(包括macOS上的Safari以及iOS和iPadOS上的所有浏览器)上短暂存留。 自 2020 年 11 月起，通过 CNAME 设置的 Cookie 与通过 JavaScript 设置的 Cookie 具有相同的有效期。此有效期可能会有变化。
 
 如果您要为数据收集建立 CNAME，并且您的网站具有使用 HTTPS 协议的安全页面，则可以与 Adobe 合作以获取 SSL 证书。
 
