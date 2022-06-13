@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
+source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 ## 识别您的组织 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-安 *组织* （IMS组织ID）是一个实体，它允许管理员配置组和用户，并控制Experience Cloud中的单点登录。 组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
+安 *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制Experience Cloud中的单点登录。 组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
 要验证您是否已登录到正确的组织，请单击您的个人资料头像来查看组织名称。如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
 
@@ -32,7 +32,7 @@ ht-degree: 78%
 
 ![步骤结果](assets/organization-switch.png)
 
-## 查看您的IMS组织ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 查看您的组织ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 出于支持目的，您可能需要查找分配的组织ID。 您可以使用&#x200B;**[!UICONTROL 组织]**&#x200B;菜单验证自己是否处于正确的组织中，或在不同组织之间切换。
 
@@ -40,17 +40,13 @@ ht-degree: 78%
 
 您可以使用键盘快捷键查看您的组织ID以及其他帐户信息 **Ctrl+i** 从任意页面 `https://experience.adobe.com`.
 
-**查看IMS组织ID**
+**查看您的组织ID**
 
 1. 在 [Experience Cloud](https://experience.adobe.com.)，按 **Ctrl+i** 键盘上。
 
    ![已分配组织 ID](assets/assigned-organization.png)
 
-1. 单击 **[!UICONTROL 分配的组织]** 选项卡。
-
-1. 单击您的组织名称。
-
-1. 查找 **[!UICONTROL ID]**.
+1. 在 **[!UICONTROL 用户信息]**，查找 **[!UICONTROL 当前组织ID]**，此时您将看到组织ID。
 
    或者，管理员也可以登录Admin Console(导航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的组织ID。
 
