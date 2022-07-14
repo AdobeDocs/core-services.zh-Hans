@@ -1,5 +1,5 @@
 ---
-description: 了解组织（IMS组织ID）并将解决方案帐户关联到Experience Cloud。
+description: 了解组织（IMS 组织 ID）并将解决方案帐户关联到 Experience Cloud。
 keywords: Adobe Experience Cloud 服务
 solution: Experience Cloud
 title: '组织和帐户关联 '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
+source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 78%
 
 **查看您的组织ID**
 
-1. 在 [Experience Cloud](https://experience.adobe.com.)，按 **Ctrl+i** 键盘上。
+1. 在 [Experience Cloud](https://experience.adobe.com)，按 **Ctrl+i** 键盘上。
 
    ![已分配组织 ID](assets/assigned-organization.png)
 
