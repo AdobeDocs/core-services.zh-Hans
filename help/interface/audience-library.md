@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 | 帮助信息 | 资源 |
 |--- |--- |
 | 找不到受众？ | 确保您已进行配置。请参阅[快速入门 - 为核心服务启用应用程序](core-services.md)。<br>转到[此处](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)请求“个人资料与受众”（集成配置表单）的访问权限。 |
-| 用例 | 有关使用哪种应用程序的更多指导，请转到知识库文章中的[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)。 |
+| 用例 | 有关使用哪种应用程序的更多指导，请转到知识库文章中的[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
 | 论坛 | [受众论坛](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是获取受众相关帮助的另一资源。 |
 
 {style=&quot;table-layout:auto&quot;}
