@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 不会。Experience Cloud 无需额外付费。但是某些核心服务可能收取额外的费用。
 
-## 为什么我的公司需要通过 Experience Cloud 界面登录？
+## 为什么我的公司必须通过Experience Cloud界面登录？
 
 Experience Cloud 界面提供的功能为您的业务带来新价值。该界面也是今后访问应用程序的标准途径，最终将取代其他单独的应用程序登录流程。通过 Experience Cloud 登录有助于以后实现更平稳的过渡。
 
@@ -82,11 +82,11 @@ Experience Cloud 中的配置表示：
 
 Admin Console 管理员可以授予用户访问权限。将会向用户发送包含登录说明的电子邮件。
 
-您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)来验证您的公司是否已完全配置。
+你可能得 [联系Adobe支持](https://experienceleague.adobe.com/?support-solution=General#support) 以验证您的公司是否已完全配置。
 
 ## 用户可在何处管理帐户关联？
 
-有些用户可能需要将其应用程序 (Analytics) 帐户关联到 Adobe ID 或 Enterprise ID。
+某些用户可能需要将其应用程序(Analytics)帐户关联到Adobe ID或Enterprise ID。
 
 请参阅[将应用程序帐户关联到 Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369)。
 

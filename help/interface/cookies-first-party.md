@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 93%
+source-wordcount: '1604'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
    **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
 >[!NOTE]
-> 过去，Adobe建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 如果您需要为HTTP配置CNAME，请联系Adobe客户关怀团队。
+> 过去，Adobe建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 请联系Adobe客户关怀团队以配置CNAME以进行HTTP。
 
 1. 设置好 CNAME 后，Adobe 与 DigiCert 合作以购买证书并安装到 Adobe 的生产服务器上。
 
@@ -77,8 +77,8 @@ SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购
 |---|---|
 | **此过程是否安全？** | 是，Adobe 管理的证书计划较传统的方法更加安全，因为证书或私钥不会在 Adobe 和证书颁发机构的外部易手。 |
 | **Adobe 如何为我们的域购买证书？** | 仅当您将指定的主机名（例如 `telemetry.example.com`）指向 Adobe 拥有的主机名时，Adobe 才能为您购买证书。这实质上是将此主机名委派给 Adobe，并允许 Adobe 代表您购买证书。 |
-| **我是否可以请求吊销证书？** | 是，作为域所有者，您有权请求我们吊销证书。您只需通过客户关怀部门开立一个票证，即可完成此项操作。 |
-| **此证书是否使用 SHA-2 加密？** | 是，Adobe 将与 DigicerT 一起颁发 SHA-2 证书。 |
+| **我是否可以请求吊销证书？** | 是，作为域的所有者，您有权请求吊销证书。 通过客户关怀部门开具票证，以完成此操作。 |
+| **此证书是否使用 SHA-2 加密？** | 是，Adobe可与DigiCert一起颁发SHA-2证书。 |
 | **这会产生任何额外费用吗？** | 不会，Adobe 可以向当前所有 Adobe Digital Experience 客户提供此服务，不会产生任何额外费用。 |
 
 {style=&quot;table-layout:auto&quot;}
