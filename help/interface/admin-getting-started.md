@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0175ba36d29dcbcdcfd3e8ff9d359972c19ac448
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1896'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,52 @@ ht-degree: 100%
 
 您可以在“管理工具”中查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。请参阅[在管理工具中查看 Experience Cloud 用户](admin-tool-experience-cloud.md)。
 
+## 配置更新通知{#provisioning}
+
+更新日期： **2022年7月20日**
+
+>[!IMPORTANT]
+>
+>请查看以下有关Experience Cloud配置的通知。
+
+Adobe正在更新其配置，以便让所有Experience Cloud客户都能够访问基础功能，这些功能有助于某些Experience Cloud产品之间的互操作性。 用户将将Adobe Experience Platform作为新授权添加到其Experience Cloud组织，其中 [!UICONTROL 数据收集] 作为包含的服务。
+
+Adobe Experience Platform [!UICONTROL 数据收集] 包括 [标记](https://experienceleague.adobe.com/docs/tags.html?lang=en) 简化的通用标签管理，并提供可信、强大且完整的流数据基础架构。 标记可简化客户体验数据收集并简化体验交付。
+
+**更改Admin Console**
+
+管理员可以按如下方式查看Admin Console的更改或添加内容：
+
+* Admin Console中的Adobe Experience Platform产品卡将包括：
+
+   * 场所
+   * 保证
+   * 身份命名空间
+   * 沙盒
+   * 体验数据模型
+   * 架构
+   * 数据流
+   * Visitor ID
+
+   对于当前未使用Experience Platform的组织，您现在将看到 _Adobe Experience Platform_ 产品，包括上面列出的功能。
+
+   对于当前使用Experience Platform的组织， _位置_ 现在将合并到Experience Platform卡中。
+
+* Adobe Experience Platform数据收集（以前称为Launch）和隐私功能将继续显示为与其他Experience Platform功能不同的产品信息卡。
+
+有关新功能的更多详细信息，请访问其各自的Experience League页面：
+
+* [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [场所](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en)
+* [保证](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)
+* [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)
+* [体验数据模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
+* [架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)
+* [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [Visitor ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [隐私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
+
 ## Experience Cloud 用户身份验证（计划内迁移）{#migration}
 
 从 2022 年 2 月开始，Adobe 将更新其配置文件管理系统，以允许组织更好地管理对各个配置文件的企业权限。因此，拥有对应于单独 Adobe ID (Type1) 的个人配置文件的所有用户将迁移到新的企业配置文件。此配置文件对应于 _Business ID_ (Type2e)。
@@ -35,7 +81,7 @@ ht-degree: 100%
 
 轮到您迁移时，组织管理员将在迁移前 30 天收到一封通知的电子邮件，
 
-* 安排在晚上 10 点至凌晨 6 点（取决于组织所在的主时区）或在周末进行迁移。
+* 迁移时间安排在晚上10点之间。上午6:00，根据组织的主要时区或周末。
 * 在迁移期间，可能约有 15 分钟时间无法访问 Experience Cloud 应用程序，可能最多有 30 分钟时间无法访问 Admin Console。另一方面，此迁移将无缝进行。
 
 ### 迁移后的变化
