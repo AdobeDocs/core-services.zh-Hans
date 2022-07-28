@@ -1,6 +1,6 @@
 ---
 description: 了解 Adobe Experience Cloud 支持的浏览器，以及面向管理员的常见问题解答。
-keywords: 核心服务, Experience Cloud, Experience Platform, Analytics, Target, 用户管理。
+keywords: 核心服务、Experience Cloud、Experience Platform、Analytics、Target、用户管理。
 solution: Experience Cloud
 title: '关于 Experience Cloud 的常见问题解答 '
 index: true
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 1. [加入 Experience Cloud 并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用 Experience Platform Launch 实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)。
-1. [将报表包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
+1. [将报告包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Adobe Target）使您的 Adobe Target 实施符合现代化要求](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [验证实施](core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
@@ -47,7 +47,7 @@ ht-degree: 94%
 
 不会。Experience Cloud 无需额外付费。但是某些核心服务可能收取额外的费用。
 
-## 为什么我的公司必须通过Experience Cloud界面登录？
+## 为什么我的公司必须通过 Experience Cloud 界面登录？
 
 Experience Cloud 界面提供的功能为您的业务带来新价值。该界面也是今后访问应用程序的标准途径，最终将取代其他单独的应用程序登录流程。通过 Experience Cloud 登录有助于以后实现更平稳的过渡。
 
@@ -57,7 +57,7 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 ## [!DNL Adobe Support]如何访问我的 Adobe 云环境以进行故障排除？
 
-[!DNL Adobe Support]会提交一个模拟请求，向您发送带有 Adobe 品牌标志的电子邮件（见下面示例），请求您的明确授权。授予的访问权限仅限于一段时间。授予访问权限后，您可随时撤销。Adobe 会记录 Adobe 代表执行的所有操作。
+[!DNL Adobe Support]会提交一个模拟请求，向您发送带有 Adobe 品牌标志的电子邮件（见以下示例），请求您的明确授权。授予的访问权限仅限于一段时间。授予访问权限后，您可随时撤销。Adobe 会记录 Adobe 代表执行的所有操作。
 
 ![Adobe 支持案列](assets/support-email.png)
 
@@ -82,11 +82,11 @@ Experience Cloud 中的配置表示：
 
 Admin Console 管理员可以授予用户访问权限。将会向用户发送包含登录说明的电子邮件。
 
-你可能得 [联系Adobe支持](https://experienceleague.adobe.com/?support-solution=General#support) 以验证您的公司是否已完全配置。
+您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)来验证您的公司是否已完全配置。
 
 ## 用户可在何处管理帐户关联？
 
-某些用户可能需要将其应用程序(Analytics)帐户关联到Adobe ID或Enterprise ID。
+有些用户可能需要将其应用程序 (Analytics) 帐户关联到 Adobe ID 或 Enterprise ID。
 
 请参阅[将应用程序帐户关联到 Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369)。
 
