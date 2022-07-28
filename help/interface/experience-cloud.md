@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud 中央界面组件指南
 
-[Experience Cloud](https://experience.adobe.com) 是 Adobe 综合系列的数字营销应用程序、产品和服务。通过它的直观界面，您可以快速访问您的云应用程序、产品功能和服务。
+[Experience Cloud](https://experience.adobe.com) 是 Adobe 综合系列的数字营销应用程序、产品和服务。通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
 
 ![Experience Cloud](assets/landing.png)
 
@@ -33,9 +33,9 @@ ht-degree: 97%
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 输入您的 Adobe 电子邮件地址，然后选择&#x200B;**[!UICONTROL 继续]**。
+1. 请输入您的 Adobe 电子邮件地址，然后选择&#x200B;**[!UICONTROL 继续]**。
 
-   管理员可查看 [Experience Cloud 用户身份验证](admin-getting-started.md#migration)，以获取身份类型的重要更新 (Business ID)。
+   管理员可查看 [Experience Cloud 用户身份验证](admin-getting-started.md#migration)，获取身份类型的重要更新 (Business ID)。
 
 1. 选择帐户。
 1. 键入您的密码。
@@ -45,9 +45,9 @@ ht-degree: 97%
 
    **验证您的组织**
 
-   要验证您是否已登录到正确的[组织](organizations.md)，请单击您的个人资料头像来查看组织名称。如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
+   要验证您是否已登录到正确的[组织](organizations.md)，请单击您的个人资料头像查看组织名称。 如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
 
-   如果贵组织使用Federated ID，则Experience Cloud允许您使用贵组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 添加 `#/sso:@domain` 到Experience CloudURL(`https://experience.adobe.com`)以完成此任务。
+   如果您的组织使用 Federated ID，则 Experience Cloud 允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。将 `#/sso:@domain` 添加到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任务。
 
    例如，对于带 Federated ID 和域 `adobecustomer.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
@@ -61,7 +61,7 @@ ht-degree: 97%
 
 ## Experience Cloud 中的浏览器支持 {#browser}
 
-为了实现最佳性能，Experience Cloud 针对最流行的浏览器（包括最新版本以及上两个版本）进行了优化。
+为了实现最佳性能，Experience Cloud 针对最受欢迎的浏览器（包括最新版本以及上两个版本）进行了优化。
 
 * Chrome
 * Edge
@@ -69,7 +69,7 @@ ht-degree: 97%
 * Opera
 * Safari
 
-如果您的浏览器不是上面列出的浏览器，它可能仍受支持，但建议您使用列出的浏览器之一。
+如果您的浏览器非上述浏览器，则可能仍受支持，但建议您使用列出的浏览器之一。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的帮助图标（![资源](assets/help-icon.png)）访问学习和帮助，包括有关 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的帮助图标（![资产](assets/help-icon.png)）访问学习和帮助内容，包括有关 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -125,14 +125,14 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 | 默认[组织](organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
 | [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有“高”标签，可以配置为像警报一样发送。 |
-| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报所针对的通知。警报会在窗口右上角出现几秒钟。 |
+| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
 | 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 通知和公告 {#notifications}
 
-选择&#x200B;**[!UICONTROL 通知]**，即可收到有关相关的可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
+选择&#x200B;**[!UICONTROL 通知]**，即可收到相关可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
@@ -158,7 +158,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 * [Experience Cloud Cookie](cookies-privacy.md)
 * [用户和产品管理](admin-getting-started.md) (Admin Console)
 * [为核心服务启用应用程序](core-services.md)
-* [常见问题](admin-getting-started.md)
+* [常见问题解答](admin-getting-started.md)
 * [组织和帐户关联](organizations.md)
 * [集成](marketing-cloud-integrations.md)
 * [将 Adobe Target 与 Experience Cloud 集成](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
@@ -187,10 +187,10 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 ## 发行说明和相关的 Experience Cloud 帮助
 
-* [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) - 浏览 Experience Cloud 学习和支持页面以获取帮助
-* [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) — Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) — 浏览有关核心服务的视频和教程
-* [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) — 从专家和社区获得指导性学习
-* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) - 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
-* [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation) — 阅读 Experience Cloud 博客
-* [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support) — 联系 Adobe 客户关怀部门
+* [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) – 浏览 Experience Cloud 学习和支持页面以获取帮助
+* [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) – Experience Cloud 的新增功能，订阅可获取更新
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hans) – 浏览有关核心服务的视频和教程
+* [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) – 从专家和社区获得指导性学习
+* [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) – 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
+* [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation) – 阅读 Experience Cloud 博客
+* [客户关怀](https://experienceleague.adobe.com/?support-solution=General#support) – 联系 Adobe 客户关怀部门
