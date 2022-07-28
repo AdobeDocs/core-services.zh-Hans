@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # 参与
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 ## 行为准则
 
-此项目遵守 Adobe [行为准则](code-of-conduct.md)。参与此项目时，您应遵守本准则。请联系 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) 举报不可接受的行为。
+此项目遵守 Adobe [行为准则](code-of-conduct.md)。参与此项目时，您应遵守本准则。请联系 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) 举报难以接受的行为。
 
 ## 有疑问吗？
 
@@ -21,11 +21,11 @@ ht-degree: 87%
 
 ## 参与者许可协议
 
-所有参与到该项目的第三方稿件都必须附有签署的参与者许可协议。这将允许 Adobe 重新分配您在项目中的稿件。[签署我们的 CLA](http://opensource.adobe.com/cla.html)。您只提交一次AdobeCLA，因此如果您之前已提交过，则无需重新提交！
+所有对本项目的第三方贡献都必须附有签署的参与者许可协议。这将允许 Adobe 重新分配您在项目中的稿件。[签署我们的 CLA](http://opensource.adobe.com/cla.html)。您只需提交一次 Adobe CLA，因此如果您之前已提交了一次，那么无需重新提交！
 
 ## 代码审阅
 
-所有提交都应以拉取请求的形式提交，并且必须由项目提交者进行审阅。 有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/cn/github/collaborating-with-issues-and-pull-requests/about-pull-requests)。
+所有提交均应以拉取请求的形式完成，并且必须由项目提交者进行审核。有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/cn/github/collaborating-with-issues-and-pull-requests/about-pull-requests)。
 
 
 <!--
