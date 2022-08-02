@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1896'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,49 +27,49 @@ ht-degree: 85%
 
 ## 配置更新通知{#provisioning}
 
-更新日期： **2022年7月20日**
+更新日期：**2022 年 7 月 20 日**
 
 >[!IMPORTANT]
 >
->请查看以下有关Experience Cloud配置的通知。
+>请仔细阅读以下关于 Experience Cloud 配置的说明。
 
-Adobe正在更新其配置，以便让所有Experience Cloud客户都能够访问基础功能，这些功能有助于某些Experience Cloud产品之间的互操作性。 用户将将Adobe Experience Platform作为新授权添加到其Experience Cloud组织，其中 [!UICONTROL 数据收集] 作为包含的服务。
+Adobe 正在更新其配置，以使所有 Experience Cloud 客户均可访问帮助在某些 Experience Cloud 产品之间实现互操作性的基础功能。用户将拥有 Adobe Experience Platform 作为添加到其 Experience Cloud 组织的新权利，并且包括[!UICONTROL 数据收集]服务。
 
-Adobe Experience Platform [!UICONTROL 数据收集] 包括 [标记](https://experienceleague.adobe.com/docs/tags.html?lang=en) 简化的通用标签管理，并提供可信、强大且完整的流数据基础架构。 标记可简化客户体验数据收集并简化体验交付。
+Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://experienceleague.adobe.com/docs/tags.html?lang=zh-Hans)以简化通用标记管理，并提供一个可信、强大而完整的流数据基础架构。标记可简化客户体验数据收集并理顺体验投放。
 
-**更改Admin Console**
+**Admin Console 中的更改**
 
-管理员可以按如下方式查看Admin Console的更改或添加内容：
+管理员可看到如下对 Admin Console 的更改或添加：
 
-* Admin Console中的Adobe Experience Platform产品卡将包括：
+* Admin Console 中的 Adobe Experience Platform 产品卡将包括：
 
-   * 场所
-   * 保证
+   * Places
+   * Assurance
    * 身份命名空间
    * 沙盒
-   * 体验数据模型
+   * Experience Data Model
    * 架构
    * 数据流
-   * Visitor ID
+   * 访客 ID
 
-   对于当前未使用Experience Platform的组织，您现在将看到 _Adobe Experience Platform_ 产品，包括上面列出的功能。
+   对于当前未使用 Experience Platform 的组织，现在您将在 Admin Console 中看到 _Adobe Experience Platform_ 产品，包括上方列出的功能。
 
-   对于当前使用Experience Platform的组织， _位置_ 现在将合并到Experience Platform卡中。
+   对于当前正在使用 Experience Platform 的组织，_场所_&#x200B;现在将并入 Experience Platform 卡。
 
-* Adobe Experience Platform数据收集（以前称为Launch）和隐私功能将继续显示为与其他Experience Platform功能不同的产品信息卡。
+* Adobe Experience Platform Data Collection（以前称为 Launch）和 Privacy 将继续显示为与其他 Experience Platform 功能独立的产品卡。
 
-有关新功能的更多详细信息，请访问其各自的Experience League页面：
+有关新功能的更多详细信息，请访问其各自在 Experience League 上的页面：
 
-* [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
-* [场所](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en)
-* [保证](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans)
+* [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans%3Flang%3Dde)
 * [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)
-* [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)
-* [体验数据模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
+* [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)
+* [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
 * [架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)
-* [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
-* [Visitor ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
-* [隐私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
+* [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans)
+* [访客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=zh-Hans#section_3C9F6DF37C654D939625BB4D485E4354)
+* [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
 
 ## Experience Cloud 用户身份验证（计划内迁移）{#migration}
 
@@ -81,7 +81,7 @@ Adobe Experience Platform [!UICONTROL 数据收集] 包括 [标记](https://expe
 
 轮到您迁移时，组织管理员将在迁移前 30 天收到一封通知的电子邮件，
 
-* 迁移时间安排在晚上10点之间。上午6:00，根据组织的主要时区或周末。
+* 将根据组织所在的主要时区，在晚上 10 点到凌晨 6 点之间或在周末进行迁移。
 * 在迁移期间，可能约有 15 分钟时间无法访问 Experience Cloud 应用程序，可能最多有 30 分钟时间无法访问 Admin Console。另一方面，此迁移将无缝进行。
 
 ### 迁移后的变化
@@ -196,9 +196,9 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 请参阅：
 
-* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理产品和配置文件](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)
+* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hans)
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织�
 
 ### 解决方案和产品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hans)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans)
