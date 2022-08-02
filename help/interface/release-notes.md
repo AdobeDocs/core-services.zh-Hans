@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 ## 2022 年 7 月
 
-**面向管理员的配置更新通知**
+**管理员配置更新通知**
 
-* 请参阅 [配置更新通知](admin-getting-started.md#provisioning) 以了解有关在Experience Cloud中进行配置的重要更新。
+* 有关 Experience Cloud 中配置的重要更新，请参阅[配置更新通知](admin-getting-started.md#provisioning)。
 
 计划发布日期：**2022 年 7 月 11 日**
 
