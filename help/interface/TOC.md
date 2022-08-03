@@ -51,7 +51,7 @@ ht-degree: 100%
 + Experience Cloud 管理{#administration}
    + [管理 Experience Cloud 用户标识和产品 (Admin Console)](admin-getting-started.md)
    + [查看 Experience Cloud 用户详细信息（管理工具）](admin-tool-experience-cloud.md)
-   + [常见问题](faq.md)
+   + [常见问题解答](faq.md)
    + [组织和帐户关联](organizations.md)
    + [升级到 Analytics Premium 和 Experience Cloud](upgrade-to-analytics-premium.md)
    + [Experience Cloud 集成](marketing-cloud-integrations.md)
