@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1203'
-ht-degree: 100%
+source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+workflow-type: tm+mt
+source-wordcount: '1218'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于 Target，其为 setCustomerID 值。（请参阅 <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Adobe Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。在上传到 Experience Cloud 的 CRM 文件中，还使用此 ID 作为密钥。<a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过 setCustomerID）。CRM 文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于 Target，其为 setCustomerID 值。（请参阅 <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Adobe Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。在上传到 Experience Cloud 的 CRM 文件中，还使用此 ID 作为密钥。<a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过 setCustomerID）。CRM 文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
@@ -129,7 +129,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
-   <td colname="col2"> <p> 客户属性与 [!DNL Analytics] 中的基础访客个人资料关联。 因此，在 [!DNL Analytics] 中，[!UICONTROL 客户属性] 在访客个人资料的整个生命周期内都与该访客相关联。 该配置文件包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客户属性与 [!DNL Analytics] 中的基础访客个人资料关联。 因此，在 [!DNL Analytics] 中，[!UICONTROL 客户属性] 在访客个人资料的整个生命周期内都与该访客相关联。 该配置文件包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> <p> 请注意，自2022年10月起，Data warehouse回填方法将不再可用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据馈送 </p> </td> 

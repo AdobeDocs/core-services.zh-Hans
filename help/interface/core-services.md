@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '2294'
-ht-degree: 100%
+source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+workflow-type: tm+mt
+source-wordcount: '2381'
+ht-degree: 96%
 
 ---
 
@@ -104,7 +104,7 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 ### Analytics 和 Adobe Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 必须获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。）
 
@@ -116,6 +116,11 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 * 在 prop 或 eVar 中填充 *`Customer ID (52mc210tr42)`*。
 
 在已知客户 ID 的情况下，必须在每次 [!DNL Analytics] 服务器调用中进行设置。
+
+#### Analytics:使用Data warehouse回填方法同步客户ID
+
+客户属性首次可用时，有些客户尚未实施Experience CloudID服务，无法轻松利用客户属性。 为帮助缓解此问题，Adobe创建了一种方法，使用Adobe Analyticsdata warehouse进行ID同步的回填。 此功能称为“data warehouse回填”。 现在，data warehouse回填通常不是必需的，因此从2022年10月起将不再可用。
+
 
 ### Mobile SDK
 
@@ -143,7 +148,7 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ## 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform Launch] 为 Adobe Target（和其他应用程序）设置 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans) 。Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。
+* 建议您在 [!UICONTROL Experience Platform Launch] 中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform Launch] 为 Adobe Target（和其他应用程序）设置 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) 。Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用核心服务。
 * 如果您没有使用 [!UICONTROL Experience Platform Launch]，请手动[更新 mbox 库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans)。
 * 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
 
@@ -230,4 +235,4 @@ Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建�
 
 有关说明，请参阅 [Adobe Experience Cloud - 实施 Adobe 退出](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=zh-Hans)。
 
-请参阅[数据收集 CNAME 和跨域跟踪](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hans)，以启用跨域跟踪。
+请参阅[数据收集 CNAME 和跨域跟踪](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)，以启用跨域跟踪。
