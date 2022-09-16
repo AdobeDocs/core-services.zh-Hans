@@ -3,15 +3,15 @@ description: 了解 Experience Cloud 的中央界面组件。该帮助包括如�
 solution: Experience Cloud
 title: Experience Cloud 界面帮助和文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: "Customer Attributes"
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '1275'
-ht-degree: 100%
+source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 99%
 
 ---
 
@@ -145,6 +145,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 | Adobe Experience Cloud 域 | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Experience Cloud 字体 | `typekit.net` |
+| Adobe数据收集（以获取产品指南和帮助） | `adobedtm.com` |
 | Gainsight（用于产品指导和帮助） | `esp.aptrinsic.com` |
 
 ## 获取有关管理和跨应用程序服务的帮助
@@ -189,7 +190,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 * [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) – 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) – Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hans) – 浏览有关核心服务的视频和教程
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) – 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) – 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) – 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
 * [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation) – 阅读 Experience Cloud 博客
