@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 100%
+source-wordcount: '1894'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
 
 * [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans)
 * [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans)
-* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans%3Flang%3Dde)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans)
 * [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)
 * [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)
 * [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
@@ -81,7 +81,7 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
 
 轮到您迁移时，组织管理员将在迁移前 30 天收到一封通知的电子邮件，
 
-* 将根据组织所在的主要时区，在晚上 10 点到凌晨 6 点之间或在周末进行迁移。
+* 迁移时间安排在晚上10点之间。上午6:00，根据组织的主要时区或周末。
 * 在迁移期间，可能约有 15 分钟时间无法访问 Experience Cloud 应用程序，可能最多有 30 分钟时间无法访问 Admin Console。另一方面，此迁移将无缝进行。
 
 ### 迁移后的变化
