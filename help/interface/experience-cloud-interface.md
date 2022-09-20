@@ -1,15 +1,15 @@
 ---
-description: '了解如何登录以及 Experience Cloud 中的中央界面组件。了解全局搜索、您的帐户偏好设置以及如何浏览界面并获取帮助。 '
+description: 了解如何登录以及 Experience Cloud 中的中央界面组件。了解全局搜索、您的帐户偏好设置以及如何浏览界面并获取帮助。
 solution: Experience Cloud
-title: 'Experience Cloud 中央 UI 组件 '
-feature: Central Interface Components
+title: Experience Cloud 中央 UI 组件
+feature: "Central Interface Components"
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 94%
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud 的中央界面组件包括的功能使您能够：
 
 ## Experience Cloud 中的浏览器支持 {#browser}
 
-为了实现最佳性能，Experience Cloud 针对最流行的浏览器（包括最新版本以及上两个版本）进行了优化。
+为了实现最佳性能，Experience Cloud 针对最受欢迎的浏览器（包括最新版本以及上两个版本）进行了优化。
 
 * Chrome
 * Edge
@@ -31,7 +31,7 @@ Experience Cloud 的中央界面组件包括的功能使您能够：
 * Opera
 * Safari
 
-如果您的浏览器不是上面列出的浏览器，它可能仍受支持，但建议您使用列出的浏览器之一。
+如果您的浏览器非上述浏览器，则可能仍受支持，但建议您使用列出的浏览器之一。
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
    ![验证您的组织](assets/organizations-menu.png)
 
-   要验证您是否已登录到正确的[组织](organizations.md)，请单击您的个人资料头像来查看组织名称。如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
+   要验证您是否已登录到正确的[组织](organizations.md)，请单击您的个人资料头像查看组织名称。 如果您有权访问多个组织，也可以直接在标题栏中查看和切换到另一个组织。
 
-   如果贵组织使用Federated ID，则Experience Cloud允许您使用贵组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 添加 `#/sso:@domain` 到Experience CloudURL(`https://experience.adobe.com`)以完成此任务。
+   如果您的组织使用 Federated ID，则 Experience Cloud 允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。将 `#/sso:@domain` 添加到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任务。
 
    例如，对于带 Federated ID 和域 `adobecustomer.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
@@ -74,7 +74,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-选择应用程序选择器 ![](assets/menu-icon.png) 以访问您拥有的 Experience Cloud 服务。
+选择应用程序选择器 ![菜单](assets/menu-icon.png) 访问您拥有的Experience Cloud服务。
 
 ![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 Experience Cloud 首选项包括通知、订阅和警报。
 
-选择帐户菜单 ![](assets/preferences-icon-sm.png) 中的&#x200B;**[!UICONTROL 偏好设置]**&#x200B;以管理偏好设置。
+选择 **[!UICONTROL 首选项]** 从帐户菜单 ![首选项](assets/preferences-icon-sm.png) 来管理首选项。
 
 ![管理 Experience Cloud](assets/preferences-page.png)
 
@@ -115,7 +115,7 @@ Experience Cloud 首选项包括通知、订阅和警报。
 | 默认[组织](organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
 | [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有“高”标签，可以配置为像警报一样发送。 |
-| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报所针对的通知。警报会在窗口右上角出现几秒钟。 |
+| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
 | 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
 
 {style=&quot;table-layout:auto&quot;}

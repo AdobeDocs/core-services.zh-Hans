@@ -2,16 +2,16 @@
 description: 了解如何在 Adobe Experience Cloud 中使用属性规则来创建受众和定义复合受众。
 keywords: 核心服务
 solution: Experience Cloud
-title: '创建受众 '
+title: 创建受众
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '508'
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 **创建受众**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
-1. 在[!UICONTROL 受众]页面上，选择&#x200B;**[!UICONTROL 新建]**。![](assets/add_icon_small.png)
+1. 在[!UICONTROL 受众]页面上，选择&#x200B;**[!UICONTROL 新建]**。![add](assets/add_icon_small.png)
 
    ![步骤结果](assets/audience_create_new.png)
 

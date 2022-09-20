@@ -2,17 +2,17 @@
 description: 了解如何创建客户属性源并将其上传到 Adobe Experience Cloud。
 keywords: 客户属性;核心服务
 solution: Experience Cloud
-title: '创建客户属性源并上传数据文件 '
+title: 创建客户属性源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 >
 >创建、修改或删除客户属性源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性源。联系 Audience Manager 客户关怀团队或咨询人员以获取管理权限。
 
-1. 在 [!DNL Experience Cloud] 中，选择菜单 ![](assets/menu-icon.png) 图标。
+1. 在 [!DNL Experience Cloud]，选择菜单  ![菜单](assets/menu-icon.png) 图标。
 1. 在 **[!DNL Experience Platform]** 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**。
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
@@ -120,7 +120,7 @@ ht-degree: 100%
 
       **文件上传图**
 
-      ![](assets/file_upload_attributes.png)
+      ![属性](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 唯一客户 ID：]**&#x200B;显示您向此属性来源上传了多少个唯一 ID。
 
