@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1894'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
 
 轮到您迁移时，组织管理员将在迁移前 30 天收到一封通知的电子邮件，
 
-* 迁移时间安排在晚上10点之间。上午6:00，根据组织的主要时区或周末。
+* 迁移将根据组织所在的主要时区安排在晚上 10 点到早上 6 点之间进行或者在周末进行。
 * 在迁移期间，可能约有 15 分钟时间无法访问 Experience Cloud 应用程序，可能最多有 30 分钟时间无法访问 Admin Console。另一方面，此迁移将无缝进行。
 
 ### 迁移后的变化
@@ -196,9 +196,9 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 
 请参阅：
 
-* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理产品和配置文件](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)
+* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hans)
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织�
 
 ### 解决方案和产品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hans)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans)
