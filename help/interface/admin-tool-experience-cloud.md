@@ -1,18 +1,17 @@
 ---
 description: 了解 Experience Cloud 管理工具。查看所有 Experience Cloud 用户和策略的可排序和可过滤列表。
-keywords: 核心服务
 application: Experience Cloud
-title: '查看 Experience Cloud 用户和用户详细信息 '
+title: 查看 Experience Cloud 用户和用户详细信息
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +45,7 @@ ht-degree: 100%
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
 | [!UICONTROL 解决方案] | 用户可访问的 Experience Cloud 应用程序摘要。您可以应用过滤器来缩小具有特定应用程序访问权限的用户列表。 |
-| [!UICONTROL 上次登录] | 用户最近登录 Experience Cloud 的时间和日期。此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自 2020 年 1 月 13 日起，用户的上次登录数据将保留 365 天。该信息旨在显示 Experience Cloud 中的当前登录活动，而不是建议在 2020 年 1 月 13 日之前对不活动帐户采取行动。 |
+| [!UICONTROL 上次登录] | 用户最近登录 Experience Cloud 的时间和日期。此列可以按升序或降序日期排序。<br> **重要信息：** 自2020年1月13日起，用户的上次登录数据将保留365天。 该信息旨在显示 Experience Cloud 中的当前登录活动，而不是建议在 2020 年 1 月 13 日之前对不活动帐户采取行动。 |
 
 ## 自定义用户列表视图
 
@@ -68,7 +67,7 @@ ht-degree: 100%
 
 ![在 Admin Console 中查看用户详细信息](assets/admin-tool-user-details.png)
 
-每个用户的详细视图将显示有关用户的应用程序访问权限、管理员和产品角色以及上次访问信息的重要详细信息。
+每个用户的详细视图会显示有关用户的应用程序访问权限、管理员和产品角色以及上次访问信息的重要详细信息。
 
 ## “关于”部分
 
@@ -78,7 +77,7 @@ ht-degree: 100%
 * 名称
 * 电子邮件
 * 用户名（Federated ID 帐户的用户名可能与电子邮件地址不同）
-* [ID 类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)
+* [ID 类型](https://helpx.adobe.com/enterprise/using/identity.html)
 * 国家/地区
 * 上次登录
 
@@ -131,7 +130,7 @@ ht-degree: 100%
 
 ![在 Admin Console 中查看策略详细信息](assets/admin-tool-policy-detail.png)
 
-每个产品配置文件的详细视图会显示有关产品配置文件主体（用户、组等）的重要详细信息。它还会显示产品配置文件启用的权限和资源。
+每个产品配置文件的详细视图会显示有关产品配置文件主体（用户、组等）的重要详细信息。 它还会显示产品配置文件启用的权限和资源。
 
 产品配置文件的详细信息可导出为 CSV 文件。[!UICONTROL 导出 CSV] 选项会生成两个 CSV 文件：
 

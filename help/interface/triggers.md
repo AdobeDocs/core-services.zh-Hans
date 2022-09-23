@@ -1,8 +1,5 @@
 ---
-description: 了解如何配置 Experience Cloud 触发器。
-keywords: 集成;触发器
-seo-description: How to configure Experience Cloud Triggers.
-seo-title: Triggers
+description: 了解如何配置Experience Cloud触发器。
 solution: Experience Cloud
 title: 触发器概述
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -11,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 98%
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 

@@ -2,11 +2,11 @@
 description: 了解如何登录以及 Experience Cloud 中的中央界面组件。了解全局搜索、您的帐户偏好设置以及如何浏览界面并获取帮助。
 solution: Experience Cloud
 title: Experience Cloud 中央 UI 组件
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 96%

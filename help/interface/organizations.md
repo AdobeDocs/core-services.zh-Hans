@@ -1,6 +1,5 @@
 ---
 description: 了解组织（IMS 组织 ID）并将解决方案帐户关联到 Experience Cloud。
-keywords: Adobe Experience Cloud 服务
 solution: Experience Cloud
 title: 组织和帐户关联
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '571'
 ht-degree: 77%
 
 ---
@@ -64,7 +63,7 @@ ht-degree: 77%
 
 1. 按照邀请您加入 Experience Cloud 的电子邮件中的步骤操作。
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
-1. 选择应用程序选择器。 ( ![菜单](assets/menu-icon.png))。
+1. 选择应用程序选择器。 ( ![菜单](assets/menu-icon.png)).
 
    ![将应用程序帐户关联到 Adobe ID](assets/solutions-active.png)
 

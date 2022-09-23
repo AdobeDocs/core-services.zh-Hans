@@ -1,18 +1,17 @@
 ---
-description: 有关在 Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
-keywords: 客户属性;核心服务
+description: 了解有关在Experience Cloud中上传和使用的个人身份信息(PII)的注意事项和最佳实践。
 solution: Experience Cloud
-title: '客户属性的隐私注意事项 '
+title: 客户属性的隐私注意事项
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 

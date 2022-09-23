@@ -3,15 +3,15 @@ description: 了解 Experience Cloud 的中央界面组件。该帮助包括如�
 solution: Experience Cloud
 title: Experience Cloud 界面帮助和文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-要访问组织内为您配置的Experience Cloud应用程序和服务，请转到应用程序选择器 ![菜单](assets/menu-icon.png).
+要访问组织中为您配置的 Experience Cloud 应用程序和服务，请转至应用程序选择器 ![菜单](assets/menu-icon.png)。
 
 ![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 * 注销
 * 配置帐户首选项、通知和订阅
 
-要管理首选项，请选择 **[!UICONTROL 首选项]** 从帐户菜单 ![首选项](assets/preferences-icon-sm.png).
+要管理偏好设置，请选择帐户菜单 ![偏好设置](assets/preferences-icon-sm.png) 中的&#x200B;**[!UICONTROL 偏好设置]**。
 
 ![用户个人资料和帐户偏好设置](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 
 ## Experience Cloud 域 {#domains}
 
-Experience Cloud 使用以下主机来交付应用程序、提高性能和改善产品体验。Adobe建议将这些域添加到防火墙的允许列表，以获得最佳体验。 其他域也可用于特定的 Experience Cloud 应用程序，例如 Adobe Analytics。有关更多信息，请查看这些应用程序的文档。
+Experience Cloud 使用以下主机来交付应用程序、提高性能和改善产品体验。Adobe 建议将这些域添加到防火墙的允许列表以获得最佳体验。其他域也可用于特定的 Experience Cloud 应用程序，例如 Adobe Analytics。有关更多信息，请查看这些应用程序的文档。
 
 | 技术 | 域 |
 |--- |--- |

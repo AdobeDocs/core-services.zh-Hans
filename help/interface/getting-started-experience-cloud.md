@@ -1,6 +1,5 @@
 ---
 description: 了解如何登录到 Adobe Experience Cloud、管理密码和通知，以及指定默认登录页面。
-keywords: 核心服务, 登录到 Experience Cloud
 solution: Experience Cloud
 title: 登录并管理 Experience Cloud 配置文件设置
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
@@ -9,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 96%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 96%
 
 登录并验证您是否处于正确的[组织](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)中。
 
-1. 选择Experience Cloud菜单( ![首选项](assets/menu-icon.png))，然后选择 **[!UICONTROL 管理]**.
+1. 选择 Experience Cloud 菜单 (![偏好设置](assets/menu-icon.png))，然后选择&#x200B;**[!UICONTROL 管理]**。
 
    如果未显示&#x200B;**[!UICONTROL 管理]**&#x200B;链接，您便不是所显示[组织](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理员。有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
 1. 选择&#x200B;**[!UICONTROL 管理]**。
@@ -60,7 +59,7 @@ ht-degree: 96%
 
    您的 Experience Cloud 管理员可以帮助您确定帐户类型（Adobe ID 或 Enterprise ID）。
 
-1. 在登陆页面上，选择选择器图标  ![菜单](assets/menu-icon.png) 来访问下拉菜单。
+1. 在登陆页上，选择选择器图标 ![菜单](assets/menu-icon.png) 以访问下拉菜单。
 
    ![菜单](assets/experience-cloud-core-services.png)
 
@@ -82,7 +81,7 @@ ht-degree: 96%
 
 获取有关系统更新、维护通知、帖子、提及次数和共享资源的通知（通过电子邮件或在产品内）。您还可以指定需要通知的产品和应用程序，包括客户属性的上传状态。
 
-要导航到通知，请选择 **[!UICONTROL 通知]** 图标  ![通知](assets/notifications-icon.png)，然后选择 **[!UICONTROL 设置]** 图标  ![编辑](assets/icon_edit_board.png).
+要导航到通知，请选择&#x200B;**[!UICONTROL 通知]**&#x200B;图标 ![通知](assets/notifications-icon.png)，然后选择&#x200B;**[!UICONTROL 设置]** 图标 ![编辑](assets/icon_edit_board.png)。
 
 您可以根据您认为重要的消息类型对“通知”显示进行排序，然后搜索通知。您还可以：
 

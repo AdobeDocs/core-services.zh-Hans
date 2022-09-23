@@ -1,17 +1,15 @@
 ---
 description: 了解 Experience Cloud 中用于管理已批准的 Creative Cloud 用户的管理工具。
-keywords: 资源共享;Creative Cloud;核心服务
 solution: Experience Cloud
 title: 管理 Creative Cloud 用户
-uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '121'
 ht-degree: 97%
 
 ---

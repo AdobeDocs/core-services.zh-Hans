@@ -1,8 +1,7 @@
 ---
 description: 了解 Adobe Analytics 如何使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。
-keywords: cookies;隐私
 solution: Experience Cloud,Analytics
-title: '"第一方 Cookie "'
+title: "第一方 Cookie "
 index: y
 snippet: y
 feature: Cookies
@@ -10,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 91%
+source-wordcount: '1602'
+ht-degree: 85%
 
 ---
 
@@ -21,12 +20,12 @@ ht-degree: 91%
 
 Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。Adobe 尽可能使用第一方 Cookie 记录您网站上的活动。记录不同网站（如您可能拥有的其他域）上的活动需要使用第三方 cookie。
 
-许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe 确保我们始终可以设置 Cookie，即使第三方 Cookie 被阻止也是如此。具体行为取决于您使用的是 Experience Platform Identity Service（ECID 服务）还是 Analytics 旧版标识符（又称 s_vi Cookie）：
+许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe 确保我们始终可以设置 Cookie，即使第三方 Cookie 被阻止也是如此。具体行为会因您使用的是Experience Platform标识服务（ECID服务）还是Analytics的旧版标识符（即s_vi Cookie）而异：
 
-* [Experience Platform Identity Service（ECID 服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en)将自动设置第一方 Cookie，无论您的收集域是否与网站域匹配。如果两者不匹配，Identity Service 将使用 JavaScript 在网站的域中设置 Cookie。
+* [Experience Platform Identity Service（ECID 服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en)将自动设置第一方 Cookie，无论您的收集域是否与网站域匹配。如果二者不匹配，Identity服务将使用JavaScript在您网站的域中设置Cookie。
 * 如果使用 [Analytics 旧版标识符](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en)（又称 `s_vi` Cookie），则它将取决于您配置数据收集服务器的方式。如果数据收集服务器与您网站的域相同，则 Cookie 被设置为第一方。如果收集服务器与您当前的域不同，则 Cookie 被设置为第三方。在这种情况下，如果第三方 Cookie 被阻止，则 Analytics 将设置第一方[后备 ID (s_fid)](cookies-analytics.md) 而非标准“s_vi”Cookie。
 
-如果您想确保收集服务器与网站的域相匹配，则可使用 CNAME 实施，从而支持从 CNAME 实施中指定的自定义域转发到 Adobe 的收集服务器。其中涉及更改您公司的 DNS 设置以配置指向某个 Adobe 托管域的 CNAME 别名。请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个 CNAME 端点在其域间跟踪用户，但是，只要网站域与 CNAME 域不同，Cookie 就被设置为第三方。
+如果您希望确保收集服务器与网站的域相匹配，则可以使用CNAME实施，该实施将允许从CNAME实施中指定的自定义域转发到Adobe的收集服务器。 其中涉及更改您公司的 DNS 设置以配置指向某个 Adobe 托管域的 CNAME 别名。请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个 CNAME 端点在其域间跟踪用户，但是，只要网站域与 CNAME 域不同，Cookie 就被设置为第三方。
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
 
 1. 设置好 CNAME 后，Adobe 与 DigiCert 合作以购买证书并安装到 Adobe 的生产服务器上。
 
-   如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到 Adobe 生产环境后，您就可以将跟踪服务器变量更新为新的主机名。也就是说，如果站点不安全 (HTTP)，则更新 `s.trackingServer` 变量。如果站点安全 (HTTPS)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
+   如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到Adobe的生产环境后，您可以将跟踪服务器变量更新为新的主机名。 也就是说，如果站点不安全 (HTTP)，则更新 `s.trackingServer` 变量。如果站点安全 (HTTPS)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
 
 2. [验证主机名转发](#validate)（请参阅下文）。
 

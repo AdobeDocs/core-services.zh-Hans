@@ -1,18 +1,17 @@
 ---
-description: “Experience Cloud 服务的最新功能、发行说明和已知问题，如客户属性、受众和用户管理。”
-keywords: 核心服务
+description: 了解Experience Cloud服务（如客户属性、受众和用户管理）的最新功能、发行说明和已知问题。
 solution: Experience Cloud
-title: '发行说明汇总 '
+title: 发行说明汇总
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: ht
-source-wordcount: '4767'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '4768'
+ht-degree: 99%
 
 ---
 
@@ -126,7 +125,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)。 |
+| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。 有关详细信息，请参阅 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -150,7 +149,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 * 更新了应用程序切换器，现已在 Experience Cloud 应用程序套件中包含 Marketo，同时将品牌更新为“Experience Platform”。(MCUI-6529)
 * 更新了 Experience Cloud 主页，以包含指向“信息源”和“管理”页面的导航链接。(MCUI-6682)
-* 修复了[!UICONTROL 触发器]定义中存在的问题，以纠正“like”子句的用法。(MCUI-6611)
+* 修复了 [!UICONTROL 触发器] 定义以正确使用“like”子句。 (MCUI-6611)
 * 改进了客户属性，让登录“订阅”服务的过程变得更加顺畅。(MCUI-6519)
 
 ## 19.1.1 版 - 2019 年 1 月 17 日

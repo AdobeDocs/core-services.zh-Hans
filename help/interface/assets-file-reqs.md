@@ -1,17 +1,16 @@
 ---
 description: 了解在 Adobe Experience Cloud 和 Creative Cloud 之间共享资产所允许的文件类型和大小限制。
-keywords: 资产共享;Creative Cloud;核心服务
 solution: Experience Cloud
-title: '共享资产的文件要求 '
+title: 共享资产的文件要求
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '122'
 ht-degree: 100%
 
 ---
