@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
 ht-degree: 100%
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 | 组合 | 多个文件或资源的集合。 | 营销活动的容器。 |
 | 产品配置文件 | 请参阅[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)。 | 要使用户有权使用产品或服务，则必须将该用户添加至产品配置文件中。通过将产品配置文件与您购买的计划关联，产品管理员可向产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，而每个产品配置文件会将不同的许可证授予该用户。用户的最终资格为每个产品配置文件向该用户授予的所有许可证的总和。 |
 | 计划 | 可以指 Adobe Story 中的一系列场景或 ColdFusion 中的计划任务。 | 在 Experience Cloud 中，计划是指激活营销活动、渠道和活动的开始日期（年、月、日）和结束日期。活动计划的粒度细化至分钟。更改计划将会创建一张信息卡。<br>示例包括：<ul><li>营销活动计划</li><li>渠道计划</li><li>活动计划</li></ul> |
-| 区段 | 不适用 | 用于限定受众的一组规则的输出。在 Analytics 中，可以选择使用[区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en)来定义可以传递到 Experience Cloud 的受众。<br>在 Audience Manager 中，区段是使访客有资格成为该区段成员或包括在该区段中的[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hans)和所有条件的集合。而且，这是拥有共同属性的人员的集合。 |
+| 区段 | 不适用 | 用于限定受众的一组规则的输出。在 Analytics 中，可以选择使用[区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)来定义可以传递到 Experience Cloud 的受众。<br>在 Audience Manager 中，区段是使访客有资格成为该区段成员或包括在该区段中的[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hans)和所有条件的集合。而且，这是拥有共同属性的人员的集合。 |
 | 共享 | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在 Experience Cloud 中，您可以在界面中的展示板内，仅将资源共享为信息卡。登录到网站的用户可以进行共享。 |
 | 解决方案 | 无特殊用途。 | 在 Experience Cloud 中，应用程序又叫产品，如 Adobe Analytics、Adobe Social、Adobe Target 等等。 |
-| 特征 | 不适用 | color=blue 这类的键值对。在 Audience Manager 中，[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)用于构建区段。 |
+| 特征 | 不适用 | color=blue 这类的键值对。在 Audience Manager 中，[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hans)用于构建区段。 |
 
 {style=&quot;table-layout:auto&quot;}
