@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
-source-wordcount: '970'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 登录并验证您是否处于正确的[组织](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)中。
 
-1. 选择 Experience Cloud 菜单 (![偏好设置](assets/menu-icon.png))，然后选择&#x200B;**[!UICONTROL 管理]**。
+1. 选择 Experience Cloud 菜单 (![首选项](assets/menu-icon.png))，然后选择&#x200B;**[!UICONTROL 管理]**。
 
    如果未显示&#x200B;**[!UICONTROL 管理]**&#x200B;链接，您便不是所显示[组织](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理员。有关成为管理员方面的帮助，请联系客户关怀团队或贵公司的现有 Experience Cloud 管理员。
 1. 选择&#x200B;**[!UICONTROL 管理]**。
