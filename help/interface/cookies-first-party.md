@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,30 +47,34 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
 
 下面说明了如何为第一方数据收集实施新的第一方 SSL 证书：
 
-1. 填写[第一方域请求表](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的计划设置第一方数据收集。文档中通过示例描述了每个字段。
+1. 填写[第一方域请求表](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的计划设置第一方数据收集。
 
-2. 创建 CNAME 记录（请参阅下面的说明）。
+   文档中通过示例描述了每个字段。
+
+1. 创建 CNAME 记录（请参阅下面的说明）。
 
    在收到服务单后，客户关怀代表应为您提供 CNAME 记录。必须在贵公司的 DNS 服务器上配置这些记录，然后 Adobe 才能代表您购买证书。该 CNAME 类似于以下内容：
 
    **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
->[!NOTE]
-> 过去，Adobe建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 请联系Adobe客户关怀团队以配置CNAME以进行HTTP。
+   >[!NOTE]
+   > 过去，Adobe建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 请联系Adobe客户关怀团队以配置CNAME以进行HTTP。
 
 1. 设置好 CNAME 后，Adobe 与 DigiCert 合作以购买证书并安装到 Adobe 的生产服务器上。
 
    如果您当前已经实施，则应当考虑使用“访客迁移”来维护现有访客。将证书实时推送到Adobe的生产环境后，您可以将跟踪服务器变量更新为新的主机名。 也就是说，如果站点不安全 (HTTP)，则更新 `s.trackingServer` 变量。如果站点安全 (HTTPS)，则更新 `s.trackingServer` 和 `s.trackingServerSecure` 变量。
 
-2. [验证主机名转发](#validate)（请参阅下文）。
+1. [验证主机名转发](#validate)（请参阅下文）。
 
-3. [更新实施代码](#update)（请参阅下文）。
+1. [更新实施代码](#update)（请参阅下文）。
 
 ### 维护和续订
 
-SSL 证书有效期为一年，这意味着 Adobe 必须每年为每个实施购买一个新证书。当每次实施接近失效期时，贵公司内的所有受支持用户都会收到一个电子邮件通知。为了让 Adobe 续订您的主机名，一位受支持的用户必须回复 Adobe 的电子邮件，并表明您计划继续使用即将到期的主机名进行数据收集。在这种情况下，Adobe 会自动购买并安装新证书。
+在第一方证书过期的三十天前，Adobe会验证CNAME是否仍然有效且正在使用。 如果是，则Adobe假定您要继续使用服务并代表您自动重新发布证书。
 
-### 常见问题
+此时，如果CNAME已删除且不再有效，则Adobe不会续订证书，并且系统中的条目将标记为删除。 如果已删除CNAME，则Adobe知道尚未使用该URL进行跟踪，因此可以安全地删除该URL。
+
+### 常见问题解答
 
 | 问题 | 回答 |
 |---|---|
