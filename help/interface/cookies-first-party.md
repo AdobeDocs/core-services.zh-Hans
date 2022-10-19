@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
 
 在第一方证书过期的三十天前，Adobe会验证CNAME是否仍然有效且正在使用。 如果是，则Adobe假定您要继续使用服务并代表您自动重新发布证书。
 
-此时，如果CNAME已删除且不再有效，则Adobe不会续订证书，并且系统中的条目将标记为删除。 如果已删除CNAME，则Adobe知道尚未使用该URL进行跟踪，因此可以安全地删除该URL。
+>[!NOTE]
+> 如果CNAME已被删除和/或不再有效(不映射到提供的AdobeSSL主机名)，则Adobe无法续订证书，并且系统中的条目将标记为删除，而无需进一步通信。
 
 ### 常见问题解答
 
