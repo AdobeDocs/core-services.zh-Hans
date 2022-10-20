@@ -1,7 +1,7 @@
 ---
 solution: Experience Cloud
 type: Documentation
-title: 'Adobe Experience Cloud 受众 '
+title: Adobe Experience Cloud 受众
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: 了解如何在 Experience Cloud 受众服务中管理访客数据到受众分段的转换。
 feature: Audience Library
@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '833'
+ht-degree: 100%
 
 ---
 
