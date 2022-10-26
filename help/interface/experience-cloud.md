@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 013a05d68f3fdf0dc71e048dfa6144be08cdfe6a
+source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 96%
@@ -124,7 +124,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 |--- |--- |
 | 默认[组织](organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
 | [!UICONTROL 产品数据收集] | 选择Adobe可以使用哪些技术来收集有关您如何使用Adobe产品的数据。 |
-| [!UICONTROL 个性化学习建议和促销活动] | 选择您希望在何处获得Adobe产品的个性化帮助。 此帮助可通过电子邮件、产品内和Experience League社区获取。 了解更多. |
+| [!UICONTROL 个性化学习建议和促销活动] | 选择您希望在何处获得Adobe产品的个性化帮助。 此帮助可通过电子邮件、产品内和Experience League社区获取。 [了解详情.](personalized-learning-preferences.md) |
 | [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有“高”标签，可以配置为像警报一样发送。 |
 | [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
