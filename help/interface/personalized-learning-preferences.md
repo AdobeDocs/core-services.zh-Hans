@@ -5,9 +5,9 @@ title: Experience Cloud 个性化的学习偏好设置
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 </thead>
 <tbody>
   <tr>
-    <td colspan="3">通过任意这三种方式，根据您的 Adobe 产品使用情况，获取相关的最佳实践、提示和技巧、有用的演练等...</td>
+    <td colspan="3">通过这三种方式，根据您的 Adobe 产品使用情况，获取相关的最佳实践、提示和技巧、有用的演练等...</td>
     <td></td>
     <td></td>
   </tr>
@@ -51,10 +51,10 @@ ht-degree: 0%
   </tr>
   <tr>
     <td>在 Adobe 发给您的电子邮件中...</td>
-    <td>查看与您在产品中的工作相关的学习内容</td>
+    <td>查看与您在产品中的工作相关的学习内容。</td>
   </tr>
   <tr>
-    <td>在 Experience League 社区中..</td>
+    <td>在 Experience League 社区中...</td>
     <td>根据您当前的工作，查看个性化的帖子和文章推荐。</td>
   </tr>
 </tbody>
@@ -71,7 +71,7 @@ ht-degree: 0%
 </thead>
 <tbody>
   <tr>
-    <td colspan="3">根据您在以下三种方式中每一种方式的工作，为学习活动、研究会议和集成提供量身定制的机会……</td>
+    <td colspan="3">通过这三种方式，根据您的工作，获得量身定制的学习活动、研究会议和集成机会...</td>
     <td></td>
     <td></td>
   </tr>
@@ -90,8 +90,8 @@ ht-degree: 0%
     <td>及时了解 Adobe 提供的有关更多学习机会的信息。</td>
   </tr>
   <tr>
-    <td>在 Experience League 社区中..</td>
-    <td>查看个性化的活动和服务推荐，以增强您的学习。</td>
+    <td>在 Experience League 社区中...</td>
+    <td>查看个性化的活动和服务推荐，以提升您的学习效果。</td>
   </tr>
 </tbody>
 </table>
