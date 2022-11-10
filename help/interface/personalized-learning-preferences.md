@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Experience Cloud 个性化的学习偏好设置
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * 您可能会使用的功能
 * 等等！
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 您可以随时在[用户偏好设置](https://experience.adobe.com/preferences/)中更新您的选择。
@@ -37,8 +37,6 @@ ht-degree: 100%
 <tbody>
   <tr>
     <td colspan="3">通过这三种方式，根据您的 Adobe 产品使用情况，获取相关的最佳实践、提示和技巧、有用的演练等...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>在您的 Adobe 产品中...<br></td>
@@ -72,8 +70,6 @@ ht-degree: 100%
 <tbody>
   <tr>
     <td colspan="3">通过这三种方式，根据您的工作，获得量身定制的学习活动、研究会议和集成机会...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>在您的 Adobe 产品中...<br></td>
@@ -97,6 +93,9 @@ ht-degree: 100%
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## 查看自定义学习信息的示例。
 
 
@@ -111,3 +110,5 @@ ht-degree: 100%
 ### 在 Experience League 社区中
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
