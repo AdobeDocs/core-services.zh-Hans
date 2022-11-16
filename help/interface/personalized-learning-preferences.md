@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud 个性化的学习偏好设置
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: ht
-source-wordcount: '410'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -26,18 +26,15 @@ ht-degree: 100%
 您可以随时在[用户偏好设置](https://experience.adobe.com/preferences/)中更新您的选择。
 
 
+
+
+
 ## 面向您的 Adobe 产品和服务的个性化培训和支持推荐
 
+通过这三种方式，根据您的 Adobe 产品使用情况，获取相关的最佳实践、提示和技巧、有用的演练等...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">面向您的 Adobe 产品和服务的个性化培训和支持推荐</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">通过这三种方式，根据您的 Adobe 产品使用情况，获取相关的最佳实践、提示和技巧、有用的演练等...</td>
-  </tr>
   <tr>
     <td>在您的 Adobe 产品中...<br></td>
     <td>查看弹出窗口和工具提示以获取实时帮助。</td>
@@ -59,18 +56,13 @@ ht-degree: 100%
 </table>
 
 
+
 ## 有关 Adobe 产品、服务、活动和促销的个性化信息
 
+通过这三种方式，根据您的工作，获得量身定制的学习活动、研究会议和集成机会...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">有关 Adobe 产品、服务、活动和促销的个性化信息</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">通过这三种方式，根据您的工作，获得量身定制的学习活动、研究会议和集成机会...</td>
-  </tr>
   <tr>
     <td>在您的 Adobe 产品中...<br></td>
     <td>查看弹出窗口和工具提示，了解与您相关的邀请和机会。</td>
@@ -96,6 +88,9 @@ ht-degree: 100%
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## 查看自定义学习信息的示例。
 
 
@@ -103,9 +98,13 @@ ht-degree: 100%
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### 在 Adobe 发给您的电子邮件中
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### 在 Experience League 社区中
 
