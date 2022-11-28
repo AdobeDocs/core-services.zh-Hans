@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Experience Cloud 个性化的学习偏好设置
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-您可以随时在[用户偏好设置](https://experience.adobe.com/preferences/)中更新您的选择。
+您可以随时在 [用户首选项设置](https://experience.adobe.com/preferences/).
 
 
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr>
     <td>在您的 Adobe 产品中...<br></td>
     <td>查看弹出窗口和工具提示以获取实时帮助。</td>
-    <td rowspan="3">这可能包括... <ul><li>Adobe 专家提供的分步指南和有用提示</li> 
+    <td rowspan="3">这可能包括... <ul><li>Adobe专家的分步指南和有用提示</li> 
     <li>视频教程和信息性演练</li> 
     <li>深度培训和教育内容</li> 
     <li>视频和文章推荐</li>
