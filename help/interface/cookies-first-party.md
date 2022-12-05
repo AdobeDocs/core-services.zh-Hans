@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
 
    在收到服务单后，客户关怀代表应为您提供 CNAME 记录。必须在贵公司的 DNS 服务器上配置这些记录，然后 Adobe 才能代表您购买证书。该 CNAME 类似于以下内容：
 
-   **安全** - 例如，主机名 `smetrics.example.com` 指向：`example.com.adobedc.net`。
+   **安全** - 例如，主机名 `smetrics.example.com` 指向：`[random-10-character-string].data.adobedc.net`。
 
    >[!NOTE]
    > 过去，Adobe建议客户设置两个CNAME，一个用于HTTPS，一个用于HTTP。 由于加密流量是最佳做法，而且大多数浏览器都强烈阻止使用HTTP，因此我们不再建议为HTTP设置CNAME。 现在，将这两者都设置为最佳实践 `trackingServer` 和 `trackingServerSecure` 的CNAME。 例如， `trackingServer` 和 `trackingServerSecure` 将设置为 `smetrics.example.com`. HTTP仅允许用于第三方主机名。
@@ -94,12 +94,12 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
 FPC 专家为您提供所配置的主机名及其要指向哪个 CNAME。例如：
 
 * **SSL 主机名**：`smetrics.mysite.com`
-* **SSL CNAME**：`mysite.com.adobedc.net`
+* **SSL CNAME**：`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > 如果您仍使用非安全方式，则它看上去将类似于此。
 > * **非 SSL 主机名**：`metrics.mysite.com`
-> * **非 SSL CNAME**：`mysite.com.adobedc.net`
+> * **非 SSL CNAME**：`[random-10-character-string].data.adobedc.net`
 
 
 只要没有更改实施代码，该步骤就不会影响数据收集，您可以在更新了实施代码后的任何时间，执行该步骤。
