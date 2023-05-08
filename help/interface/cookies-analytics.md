@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 仅限 CNAME 客户。不适用于第三方场景。Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 |
 | 大小 | 45 字节 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 名称：s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 存储在页面的域中 |
 | 大小 | 4 字节 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 名称：s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 存储在页面的域中 |
 | 大小 | 根据页面 URL 大小而异，但通常为 100 - 200 字节 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 名称：s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 存储在图像请求的域中 - 如果您使用的是第三方 Cookie，或您的域使用的是第一方 Cookie，则通常存储在 2o7.net 或 omtrdc.net 下客户特定的子域中。 |
 | 大小 | 44 字节 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 将作为第一方 Cookie 存储在您的域中。 |
 | 大小 | 33 字节 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 标记
 
@@ -108,7 +108,7 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 | s_cc (Javascript) | 否 | 否 | 未设置 |
 | s_sq (Javascript) | 否 | 否 | 未设置 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ Analytics 帮助中提供了有关[第一方 Cookie](cookies-first-party.md) 的
 
 ## 插件设置的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-可根据 Analytics 插件的使用情况来设置其他 Cookie。这些 Cookie 是代码片段，可供客户端在各种情况下使用。这些情况包括：从 URL 检索值；合并值以传递给 Analytics；捕获表单放弃，等等。有关每个插件所设置的 Cookie 的特定信息，请与 ClientCare 联系。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *插件使用* Cookie。
+{{plug-in}}
+
+可根据 Analytics 插件的使用情况来设置其他 Cookie。这些 Cookie 是代码片段，可供客户端在各种情况下使用。这些情况包括：从 URL 检索值；合并值以传递给 Analytics；捕获表单放弃，等等。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *插件使用* Cookie。
 
 仅当电子邮件和浏览器共享相同的 Cookie 空间时，才能正确识别未使用 JavaScript 而传入图像请求的 Conversion 变量 (eVarX)，例如置入电子邮件内的代码。
