@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 通过 Experience Cloud 的标题，您可以：
 
 * 访问您的应用程序和服务
-* 搜索产品文档、教程和社区帖子
-* 使用全局搜索的全局搜索业务对象（仅向 Experience Platform 用户开放）
+* 从“帮助”菜单中，搜索产品文档、教程和社区帖子。 在Experience League中查看结果。
+* 在“搜索”字段中使用全局搜索(仅Experience Platform用户)来全局搜索业务对象。
 * 管理您的帐户首选项（警报、通知和订阅）
 
 ## 登录到 Experience Cloud {#signin}
@@ -130,7 +130,7 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 | [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
 | 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 通知和公告 {#notifications}
 
@@ -192,7 +192,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 
 * [所有 Experience Cloud 应用程序的产品文档](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hans) – 浏览 Experience Cloud 学习和支持页面以获取帮助
 * [发行说明和产品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) – Experience Cloud 的新增功能，订阅可获取更新
-* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) – 浏览有关核心服务的视频和教程
+* [实施核心服务的教程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hans) – 浏览有关核心服务的视频和教程
 * [Experience League 的专家帮助](https://experienceleague.adobe.com/cn) – 从专家和社区获得指导性学习
 * [教育和培训](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK) – 与 Adobe 互动以确保您能够充分利用 Adobe 的产品
 * [客户体验博客](https://blog.adobe.com/en/topics/digital-transformation) – 阅读 Experience Cloud 博客

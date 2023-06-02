@@ -1,20 +1,20 @@
 ---
-title: 如何使用客户属性
-description: 了解 Adobe Experience Cloud 中的客户属性服务。了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
-solution: Experience Cloud
+title: 客户属性
+description: 了解Experience Cloud中的客户属性。 了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
+solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: e7c487b9139262b8ba02584b5e8517a3919b8fb2
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 98%
 
 ---
 
-# 客户属性概述
+# Experience Cloud 中的客户属性
 
 Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以将数据上传到 Experience Cloud 中的客户属性数据源，然后在 Adobe Analytics 和 Adobe Target 中使用这些数据。
 

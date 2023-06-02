@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 中央界面组件
 title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [创建受众](t-audience-create.md)
       + [发布 Analytics 受众区段](t-publish-audience-segment.md)
    + Experience Cloud 客户属性 {#customer-attributes}
-      + [客户属性概述](attributes.md)
+      + [Experience Cloud 中的客户属性](attributes.md)
       + [关于客户属性的常见问题](faq-crs.md)
       + [关于客户属性的数据文件和数据源](crs-data-file.md)
       + [创建客户属性源并上传数据文件](t-crs-usecase.md)
