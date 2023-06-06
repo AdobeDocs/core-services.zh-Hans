@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 98%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系�
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-   请参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=zh-Hans) 或 [Mbox.js 实现](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=zh-Hans)。
+   参见 [如何部署at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## 企业客户数据是什么？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 

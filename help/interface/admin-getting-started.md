@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 100%
+source-wordcount: '1863'
+ht-degree: 98%
 
 ---
 
@@ -128,11 +128,11 @@ _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和
 1. 选择&#x200B;**[!UICONTROL 新个人资料]**。
 1. 配置该个人资料的详细信息，然后选择&#x200B;**[!UICONTROL 保存]**。
 
-有关更多信息（以及有关 Creative Cloud 和 Document Cloud 产品管理的帮助），请参阅[管理用户指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/users.ug.html)中的[身份](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/identity.ug.html)。
+有关更多信息（以及有关 Creative Cloud 和 Document Cloud 产品管理的帮助），请参阅[管理用户指南](https://helpx.adobe.com/cn/enterprise/using/users.html)中的[身份](https://helpx.adobe.com/cn/enterprise/using/identity.html)。
 
 **相关帮助**
 
-* 管理用户指南中的[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)。
+* 管理用户指南中的[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)。
 * 有关更多信息，请参阅 Adobe Target 帮助中的[企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)。
 * 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hans)
 
@@ -188,7 +188,7 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 **相关帮助**
 
 * [Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
-* [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
+* [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -197,7 +197,7 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要将�
 请参阅：
 
 * [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)
-* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)
 * 视频：[如何在 Adobe Admin Console 中配置 Adobe Target 工作区](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hans)
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -220,7 +220,7 @@ Experience Platform [!UICONTROL 数据收集] ([!UICONTROL Launch]) 会显示在
 
 Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织。Experience Manager 客户可以使用 Adobe [!UICONTROL Admin Console] 管理产品权利以及对 Experience Manager 即[!UICONTROL 云服务]的 IMS 身份验证。
 
-请参阅 [Experience Manager 即云服务的 IMS 支持](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=zh-Hans)。
+请参阅 [Experience Manager 即云服务的 IMS 支持](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=zh-Hans)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -236,10 +236,9 @@ Adobe Enterprise 客户在 Adobe [!UICONTROL Admin Console] 中表示为组织�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans) 不支持[!DNL Opera]，[Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans) 不支持[!DNL Safari]。）
+**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) 不支持[!DNL Opera]，[!DNL Adobe Target] 不支持[!DNL Safari]。）
 
 ### 解决方案和产品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hans)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hans)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hans)
