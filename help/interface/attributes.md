@@ -1,6 +1,6 @@
 ---
 title: 客户属性
-description: 了解Experience Cloud中的客户属性。 了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
+description: 了解 Experience Cloud 中的客户属性。了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -28,13 +28,13 @@ Experience Cloud 中的[!UICONTROL 客户属性]允许您上传从客户关系�
 
 * **群组成员资格：**&#x200B;要上传客户属性数据，用户必须是[客户属性群组](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)的成员。此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-   要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。
+  要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。
 
-   添加到客户属性的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单项。
+  添加到客户属性的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单项。
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-   参见 [如何部署at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  参见 [如何部署at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## 企业客户数据是什么？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
