@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '4768'
-ht-degree: 100%
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+workflow-type: tm+mt
+source-wordcount: '5006'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,29 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
+请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)，了解所有应用程序的发行说明。
+
+## 2023年7月至8月
+
+版本： **2023年7月20日至8月31日**
+
+Adobe正在更新其配置以提供所有 [!DNL Experience Cloud] 客户可以使用一些基础功能，这些功能有助于实现部分客户之间的互操作性 [!DNL Experience Cloud] 产品。 用户将拥有 [!DNL Experience Platform] 作为添加到他们的新权利 [!DNL Experience Cloud] 组织，带 [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) 作为附带服务。 [!DNL Experience Platform] [!UICONTROL 数据收集] 包括用于简化通用标记管理的标记，并提供可信、强大而完整的流数据基础架构。 此更新简化了您的体验数据收集并简化了体验交付。
+
+通过此更新，管理员可能会看到对Admin Console的更改或添加：
+
+* Adobe [!DNL Experience Platform] Admin Console中的产品卡将包括： [Places](https://experienceleague.adobe.com/docs/places/using/home.html)， [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans)， [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)， [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)， [体验数据模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)， [架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)， [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)、和 [EXPERIENCE CLOUDID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+
+   * 对于当前未使用的组织 [!DNL Experience Platform]，您现在将看到 [!DNL Experience Platform] 中的产品 [!UICONTROL Admin Console]，包括上面列出的功能。
+
+   * 对于当前正在使用的组织 [!DNL Experience Platform]， [!UICONTROL Places] 将被合并到 [!DNL Experience Platform] 信息卡。
+
+* Adobe [!DNL Experience Platform] [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (以前为 [!DNL Launch])和 [隐私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) 将继续显示为他们自己的产品卡，与其他产品卡分开 [!DNL Experience Platform] 功能
+
+## 2023 年 5 月
+
+发布日期：**2023 年 5 月 25 日**
+
+* 在 [!DNL Experience Cloud] **[!UICONTROL 帮助]**&#x200B;菜单中，内容搜索已更新为按应用程序筛选 [Experience League](https://experienceleague.adobe.com/#home) 搜索结果。
 
 ## 2022 年 7 月
 
@@ -35,7 +57,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | ------- | ------- |
 | 统一主页 - 快速访问构件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL 快速访问]的前面和中心。<br>**利用智能固定功能随时了解最新动态：**&#x200B;您的新应用程序现在更容易找到。新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL 快速访问]。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2022 年 4 月
 
@@ -43,7 +65,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | ------- |-------|
 | 免费语言搜索 | 通过统一搜索，通过一个界面即时获得所有帮助问题的答案。 您始终可以在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer] 的每个页面上访问此功能。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2022 年 3 月
 
@@ -66,7 +88,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流程中提供图表建议。给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 年 10 月
 
@@ -77,7 +99,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | Experience Cloud [!UICONTROL 触发器]导航 | [Experience Cloud 触发器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hans)适用于从已设置用户标头中的应用程序切换器的直接导航。 |
 | **注意：**&#x200B;计划的界面导航更新 | 2021 年 11 月，将从 <https://experience.adobe.com/implement> 中删除&#x200B;_[!UICONTROL 转至启动/数据收集]_&#x200B;导航功能。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 年 8 月
 
@@ -96,7 +118,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。<br>例如，假设您拥有域 `adobecustomer.com` 且希望登录到 Adobe Analytics。URL 应为：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。 |
 | Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)，使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档和课程等。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 年 5 月
 
@@ -104,9 +126,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | ------- | ------- | ------- |
 | Experience Cloud 标题和导航 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
 | Experience Cloud 全局搜索 | 2021 年 5 月 20 日 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。通过 [!UICONTROL Platform] 全局搜索，可搜索 Experience Cloud 中的任何业务对象，如区段、数据集、架构等等。） |
-| Experience Cloud 语言首选项 | 2021 年 5 月 20 日 | 此更新包括可在 Experience Cloud [首选项](https://experience.adobe.com/preferences)中设置您的首选语言。 |
+| Experience Cloud 语言偏好设置 | 2021 年 5 月 20 日 | 此更新包括可在 Experience Cloud [偏好设置](https://experience.adobe.com/preferences)中设置您的首选语言。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 年 8 月
 
@@ -114,7 +136,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | -----------| ---------- |
 | 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。有关详细信息，请参阅 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 年 4 月
 
@@ -127,7 +149,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | -----------| ---------- |
 | 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。有关详细信息，请参阅 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **修复**
 
