@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
 workflow-type: tm+mt
-source-wordcount: '5006'
-ht-degree: 96%
+source-wordcount: '4770'
+ht-degree: 100%
 
 ---
 
@@ -23,21 +23,23 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)，了解所有应用程序的发行说明。
 
-## 2023年7月至8月
+<!-- ## July - August 2023
 
-版本： **2023年7月20日至8月31日**
+NA - released July 2022
 
-Adobe正在更新其配置以提供所有 [!DNL Experience Cloud] 客户可以使用一些基础功能，这些功能有助于实现部分客户之间的互操作性 [!DNL Experience Cloud] 产品。 用户将拥有 [!DNL Experience Platform] 作为添加到他们的新权利 [!DNL Experience Cloud] 组织，带 [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) 作为附带服务。 [!DNL Experience Platform] [!UICONTROL 数据收集] 包括用于简化通用标记管理的标记，并提供可信、强大而完整的流数据基础架构。 此更新简化了您的体验数据收集并简化了体验交付。
+Release: **July 20 - August 31, 2023**
 
-通过此更新，管理员可能会看到对Admin Console的更改或添加：
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
-* Adobe [!DNL Experience Platform] Admin Console中的产品卡将包括： [Places](https://experienceleague.adobe.com/docs/places/using/home.html)， [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans)， [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)， [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)， [体验数据模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)， [架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)， [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)、和 [EXPERIENCE CLOUDID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+With this update, administrators may see changes or additions to the Admin Console:
 
-   * 对于当前未使用的组织 [!DNL Experience Platform]，您现在将看到 [!DNL Experience Platform] 中的产品 [!UICONTROL Admin Console]，包括上面列出的功能。
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
-   * 对于当前正在使用的组织 [!DNL Experience Platform]， [!UICONTROL Places] 将被合并到 [!DNL Experience Platform] 信息卡。
+  * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
-* Adobe [!DNL Experience Platform] [数据收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (以前为 [!DNL Launch])和 [隐私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) 将继续显示为他们自己的产品卡，与其他产品卡分开 [!DNL Experience Platform] 功能
+  * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
+
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## 2023 年 5 月
 
