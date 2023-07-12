@@ -21,7 +21,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 有关文档更新的列表，请参阅 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)，了解所有应用程序的发行说明。
+请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
 <!-- ## July - August 2023
 
