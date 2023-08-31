@@ -1,26 +1,26 @@
 ---
-description: 了解用于将广告互动事件映射到转化事件的 Adobe Ad Cloud Cookie，并可能会使用该信息来优化广告投标。
-title: 'Advertising Cloud Cookie '
+description: 了解用于将广告参与事件映射到转化事件的Adobe AdvertisingCookie，并可能使用该信息来优化广告投标。
+title: Adobe AdvertisingCookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Advertising Cloud Cookie{#advertising-cloud-cookies}
+# Adobe AdvertisingCookie{#advertising-cloud-cookies}
 
-Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并可能使用该信息来优化广告投标。
+Adobe Advertising(以前称为Adobe Advertising Cloud)使用Cookie将广告参与事件映射到转化事件，并可能使用该信息来优化广告投标。
 
 >[!NOTE]
 >
->测试版 Advertising Cloud JavaScript 标记，它使用 [Adobe Experience Cloud ID (ECID) 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)创建[第一方 Experience Cloud s_ecid Cookie](cookies-first-party.md) 而非 Advertising Cloud Cookie。
+>测试版Adobe AdvertisingJavascript标记，它使用 [Adobe Experience Cloud ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans) 创建 [第一方Experience Clouds_ecid Cookie](cookies-first-party.md)，而不是Adobe AdvertisingCookie。
 
 ## Cookie 名称：_lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>使用 Advertising Cloud DSP 跟踪的广告互动的编码 ID 和时间戳 </p> </td> 
+   <td colname="col2"> <p>使用Adobe Advertising DSP跟踪的广告互动的编码ID和时间戳 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
-   <td colname="col2"> <p>在 2021 年 2 月 24 日或之前设置的 Cookie 在 730 天后过期。在 2021 年 2 月 25 日或之后设置的 Cookie 在 364 天后过期。</p> </td> 
+   <td colname="col2"> <p>1 年</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用情况 </p> </td> 
-   <td colname="col2"> <p>第一方 Cookie，用于将冲浪者 ID 与相关受众区段和转化关联 </p> <p> 有关上次访问的信息将用于避免向 Adobe 服务器发出不必要的请求，从而优化页面加载时间。 </p> <p>有关上次搜索点击的信息可帮助确定转化事件是点击的结果还是查看的结果（转化由展示次数产生，但非点击量）。 </p> </td> 
+   <td colname="col2"> <p>第一方 Cookie，用于将冲浪者 ID 与相关受众区段和转化关联 </p> <p> 有关上次访问的信息将用于避免向发送不必要的请求，从而优化页面加载时间 [!DNL Adobe] 服务器。 </p> <p>有关上次搜索点击的信息可帮助确定转化事件是点击的结果还是查看的结果（转化由展示次数产生，但非点击量）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  </tbody> 
 </table>
 
-## Cookie 名称：ev_sync_*
+## Cookie 名称：ev_sync_&#42;
 
 （ev_sync_ax、ev_sync_bk、ev_sync_dd、ev_sync_fs、ev_sync_ix、ev_sync_nx、ev_sync_ox、ev_sync_pm、ev_sync_rc、ev_sync_tm、ev_sync_yh）
 
@@ -143,7 +143,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用情况 </p> </td> 
-   <td colname="col2"> <p>第三方广告交易特定的 Cookie，用于同步 Advertising Cloud 冲浪者 ID 与合作伙伴广告交易。它是为新冲浪者创建的，并在过期时发送同步请求。 </p> </td> 
+   <td colname="col2"> <p>第三方广告交易特定的Cookie，用于将Adobe Advertising冲浪者ID与合作伙伴广告交易同步。 它是为新冲浪者创建的，并在过期时发送同步请求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>1 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用情况 </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud 使用 Cookie 将广告互动事件映射到转化事件，并
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform) ID </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP(Demand Side Platform)ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>过期 </p> </td> 
