@@ -6,9 +6,9 @@ title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
 source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 99%
       + [[!UICONTROL Data Connectors] Cookie](cookies-dc.md)
       + [[!UICONTROL Data Workbench] Cookie](cookies-insight.md)
       + [Experience Cloud Cookie](cookies-mc.md)
-      + [Adobe AdvertisingCookie](cookies-advertising-cloud.md)
+      + [Adobe Advertising Cookie](cookies-advertising-cloud.md)
       + [[!DNL Scene7] Cookie](cookies-s7.md)
       + [[!DNL Search and Promote] Cookie](cookies-snp.md)
       + [[!DNL Target] Cookie](cookies-target.md)
