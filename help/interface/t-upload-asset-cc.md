@@ -1,14 +1,12 @@
 ---
-description: 从Creative Cloud浏览器将资产上传到共享文件夹以Experience Cloud。
-solution: Experience Cloud
+description: 从Creative Cloud浏览器将资源上传到共享文件夹以进行Experience Cloud。
 title: 从 Creative Cloud 浏览器将资产上传到共享文件夹
-uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 81%

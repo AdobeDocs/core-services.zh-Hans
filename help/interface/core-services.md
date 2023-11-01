@@ -3,12 +3,12 @@ description: 实现 Adobe Analytics 和 Adobe Target 应用程序的现代化，
 solution: Experience Cloud
 title: 为跨应用程序服务启用应用程序
 index: true
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 95%
@@ -116,9 +116,9 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 在已知客户 ID 的情况下，必须在每次 [!DNL Analytics] 服务器调用中进行设置。
 
-#### Analytics：将客户ID与Data warehouse回填方法同步
+#### Analytics：将客户ID与Data Warehouse回填方法同步
 
-当客户属性首次可用时，一些客户尚未实施Experience CloudID服务，并且无法轻松利用客户属性。 为了帮助缓解此问题，Adobe创建了一种使用Adobe AnalyticsData warehouse回填ID同步的方法。 此功能称为Data warehouse回填。 data warehouse回填现在通常不是必需的，因此，从2022年10月起，将不再提供此功能。
+当客户属性首次可用时，一些客户尚未实施Experience CloudID服务，并且无法轻松利用客户属性。 为了帮助缓解此问题，Adobe创建了一种使用Adobe AnalyticsData Warehouse回填ID同步的方法。 此功能称为Data Warehouse回填。 Data Warehouse回填现在通常不是必需的，因此，从2022年10月起，将不再可用。
 
 
 ### Mobile SDK
@@ -151,9 +151,9 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 * 如果您没有使用 [!UICONTROL Experience Platform Launch]，请手动[更新 mbox 库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans)。
 * 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
 
-   >[!IMPORTANT]
-   >
-   >已针对客户属性等核心服务配置了所有 Analytics 客户。如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
+  >[!IMPORTANT]
+  >
+  >已针对客户属性等核心服务配置了所有 Analytics 客户。如果您不是 Analytics 客户，请联系客户关怀团队以请求进行配置。
 
 ## 验证实施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 

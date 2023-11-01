@@ -1,15 +1,15 @@
 ---
 description: 了解 Adobe Experience Cloud 用户和产品管理、人员（受众和客户属性）、Journey Orchestration、选件、位置、Experience Platform Launch 和 Mobile Services。
 solution: Experience Cloud
-title: 'Experience Cloud 服务概述 '
-feature: Customer Attributes
+title: Experience Cloud 服务概述
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 96%
 | [管理](admin-getting-started.md) | 了解有关登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件，以及浏览器支持的信息。 |
 | [Cookie](cookies-privacy.md) | 维护客户隐私和数据安全是 Adobe 的首要任务。Adobe 加入多个隐私组织并与隐私管理机构合作，同时实行自我监管原则。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->Experience Platform 的产品文档位于[此处](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)。的技术文档 [!UICONTROL Experience Platform] 开发人员位于 [Adobe开发人员](https://developer.adobe.com/apis).
+>Experience Platform 的产品文档位于[此处](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en)。的技术文档 [!UICONTROL Experience Platform] 开发人员位于 [Adobe Developer](https://developer.adobe.com/apis).
