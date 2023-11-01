@@ -1,14 +1,13 @@
 ---
 description: 了解 Experience Cloud 的中央界面组件。该帮助包括如何在 Admin Console 中管理用户和产品、如何启用面向 Experience Cloud 服务的应用程序，并且提供有关受众库、客户属性和 Experience Cloud Assets 等更多方面的帮助。
-solution: Experience Cloud
 title: Experience Cloud 界面帮助和文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
 workflow-type: ht
 source-wordcount: '1347'
 ht-degree: 100%
