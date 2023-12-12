@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 中央界面组件
 title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '341'
 ht-degree: 98%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [[!DNL Target] Cookie](cookies-target.md)
       + [启用浏览器 Cookie 的隐私设置](browser-cookie-settings.md)
       + [第三方 Cookie 支持的变化对客户有何影响](cookies-thirdparty.md)
++ [Experience Cloud 触发器](triggers.md)
 + Experience Cloud UI 发行说明{#release-notes}
    + [中央界面组件发行说明](release-notes.md)
    + [所有 Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
