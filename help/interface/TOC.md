@@ -5,17 +5,17 @@ breadcrumb-title: Experience Cloud 中央界面组件
 title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 98%
 
 ---
 
 
 # Experience Cloud 中央界面组件 {#interface}
 
-+ [Experience Cloud 中央界面组件指南](experience-cloud.md)
++ [《Experience Cloud中央界面组件指南》](experience-cloud.md)
 + Experience Cloud 服务 {#services}
    + [Experience Cloud 服务](core-services-landing.md)
    + [Experience Cloud 中的统一搜索](search-experience-cloud.md)
@@ -37,10 +37,6 @@ ht-degree: 100%
       + [对《通用数据保护条例》的支持情况](gdpr.md)
       + [对《加州消费者隐私法案》的支持情况](ccpa.md)
       + [客户属性的隐私注意事项](privacy-mac.md)
-   + Experience Cloud 激活 {#activation}
-      + [激活概述](activation.md)
-      + [Experience Platform Launch 用户指南](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
-      + [触发器](triggers.md)
    + Experience Cloud 资产 {#assets}
       + [Experience Cloud 资产概述](experience-cloud-assets.md)
       + [与 Creative Cloud 共享 Experience Cloud 文件夹和资源](creative-cloud.md)

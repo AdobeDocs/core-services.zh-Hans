@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1125'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 1. [创建数据文件](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [创建属性源并上传数据文件](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [验证架构](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [配置订阅并激活属性源](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [配置订阅和激活属性源](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 在数据源处于活动状态后，您可以：
 
@@ -81,52 +81,52 @@ ht-degree: 98%
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名 ID] 是在您的客户属性源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在 Experience Cloud 中的客户属性源的[!UICONTROL 别名 ID] 字段中输入的值，应与从实施中传入的值（无论是通过数据收集 (Launch)、动态标记管理还是 Mobile SDK 的 JavaScript 传入）匹配。
+   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名 ID] 是在您的客户属性源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在中输入的值 [!UICONTROL 别名ID] Experience Cloud中客户属性源的字段应与从实施中传入的值（无论是通过Platform数据收集还是Mobile SDK的JavaScript传入）匹配。
 
-      别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
+     别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
       * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
       * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
-         例如，下面的&#x200B;*“crm_id”*：
+        例如，下面的&#x200B;*“crm_id”*：
 
-         ```
-         "crm_id":"67312378756723456"
-         ```
+        ```
+        "crm_id":"67312378756723456"
+        ```
 
       * **iOS：**&#x200B;别名 ID 对应于 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans) 中的 *&quot;idType&quot;*。
 
-         例如：
+        例如：
 
-         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
       * **Android™：** 别名 ID 对应于 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans) 中的 *&quot;idType&quot;*。
 
-         例如：
+        例如：
 
-         `identifiers.put(`**`"idType"`**`, "idValue");`
+        `identifiers.put(`**`"idType"`**`, "idValue");`
 
-         请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解有关别名 ID 字段和客户 ID 的数据处理的其他信息。
+        请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解有关别名 ID 字段和客户 ID 的数据处理的其他信息。
+
    * **[!UICONTROL 文件上传：]**&#x200B;您可以拖放 `.csv` 数据文件，或通过 FTP 上传数据。（使用 FTP 还需要 `.fin` 文件。）请参阅[通过 FTP 上传数据](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
-      >[!IMPORTANT]
-      >
-      >存在特定的数据文件要求。请参阅[数据文件要求](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，以了解更多信息。
+     >[!IMPORTANT]
+     >
+     >存在特定的数据文件要求。请参阅[数据文件要求](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，以了解更多信息。
 
 
-      上传文件后，表数据将显示在此页面上的[!UICONTROL 文件上传]标题下。您可以验证架构，配置订阅或设置 FTP。
+     上传文件后，表数据将显示在此页面上的[!UICONTROL 文件上传]标题下。您可以验证架构，配置订阅或设置 FTP。
 
-      **文件上传图**
+     **文件上传图**
 
-      ![属性](assets/file_upload_attributes.png)
+     ![属性](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 唯一客户 ID：]**&#x200B;显示您向此属性来源上传了多少个唯一 ID。
 
    * **[!UICONTROL 别名为 Experience Cloud 访客 ID 的客户提供 ID：]**&#x200B;显示别名为 Experience Cloud 访客 ID 的 ID 数量。
 
    * **[!UICONTROL 具有高别名计数的客户提供 ID：]**&#x200B;显示具有 500 个或更多 Experience Cloud 访客 ID 别名的客户提供 ID 的计数。这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。到那时，系统会使客户提供的 ID 无效，且不再分发关联的属性。
-
 
 ## 验证架构 {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1041'
 ht-degree: 99%
 
 ---
@@ -33,16 +33,16 @@ Adobe Experience Cloud 是在通用数据平台上构建的一整套一流、集
 
 解决方案或服务：
 
-* 激活 - Experience Platform 数据收集（以前称为 Launch）
+* Experience Platform数据收集
 * Analytics
 * Target
-* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 ## Experience Cloud ID 服务 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中的所有应用程序标识您的访客。它可取代 Analytics、Audience Manager、Adobe Target、视频检测信号和其他 Experience Cloud 应用程序和产品等服务的 ID 生成代码。
 
-请参阅 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)。
+请参阅 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 **适用的应用程序或服务**
 
@@ -127,10 +127,10 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans)
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=zh-Hans)
-* [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [MAC ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Nielsen 跟踪](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [MAC ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
+* [Nielsen 跟踪](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
@@ -143,7 +143,7 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 * 客户属性：配置 Adobe Target 的客户属性[订阅](subscription.md)
 * Experience Cloud 受众：[Experience Cloud Audience Library](audience-library.md)
 * Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
-* Dynamic Tag Management：[使用 DTM 实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* Dynamic Tag Management：[使用 DTM 实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)
 * Audience Manager：[Adobe Target 与 Adobe Audience Manager 的数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
 * Campaign：[将 Adobe Target 与 Campaign 集成](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hans)
 
@@ -186,7 +186,7 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 **Analytics：**&#x200B;可每天将网站参与和转化数据发送到 [!DNL Adobe Advertising]，从中可将这些数据用于广告优化和报表。此外，[!DNL Advertising] 还可每天将搜索引擎和社交网络流量数据发送到 Analytics，从中可将这些数据用于 Reports &amp; Analytics、Report Builder 和临时分析功能中的报表。
 
-**Dynamic Tag Manager：**&#x200B;可[使用 Dynamic Tag Manager 创建基于广告像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)以及第三方跟踪标记，以用于您的搜索、社交和显示广告着陆页。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
+**Dynamic Tag Manager：**&#x200B;可[使用 Dynamic Tag Manager 创建基于广告像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)以及第三方跟踪标记，以用于您的搜索、社交和显示广告着陆页。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
 
 **Experience Cloud 受众：**（需要管理显示的广告商）可适用任何 [Adobe Experience Cloud 受众](audience-library.md)作为显示广告的目标。可自动使用已在 Experience Cloud 中创建的受众以及 Analytics 中已发布到 Adobe Experience Cloud 的受众。并可在将 [!DNL Adobe Advertising] 帐户配置为允许使用 Audience Manager 中的受众时这样做。有关访问 Adobe Experience Cloud 以及个人资料和受众以及有关 [!DNL Adobe Advertising] 与 Adobe Experience Cloud 受众之间的初始设置的详细信息，请与您的客户经理联系。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
 
