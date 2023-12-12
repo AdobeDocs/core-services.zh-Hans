@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4770'
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 | ------- | ------- |
 | 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>选件</li><li>组件</li><li>消息</li><li>历程</li></ul> |
 | 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
-| Experience Cloud [!UICONTROL 触发器]导航 | [Experience Cloud 触发器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hans)适用于从已设置用户标头中的应用程序切换器的直接导航。 |
-| **注意：**&#x200B;计划的界面导航更新 | 2021 年 11 月，将从 <https://experience.adobe.com/implement> 中删除&#x200B;_[!UICONTROL 转至启动/数据收集]_&#x200B;导航功能。 |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 **修复**
 
 * 修复了导致 Analytics 无法进行关联及单点登录的问题。此问题显示“注意: 错误消息: ERROR IMS SSO 失败: 无法找到关联的公司。”
-
-**已知问题**
-
-如果您通过 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 激活]**&#x200B;界面访问 Dynamic Tag Management，但您的 Dynamic Tag Management 帐户没有关联到 Experience Cloud (Adobe ID)，则您将无法登录到 Dynamic Tag Management。要避免出现此问题，请在新的浏览器标签页中直接导航到 `dtm.adobe.com`。
 
 ## 16.1 版 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ With this update, administrators may see changes or additions to the Admin Conso
    <td colname="col1"> <p>一对多映射 </p> </td> 
    <td colname="col2"> <p>在 Experience Cloud 中关联应用程序帐户时，如果您拥有多个应用程序和组织，那么现在可以将多个产品和服务映射到单个组织。 </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>激活 </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">激活</a>现在显示在 <span class="keyword">Experience Cloud</span> 的左侧导航区域中。<span class="wintitle"> 激活</span>功能目前是 <span class="keyword"> Experience Cloud</span> 的一项服务，由动态标记管理技术组成，选择时会将您定向到该处。 </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>文档更新 - 核心服务 </p> </td> 
    <td colname="col2"> <p>添加了以下主题：<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用应用程序</a>，以帮助您实施核心服务。 </p> </td> 
   </tr> 
