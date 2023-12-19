@@ -8,14 +8,14 @@ index: true
 source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud 中央界面组件 {#interface}
 
-+ [《Experience Cloud中央界面组件指南》](experience-cloud.md)
++ [Experience Cloud 中央界面组件指南](experience-cloud.md)
 + Experience Cloud 服务 {#services}
    + [Experience Cloud 服务](core-services-landing.md)
    + [Experience Cloud 中的统一搜索](search-experience-cloud.md)
