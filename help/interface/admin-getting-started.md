@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -208,13 +208,13 @@ Campaign 中的&#x200B;*租户*&#x200B;在 Admin Console“产品”页面上显
 
 有关安全组以及将用户分配给安全组的信息，请参阅[管理组和用户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hans)。
 
-## 管理Experience Platform数据收集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## 管理 Experience Platform 数据收集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 数据收集] 显示在 [!UICONTROL 产品] 中的页面 [!UICONTROL Admin Console]. 您可以在数据收集产品配置文件中包含其他应用程序和服务。
+Experience Platform [!UICONTROL 数据收集]显示在 [!UICONTROL Admin Console] 中的[!UICONTROL 产品]页面上。您可以在数据收集产品配置文件中包含其他应用程序和服务。
 
-邀请用户访问 [!UICONTROL 平台数据收集] 并分配用户角色和权限。
+邀请用户进入 [!UICONTROL Platform 数据收集]，并为用户分配角色和权限。
 
-请参阅 [用户权限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans) 有关Admin Console中的用户权限以及设置配置文件权限的信息。
+有关 Admin Console 中的用户权限以及设置配置文件权限的信息，请参阅[用户权限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans)。
 
 ## Experience Manager 即云服务
 
