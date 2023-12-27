@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 source-git-commit: 97a33692b2359223b64d58bc9324429899f623a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1233'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 99%
 | 数据使用情况强制实施 | 无特殊用途。 | 系统（应用程序、应用、服务、SDK、API 等）为使用数据使用情况元数据而制定和定义的策略、系统设计、惯例和程序，以使数据使用符合 Adobe Corporate 隐私政策、合同注意事项和一般隐私原则。 |
 | 设备 | 无特殊用途。 | 运行应用程序的硬件设备，例如平板电脑、手机或桌面。 |
 | 设备协作 | 无特殊用途。 | 一组品牌，他们同意共享有关消费者使用哪些设备的数据，以便在不同设备之间更好地标识个人，并提供更有意义、更一致的体验。 |
-| [!UICONTROL Experience Cloud ID 服务] (ECID) | 无特殊用途。 | 分配给网站访客的唯一永久 ID。它是可由 Experience Platform Identity 服务使用的特定实体。[更多...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) |
+| [!UICONTROL Experience Cloud ID 服务] (ECID) | 无特殊用途。 | 分配给网站访客的唯一永久 ID。它是可由 Experience Platform Identity 服务使用的特定实体。[更多...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) |
 | [!UICONTROL Experience Platform Identity 服务] | 无特殊用途。 | 关联身份的服务。它是用于基于人员的体验管理的设备链接服务。 |
 | 链接 | 无特殊用途。关联是指超链接导航，以及关联各种项目，如字体、属性、图层等等。 | 在 Experience Cloud 中，关联通常指将不同的应用程序帐户与界面关联。<br>请参阅[组织和帐户关联](organizations.md)。<br>关联/链接还指发送给其他用户的 Analytics 报表所对应的标准 URL。 |
 | 位置 | 在 Creative Cloud 中，位置是指文件位置或打开的图像或文档所处的位置。 | 在 Experience Cloud 中，位置是指向受众显示内容（并且可以与受众进行内容交互）的地方。位置和内容之间的关联可以近乎静态，也可以根据营销活动规则对其进行动态管理。位置始终属于可确定如何交付内容以及如何收集量度的特定渠道。<br>示例包括：<ul><li>站点</li><li>属性（社交）</li><li>显示清单</li><li>登陆页面</li><li>移动设备应用程序</li><li>版块（视频）</li></ul> |
