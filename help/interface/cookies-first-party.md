@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 79%
+source-wordcount: '1594'
+ht-degree: 72%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 79%
 
 Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。Adobe 尽可能使用第一方 Cookie 记录您网站上的活动。记录不同网站（如您可能拥有的其他域）上的活动需要使用第三方 cookie。
 
-许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe 确保我们始终可以设置 Cookie，即使第三方 Cookie 被阻止也是如此。具体行为取决于您使用的是Experience PlatformIdentity服务（ECID服务）还是Analytics旧版标识符（又称s_vi Cookie）：
+许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe可确保始终设置Cookie，即使第三方Cookie被阻止也是如此。 具体行为取决于您使用的是Experience PlatformIdentity服务（ECID服务）还是Analytics旧版标识符（又称s_vi Cookie）：
 
 * [Experience Platform Identity Service（ECID 服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en)将自动设置第一方 Cookie，无论您的收集域是否与网站域匹配。如果两者不匹配，Identity Service将使用JavaScript在网站的域中设置Cookie。
 * 如果使用 [Analytics 旧版标识符](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en)（又称 `s_vi` Cookie），则它将取决于您配置数据收集服务器的方式。如果数据收集服务器与您网站的域相同，则 Cookie 被设置为第一方。如果收集服务器与您当前的域不同，则 Cookie 被设置为第三方。在这种情况下，如果第三方 Cookie 被阻止，则 Analytics 将设置第一方[后备 ID (s_fid)](cookies-analytics.md) 而非标准“s_vi”Cookie。
 
-如果要确保收集服务器与网站的域相匹配，可以使用CNAME实现，从而支持从CNAME实现中指定的自定义域转发到Adobe的收集服务器。 其中涉及更改您公司的 DNS 设置以配置指向某个 Adobe 托管域的 CNAME 别名。请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个 CNAME 端点在其域间跟踪用户，但是，只要网站域与 CNAME 域不同，Cookie 就被设置为第三方。
+如果要确保收集服务器与网站的域相匹配，可以使用CNAME实现，从而支持从CNAME实现中指定的自定义域转发到Adobe的收集服务器。 其中涉及更改您公司的 DNS 设置以配置指向某个 Adobe 托管域的 CNAME 别名。请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个CNAME端点在其域间跟踪用户，但是，只要网站域与CNAME域不同，Cookie就被设置为第三方。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Analytics 使用 Cookie 来提供有关变量和组件的信息，这类信息�
 
 SSL 证书的颁发过程往往令人感到混乱和费时。为此，Adobe 与 DigiCert 这一行业领先的证书颁发机构 (CA) 建立了合作伙伴关系，并制定出一个集成式流程，进而实现了购买和管理这些证书的自动化。
 
-在获得您的允许后，我们与 CA 一起为您颁发、部署和管理一个新的 SHA-2 SSL 证书。Adobe 会继续管理此证书，并确保意外的过期、撤销或安全问题不会威胁到贵组织安全集合的可用性。
+在获得您的允许后，我们与CA一起为您颁发、部署和管理一个新的SHA-2 SSL证书。 Adobe 会继续管理此证书，并确保意外的过期、撤销或安全问题不会威胁到贵组织安全集合的可用性。
 
 ## Adobe 管理的证书计划
 
@@ -47,13 +47,13 @@ Adobe 管理的证书计划是用于设置 CNAME 实施所需的第一方 SSL �
 
 下面说明了如何为第一方数据收集实施新的第一方 SSL 证书：
 
-1. 填写[第一方域请求表](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，并通过客户关怀部门开立一个票证，请求根据 Adobe 管理的计划设置第一方数据收集。
+1. 填写 [第一方域请求表单](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) ，并通过客户关怀部门开立一个票证，请求根据Adobe管理的计划设置第一方数据收集。
 
    文档中通过示例描述了每个字段。
 
 1. 创建 CNAME 记录（请参阅下面的说明）。
 
-   在收到服务单后，客户关怀代表应为您提供 CNAME 记录。必须在贵公司的 DNS 服务器上配置这些记录，然后 Adobe 才能代表您购买证书。该 CNAME 类似于以下内容：
+   当客户关怀代表收到票证后，将为您提供CNAME记录。 必须在贵公司的 DNS 服务器上配置这些记录，然后 Adobe 才能代表您购买证书。该 CNAME 类似于以下内容：
 
    **安全** - 例如，主机名 `smetrics.example.com` 指向：`[random-10-character-string].data.adobedc.net`。
 
