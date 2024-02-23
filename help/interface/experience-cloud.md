@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1230'
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Experience Cloud 使用以下主机来交付应用程序、提高性能和改善
 * [为核心服务启用应用程序](core-services.md)
 * [常见问题解答](admin-getting-started.md)
 * [组织和帐户关联](organizations.md)
-* [集成](marketing-cloud-integrations.md)
+* [集成](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)
 * [将 Adobe Target 与 Experience Cloud 集成](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 * [Experience Cloud 隐私和安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 预获取](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)

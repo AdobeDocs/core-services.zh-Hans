@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 99%
+source-wordcount: '923'
+ht-degree: 84%
 
 ---
 
 # Experience Cloud 集成概述
 
-Adobe Experience Cloud 是在通用数据平台上构建的一整套一流、集成的应用程序和服务，其中具有一组常用的强大功能。
+本页介绍了几种开始集成Experience Cloud应用程序的方法。 有关详细信息，请浏览我们的库 [集成视频教程](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans) Experience League时。
 
 ## 为 Platform 服务启用您的 Experience Cloud 应用程序 {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
@@ -28,14 +28,14 @@ Adobe Experience Cloud 是在通用数据平台上构建的一整套一流、集
 * 在 Experience Cloud 中配置您的公司。
 * 让您成为管理员。
 * [实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
-* 通过 Platform 数据收集让您的 [!DNL Analytics] 和 [!DNL Target] 实现变得现代化。
-* 开始使用核心服务.
+* 实现现代化 [!DNL Analytics] 和 [!DNL Target] 实施，通过 [!UICONTROL 平台数据收集].
+* 开始使用Experience Cloud服务，例如 [!UICONTROL 客户属性] 和 [!UICONTROL 受众].
 
 解决方案或服务：
 
-* Experience Platform数据收集
-* Analytics
-* Target
+* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
+* [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=en)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=en)
 * [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 ## Experience Cloud ID 服务 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
@@ -53,7 +53,7 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 帮助：[受众](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-在 Experience Cloud Audience Library 中创建和管理受众。受众可从各种来源创建或派生，如：
+在Experience Cloud中创建和管理受众 [!UICONTROL 受众库]. 受众可从各种来源创建或派生，如：
 
 * 在 [!DNL Experience Cloud] 中创建新受众。
 * 从 [!DNL Analytics] 发布到 [!DNL Experience Cloud] 的区段。
@@ -129,22 +129,9 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 ## Experience Manager 集成 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-帮助：[Experience Manager 文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)
+* 视频教程： [Experience Manager集成](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-将 AEM 与其他应用程序和第三方服务集成。
-
-**适用的应用程序或服务**
-
-* [Analytics](https://experienceleague.adobe.com/docs/)
-* [Analytics 与外部提供者](https://experienceleague.adobe.com/docs/)
-* [Experience Cloud](https://experienceleague.adobe.com/docs/)
-* [Creative Cloud](https://experienceleague.adobe.com/docs/)
-* [Audience Manager](https://experienceleague.adobe.com/docs/)
-* [Campaign](https://experienceleague.adobe.com/docs/)
-* [Scene7](https://experienceleague.adobe.com/docs/)
-* [Adobe Target](https://experienceleague.adobe.com/docs/)
-* [第三方服务](https://experienceleague.adobe.com/docs/)（Data Connectors）
-* [扩展](https://experienceleague.adobe.com/docs/)
+* 产品文档： [Experience Manager文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)
 
 ## Experience Manager - Assets {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
@@ -160,15 +147,19 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-帮助（需要登录）：[与 Adobe Experience Cloud 解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* 帮助（需要登录）：[与 Adobe Experience Cloud 解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+
+* [Adobe Advertising文档](https://experienceleague.adobe.com/docs/advertising.html?lang=en) Experience League时
 
 **适用的应用程序或服务**
 
 **Analytics：**&#x200B;可每天将网站参与和转化数据发送到 [!DNL Adobe Advertising]，从中可将这些数据用于广告优化和报表。此外，[!DNL Advertising] 还可每天将搜索引擎和社交网络流量数据发送到 Analytics，从中可将这些数据用于 Reports &amp; Analytics、Report Builder 和临时分析功能中的报表。
 
-**Dynamic Tag Manager：**&#x200B;可[使用 Dynamic Tag Manager 创建基于广告像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)以及第三方跟踪标记，以用于您的搜索、社交和显示广告着陆页。（还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
+**标记：** 您可以使用 [Experience Platform标签以创建基于广告像素的转化跟踪标签](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)和第三方跟踪标记，适用于您的搜索、社交和显示广告登陆页面。 （还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
 
-**Experience Cloud 受众：**（需要管理显示的广告商）可适用任何 [Adobe Experience Cloud 受众](audience-library.md)作为显示广告的目标。可自动使用已在 Experience Cloud 中创建的受众以及 Analytics 中已发布到 Adobe Experience Cloud 的受众。并可在将 [!DNL Adobe Advertising] 帐户配置为允许使用 Audience Manager 中的受众时这样做。有关访问 Adobe Experience Cloud 以及个人资料和受众以及有关 [!DNL Adobe Advertising] 与 Adobe Experience Cloud 受众之间的初始设置的详细信息，请与您的客户经理联系。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
+**Experience Cloud 受众：**（需要管理显示的广告商）可适用任何 [Adobe Experience Cloud 受众](audience-library.md)作为显示广告的目标。您可以自动使用在Experience Cloud中创建的受众和Analytics中已发布到Experience Cloud的受众。 在以下情况下，您还可以使用Audience Manager中的受众： [!DNL Adobe Advertising] 帐户已配置为允许此操作。
+
+有关访问 Adobe Experience Cloud 以及个人资料和受众以及有关 [!DNL Adobe Advertising] 与 Adobe Experience Cloud 受众之间的初始设置的详细信息，请与您的客户经理联系。**注意：**&#x200B;如果您还使用 Adobe Target，则您发布到 Adobe Experience Cloud 的任何受众也可用于 Adobe Target 中的活动。
 
 **Experience Cloud Assets：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资源用作显示广告的创意。必须[通过 Adobe Experience Cloud 登录到 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D) 才能访问 Adobe Experience Cloud 资源。有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
 
