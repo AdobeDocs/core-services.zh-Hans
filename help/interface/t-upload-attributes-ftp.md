@@ -1,24 +1,24 @@
 ---
-description: 了解如何通过 FTP 将客户属性数据上传到 Experience Cloud。
+description: 了解如何通过FTP将客户属性数据上传到Experience Cloud。
 solution: Experience Cloud
-title: 通过 FTP 上传客户属性数据文件
+title: 通过FTP上传客户属性数据文件
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 77%
 
 ---
 
 # 可选 - 通过 FTP 上传数据文件
 
-如果您不使用拖放操作上传，则可以通过 FTP 将客户属性数据上传到 Experience Cloud。
+如果您不使用拖放操作上传，则可以通过FTP将客户属性数据上传到Experience Cloud。
 
-在 Experience Cloud 中创建客户属性源和 FTP 帐户后就可以上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
+在Experience Cloud中创建客户属性来源和FTP帐户后，您可以上传数据。 为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
 
 >[!IMPORTANT]
 >

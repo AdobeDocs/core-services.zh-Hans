@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 100%
 * 从页面数据或原始分析数据派生的“家居和园艺”部分。
 * 来源于[发布](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)到 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 区段的 Chrome 和 Safari 用户。
 
-   ![为复合受众创建规则](assets/audience_create.png)
+  ![为复合受众创建规则](assets/audience_create.png)
 
 **创建受众**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
-1. 在[!UICONTROL 受众]页面上，选择&#x200B;**[!UICONTROL 新建]**。![add](assets/add_icon_small.png)
+1. 在 [!UICONTROL 受众] 页面，选择 **[!UICONTROL 新建]**. ![添加](assets/add_icon_small.png)
 
    ![步骤结果](assets/audience_create_new.png)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
    * **[!UICONTROL 实时 Analytics 数据：]**（或原始数据）此类数据是指从实时 Analytics 图像请求派生而来的属性数据，包括 eVar 和事件等数据。使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
    >[!NOTE]
    >
-   >由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。
+   >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在Experience Cloud中。
 
    * **[!UICONTROL Experience Cloud：]**&#x200B;从 [!DNL Experience Cloud] 来源派生的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 

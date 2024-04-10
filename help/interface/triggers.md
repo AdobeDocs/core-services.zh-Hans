@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '677'
 ht-degree: 97%
 
 ---
@@ -37,8 +37,8 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
 
 通常，触发器可能要用 15-90 分钟时间才能启动市场营销活动。此延迟根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
 
-* **放弃：**&#x200B;您可以创建一个触发器，该触发器将在访客查看了产品却未将任何产品添加到购物车时启动。
-* **操作：**&#x200B;您可以创建触发器，例如，在新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发的触发器。如果您是零售商，则可以针对注册会员计划的访客创建一个触发器。在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
+* **放弃：**&#x200B;可创建触发器，以便在访客查看产品却未将任何东西添加到购物车时触发。
+* **操作：**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。如果您是零售商，则可以针对注册会员计划的访客创建一个触发器。在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
 * **会话开始和会话结束：**&#x200B;为会话开始和会话结束事件创建触发器。
 
 ## 创建 Experience Cloud 触发器 {#task_821F37183AC045E5AC8EED20317598FE}
@@ -66,7 +66,7 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
    | [!UICONTROL 容器] | [!UICONTROL 容器是您设置和存储定义触发器的规则、条件或过滤器的位置。]如果希望事件同时发生，请将其置于同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 没有行动后开始新会话 | 为会话开始和会话结束事件创建触发器。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. 选择&#x200B;**[!UICONTROL 保存]**。
 6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。

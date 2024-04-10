@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 89%
+source-wordcount: '2181'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 现有客户可以使他们的应用程序实施实现现代化并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中使用客户属性和受众功能。要完成此实施，您将执行以下操作：
 
-1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [加入Experience Cloud并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [将报表包映射到 Experience Cloud 组织](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [更新 Analytics AppMeasurement 代码](#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 ## 加入 Experience Cloud 并成为管理员 {#section_2423F0BD3DF642658103310EE5EA6154}
 
-加入 Experience Cloud 时必须执行的操作：
+要加入Experience Cloud必须执行的操作：
 
 1. 确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
 
@@ -46,7 +46,7 @@ ht-degree: 89%
 1. 使您的实施符合现代化要求并进行管理员身份配置。
 
    * 请按照下文[实施 [!UICONTROL Experience Cloud ID 服务]](core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的步骤执行操作。
-   * 请联系您的客户经理，然后开始配置 Experience Cloud。
+   * 请联系您的客户经理，然后开始进行Experience Cloud配置过程。
 
 1. 在 [!UICONTROL Admin Console] 中管理用户和产品。
 
@@ -60,7 +60,7 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 ### 用户登录
 
-要登录到 Experience Cloud，您的用户必须：
+要登录到Experience Cloud，您的用户必须：
 
 * 拥有 Adobe ID（或您公司的 Enterprise ID）。
 * 登录到 [experience.adobe.com](https://experience.adobe.com)。
@@ -73,13 +73,13 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 将这些群组映射到 Experience Cloud 企业群组时，这些用户必须手动将其应用程序帐户凭据关联到其 Adobe ID。
 
-请参阅[在 Experience Cloud 中关联帐户](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
+请参阅 [在Experience Cloud中关联帐户](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
 >在映射企业群组和应用程序群组后，将会自动关联新用户。（将自动创建解决方案凭据，并将凭据关联到其 Adobe ID。）
 
-以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在 Experience Cloud 中启用核心服务。
+以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在Experience Cloud中启用核心服务。
 
 ## 实施 [!UICONTROL Experience Cloud ID 服务] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
@@ -107,7 +107,7 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 在 Adobe Target 中，`mbox3rdpartyid` 必须获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。）
 
-当访客在您的网站上进行身份验证或以其他方式标识自己时，您的实施必须向页面或应用程序公开访客的 CRM 客户 ID。然后，您可以使用相应的函数调用将您的客户 ID 同步到 Experience Cloud。此同步会将访客的 CRM 客户 ID 存储在 Experience Cloud 中，并激活该客户的属性以在 Experience Cloud 中使用。
+当访客在您的网站上进行身份验证或以其他方式标识自己时，您的实施必须向页面或应用程序公开访客的 CRM 客户 ID。然后，您可以使用相应的函数调用将您的客户ID同步到Experience Cloud。 此同步会将访客的CRM客户ID存储在Experience Cloud中，并激活该客户的属性以用于Experience Cloud。
 
 例如，假设 Bob 在您的 CRM 系统中具有客户 ID `52mc210tr42`。当 Bob 在您的网站上进行身份验证时，您必须在该页面上透露此 ID，并使用此 ID 以下面两种方式之一进行同步：
 
@@ -202,7 +202,7 @@ mbox 请求中的 Experience Cloud ID：
 
 ### [!UICONTROL 人员] > [!UICONTROL 客户属性]
 
-如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
+如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud的客户属性数据源。 上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
 
 请参阅[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 

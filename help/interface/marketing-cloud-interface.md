@@ -1,19 +1,19 @@
 ---
 description: 阅读Experience Cloud中的新增功能和更新。
 solution: Experience Cloud
-title: Experience Cloud 的新增功能
+title: Experience Cloud的新增功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
 
-# Experience Cloud 的新增功能
+# Experience Cloud的新增功能
 
-Experience Cloud 中的新增功能和更新概述。
+Experience Cloud中的新增功能和更新概述。
 
 ## 2018 年 8 月 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
@@ -48,9 +48,9 @@ Experience Cloud 中的新增功能和更新概述。
 
 | 功能 | 描述 |
 |--- |--- |
-| 新的管理登录页 | 登录 Experience Cloud 并导航到“管理”页面时，会提供一个新的直观界面，帮助您快速访问 Experience Cloud 应用程序和核心服务。 |
+| 新的管理登录页 | 登录Experience Cloud并导航到“管理”页面时，会提供一个新的直观界面，帮助您快速访问Experience Cloud应用程序和核心服务。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **修复**
 
@@ -71,16 +71,16 @@ Experience Cloud 中的新增功能和更新概述。
 | 通知 - 维护通知 | 在“通知”设置中，您可以为产品和应用程序启用维护通知。 |
 | 适用于 Experience Cloud 解决方案的 Admin Console | 新的 Experience Cloud 客户可以开始使用 Admin Console，该控制台是在整个组织中管理 Adobe 权利的中心位置。<br>迁移到管理控制台以进行用户管理的过程将分批进行。Adobe 在需要进行迁移时会联系您（系统管理员）。<br>Analytics 管理员，请参阅 [Analytics 迁移](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 功能 | 描述 |
 |--- |--- |
-| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>[将多个报表包映射到](core-services.md)一个组织有助于在 Experience Cloud 中启用跨应用程序功能和服务。 |
+| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>[映射报表包](core-services.md) 对于单个组织，有助于在Experience Cloud中启用跨应用程序功能和服务。 |
 | 针对 Experience Cloud 受众的更新 | **应用报表包**<br>&#x200B;您现在可以将报表包应用于所有[受众规则](t-audience-create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>&#x200B;除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2016 年 11 月 8 日 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
@@ -88,7 +88,7 @@ Experience Cloud 中的新增功能和更新概述。
 |--- |--- |
 | 配置文件和密码更新 | 用户不能再编辑编辑配置文件 > 配置文件和密码中个人详细信息下方的 IMS 用户配置文件信息。用户将会被重定向到 `accounts.adobe.com`。该更新适用于所有身份类型（Adobe ID、Enterprise 和 Federated）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **修复**
 

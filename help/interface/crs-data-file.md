@@ -1,27 +1,27 @@
 ---
-description: 了解将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
+description: 了解上传的数据文件要求和多个数据源 [!DNL Customer Attributes] Experience Cloud。
 solution: Experience Cloud
-title: 了解客户属性的数据文件和数据源
+title: 数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 98%
+source-wordcount: '1186'
+ht-degree: 90%
 
 ---
 
-# 关于客户属性的数据文件和数据源
+# 关于的数据文件和数据源 [!DNL Customer Attributes]
 
-将客户属性上传到 Experience Cloud 的数据文件要求和多个数据源。
+上传的数据文件要求和多个数据源 [!DNL Customer Attributes] Experience Cloud。
 
-您需要拥有从企业访问 CRM 或类似数据的权限。您上传到 Experience Cloud 的数据必须是 `.csv` 文件。如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
+您需要拥有从企业访问 CRM 或类似数据的权限。您上传到Experience Cloud的数据必须为 `.csv` 文件。 如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
 
-上传客户属性是为了每天处理一些文件。为了缓解延迟处理较多小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
+[!DNL Customer Attributes] 旨在每天处理一些文件。 为了缓解延迟处理较多小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
 
 ## 允许的文件类型和命名要求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -76,7 +76,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于 Target，其为 setCustomerID 值。（请参阅 <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Adobe Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。在上传到 Experience Cloud 的 CRM 文件中，还使用此 ID 作为密钥。<a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过 setCustomerID）。CRM 文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于 Target，其为 setCustomerID 值。（请参阅 <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 和 Adobe Target - 同步客户 ID</a>） </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过 setCustomerID）。CRM 文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
@@ -84,7 +84,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性限制 </p> </td> 
-   <td colname="col2"> <p>您可以向 Experience Cloud 中的客户属性服务上传数百个 <span class="filepath"> .csv </span> 列。但是，在配置订阅并选择属性时，根据您拥有的应用程序，将会受到以下限制： </p> <p> 
+   <td colname="col2"> <p>您可以上传数百个 <span class="filepath"> .csv </span> 列到Experience Cloud中的客户属性服务。 但是，在配置订阅并选择属性时，根据您拥有的应用程序，将会受到以下限制： </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：总共 3 个 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每个报表包 200 个 </li> 
@@ -128,7 +128,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
-   <td colname="col2"> <p> 客户属性与 [!DNL Analytics] 中的基础访客个人资料关联。 因此，在 [!DNL Analytics] 中，[!UICONTROL 客户属性] 在访客个人资料的整个生命周期内都与该访客相关联。 该配置文件包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> <p> 请注意，自2022年10月起，Data warehouse回填方法将不再可用。 </td> 
+   <td colname="col2"> <p> 客户属性与 [!DNL Analytics] 中的基础访客个人资料关联。 因此，在 [!DNL Analytics] 中，[!UICONTROL 客户属性] 在访客个人资料的整个生命周期内都与该访客相关联。 该配置文件包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> <p> 请注意，从2022年10月开始，Data Warehouse回填方法将不再可用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据馈送 </p> </td> 

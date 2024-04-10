@@ -1,17 +1,17 @@
 ---
 description: 创建客户属性来源并将其上传到Adobe Experience Cloud。
 solution: Experience Cloud
-title: 创建客户属性源并上传数据文件
+title: 创建客户属性来源并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 94%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果“客户属性”**&#x200B;显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。添加到客户属性组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单。
+>要访问此功能，必须将用户分配到“客户属性”产品配置文件（客户属性 - 默认访问）。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果 *客户属性* 显示为 [!UICONTROL 产品配置文件]，您已准备就绪。 添加到客户属性组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单。
 >
 >要使用“客户属性”功能，用户还必须属于应用程序级别的群组（Analytics 或[!DNL Target]）。
 
@@ -60,7 +60,7 @@ ht-degree: 94%
 
 ## 创建属性源并上传数据文件 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-在 Experience Cloud 的“新建客户属性源”页面中执行这些步骤。
+在Experience Cloud的“新建客户属性来源”页上执行这些步骤。
 
 >[!IMPORTANT]
 >
@@ -145,7 +145,7 @@ ht-degree: 94%
 
 ## 配置订阅和激活属性源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-配置订阅可以设置 Experience Cloud 和应用程序之间的数据流。激活属性来源后，数据便可流向订阅的应用程序。您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置预订可以设置Experience Cloud与应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -163,7 +163,7 @@ ht-degree: 94%
 
 ![基于已上传属性的 Analytics 区段](assets/08_crs_usecase.png)
 
-在将区段发布到 Experience Cloud 后，它将在 Experience Cloud 受众和 Audience Manager 中变得可用。
+在将区段发布到Experience Cloud时，它将在Experience Cloud受众和Audience Manager中变得可用。
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

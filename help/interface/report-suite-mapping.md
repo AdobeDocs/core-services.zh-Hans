@@ -1,16 +1,16 @@
 ---
 description: 了解如何在 Experience Cloud 中将一个或多个报表包映射到组织。
-title: '将报表包映射到组织 '
+title: 将报表包映射到组织
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 89%
 
 ---
 
@@ -89,19 +89,19 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 ## 常见问题 {#section_099E485805994C929FF9C9F75219BEE1}
 
-### 我为何看不到所有的报表包？
+### 为何我看不到所有报表包？
 
 您的某些报表包可能显示在其他登录公司下。您可以使用屏幕顶部的下拉菜单更改当前登录公司。
 
-### 如果我无法分辨下拉列表中针对某个报表包列出的某些组织，该怎么办？
+### 如果我无法识别某个报表包的下拉列表中列出的某些组织，该怎么办？
 
-该列表显示了您的报表包可以映射到的所有&#x200B;*可能*&#x200B;组织，即使您并没有映射到所有这些报表包的权限。如果您不确定是否应该将报表包映射到列表中呈灰显状态的其中一个报表包，请咨询贵组织中的 Experience Cloud 管理员，以确定最佳选择。
+该列表向您展示了 *可能* 您的报表包可以映射到的组织，即使您并没有映射到所有这些报表包的权限。 如果您不确定是否应该将报表包映射到列表中呈灰显状态的其中一个报表包，请咨询贵组织中的 Experience Cloud 管理员，以确定最佳选择。
 
 ### 如果我无法分辨“对登录公司可见”列中针对报表包列出的某些登录公司，该怎么办？
 
 在某些时候，此报表包已与另一个登录公司共享，该公司可能属于其他 Experience Cloud 组织。
 
-### 关于其他组织正在生成的报表包的“可能冲突”错误是什么？为什么它很重要？
+### 有关其他组织正在生成的报表包的“可能冲突”错误是什么？ 为什么它很重要？
 
 该通知可帮助您针对报表包映射做出明智决策。我们希望您意识到报表包最初是在其他组织下创建的，以防该组织可能更适合此报表包。
 
@@ -113,6 +113,6 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 您可以在[组织和帐户设置](organizations.md)中找到您的组织名称。
 
-### 我在“映射日期”列中看到一个日期。是谁执行了此映射？
+### 我在“映射日期”列中看到一个日期。 是谁执行了此映射？
 
-您可以参考 Analytics 界面中的“报表包更改日志”，以查找做出更改的用户 ID。查找事件“与 IMS 组织相关的报表包”。
+您可以参考 Analytics 界面中的“报表包更改日志”，以查找做出更改的用户 ID。查找事件“与IMS组织关联的报表包”。

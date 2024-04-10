@@ -1,7 +1,7 @@
 ---
 description: 了解 Adobe Analytics 如何使用 Cookie 来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。
 solution: Experience Cloud,Analytics
-title: "第一方 Cookie "
+title: 第一方Cookie
 index: y
 snippet: y
 feature: Cookies
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1594'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 

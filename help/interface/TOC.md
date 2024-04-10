@@ -1,19 +1,19 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud 中央界面组件指南
-breadcrumb-title: Experience Cloud 中央界面组件指南
-title: Experience Cloud 中央界面组件指南
+user-guide-title: Experience Cloud界面和管理指南
+breadcrumb-title: Experience Cloud界面和管理指南
+title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
-source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
+source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud 中央界面组件指南 {#interface}
+# Experience Cloud界面和管理指南 {#interface}
 
 + [Experience Cloud 中央界面组件指南](experience-cloud.md)
 + Experience Cloud 服务 {#services}

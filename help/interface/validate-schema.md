@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 84%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 100%
 
 * **[!UICONTROL ID 查找：]**&#x200B;输入客户 ID (CID)，从 `.csv` 查找有关此 ID 的 Experience Cloud 信息。此功能可用于解决为何属性数据不对访客显示的问题：
 
-   * **[!UICONTROL ECID (Experience Cloud ID)：]**&#x200B;在您使用最新的 Experience Cloud ID 服务时显示。如果您在使用 MCID 服务，但此处未列出 ID，则表明 Experience Cloud 尚未收到该 CID 的别名。这意味着访客还没有登录，或您的实施没有传递此 ID。
+   * **[!UICONTROL ECID (Experience Cloud ID)：]**&#x200B;在您使用最新的 Experience Cloud ID 服务时显示。如果您在使用MCID服务，但此处未列出ID，则Experience Cloud尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
 
    * **[!UICONTROL CID（客户 ID）：]**&#x200B;与此 CID 关联的属性。如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 
-   * **[!UICONTROL AVID（Analytics 访客 ID）：]**&#x200B;在您使用 prop 或 eVar 上传 CID 时显示。如果这些 ID 正在传递到 Experience Cloud，则与您输入的 CID 相关联的所有访客 ID 都将显示在此处。
+   * **[!UICONTROL AVID（Analytics 访客 ID）：]**&#x200B;在您使用 prop 或 eVar 上传 CID 时显示。如果这些ID正在传递到Experience Cloud，则与您输入的CID关联的任何访客ID都将显示在此处。
 
-在 Experience Cloud 中创建客户属性源和 FTP 帐户之后，您还可以通过 FTP 上传数据。为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
+在Experience Cloud中创建客户属性来源和FTP帐户后，您还可以通过FTP上传数据。 为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
 
 指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 指标。
 

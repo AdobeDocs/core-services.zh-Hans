@@ -1,16 +1,16 @@
 ---
 description: 了解如何在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资源。
 solution: Experience Cloud
-title: 与 Creative Cloud 共享 Experience Cloud 文件夹和资产
+title: 与Creative Cloud共享Experience Cloud文件夹和资源
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 提高企业安全性
 * 轻松地在创意人员和营销人员之间共享文件、保存和发送文件
 
-在 Creative Cloud 用户可以访问资产之前，必须在 Experience Cloud 中将这些资产列入白名单。[管理 Creative Cloud 用户](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)。
+在Creative Cloud用户有权访问资源之前，必须在Experience Cloud中将这些资源列入白名单。 [管理 Creative Cloud 用户](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)。
 
 ## 关于与 Adobe Target 共享资源 {#section_B7CD64CAB35D43A4B12957B304072DC9}
 

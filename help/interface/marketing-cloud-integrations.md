@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 84%
+source-wordcount: '913'
+ht-degree: 78%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 84%
 
 介绍如何执行操作：
 
-* 在 Experience Cloud 中配置您的公司。
+* 在Experience Cloud中配置您的公司。
 * 让您成为管理员。
 * [实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 * 实现现代化 [!DNL Analytics] 和 [!DNL Target] 实施，通过 [!UICONTROL 平台数据收集].
-* 开始使用Experience Cloud服务，例如 [!UICONTROL 客户属性] 和 [!UICONTROL 受众].
+* 开始使用Experience Cloud服务，例如 [[!DNL Customer Attributes]](attributes.md) 和 [[!DNL Audience Library]](audience-library.md).
 
 解决方案或服务：
 
@@ -40,7 +40,7 @@ ht-degree: 84%
 
 ## Experience Cloud ID 服务 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中的所有应用程序标识您的访客。它可取代 Analytics、Audience Manager、Adobe Target、视频检测信号和其他 Experience Cloud 应用程序和产品等服务的 ID 生成代码。
+ID服务提供一个通用、永久性的ID，后者在Experience Cloud的所有应用程序中标识您的访客。 它可取代 Analytics、Audience Manager、Adobe Target、视频检测信号和其他 Experience Cloud 应用程序和产品等服务的 ID 生成代码。
 
 请参阅 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
@@ -69,7 +69,7 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 帮助：[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
+如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud的客户属性数据源。 上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
 
 **适用的解决方案或服务**
 
@@ -80,7 +80,7 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 帮助：[与 Creative Cloud 共享 Experience Cloud 文件夹](creative-cloud.md)
 
-在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资源。在 Experience Cloud 应用程序（[!DNL Social] 和 [!DNL Target]）中进行协作、对共享资源添加批注和使用它们。
+在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资产。在 Experience Cloud 应用程序（[!DNL Social] 和 [!DNL Target]）中进行协作、对共享资源添加批注和使用它们。
 
 **适用的应用程序或服务**
 
@@ -114,7 +114,7 @@ ID 服务提供一个通用、永久性的 ID，后者为 Experience Cloud 中�
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-帮助：[将 Adobe Target 与 Experience Cloud 集成](audience-library.md)
+帮助： [将Adobe Target与Experience Cloud集成](audience-library.md)
 
 将 Adobe Target 与 Adobe Analytics 及其他 Experience Cloud 应用程序集成，以便能够在两个应用程序中使用相同的数据、受众、属性和量度。
 

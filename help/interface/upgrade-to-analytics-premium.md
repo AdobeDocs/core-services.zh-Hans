@@ -1,21 +1,21 @@
 ---
 description: 了解升级到 Analytics Premium 的要求和预期。
 solution: Experience Cloud
-title: 升级到 Analytics Premium 和 Experience Cloud
+title: 升级到Analytics Premium和Experience Cloud
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 90%
 
 ---
 
-# 升级到 Analytics Premium 和 Experience Cloud
+# 升级到Analytics Premium并Experience Cloud
 
 管理员可以了解在升级到 Analytics Premium 时的相应要求和预期，以及作为一名 Experience Cloud 管理员，应在何处查找帮助。
 
@@ -36,7 +36,6 @@ Analytics Premium 允许您：
 >* eVars 76-250 和 100-250（标准）在管理工具中提供，但并未启用。
 >* 贡献分析由 Adobe 启用。它没有更改位置（仍位于异常检测页面上），但是现在它将自动开始分析所有数据点。
 
-
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 在 Analytics Premium Complete 中，您可以获得 [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) 的所有功能，并获得以下升级：
@@ -47,7 +46,7 @@ Analytics Premium 允许您：
 | Data Workbench | <ul><li>算法归因</li><li>预建工作区</li></ul> |
 | Analytics Platform | [实时流](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)（原始数据、功能板、触发器） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -55,11 +54,11 @@ Analytics Premium 允许您：
 
 | 产品 | 升级 |
 |---|---|
-| Reports and Analytics | [贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports and Analytics | [贡献分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hans) |
 | Data Workbench | 用于受众资格和预测营销的预建工作区。 |
 | Analytics Platform | 实时流（功能板和触发器） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -71,7 +70,7 @@ Analytics Premium 允许您：
 | Data Workbench | <ul><li>派生的客户属性</li><li>用于受众发现的预建工作区</li></ul> |
 | Analytics Platform | [客户属性](attributes.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 高级属性 {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -87,9 +86,9 @@ Analytics Premium 允许您：
 
 ## Experience Cloud - 管理用户和产品 {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述实施现代化。（该过程有助于使您的实施符合现代化要求，并且允许您成为 Experience Cloud 中的管理员。）
+Experience Cloud 和核心服务可供 Analytics Standard 和 Premium 用户使用，前提是您已遵循[快速入门 - 为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述实施现代化。(该过程有助于使您的实施符合现代化要求，并且允许您成为Experience Cloud的管理员。)
 
-加入 Experience Cloud 后，您可以通过 Experience Cloud ([!DNL experience.adobe.com]) 登录，并开始使用核心服务（包括客户属性、受众以及移动设备应用程序分析）。
+加入Experience Cloud后，您可以通过Experience Cloud登录，网址为 [!DNL experience.adobe.com] 并开始使用核心服务（包括客户属性、受众和移动设备应用程序分析）。
 
 ### 管理用户和群组
 

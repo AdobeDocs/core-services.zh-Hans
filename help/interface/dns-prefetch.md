@@ -1,16 +1,16 @@
 ---
 description: 了解如何对 Experience Cloud 中不同的应用程序和服务实施 DNS 预获取，以帮助缩短页面加载时间。
 solution: Experience Cloud
-title: 将 DNS 预获取用于不同的应用程序和服务
+title: 将DNS预获取用于不同的应用程序和服务
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 95%
+source-wordcount: '372'
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ DNS 预获取会自动处理页面上的静态嵌入式链接。这也意味着�
 
 * **Dynamic Tag Manager** (DTM)：不需要。DTM 链接在加载页面时提供。
 
-* **Advertising Cloud:**
+* **Advertising Cloud：**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`

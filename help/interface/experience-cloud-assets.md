@@ -1,17 +1,17 @@
 ---
 description: 了解可在各个应用程序之间共享的 Experience Cloud Assets。
 solution: Experience Cloud
-title: 资源概述
+title: 资产概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud Assets 为可在应用程序间共享的营销就绪型资源�
 
 >[!NOTE]
 >
->必须先从Adobe Target活动中删除资产，然后才能从 [!DNL Target].
+>必须先从Adobe Target活动中删除资源，然后才能从中成功删除它们 [!DNL Target].
 
 ## 编辑资源 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

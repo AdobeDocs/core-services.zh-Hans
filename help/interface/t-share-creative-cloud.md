@@ -1,17 +1,17 @@
 ---
 description: 如何与 Creative Cloud 用户共享 Experience Cloud 资源文件夹。
 solution: Experience Cloud
-title: 共享 Experience Cloud 资源文件夹
+title: 共享Experience Cloud资源文件夹
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![在图像上添加评论](assets/asset_comment_cc.png)
 
-   在 Experience Cloud 中，选择一个图像，然后选择时间线图标以在图像上添加评论。评论会在 Creative Cloud 和 Experience Cloud 的资源中同步。
+   在Experience Cloud中，选择一个图像，然后选择时间线图标以在图像上添加评论。 评论会在 Creative Cloud 和 Experience Cloud 的资源中同步。
 
    ![在图像上添加评论](assets/asset_comment_mac.png)
 

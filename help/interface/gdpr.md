@@ -1,21 +1,21 @@
 ---
-title: '客户属性对《通用数据保护条例》的支持 '
+title: '"[!DNL Customer Attributes] 支持《通用数据保护条例》”'
 description: 了解客户属性对《通用数据保护条例》的支持
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
-# 客户属性对《通用数据保护条例》的支持
+# [!DNL Customer Attributes] 对《通用数据保护条例》的支持
 
-本页介绍[!UICONTROL 客户属性]如何支持《通用数据保护条例》(GDPR)。
+本页介绍如何 [!DNL Customer Attributes] 支持《通用数据保护条例》(GDPR)。
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 100%
 
 Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并存储的任何个人数据。作为数据控制者，您可以决定 Adobe Experience Cloud 代表您处理和存储的个人数据。
 
-本文档介绍了[!UICONTROL 客户属性]如何使用 Adobe Experience Platform 隐私服务 API 和隐私服务 UI 支持数据主体的 GDPR 数据访问和删除权利。
+本文档介绍如何 [!DNL Customer Attributes] 通过使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI，支持数据主体的GDPR数据访问和删除权利。
 
 有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
-## 发送[!UICONTROL 客户属性]请求所需的设置
+## 发送请求所需的设置 [!DNL Customer Attributes]
 
-要提出访问和删除[!UICONTROL 客户属性]数据的请求，您必须：
+请求访问和删除以下项的数据： [!DNL Customer Attributes]，您必须：
 
 1. 确认以下各项：
 
@@ -41,9 +41,9 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
 
    您的[组织 ID](#organizations.md) 是一个 24 字符的数字字母字符串，在末尾附加了 @AdobeOrg。需要组织的 ID 才能将请求提交到隐私 API。如果找不到 ID，请通过 `gdprsupport@adobe.com` 联系 Adobe 客户关怀。
 
-1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
+1. 在 [!UICONTROL Privacy Service]，您可以将访问和删除请求提交到 [!DNL Customer Attributes]，并检查现有请求的状态。
 
-## [!UICONTROL 客户属性] JSON 请求中的必填字段值
+## 中的必填字段值 [!DNL Customer Attributes] JSON请求
 
 &quot;company context&quot;：
 
@@ -105,8 +105,8 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
 ```
 attributes:
 {
-"value”:<*value*>,
-"key”:<*key*>,
-"displayName”:<*displayName*>
+"value":<*value*>,
+"key":<*key*>,
+"displayName":<*displayName*>
 }
 ```
