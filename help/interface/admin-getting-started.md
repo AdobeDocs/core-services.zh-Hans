@@ -1,6 +1,6 @@
 ---
 title: 管理用户和产品
-description: 登录到Admin Console并管理Experience Cloud用户权限和产品（产品配置文件）。 了解有关向 Experience Cloud 用户委派管理权限以及 Experience Cloud 浏览器支持的信息。
+description: 登录到 Admin Console 并管理 Experience Cloud 用户权限和产品（产品配置文件）。了解有关向 Experience Cloud 用户委派管理权限以及 Experience Cloud 浏览器支持的信息。
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 74%
 
 Adobe 正在更新其配置，以使所有 Experience Cloud 客户均可访问帮助在某些 Experience Cloud 产品之间实现互操作性的基础功能。用户将拥有 Adobe Experience Platform 作为添加到其 Experience Cloud 组织的新权利，并且包括[!UICONTROL 数据收集]服务。
 
-Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://experienceleague.adobe.com/en/docs/tags)以简化通用标记管理，并提供一个可信、强大而完整的流数据基础架构。标记简化了客户体验数据收集并简化了体验交付。
+Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://experienceleague.adobe.com/en/docs/tags)以简化通用标记管理，并提供一个可信、强大而完整的流数据基础架构。标记可简化客户体验数据收集并理顺体验投放。
 
 **中的更改[!DNL Admin Console]**
 
 管理员可以查看对的更改或添加 [!DNL Admin Console] 如下所示：
 
-* Admin Console中的Adobe Experience Platform产品卡包括：
+* Admin Console 中的 Adobe Experience Platform 产品卡包括：
 
    * Places
    * Assurance
@@ -62,14 +62,14 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
 
 * [数据收集](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)
 * [Places](https://experienceleague.adobe.com/en/docs/places/using/home)
-* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans)
-* [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans)
-* [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)
-* [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
-* [架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans)
-* [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans)
-* [访客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=zh-Hans#section_3C9F6DF37C654D939625BB4D485E4354)
-* [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html)
+* [身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-hans)
+* [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-hans)
+* [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+* [架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
+* [数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-hans)
+* [访客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=zh-hans#section_3C9F6DF37C654D939625BB4D485E4354)
+* [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-hans)
 
 ## Experience Cloud 用户身份验证（计划内迁移）{#migration}
 
@@ -104,13 +104,13 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
 
 1. 选择其中一个选项，即可获得现成的登陆页体验。
 
-1. Adobe配置文件与每个业务计划相关联，并提供整理从其他Adobe云产品/服务(Creative Cloud和Document Cloud)创建的资源的功能。
+1. Adobe 配置文件与每个业务计划相关联，可用于整理从其他 Adobe 云产品/服务（Creative Cloud 和 Document Cloud）创建的资产的功能。
 
 有关更多信息，请参阅[Adobe 配置文件简介](https://helpx.adobe.com/cn/enterprise/kb/introducing-adobe-profiles.html)。
 
 ## 什么是产品配置文件？ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL 产品配置文件]_ 是您可以分配给用户的产品组和服务组。 在 Experience Cloud 中，权限基于产品的配置文件，而不是基于用户。（但是，您可以将管理权限委派给特定用户。）
+_[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和服务组。在 Experience Cloud 中，权限基于产品的配置文件，而不是基于用户。（但是，您可以将管理权限委派给特定用户。）
 
 例如，在 Analytics 中，您可以配置报表工具集合（如 Analysis Workspace 和 Report Builder）以及报表包、量度和维度。您可以通过将用户添加到产品配置文件来授予对产品配置文件的权限。
 
@@ -134,8 +134,8 @@ _[!UICONTROL 产品配置文件]_ 是您可以分配给用户的产品组和服�
 
 * [管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html) 在 [!DNL Admin Console]
 * [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html) 在 [!DNL Admin Console].
-* 有关更多信息，请参阅 Adobe Target 帮助中的[企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)。
-* 视频： [如何在Adobe中配置Adobe Target工作区 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hans)
+* 有关更多信息，请参阅 Adobe Target 帮助中的[企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-hans)。
+* 视频： [如何在Adobe中配置Adobe Target工作区 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-hans)
 
 ## 将管理角色分配给用户 {#delegate-rights}
 
@@ -188,18 +188,18 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要从�
 
 **相关帮助**
 
-* [中的Analytics [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
-* [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)
+* [中的Analytics [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-hans)
+* [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-hans)
 
-## 管理Adobe Target — 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在 Adobe Target 中，工作区就是产品配置文件。它允许组织为一组特定用户分配一组特定属性。在很多方面，工作区与 Adobe Analytics 中的报表包类似。
 
 请参阅：
 
-* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans)
+* [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-hans)
 * [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)
-* 视频： [如何在Adobe中配置Adobe Target工作区 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hans)
+* 视频： [如何在Adobe中配置Adobe Target工作区 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-hans)
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -207,7 +207,7 @@ Campaign 中的&#x200B;*租户*&#x200B;在 Admin Console“产品”页面上显
 
 *安全组*&#x200B;显示为产品配置文件。
 
-有关安全组以及将用户分配给安全组的信息，请参阅[管理组和用户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hans)。
+有关安全组以及将用户分配给安全组的信息，请参阅[管理组和用户](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-hans)。
 
 ## 管理 Experience Platform 数据收集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -215,19 +215,19 @@ Experience Platform [!UICONTROL 数据收集]显示在 [!UICONTROL Admin Console
 
 邀请用户进入 [!UICONTROL Platform 数据收集]，并为用户分配角色和权限。
 
-请参阅 [用户权限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans) 有关中用户权限的信息 [!DNL Admin Console] 以及设置用户档案的权限。
+请参阅 [用户权限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-hans) 有关中用户权限的信息 [!DNL Admin Console] 以及设置用户档案的权限。
 
 ## Experience Manager 即云服务
 
 Adobe企业客户在Adobe中表示为组织 [!DNL Admin Console]. Experience Manager客户可以使用Adobe [!DNL Admin Console] 管理产品权利以及对Experience Manageras a的IMS身份验证 [!UICONTROL Cloud Service].
 
-请参阅 [Experience Manager 即云服务的 IMS 支持](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=zh-Hans)。
+请参阅 [Experience Manager 即云服务的 IMS 支持](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=zh-hans)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 创建 Audience Manager 用户并将其分配给组。您还可以查看限制（特征、区段、目标和 [!DNL AlgoModel]）。
 
-请参阅 Audience Manager 帮助中的[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=zh-Hans)。
+请参阅 Audience Manager 帮助中的[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=zh-hans)。
 
 ## Experience Cloud中支持的浏览器
 
@@ -237,9 +237,9 @@ Adobe企业客户在Adobe中表示为组织 [!DNL Admin Console]. Experience Man
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=zh-Hans) 不支持 [!DNL Opera]，而 [!DNL Adobe Target] 不支持 [!DNL Safari]。）
+**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=zh-hans) 不支持 [!DNL Opera]，而 [!DNL Adobe Target] 不支持 [!DNL Safari]。）
 
 ### 解决方案和产品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=zh-Hans)
-* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hans)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=zh-hans)
+* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-hans)
