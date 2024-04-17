@@ -9,19 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 为 Experience Cloud 服务启用实施
 
-如果您最近使用Experience Platform标记实施了Experience Cloud，则表明您已经为客户属性和Experience Cloud受众进行了设置。 您还可以在 Admin Console 中管理用户和产品。
+如果您最近通过 Experience Platform 标记实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 
 现有客户可以使他们的应用程序实施实现现代化并实施 Experience Cloud。这样，您就可以在 Adobe Analytics、Audience Manager 和 Adobe Target 中使用客户属性和受众功能。要完成此实施，您将执行以下操作：
 
-1. [加入Experience Cloud并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [加入 Experience Cloud 并成为管理员](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [实施 Experience Cloud ID 服务](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [将报表包映射到 Experience Cloud 组织](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [更新 Analytics AppMeasurement 代码](#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -32,7 +32,7 @@ ht-degree: 83%
 
 ## 加入 Experience Cloud 并成为管理员 {#section_2423F0BD3DF642658103310EE5EA6154}
 
-要加入Experience Cloud必须执行的操作：
+加入 Experience Cloud 时必须执行的操作：
 
 1. 确保您拥有适当的 Adobe Analytics 或 Adobe Target SKU。
 
@@ -41,18 +41,18 @@ ht-degree: 83%
 
    >[!NOTE]
    >
-   >对于 [!DNL Target]，请从 [!DNL mbox.js] 迁移到 at.js。请参阅 [从at.js 1. x升级到at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html).
+   >对于 [!DNL Target]，请从 [!DNL mbox.js] 迁移到 at.js。请参阅[从 at.js 1. x 升级到 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html)。
 
 1. 使您的实施符合现代化要求并进行管理员身份配置。
 
    * 请按照下文[实施 [!UICONTROL Experience Cloud ID 服务]](core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的步骤执行操作。
-   * 请联系您的客户经理，然后开始进行Experience Cloud配置过程。
+   * 请联系您的客户经理，然后开始配置 Experience Cloud。
 
 1. 在 [!UICONTROL Admin Console] 中管理用户和产品。
 
 ### 管理员登录
 
-在成为管理员后，您可以登录到 [experience.adobe.com](https://experience.adobe.com).
+在成为管理员后，您可以登录到 [experience.Adobe.com](https://experience.adobe.com).
 
 Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
@@ -60,10 +60,10 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 ### 用户登录
 
-要登录到Experience Cloud，您的用户必须：
+要登录到 Experience Cloud，您的用户必须：
 
 * 拥有 Adobe ID（或您公司的 Enterprise ID）。
-* 登录到 [experience.adobe.com](https://experience.adobe.com)。
+* 登录到 [experience.Adobe.com](https://experience.adobe.com)。
 * 属于映射到企业群组的应用程序群组。
 * 如有必要，请将其应用程序帐户关联到 Adobe ID（如下所述）。
 
@@ -73,13 +73,13 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 将这些群组映射到 Experience Cloud 企业群组时，这些用户必须手动将其应用程序帐户凭据关联到其 Adobe ID。
 
-请参阅 [在Experience Cloud中关联帐户](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
+请参阅[在 Experience Cloud 中关联帐户](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
 >在映射企业群组和应用程序群组后，将会自动关联新用户。（将自动创建解决方案凭据，并将凭据关联到其 Adobe ID。）
 
-以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在Experience Cloud中启用核心服务。
+以下各节介绍如何使实施符合现代化要求。通过使实施符合现代化要求，可在 Experience Cloud 中启用核心服务。
 
 ## 实施 [!UICONTROL Experience Cloud ID 服务] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
@@ -89,9 +89,9 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans#intro)。
 
-**未使用 [!UICONTROL Experience Platform标签]？**
+**未使用 [!UICONTROL Experience Platform 标记]？**
 
-如果您没有使用 [!UICONTROL Experience Platform标签]，通过JavaScript部署手动实施ID服务(`VisitorAPI.js`)，如下所示：
+如果您未使用 [!UICONTROL Experience Platform 标记]，请通过 JavaScript 部署 (`VisitorAPI.js`) 手动实施 ID 服务，如下所示：
 
 | 任务 | 描述 |
 | -----------| ---------- |  
@@ -107,7 +107,7 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 在 Adobe Target 中，`mbox3rdpartyid` 必须获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。）
 
-当访客在您的网站上进行身份验证或以其他方式标识自己时，您的实施必须向页面或应用程序公开访客的 CRM 客户 ID。然后，您可以使用相应的函数调用将您的客户ID同步到Experience Cloud。 此同步会将访客的CRM客户ID存储在Experience Cloud中，并激活该客户的属性以用于Experience Cloud。
+当访客在您的网站上进行身份验证或以其他方式标识自己时，您的实施必须向页面或应用程序公开访客的 CRM 客户 ID。然后，您可以使用相应的函数调用将您的客户 ID 同步到 Experience Cloud。此同步会将访客的 CRM 客户 ID 存储在 Experience Cloud 中，并激活该客户的属性以在 Experience Cloud 中使用。
 
 例如，假设 Bob 在您的 CRM 系统中具有客户 ID `52mc210tr42`。当 Bob 在您的网站上进行身份验证时，您必须在该页面上透露此 ID，并使用此 ID 以下面两种方式之一进行同步：
 
@@ -116,9 +116,9 @@ Experience Cloud 菜单导航中提供 **[!UICONTROL Admin Console]** 链接。
 
 在已知客户 ID 的情况下，必须在每次 [!DNL Analytics] 服务器调用中进行设置。
 
-#### Analytics：将客户ID与Data Warehouse回填方法同步
+#### Analytics：将客户 ID 与 Data Warehouse 回填方法同步
 
-当客户属性首次可用时，一些客户尚未实施Experience CloudID服务，并且无法轻松利用客户属性。 为了帮助缓解此问题，Adobe创建了一种使用Adobe AnalyticsData Warehouse回填ID同步的方法。 此功能称为Data Warehouse回填。 Data Warehouse回填现在通常不是必需的，因此，从2022年10月起，将不再可用。
+当首次推出“客户属性”时，一些客户尚未实施 Experience Cloud ID 服务，因此无法轻松使用“客户属性”。为了帮助缓解这个问题，Adobe 创建了一种使用 Adobe Analytics Data Warehouse 来回填 ID 同步的方法。此功能称为 Data Warehouse 回填。现在通常没有必要对 Data Warehouse 进行回填，因此从 2022 年 10 月起不再可用。
 
 
 ### Mobile SDK
@@ -143,12 +143,12 @@ Experience Cloud 服务（例如 Experience Cloud ID 服务和[!UICONTROL 人员
 
 如果您使用的是 Analytics，请验证您是否使用区域数据收集 (RDC)。如果您的数据收集域是 `omtrdc.net`，或者，如果您的 CNAME 被映射到 `omtrdc.net`，则您使用的是 RDC。有关更多信息，请参阅[转换到 RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=zh-Hans)。如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hans)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
 
-建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。完成此任务的简单方法是添加 [Adobe Analytics扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans) 在Experience Platform数据收集中。
+建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。一个简单方法是在 Experience Platform 数据收集中添加 [Adobe Analytics 扩展。](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)
 
 ## 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建议您添加 [Adobe Target扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans) 在 [!UICONTROL Experience Platform] 标签中，以便自动检索库。 您还可以设置 [Experience CloudID服务扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans) Adobe Target （和其他应用程序）使用 [!UICONTROL Experience Platform] 标记之间。 此 [!UICONTROL Experience CloudID服务] 更新 **为必填项** ，以便Adobe Target使用人员服务。
-* 如果您没有使用 [!UICONTROL Experience Platform] 标记， [更新mbox库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans) 手动。
+* 建议您在 [!UICONTROL Experience Platform] 标记中添加 [Adobe Target 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans)，以便自动检索库。您还可以使用 [!UICONTROL Experience Platform] 标记为 Adobe Target（和其他应用程序）设置 [Experience Cloud ID 服务扩展。](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)Adobe Target **需要**&#x200B;进行 [!UICONTROL Experience Cloud ID 服务]更新才能使用“人员”服务。
+* 如果您没有使用 [!UICONTROL Experience Platform] 标记，请手动[更新 mbox 库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans)。
 * 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
 
   >[!IMPORTANT]
@@ -202,7 +202,7 @@ mbox 请求中的 Experience Cloud ID：
 
 ### [!UICONTROL 人员] > [!UICONTROL 客户属性]
 
-如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud的客户属性数据源。 上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
+如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
 
 请参阅[客户属性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 

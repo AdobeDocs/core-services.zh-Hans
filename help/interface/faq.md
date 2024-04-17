@@ -1,7 +1,7 @@
 ---
 description: 了解 Adobe Experience Cloud 支持的浏览器，以及面向管理员的常见问题解答。
 solution: Experience Cloud
-title: 有关Experience Cloud的常见问题解答
+title: 关于 Experience Cloud 的常见问题解答
 index: true
 feature: Admin Console
 topic: Administration
@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 关于 Experience Cloud 的常见问题解答
 
-了解浏览器支持以及面向Experience Cloud管理员的常见问题和解答。
+了解 Experience Cloud 支持的浏览器，以及面向管理员的常见问题和解答。
 
 ## Experience Cloud 支持哪些浏览器？
 
@@ -31,9 +31,9 @@ ht-degree: 84%
 
 如果尚未为核心服务配置实施，请参阅[为核心服务启用应用程序](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中介绍了以下操作说明：
 
-1. [加入Experience Cloud并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [加入 Experience Cloud 并成为管理员](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用 Experience Platform 标记实施 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hans)。
-1. [将报告包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
+1. [将报表包映射到 Experience Cloud 组织](core-services.md#concept_apg_zq2_rw)
 1. [（仅限 Analytics）使您的 Analytics AppMeasurement 代码符合现代化要求](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [（仅限 Adobe Target）使您的 Adobe Target 实施符合现代化要求](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [验证实施](core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
@@ -62,10 +62,10 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 ## 什么是&#x200B;_配置？_
 
-在Experience Cloud中进行配置意味着：
+Experience Cloud 中的配置表示：
 
 * 您的用户可以开始登录到 [!DNL Experience Cloud] 并关联应用程序。
-* 他们可以开始使用通过Experience Cloud提供的功能，如人员。
+* 他们可以开始使用 Experience Cloud 提供的功能，如人员。
 * 您可以准备停用特定于应用程序的登录流程。
 * 您可以保留对应用程序的访问控制。
 
@@ -75,9 +75,9 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 * 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，以了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
+* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
 
-## 如果有人无法登录到Experience Cloud，我该怎么做？
+## 如果有人无法登录到 Experience Cloud，我该怎么做？
 
 Admin Console 管理员可以授予用户访问权限。将会向用户发送包含登录说明的电子邮件。
 
@@ -95,7 +95,7 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 ## 什么是组织？
 
-An [组织](organizations.md) 是一个实体，它允许管理员配置组和用户，并控制单点登录Experience Cloud。 组织的作用类似于一个衔接所有Experience Cloud产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
+[组织](organizations.md)是一个实体，它允许管理员配置群组和用户，并控制 Experience Cloud 中的单点登录。组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
 ## 在哪里可以找到我的 IMS 组织 ID？
 
@@ -103,7 +103,7 @@ An [组织](organizations.md) 是一个实体，它允许管理员配置组和�
 
 ## 如果我的一位用户离开了我的公司怎么办？
 
-应将他们的访问权限从应用程序中删除。他们将无法通过Experience Cloud或直接登录访问产品。 您还应在 Experience Cloud 级别删除它们。
+应将他们的访问权限从应用程序中删除。他们将无法从 Experience Cloud 中或通过直接登录访问产品。您还应在 Experience Cloud 级别删除它们。
 
 ## 什么是 Adobe ID？
 

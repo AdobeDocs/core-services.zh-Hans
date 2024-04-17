@@ -9,13 +9,13 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1582'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# 在中管理用户和产品 [!DNL Experience Cloud]
+# 管理 [!DNL Experience Cloud] 中的用户和产品
 
 了解有关登录到 Admin Console 并管理 Experience Cloud 用户权限和产品配置文件，以及浏览器支持的信息。
 
@@ -37,9 +37,9 @@ Adobe 正在更新其配置，以使所有 Experience Cloud 客户均可访问�
 
 Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://experienceleague.adobe.com/en/docs/tags)以简化通用标记管理，并提供一个可信、强大而完整的流数据基础架构。标记可简化客户体验数据收集并理顺体验投放。
 
-**中的更改[!DNL Admin Console]**
+**[!DNL Admin Console]** 中的变化
 
-管理员可以查看对的更改或添加 [!DNL Admin Console] 如下所示：
+管理员可看到如下对 [!DNL Admin Console] 的更改或添加：
 
 * Admin Console 中的 Adobe Experience Platform 产品卡包括：
 
@@ -52,7 +52,7 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
    * 数据流
    * 访客 ID
 
-  对于当前未使用Experience Platform的组织，您现在将看到 _Adobe Experience Platform_ 中的产品 [!DNL Admin Console]，包括上面列出的功能。
+  对于当前未使用 Experience Platform 的组织，现在您将在 [!DNL Admin Console] 中看到 _Adobe Experience Platform_ 产品，包括上方列出的功能。
 
   对于当前正在使用 Experience Platform 的组织，_场所_&#x200B;现在将并入 Experience Platform 卡。
 
@@ -75,24 +75,24 @@ Adobe Experience Platform [!UICONTROL 数据收集]包括多种[标记](https://
 
 从 2022 年 2 月开始，Adobe 将更新其配置文件管理系统，以允许组织更好地管理对各个配置文件的企业权限。因此，拥有对应于单独 Adobe ID (Type1) 的个人配置文件的所有用户将迁移到新的企业配置文件。此配置文件对应于 _Business ID_ (Type2e)。
 
-请参阅 [Adobe上的身份类型 [!DNL Admin Console]](https://helpx.adobe.com/cn/enterprise/using/identity.html) 以了解有关身份类型的信息。
+有关身份类型的信息，请参阅 [Adobe 上的身份类型。 [!DNL Admin Console]](https://helpx.adobe.com/cn/enterprise/using/identity.html)
 
 ### 迁移过程
 
 轮到您迁移时，组织管理员将在迁移前 30 天收到一封通知的电子邮件，
 
 * 迁移将根据组织所在的主要时区安排在晚上 10 点到早上 6 点之间进行或者在周末进行。
-* 在迁移期间，Experience Cloud应用程序可能在大约15分钟内无法访问，并且 [!DNL Admin Console] 可能最多有30分钟无法访问。 另一方面，此迁移将无缝进行。
+* 在迁移期间，可能约有 15 分钟时间无法访问 Experience Cloud 应用程序，可能最多有 30 分钟时间无法访问 [!DNL Admin Console]。另一方面，此迁移将无缝进行。
 
 ### 迁移后的变化
 
 [!DNL Admin Console]
 
-* 登录时，具有多个帐户的管理员可能会看到配置文件选择器 [!DNL Admin Console].
-* 单个Adobe ID用户将更新为Business ID。
-* Business ID目录将添加在 **[!UICONTROL 设置]** > **[!UICONTROL 标识]** > **[!UICONTROL 目录]**.
+* 登录到 [!DNL Admin Console] 后，具有多个帐户的管理员可能会看到配置文件选择器。
+* 个人 Adobe ID 用户将更新为 Business ID 用户。
+* Business ID 目录会添加到&#x200B;**[!UICONTROL “设置”]**>**[!UICONTROL “身份识别”]**>**[!UICONTROL “目录”]**&#x200B;中。
 
-  ![[!DNL Admin Console] 标识 — Business ID](assets/identity-home.png)
+  ![[!DNL Admin Console] 身份 - 企业 ID](assets/identity-home.png)
 
 ### 迁移后登录
 
@@ -123,7 +123,7 @@ _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和
 
 邀请用户加入组织时，您可以授予用户访问产品和产品配置文件的权限。您还可以将有限的管理权限委派给某个用户。同样，您可以创建用户组，然后将该组添加到产品配置文件以启用访问权限。
 
-1. 在 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/)，选择 **[!UICONTROL 产品]**.
+1. 在 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) 中，选择&#x200B;**[!UICONTROL “产品”]**。
 1. 选择您的组织名称。
 1. 选择&#x200B;**[!UICONTROL 新个人资料]**。
 1. 配置该个人资料的详细信息，然后选择&#x200B;**[!UICONTROL 保存]**。
@@ -132,30 +132,30 @@ _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和
 
 **相关帮助**
 
-* [管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html) 在 [!DNL Admin Console]
-* [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html) 在 [!DNL Admin Console].
+* 在 [!DNL Admin Console] 中[管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html)
+* 在 [!DNL Admin Console] 中[管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)。
 * 有关更多信息，请参阅 Adobe Target 帮助中的[企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-hans)。
-* 视频： [如何在Adobe中配置Adobe Target工作区 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-hans)
+* 视频：[如何在 Adobe [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-hans) 中配置 Adobe Target Workspaces
 
-## 将管理角色分配给用户 {#delegate-rights}
+## 将管理角色委派给用户 {#delegate-rights}
 
-在 [!DNL Admin Console]，您可以将有限的管理权限委派给组织中的其他人员。 凭借委派的角色，用户能够管理对最终用户的软件访问权限，提供访问部署功能，并充当支持代表。
+在 [!DNL Admin Console] 中，您可以将有限的管理权限委派给贵组织中的其他人员。凭借委派的角色，用户能够管理对最终用户的软件访问权限，提供访问部署功能，并充当支持代表。
 
 例如，您可以：
 
 * 允许您的创意总监授予对 Creative Cloud 的访问权限。
-* 允许您的营销总监授予对Experience Cloud的访问权限。
+* 允许您的营销总监授予对 Experience Cloud 的访问权限。
 * 将这两个角色分开，以便它们不会逾越彼此的角色权限。
 
 通过使用这些角色，您可以将管理同时委派给其他人，而不会提供超出其需求的更多功能。
 
-1. 在 [!DNL Admin Console]，选择 **[!UICONTROL 用户]**，然后选择用户的名称。
+1. 在 [!DNL Admin Console] 中，选择&#x200B;**[!UICONTROL “用户”]**，然后选择用户的名称。
 
-   ![中的管理权限 [!DNL Admin Console]](assets/edit-admin-rights.png)
+   ![[!DNL Admin Console]](assets/edit-admin-rights.png) 中的管理权限
 
 1. 选择&#x200B;**[!UICONTROL 编辑管理权限]**。
 
-   ![编辑中的管理权限 [!DNL Admin Console]](assets/edit-admin-rights-page.png)
+   ![编辑 [!DNL Admin Console]](assets/edit-admin-rights-page.png) 中的管理权限 
 
 1. 指定用户的管理权限。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
@@ -166,7 +166,7 @@ _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和
 
 例如，您可以创建包含多个 Analytics 工具（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Report Builder]）的产品配置文件。这些配置文件包含对特定量度和维度（包括 eVar）的权限，以及区段或计算量度创建等功能。
 
-1. 登录到 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise)，然后选择 **[!UICONTROL 产品]**.
+1. 登录到 [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise)，然后选择&#x200B;**[!UICONTROL “产品”]**。
 1. 在[!UICONTROL 产品]页面上，选择您的产品，然后选择&#x200B;**[!UICONTROL 权限]**（仅适用于管理员）。
 1. 配置该配置文件的权限：
 
@@ -176,19 +176,19 @@ _[!UICONTROL 产品配置文件]_&#x200B;是可以分配给用户的产品组和
 | 量度 | 启用流量、转化、自定义事件、应用程序事件和内容识别等的权限。 |
 | 维度 | 在细粒度级别自定义用户访问权限，包括 eVar、流量报表、应用程序报表和路径报表。 |
 | 报表包工具 | 启用 Web 服务、报表包管理、工具和报表及功能板项目的用户权限。 |
-| Analytics 工具 | 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。来自自定义的公司设置 [!DNL Admin Console] 类别已移至Analytics工具。 |
+| Analytics 工具 | 启用常规项目（帐单、日志等）、公司管理、工具、Web 服务访问、Report Builder 和 Data Connectors 集成的用户权限。“自定义 [!DNL Admin Console]”类别中的“公司设置”已被移动到“Analytics 工具”中。 |
 
 **用户帐户迁移**
 
-Analytics用户ID迁移工具可帮助Analytics管理员将用户帐户从Analytics用户管理迁移到 [Adobe [!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/).
+Analytics 用户 ID 迁移工具可帮助 Analytics 管理员将用户帐户从 Analytics User Management 迁移到 [Adobe [!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/)。
 
-Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要从迁移现有用户帐户时，Adobe会通知您并给予协助 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** 到 [!DNL Admin Console].
+帐户迁移功能正在分阶段向客户推出。当您需要将现有用户帐户从&#x200B;**[!UICONTROL “管理工具”]**>**[!UICONTROL “用户管理”]**&#x200B;迁移到 [!DNL Admin Console] 时，Adobe 会通知您并给予协助。
 
-迁移后，用户在 [experience.adobe.com](https://experience.adobe.com) 上使用他们的 Adobe ID（或 Enterprise ID）登录，并对其 Experience Cloud 应用程序和服务进行身份验证。如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com]）进行登录，则会被重定向至 [!DNL experience.adobe.com]。
+迁移后，用户在 [experience.Adobe.com](https://experience.adobe.com) 上使用他们的 Adobe ID（或 Enterprise ID）登录，并对其 Experience Cloud 应用程序和服务进行身份验证。如果用户尝试通过旧版的登录方式（[!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com]）进行登录，则会被重定向至 [!DNL experience.adobe.com]。
 
 **相关帮助**
 
-* [中的Analytics [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-hans)
+* [ [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-hans) 中的 Analytics
 * [Analytics 用户 ID 迁移](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-hans)
 
 ## 管理 Adobe Target - 产品配置文件与工作区 {#section_3860AF177C9E4C7E9C390D36A414F353}
@@ -199,7 +199,7 @@ Adobe 正在分阶段向客户推出这项帐户迁移功能。当您需要从�
 
 * [企业用户权限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-hans)
 * [管理产品和配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)
-* 视频： [如何在Adobe中配置Adobe Target工作区 [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-hans)
+* 视频：[如何在 Adobe  [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-hans) 中配置 Adobe Target Workspaces
 
 ## 管理 Campaign 产品配置文件、租户和安全组 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -215,11 +215,11 @@ Experience Platform [!UICONTROL 数据收集]显示在 [!UICONTROL Admin Console
 
 邀请用户进入 [!UICONTROL Platform 数据收集]，并为用户分配角色和权限。
 
-请参阅 [用户权限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-hans) 有关中用户权限的信息 [!DNL Admin Console] 以及设置用户档案的权限。
+有关 [!DNL Admin Console] 中的用户权限以及设置配置文件权限的信息，请参阅[用户权限。](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-hans)
 
-## Experience Manager 即云服务
+## Experience Manager as a Cloud Service
 
-Adobe企业客户在Adobe中表示为组织 [!DNL Admin Console]. Experience Manager客户可以使用Adobe [!DNL Admin Console] 管理产品权利以及对Experience Manageras a的IMS身份验证 [!UICONTROL Cloud Service].
+Adobe 企业客户在 Adobe [!DNL Admin Console] 中表示为组织。Experience Manager 客户可以使用 Adobe [!DNL Admin Console] 管理产品权利以及对 Experience Manager as a [!UICONTROL Cloud Service] 的 IMS 身份验证。
 
 请参阅 [Experience Manager 即云服务的 IMS 支持](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=zh-hans)。
 
@@ -229,7 +229,7 @@ Adobe企业客户在Adobe中表示为组织 [!DNL Admin Console]. Experience Man
 
 请参阅 Audience Manager 帮助中的[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=zh-hans)。
 
-## Experience Cloud中支持的浏览器
+## Experience Cloud 中支持的浏览器
 
 * [!DNL Microsoft® Edge]（Microsoft® 已[结束](https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support)对 Internet Explorer 8、9 和 10 的支持。因此，Adobe 将不会针对这些特定 Internet Explorer 版本报告的问题进行修复。）
 * [!DNL Google Chrome]

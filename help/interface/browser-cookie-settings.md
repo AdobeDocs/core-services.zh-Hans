@@ -1,7 +1,7 @@
 ---
 description: 了解如何启用浏览器 Cookie 的隐私设置。您可以删除在桌面浏览器和移动设备浏览器中阻止所有 Cookie 的用户。
 solution: Experience Cloud, Analytics, Target
-title: 浏览器Cookie的隐私设置
+title: 浏览器 Cookie 的隐私设置
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

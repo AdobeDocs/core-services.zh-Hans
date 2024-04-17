@@ -1,7 +1,7 @@
 ---
-description: 了解Experience Cloud服务（如客户属性、受众和用户管理）的最新功能、发行说明和已知问题。
+description: 了解客户属性、受众和用户管理等各项 Experience Cloud 服务的最新功能、发行说明和已知问题。
 solution: Experience Cloud
-title: Experience Cloud界面的发行说明汇总
+title: Experience Cloud 界面的累积发行说明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4735'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -246,7 +246,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> Audience Library 消息 </td> 
-   <td colname="col2"> <p> 我们改进了 Audience Library，可在构建受众或发生超时的时显示有用的消息。 </p> <p>例如，添加五个以上规则时，将显示一条消息，指示您超出了允许的最大规则数。（MAC-27376、MAC-27375） </p> </td> 
+   <td colname="col2"> <p> 我们改进了 Audience Library，可在生成受众或发生超时的时显示有用的消息。 </p> <p>例如，添加五个以上规则时，将显示一条消息，指示您超出了允许的最大规则数。（MAC-27376、MAC-27375） </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,8 +259,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知问题**
 
-* 如果客户通过Experience Cloud使用单点登录(SSO)方式进入Analytics，则无法登录Report Builder。 此问题不会影响使用旧版 Analytics 凭据的客户。
-* Analytics 中“链接至报表”功能的已知问题。通过Experience Cloud登录Analytics的客户在尝试共享报表时，会被定向到Analytics的非单点登录页面。
+* 客户如果通过 Experience Cloud 使用单点登录 (SSO) 方式进入 Analytics，则无法登录 Report Builder。此问题不会影响使用旧版 Analytics 凭据的客户。
+* Analytics 中“链接至报表”功能的已知问题。通过 Experience Cloud 登录 Analytics 的客户在尝试共享报表时，会被定向到 Analytics 的非单点登录页面。
 
 ## 15.9 版 - 2015 年 9 月 10 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
@@ -279,7 +279,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知问题**
 
-一个已知问题是：导致在 Audience Manager 中创建自动生成帐户重复，并自动将其关联到某个用户的 Experience Cloud 身份。如果您在关联帐户之前尝试导航到 Audience Manager，则会出现此问题。Adobe建议您在导航到Audience Manager之前将Audience Manager帐户关联到Experience Cloud。 (MAC-25640)
+一个已知问题是：导致在 Audience Manager 中创建自动生成帐户重复，并自动将其关联到某个用户的 Experience Cloud 身份。如果您在关联帐户之前尝试导航到 Audience Manager，则会出现此问题。Adobe 建议您先将 Audience Manager 帐户关联到 Experience Cloud，然后再导航到 Audience Manager。(MAC-25640)
 
 ## 15.6.1 版 - 2015 年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -338,7 +338,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知问题**
 
-* 将Dynamic Tag Management组织与Experience Cloud关联和取消关联的操作不适用于新创建的Experience Cloud组织。 Adobe 正在努力修复此问题，并会在 5 月版本中恢复正常功能。如果您在尝试通过Experience Cloud以单点登录方式访问动态标签管理时遇到问题，请采用以往的登录方式访问 [!DNL dtm.adobe.com].
+* 将 Dynamic Tag Management 组织与 Experience Cloud 关联和取消关联的操作不适用于新创建的 Experience Cloud 组织。Adobe 正在努力修复此问题，并会在 5 月版本中恢复正常功能。如果您在尝试通过 Experience Cloud 以单点登录方式访问 Dynamic Tag Management 时遇到问题，请采用以往的登录方式访问 [!DNL dtm.adobe.com]。
 * 一个已知的问题是：对于不属于关联的 Analytics 帐户的报表包，访客将无法共享其内容。我们目前正在修复这个问题。
 
 ## 15.3.2 版 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -353,7 +353,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p>如果您在客户关系管理(CRM)数据库中捕获到企业客户数据，则可以将该数据上传到Experience Cloud的客户属性数据源。 在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务应用程序实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用应用程序</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客户属性</a>产品文档。 </p> <p> 有关使您的核心服务应用程序实现现代化的信息，请参阅<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">为核心服务启用应用程序</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -374,7 +374,7 @@ With this update, administrators may see changes or additions to the Admin Conso
   </tr> 
   <tr> 
    <td colname="col1"> <p>一对多映射 </p> </td> 
-   <td colname="col2"> <p>在Experience Cloud中关联应用程序帐户时，如果您拥有多个应用程序和组织，则现在可以将多个产品和服务映射到单个组织。 </p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 中关联应用程序帐户时，如果您拥有多个应用程序和组织，那么现在可以将多个产品和服务映射到单个组织。 </p> </td> 
   </tr> 
     <tr> 
    <td colname="col1"> <p>文档更新 - 核心服务 </p> </td> 
@@ -423,13 +423,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 只有在重新登录之后，用户管理中执行的群组和授权更改才会生效。
 * 某些用户在将大文件类型上传到 Experience Cloud Assets 时可能会遇到问题。
 * 用户可能在其 Experience Cloud 卡片上缺少来自 Advertising Cloud 的链接。
-* 某些管理用户在接受加入Experience Cloud的邀请后关联其帐户时可能会遇到问题。
+* 某些管理用户在接受加入 Experience Cloud 的邀请后关联其帐户时可能会遇到问题。
 * 当多个用户同时使用 Experience Cloud 界面时，该界面性能可能会降低。
 * 某些用户可以删除过期的资源，而不会收到错误通知。
 * 某些用户在使用同一 Adobe ID 同时登录两个浏览器时可能会遇到问题。
 * 某些用户在删除了一个 Creative Cloud 用户之后，可能无法再次向共享文件夹添加该 Creative Cloud 用户。
-* 在将文件夹从Experience Cloud共享到Creative Cloud时，某些用户可能会遇到通知延迟问题。
-* 某些用户在Experience Cloud和Creative Cloud之间共享文件夹时可能会遇到问题。
+* 在将文件夹从 Experience Cloud 共享到 Creative Cloud 时，某些用户可能会遇到通知延迟问题。
+* 某些用户在 Experience Cloud 和 Creative Cloud 之间共享文件夹时可能会遇到问题。
 * 启用共享受众后，某些用户在 Analytics 报表包中创建受众时可能会遇到问题。
 * 某些用户在将资源上传到展示板时可能会遇到问题。
 
@@ -588,7 +588,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 无法在“[!UICONTROL 组织和产品访问]”页面中关联 [!DNL Search&Promote]。
 * 从 [!DNL Analytics] 对趋势报表应用的过滤器不会应用到 [!DNL Experience Cloud] 中的信息卡。
 * 某些用户无法将他们的受众管理帐户与其 [!DNL Experience Cloud] 帐户相关联。
-* 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销将会使您从整个Experience Cloud中注销。
+* 用户处于不活动状态 15 分钟以后会被注销。此外，在一个位置注销将会使您从整个 Experience Cloud 中注销。
 * 某些 Exchange 用户可能在备注中发现他们的名称为一个较长的字符串 ID，而不是他们的名称
 
 **修复**
