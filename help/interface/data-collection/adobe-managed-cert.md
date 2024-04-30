@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,7 @@ Adobe 提供两种密码安全级别，以满足客户对第一方数据收集�
 
 +++支持哪些HTTPS证书类型？
 
-Adobe同时支持RSA和ECC证书类型，以满足不同的客户需求。 客户端更广泛地支持RSA证书，但ECC证书在服务器和客户端使用的处理较少。 对于Adobe管理的证书，同时提供了RSA和ECC。 对于客户管理的证书，建议同时使用RSA和ECC。 新式客户端同时支持RSA和ECC。 以下客户端通常仅支持RSA证书：
+Adobe同时支持RSA和ECC证书类型，以满足不同的客户需求。 客户端更广泛地支持RSA证书，但ECC证书在服务器和客户端使用的处理较少。 对于Adobe管理的证书，同时提供了RSA和ECC。 对于客户管理的证书，需要RSA，并且建议使用ECC。 新式客户端同时支持RSA和ECC。 以下客户端通常仅支持RSA证书：
 
 * Windows Vista及更早版本（最后更新于2012年）
 * Windows Phone 8.0 及更早版本（最后更新于 2014 年）
