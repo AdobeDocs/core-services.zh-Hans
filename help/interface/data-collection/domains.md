@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: a15918f0-c03b-4d32-a254-47f46023b127
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 17%
 
 ---
@@ -19,8 +19,8 @@ Experience Cloud使用以下主机来交付应用程序、提高性能和改善�
 
 除了下面列出的域外，各个Adobe Experience Cloud产品还会使用自己的域：
 
-* Adobe Analytics
-* Customer Journey Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
 
 | 技术 | 域 |
 | --- | --- |

@@ -2,9 +2,9 @@
 title: Adobe Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 24%
 除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用他们自己的IP地址：
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* Customer Journey Analytics
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
 ## 所有 Adobe IP 地址块
 
