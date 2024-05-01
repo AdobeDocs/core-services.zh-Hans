@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 界面和管理指南
 title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 85%
+source-wordcount: '227'
+ht-degree: 80%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 85%
 
 + [Experience Cloud 中央界面组件指南](experience-cloud.md)
 
-+ Experience Cloud 服务 {#services}
-   + [Experience Cloud 服务](services/overview.md)
++ 服务 {#services}
+   + [概述](services/overview.md)
    + [快速入门](services/getting-started.md)
    + 资产 {#assets}
-      + [Experience Cloud 资产概述](services/assets/experience-cloud-assets.md)
-      + [与 Creative Cloud 共享 Experience Cloud 文件夹和资源](services/assets/creative-cloud.md)
+      + [概述](services/assets/experience-cloud-assets.md)
+      + [与Creative Cloud共享文件夹和资源](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 用户](services/assets/manage-cc-users.md)
-      + [共享 Experience Cloud 资源文件夹](services/assets/share.md)
+      + [共享资产文件夹](services/assets/share.md)
       + [将资产上传到共享文件夹](services/assets/upload.md)
       + [针对共享的资源文件要求](services/assets/file-reqs.md)
       + [共享文件夹的行为](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 85%
       + [客户属性的隐私注意事项](services/customer-attributes/privacy-mac.md)
    + [触发因素](services/triggers.md)
 
-+ Experience Cloud功能 {#features}
++ 功能 {#features}
    + [帐户偏好设置](features/account-preferences.md)
    + [统一搜索](features/search.md)
    + [个性化学习](features/personalized-learning.md)
 
-+ Experience Cloud 管理{#administration}
-   + [查看 Experience Cloud 用户详细信息（管理工具）](administration/admin-tool-experience-cloud.md)
++ 管理 {#administration}
+   + [查看用户详细信息（管理工具）](administration/admin-tool-experience-cloud.md)
    + [组织和帐户关联](administration/organizations.md)
-   + [Experience Cloud 集成](administration/integrations.md)
+   + [集成](administration/integrations.md)
 
-+ Experience Cloud数据收集 {#data-collection}
++ 数据收集 {#data-collection}
    + [Adobe管理的证书计划](data-collection/adobe-managed-cert.md)
    + [IP地址](data-collection/ip-addresses.md)
    + [域](data-collection/domains.md)

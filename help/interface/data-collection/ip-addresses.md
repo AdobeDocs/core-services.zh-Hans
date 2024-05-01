@@ -1,33 +1,32 @@
 ---
-title: Adobe Experience Cloud IP地址
+title: Adobe Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
-# Adobe Experience Cloud IP地址和域
+# Adobe Experience Cloud使用的IP地址
 
 一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统(例如Adobe Analytics中的数据馈送)。
 
 >[!IMPORTANT]
 >
->虽然Adobe会尽力保持此文档为最新状态，但它不能保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，互联网注册管理机构要求对Adobe的IP地址空间进行更改，或者互联网服务提供商停止运营。
+>虽然Adobe会尽力保持此文档为最新状态，但它不能保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，Internet注册管理机构要求对Adobe的IP地址空间进行更改，或Internet服务提供商停止运营。
 
-除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用自己的域：
+除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用他们自己的IP地址：
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## 所有 Adobe IP 地址块
 
 下表列出了所有Adobe拥有的IP地址。 此表包括全球Adobe运行的所有Adobe员工办公室和数据中心。 它不包括托管在公共云上的服务。
 
-| IP 块（CIDR 表示法） |
+| IP块（CIDR表示法） |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -48,7 +47,7 @@ ht-degree: 27%
 
 上表包含此部分中的所有IP范围。
 
-| 位置 | IP 范围（CIDR 表示法） |
+| 位置 | IP范围（CIDR表示法） |
 | --- | --- |
 | 澳大利亚 | `63.140.55.0/24` |
 | 澳大利亚 | `63.140.56.0/23` |
