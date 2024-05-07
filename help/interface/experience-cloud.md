@@ -8,13 +8,13 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Experience Cloud中心界面概述
+# Experience Cloud 中央界面概述组件
 
 [Experience Cloud](https://experience.adobe.com) 是 Adobe 综合系列的数字营销应用程序、产品和服务。通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
 
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的帮助图标（![资产](assets/help-icon.png)）访问学习和帮助内容，包括有关 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的帮助图标（![资源](assets/help-icon.png)）访问学习和帮助内容，包括有关 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
