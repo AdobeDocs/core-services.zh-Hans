@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 80%
 + 服务 {#services}
    + [概述](services/overview.md)
    + [快速入门](services/getting-started.md)
-   + 资产 {#assets}
+   + 资源 {#assets}
       + [概述](services/assets/experience-cloud-assets.md)
       + [与Creative Cloud共享文件夹和资源](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 用户](services/assets/manage-cc-users.md)
       + [共享资产文件夹](services/assets/share.md)
-      + [将资产上传到共享文件夹](services/assets/upload.md)
+      + [将资源上传到共享文件夹](services/assets/upload.md)
       + [针对共享的资源文件要求](services/assets/file-reqs.md)
       + [共享文件夹的行为](services/assets/behavior.md)
-   + 受众库 {#audiences}
+   + 受众库{#audiences}
       + [概述](services/audiences/overview.md)
       + [创建受众](services/audiences/create.md)
-   + [Exchange](services/exchange.md)
+   + [交换](services/exchange.md)
    + 客户属性 {#customer-attributes}
       + [概述](services/customer-attributes/attributes.md)
       + [关于客户属性的常见问题](services/customer-attributes/faq-crs.md)
@@ -57,19 +57,19 @@ ht-degree: 80%
    + [集成](administration/integrations.md)
 
 + 数据收集 {#data-collection}
-   + [Adobe管理的证书计划](data-collection/adobe-managed-cert.md)
-   + [IP地址](data-collection/ip-addresses.md)
+   + [Adobe 管理的证书计划](data-collection/adobe-managed-cert.md)
+   + [IP 地址](data-collection/ip-addresses.md)
    + [域](data-collection/domains.md)
    + Cookie {#cookies}
-      + [Cookie概述](data-collection/cookies/overview.md)
-      + [广告Cookie](data-collection/cookies/advertising.md)
+      + [Cookie 概述](data-collection/cookies/overview.md)
+      + [Advertising Cookie](data-collection/cookies/advertising.md)
       + [Analytics Cookie](data-collection/cookies/analytics.md)
       + [Audience Manager Cookie](data-collection/cookies/audience-manager.md)
       + [Experience Cloud Cookie](data-collection/cookies/experience-cloud.md)
       + [Target Cookie](data-collection/cookies/target.md)
       + [Web SDK Cookie](data-collection/cookies/web-sdk.md)
    + [地区数据收集](data-collection/rdc.md)
-   + [使用DNS预获取](data-collection/dns-prefetch.md)
+   + [使用 DNS 预取](data-collection/dns-prefetch.md)
 
 + 更多资源 {#more-resources}
    + [发行说明](more-resources/release-notes.md)
