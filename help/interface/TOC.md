@@ -6,9 +6,9 @@ title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
    + [快速入门](services/getting-started.md)
    + 资源 {#assets}
       + [概述](services/assets/experience-cloud-assets.md)
-      + [与Creative Cloud共享文件夹和资源](services/assets/creative-cloud.md)
+      + [与 Creative Cloud 共享文件夹和资源](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 用户](services/assets/manage-cc-users.md)
       + [共享资产文件夹](services/assets/share.md)
       + [将资源上传到共享文件夹](services/assets/upload.md)
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [个性化学习](features/personalized-learning.md)
 
 + 管理 {#administration}
-   + [查看用户详细信息（管理工具）](administration/admin-tool-experience-cloud.md)
+   + [查看用户详细信息（管理员工具）](administration/admin-tool-experience-cloud.md)
    + [组织和帐户关联](administration/organizations.md)
    + [集成](administration/integrations.md)
 
