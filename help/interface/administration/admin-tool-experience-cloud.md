@@ -1,6 +1,6 @@
 ---
 title: 查看用户和用户详细信息
-description: 了解Experience Cloud中的“管理工具”。 查看所有Experience Cloud用户和策略的可排序和可过滤列表。
+description: 了解 Experience Cloud 中的管理工具。查看所有 Experience Cloud 用户和政策的可排序和可过滤列表。
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
