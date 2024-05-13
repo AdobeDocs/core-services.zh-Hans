@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ An *组织* （组织ID）是一个实体，它允许管理员配置组和用户
 
 ![Experience Cloud组织](../assets/organizations-menu.png)
 
-要验证您是否已登录到正确的组织，请单击您的个人资料头像来查看组织名称。如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
+要验证您是否已登录到正确的组织，请单击您的个人资料头像来查看组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
 
 ## Federated ID
 
@@ -45,7 +45,7 @@ An *组织* （组织ID）是一个实体，它允许管理员配置组和用户
 
    ![已分配组织 ID](../assets/assigned-organization.png)
 
-1. 下 **[!UICONTROL 用户信息]**，查找 **[!UICONTROL 当前组织ID]**，此时，您将看到组织ID。
+1. 下 **[!UICONTROL 用户信息]**，查找 **[!UICONTROL 当前组织ID]**，并且您可以找到组织ID。
 
    或者，管理员也可以登录Admin Console(导航至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的组织ID。
 
@@ -87,7 +87,7 @@ An *组织* （组织ID）是一个实体，它允许管理员配置组和用户
 
 ![编辑个人资料](../assets/edit-profile.png)
 
-在“默认组织和登录页面”下方，您可以定制登录体验。
+下 **[!UICONTROL 默认组织和登录页面]**，您可以自定义登录体验。
 
 ![默认组织和登录页面](../assets/default-organization.png)
 
