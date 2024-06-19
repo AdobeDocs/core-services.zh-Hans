@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,7 @@ Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟�
 | **`s_sq`** | 会话 | 100-200字节 | 第一方 | 由Activity Map使用。 它包含有关访客点击的上一个链接的信息。 由JavaScript设置。 |
 | **`s_vi`** | 2 年 | 44 字节 | 第一方，或 `*.omtrdc.net` （第三方） | 存储唯一的访客ID和时间戳。 由HTTP响应设置。 每个访客ID均与Adobe服务器上的一个访客资料关联。 访客资料在处于1年的非活动状态之后会被删除，这与任何访客ID Cookie过期日期无关。 此 `Secure` 标志设置时机 `SameSite` 为“None”，连接为HTTPS。 `SameSite` 对于第一方Cookie，默认情况下为“Lax”。 `SameSite` 使用第三方Cookie时为“无”，例如 `omtrdc.net` 或 `2o7.net`. 设置 `SameSite` 更改为“无”（使用单个CNAME跟踪多个域或资产时）。 |
 | **`s_fid`** | 2 年 | 33 字节 | 第一方 | 存储后备唯一访客ID和时间戳。 如果符合以下条件，则由JavaScript设置 `s_vi` 由于第三方Cookie限制，无法设置Cookie。 不用于第一方Cookie实施。 |
+| **`s_ac`** | 立即 | 1字节 | 第一方 | 帮助确定设置AppMeasurementCookie的正确域。 包含静态值 `"1"`. 设置此Cookie后，将立即将其删除。 |
 
 {style="table-layout:auto"}
 
