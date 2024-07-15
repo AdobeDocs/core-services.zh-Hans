@@ -28,7 +28,7 @@ Experience Cloud 中的 [!DNL Customer Attributes] 允许您上传从客户关�
 
 ## 上传 [!DNL Customer Attributes] 的先决条件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **组成员资格：** 要上传客户属性数据，用户必须是客户属性组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
+* **组成员资格：**&#x200B;要上传客户属性数据，用户必须是客户属性组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
   要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果 *[!DNL Customer Attributes]* 显示为其中一个[!UICONTROL 产品配置文件]，则表示您已经可以开始。
 

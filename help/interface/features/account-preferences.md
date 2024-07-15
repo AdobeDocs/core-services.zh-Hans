@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -32,9 +33,9 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 |--- |--- |
 | 默认[组织](../administration/organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
 | [!UICONTROL 产品数据收集] | 选择 Adobe 可以使用哪些技术来收集有关您如何使用 Adobe 产品的数据。 |
-| [!UICONTROL 个性化的学习推荐和促销] | 选择您希望接收的位置 [个性化帮助](personalized-learning.md) 您的Adobe产品的。 此帮助可通过电子邮件、产品内和Experience League社区提供。 |
-| [!UICONTROL 订阅] | 选择您要订阅的产品和类别。中的通知 [!UICONTROL 通知] 弹出框和电子邮件。 |
-| [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别使用 [!UICONTROL 高] 标签进行标记，并且可以配置为像警报一样发送。 |
+| [!UICONTROL 个性化的学习推荐和促销] | 选择您希望从何处接收Adobe产品的[个性化帮助](personalized-learning.md)。 此帮助可通过电子邮件、产品内和Experience League社区提供。 |
+| [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出框和电子邮件中的通知。 |
+| [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有[!UICONTROL 高]标记，可以配置为像警报一样发送。 |
 | [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
 | 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
 

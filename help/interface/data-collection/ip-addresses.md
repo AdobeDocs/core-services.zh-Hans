@@ -1,16 +1,17 @@
 ---
 title: Adobe Experience Cloud使用的IP地址
-description: 如果贵组织的防火墙阻止源自 Adobe 的 IP 地址，请使用此列表更新您的防火墙设置。
-source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
+description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
+exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
+source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 24%
+ht-degree: 5%
 
 ---
 
 # Adobe Experience Cloud使用的IP地址
 
-一些防火墙配置会阻止源自 Adobe 数据收集服务器或负责访问数据的服务器的 IP 地址。您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统(例如Adobe Analytics中的数据馈送)。
+某些防火墙配置会阻止源自Adobe的数据收集服务器或负责访问数据的服务器的IP地址。 您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统(例如Adobe Analytics中的数据馈送)。
 
 >[!IMPORTANT]
 >
@@ -21,7 +22,7 @@ ht-degree: 24%
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
-## 所有 Adobe IP 地址块
+## 所有AdobeIP地址块
 
 下表列出了所有Adobe拥有的IP地址。 此表包括全球Adobe运行的所有Adobe员工办公室和数据中心。 它不包括托管在公共云上的服务。
 
@@ -62,11 +63,11 @@ ht-degree: 24%
 | 伦敦 | `185.34.188.0/22` |
 | 伦敦 | `130.248.152.0/22` |
 | 伦敦 | `130.248.244.0/23` |
-| 俄勒冈 | `66.235.132.0/22` |
-| 俄勒冈 | `130.248.130.0/23` |
-| 俄勒冈 | `130.248.150.0/24` |
-| 俄勒冈 | `130.248.160.0/21` |
-| 俄勒冈 | `192.243.242.0/24` |
+| 俄勒冈州 | `66.235.132.0/22` |
+| 俄勒冈州 | `130.248.130.0/23` |
+| 俄勒冈州 | `130.248.150.0/24` |
+| 俄勒冈州 | `130.248.160.0/21` |
+| 俄勒冈州 | `192.243.242.0/24` |
 | 新加坡 | `130.248.170.0/23` |
 | 新加坡 | `130.248.240.0/24` |
 | 新加坡 | `63.140.44.0/22` |
@@ -90,8 +91,8 @@ Adobe Experience Cloud还支持有限容量的IPv6。 这些IP块与上面的IPv
 | 印度 | `2406:da1a:f34:6a00::/56` |
 | 爱尔兰 | `2a05:d018:309:600::/56` |
 | 日本 | `2406:da14:b07:ab00::/56` |
-| 俄勒冈 | `2600:1f14:1eb:7d00::/56` |
-| 俄勒冈 | `2600:1f14:9d3:2b00::/56` |
+| 俄勒冈州 | `2600:1f14:1eb:7d00::/56` |
+| 俄勒冈州 | `2600:1f14:9d3:2b00::/56` |
 | 新加坡 | `2406:da18:6e8:1e00::/56` |
 | 弗吉尼亚 | `2600:1f18:1a20:e800::/56` |
 | 弗吉尼亚 | `2600:1f18:4fd:6000::/56` |

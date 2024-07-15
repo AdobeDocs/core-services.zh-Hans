@@ -68,12 +68,12 @@ ht-degree: 94%
 | 新建 | [创建受众](create.md)。 |
 | 标题和描述 | 列标题，用于识别和描述受众。 |
 | 作者 | 创建受众区段的人员。 |
-| 来源 | 标识创建受众的位置。<ul><li>**Analytics：** 在Adobe Analytics中创建区段，然后发布到Experience Cloud。</li><li>**Experience Cloud：**&#x200B;新受众会[在 Experience Cloud 受众中创建。](create.md)</li><li>**Audience Manager：**&#x200B;由 Audience Manager 创建的受众会自动显示在 Experience Cloud 受众中。</li></ul> |
+| 来源 | 标识创建受众的位置。<ul><li>**Analytics：**&#x200B;区段在Adobe Analytics中创建，然后发布到Experience Cloud。</li><li>**Experience Cloud：**&#x200B;新受众会[在 Experience Cloud 受众中创建。](create.md)</li><li>**Audience Manager：**&#x200B;由 Audience Manager 创建的受众会自动显示在 Experience Cloud 受众中。</li></ul> |
 | 当前数量 | 当前受众数量。 |
 | 活动 | 区段的活动状态。 |
 
 {style="table-layout:auto"}
 
-## 从Adobe Analytics发布受众
+## 来自Adobe Analytics的Publish受众
 
-请参阅 [将区段发布到Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) 有关更多信息，请参阅Adobe Analytics文档。
+有关详细信息，请参阅Publish文档中的[要Experience Cloud的Adobe Analytics区段](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。

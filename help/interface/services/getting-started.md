@@ -185,13 +185,13 @@ mbox 请求中的 Experience Cloud ID：
 
 如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。上传后，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中利用这些数据。
 
-请参阅 [客户属性](customer-attributes/attributes.md) 了解更多信息。
+有关更多信息，请参阅[客户属性](customer-attributes/attributes.md)。
 
 ### [!UICONTROL 人员] > [!UICONTROL 受众库]
 
 Experience Cloud [!UICONTROL 受众]是一个界面，您可以从这里创建受众，合并现有受众以创建复合受众，以及查看所有共享受众。
 
-请参阅 [受众](audiences/overview.md) 以了解更多信息。
+有关详细信息，请参阅[受众](audiences/overview.md)。
 
 ## 数据存储和隐私披露
 

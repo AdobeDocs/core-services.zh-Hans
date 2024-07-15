@@ -1,7 +1,7 @@
 ---
 description: 创建客户属性来源并将其上传到Adobe Experience Cloud。
 solution: Experience Cloud
-title: 创建客户属性来源并上传数据文件
+title: 创建客户属性Source并上传数据文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->要访问此功能，必须将用户分配给客户属性的产品配置文件（客户属性 — 默认访问）。 导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果 *客户属性* 显示为 [!UICONTROL 产品配置文件]，您已准备就绪。 添加到客户属性组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单。
+>要访问此功能，必须将用户分配给客户属性的产品配置文件（客户属性 — 默认访问）。 导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。如果&#x200B;*客户属性*&#x200B;显示为[!UICONTROL 产品配置文件]之一，则表示您已经可以开始。 添加到客户属性组的用户将在 Experience Cloud 界面的左侧看到[!UICONTROL 客户属性]菜单。
 >
 >要使用“客户属性”功能，用户还必须属于应用程序级别的群组（Analytics 或[!DNL Target]）。
 
@@ -48,13 +48,13 @@ ht-degree: 84%
 
 ## 创建属性源并上传数据文件 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-在Experience Cloud的“新建客户属性来源”页上执行这些步骤。
+在Experience Cloud的“新建客户属性Source”页面上执行这些步骤。
 
 >[!IMPORTANT]
 >
 >创建、修改或删除客户属性源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性源。联系 Audience Manager 客户关怀团队或咨询人员以获取管理权限。
 
-1. 在 [!DNL Experience Cloud]，选择菜单  ![菜单](assets/menu-icon.png) 图标。
+1. 在[!DNL Experience Cloud]中，选择菜单![菜单](assets/menu-icon.png)图标。
 1. 在 **[!DNL Experience Platform]** 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**。
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
@@ -71,13 +71,13 @@ ht-degree: 84%
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名 ID] 是在您的客户属性源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在中输入的值 [!UICONTROL 别名ID] Experience Cloud中客户属性源的字段应与从实施中传入的值（无论是通过Platform数据收集还是Mobile SDK的JavaScript传入）匹配。
+   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名 ID] 是在您的客户属性源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中的客户属性源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值(无论是通过Platform Data Collection还是Mobile SDK的JavaScript传入)匹配。
 
      别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
       * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+      * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -141,7 +141,7 @@ ht-degree: 84%
 
 **激活属性来源的方法**
 
-在 [!UICONTROL 新建或编辑客户属性来源] 页面，找到 [!UICONTROL 激活] 标题，然后选择 **[!UICONTROL 活动]**.
+在[!UICONTROL 新建或编辑客户属性Source]页面上，找到[!UICONTROL 激活]标题，然后选择&#x200B;**[!UICONTROL 活动]**。
 
 ![步骤结果](assets/activate_attribute_source.png)
 
@@ -161,4 +161,4 @@ ht-degree: 84%
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
+请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。

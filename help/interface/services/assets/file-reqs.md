@@ -1,5 +1,5 @@
 ---
-title: 共享资产的文件要求
+title: 共享Assets的文件要求
 description: 了解在 Adobe Experience Cloud 和 Creative Cloud 之间共享资产所允许的文件类型和大小限制。
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0

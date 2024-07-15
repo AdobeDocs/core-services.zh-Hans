@@ -22,8 +22,8 @@ Experience Cloud 提供了用于管理已批准的 Creative Cloud 用户的管�
 >
 >您必须是管理员才能执行此步骤。
 
-1. 在Experience Cloud中，选择 **[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud协作者]**.
+1. 在Experience Cloud中，选择&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud协作者]**。
 1. 选择 **[!UICONTROL Creative Cloud 资源共享]**。
-1. 选择 **[!UICONTROL 添加新用户]**.  ![添加新用户](../../assets/mac_add_icon.png)
+1. 选择&#x200B;**[!UICONTROL 添加新用户]**。  ![添加新用户](../../assets/mac_add_icon.png)
 1. 键入电子邮件、显示名称、职位，并选择性地添加头像。
 1. 选择&#x200B;**[!UICONTROL 创建]**。

@@ -49,7 +49,7 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
 >
 >当前的技术限制为 100 个触发器。
 
-1. 在Experience Cloud中，选择 ![菜单](../assets/menu-icon.png)，然后选择 **[!UICONTROL 数据收集/启动]**.
+1. 在Experience Cloud中，选择![菜单](../assets/menu-icon.png)，然后选择&#x200B;**[!UICONTROL 数据收集/启动]**。
 2. 在[!UICONTROL 触发器]信息卡上，选择&#x200B;**[!UICONTROL 管理触发器]**。
 3. 选择&#x200B;**[!UICONTROL 新建触发器]**，然后指定触发器类型：
 

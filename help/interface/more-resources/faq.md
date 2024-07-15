@@ -23,7 +23,7 @@ ht-degree: 69%
 
 Adobe支持以下浏览器的当前版本和前两个版本：
 
-* Microsoft® Edge
+* Microsoft®Edge
 * Google Chrome
 * Mozilla Firefox
 * Safari

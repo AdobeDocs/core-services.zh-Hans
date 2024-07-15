@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
-有关文档更新的列表，请参阅 [文档更新](doc-updates.md).
+有关文档更新的列表，请参阅[文档更新](doc-updates.md)。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
@@ -191,7 +191,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * 部署了用于控制 Marketing Cloud 到 AEM 和 Marketing Cloud 到 Creative Cloud 之间资产共享的后端功能。(CORE-14386)
 * 修复了阻止在某些环境下配置新租户的问题。(CORE-15509)
-* 修复了将用户重定向到以下位置的问题： `experiencecloud.adobe.com` 使用 `http` 而不是 `https`. (CORE-15587)
+* 修复了使用`http`而不是`https`将用户重定向到`experiencecloud.adobe.com`的问题。 (CORE-15587)
 * 修复了阻止对某些新租户显示通知的问题。(CORE-15240)
 
 ## 2018 年 6 月
@@ -232,7 +232,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 |--- |--- |
-| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>将多个报表包映射到一个组织有助于在Experience Cloud中启用跨应用程序功能和服务。 |
+| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>将报表包映射到单个组织有助于在Experience Cloud中启用跨应用程序功能和服务。 |
 | 针对 Experience Cloud 受众的更新 | **应用报表包**<br>&#x200B;您现在可以将报表包应用于所有[受众规则](../services/audiences/create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>&#x200B;除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
 
 {style="table-layout:auto"}
@@ -343,7 +343,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 修复了受众在使用访客 ID 服务时无法从 Analytics 共享的问题。（MAC-25788、MAC-25747）
 * 在客户属性中添加了对多字节字符的支持。(MAC-25552)
 
-**已知问题**：一个已知问题是：导致在Audience Manager中创建自动生成帐户重复，并自动将其关联到用户的Experience Cloud身份。 如果您在关联帐户之前尝试导航到 Audience Manager，则会出现此问题。Adobe 建议您先将 Audience Manager 帐户关联到 Experience Cloud，然后再导航到 Audience Manager。(MAC-25640)
+**已知问题**：一个已知问题导致在Audience Manager中创建自动生成帐户重复，并自动将其关联到用户的Experience Cloud身份。 如果您在关联帐户之前尝试导航到 Audience Manager，则会出现此问题。Adobe 建议您先将 Audience Manager 帐户关联到 Experience Cloud，然后再导航到 Audience Manager。(MAC-25640)
 
 ## 2015 年 5 月
 

@@ -1,7 +1,7 @@
 ---
 description: 了解如何在 Experience Cloud 和 Creative Cloud 之间共享文件夹和资源。
 solution: Experience Cloud
-title: 与Creative Cloud共享Experience Cloud文件夹和资源
+title: 与Creative Cloud共享Experience Cloud文件夹和Assets
 feature: Assets
 topic: Administration
 role: Admin

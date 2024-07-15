@@ -2,13 +2,13 @@
 description: 了解 Adobe Experience Cloud 中的解决方案和服务如何使用 Cookie。
 title: 如何在Experience Cloud中使用Cookie
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # Experience Cloud中使用的Cookie
 
@@ -22,10 +22,10 @@ Adobe Experience Cloud 中的许多服务都使用 Cookie。Cookie 是网站提�
 
 Adobe Experience Cloud服务使用Cookie来提供有关变量和组件的信息，这类信息无法在图像请求和浏览器会话之间永久保存。 在可能的情况下，Adobe使用第一方Cookie记录您网站上的活动。 记录不同网站（如您可能拥有的其他域）上的活动需要使用第三方 cookie。
 
-许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe可确保始终设置Cookie，即使第三方Cookie被阻止也是如此。 具体行为取决于您使用的是Experience PlatformIdentity Service（ECID服务）还是Analytics旧版标识符(例如 `s_vi` Cookie)：
+许多浏览器和防间谍软件应用程序都设计为拒绝并删除第三方 Cookie。Adobe可确保始终设置Cookie，即使第三方Cookie被阻止也是如此。 具体行为取决于您使用的是Experience PlatformIdentity Service（ECID服务）还是Analytics旧版标识符（如`s_vi` Cookie）：
 
-* 此 [Experience PlatformIdentity服务（ECID服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans) 无论您的收集域是否与网站域匹配，都会自动设置第一方Cookie。 如果两者不匹配，Identity Service会使用JavaScript在网站的域上设置Cookie。
-* 如果您使用 [Analytics旧版标识符](analytics.md) (例如 `s_vi` cookie)，它取决于您配置数据收集服务器的方式。 如果数据收集服务器与您网站的域相同，则 Cookie 被设置为第一方。如果收集服务器与您当前的域不同，则Cookie被设置为第三方。 在这种情况下，如果阻止第三方Cookie，Analytics会设置第一方回退ID (`s_fid`)而不是标准 `s_vi` Cookie。
+* [Experience Platform标识服务（ECID服务）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)会自动设置第一方Cookie，无论您的收集域是否与网站域匹配。 如果两者不匹配，Identity Service会使用JavaScript在您的网站的域上设置Cookie。
+* 如果使用[Analytics旧版标识符](analytics.md)（如`s_vi` Cookie），则它取决于您配置数据收集服务器的方式。 如果数据收集服务器与您网站的域相同，则 Cookie 被设置为第一方。如果收集服务器与您当前的域不同，则Cookie被设置为第三方。 在这种情况下，如果阻止第三方Cookie，Analytics会设置第一方回退ID (`s_fid`)，而不是标准`s_vi` Cookie。
 
 如果要确保收集服务器与网站的域相匹配，则可以使用CNAME实现，从而支持从CNAME实现中指定的自定义域转发到Adobe的收集服务器。 此任务涉及更改贵公司的DNS设置以配置指向托管Adobe的域的CNAME别名。 请注意，尽管多种 Adobe 产品都支持使用 CNAME，但在所有情况下 CNAME 都用于为特定客户创建受信任的第一方端点，并归该客户拥有。如果您控制多个域，则它们可使用单个CNAME端点在其域间跟踪用户，但是，只要网站域与CNAME域不同，Cookie就被设置为第三方。
 

@@ -17,7 +17,7 @@ ht-degree: 91%
 
 # Experience Cloud Cookie
 
-Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用的访客ID。 这些Cookie特别适用于访问以下位置的Adobe Experience Cloud应用程序： [experience.adobe.com](https://experience.adobe.com).
+Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe Experience Cloud应用程序。
 
 **Cookie 名称：s_ecid**
 
@@ -60,7 +60,7 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
 
 [Experience Platform ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
 
-另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

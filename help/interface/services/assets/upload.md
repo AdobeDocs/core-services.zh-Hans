@@ -1,6 +1,6 @@
 ---
 description: 从Creative Cloud浏览器或Creative Cloud桌面将资源上传到共享文件夹。
-title: 将资产上传到共享文件夹
+title: 将资源上传到共享文件夹
 feature: Assets
 topic: Administration
 role: Admin
@@ -9,11 +9,11 @@ exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
 source-git-commit: f4833da7ff9e9a04338c632e4bb2bd742bafbf09
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 64%
+ht-degree: 76%
 
 ---
 
-# 将资产上传到共享文件夹
+# 将资源上传到共享文件夹
 
 您可以通过Creative Cloud桌面或Creative Cloud浏览器上传资源。
 

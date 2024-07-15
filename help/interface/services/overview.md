@@ -28,7 +28,7 @@ ht-degree: 90%
 | 核心服务 | 描述 |
 |--- |--- |
 | [中央界面组件](../experience-cloud.md) | 访问帐户偏好设置、搜索产品帮助以及访问应用程序和服务。 |
-| [人员： [!DNL Audience Library]](audiences/overview.md) | 受众是访客的集合（访客 ID 列表）。Adobe [!DNL Audience Library] 让您管理如何将访客数据转换为受众分段。 |
+| [人员： [!DNL Audience Library]](audiences/overview.md) | 受众是访客的集合（访客 ID 列表）。通过Adobe的[!DNL Audience Library]，可管理如何将访客数据转换为受众分段。 |
 | [人员 - 客户属性](customer-attributes/attributes.md) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
 | [资源](assets/experience-cloud-assets.md) | Experience Cloud Assets 为可在应用程序间共享的营销就绪型资源提供单个集中的存储库。 |
 
@@ -36,4 +36,4 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->的产品文档 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans) 可用。 面向 [!UICONTROL Experience Platform] 开发人员的技术文档位于 [Adobe Developer。](https://developer.adobe.com/apis)
+>[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)的产品文档可用。 面向 [!UICONTROL Experience Platform] 开发人员的技术文档位于 [Adobe Developer。](https://developer.adobe.com/apis)

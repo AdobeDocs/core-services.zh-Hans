@@ -15,15 +15,15 @@ ht-degree: 85%
 
 ---
 
-# 在中查看Experience Cloud用户和策略 [!UICONTROL 管理工具]
+# 在[!UICONTROL 管理工具]中查看Experience Cloud用户和策略
 
-管理员可以查看所有Experience Cloud用户和策略的可排序、可过滤列表，详细信息位于 [!UICONTROL 管理工具]. 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
+管理员可以在[!UICONTROL 管理工具]中查看包含详细信息的所有Experience Cloud用户和策略的可排序和可过滤列表。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
 
 1. 登录 `https://experience.adobe.com/.`
 
    ![访问 Admin Console](../assets/admin-tool.png)
 
-1. 下 [!UICONTROL 快速访问]，单击 **[!UICONTROL 管理工具]**.
+1. 在[!UICONTROL 快速访问]下，单击&#x200B;**[!UICONTROL 管理工具]**。
 
    （或者，在主页 URL 中，您可以将 _home_ 替换为 _admin_。）
 
@@ -41,7 +41,7 @@ ht-degree: 85%
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
 | [!UICONTROL 解决方案] | 用户可访问的 Experience Cloud 应用程序摘要。您可以应用过滤器来缩小具有特定应用程序访问权限的用户列表。 |
-| [!UICONTROL 上次登录] | Experience Cloud最近登录的时间和日期。 此列可以按升序或降序日期排序。<br> **重要提示：** 自2020年1月13日起，用户的上次登录数据将保留365天。 该信息旨在显示Experience Cloud的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取行动。 |
+| [!UICONTROL 上次登录] | Experience Cloud最近登录的时间和日期。 此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自2020年1月13日起，用户的上次登录数据将保留365天。 该信息旨在显示Experience Cloud的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取行动。 |
 
 ## 自定义用户列表视图
 
@@ -112,7 +112,7 @@ ht-degree: 85%
 您可以对各个列进行搜索、排序或过滤，以自定义策略列表。
 
 * 按名称搜索产品配置文件。搜索与您键入的文本字符串匹配。
-* 按升序或降序值对列排序。此排序适用于 [!UICONTROL 产品配置文件，] [!UICONTROL 产品，] [!UICONTROL 实例，] [!UICONTROL 用户数量，] 和 [!UICONTROL 开发人员数量，] 列。
+* 按升序或降序值对列排序。此排序适用于[!UICONTROL 产品配置文件、] [!UICONTROL 产品、] [!UICONTROL 实例、] [!UICONTROL 用户数量、]和[!UICONTROL 开发人员数量、]列。
 * 选择&#x200B;**[!UICONTROL 筛选依据]**&#x200B;图标可应用多个筛选条件，以列出符合特定标准的产品配置文件。应用多个过滤类别时，搜索包含与 `AND` 实例 `AND` 解决方案关联的组。
 
 | 元素 | 描述 |
@@ -162,4 +162,4 @@ ht-degree: 85%
 
 ## 相关信息
 
-* [管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html) 在 [!DNL Admin Console]
+* 在[!DNL Admin Console]中[管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html)

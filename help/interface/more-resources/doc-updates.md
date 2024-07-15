@@ -20,7 +20,7 @@ ht-degree: 82%
 
 **2024年4月26日**
 
-对文档架构进行了全面改进。 另外添加了 [Adobe Experience Cloud IP地址](../data-collection/ip-addresses.md) 和 [地区数据收集](../data-collection/rdc.md).
+对文档架构进行了全面改进。 还添加了[Adobe Experience Cloud IP地址](../data-collection/ip-addresses.md)和[区域数据收集](../data-collection/rdc.md)。
 
 **2024年4月9日**
 
@@ -96,15 +96,15 @@ ht-degree: 82%
 
 添加了客户属性的删除方式。请参阅[（可选）更新架构（删除属性）](../services/customer-attributes/t-crs-usecase.md)。
 
-**2018年6月8**
+**8 2018年6月**
 
 更新了[关于客户属性的数据文件和数据源](../services/customer-attributes/crs-data-file.md)，其中包含有关上传多个文件的信息。
 
-**2018年6月6**
+**6 2018年6月**
 
 内容和屏幕的常规更新。
 
-**2018年1月17**
+**2018年1月17日**
 
 一些重组和链接更新。
 
@@ -112,11 +112,11 @@ ht-degree: 82%
 
 修订了最新版本的指南。
 
-**2017年3月15**
+**2017年3月15日**
 
 更新了[创建受众](../services/audiences/create.md)中的原始 Analytics 数据的定义。
 
-**2016年5月9日**
+**9 2016年5月**
 
 添加了 [Experience Cloud 集成](../administration/integrations.md)（集成文档合集）。
 
@@ -124,14 +124,14 @@ ht-degree: 82%
 
 添加了 [Experience Cloud Assets](../services/assets/experience-cloud-assets.md)。
 
-**2015年1月15**
+**2015年1月15日**
 
 添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资源和评论。请参阅[资源共享](../services/assets/creative-cloud.md)。
 
-**2014年7月17**
+**2014年7月17日**
 
 添加了适用于管理员的 [Experience Cloud 常见问题解答](faq.md)。
 
-**2014年5月22**
+**2014年5月22日**
 
-已添加有关以下项的文档 [受众](../services/audiences/overview.md)
+添加了有关[受众](../services/audiences/overview.md)的文档

@@ -1,7 +1,7 @@
 ---
 description: 了解如何设置安全证书以用于Adobe Experience Cloud第一方Cookie。
 solution: Experience Cloud,Analytics
-title: Adobe管理的证书计划
+title: Adobe 管理的证书计划
 index: y
 snippet: y
 feature: Cookies
@@ -12,11 +12,11 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
-# Adobe管理的证书计划
+# Adobe 管理的证书计划
 
 Adobe管理的证书程序是用于设置CNAME实施所需的第一方证书的推荐流程。 程序在配置后是完全自动的。 它会及时更新证书，以便不会由于证书过期而影响数据收集。 您的前100个CNAME可以免费使用该程序。
 
@@ -26,11 +26,11 @@ Adobe管理的证书程序是用于设置CNAME实施所需的第一方证书的�
 
 请按照以下步骤为第一方数据收集实施新证书：
 
-1. 下载并填写 [第一方域请求表单](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. 下载并填写[第一方域请求表单](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
 1. 通过Adobe客户关怀部门开立一个票证，请求根据Adobe管理的证书计划设置第一方数据收集。
 
-1. Adobe代表在收到票证后会为您提供CNAME记录。 必须在贵公司的 DNS 服务器上配置这些记录，然后 Adobe 才能代表您购买证书。例如，主机名 `data.example.com` 指向 `hiodsibxvip01.data.adobedc.net`.
+1. Adobe代表在收到票证后会为您提供CNAME记录。 必须在贵公司的 DNS 服务器上配置这些记录，然后 Adobe 才能代表您购买证书。例如，主机名`data.example.com`指向`hiodsibxvip01.data.adobedc.net`。
 
 1. 当CNAME记录位于您组织的服务器上时，Adobe会与DigiCert一起购买证书并安装到Adobe数据收集服务器上。
 
@@ -40,17 +40,17 @@ Adobe安装证书后，可以使用以下方法之一验证证书是否正常工
 
 +++**浏览器验证**
 
-您可以使用任意浏览器验证证书是否已正确安装。 键入您的CNAME，并使用 `_check` 作为地址栏的路径。 例如：
+您可以使用任意浏览器验证证书是否已正确安装。 在地址栏中键入包含`_check`作为路径的CNAME。 例如：
 
 `data.example.com/_check`
 
-如果一切正常，浏览器会显示 `SUCCESS`. 如果证书安装不正确，您会收到安全警告。
+如果一切正常，浏览器会显示`SUCCESS`。 如果证书安装不正确，您会收到安全警告。
 
 +++
 
 +++**命令行(`curl`)**
 
-大多数现代操作系统已经拥有 [`curl`](https://curl.se) 已安装。
+大多数现代操作系统已安装[`curl`](https://curl.se)。
 
 在命令行中键入以下内容：
 
@@ -58,11 +58,11 @@ Adobe安装证书后，可以使用以下方法之一验证证书是否正常工
 curl data.example.com/_check
 ```
 
-如果一切工作正常，控制台将返回 `SUCCESS`.
+如果一切工作正常，控制台将返回`SUCCESS`。
 
 >[!TIP]
 >
->您可以使用 `-k` 用于禁用安全警告以帮助进行故障排除的标志。
+>您可以使用`-k`标记禁用安全警告以帮助进行故障排除。
 
 +++
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 在验证证书是否正确工作后，您可以更新Adobe实施以使用这些值。
 
-* 对于Adobe AnalyticsAppMeasurement实施，请更新 [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) 配置变量。 如果您现有实施，请参阅 [访客迁移](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) 有关如何阻止将现有访客计为新访客的其他步骤。
-* 对于Web SDK实施，请更新 [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) 中的属性 [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 命令。
+* 对于Adobe AnalyticsAppMeasurement实施，请更新[`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver)配置变量。 如果您已有实施，请参阅[访客迁移](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration)，以了解有关如何防止将现有访客计为新访客的其他步骤。
+* 对于Web SDK实施，更新[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)属性。
 
 ## 维护和续订
 
@@ -139,17 +139,17 @@ Adobe与DigiCert一起颁发SHA-2证书。
 
 +++Adobe提供了哪些密码安全级别？
 
-Adobe 提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。这些级别确定与Adobe服务器的HTTPS连接支持哪些加密算法。 Adobe会根据当前的安全实践定期审查和更新支持的算法集。 如果要更改密码安全设置，请联系客户关怀团队。
+Adobe提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。 这些级别确定与Adobe服务器的HTTPS连接支持哪些加密算法。 Adobe会根据当前的安全实践定期审查和更新支持的算法集。 如果要更改密码安全设置，请联系客户关怀团队。
 
-* **标准** 需要TLS 1.2或更高版本以及至少128位加密。 它旨在提供最广泛的设备兼容性，同时保持安全加密。
-* **高** 密码安全级别需要TLS 1.2或更高版本，并消除对较弱密码的支持。 它专为希望获得最强加密并且不关心旧设备支持的客户而设计。
+* **Standard**&#x200B;需要TLS 1.2或更高版本以及至少128位加密。 它旨在提供最广泛的设备兼容性，同时保持安全加密。
+* **高**&#x200B;密码安全级别需要TLS 1.2或更高版本并移除对较弱密码的支持。 它专为希望获得最强加密并且不关心旧设备支持的客户而设计。
 
-已知下列客户端无法连接密码安全设置为 **高**：
+已知下列客户端无法连接密码安全设置为&#x200B;**高**：
 
-* Windows 8.1 及更早版本（最后更新于 2018 年）
-* Windows Phone 8.1 及更早版本（最后更新于 2016 年）
-* OS X 10.10 及更早版本（最后更新于 2017 年）
-* iOS 8.4 及更早版本（最后更新于 2015 年）
+* Windows 8.1及更早版本（最后更新于2018年）
+* Windows Phone 8.1及更早版本（最后更新于2016年）
+* OS X 10.10及更早版本（最后更新于2017年）
+* iOS 8.4及更早版本（最后更新于2015年）
 
 +++
 
@@ -158,9 +158,9 @@ Adobe 提供两种密码安全级别，以满足客户对第一方数据收集�
 Adobe同时支持RSA和ECC证书类型，以满足不同的客户需求。 客户端更广泛地支持RSA证书，但ECC证书在服务器和客户端使用的处理较少。 对于Adobe管理的证书，同时提供了RSA和ECC。 对于客户管理的证书，需要RSA，并且建议使用ECC。 新式客户端同时支持RSA和ECC。 以下客户端通常仅支持RSA证书：
 
 * Windows Vista及更早版本（最后更新于2012年）
-* Windows Phone 8.0 及更早版本（最后更新于 2014 年）
-* OS X 10.8 及更早版本（最后更新于 2013 年）
-* iOS 5.1 及更早版本（最后更新于 2012 年）
+* Windows Phone 8.0及更早版本（最后更新于2014年）
+* OS X 10.8及更早版本（最后更新于2013年）
+* iOS 5.1及更早版本（最后更新于2012年）
 * Android 4.3及更早版本（最后更新于2013年）
 
 +++

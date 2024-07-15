@@ -1,7 +1,7 @@
 ---
 description: 了解如何对 Experience Cloud 中不同的应用程序和服务实施 DNS 预获取，以帮助缩短页面加载时间。
 solution: Experience Cloud
-title: 使用DNS预获取
+title: 使用 DNS 预取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
@@ -10,11 +10,11 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
-# 使用DNS预获取
+# 使用 DNS 预取
 
 对不同的应用程序和服务实施 DNS 预获取，以帮助缩短页面加载时间。
 
@@ -24,7 +24,7 @@ ht-degree: 90%
 
 ## DNS 预获取和 Adobe Experience Cloud 应用程序
 
-DNS 预获取会自动处理页面上的静态嵌入式链接。这也意味着自动DNS预获取不能与其他 [!UICONTROL Experience Cloud] 应用程序和服务，因为：
+DNS 预获取会自动处理页面上的静态嵌入式链接。这也意味着自动DNS预获取不能与其他[!UICONTROL Experience Cloud]应用程序和服务一起使用，因为：
 
 * 每个 Experience Cloud 应用程序或服务会在页面加载时动态生成 DNS 调用。
 * 在生成这些调用之前，浏览器无法将域名解析为 IP 地址。
@@ -52,4 +52,4 @@ DNS 预获取会自动处理页面上的静态嵌入式链接。这也意味着�
 
 >[!MORELIKETHIS]
 >
->* [DNS预获取](https://www.chromium.org/developers/design-documents/dns-prefetching) 在Chromium上
+>* Chromium上的[DNS预获取](https://www.chromium.org/developers/design-documents/dns-prefetching)

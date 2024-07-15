@@ -1,5 +1,5 @@
 ---
-description: 了解上传的数据文件要求和多个数据源 [!DNL Customer Attributes] Experience Cloud。
+description: 了解上传 [!DNL Customer Attributes] 到Experience Cloud的数据文件要求和多个数据源。
 solution: Experience Cloud
 title: 数据文件和数据源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
@@ -15,13 +15,13 @@ ht-degree: 90%
 
 ---
 
-# 关于的数据文件和数据源 [!DNL Customer Attributes]
+# 关于[!DNL Customer Attributes]的数据文件和数据源
 
-上传的数据文件要求和多个数据源 [!DNL Customer Attributes] Experience Cloud。
+将[!DNL Customer Attributes]上传到Experience Cloud的数据文件要求和多个数据源。
 
-您需要拥有从企业访问 CRM 或类似数据的权限。您上传到Experience Cloud的数据必须为 `.csv` 文件。 如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
+您需要拥有从企业访问 CRM 或类似数据的权限。上载到Experience Cloud的数据必须是`.csv`文件。 如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
 
-[!DNL Customer Attributes] 旨在每天处理一些文件。 为了缓解延迟处理较多小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
+[!DNL Customer Attributes]设计为每天处理一些文件。 为了缓解延迟处理较多小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
 
 ## 允许的文件类型和命名要求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -76,7 +76,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户 ID 列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，其为setCustomerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过 setCustomerID）。CRM 文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，其为setCustomerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户 ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此 ID 是在人员登录时使用 <span class="codeph">setCustomerIDs</span> 调用设置的。在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过 setCustomerID）。CRM 文件将应用于该数据存储中的数据。 </p> <p>有关 <span class="codeph">setCustomerIDs</span> 的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户 ID 和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
@@ -84,7 +84,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>属性限制 </p> </td> 
-   <td colname="col2"> <p>您可以上传数百个 <span class="filepath"> .csv </span> 列到Experience Cloud中的客户属性服务。 但是，在配置订阅并选择属性时，根据您拥有的应用程序，将会受到以下限制： </p> <p> 
+   <td colname="col2"> <p>您可以以Experience Cloud将数百个<span class="filepath"> .csv </span>列上传到客户属性服务。 但是，在配置订阅并选择属性时，根据您拥有的应用程序，将会受到以下限制： </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：总共 3 个 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每个报表包 200 个 </li> 
@@ -154,7 +154,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-（请参阅[客户 ID 和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)以了解更多信息。）
+（请参阅[客户 ID 和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)以了解更多信息。）
 
 在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**&#x200B;中：
 

@@ -17,7 +17,7 @@ ht-degree: 64%
 
 # Experience Cloud 中的组织
 
-An *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制Experience Cloud的单一登录。
+*组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制单点登录Experience Cloud。
 
 组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
@@ -37,17 +37,17 @@ An *组织* （组织ID）是一个实体，它允许管理员配置组和用户
 
 组织 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）`@AdobeOrg`。
 
-您可以使用键盘快捷键查看组织ID以及其他帐户信息 **Ctrl+i** 从位于的任意页面 `https://experience.adobe.com`.
+您可以在`https://experience.adobe.com`的任何页面上使用键盘快捷键&#x200B;**Ctrl+i**&#x200B;查看您的组织ID以及其他帐户信息。
 
 **查看您的组织ID**
 
-1. 在 [Experience Cloud](https://experience.adobe.com)，按 **Ctrl+i** 在键盘上。
+1. 在[Experience Cloud](https://experience.adobe.com)中，按键盘上的&#x200B;**Ctrl+i**。
 
    ![已分配组织 ID](../assets/assigned-organization.png)
 
-1. 下 **[!UICONTROL 用户信息]**，查找 **[!UICONTROL 当前组织ID]**，并且您可以找到组织ID。
+1. 在&#x200B;**[!UICONTROL 用户信息]**&#x200B;下，查找&#x200B;**[!UICONTROL 当前组织ID]**，您可以找到组织ID。
 
-   或者，管理员也可以登录Admin Console(导航至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的组织ID。
+   或者，管理员也可以登录Admin Console(导航到[https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的组织ID。
 
    例如，在以下 URL 中：
 
@@ -65,7 +65,7 @@ An *组织* （组织ID）是一个实体，它允许管理员配置组和用户
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
 
-1. 选择应用程序选择器。 ( ![菜单](../assets/menu-icon.png))。
+1. 选择应用程序选择器。 （![菜单](../assets/menu-icon.png)）。
 
    ![将应用程序帐户关联到 Adobe ID](../assets/solutions-active.png)
 
@@ -87,7 +87,7 @@ An *组织* （组织ID）是一个实体，它允许管理员配置组和用户
 
 ![编辑个人资料](../assets/edit-profile.png)
 
-下 **[!UICONTROL 默认组织和登录页面]**，您可以自定义登录体验。
+在&#x200B;**[!UICONTROL 默认组织和登录页面]**&#x200B;下，您可以自定义登录体验。
 
 ![默认组织和登录页面](../assets/default-organization.png)
 

@@ -45,7 +45,7 @@ ht-degree: 94%
 **创建受众**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
-1. 在 [!UICONTROL 受众] 页面，选择 **[!UICONTROL 新建]**. ![添加](assets/add_icon_small.png)
+1. 在[!UICONTROL 受众]页面上，选择&#x200B;**[!UICONTROL 新建]**。 ![添加](assets/add_icon_small.png)
 
    ![步骤结果](assets/audience_create_new.png)
 
