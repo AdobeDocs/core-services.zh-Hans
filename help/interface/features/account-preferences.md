@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 72%
+source-wordcount: '366'
+ht-degree: 79%
 
 ---
 
@@ -46,3 +46,20 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 选择&#x200B;**[!UICONTROL 通知]**，即可收到相关可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
 
 ![通知和公告](../assets/notifications-menu-small.png)
+
+## Experience Cloud 中的语言支持 {#languages}
+
+Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐户偏好设置中所设定。当前支持的语言为：
+
+* 简体中文
+* 英语
+* 法语
+* 德语
+* 意大利语
+* 日语
+* 朝鲜语
+* 葡萄牙语
+* 西班牙语
+* 繁体中文
+
+虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都具有上述所有语言版本。如果 Experience Cloud 应用程序不支持您的主要语言，您也可以将辅助语言设置为默认语言（如果适用）。可以在 [Experience Cloud 用户偏好设置](https://experience.adobe.com/preferences)中执行此操作。
