@@ -1,16 +1,16 @@
 ---
 title: 帐户首选项和通知
-description: 了解Experience Cloud中的用户配置文件和帐户偏好设置。 订阅产品通知并获取产品提醒。
+description: 了解Experience Cloud中的用户配置文件和帐户偏好设置。 订阅产品通知并获取产品提醒。 了解浏览器和语言支持。
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 选择&#x200B;**[!UICONTROL 通知]**，即可收到相关可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
 
 ![通知和公告](../assets/notifications-menu-small.png)
+
+## Experience Cloud 中的浏览器支持 {#browser}
+
+为了实现最佳性能，Experience Cloud 针对最受欢迎的浏览器（包括最新版本以及上两个版本）进行了优化。
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+如果您的浏览器非上述浏览器，则可能仍受支持，但建议您使用列出的浏览器之一。
+
+>[!NOTE]
+>
+>并非所有在 Experience Cloud 域上运行的应用程序都支持所有浏览器。如果您不确定，请查看特定应用程序的文档。
 
 ## Experience Cloud 中的语言支持 {#languages}
 
