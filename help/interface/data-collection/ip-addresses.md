@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Cloud使用的IP地址
+title: Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 5%
 
 ---
 
-# Adobe Experience Cloud使用的IP地址
+# Experience Cloud使用的IP地址
 
 某些防火墙配置会阻止源自Adobe的数据收集服务器或负责访问数据的服务器的IP地址。 您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统(例如Adobe Analytics中的数据馈送)。
 

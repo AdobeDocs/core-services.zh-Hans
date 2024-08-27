@@ -1,21 +1,21 @@
 ---
 description: 实现 Adobe Analytics 和 Adobe Target 应用程序的现代化，以提供跨应用程序服务。了解如何开始使用 Experience Cloud 服务。
 solution: Experience Cloud
-title: Experience Cloud服务快速入门
+title: Experience Cloud服务入门
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 98%
 
 ---
 
-# Experience Cloud服务快速入门
+# Experience Cloud服务入门
 
 如果您最近通过 Experience Platform 标记实施了 Experience Cloud，那么您已经为客户属性和 Experience Cloud 受众进行了设置。您还可以在 Admin Console 中管理用户和产品。
 

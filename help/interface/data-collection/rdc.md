@@ -1,11 +1,11 @@
 ---
 title: 地区数据收集
-description: 关于区域数据收集的信息
+description: 了解Experience Cloud中的区域数据收集。
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
