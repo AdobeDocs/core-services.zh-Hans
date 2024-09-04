@@ -1,31 +1,33 @@
 ---
 title: 帐户首选项和通知
-description: 了解Experience Cloud中的用户配置文件和帐户偏好设置。 订阅产品通知并获取产品提醒。 了解浏览器和语言支持。
+description: 了解Experience Cloud中的用户配置文件和帐户偏好设置。 订阅电子邮件和 [!DNL Slack]的产品通知，并设置产品警报。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 331bdbb210849085f7c525e6cc14f2e1388d9484
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 69%
+source-wordcount: '644'
+ht-degree: 22%
 
 ---
 
 # 帐户首选项和通知 {#preferences}
 
-Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜单中，您可以：
+Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通知（应用程序内、电子邮件和[!DNL Slack]）、订阅和通知。
 
-* 指定深色主题（并非所有应用程序都支持此主题）
+在首选项中，您可以：
+
 * 搜索[组织](../administration/organizations.md)
-* 注销
-* 配置帐户首选项、通知和订阅
+* 指定深色主题（并非所有应用程序都支持此主题）。
+* 配置用户首选项、通知和订阅。
+* 注销Experience Cloud。
+
+## 管理首选项
 
 要管理首选项，请从帐户菜单 ![首选项](../assets/preferences-icon-sm.png) 中选择&#x200B;**[!UICONTROL 首选项]**。
-
-![用户个人资料和帐户偏好设置](../assets/preferences-page.png)
 
 在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
 
@@ -33,75 +35,87 @@ Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜
 |--- |--- |
 | 默认[组织](../administration/organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
 | [!UICONTROL 产品数据收集] | 选择 Adobe 可以使用哪些技术来收集有关您如何使用 Adobe 产品的数据。 |
+| [通知](#notifications-and-announcements) | 启用[!UICONTROL 应用程序内]、[!UICONTROL 电子邮件]或[Slack](#slack-notifications)通知。 |
 | [!UICONTROL 个性化的学习推荐和促销] | 选择您希望从何处接收Adobe产品的[个性化帮助](personalized-learning.md)。 此帮助可通过电子邮件、产品内和Experience League社区提供。 |
 | [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出框和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有[!UICONTROL 高]标记，可以配置为像警报一样发送。 |
 | [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
 | 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
 
-## [!UICONTROL 通知]和[!UICONTROL 公告] {#notifications}
+## 订阅Experience Cloud中的通知 {#notifications}
 
-选择&#x200B;**[!UICONTROL 通知]**，即可收到相关可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
+您可以选择要订阅的产品和类别。 通知显示在[!UICONTROL 通知]弹出框（应用程序内）、电子邮件或[Slack](#slack-notifications)中（具体取决于您的订阅）。
 
-![通知和公告](../assets/notifications-menu-small.png)
+电子邮件和Slack通知对于您未登录Experience Cloud的情况非常有用。
 
-## [!DNL Slack] 通知
+### 订阅应用程序内通知和电子邮件通知
 
-版本：**2024年9月2日**
+1. 导航到Experience Cloud[首选项](https://experience.adobe.com/preferences)。
 
-您可以配置帐户首选项以向Slack发送Experience Cloud通知。
+1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，启用&#x200B;**[!UICONTROL 应用程序内]**&#x200B;或&#x200B;**[!UICONTROL 电子邮件]**。
 
-**先决条件**
+   对通知的更改会自动保存。
 
-* 您必须拥有Experience Cloud帐户
-* 您必须拥有[!DNL Slack]帐户
-* 您必须是至少一个[!DNL Slack]工作区的一部分
-
-### 配置Slack通知
-
-1. 登录到 Experience Cloud。
-
-1. 单击您的帐户图标，然后单击&#x200B;**[!UICONTROL 首选项]**。
-
-1. 在[!DNL Slack]下，单击&#x200B;**[!UICONTROL 添加到Slack]**。
-
-1. 打开[!DNL Slack]时，单击&#x200B;**[!UICONTROL 允许]**。
-
-1. 在“Experience Cloud首选项”中，导航到&#x200B;**[!UICONTROL 通知]**。
-
-   ![Slack通知](../assets/slack.png)
-
-1. 为所需的产品和类别启用[!DNL Slack]通知。
-
-## Experience Cloud 中的浏览器支持 {#browser}
-
-为了实现最佳性能，Experience Cloud 针对最受欢迎的浏览器（包括最新版本以及上两个版本）进行了优化。
-
-* Chrome
-* Edge
-* Firefox
-* Opera
-* Safari
-
-如果您的浏览器非上述浏览器，则可能仍受支持，但建议您使用列出的浏览器之一。
+### 订阅[!DNL Slack]通知 {#slack}
 
 >[!NOTE]
 >
->并非所有在 Experience Cloud 域上运行的应用程序都支持所有浏览器。如果您不确定，请查看特定应用程序的文档。
+>Slack通知将发布：**2024年9月11日**
 
-## Experience Cloud 中的语言支持 {#languages}
 
-Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐户偏好设置中所设定。当前支持的语言为：
+您可以配置帐户首选项以将Experience Cloud通知发送到[!DNL Slack]频道。
 
-* 简体中文
-* 英语
-* 法语
-* 德语
-* 意大利语
-* 日语
-* 朝鲜语
-* 葡萄牙语
-* 西班牙语
-* 繁体中文
+**先决条件**
 
-虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都具有上述所有语言版本。如果 Experience Cloud 应用程序不支持您的主要语言，您也可以将辅助语言设置为默认语言（如果适用）。可以在 [Experience Cloud 用户偏好设置](https://experience.adobe.com/preferences)中执行此操作。
+* 您必须拥有Experience Cloud帐户。
+* 您必须拥有[!DNL Slack]帐户。 您的Slack管理员可启用Experience Cloud与Slack的集成。
+* 您必须是至少一个[!DNL Slack]工作区的一部分。
+
+**订阅Slack通知**
+
+1. 导航到Experience Cloud[首选项](https://experience.adobe.com/preferences)
+
+1. 找到[!DNL Slack]，然后单击&#x200B;**[!UICONTROL 添加到Slack]**。
+
+   ![添加到Slack](../assets/add-to-slack.png)
+
+   如果安装了[!DNL Slack]，则会打开应用程序并显示权限请求消息。
+
+   * 单击&#x200B;**[!UICONTROL 允许]**。
+
+   如果未安装[!DNL Slack]，则会显示&#x200B;_安装请求_&#x200B;消息：
+
+   ![请求Slack集成](../assets/slack-request.png)
+
+   * 在Slack中，从应用程序的右上角选择工作区。
+
+   * 若要请求Slack工作区管理员的申请审批，请单击&#x200B;**[!UICONTROL 提交]**。
+
+   * 申请请求获得批准后，您将在[!DNL Slack]中收到通知。
+
+   * 收到[!DNL Slack]批准后，返回Experience Cloud **[!UICONTROL 通知]**，然后单击&#x200B;**[!UICONTROL 添加到Slack]**。
+
+1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，为所需的产品和类别启用[!DNL Slack]通知。
+
+   ![Slack通知](../assets/slack.png)
+
+   通知更新会自动保存。
+
+### 您将在[!DNL Slack]中看到的内容
+
+Slack通知显示以下信息：
+
+* 将从应用程序名称&#x200B;_Adobe Experience Cloud_&#x200B;接收个人消息。
+* 该消息包括特定应用程序(例如Adobe Experience Platform、Adobe Experience Manager等)的产品徽标。
+* 用于查看Experience Cloud上所有通知的链接。
+* 用于管理Experience Cloud通知首选项的链接。
+
+## 查看Experience Cloud中的[!UICONTROL 通知]和公告 {#view-notifications}
+
+在Experience Cloud标题中，您可以查看[订阅的](#notifications)通知，以及查看公告。
+
+1. 单击标题中的铃铛图标。 ![通知和公告](../assets/bell-icon.png)
+
+1. 单击&#x200B;**[!UICONTROL 通知]**&#x200B;或&#x200B;**[!UICONTROL 公告]**。
+
+   在此位置，您可以接收有关产品、与其他用户的协作以及其他相关更新的重要信息。 更新包括产品版本、维护通知、共享项和审批请求。

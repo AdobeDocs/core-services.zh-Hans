@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 界面和管理指南
 title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面和用户帐户首选项。了解如何搜索业务对象以及管理用户和产品。配置客户属性、受众库、Cookie 并共享 Experience Cloud 资源。
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -47,14 +47,15 @@ ht-degree: 100%
    + [触发因素](services/triggers.md)
 
 + 功能 {#features}
-   + [帐户偏好设置](features/account-preferences.md)
+   + [通知和帐户首选项](features/account-preferences.md)
    + [统一搜索](features/search.md)
    + [个性化学习](features/personalized-learning.md)
+   + [浏览器和语言支持](browser-language.md)
 
 + 管理 {#administration}
    + [查看用户详细信息（管理员工具）](administration/admin-tool-experience-cloud.md)
    + [组织和帐户关联](administration/organizations.md)
-   + [集成](administration/integrations.md)
+   + [Experience Cloud 集成](administration/integrations.md)
 
 + 数据收集 {#data-collection}
    + [Adobe 管理的证书计划](data-collection/adobe-managed-cert.md)
