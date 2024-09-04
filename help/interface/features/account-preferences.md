@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 22%
+source-wordcount: '677'
+ht-degree: 21%
 
 ---
 
@@ -73,27 +73,15 @@ Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通�
 
 **订阅Slack通知**
 
-1. 导航到Experience Cloud[首选项](https://experience.adobe.com/preferences)
+1. 导航到Experience Cloud[首选项](https://experience.adobe.com/preferences)。
 
 1. 找到[!DNL Slack]，然后单击&#x200B;**[!UICONTROL 添加到Slack]**。
 
    ![添加到Slack](../assets/add-to-slack.png)
 
-   如果安装了[!DNL Slack]，则会打开应用程序并显示权限请求消息。
+   如果安装了[!DNL Slack]，则会打开应用程序并显示权限请求消息。 如果未安装Slack，您必须[请求权限](#slack-troubleshoot)。
 
-   * 单击&#x200B;**[!UICONTROL 允许]**。
-
-   如果未安装[!DNL Slack]，则会显示&#x200B;_安装请求_&#x200B;消息：
-
-   ![请求Slack集成](../assets/slack-request.png)
-
-   * 在Slack中，从应用程序的右上角选择工作区。
-
-   * 若要请求Slack工作区管理员的申请审批，请单击&#x200B;**[!UICONTROL 提交]**。
-
-   * 申请请求获得批准后，您将在[!DNL Slack]中收到通知。
-
-   * 收到[!DNL Slack]批准后，返回Experience Cloud **[!UICONTROL 通知]**，然后单击&#x200B;**[!UICONTROL 添加到Slack]**。
+1. 单击&#x200B;**[!UICONTROL 允许]**。
 
 1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，为所需的产品和类别启用[!DNL Slack]通知。
 
@@ -101,9 +89,25 @@ Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通�
 
    通知更新会自动保存。
 
+### 在Slack中请求权限 {#slack-troubleshoot}
+
+如果未安装[!DNL Slack]，则当您单击“**[!UICONTROL 添加到Slack]**”后打开Slack时，会显示&#x200B;_请求安装_&#x200B;消息。
+
+![请求Slack集成](../assets/slack-request.png)
+
+**在Slack**&#x200B;中请求权限
+
+1. 在Slack中，从应用程序的右上角选择工作区。
+
+1. 若要请求Slack工作区管理员的申请审批，请单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 申请请求获得批准后，您将在[!DNL Slack]中收到通知。
+
+1. 收到[!DNL Slack]批准后，返回Experience Cloud **[!UICONTROL 通知]**&#x200B;和[订阅Slack](#slack-notifications)（如上所述）。
+
 ### 您将在[!DNL Slack]中看到的内容
 
-Slack通知显示以下信息：
+成功集成Slack后，Slack通知会显示以下信息：
 
 * 将从应用程序名称&#x200B;_Adobe Experience Cloud_&#x200B;接收个人消息。
 * 该消息包括特定应用程序(例如Adobe Experience Platform、Adobe Experience Manager等)的产品徽标。
