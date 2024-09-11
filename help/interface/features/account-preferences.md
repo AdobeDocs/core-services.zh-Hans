@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
+source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通�
 
 * 搜索[组织](../administration/organizations.md)
 * 指定深色主题（并非所有应用程序都支持此主题）。
-* 配置用户首选项、通知和订阅。
+* 为用户配置帐户首选项、通知和订阅。
 * 注销Experience Cloud。
 
 ## 管理首选项
@@ -58,20 +58,15 @@ Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通�
 
 ### 订阅[!DNL Slack]通知 {#slack}
 
->[!NOTE]
->
->Slack通知将发布：**2024年9月11日**
-
-
 您可以配置帐户首选项以将Experience Cloud通知发送到[!DNL Slack]频道。
 
 **先决条件**
 
 * 您必须拥有Experience Cloud帐户。
-* 您必须拥有[!DNL Slack]帐户。 您的Slack管理员可启用Experience Cloud与Slack的集成。
+* 您必须拥有[!DNL Slack]帐户。 您的[!DNL Slack]管理员启用Experience Cloud与[!DNL Slack]的集成。
 * 您必须是至少一个[!DNL Slack]工作区的一部分。
 
-**订阅Slack通知**
+**订阅[!DNL Slack]通知**
 
 1. 导航到Experience Cloud[首选项](https://experience.adobe.com/preferences)。
 
@@ -89,34 +84,34 @@ Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通�
 
    通知更新会自动保存。
 
-### 在Slack中请求权限 {#slack-troubleshoot}
+### 在[!DNL Slack]中请求权限（疑难解答） {#slack-troubleshoot}
 
-如果未安装[!DNL Slack]，则当您单击“**[!UICONTROL 添加到Slack]**”后打开Slack时，会显示&#x200B;_[!UICONTROL 请求安装]_&#x200B;消息。
+如果未安装[!DNL Slack]，则当您单击“**[!UICONTROL 添加到Slack]**”后打开Slack时，会显示&#x200B;_[!UICONTROL 请求安装]_&#x200B;消息。 例如：
 
-![请求Slack集成](../assets/slack-request.png)
+![请求Slack集成](../assets/slack-workspace.png)
 
 **在Slack**&#x200B;中请求权限
 
-1. 在Slack中，从应用程序的右上角选择工作区。
+1. 在[!DNL Slack]中，从&#x200B;**[!UICONTROL Workspace]**&#x200B;菜单（右上角）中选择工作区。
 
-1. 若要请求Slack工作区管理员的申请审批，请单击&#x200B;**[!UICONTROL 提交]**。
+1. 要请求[!DNL Slack]工作区经理的申请审批，请单击&#x200B;**[!UICONTROL 提交]**。
 
 1. 申请请求获得批准后，您将在[!DNL Slack]中收到通知。
 
-1. 收到[!DNL Slack]批准后，返回Experience Cloud **[!UICONTROL 通知]**&#x200B;和[订阅Slack](#slack-notifications)（如上所述）。
+1. 收到[!DNL Slack]批准后，返回到Experience Cloud **[!UICONTROL 通知]**&#x200B;并按照步骤[订阅Slack](#slack-notifications)（如上所述）。
 
 ### 您将在[!DNL Slack]中看到的内容
 
-成功集成Slack后，Slack通知会显示以下信息：
+成功集成[!DNL Slack]后，[!DNL Slack]通知显示以下信息：
 
-* 将从应用程序名称&#x200B;_Adobe Experience Cloud_&#x200B;接收个人消息。
-* 该消息包括特定应用程序(例如Adobe Experience Platform、Adobe Experience Manager等)的产品徽标。
+* 将从应用程序名称&#x200B;_Adobe[!DNL Experience Cloud]_&#x200B;接收个人消息。
+* 该消息包含特定应用程序的产品徽标，如Adobe[!DNL Experience Platform]、Adobe[!DNL Experience Manager]等。
 * 用于查看Experience Cloud上所有通知的链接。
 * 用于管理Experience Cloud通知首选项的链接。
 
 ## 查看Experience Cloud中的[!UICONTROL 通知]和公告 {#view-notifications}
 
-在Experience Cloud标题中，您可以查看[订阅的](#notifications)通知，以及查看公告。
+在[!DNL Experience Cloud]标题中，您可以查看[订阅了](#notifications)的通知，以及查看公告。
 
 1. 单击标题中的铃铛图标。 ![通知和公告](../assets/bell-icon.png)
 

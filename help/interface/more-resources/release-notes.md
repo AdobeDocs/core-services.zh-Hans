@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
+source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
 workflow-type: tm+mt
 source-wordcount: '5104'
 ht-degree: 96%
@@ -24,7 +24,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
-## 2024年9月2日
+## 2024年9月10日
 
 | 功能 | 描述 |
 | -----------| ---------- |
