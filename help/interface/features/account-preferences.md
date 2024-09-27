@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # 帐户首选项和通知 {#preferences}
 
-Experience Cloud[首选项](https://experience.adobe.com/preferences)包括通知（应用程序内、电子邮件和[!DNL Slack]）、订阅和通知。
+要查找Experience Cloud首选项，请单击您的&#x200B;**[!UICONTROL 用户帐户]** ![首选项](../assets/preferences-icon-sm.png)图标，然后单击&#x200B;**[!UICONTROL 首选项]**。
 
-在首选项中，您可以：
-
-* 搜索[组织](../administration/organizations.md)
-* 指定深色主题（并非所有应用程序都支持此主题）。
-* 为用户配置帐户首选项、通知和订阅。
-* 注销Experience Cloud。
-
-## 管理首选项
-
-要管理首选项，请从帐户菜单 ![首选项](../assets/preferences-icon-sm.png) 中选择&#x200B;**[!UICONTROL 首选项]**。
-
-在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
+在[!UICONTROL Experience Cloud首选项]页面上，您可以管理以下帐户功能：
 
 | 功能 | 描述 |
 |--- |--- |
-| 默认[组织](../administration/organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
+| 配置文件 | 更新您的[Adobe帐户配置文件](https://account.adobe.com/cn/profile)。 <p>当您登录到Adobe.com、Adobe产品和服务以及诸如[!DNL Behance]之类的面向公众的网站时，您的个人资料照片和名称会显示。 |
+| General | 选择[组织](../administration/organizations.md)。<p>此组织是登录Experience Cloud时使用的默认组织。 |
 | [!UICONTROL 产品数据收集] | 选择 Adobe 可以使用哪些技术来收集有关您如何使用 Adobe 产品的数据。 |
-| [通知](#notifications-and-announcements) | 启用[!UICONTROL 应用程序内]、[!UICONTROL 电子邮件]或[Slack](#slack-notifications)通知。 |
+| 通知 | 配置您希望产品[通知](#subscribe-to-notifications-in-experience-cloud)和警报的方式和时间： <ul><li>选择要订阅警报的产品</li><li>配置通知类型([!UICONTROL 应用程序内]、[!UICONTROL 电子邮件]或[Slack](#slack-notifications))</li><li>指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。）</li><li>确定警报优先级。 应用程序内警报会出现在窗口的右上角几秒钟。 或者，您可以指定在解除警报之前是否应显示警报。</li></ul> |
 | [!UICONTROL 个性化的学习推荐和促销] | 选择您希望从何处接收Adobe产品的[个性化帮助](personalized-learning.md)。 此帮助可通过电子邮件、产品内和Experience League社区提供。 |
-| [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出框和电子邮件中的通知。 |
-| [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有[!UICONTROL 高]标记，可以配置为像警报一样发送。 |
-| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
-| 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
 
 ## 订阅Experience Cloud中的通知 {#notifications}
 

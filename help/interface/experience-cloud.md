@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 
 通过 Experience Cloud 的标题，您可以：
 
-* 访问您的应用程序和服务
+* 访问您的所有Experience Cloud应用程序和服务
 * 从“帮助”菜单中，搜索产品文档、教程和社区帖子。在 Experience League 中查看结果。
 * 使用全局搜索在“搜索”字段中全局搜索业务对象（仅限 Experience Platform 用户）。
-* 管理您的帐户首选项（警报、通知和订阅）
+* 管理您的帐户[首选项](features/account-preferences.md)（警报、通知和订阅）
 
 ## 登录到 Experience Cloud {#signin}
 
@@ -68,35 +68,21 @@ ht-degree: 100%
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
-## 用户个人资料和帐户偏好设置 {#preferences}
+## 管理您的用户配置文件
 
-Experience Cloud 首选项包括通知、订阅和警报。在帐户首选项菜单中，您可以：
+在用户配置文件菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
-* 搜索[组织](administration/organizations.md)
+* 管理 Experience Cloud [首选项](features/account-preferences.md)
+* 选择或搜索[组织](administration/organizations.md)
+* 查看[!UICONTROL 法律声明]
 * 注销
 * 配置帐户首选项、通知和订阅
 
-要管理首选项，请从帐户菜单 ![首选项](assets/preferences-icon-sm.png) 中选择&#x200B;**[!UICONTROL 首选项]**。
+## 查看产品内通知和公告 {#notifications}
 
-![用户个人资料和帐户偏好设置](assets/preferences-page.png)
-
-在 [!UICONTROL Experience Cloud 首选项]上，您可以配置以下功能：
-
-| 功能 | 描述 |
-|--- |--- |
-| 默认[组织](administration/organizations.md) | 选择您要在启动 Experience Cloud 时看到的组织。 |
-| [!UICONTROL 产品数据收集] | 选择 Adobe 可以使用哪些技术来收集有关您如何使用 Adobe 产品的数据。 |
-| [!UICONTROL 个性化的学习推荐和促销] | 选择您希望通过何种方式获得有关 Adobe 产品的个性化帮助。此帮助可通过电子邮件、产品中消息以及 Experience League 社区提供。[了解详情。](features/personalized-learning.md) |
-| [!UICONTROL 订阅] | 选择您要订阅的产品和类别。[!UICONTROL 通知]弹出窗口和电子邮件中的通知。 |
-| [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。这些类别标有“高”标签，可以配置为像警报一样发送。 |
-| [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。警报会在窗口右上角出现几秒钟。 |
-| 电子邮件 | 指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。） |
-
-{style="table-layout:auto"}
-
-## 通知和公告 {#notifications}
-
-选择&#x200B;**[!UICONTROL 通知]**，即可收到相关可操作更新的通知，包括产品版本、维护通知、共享项和批准申请。
+单击铃铛图标查看通知和公告。 公告可以是相关且切实可行的更新，包括产品版本、维护通知、共享项和批准申请。
 
 ![通知和公告](assets/notifications-menu-small.png)
+
+若要管理通知和警报，请参阅[帐户首选项和通知](features/account-preferences.md)
