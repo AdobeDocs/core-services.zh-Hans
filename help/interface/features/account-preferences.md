@@ -7,16 +7,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '636'
 ht-degree: 8%
 
 ---
 
 # 帐户首选项和通知 {#preferences}
 
-要查找Experience Cloud首选项，请单击您的&#x200B;**[!UICONTROL 用户帐户]** ![首选项](../assets/preferences-icon-sm.png)图标，然后单击&#x200B;**[!UICONTROL 首选项]**。
+要查找Experience Cloud首选项，请单击标题中的&#x200B;**[!UICONTROL 用户帐户]** ![首选项](../assets/preferences-icon-sm.png)图标，然后单击&#x200B;**[!UICONTROL 首选项]**。
+
+![首选项](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
 在[!UICONTROL Experience Cloud首选项]页面上，您可以管理以下帐户功能：
 
