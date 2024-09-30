@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 64%
+source-wordcount: '538'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 64%
 
 ![Experience Cloud组织](../assets/organizations-menu.png)
 
-要验证您是否已登录到正确的组织，请单击您的个人资料头像来查看组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
+要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL 配置文件]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
 
 ## Federated ID
 
@@ -33,7 +33,7 @@ ht-degree: 64%
 
 ## 查看您的组织ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-出于支持目的，您可以查找分配的组织ID。 您可以使用&#x200B;**[!UICONTROL 组织]**&#x200B;菜单验证自己是否处于正确的组织中，或在不同组织之间切换。
+出于支持目的，您可以查找分配的组织ID。 您可以使用标头中的&#x200B;**[!UICONTROL 组织]**&#x200B;选择器验证自己所在的组织是否正确，或者在不同组织之间切换。
 
 组织 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）`@AdobeOrg`。
 
@@ -65,31 +65,30 @@ ht-degree: 64%
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
 
-1. 选择应用程序选择器。 （![菜单](../assets/menu-icon.png)）。
+1. 单击&#x200B;**[!UICONTROL 应用程序选择器]**。 （![菜单](../assets/menu-icon.png)）。
 
    ![将应用程序帐户关联到 Adobe ID](../assets/solutions-active.png)
 
    您有权访问的应用程序会用彩色标出。
 
-1. 选择所需的应用程序。
+1. 单击所需的应用程序。
 
-   ![选择所需的应用程序](../assets/analytics-link-accounts.png)
+   ![单击您的应用程序](../assets/analytics-link-accounts.png)
 
    如果您属于相应的群组（并拥有应用程序的访问权限），但还没有将帐户凭据关联到 Adobe ID，则会显示此类型的消息。
 
-1. 选择&#x200B;**[!UICONTROL 关联帐户]**，然后提供您的凭据。
+1. 单击&#x200B;**[!UICONTROL 关联帐户]**，然后提供您的凭据。
 
-## 指定默认组织和登录页面 {#concept_6A191B42A9874A9780882903BA18F071}
+## 指定默认组织 {#concept_6A191B42A9874A9780882903BA18F071}
 
-您可以指定要在登录时使用的默认组织和登录页面。
+您可以指定登录时使用的默认组织。
 
-在您的个人资料中，选择&#x200B;**[!UICONTROL 编辑个人资料]**。
+1. 在标题中，单击&#x200B;**[!UICONTROL 配置文件]**，然后单击“首选项”。
+
+1. 在[!UICONTROL 常规]下，选择一个默认组织。
+
 
 ![编辑个人资料](../assets/edit-profile.png)
-
-在&#x200B;**[!UICONTROL 默认组织和登录页面]**&#x200B;下，您可以自定义登录体验。
-
-![默认组织和登录页面](../assets/default-organization.png)
 
 ## 解决帐户关联问题 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

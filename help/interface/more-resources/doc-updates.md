@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 80%
+source-wordcount: '557'
+ht-degree: 79%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 80%
 
 有关Experience Cloud产品文档更新的信息。
 
-<!-- **9 September 2024**
+**2024年9月**
 
-Added help about [subscribing to Slack notifications](../features/account-preferences.md#subscribe-to-slack-notifications). -->
+添加了有关[订阅Slack通知](../features/account-preferences.md#subscribe-to-slack-notifications)的帮助。
+
+已更新[用户首选项](../features/account-preferences.md)。
 
 **2024年4月26日**
 

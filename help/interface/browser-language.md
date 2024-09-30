@@ -6,9 +6,10 @@ feature: Account Preferences
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 43%
 
 ---
@@ -35,9 +36,9 @@ Experience Cloud支持每个用户的首选语言以及辅助语言。
 
 要查看支持的语言，请执行以下操作：
 
-1. 在Experience Cloud中，导航到&#x200B;**[!UICONTROL 配置文件]** > [首选项](https://experience.adobe.com/preferences)。
+1. 在Experience Cloud中，单击&#x200B;**[!UICONTROL 配置文件]** > [首选项](https://experience.adobe.com/preferences)。
 
-1. 在您的[!UICONTROL 配置文件]中，单击语言链接。
+1. 在&#x200B;**[!UICONTROL 配置文件]**&#x200B;下，单击语言链接。
 
 1. 在&#x200B;**[!UICONTROL 选择语言]**&#x200B;上，从&#x200B;**[!UICONTROL 第一语言]**&#x200B;菜单中选择一种语言。
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 69%
+source-wordcount: '700'
+ht-degree: 67%
 
 ---
 
@@ -87,7 +87,13 @@ Experience Cloud 中的配置表示：
 
 +++
 
-+++如何管理用户和产品配置文件？
++++如何管理用户首选项、通知和警报？
+
+* 查看[帐户首选项和通知](/help/interface/features/account-preferences.md)
+
++++
+
++++如何管理产品配置文件和用户帐户凭据？
 
 * 有关帮助，请参阅 [Admin Console 用户指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html)。
 
