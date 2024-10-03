@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 
 通过 Experience Cloud 的标题，您可以：
 
-* 访问您的所有Experience Cloud应用程序和服务
+* 访问所有 Experience Cloud 应用程序和服务
 * 从“帮助”菜单中，搜索产品文档、教程和社区帖子。在 Experience League 中查看结果。
 * 使用全局搜索在“搜索”字段中全局搜索业务对象（仅限 Experience Platform 用户）。
 * 管理您的帐户[首选项](features/account-preferences.md)（警报、通知和订阅）
@@ -68,21 +68,21 @@ ht-degree: 77%
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
-## 管理您的用户配置文件
+## 管理您的用户个人资料
 
 在[!UICONTROL 配置文件]菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
 * 管理 Experience Cloud [首选项](features/account-preferences.md)
-* 选择或搜索[组织](administration/organizations.md)
-* 查看[!UICONTROL 法律声明]
+* 选择或搜索 [组织](administration/organizations.md)
+* 查看 [!UICONTROL 法律声明]
 * 注销
 * 配置帐户首选项、通知和订阅
 
-## 查看产品内通知和公告 {#notifications}
+## 查看产品内的通知和公告 {#notifications}
 
-单击铃铛图标查看通知和公告。 公告可以是相关且切实可行的更新，包括产品版本、维护通知、共享项和批准申请。
+单击铃铛图标即可查看通知和公告。公告可以是相关且可操作的更新，包括产品发布、维护通知、共享项目和批准请求。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
-若要管理通知和警报，请参阅[帐户首选项和通知](features/account-preferences.md)
+要管理通知和警报，请参阅 [帐户偏好设置和通知](features/account-preferences.md)
