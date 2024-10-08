@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 91%
 
    **验证您的组织**
 
-   [组织](administration/organizations.md)显示在接口标头中。
+   [组织](administration/organizations.md) 显示在界面标头中。
 
    如果您的组织使用 Federated ID，则 Experience Cloud 允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。将 `#/sso:@domain` 添加到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任务。
 
@@ -57,7 +57,7 @@ ht-degree: 91%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ ht-degree: 91%
 
 ## 管理您的用户个人资料
 
-在[!UICONTROL 配置文件]菜单中，您可以：
+在[!UICONTROL 轮廓]菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
 * 管理 Experience Cloud [首选项](features/account-preferences.md)
