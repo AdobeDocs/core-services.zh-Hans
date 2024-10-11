@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 界面和管理指南
 breadcrumb-title: Experience Cloud 界面和管理指南
 title: Experience Cloud 界面和管理指南
-description: 了解Experience Cloud界面、Cookie和帐户首选项。 管理产品并配置人员服务，包括客户属性和受众库。 共享Experience CloudAssets。
+description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
 source-git-commit: 009c387189d928d3807326939fa56461325011f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
