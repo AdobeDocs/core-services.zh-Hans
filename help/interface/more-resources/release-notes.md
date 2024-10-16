@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5104'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,17 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
+## 2024年10月2
+
+| 功能 | 描述 |
+| -----------| ---------- |
+| 可自定义主页 | 在Experience Cloud登录页面上，单击&#x200B;**[!UICONTROL 编辑]**。 通过[!UICONTROL 编辑]模式，您可以访问构件库和自定义背景，从而个性化您的Experience Cloud主页。 [!UICONTROL 编辑]模式为移动、调整大小和管理小组件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
+
 ## 2024年9月10日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| Slack通知 | 您可以配置帐户首选项以向Slack发送Experience Cloud通知。 有关详细信息，请参阅[首选项](../features/account-preferences.md)帮助中的&#x200B;_Slack通知_。 |
+| Slack 通知 | 您可以配置帐户首选项，以将 Experience Cloud 通知发送到 Slack。有关详细信息，请参阅[首选项](../features/account-preferences.md)帮助中的&#x200B;_Slack通知_。 |
 
 <!-- ## July - August 2023
 
