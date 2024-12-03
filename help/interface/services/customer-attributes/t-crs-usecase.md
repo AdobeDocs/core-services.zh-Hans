@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 84%
+source-wordcount: '1102'
+ht-degree: 77%
 
 ---
 
@@ -71,11 +71,15 @@ ht-degree: 84%
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名 ID] 是在您的客户属性源代码中使用的唯一 ID。此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中的客户属性源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值(无论是通过Platform Data Collection还是Mobile SDK的JavaScript传入)匹配。
+   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名ID]是在您的[!UICONTROL 客户属性Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中的客户属性源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值(无论是通过Platform Data Collection还是Mobile SDK的JavaScript传入)匹配。
+
+     >[!IMPORTANT]
+     >
+     >删除与别名ID关联的数据源不会使别名ID可用，因为别名ID会保存在多个服务中，并用于在多个服务之间映射配置文件。
 
      别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;别名 ID 对应于 [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[Experience CloudID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
       * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
@@ -99,7 +103,7 @@ ht-degree: 84%
 
         请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解有关别名 ID 字段和客户 ID 的数据处理的其他信息。
 
-   * **[!UICONTROL 文件上传：]**&#x200B;您可以拖放 `.csv` 数据文件，或通过 FTP 上传数据。（使用 FTP 还需要 `.fin` 文件。）请参阅[通过 FTP 上传数据](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
+   * **[!UICONTROL 文件上传：]**&#x200B;您可以拖放 `.csv` 数据文件，或通过 FTP 上传数据。（使用FTP还需要`.fin`文件。） 请参阅[通过FTP上传数据](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
      >[!IMPORTANT]
      >
@@ -157,7 +161,7 @@ ht-degree: 84%
 
 ## 在 Adobe Target 中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可以在创建受众时从[!UICONTROL 访客配置文件]区域选择一个客户属性。列表中的所有客户属性都有前缀 `crs.`。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在 [!DNL Target] 中，您可以在创建受众时从[!UICONTROL 访客轮廓]区域选择一个客户属性。列表中的所有客户属性都有前缀 `crs.`。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
