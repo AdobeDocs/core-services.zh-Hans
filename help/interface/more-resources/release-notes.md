@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,15 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
+## 2024 年 11 月
+
+为了更便于控制Experience Cloud产品使用数据偏好设置，我们简化了Experience Cloud偏好设置页面，以删除重复选项。 通过这种简化，我们保留了当前的用户首选项，客户可以随时在[Experience Cloud首选项](https://experience.adobe.com/preferences)上更新其首选项。
+
 ## 2024年10月2
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 可自定义主页 | 在Experience Cloud登录页面上，单击&#x200B;**[!UICONTROL 编辑]**。 通过[!UICONTROL 编辑]模式，您可以访问构件库和自定义背景，从而个性化您的Experience Cloud主页。 [!UICONTROL 编辑]模式为移动、调整大小和管理小组件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
+| 可自定义的主页 | 在 Experience Cloud 登陆页面上，点击&#x200B;**[!UICONTROL 编辑]**。[!UICONTROL 编辑]模式使您能够通过访问小组件库和自定义背景来个性化您的 Experience Cloud 主页。[!UICONTROL 编辑]模式为移动、调整大小和管理小组件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
 
 ## 2024年9月10日
 
@@ -62,7 +66,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一主页 - 快速访问构件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL 快速访问]的前面和中心。<br>**利用智能固定功能随时了解最新动态：**&#x200B;您的新应用程序现在更容易找到。新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL 快速访问]。 |
+| 统一主页 - 快速访问小组件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL 快速访问]的前面和中心。<br>**利用智能固定功能随时了解最新动态：**&#x200B;您的新应用程序现在更容易找到。新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL 快速访问]。 |
 
 {style="table-layout:auto"}
 
@@ -95,8 +99,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | Experience Cloud 主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
-| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流程中提供图表建议。给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
+| 主页 | Experience Cloud 主页页脚信息已移至用户轮廓卡，包括法律声明和偏好设置中的语言选择。 |
+| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
 {style="table-layout:auto"}
@@ -164,7 +168,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **修复**
 
-* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他配置文件状态。(MCUI-10231)
+* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他轮廓状态。(MCUI-10231)
 * **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
 
 ## 2020 月 1 日
@@ -244,8 +248,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 |--- |--- |
-| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射每个报表包。）<br>将报表包映射到单个组织有助于在Experience Cloud中启用跨应用程序功能和服务。 |
-| 针对 Experience Cloud 受众的更新 | **应用报表包**<br>&#x200B;您现在可以将报表包应用于所有[受众规则](../services/audiences/create.md)。（以前，必须在每个规则定义中指定报表包。）<br>**属性和变量**<br>&#x200B;除 eVar 和事件之外，您现在可以在实时受众中包含 Analytics 属性和默认变量。 |
+| 批量报表包映射 | 在“管理”>“报表包映射”中，现在可以选择多个报表包，然后将它们映射到某个组织。（以前，必须单独映射报表包。）<br>将报表包映射到单个组织有助于在Experience Cloud中启用跨应用程序功能和服务。 |
+| 针对 Experience Cloud 受众的更新 | **应用报表包**<br>&#x200B;您现在可以将报表包应用于所有[受众规则](../services/audiences/create.md)。（以前，您必须在每个规则定义中指定一个报表包。）<br>**属性和变量**<br>&#x200B;您现在可以在实时受众中包含Analytics属性和默认变量（以及eVar和事件）。 |
 
 {style="table-layout:auto"}
 
@@ -253,7 +257,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 |--- |--- |
-| 配置文件和密码更新 | 用户不能再编辑编辑配置文件 > 配置文件和密码中个人详细信息下方的 IMS 用户配置文件信息。用户将会被重定向到 `accounts.adobe.com`。该更新适用于所有身份类型（Adobe ID、Enterprise 和 Federated）。 |
+| 轮廓和密码更新 | 用户不能再编辑编辑轮廓 > 轮廓和密码中个人详细信息下方的 IMS 用户轮廓信息。用户将会被重定向到 `accounts.adobe.com`。该更新适用于所有身份标识类型（Adobe ID、Enterprise 和 Federated）。 |
 
 {style="table-layout:auto"}
 
@@ -425,7 +429,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客配置文件</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="../services/customer-attributes/attributes.md" format="dita" scope="local">客户属性</a>产品文档。 </p> </td> 
+   <td colname="col2"> <p>如果您在客户关系管理 (CRM) 数据库中捕获到企业客户数据，则可以将该数据上传到 Experience Cloud 中的客户属性数据源。在上传数据后，您可以在 Analytics 中运行<span class="uicontrol">访客轮廓</span> &gt; <span class="uicontrol">客户属性</span>报表。 </p> <p>您还可以将上传数据用作 <span class="keyword">Adobe Target</span> 中的受众区段。 </p> <p>请参阅<a href="../services/customer-attributes/attributes.md" format="dita" scope="local">客户属性</a>产品文档。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

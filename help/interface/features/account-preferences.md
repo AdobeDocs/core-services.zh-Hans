@@ -1,16 +1,16 @@
 ---
 title: 帐户首选项和通知
-description: 了解 Experience Cloud 中的用户轮廓和帐户首选项。订阅电子邮件和 [!DNL Slack]的产品通知，并设置产品警报。
+description: 了解Experience Cloud中的用户配置文件、帐户偏好设置和产品使用情况数据。 订阅电子邮件和 [!DNL Slack]的产品通知，并设置产品警报。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 10%
+source-wordcount: '825'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,23 @@ ht-degree: 10%
 
 | 功能 | 描述 |
 |--- |--- |
-| 配置文件 | 更新您的[Adobe帐户配置文件](https://account.adobe.com/cn/profile)。 <p>当您登录到Adobe.com、Adobe产品和服务以及诸如[!DNL Behance]之类的面向公众的网站时，您的个人资料照片和名称会显示。 |
-| General | 选择[组织](../administration/organizations.md)。<p>此组织是登录Experience Cloud时使用的默认组织。 |
-| [!UICONTROL 产品数据收集] | 选择 Adobe 可以使用哪些技术来收集有关您如何使用 Adobe 产品的数据。 |
-| 通知 | 配置您希望产品[通知](#subscribe-to-notifications-in-experience-cloud)和警报的方式和时间： <ul><li>选择要订阅警报的产品</li><li>配置通知类型([!UICONTROL 应用程序内]、[!UICONTROL 电子邮件]或[Slack](#slack-notifications))</li><li>指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。）</li><li>确定警报优先级。 应用程序内警报会出现在窗口的右上角几秒钟。 或者，您可以指定在解除警报之前是否应显示警报。</li></ul> |
-| [!UICONTROL 个性化的学习推荐和促销] | 选择您希望从何处接收Adobe产品的[个性化帮助](personalized-learning.md)。 此帮助可通过电子邮件、产品内和Experience League社区提供。 |
+| [!UICONTROL 轮廓] | 更新您的[Adobe帐户配置文件](https://account.adobe.com/cn/profile)。 <p>当您登录到Adobe.com、Adobe产品和服务以及诸如[!DNL Behance]之类的面向公众的网站时，您的个人资料照片和名称会显示。 |
+| [!UICONTROL 常规] | 选择[组织](../administration/organizations.md)。<p>此组织是登录Experience Cloud时使用的默认组织。 |
+| [!UICONTROL 产品使用情况数据] | 在使用Experience Cloud应用程序时，您可以控制与Adobe共享哪些产品使用数据。 这些是有关您如何使用我们产品的数据，而不是您组织的内容或数据本身。 Adobe将使用此信息来帮助改进我们的产品、为您提供增强的产品内支持，以及个性化您的体验和我们之间的沟通。 <p>若要了解详细信息，请参阅[产品使用情况数据](#product-usage-data)（在此页面上）。 |
+| [!UICONTROL 通知] | 配置您希望产品[通知](#subscribe-to-notifications-in-experience-cloud)和警报的方式和时间： <ul><li>选择要订阅警报的产品</li><li>配置通知类型([!UICONTROL 应用程序内]、[!UICONTROL 电子邮件]或[Slack](#slack-notifications))</li><li>指定您希望接收通知电子邮件的频率。（不发送、即时、每日或每周。）</li><li>确定警报优先级。 应用程序内警报会出现在窗口的右上角几秒钟。 或者，您可以指定在解除警报之前是否应显示警报。</li></ul> |
+
+## [!UICONTROL 产品使用情况数据] {#product-usage-data}
+
+您选择与Adobe共享的产品使用数据包括以下类型的信息，介绍了如何使用应用程序以及与Adobe应用程序进行交互：
+
+* 浏览器和设备信息，如设备型号和操作系统、软件和硬件信息、浏览器和设备设置、唯一标识符（如IP地址、Cookie ID或设备ID）、安装的内存量、语言设置以及屏幕分辨率；
+* 如何与Adobe Experience Cloud应用程序交互，包括您使用的功能和选择的选项；
+* Adobe产品信息，如版本号；
+* 有关您的内容和文档的信息（如页数和唯一标识符），但不包括内容本身；
+* 内容使用信息，例如您访问内容的次数以及在应用程序中如何与您的内容交互；
+* 崩溃和错误日志。
+
+Adobe使用此信息帮助改进我们的产品，在产品内和通过客户关怀为您提供支持，并个性化您的体验和我们之间的沟通。 详细了解[个性化体验](personalized-learning.md)。
 
 ## 订阅Experience Cloud中的通知 {#notifications}
 

@@ -1,5 +1,5 @@
 ---
-description: 有关Experience Cloud帮助更新的信息。
+description: 了解Experience Cloud的常见界面组件在何处发生文档更新。
 solution: Experience Cloud
 title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 79%
+source-wordcount: '580'
+ht-degree: 75%
 
 ---
 
-# 文档更新 - Experience Cloud
+# Experience Cloud的文档更新
 
-有关Experience Cloud产品文档更新的信息。
+了解在何处进行Experience Cloud的中心界面和管理文档更新。
+
+**2024 年 11 月**
+
+[产品使用情况数据](../features/account-preferences.md)和[个性化学习](../features/personalized-learning.md)的更新。
 
 **2024年9月**
 
@@ -48,8 +52,8 @@ ht-degree: 79%
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | Experience Cloud 主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
-| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 构件创建工作流程中提供图表建议。给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
+| 主页 | Experience Cloud 主页页脚信息已移至用户轮廓卡，包括法律声明和偏好设置中的语言选择。 |
+| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
 **2021年10月13日**
