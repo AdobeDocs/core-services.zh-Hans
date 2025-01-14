@@ -10,11 +10,11 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 帐户首选项和通知 {#preferences}
+# 帐户偏好设置和通知 {#preferences}
 
 要查找Experience Cloud首选项，请单击标题中的&#x200B;**[!UICONTROL 配置文件]** ![首选项](../assets/preferences-icon-sm.png)，然后单击&#x200B;**[!UICONTROL 首选项]**。
 
