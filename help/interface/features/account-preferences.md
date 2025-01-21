@@ -1,6 +1,6 @@
 ---
 title: 帐户首选项和通知
-description: 了解Experience Cloud中的用户配置文件、帐户偏好设置和产品使用情况数据。 订阅电子邮件和 [!DNL Slack]的产品通知，并设置产品警报。
+description: 了解 Experience Cloud 中的用户轮廓、帐户首选项和产品使用情况数据。订阅电子邮件和 [!DNL Slack]的产品通知，并设置产品警报。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
