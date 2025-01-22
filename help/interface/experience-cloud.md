@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
 workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-要访问组织中为您预配的 Experience Cloud 应用程序和服务，请转到应用程序选择器 ![菜单](assets/menu-icon.png)。
+要访问组织中为您预配的 Experience Cloud 应用程序和服务，请转到应用程序选择器 ![菜单](assets/apps-icon.png)。
 
 ![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
