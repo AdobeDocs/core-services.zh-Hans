@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
+source-git-commit: dce1fe82a93cca78ea4ee2fa504947fcffb8a2c8
 workflow-type: tm+mt
 source-wordcount: '5286'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | 日期 | 功能 | 描述 |
 | -----------| -----------| ---------- |
 | 9 年 1 月 | 产品使用数据 | 为了更便于控制Experience Cloud产品使用数据偏好设置，我们简化了Experience Cloud[偏好设置](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前的用户首选项，您可以随时在[Experience Cloud首选项](https://experience.adobe.com/preferences)上更新您的首选项。 |
-| 1月30日（计划发行日期） | 频谱2 | Experience Cloud应用程序框架（包括标题栏和从标题栏访问的组件）以及某些应用程序的左侧导航边栏将更新为Adobe的最新设计系统Spectrum 2 。 此更新后的设计包括更新的肖像，但功能相同。 但是，标题中的多个元素会被重新定位，以便与其他Adobe网站和应用程序保持一致。 |
+| 2月5日（计划发布日期） | 频谱2 | Experience Cloud应用程序框架（包括标题栏和从标题栏访问的组件）以及某些应用程序的左侧导航边栏将更新为Adobe的最新设计系统Spectrum 2 。 此更新后的设计包括更新的肖像，但功能相同。 但是，标题中的多个元素会被重新定位，以便与其他Adobe网站和应用程序保持一致。 |
 
 ## 2024年10月2
 
@@ -112,7 +112,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>选件</li><li>组件</li><li>消息</li><li>历程</li></ul> |
+| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
 | 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
 
 {style="table-layout:auto"}
@@ -127,7 +127,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2021 年 7 月
 
-统一搜索功能已更新，可用于 Journey Optimizer、选件和 Experience League。以前，此功能仅可供 Experience Platform 用户使用。
+统一搜索功能已更新，可用于 Journey Optimizer、产品建议和 Experience League。以前，此功能仅可供 Experience Platform 用户使用。
 
 ## 2021 年 6 月
 

@@ -1,5 +1,5 @@
 ---
-description: 了解 Experience Cloud 用户和产品管理、人员（受众和客户属性）、Journey Orchestration、选件、位置、Experience Platform 和 Mobile Services。
+description: 了解 Experience Cloud 用户和产品管理、人员（受众和客户属性）、Journey Orchestration、产品建议、位置、Experience Platform 和 Mobile Services。
 solution: Experience Cloud
 title: Experience Cloud 服务概述
 feature: Central Interface Components
@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
+source-git-commit: fcebe4c0c356ef1f8d8756203f9ff7348b91f2b1
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 90%
@@ -19,7 +19,7 @@ ht-degree: 90%
 该文档适用于 Experience Cloud 内的统一页头的功能，如 [!DNL People] 服务（[!DNL Audience Library] 和 [!DNL Customer Attributes]）、Experience Cloud 的用户和产品管理、Cookie、帐户偏好设置、通知等等。
 
 要在 Experience Cloud 中访问这些服务，请选择&#x200B;**[!UICONTROL 应用程序选择器]**
-![服务选择器](../assets/menu-icon.png).
+![服务选择器](../assets/apps-icon.png).
 
 ![Experience Cloud 服务](../assets/platform-core-services.png)
 
