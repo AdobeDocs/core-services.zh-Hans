@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
+source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com) 是 Adobe 综合系列的数字营销应用程序、产品和服务。通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
 
-![Experience Cloud](assets/landing.png)
+![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
 
 通过 Experience Cloud 的标题，您可以：
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 1. 键入您的密码。
 1. 验证您是否处于正确的组织中。
 
-   ![验证您是否处于正确的组织中](assets/organizations-menu.png)
+   ![验证您是否处于正确的组织中](assets/organizations-menu.png){width="100" zoomable="yes"}
 
    **验证您的组织**
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 要访问组织中为您预配的 Experience Cloud 应用程序和服务，请转到应用程序选择器 ![菜单](assets/apps-icon.png)。
 
-![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
+![访问 Experience Cloud 应用程序](assets/platform-core-services.png){width="100" zoomable="yes"}
 
 ## 获取帮助和支持 {#support}
 
 使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
-![获取帮助和支持](assets/search-menu.png)
+![获取帮助和支持](assets/search-menu.png){width="100" zoomable="yes"}
 
 通过[!UICONTROL 帮助]菜单，您还可以访问：
 
@@ -83,6 +83,6 @@ ht-degree: 100%
 
 单击铃铛图标即可查看通知和公告。公告可以是相关且可操作的更新，包括产品发布、维护通知、共享项目和批准请求。
 
-![通知和公告](assets/notifications-menu-small.png)
+![通知和公告](assets/notifications-menu-small.png){width="100" zoomable="yes"}
 
 要管理通知和警报，请参阅 [帐户偏好设置和通知](features/account-preferences.md)
