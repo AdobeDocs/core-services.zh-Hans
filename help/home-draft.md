@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 通过 Experience Cloud 的标题，您可以：
 
-* 访问您的所有Experience Cloud应用程序和服务
+* 访问所有 Experience Cloud 应用程序和服务
 * 从“帮助”菜单中，搜索产品文档、教程和社区帖子。在 Experience League 中查看结果。
 * 使用全局搜索在“搜索”字段中全局搜索业务对象（仅限 Experience Platform 用户）。
 * 管理您的帐户[首选项](features/account-preferences.md)（警报、通知和订阅）
@@ -32,7 +32,7 @@ ht-degree: 80%
 登录并验证您是否处于正确的[组织](administration/organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 请输入您的 Adobe 电子邮件地址，然后选择&#x200B;**[!UICONTROL 继续]**。
+1. 键入Adobe电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 选择帐户。
 1. 键入您的密码。
 1. 验证您是否处于正确的组织中。
@@ -41,7 +41,7 @@ ht-degree: 80%
 
    **验证您的组织**
 
-   [组织](administration/organizations.md)显示在接口标头中。
+   [组织](administration/organizations.md) 显示在界面标头中。
 
    如果您的组织使用 Federated ID，则 Experience Cloud 允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。将 `#/sso:@domain` 添加到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任务。
 
@@ -57,7 +57,7 @@ ht-degree: 80%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -68,24 +68,24 @@ ht-degree: 80%
 * **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
 * **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
 
-## 管理您的用户配置文件
+## 管理您的用户个人资料
 
-在[!UICONTROL 配置文件]菜单中，您可以：
+在[!UICONTROL 轮廓]菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
 * 管理 Experience Cloud [首选项](features/account-preferences.md)
-* 选择或搜索[组织](administration/organizations.md)
-* 查看[!UICONTROL 法律声明]
+* 选择或搜索 [组织](administration/organizations.md)
+* 查看 [!UICONTROL 法律声明]
 * 注销
 * 配置帐户首选项、通知和订阅
 
-## 查看产品内通知和公告 {#notifications}
+## 查看产品内的通知和公告 {#notifications}
 
-单击铃铛图标查看通知和公告。 公告可以是相关且切实可行的更新，包括产品版本、维护通知、共享项和批准申请。
+单击铃铛图标即可查看通知和公告。公告可以是相关且可操作的更新，包括产品发布、维护通知、共享项目和批准请求。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
-若要管理通知和警报，请参阅[帐户首选项和通知](features/account-preferences.md)
+要管理通知和警报，请参阅 [帐户偏好设置和通知](features/account-preferences.md)
 
 
 ## 新增功能
@@ -136,7 +136,7 @@ Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 �
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>导入用户档案</strong><br/>探索如何在 Adobe Campaign v8 数据库中轻松创建用户档案。手动或通过导入添加用户档案，轻松优化客户数据和自定义营销活动。</div>
+    <div><strong>导入轮廓</strong><br/>探索如何在 Adobe Campaign v8 数据库中轻松创建轮廓。手动或通过导入添加轮廓，轻松优化客户数据和自定义营销活动。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -164,14 +164,14 @@ Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 �
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>发送消息</strong><br/><a href="start/create-message.md">入门</a> - <a href="send/preview-and-proof.md">预览和验证</a> - <a href="send/predictive.md">发送时间优化</a> - <a href="reporting/gs-reporting.md">报告与分析</a>
+      <strong>发送消息</strong><br/><a href="start/create-message.md">入门</a> - <a href="send/preview-and-proof.md">预览和校样</a> - <a href="send/predictive.md">发送时间优化</a> - <a href="reporting/gs-reporting.md">报告与分析</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>用户档案和受众</strong><br/><a href="audiences/create-profiles.md">添加用户档案</a> - <a href="audiences/create-audiences.md">创建受众</a> - <a href="start/subscriptions.md">管理订阅</a> - <a href="start/privacy.md">隐私</a>
+      <strong>轮廓和受众</strong><br/><a href="audiences/create-profiles.md">添加轮廓</a> - <a href="audiences/create-audiences.md">创建受众</a> - <a href="start/subscriptions.md">管理订阅</a> - <a href="start/privacy.md">隐私</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
@@ -181,7 +181,7 @@ Android Firebase Cloud Messaging (FCM) 服务的一些重要更改将于 2024 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>开发人员资源</strong><br/><a href="dev/datamodel.md">Campaign v8数据模型</a> - <a href="dev/schemas.md">架构</a> - <a href="dev/api.md">API</a>
+      <strong>开发人员资源</strong><br/><a href="dev/datamodel.md">Campaign v8 数据模型</a> - <a href="dev/schemas.md">架构</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

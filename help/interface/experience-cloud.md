@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
-workflow-type: ht
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 100%
 登录并验证您是否处于正确的[组织](administration/organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 请输入您的 Adobe 电子邮件地址，然后选择&#x200B;**[!UICONTROL 继续]**。
-1. 选择帐户。
+1. 键入Adobe电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
+1. 单击帐户。
 1. 键入您的密码。
 1. 验证您是否处于正确的组织中。
 

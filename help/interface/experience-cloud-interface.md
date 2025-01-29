@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 91%
@@ -59,7 +59,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 登录并验证您是否处于正确的[组织](organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 选择&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
+1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]**。
 1. 验证您是否处于正确的组织中。
 
    ![验证您的组织](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
-选择应用程序选择器![菜单](assets/menu-icon.png)以访问您拥有的Experience Cloud服务。
+单击应用程序选择器![菜单](assets/menu-icon.png)以访问您拥有的Experience Cloud服务。
 
 ![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 Experience Cloud 首选项包括通知、订阅和警报。
 
-从帐户菜单![首选项](assets/preferences-icon-sm.png)中选择&#x200B;**[!UICONTROL 首选项]**&#x200B;以管理首选项。
+* 单击帐户菜单![首选项](assets/preferences-icon-sm.png)中的&#x200B;**[!UICONTROL 首选项]**&#x200B;以管理首选项。
 
 ![管理 Experience Cloud](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Experience Cloud 首选项包括通知、订阅和警报。
 
 ## 通知和公告 {#notifications}
 
-选择&#x200B;**[!UICONTROL 通知]**&#x200B;以查看对您很重要的通知，以及来自 Adobe 的公告。
+单击&#x200B;**[!UICONTROL 通知]**&#x200B;以查看对您很重要的通知，以及来自 Adobe 的公告。
 
 ![通知和公告](assets/notifications-menu-small.png)
 

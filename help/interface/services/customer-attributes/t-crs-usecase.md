@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -55,13 +55,13 @@ ht-degree: 77%
 >创建、修改或删除客户属性源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性源。联系 Audience Manager 客户关怀团队或咨询人员以获取管理权限。
 
 1. 在[!DNL Experience Cloud]中，选择菜单![菜单](assets/menu-icon.png)图标。
-1. 在 **[!DNL Experience Platform]** 下，选择&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**。
+1. 在 **[!DNL Experience Platform]** 下，单击&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 客户属性]**。
 
    在“[!UICONTROL 客户属性]”页面中，您可以管理和编辑现有的属性数据源。
 
    ![步骤结果](assets/03_crs_usecase.png)
 
-1. 选择&#x200B;**[!UICONTROL 新建]**。
+1. 单击&#x200B;**[!UICONTROL 新建]**。
 
    ![步骤结果](assets/04_crs_usecase.png)
 
@@ -71,7 +71,7 @@ ht-degree: 77%
 
    * **[!UICONTROL 描述：]**（可选）数据属性来源的描述。
 
-   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名ID]是在您的[!UICONTROL 客户属性Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中的客户属性源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值(无论是通过Platform Data Collection还是Mobile SDK的JavaScript传入)匹配。
+   * **[!UICONTROL 别名 ID：]**&#x200B;表示客户属性数据的来源，如特定的 CRM 系统。[!UICONTROL 别名ID]是在您的[!UICONTROL 客户属性Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中的客户属性源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值(无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入)匹配。
 
      >[!IMPORTANT]
      >
@@ -144,7 +144,7 @@ ht-degree: 77%
 
 **激活属性来源的方法**
 
-在[!UICONTROL 新建或编辑客户属性Source]页面上，找到[!UICONTROL 激活]标题，然后选择&#x200B;**[!UICONTROL 活动]**。
+在[!UICONTROL 新建或编辑客户属性Source]页面上，找到[!UICONTROL 激活]标题，然后单击&#x200B;**[!UICONTROL 活动]**。
 
 ![步骤结果](assets/activate_attribute_source.png)
 

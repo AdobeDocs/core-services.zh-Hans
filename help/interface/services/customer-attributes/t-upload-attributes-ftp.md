@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 76%
@@ -35,7 +35,7 @@ ht-degree: 76%
 
    确保您已登录位于 `ftp.adobe.com/<sftpname>` 的 FTP 站点。
 
-1. 选择&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 文件上传]**。
+1. 单击&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 文件上传]**。
 
 1. 上传 `.fin` 文件，以便您的文件可被检索到。
 
