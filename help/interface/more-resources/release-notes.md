@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1200'
 ht-degree: 90%
 
 ---
@@ -24,12 +24,17 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
+## 2025 年 2 月
+
+| 日期 | 功能 | 描述 |
+| -----------| -----------| ---------- |
+| 2 月 13 日（计划发布日期） | Spectrum 2 | Experience Cloud应用程序框架（包括标题栏和从标题栏访问的组件）以及某些应用程序的左侧导航边栏将更新为Adobe的最新设计系统Spectrum 2。 此更新后的设计包括更新的肖像，但功能相同。 但是重新定位了标题中的几个元素，使其与其他 Adobe 网站和应用程序保持一致。 |
+
 ## 2025 年 1 月
 
 | 日期 | 功能 | 描述 |
 | -----------| -----------| ---------- |
-| 1 月 9 日 | 产品使用数据 | 为了更便于控制Experience Cloud产品使用数据偏好设置，我们简化了Experience Cloud[偏好设置](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前用户偏好设置，您可以随时通过 [Experience Cloud 偏好设置](https://experience.adobe.com/preferences) 更新您的偏好设置。 |
-| 2 月 5 日（计划发布日期） | Spectrum 2 | Experience Cloud应用程序框架（包括标题栏和从标题栏访问的组件）以及某些应用程序的左侧导航边栏将更新为Adobe的最新设计系统Spectrum 2 。 此更新后的设计包括更新的肖像，但功能相同。 但是重新定位了标题中的几个元素，使其与其他 Adobe 网站和应用程序保持一致。 |
+| 1 月 9 日 | 产品使用数据 | 为了更便于控制Experience Cloud产品使用数据偏好设置，我们简化了Experience Cloud [偏好设置](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前用户偏好设置，您可以随时通过 [Experience Cloud 偏好设置](https://experience.adobe.com/preferences) 更新您的偏好设置。 |
 
 ## 2024年10月2
 
