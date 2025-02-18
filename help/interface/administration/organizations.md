@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 55%
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 # Experience Cloud 中的组织
 
-*组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制单点登录Experience Cloud。
+*组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制Experience Cloud中的单点登录。
 
 组织的功能类似于跨所有 Experience Cloud 产品和应用程序的登录公司。大多数情况下，组织是您的公司名称。但是，公司可以具有多个组织。
 
@@ -47,7 +47,7 @@ ht-degree: 55%
 
 1. 在&#x200B;**[!UICONTROL 用户信息]**&#x200B;下，查找&#x200B;**[!UICONTROL 当前组织ID]**，您可以找到组织ID。
 
-   或者，管理员也可以登录Admin Console(导航到[https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的组织ID。
+   或者，管理员还可以登录Admin Console(导航到[https://adminconsole.adobe.com](https://adminconsole.adobe.com))，并在URL中查看您的组织ID。
 
    例如，在以下 URL 中：
 
@@ -61,11 +61,11 @@ ht-degree: 55%
 
 通常，Experience Cloud 管理员会授予对应用程序和服务的访问权限。在极少数情况下，您可以将应用程序凭据关联到Adobe ID。
 
-1. 按照电子邮件邀请中的步骤进行Experience Cloud。
+1. 按照邀请您加入Experience Cloud的电子邮件中的步骤操作。
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
 
-1. 单击&#x200B;**[!UICONTROL 应用程序选择器]**。 （![菜单](../assets/menu-icon.png)）。
+1. 单击&#x200B;**[!UICONTROL 应用程序选择器]**。 （![菜单](../assets/apps-icon.png)）。
 
    ![将应用程序帐户关联到 Adobe ID](../assets/solutions-active.png)
 
@@ -88,7 +88,7 @@ ht-degree: 55%
 1. 在[!UICONTROL 常规]下，选择一个默认组织。
 
 
-![编辑个人资料](../assets/edit-profile.png)
+![编辑轮廓](../assets/edit-profile.png)
 
 ## 解决帐户关联问题 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
