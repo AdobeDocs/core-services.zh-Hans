@@ -1,5 +1,5 @@
 ---
-description: 了解Experience Cloud的常见界面组件在何处发生文档更新。
+description: 了解Experience Cloud的常用界面组件在何处发生文档更新。
 solution: Experience Cloud
 title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,18 +7,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 75%
+source-wordcount: '605'
+ht-degree: 72%
 
 ---
 
-# Experience Cloud的文档更新
+# Experience Cloud文档更新
 
-了解在何处进行Experience Cloud的中心界面和管理文档更新。
+了解Experience Cloud中央界面和管理文档更新的位置。
 
-**2024 年 11 月**
+**2025 年 2 月**
+
+在Experience Cloud中添加了[管理用户和产品](../administration/admin-console.md)。 此页面可帮助管理员查找适用于所有应用程序的用户和产品管理(Admin Console)帮助。
+
+**2024年11月**
 
 [产品使用情况数据](../features/account-preferences.md)和[个性化学习](../features/personalized-learning.md)的更新。
 
@@ -60,7 +64,7 @@ ht-degree: 75%
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>选件</li><li>组件</li><li>消息</li><li>历程</li></ul> |
+| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
 | 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
 
 **2021年8月24日**
@@ -85,7 +89,7 @@ ht-degree: 75%
 
 **2020年5月19日**
 
-弃用了选件管理文档。
+弃用了产品建议管理文档。
 
 **2020年5月15日**
 
