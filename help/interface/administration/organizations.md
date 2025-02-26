@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
+source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 55%
+source-wordcount: '585'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 55%
 ![Experience Cloud组织](../assets/organizations-menu.png)
 
 要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL 配置文件]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
+
+>[!NOTE]
+>
+>在组织之间切换允许您访问该特定组织的Admin Console。 如果您未看到列出的所需组织，则可能需要请求该组织中的管理员授予访问权限。 (如果您需要合并多个Admin Console，请联系Adobe客户支持寻求帮助。)
 
 ## Federated ID
 
