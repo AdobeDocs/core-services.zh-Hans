@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,43 @@ ht-degree: 5%
 有关适用于所有Adobe应用程序的一般身份管理帮助，请参阅[企业和团队管理指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html)。
 
 以下部分提供指向Admin Console帮助中的资源的链接。
+
+## Admin Console中的管理角色
+
+Admin Console提供三个主要管理角色，每个角色都具有特定的访问级别和责任级别：
+
+**系统管理员：**&#x200B;完全访问权限 — 管理控制台的所有方面。
+
+主要职责：
+
+* 添加、删除和管理用户。
+* 分配和撤销产品许可证。
+* 配置身份和身份验证设置。
+* 查看和管理账单信息。
+* 设置其他管理员和委派角色。
+
+  **最适合于：**&#x200B;负责监督整个组织的Adobe环境的IT管理员或团队负责人。
+
+**产品管理员：**&#x200B;产品特定管理 — 控制特定Adobe产品的访问和权限。
+
+主要职责：
+
+* 分配和管理特定产品的许可证。
+* 创建和管理产品配置文件。
+* 添加或删除已分配产品中的用户。
+
+  **最适合于：**&#x200B;管理特定软件(如Marketo Engage或Adobe Creative Cloud)的团队/用户。
+
+**产品配置文件管理员：**&#x200B;粒度角色管理 — 侧重于管理产品中的用户组和权限。
+
+* 主要职责：
+* 创建和管理产品配置文件。
+* 在配置文件中分配权限和功能访问权限。
+* 在配置文件中添加或删除用户。
+
+  **最适合：**&#x200B;部门主管或团队经理负责监督有特殊需求的较小组
+
+  管理员可以根据组织要求合并角色，以实现更大的灵活性。
 
 ## Admin Console设置
 
