@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Admin Console提供三个主要管理角色，每个角色都具有特定的访问级别和责任级别：
 
-| 帮助链接 | 描述 |
+| 角色 | 描述 |
 | ------- | ------- |
 | 系统管理员 | 完全访问 — 管理控制台的所有方面。 <br>主要职责： <br><ul><li>添加、删除和管理用户。</li><li>分配和撤销产品许可证。</li><li>配置身份和身份验证设置</li><li>查看和管理账单信息。</li><li>设置其他管理员和委派角色。</li></ul> **最适合于：**&#x200B;负责监督整个组织的Adobe环境的IT管理员或团队负责人。 |
 | 产品管理员 | 产品特定管理 — 控制特定Adobe产品的访问和权限。<br>主要职责：<ul><li>分配和管理特定产品的许可证。</li><li>创建和管理产品配置文件。</li><li>添加或删除已分配产品中的用户。</li></ul>   **最适合于：**&#x200B;管理特定软件(如Marketo Engage或Adobe Creative Cloud)的团队/用户。 |
@@ -37,7 +37,7 @@ Admin Console提供三个主要管理角色，每个角色都具有特定的访�
 
 以下是您在Admin Console中作为管理员快速入门时可能需要的资源：
 
-### 设置任务
+### 设置资源
 
 | 帮助链接 | 描述 |
 | ------- | ------- |
