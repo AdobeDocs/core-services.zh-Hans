@@ -6,9 +6,9 @@ title: Experience Cloud 界面和管理指南
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
 source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
