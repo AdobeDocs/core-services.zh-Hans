@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| 2025年3月6日 | 右键单击菜单选项 | Experience Cloud应用程序框架修复了标题导航选项卡，以允许右键单击浏览器下拉菜单功能。 这修复了在2月份的Spectrum 2设计系统中引入的问题。 |
+| 2025年3月6日 | 右键单击菜单选项修复 | Experience Cloud标题导航选项卡现在允许右键单击浏览器下拉菜单功能。 这修复了在2月份的Spectrum 2设计系统中引入的问题。 |
 
 ## 2025 年 2 月
 
