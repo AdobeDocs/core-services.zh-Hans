@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 90%
+source-wordcount: '1235'
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,17 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
+## 2025 年 3 月
+
+| 日期 | 更新 | 描述 |
+| -----------| -----------| ---------- |
+| 2025年3月6日 | 右键单击菜单选项 | Experience Cloud应用程序框架修复了标题导航选项卡，以允许右键单击浏览器下拉菜单功能。 这修复了在2月份的Spectrum 2设计系统中引入的问题。 |
+
 ## 2025 年 2 月
 
 | 日期 | 功能 | 描述 |
 | -----------| -----------| ---------- |
-| 2 月 13 日（计划发布日期） | Spectrum 2 | Experience Cloud应用程序框架（包括标题栏和从标题栏访问的组件）以及某些应用程序的左侧导航边栏将更新为Adobe的最新设计系统Spectrum 2。 此更新后的设计包括更新的肖像，但功能相同。 但是重新定位了标题中的几个元素，使其与其他 Adobe 网站和应用程序保持一致。 |
+| 13 年 2 月 | Spectrum 2 | Experience Cloud应用程序框架（包括标题栏和从标题栏访问的组件）以及某些应用程序的左侧导航边栏将更新为Adobe的最新设计系统Spectrum 2。 此更新后的设计包括更新的肖像，但功能相同。 但是重新定位了标题中的几个元素，使其与其他 Adobe 网站和应用程序保持一致。 |
 
 ## 2025 年 1 月
 
