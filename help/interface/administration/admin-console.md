@@ -1,6 +1,6 @@
 ---
 title: 用户和产品许可证管理
-description: 在Admin Console中为Experience Cloud应用程序管理用户和产品许可证。
+description: 在 Admin Console 中管理 Experience Cloud 应用程序的用户和产品许可证。
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
