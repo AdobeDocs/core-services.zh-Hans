@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
+source-git-commit: ce65c5292caaa4a24945e2119e78fd97a7d84109
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '749'
 ht-degree: 7%
 
 ---
 
 # 用户管理和产品许可证
 
-本页提供了专门面向Experience Cloud管理员的信息，以及指向常用用户和产品管理文档的链接。
+您可以在Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/)中管理用户和产品许可证。 有关适用于所有Adobe应用程序的一般身份管理帮助，请参阅[企业和团队管理指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html)。
 
-有关适用于所有Adobe应用程序的一般身份管理帮助，请参阅[企业和团队管理指南](https://helpx.adobe.com/cn/enterprise/admin-guide.html)。
+本页提供了对Experience Cloud管理员特别有用的信息，定义了角色，并提供了企业指南中常见用户和产品管理主题的链接。
 
 ## Admin Console中的管理角色
 
