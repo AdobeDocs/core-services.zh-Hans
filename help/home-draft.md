@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 94%
+source-wordcount: '911'
+ht-degree: 82%
 
 ---
 
@@ -27,12 +27,134 @@ ht-degree: 94%
 * 使用全局搜索在“搜索”字段中全局搜索业务对象（仅限 Experience Platform 用户）。
 * 管理您的帐户[首选项](features/account-preferences.md)（警报、通知和订阅）
 
+
+从GSPM提取：
+
+## 浏览功能
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="右V形" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong>写入有效提示</strong>
+         </a>
+      </div>
+      <p>
+         <em>制作可生成品牌上数字体验的描述性提示。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="画笔" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong>创建体验</strong>
+         </a>
+      </div>
+      <p>
+         <em>创建高性能、品牌内电子邮件和元广告。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="复选标记" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong>审阅和批准</strong>
+         </a>
+      </div>
+      <p>
+         <em>编排营销资产的简化审核和批准。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="网格" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong>管理内容</strong>
+         </a>
+      </div>
+      <p>
+         <em>在维护品牌指南的同时查找、管理和重新调整内容用途。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="图表" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong>查看分析</strong>
+         </a>
+      </div>
+      <p>
+         <em>分析付费媒体渠道的内容有效性。</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## 了解如何
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="添加准则" src="../assets/card-guidelines.png">
+      <strong>添加准则</strong>
+      </a>
+   </div>
+   <p>
+      <em>了解如何向GenStudio for Performance Marketing添加准则（品牌、产品和角色）。</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="创意、书籍、铅笔、计算机" src="../assets/card-create-assets.png">
+      <strong>创建电子邮件体验</strong>
+      </a>
+   </div>
+   <p>
+      <em>了解如何创建品牌内电子邮件体验。</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="将文件移动到文件夹中的人员" src="../assets/card-manage-content.png">
+      <strong>创建元广告体验</strong>
+      </a>
+   </div>
+   <p>
+      <em>了解如何创建品牌一致的元广告体验。</em>
+   </p>
+</td>
+</table>
+
+
+（GSPM结束）
+
+
+
+
+
+
+
 ## 登录到 Experience Cloud {#signin}
 
 登录并验证您是否处于正确的[组织](administration/organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 键入Adobe电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
+1. 请输入您的 Adobe 电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 选择帐户。
 1. 键入您的密码。
 1. 验证您是否处于正确的组织中。
@@ -57,7 +179,7 @@ ht-degree: 94%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -90,11 +212,11 @@ ht-degree: 94%
 
 ## 新增功能
 
-了解对Experience Cloud中央界面组件的最新增强功能。
+了解Experience Cloud中央界面组件的最新增强功能。
 
 >[!BEGINTABS]
 
->[!TAB Slack与Experience Cloud]的集成
+>[!TAB Slack与Experience Cloud的集成]
 
 您可以配置帐户首选项以将Experience Cloud通知发送到[!DNL Slack]频道。
 
