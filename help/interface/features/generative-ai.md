@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,10 @@ ht-degree: 4%
 
 ## 使用AI的Experience Cloud应用程序
 
-Subhead版本（未完成）。..
+>[!TIP]
+>
+>Subhead版本（只是一个开始）。..
+
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Experience Manager Sites (Cloud Service)](#aem-sites)
@@ -83,9 +86,12 @@ AEM Sites使用[生成变体](https://experienceleague.adobe.com/en/docs/experie
 
 
 
-表版本……
-
 ## 使用AI的Experience Cloud应用程序
+
+>[!TIP]
+>
+>表版本……
+
 
 了解Experience Cloud应用程序如何使用创作AI或AI Assistant，以及是否支持Adobe Firefly。
 
