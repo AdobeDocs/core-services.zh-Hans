@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
-
 
 # Experience Cloud应用程序中的人工智能
 
@@ -83,6 +83,26 @@ AEM Sites使用[生成变体](https://experienceleague.adobe.com/en/docs/experie
 请参阅[生成图像](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)。
 
 **与Adobe Firefly的兼容性：**&#x200B;是
+
+## Adobe Journey Optimizer
+
+Journey Optimizer使用[AI助手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)来回答两类问题：
+
+**产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。 示例：
+
+* 一个Adobe Journey Optimizer沙盒中可以有多少个实时活动？
+
+**Operational Insights (Beta)** — 查询特定于客户的操作分析数据存储区，该数据存储区包含有关历程的集中操作数据，并按客户的沙盒进行分区。 仅从业务对象中提取元数据，而不访问沙盒中的数据。
+
+* 过去七天创建了多少历程？
+
+运营见解输出取决于从客户的业务对象中拉取的元数据。
+
+历程是Journey Optimizer中唯一可用于AI助手的对象，并且元数据是从当前沙盒中提取的。
+
+查看[使用AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)和[字段准备工作](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11)以了解更多信息。
+
+**与Adobe Firefly的兼容性：**&#x200B;否
 
 
 
