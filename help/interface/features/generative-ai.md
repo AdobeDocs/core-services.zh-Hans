@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 4f51bc948f3d109f8c1211fda44adee17cc05170
+source-git-commit: fb9d3c45beca38e1ca372b24565946bf1a1da839
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 6%
+source-wordcount: '1392'
+ht-degree: 4%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 6%
 
 * **创建：**&#x200B;参考AI根据其训练和输入提示从头开始生成新内容（文本、图像、音乐或视频）的能力。 此功能是创作AI的&#x200B;_创作_&#x200B;方面。
 
-* **响应：**&#x200B;指对特定问题、语句或提示提供答案或反应的AI，通常利用其知识或推理能力。
+* **响应：**&#x200B;指对特定提示提供答案或反应的AI，通常利用其知识或推理能力。
 
-某些Experience Cloud应用程序会利用创新型人工智能，帮助新用户快速获取产品知识，并且经验丰富的用户可在几秒钟内发现运营见解，而不是数小时。
+如果您是Experience Cloud的新手，则可以使用创作AI快速获取产品知识。 作为经验丰富的用户，您可在几秒钟内发现运营见解，而不是几小时。
 
 ### AI 助手
 
-[AI助手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)是Experience Platform和相关应用程序中支持的对话工具。 使用它可以加快您的工作流、改进您的产品知识、排查问题或搜索信息。 AI Assistant允许您在几秒钟内发现运营见解，而不是几小时。
+[AI助手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)是Experience Platform和相关应用程序中支持的对话工具。 使用它可以加快您的工作流、改进您的产品知识、排查问题或搜索信息。 在某些应用程序中，AI Assistant可让您立即发现运营见解。
 
-所有产品知识答案都可验证，并可通过链接引用Experience League中的产品文档。 [了解AI Assistant](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)以及基于对象的提示类型，以充分利用AI Assistant。
+来自Experience League的产品知识响应是可验证的，并通过链接引用。 了解[基于对象的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)的类型，以充分利用AI Assistant。
 
-## 使用AI的Experience Cloud应用程序
+## 具有支持AI功能的应用程序
 
-* [Adobe GenStudio for Performance Marketing](#gspm)
-* [Adobe Experience Manager Sites (Cloud Service)](#aem-sites)
-* [Adobe Journey Optimizer](#journey-optimizer)
+* [GenStudio for Performance Marketing](#gspm)
+* [在AEM Sites (Cloud Service)中生成变体](#aem-sites)
+* [Journey Optimizer 中的 AI 助手](#journey-optimizer)
 * [Adobe Journey Optimizer Prime和Ultimate](#ajo-prime-ultimate)
 * [Journey Optimizer B2B 版本](#ajo-b2b)
 
@@ -59,13 +59,15 @@ ht-degree: 6%
 
 您还可以使用示例、客户角色和产品的描述以及品牌指南对您的GenStudio for Performance Marketing进行品牌培训。 [了解详情...](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)
 
-**与Adobe Firefly的兼容性：**&#x200B;已计划
+**与Adobe Firefly兼容：**&#x200B;已计划
 
-### Experience Manager Sites {#aem-sites}
+### 在Experience Manager Sites中生成变体 {#aem-sites}
 
-AEM Sites使用[生成变体](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)。 “生成变体”使用创新型人工智能根据提示创建内容变体。 这些提示由[Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#get-started)提供，或由[用户](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#create-prompt)创建和管理。
+AEM Sites中的[生成变体](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)使用生成AI根据提示创建内容变体。 这些提示由[Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#get-started)提供，或由[用户](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#create-prompt)创建和管理。
 
 创建变体后，您可以在网站上使用内容，并使用Edge Delivery Services中的试验功能衡量其成功与否。
+
+### 输入和输出字段
 
 **输入：**&#x200B;输入字段包括：
 
@@ -77,55 +79,125 @@ AEM Sites使用[生成变体](https://experienceleague.adobe.com/en/docs/experie
 
 **输出：**&#x200B;生成的内容/市场副本。 您还可以选择使用Adobe Express的创作AI功能在Firefly中生成图像。
 
-请参阅[生成图像](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)。
+请参阅[生成图像](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)以了解详情。
 
-**与Adobe Firefly的兼容性：**&#x200B;是
+**与Adobe Firefly兼容：**&#x200B;是
 
-## Journey Optimizer {#journey-optimizer}
+## Journey Optimizer 中的 AI 助手 {#journey-optimizer}
 
-Journey Optimizer使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)来回答两类问题：
+在Journey Optimizer中，AI Assistant可以帮助您获得产品知识和操作见解。
 
-**产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。 示例：
+**产品知识：** AI Assistant查询Adobe数据存储中的产品insight(如Experience League产品文档)。 输出与客户无关。
 
-* 一个Adobe Journey Optimizer沙盒中可以有多少个实时活动？
+示例：
 
-**Operational Insights (Beta)** — 查询特定于客户的操作分析数据存储区，该数据存储区包含有关历程的集中操作数据，并按客户的沙盒进行分区。 仅从业务对象中提取元数据，而不访问沙盒中的数据。
+* _一个Adobe Journey Optimizer沙盒中可以有多少实时活动？_
 
-* 过去七天创建了多少历程？
+**Operational Insights (Beta)** — 查询特定于客户的操作分析数据存储区，该数据存储区包含有关历程的集中操作数据，并按客户的沙盒进行分区。 此功能仅从业务对象中提取元数据，不会访问沙盒中的数据。
 
-运营见解输出取决于从客户的业务对象中拉取的元数据。
+示例提示：
 
-历程是Journey Optimizer中唯一可用于AI助手的对象，并且元数据是从当前沙盒中提取的。
+* _在过去七天中创建了多少历程？_
 
-查看[使用AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)和[字段准备工作](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11)以了解更多信息。
+运营见解输出取决于从客户的业务对象中拉取的元数据。 此输出不受客户限制。
 
-**与Adobe Firefly的兼容性：**&#x200B;否
+_历程_&#x200B;是Journey Optimizer中唯一可用于AI助手的对象，并且元数据是从当前沙盒中提取的。 [了解更多...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)。
+
+**与Adobe Firefly兼容：**&#x200B;否
 
 ## Journey Optimizer Prime和Ultimate {#ajo-prime-ultimate}
 
 Journey Optimizer Prime和Ultimate使用[AI Assistant for Content Accelerator](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)为文本和图像提供主动内容变体建议。
 
-此功能适用于电子邮件、推送、Web和短信渠道。 它提供基于提示的文本和图像生成。
-
-**电子邮件** — 生成完整电子邮件、纯文本或纯图像。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-email)
-
-**推送通知** — 生成完整的推送通知、纯文本或纯图像。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-push)
-
-**短信** — 生成完整的短信或仅发送文本。 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-sms)
-
-**网页** — 生成网页图像或网页文本。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-web)
-
-**内容** — 为各种消息传递活动生成内容。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-experimentation)
+此功能适用于[电子邮件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-email)、[推送通知](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-push)、[网页](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-web)、[内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-experimentation)和[短信](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-sms)渠道。 它提供基于提示的文本和图像生成。
 
 **注意：** AJO Prime和Ultimate中内容加速器的输出不受损害。
 
-**与Adobe Firefly的兼容性：**&#x200B;是
+**与Adobe Firefly兼容：**&#x200B;是
 
-## Journey Optimizer B2B 版本 {#ajo-b2b}
+## Journey Optimizer B2B edition中的AI助手 {#ajo-b2b}
 
-使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)进行产品知识提示。
+Journey Optimizer B2B edition使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)根据您的产品知识提示帮助您了解产品知识。
 
-**产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。 | <ul><li>**输入：**&#x200B;如何在帐户历程中发送电子邮件？</li><li>**输出：**&#x200B;产品知识从Experience League提取（公共文档）。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)</li></ul>   | 否   |
+**产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。
+
+* **输入：**&#x200B;如何在帐户历程中发送电子邮件？
+
+* **输出：**&#x200B;产品知识从Experience League提取（公共文档）。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)
+
+**与Adobe Firefly兼容：**&#x200B;否
+
+## Campaign托管式云服务
+
+Campaign Managed Cloud Services使用内容加速器的[AI助手](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)，根据营销目标自动生成个性化、引人入胜且有效的内容，内容在电子邮件、短信、推送等渠道间针对品牌概述的样式、布局、音调等进行了优化。
+
+* **电子邮件** — 生成完整电子邮件、纯文本或纯图像。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)
+
+* **短信** — 仅生成完整的短信或文本。 [了解详情...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)
+
+* **推送** — 制作引人注目的消息并生成内容。 [了解详情...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)
+
+**注意：**&#x200B;来自Campaign Managed Cloud Services中内容加速器的输出不受损害。
+
+**与Adobe Firefly兼容：**&#x200B;是
+
+## Customer Journey Analytics - AI助手
+
+CJA使用[AI助手](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)帮助您从Experience League中探索产品知识和见解。
+
+**示例提示：**&#x200B;如何生成计算量度？
+
+新用户可以用它来了解Customer Journey Analytics概念，并了解您不熟悉的产品和功能。
+
+经验丰富的用户可以使用AI Assistant展示更高级的用例或提示和技巧，并快速执行任务。 了解概念、排查问题或搜索信息。 [了解详情...](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant#knowledge)
+
+**与Adobe Firefly兼容：**&#x200B;否
+
+## Customer Journey Analytics — 智能字幕
+
+[智能字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)为Workspace可视化中的线条可视化提供自然语言见解。
+
+**示例输入：**&#x200B;行可视化。 当您单击&#x200B;**智能字幕**&#x200B;时，字幕会根据此类行可视化自动生成。
+
+**输出：**&#x200B;自动生成的自然语言字幕。
+
+**与Adobe Firefly兼容：**&#x200B;否
+
+## Real-Time CDP
+
+Real-Time CDP使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)帮助您从Experience League中探索产品知识和见解。 它查询数据库并将数据库中的数据转换为人类可读的答案。
+
+有两种问题可供选择：
+
+**产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。
+
+例如：
+
+* _如何计算配置文件丰富度？_
+
+**Operational Insights (Beta)** — 查询特定于客户的操作分析数据存储区，该数据存储区包含按客户的AEP沙盒进行分区的集中式操作数据。 仅从属性、受众、数据流、数据集、目标、架构和源中提取元数据，并不访问沙盒中的数据。
+
+例如，对于有关受众的查询，[!DNL AI Assistant]可以访问受众的名称和其他关联的元数据，但无法访问该受众中的配置文件。
+
+例如：
+
+* 输入：_我有多少数据集？_
+
+* 响应：_Operational Insights输出取决于从客户的业务对象（属性、受众、数据流、数据集、目标、架构和源）提取的元数据，并包括指向包含查询数据的特定UI页面的链接。_
+
+有关更多示例，请参阅Experience Platform中的[AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)中的&#x200B;_产品知识_&#x200B;和&#x200B;_操作分析_&#x200B;输入表
+
+**与Firefly兼容：**&#x200B;否
+
+
+## Marketo
+
+[Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview)通过自定义和预批准的问题和答案以及对话摘要创建人工智能辅助对话 |<ul><li> **生成问题：**&#x200B;提供从中提取内容并用于生成问题/响应的URL。 </li><li> **对话摘要：**&#x200B;生成聊天对话摘要。 </li></ul> [了解更多……](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | 否 |
+
+## Workfront
+
+Workfront中的[AI助手](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)通过在自然语言对话中提供应用程序内信息和建议，帮助您完成工作。 AI Assistant提供以下功能：汇总项目/任务/问题/文档，提供从Experience League上的Workfront文档提取的说明或参考信息，为计算的自定义字段生成或优化公式。  | <ul><li>**汇总项目输入：**&#x200B;汇总此项目 </li><li> **概述项目输出：**&#x200B;返回项目用途和状态的简短描述，给出已完成和仍在等待中的任务的示例，并提供一些其他详细信息和说明。</li><li> **生成/优化公式输入：**“重写此公式以删除无效的表达式错误。” </li><li> **生成/优化公式输出：**&#x200B;已生成或优化公式。 </li></ul>**注意：** AI Assistant可能需要一些时间来生成修订的公式，具体取决于公式的大小和复杂性。 | 否  |
+
 
 <!-- ## Experience Cloud applications that use AI
 
