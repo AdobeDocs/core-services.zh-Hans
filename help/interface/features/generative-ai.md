@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: fb9d3c45beca38e1ca372b24565946bf1a1da839
+source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 4%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -44,12 +44,20 @@ ht-degree: 4%
 * [Journey Optimizer 中的 AI 助手](#journey-optimizer)
 * [Adobe Journey Optimizer Prime和Ultimate](#ajo-prime-ultimate)
 * [Journey Optimizer B2B 版本](#ajo-b2b)
+* [Journey Optimizer Prime和Ultimate中的AI助手](#ajo-prime-ultimate)
+* [Journey Optimizer B2B edition中的AI助手](#ajo-b2b)
+* [Campaign Managed Cloud Services中的AI助手](#campaign-cs)
+* [Customer Journey Analytics的人工智能助手](#cja)
+* [Customer Journey Analytics中的智能字幕](#cja-captions)
+* [Real-Time CDP的人工智能助手](#rtcdp)
+* [Marketo中的Dynamic Chat](#marketo)
+* [Workfront的人工智能助手](#workfront)
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)是一个创新型人工智能驱动平台，使您能够创建、交付和优化活动资源。 其创作AI功能可转变营销内容的创建、审阅、共享和分析方式。
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)不是功能，而是创作AI驱动的平台。 其创作AI功能可转变营销内容的创建、审阅、共享和分析方式。
 
-通过&#x200B;_GenStudio for Performance Marketing创建_（或简单地说&#x200B;_创建_）功能，营销人员和分散的团队可以创建高性能、按品牌划分的体验。 您可以为以下内容生成内容：
+在[创建](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)主页上，您可以创建高性能、按品牌显示的体验。 生成以下内容：
 
 * 电子邮件
 * 元广告
@@ -93,7 +101,7 @@ AEM Sites中的[生成变体](https://experienceleague.adobe.com/en/docs/experie
 
 * _一个Adobe Journey Optimizer沙盒中可以有多少实时活动？_
 
-**Operational Insights (Beta)** — 查询特定于客户的操作分析数据存储区，该数据存储区包含有关历程的集中操作数据，并按客户的沙盒进行分区。 此功能仅从业务对象中提取元数据，不会访问沙盒中的数据。
+**Operational Insights (Beta)** - AI Assistant查询特定于客户的操作分析数据存储区，该数据存储区包含有关历程的集中操作数据，并按客户的沙盒进行分区。 此功能仅从业务对象中提取元数据，不会访问沙盒中的数据。
 
 示例提示：
 
@@ -105,7 +113,7 @@ _历程_&#x200B;是Journey Optimizer中唯一可用于AI助手的对象，并且
 
 **与Adobe Firefly兼容：**&#x200B;否
 
-## Journey Optimizer Prime和Ultimate {#ajo-prime-ultimate}
+## Journey Optimizer Prime和Ultimate中的AI助手 {#ajo-prime-ultimate}
 
 Journey Optimizer Prime和Ultimate使用[AI Assistant for Content Accelerator](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)为文本和图像提供主动内容变体建议。
 
@@ -117,33 +125,27 @@ Journey Optimizer Prime和Ultimate使用[AI Assistant for Content Accelerator](h
 
 ## Journey Optimizer B2B edition中的AI助手 {#ajo-b2b}
 
-Journey Optimizer B2B edition使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)根据您的产品知识提示帮助您了解产品知识。
+Journey Optimizer B2B edition使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)根据您的产品知识提示帮助您了解产品知识。
 
 **产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。
 
 * **输入：**&#x200B;如何在帐户历程中发送电子邮件？
 
-* **输出：**&#x200B;产品知识从Experience League提取（公共文档）。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)
+* **输出：**&#x200B;产品知识从Experience League提取（公共文档）。 [了解详情...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
 
 **与Adobe Firefly兼容：**&#x200B;否
 
-## Campaign托管式云服务
+## Campaign Managed Cloud Services中的AI助手 {#campaign-cs}
 
-Campaign Managed Cloud Services使用内容加速器的[AI助手](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)，根据营销目标自动生成个性化、引人入胜且有效的内容，内容在电子邮件、短信、推送等渠道间针对品牌概述的样式、布局、音调等进行了优化。
-
-* **电子邮件** — 生成完整电子邮件、纯文本或纯图像。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)
-
-* **短信** — 仅生成完整的短信或文本。 [了解详情...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)
-
-* **推送** — 制作引人注目的消息并生成内容。 [了解详情...](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)
+Campaign Managed Cloud Services使用[AI助手进行内容加速器](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)。 通过此功能，您可以根据营销目标自动生成个性化、引人入胜且有效的内容，其中内容针对品牌概述的样式、布局、色调等进行了优化。 您可以跨渠道（如[电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)、[短信](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)和[推送](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)）使用该功能。
 
 **注意：**&#x200B;来自Campaign Managed Cloud Services中内容加速器的输出不受损害。
 
 **与Adobe Firefly兼容：**&#x200B;是
 
-## Customer Journey Analytics - AI助手
+## Customer Journey Analytics的人工智能助手 {#cja}
 
-CJA使用[AI助手](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)帮助您从Experience League中探索产品知识和见解。
+Customer Journey Analytics使用[AI助手](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)帮助您从Experience League中探索产品知识和见解。
 
 **示例提示：**&#x200B;如何生成计算量度？
 
@@ -153,29 +155,17 @@ CJA使用[AI助手](https://experienceleague.adobe.com/en/docs/analytics-platfor
 
 **与Adobe Firefly兼容：**&#x200B;否
 
-## Customer Journey Analytics — 智能字幕
+## Customer Journey Analytics中的智能字幕 {#cja-captions}
 
-[智能字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)为Workspace可视化中的线条可视化提供自然语言见解。
-
-**示例输入：**&#x200B;行可视化。 当您单击&#x200B;**智能字幕**&#x200B;时，字幕会根据此类行可视化自动生成。
-
-**输出：**&#x200B;自动生成的自然语言字幕。
+Customer Journey Analytics中的[智能字幕](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)为最常用的Workspace可视化图表提供自然语言见解。
 
 **与Adobe Firefly兼容：**&#x200B;否
 
-## Real-Time CDP
+## Real-Time CDP的人工智能助手 {#rtcdp}
 
-Real-Time CDP使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)帮助您从Experience League中探索产品知识和见解。 它查询数据库并将数据库中的数据转换为人类可读的答案。
+Real-Time CDP使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)帮助您从Experience League中探索产品知识和见解。 [获取提问提示](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions)。
 
-有两种问题可供选择：
-
-**产品知识** — 查询Adobe数据存储区(如Experience League产品文档)以了解产品insight。 此输出不受客户限制。
-
-例如：
-
-* _如何计算配置文件丰富度？_
-
-**Operational Insights (Beta)** — 查询特定于客户的操作分析数据存储区，该数据存储区包含按客户的AEP沙盒进行分区的集中式操作数据。 仅从属性、受众、数据流、数据集、目标、架构和源中提取元数据，并不访问沙盒中的数据。
+它还提供运营见解（测试版）。 AI Assistant查询特定于客户的操作见解数据存储，其中包含集中式操作数据，按客户的AEP沙盒进行分区。 它仅从属性、受众、数据流、数据集、目标、架构和源中提取元数据，并不访问沙盒中的数据。
 
 例如，对于有关受众的查询，[!DNL AI Assistant]可以访问受众的名称和其他关联的元数据，但无法访问该受众中的配置文件。
 
@@ -189,12 +179,11 @@ Real-Time CDP使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/ex
 
 **与Firefly兼容：**&#x200B;否
 
-
-## Marketo
+## Marketo中的Dynamic Chat {#marketo}
 
 [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview)通过自定义和预批准的问题和答案以及对话摘要创建人工智能辅助对话 |<ul><li> **生成问题：**&#x200B;提供从中提取内容并用于生成问题/响应的URL。 </li><li> **对话摘要：**&#x200B;生成聊天对话摘要。 </li></ul> [了解更多……](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | 否 |
 
-## Workfront
+## Workfront的人工智能助手 {#workfront}
 
 Workfront中的[AI助手](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)通过在自然语言对话中提供应用程序内信息和建议，帮助您完成工作。 AI Assistant提供以下功能：汇总项目/任务/问题/文档，提供从Experience League上的Workfront文档提取的说明或参考信息，为计算的自定义字段生成或优化公式。  | <ul><li>**汇总项目输入：**&#x200B;汇总此项目 </li><li> **概述项目输出：**&#x200B;返回项目用途和状态的简短描述，给出已完成和仍在等待中的任务的示例，并提供一些其他详细信息和说明。</li><li> **生成/优化公式输入：**“重写此公式以删除无效的表达式错误。” </li><li> **生成/优化公式输出：**&#x200B;已生成或优化公式。 </li></ul>**注意：** AI Assistant可能需要一些时间来生成修订的公式，具体取决于公式的大小和复杂性。 | 否  |
 
