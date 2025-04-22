@@ -1,15 +1,15 @@
 ---
 title: Experience Cloud 应用程序中的 AI
-description: 了解Experience Cloud应用程序如何使用创作AI和AI Assistant。
+description: 了解创作AI以及Experience Cloud应用程序如何使用genAI和AI Assistant。
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
+source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1313'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,16 @@ ht-degree: 4%
 
 来自Experience League的产品知识响应是可验证的，并通过链接引用。 了解[基于对象的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)的类型，以充分利用AI Assistant。
 
+<!-- **Your data remains yours**
+
+In AI Assistant, security is the priority:
+
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company. -->
+
 ## 具有支持AI功能的应用程序
 
 * [GenStudio for Performance Marketing](#gspm)
@@ -52,7 +62,7 @@ ht-degree: 4%
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)不是功能，而是创作AI驱动的平台。 其创作AI功能可转变营销内容的创建、审阅、共享和分析方式。
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home)是一个创新型人工智能驱动平台，其功能可以改变营销内容的创建、审阅、共享和分析方式。
 
 在[创建](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)主页上，您可以创建高性能、按品牌显示的体验。 生成以下内容：
 
