@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
+source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 5%
+source-wordcount: '1109'
+ht-degree: 4%
 
 ---
 
@@ -47,20 +47,18 @@ In AI Assistant, security is the priority:
 了解在Experience Cloud产品中对generative AI或AI Assistant的支持，以及是否支持Adobe Firefly。
 
 * [GenStudio for Performance Marketing](#gspm)
-* [在AEM Sites (Cloud Service)中生成变体](#aem-sites)
+* [在Experience Manager Sites中生成变体](#aem-sites)
 * [Journey Optimizer 中的 AI 助手](#journey-optimizer)
-* [Adobe Journey Optimizer Prime和Ultimate](#ajo-prime-ultimate)
-* [Journey Optimizer B2B 版本](#ajo-b2b)
 * [Journey Optimizer Prime和Ultimate中的AI助手](#ajo-prime-ultimate)
 * [Journey Optimizer B2B edition中的AI助手](#ajo-b2b)
-* [Campaign Managed Cloud Services中的AI助手](#campaign-cs)
+* [Campaign v8 Web用户界面中的AI助手](#campaign-cs)
 * [Customer Journey Analytics的人工智能助手](#cja)
 * [Customer Journey Analytics中的智能字幕](#cja-captions)
 * [Real-Time CDP的人工智能助手](#rtcdp)
 * [Marketo中的Dynamic Chat](#marketo)
 * [Workfront的人工智能助手](#workfront)
 
-### GenStudio for Performance Marketing {#gspm}
+## GenStudio for Performance Marketing {#gspm}
 
 GenStudio for Performance Marketing是一个人工智能驱动的平台，它使您能够生成和管理符合您的品牌标准并符合企业政策的营销内容。 生成电子邮件、元广告、LinkedIn广告、展示广告和横幅的内容。
 
@@ -70,7 +68,7 @@ GenStudio for Performance Marketing是一个人工智能驱动的平台，它使
 
 与Adobe Firefly的兼容性：**计划**
 
-### 在Experience Manager Sites中生成变体 {#aem-sites}
+## 在Experience Manager Sites中生成变体 {#aem-sites}
 
 在AEM Sites中生成变体使用生成人工智能，根据提示创建内容变体。 这些提示由Adobe提供或由您创建和管理。
 
@@ -110,7 +108,7 @@ Journey Optimizer B2B edition使用AI Assistant帮助您了解产品知识。
 
 与Adobe Firefly的兼容性：**否**
 
-## Campaign Managed Cloud Services中的AI助手 {#campaign-cs}
+## Campaign v8 Web UI中的AI助手  {#campaign-cs}
 
 Campaign Managed Cloud Services使用AI Assistant进行内容加速器。 通过此功能，您可以根据营销目标自动生成个性化、引人入胜且有效的内容，其中内容针对品牌概述的样式、布局、色调等进行了优化。 您可以跨渠道（如电子邮件、短信和推送）使用它。
 
