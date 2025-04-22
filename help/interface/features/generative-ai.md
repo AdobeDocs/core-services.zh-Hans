@@ -1,34 +1,38 @@
 ---
 title: Experience Cloud 应用程序中的 AI
-description: 了解创作AI以及Experience Cloud应用程序如何使用genAI和AI Assistant。
+description: 了解创作AI以及Experience Cloud应用程序如何使用genAI和 [!DNL AI Assistant]。
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
+source-git-commit: 4676c606f132ab835e0d1f8cdbc81d932e358028
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 4%
+source-wordcount: '1041'
+ht-degree: 3%
 
 ---
 
 # Experience Cloud产品中的AI
 
-创新型人工智能是一种人工智能，其作用不仅仅是回答问题。 它&#x200B;_创建_&#x200B;内容，_对您的_&#x200B;提示&#x200B;_做出响应_（问题和语句）。
+本页可帮助您了解哪些产品支持创作AI [!DNL AI Assistant]，以及Adobe Firefly是否兼容。 您还可以找到指向产品特定帮助资源的链接，这些帮助资源介绍了如何在Experience Cloud中使用AI。
 
-* **创建：**&#x200B;参考AI根据其训练和输入提示从头开始生成新内容（文本、图像、音乐或视频）的能力。 此功能是创作AI的&#x200B;_创作_&#x200B;方面。
+**关于生成AI**
 
-* **响应：**&#x200B;指对特定提示提供答案或反应的AI，通常利用其知识或推理能力。
+创新型人工智能是一种人工智能，其作用不仅仅是回答问题。 它可以&#x200B;_创建_&#x200B;内容并&#x200B;_响应_&#x200B;您的问题或语句（称为&#x200B;_提示_）。
 
-如果您是Experience Cloud的新手，则可以使用创作AI快速获取产品知识。 作为经验丰富的用户，您可在几秒钟内发现运营见解，而不是几小时。
+* **创建：**&#x200B;人工智能根据其训练和输入提示从头开始生成新内容（文本、图像、音乐或视频）的能力。 此功能是创作AI的&#x200B;_创作_&#x200B;方面。
 
-**关于AI助手**
+* **响应：**&#x200B;人工智能正在提供提示的答案或响应，通常利用其知识或推理能力。
 
-AI Assistant是一种在Experience Platform和相关应用程序中支持的对话工具。 使用它可以加快您的工作流、改进您的产品知识、排查问题或搜索信息。 在某些应用程序中，AI Assistant可让您立即发现运营见解。
+利用创新型人工智能，如果您不熟悉Experience Cloud，则可以快速获取产品知识。 经验丰富的用户只需几秒钟即可获得运营洞察，而无需花费数小时。
 
-来自Experience League的产品知识响应是可验证的，并通过链接引用。 了解[基于对象的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)的类型，以充分利用AI Assistant。
+**是什么 [!DNL AI Assistant]？**
+
+[!DNL AI Assistant]是Experience Platform和相关应用程序中支持的对话工具。 这些应用程序使用它的方式类似，但具有特定于产品的优势。 使用它可以加快您的工作流、改进您的产品知识、排查问题或搜索信息。 在某些应用程序中，[!DNL AI Assistant]允许您立即发现运营见解。
+
+来自Experience League的产品知识响应是可验证的，并通过链接引用。 了解[基于目标的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)的类型，以充分利用[!DNL AI Assistant]。
 
 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -44,23 +48,23 @@ In AI Assistant, security is the priority:
 
 ## Experience Cloud产品中的AI可用性
 
-了解在Experience Cloud产品中对generative AI或AI Assistant的支持，以及是否支持Adobe Firefly。
+了解在Experience Cloud产品中支持创作AI或[!DNL AI Assistant]，以及是否支持Adobe Firefly。
 
-* [GenStudio for Performance Marketing](#gspm)
-* [在Experience Manager Sites中生成变体](#aem-sites)
-* [Journey Optimizer 中的 AI 助手](#journey-optimizer)
-* [Journey Optimizer Prime和Ultimate中的AI助手](#ajo-prime-ultimate)
-* [Journey Optimizer B2B edition中的AI助手](#ajo-b2b)
-* [Campaign v8 Web用户界面中的AI助手](#campaign-cs)
-* [Customer Journey Analytics的人工智能助手](#cja)
-* [Customer Journey Analytics中的智能字幕](#cja-captions)
-* [Real-Time CDP的人工智能助手](#rtcdp)
-* [Marketo中的Dynamic Chat](#marketo)
-* [Workfront的人工智能助手](#workfront)
+* [[!DNL GenStudio for Performance Marketing]](#gspm)
+* [在 [!DNL Experience Manager Sites]中生成变体](#aem-sites)
+* [[!DNL AI Assistant] in [!DNL Journey Optimizer]](#journey-optimizer)
+* [ [!DNL Journey Optimizer] Prime和Ultimate中的[!DNL AI Assistant]](#ajo-prime-ultimate)
+* [ [!DNL Journey Optimizer] B2B edition中的[!DNL AI Assistant]](#ajo-b2b)
+* [ [!DNL Campaign] v8 Web用户界面中的[!DNL AI Assistant]](#campaign-cs)
+* [[!DNL AI Assistant] in [!DNL Customer Journey Analytics]](#cja)
+* [ [!DNL Customer Journey Analytics]中的智能字幕](#cja-captions)
+* [[!DNL AI Assistant] in [!DNL Real-Time CDP]](#rtcdp)
+* [ [!DNL Marketo]中的Dynamic Chat](#marketo)
+* [[!DNL AI Assistant] in [!DNL Workfront]](#workfront)
 
 ## GenStudio for Performance Marketing {#gspm}
 
-GenStudio for Performance Marketing是一个人工智能驱动的平台，它使您能够生成和管理符合您的品牌标准并符合企业政策的营销内容。 生成电子邮件、元广告、LinkedIn广告、展示广告和横幅的内容。
+[!DNL GenStudio for Performance Marketing]是一个人工智能驱动的平台，它使您能够生成和管理符合您的品牌标准并符合企业政策的营销内容。 生成电子邮件、元广告、LinkedIn广告、展示广告和横幅的内容。
 
 您还可以使用示例、客户角色和产品的描述以及品牌指南对您的GenStudio for Performance Marketing进行品牌培训。
 
@@ -68,9 +72,9 @@ GenStudio for Performance Marketing是一个人工智能驱动的平台，它使
 
 与Adobe Firefly的兼容性：**计划**
 
-## 在Experience Manager Sites中生成变体 {#aem-sites}
+## 在[!DNL Experience Manager Sites]中生成变体 {#aem-sites}
 
-在AEM Sites中生成变体使用生成人工智能，根据提示创建内容变体。 这些提示由Adobe提供或由您创建和管理。
+AEM Sites中的[!UICONTROL 生成变体]使用生成AI根据提示创建内容变体。 这些提示由Adobe提供或由您创建和管理。
 
 创建变体后，您可以在网站上使用内容，并使用Edge Delivery Services中的试验功能衡量其成功与否。 您还可以选择使用Adobe Express的创作AI功能在Firefly中生成图像。
 
@@ -78,21 +82,21 @@ GenStudio for Performance Marketing是一个人工智能驱动的平台，它使
 
 与Adobe Firefly的兼容性： **是**
 
-## Journey Optimizer 中的 AI 助手 {#journey-optimizer}
+## [!DNL Journey Optimizer]中的AI助手 {#journey-optimizer}
 
-在Journey Optimizer中，使用AI Assistant获取产品知识和操作见解。 例如，询问&#x200B;_一个Journey Optimizer沙盒中可以有多少实时活动？_&#x200B;您将立即从Experience League和其他Adobe数据存储区获得答案。
+在[!DNL Journey Optimizer]中，使用[!DNL AI Assistant]获取产品知识和操作见解。 例如，询问&#x200B;_一个Journey Optimizer沙盒中可以有多少实时活动？_&#x200B;您将立即从Experience League和其他Adobe数据存储区获得答案。
 
-AI Assistant还可以帮助提供运营见解（测试版）。 例如，您可以快速了解过去七天内创建了多少历程。
+[!DNL AI Assistant]还可以帮助提供运营分析（测试版）。 例如，您可以快速了解过去七天内创建了多少历程。
 
-对于操作分析，AI Assistant查询特定于客户的数据存储。 数据存储包含有关[!UICONTROL 历程]的集中式操作数据。 此功能与客户无关，只能从业务对象中提取元数据。 它无法访问沙盒中的数据。
+对于运营分析，[!DNL AI Assistant]查询特定于客户的数据存储。 数据存储包含有关[!UICONTROL 历程]的集中式操作数据。 此功能与客户无关，只能从业务对象中提取元数据。 它无法访问沙盒中的数据。
 
 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)。
 
 与Adobe Firefly的兼容性：**否**
 
-## Journey Optimizer Prime和Ultimate中的AI助手 {#ajo-prime-ultimate}
+## [!DNL Journey Optimizer] Prime和Ultimate中的AI助手 {#ajo-prime-ultimate}
 
-Journey Optimizer Prime和Ultimate使用AI Assistant for Content Accelerator为文本和图像提供主动内容变体建议。
+[!DNL Journey Optimizer] Prime和Ultimate使用[!DNL AI Assistant] for Content Accelerator为文本和图像提供主动内容变体建议。
 
 此功能适用于电子邮件、推送通知、网页、内容和短信渠道。 它提供基于提示的文本和图像生成。 AJO Prime和Ultimate中的内容加速器输出不受影响。
 
@@ -100,17 +104,17 @@ Journey Optimizer Prime和Ultimate使用AI Assistant for Content Accelerator为�
 
 与Adobe Firefly的兼容性： **是**
 
-## Journey Optimizer B2B edition中的AI助手 {#ajo-b2b}
+## [!DNL Journey Optimizer B2B Edition]中的AI助手 {#ajo-b2b}
 
-Journey Optimizer B2B edition使用AI Assistant帮助您了解产品知识。
+Journey Optimizer B2B edition使用[!DNL AI Assistant]帮助您了解产品知识。
 
 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 与Adobe Firefly的兼容性：**否**
 
-## Campaign v8 Web UI中的AI助手  {#campaign-cs}
+## [!DNL Campaign] v8 Web UI中的AI助手 {#campaign-cs}
 
-Campaign Managed Cloud Services使用AI Assistant进行内容加速器。 通过此功能，您可以根据营销目标自动生成个性化、引人入胜且有效的内容，其中内容针对品牌概述的样式、布局、色调等进行了优化。 您可以跨渠道（如电子邮件、短信和推送）使用它。
+Campaign Managed Cloud Services使用[!DNL AI Assistant]作为内容加速器。 通过此功能，您可以根据营销目标自动生成个性化、引人入胜且有效的内容，其中内容针对品牌概述的样式、布局、色调等进行了优化。 您可以跨渠道（如电子邮件、短信和推送）使用它。
 
 **注意：**&#x200B;来自Campaign Managed Cloud Services中内容加速器的输出不受损害。
 
@@ -118,9 +122,9 @@ Campaign Managed Cloud Services使用AI Assistant进行内容加速器。 通过
 
 与Adobe Firefly的兼容性： **是**
 
-## Customer Journey Analytics的人工智能助手 {#cja}
+## [!DNL Customer Journey Analytics]中的AI助手 {#cja}
 
-Customer Journey Analytics使用AI Assistant帮助您从Experience League中发现产品知识和见解。 如果您是新用户，请快速了解Customer Journey Analytics概念并熟悉产品和功能。
+Customer Journey Analytics使用[!DNL AI Assistant]来帮助您从Experience League中发现产品知识和见解。 如果您是新用户，请快速了解Customer Journey Analytics概念并熟悉产品和功能。
 
 经验丰富的用户可获得高级用例或学习策略以快速执行任务。 了解概念、排查问题或搜索信息。
 
@@ -128,17 +132,17 @@ Customer Journey Analytics使用AI Assistant帮助您从Experience League中发�
 
 与Adobe Firefly的兼容性：**否**
 
-## Customer Journey Analytics中的智能字幕 {#cja-captions}
+## [!DNL Customer Journey Analytics]中的智能字幕 {#cja-captions}
 
-Customer Journey Analytics中的智能字幕为最常用的Workspace可视化图表提供自然语言见解。 智能字幕非常适合需要叙述和上下文以与其他用户共享的分析师。 企业用户可以利用它快速发现高级别的收获。
+[!DNL Customer Journey Analytics]中的智能字幕为最常用的Workspace可视化图表提供自然语言见解。 智能字幕非常适合需要叙述和上下文以与其他用户共享的分析师。 企业用户可以利用它快速发现高级别的收获。
 
 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 与Adobe Firefly的兼容性：**否**
 
-## Real-Time CDP的人工智能助手 {#rtcdp}
+## [!DNL Real-Time CDP]中的AI助手 {#rtcdp}
 
-Real-Time CDP使用AI Assistant帮助您了解Experience League提供的产品知识。 它还提供运营见解（测试版）。 AI Assistant查询特定于客户的运营分析数据存储，该存储包含在AEP沙盒中分区的集中运营数据。 系统仅从属性、受众、数据流、数据集、目标、架构和源中提取元数据，而不访问沙盒中的数据。
+Real-Time CDP使用[!DNL AI Assistant]帮助您了解Experience League的产品知识。 它还提供运营见解（测试版）。 [!DNL AI Assistant]查询特定于客户的操作分析数据存储区，其中包含在AEP沙盒中分区的集中化操作数据。 系统仅从属性、受众、数据流、数据集、目标、架构和源中提取元数据，而不访问沙盒中的数据。
 
 例如，如果您查询受众，[!DNL AI Assistant]可以访问受众的名称和其他关联的元数据，但无法访问该受众中的配置文件。
 
@@ -146,7 +150,7 @@ Real-Time CDP使用AI Assistant帮助您了解Experience League提供的产品�
 
 与Adobe Firefly的兼容性：**否**
 
-## Marketo中的Dynamic Chat {#marketo}
+## [!DNL Marketo]中的Dynamic Chat {#marketo}
 
 利用Adobe Dynamic Chat中由AI提供支持的创新型功能，您可以优化销售代理的生产力，获得有关网站访客意图的洞察，并以安全的方式响应访客问题。 您可以预批准问题、答案和对话摘要。
 
@@ -154,9 +158,9 @@ Real-Time CDP使用AI Assistant帮助您了解Experience League提供的产品�
 
 与Adobe Firefly的兼容性：**否**
 
-## Workfront的人工智能助手 {#workfront}
+## [!DNL Workfront]中的[!DNL AI Assistant] {#workfront}
 
-Workfront中的AI Assistant通过提供应用程序内信息和建议，帮助您完成工作。 您可以：
+[!DNL Workfront]中的[!DNL AI Assistant]通过提供应用程序内信息和建议帮助您完成工作。 您可以：
 
 * 获取某些对象的摘要，为您提供对象意图或详细信息的高级视图。
 * 提出问题并让[!DNL AI Assistant]在Experience League上查找答案。
