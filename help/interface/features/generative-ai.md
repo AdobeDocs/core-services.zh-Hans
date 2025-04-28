@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,13 @@ Customer Journey Analytics使用[!DNL AI Assistant]来帮助您从Experience Lea
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-[!DNL Customer Journey Analytics]中的智能字幕为最常用的Workspace可视化图表提供自然语言见解。 智能字幕非常适合需要叙述和上下文以与其他用户共享的分析师。 企业用户可以利用它快速发现高级别的收获。
+您可以在[!DNL Customer Journey Analytics]中使用&#x200B;_智能字幕_&#x200B;以获得最常用Workspace可视化图表的自然语言见解。 智能字幕非常适合需要叙述和上下文以与其他用户共享的分析师。 企业用户可以利用它快速发现高级别的收获。
+
+例如：
+
+* **输入：**&#x200B;在CJA中，运行支持的可视化图表（包括折线图、面积图、条形图、流量或流失），然后单击&#x200B;**[!UICONTROL 智能字幕]**。
+
+* **输出：**&#x200B;查看自动生成的自然语言字幕，其中显示上下文和键收藏。 然后，您可以对生成的数据执行一些操作，如查看、复制数据并与您的组织共享。 [查看方式](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
