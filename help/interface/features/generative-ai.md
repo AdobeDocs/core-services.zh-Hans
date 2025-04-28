@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1174'
 ht-degree: 3%
 
 ---
@@ -36,15 +36,16 @@ ht-degree: 3%
 
 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**您的数据仍属于您**
+<!-- **Your data remains yours**
 
-在AI Assistant中，安全是优先事项：
+In AI Assistant, security is the priority:
 
-* 客户数据不用于培训语言模型。
-* AI助手仅查看您指示的文档。 一切由您掌控。
-* 您的人员只能在他们能够访问的文档上使用AI助手。
-* 它可随时进行审核：响应可归因于源文档。
-* 企业控制可管理谁在公司中拥有人工智能访问权限。
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## Experience Cloud产品中的AI可用性
 
