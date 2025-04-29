@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
 
-# Experience Cloud产品中的AI
+# Experience Cloud产品中的创作AI
 
 本页可帮助您了解哪些产品支持创作AI [!DNL AI Assistant]，以及Adobe Firefly是否兼容。 您还可以找到指向有关如何在Experience Cloud应用程序中使用AI的信息的链接。
 
@@ -57,7 +57,6 @@ In AI Assistant, security is the priority:
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign]托管云服务](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ Adobe Firefly兼容性：**是**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics使用[!DNL AI Assistant]来帮助您从Experience League中发现产品知识和见解。
+Customer Journey Analytics提供了[!DNL AI Assistant]产品知识和见解，以及Workspace可视化图表中的[!UICONTROL 智能字幕]。
 
-如果您是新用户，请快速了解Customer Journey Analytics概念并熟悉产品和功能。 例如：
+**AI 助手**
+
+从Experience League中了解产品知识和见解。 如果您是新用户，请快速了解Customer Journey Analytics概念并熟悉产品和功能。 例如：
 
 * _如何在帐户历程中发送电子邮件？_
 
@@ -163,9 +164,7 @@ Customer Journey Analytics使用[!DNL AI Assistant]来帮助您从Experience Lea
 
 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Adobe Firefly兼容性：**否**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**智能字幕**
 
 您可以在[!DNL Customer Journey Analytics]中使用&#x200B;_智能字幕_&#x200B;以获得最常用Workspace可视化图表的自然语言见解。 智能字幕非常适合需要叙述和上下文以与其他用户共享的分析师。 企业用户可以利用它快速发现高级别的收获。
 
