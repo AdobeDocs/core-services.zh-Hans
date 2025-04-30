@@ -1,22 +1,22 @@
 ---
 title: Experience Cloud 应用程序中的 AI
-description: 了解创作AI以及Experience Cloud应用程序如何使用genAI和 [!DNL AI Assistant]。
+description: Learn about generative AI (GenAI) and how Experience Cloud applications use GenAI and [!DNL AI Assistant].
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1421'
 ht-degree: 3%
 
 ---
 
 # Experience Cloud产品中的创作AI
 
-本页可帮助您了解哪些产品支持创作AI [!DNL AI Assistant]，以及Adobe Firefly是否兼容。 您还可以找到指向有关如何在Experience Cloud应用程序中使用AI的信息的链接。
+本页可帮助您了解哪些产品支持创作AI (GenAI)、[!DNL AI Assistant]，以及Adobe Firefly是否兼容。 您还可以找到指向有关在Experience Cloud应用程序中使用AI的各种方式的信息链接。
 
 **关于生成AI**
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 * **Operational Insights：** [Operational Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 借助AI助手，您可以在几秒钟内完成操作，否则可能需要数小时或数天。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[了解AI助手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,7 +52,7 @@ In AI Assistant, security is the priority:
 了解以下Experience Cloud应用程序如何支持创作AI或[!DNL AI Assistant]。 此外，还指明了对Adobe Firefly的支持。
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign]托管云服务](#campaign-cs)
@@ -71,7 +71,11 @@ In AI Assistant, security is the priority:
 
 Adobe Firefly兼容性：**是**
 
-## Adobe [!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
+
+以下各节简要介绍AEM应用程序中的生成式AI。
+
+### Experience Manager Sites
 
 在AEM Sites中，您可以使用&#x200B;_[!UICONTROL 生成变体]_。 此功能使用创新型人工智能根据输入提示创建内容变体。 提示由Adobe提供或由您创建和管理。
 
@@ -93,28 +97,37 @@ Adobe Firefly兼容性：**是**
 
 [了解有关生成变体的详细信息](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
+
+[!UICONTROL 内容中心]作为[!DNL Experience Manager Assets as a Cloud Service]的一部分提供，用于使组织及其业务合作伙伴对品牌上内容的访问更民主。 它侧重于分发资产以供大规模激活，并创建品牌内内容变体以提高营销敏捷性。
+
+在Content Hub中，您可以使用Adobe Express创建内容(如果您拥有Adobe Express权限)。 您可以使用简单的工具编辑现有内容，使用模板和品牌元素生成品牌内变体，并使用[!DNL Adobe Firefly]中的最新GenAI功能创建内容。
+
+[了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+Adobe Firefly兼容性：**是**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
 在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)获得&#x200B;_产品知识_&#x200B;和&#x200B;_操作分析_ （测试版）。
 
-### 在AJO中使用AI助理的示例
+### 在AJO中使用AI Assistant的示例
 
-以下是产品知识的输入示例：
+以下是输入产品知识的示例：
 
-* _一个Journey Optimizer沙盒中可以有多少实时活动？_
+* _一个Journey Optimizer沙盒中可以有多少项实时活动？_
 
-  输出是从Experience League和其他Adobe数据存储生成的。
+  输出从Experience League和其他Adobe数据存储生成。
 
 以下是操作见解的输入示例：
 
-* _在过去七天中创建了多少历程？_
+* _最近七天创建了多少个旅程？_
 
-  对于输出，AI Assistant查询特定于客户的数据存储。 数据存储包含有关[!UICONTROL 历程]的集中式操作数据。 此功能与客户无关，只能从业务对象中提取元数据。 它无法访问沙盒中的数据。
+  对于输出，AI Assistant查询特定于客户的数据存储。 数据存储包含有关[!UICONTROL 旅程]的集中运营数据。 此功能与客户无关，仅从业务对象提取元数据。 它无法访问您沙箱中的数据。
 
 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)。
 
-Adobe Firefly兼容性：**否**
+Adobe Firefly兼容性： **否**
 
 ### 用于内容生成的AI助手(AJO Prime和Ultimate) {#ajo-prime}
 
@@ -152,7 +165,11 @@ Adobe Firefly兼容性：**是**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics提供了[!DNL AI Assistant]产品知识和见解，以及Workspace可视化图表中的[!UICONTROL 智能字幕]。
+Customer Journey Analytics lets you use generative AI in the following ways:
+
+* [!DNL AI Assistant]产品知识和见解
+* Workspace可视化图表中的[!UICONTROL 智能字幕]
+* AI和GenAI自动分配[!DNL Content Analytics]中的每个资源元数据
 
 **AI 助手**
 
@@ -176,11 +193,17 @@ Customer Journey Analytics提供了[!DNL AI Assistant]产品知识和见解，�
 
 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
+**Content Analytics**
+
+Content Analytics使用AI和GenAI自动分配每个资源元数据，例如主题、场景、前景色等。 属性是人工智能分配的元数据标记，用于描述资源或体验中的内容。
+
+例如：前台`color: red`是自动分配的属性。 可视化图表可帮助您识别哪些资产的属性对转化贡献最大。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+
 Adobe Firefly兼容性：**否**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
-Real-Time CDP使用[!DNL AI Assistant]帮助您了解Experience League的产品知识。 它还提供运营见解（测试版）。 [!DNL AI Assistant]查询特定于客户的操作分析数据存储区，其中包含在AEP沙盒中分区的集中化操作数据。 系统仅从属性、受众、数据流、数据集、目标、架构和源中提取元数据，而不访问沙盒中的数据。
+Real-Time CDP使用[!DNL AI Assistant]帮助您了解Experience League的产品知识。 它还提供运营见解（测试版）。 [!DNL AI Assistant]查询特定于客户的operational insights数据存储，该存储包含已在AEP沙盒中分区的集中化操作数据。 系统仅从属性、访问群体、数据流、数据集、目标、架构和源中提取元数据，并且不访问沙盒中的数据。
 
 例如，如果您查询受众，[!DNL AI Assistant]可以访问受众的名称和其他关联的元数据，但无法访问该受众中的配置文件。
 
@@ -190,11 +213,26 @@ Adobe Firefly兼容性：**否**
 
 ## [!DNL Marketo] {#marketo}
 
-利用Adobe Dynamic Chat中由AI提供支持的创新型功能，您可以优化销售代理的生产力，获得有关网站访客意图的洞察，并以安全的方式响应访客问题。 您可以预批准问题、答案和对话摘要。
+在Marketo中，创作AI在交互式网络研讨会和Dynamic Chat中提供。
+
+**交互式网络研讨会**
+
+自动为录制的网络研讨会生成章节和摘要，让观众更容易访问它们并轻松导航。 功能包括：
+
+* 章节自动生成
+* AI生成的文本摘要
+* 可编辑内容 — 修改生成的章节和摘要
+* 轻松集成 — 通过将HTML代码复制到您选择的网页编辑器，将章节和摘要添加到您的登陆页面
+
+[了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
+
+Adobe Dynamic Chat中的生成式AI支持功能允许您优化销售客服专员的工作效率，深入了解网站访客意图，并以安全的方式回应访客问题。 您可以预先批准问题、回答和对话摘要。
 
 [了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
-Adobe Firefly兼容性：**否**
+Adobe Firefly兼容性： **否**
 
 ## [!DNL Workfront] {#workfront}
 
@@ -207,4 +245,4 @@ Adobe Firefly兼容性：**否**
 
 [了解详情](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-Adobe Firefly兼容性：**否**
+Adobe Firefly兼容性： **否**
