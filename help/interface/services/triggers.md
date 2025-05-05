@@ -31,7 +31,7 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
 
 >[!NOTE]
 >
->有关使用[!UICONTROL 触发器]的更多信息，请访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
+>有关使用[!UICONTROL 触发器]的更多信息，请访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
 
 ### 触发器类型
 
@@ -69,7 +69,7 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
    {style="table-layout:auto"}
 
 5. 单击&#x200B;**[!UICONTROL 保存]**。
-6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
+6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。
 
 ### 触发器示例
 

@@ -79,9 +79,9 @@ ht-degree: 77%
 
      别名 ID 对应于您在其中设置其他客户 ID 值的某些区域。例如：
 
-      * **标记：**&#x200B;别名ID对应于[Experience CloudID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[Experience CloudID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+      * **访客 API：**&#x200B;别名 ID 对应于您可以与每个访客关联的其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -164,4 +164,4 @@ ht-degree: 77%
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
+请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。

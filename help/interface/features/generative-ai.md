@@ -32,9 +32,9 @@ ht-degree: 3%
 
 * **产品知识：**&#x200B;产品知识是指以Experience League文档为基础的概念和主题。 了解如何创建有效的[基于目标的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)，以充分利用[!DNL AI Assistant]。 来自Experience League的所有响应均可验证并带有链接引用。
 
-* **Operational Insights：** [Operational Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 借助AI助手，您可以在几秒钟内完成操作，否则可能需要数小时或数天。
+* **Operational Insights：** [Operational Insights](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/questions#objects-questions)指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 借助AI助手，您可以在几秒钟内完成操作，否则可能需要数小时或数天。
 
-[了解AI助手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[了解AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -95,7 +95,7 @@ Adobe Firefly兼容性：**是**
 
 Adobe Firefly兼容性：**是**
 
-[了解有关生成变体的详细信息](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[了解有关生成变体的详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Experience Manager Assets
 
@@ -103,13 +103,13 @@ Adobe Firefly兼容性：**是**
 
 在Content Hub中，您可以使用Adobe Express创建内容(如果您拥有Adobe Express权限)。 您可以使用简单的工具编辑现有内容，使用模板和品牌元素生成品牌内变体，并使用[!DNL Adobe Firefly]中的最新GenAI功能创建内容。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 Adobe Firefly兼容性：**是**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)获得&#x200B;_产品知识_&#x200B;和&#x200B;_操作分析_ （测试版）。
+在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-assistant)获得&#x200B;_产品知识_&#x200B;和&#x200B;_操作分析_ （测试版）。
 
 ### 在AJO中使用AI Assistant的示例
 
@@ -125,17 +125,17 @@ Adobe Firefly兼容性：**是**
 
   对于输出，AI Assistant查询特定于客户的数据存储。 数据存储包含有关[!UICONTROL 旅程]的集中运营数据。 此功能与客户无关，仅从业务对象提取元数据。 它无法访问您沙箱中的数据。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)。
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-assistant)。
 
 Adobe Firefly兼容性： **否**
 
 ### 用于内容生成的AI助手(AJO Prime和Ultimate) {#ajo-prime}
 
-在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[内容生成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)来生成内容，以便为文本和图像提供主动内容变体建议。
+在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[内容生成](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)来生成内容，以便为文本和图像提供主动内容变体建议。
 
 此功能适用于电子邮件、推送通知、网页、内容和短信渠道。 它提供基于提示的文本和图像生成。 AJO Prime和Ultimate中内容生成的输出不会受到任何影响。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 Adobe Firefly兼容性：**是**
 
@@ -149,7 +149,7 @@ Journey Optimizer B2B edition使用[!DNL AI Assistant]帮助您了解产品知�
 
   产品知识输出是从Experience League中提取的。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 Adobe Firefly兼容性：**否**
 
@@ -159,7 +159,7 @@ Campaign Managed Cloud Services使用[!DNL AI Assistant]生成内容。 通过�
 
 **注意：** Campaign Managed Cloud Services中内容生成的输出不受损害。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 Adobe Firefly兼容性：**是**
 
@@ -179,7 +179,7 @@ Customer Journey Analytics lets you use generative AI in the following ways:
 
 经验丰富的用户可获得高级用例或学习策略以快速执行任务。 您可以快速了解概念、排除问题或搜索信息。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **智能字幕**
 
@@ -191,13 +191,13 @@ Customer Journey Analytics lets you use generative AI in the following ways:
 
 * **输出：**&#x200B;查看自动生成的自然语言字幕，其中显示上下文和键收藏。 然后，您可以对生成的数据执行一些操作，如查看、复制数据并与您的组织共享。 [查看方式](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analytics使用AI和GenAI自动分配每个资源元数据，例如主题、场景、前景色等。 属性是人工智能分配的元数据标记，用于描述资源或体验中的内容。
 
-例如：前台`color: red`是自动分配的属性。 可视化图表可帮助您识别哪些资产的属性对转化贡献最大。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+例如：前台`color: red`是自动分配的属性。 可视化图表可帮助您识别哪些资产的属性对转化贡献最大。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/report#template)
 
 Adobe Firefly兼容性：**否**
 
@@ -224,13 +224,13 @@ Adobe Firefly兼容性：**否**
 * 可编辑内容 — 修改生成的章节和摘要
 * 轻松集成 — 通过将HTML代码复制到您选择的网页编辑器，将章节和摘要添加到您的登陆页面
 
-[了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 Adobe Dynamic Chat中的生成式AI支持功能允许您优化销售客服专员的工作效率，深入了解网站访客意图，并以安全的方式回应访客问题。 您可以预先批准问题、回答和对话摘要。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 Adobe Firefly兼容性： **否**
 
@@ -243,6 +243,6 @@ Adobe Firefly兼容性： **否**
 * 根据提示获取生成的公式。 您还可以解决计算字段中的无效自定义表达式中的错误。
 * 查找项目、任务和问题。
 
-[了解详情](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[了解详情](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
 Adobe Firefly兼容性： **否**

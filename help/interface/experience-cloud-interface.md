@@ -80,7 +80,7 @@ Experience Cloud 支持每个用户的首选语言，如您的 Adobe 用户帐�
 
 ## Experience Cloud 中的搜索和支持 {#search-support}
 
-利用 Experience Cloud 搜索功能，您可以搜索关于 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 的帮助（文档、教程和课程）。
+利用 Experience Cloud 搜索功能，您可以搜索关于 [Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home) 的帮助（文档、教程和课程）。
 
 ![Experience Cloud 中的搜索和支持](assets/search-menu.png)
 

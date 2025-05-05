@@ -32,4 +32,4 @@ ht-degree: 75%
 
 在 [!DNL Adobe Target] 中创建活动时，您可以在[!UICONTROL 选件库]中交换图像时使用共享的图像资产。
 
-请参阅 [!DNL Target] 帮助中的[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)。
+请参阅 [!DNL Target] 帮助中的[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)。

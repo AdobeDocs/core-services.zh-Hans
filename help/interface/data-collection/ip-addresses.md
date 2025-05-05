@@ -19,9 +19,9 @@ ht-degree: 11%
 
 除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用他们自己的IP地址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
 ## 所有AdobeIP地址块
 

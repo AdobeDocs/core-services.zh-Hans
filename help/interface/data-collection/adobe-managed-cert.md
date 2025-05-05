@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 在验证证书是否正确工作后，您可以更新Adobe实施以使用这些值。
 
-* 对于Adobe AnalyticsAppMeasurement实施，请更新[`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver)配置变量。 如果您已有实施，请参阅[访客迁移](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration)，以了解有关如何防止将现有访客计为新访客的其他步骤。
-* 对于Web SDK实施，更新[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)属性。
+* 对于Adobe AnalyticsAppMeasurement实施，请更新[`trackingServer`](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/config-vars/trackingserver)配置变量。 如果您已有实施，请参阅[访客迁移](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/visitor-migration)，以了解有关如何防止将现有访客计为新访客的其他步骤。
+* 对于Web SDK实施，更新[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)属性。
 
 ## 维护和续订
 

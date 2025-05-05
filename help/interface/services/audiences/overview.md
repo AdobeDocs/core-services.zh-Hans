@@ -42,9 +42,9 @@ ht-degree: 94%
 | 解决方案 | 描述 |
 |--- |--- |
 | Experience Cloud 受众 | 使用受众库在本地创建、管理和共享受众。 您可以：<ul><li>通过原始 Analytics 属性使用实时受众</li><li>合并受众以创建复合受众，从而将实时数据和历史数据联合起来</li><li>查看估计的受众量的图形视图</li></ul><br>有关要创建哪种受众类型的建议，请参阅[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)。 |
-| Analytics | 在分段中，您可以生成区段，将其与报表包组合，然后将该区段发布到 Experience Cloud。发布区段会将该区段显示在 Experience Cloud 的 [!DNL Audience Library] 页面上。（有关详细信息，请参阅 [!DNL Analytics] 帮助中的[将区段发布到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。）该受众还会作为目标受众在以下两个位置可用：[!DNL Adobe Target] 提供的营销活动体验中，以及在 [!DNL Audience Manager] 中。在您通过 [!DNL Adobe Analytics] 共享受众，并选择在有效营销活动中使用之后，过去 90 天之内符合区段定义标准的访客个人资料将会被发送到[!UICONTROL 受众服务。]共享受众数量的限制已增加到 75 个。从 [!DNL Analytics] 共享到 Experience Cloud 的受众数量不能超过 2000 万个独特成员。此外，由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。 |
+| Analytics | 在分段中，您可以生成区段，将其与报表包组合，然后将该区段发布到 Experience Cloud。发布区段会将该区段显示在 Experience Cloud 的 [!DNL Audience Library] 页面上。（有关详细信息，请参阅 [!DNL Analytics] 帮助中的[将区段发布到 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)。）该受众还会作为目标受众在以下两个位置可用：[!DNL Adobe Target] 提供的营销活动体验中，以及在 [!DNL Audience Manager] 中。在您通过 [!DNL Adobe Analytics] 共享受众，并选择在有效营销活动中使用之后，过去 90 天之内符合区段定义标准的访客个人资料将会被发送到[!UICONTROL 受众服务。]共享受众数量的限制已增加到 75 个。从 [!DNL Analytics] 共享到 Experience Cloud 的受众数量不能超过 2000 万个独特成员。此外，由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。 |
 | Mobile Services | 使用[!UICONTROL 设备类型]报表中的旭日可视化图表分析移动流量。 |
-| [!DNL Target] | 利用 [ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)将访客 ID 和数据统一到单个可操作的个人资料中，以供在应用程序间使用。在 Adobe Analytics 的区段创建过程中显示的[!UICONTROL 发布到 Experience Cloud] 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 [!DNL Analytics] 或 [!DNL Audience Manager] 中创建的区段可用于 [!DNL Target] 中的活动。例如，您可以根据 [!DNL Analytics] 转化量度和在 [!DNL Analytics] 中创建的受众区段，来创建营销活动。 |
+| [!DNL Target] | 利用 [ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)将访客 ID 和数据统一到单个可操作的个人资料中，以供在应用程序间使用。在 Adobe Analytics 的区段创建过程中显示的[!UICONTROL 发布到 Experience Cloud] 复选框，允许该区段在 Adobe Target 的自定义受众库中可用。在 [!DNL Analytics] 或 [!DNL Audience Manager] 中创建的区段可用于 [!DNL Target] 中的活动。例如，您可以根据 [!DNL Analytics] 转化量度和在 [!DNL Analytics] 中创建的受众区段，来创建营销活动。 |
 | [!DNL Audience Manager] | 共享受众在 [!DNL Audience Manager] 分段中可用。所有 Experience Cloud 受众均可在 [!DNL Audience Manager] 本地使用，其中提供了以下功能：<ul><li>关于如何在应用程序工作流程中共享和使用受众的内置自动化功能</li><li>非现场目标</li><li>相似建模</li></ul> |
 | Campaign | <ul><li>将从不同 Adobe Experience Cloud 应用程序共享的受众导入到 Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可在您使用的其他 Adobe Experience Cloud 应用程序中使用。</li></ul> |
 | Advertising Cloud | 将受众用作目标。 |
@@ -77,4 +77,4 @@ ht-degree: 94%
 
 ## 来自Adobe Analytics的Publish受众
 
-有关详细信息，请参阅Publish文档中的[要Experience Cloud的Adobe Analytics区段](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。
+有关详细信息，请参阅Publish文档中的[要Experience Cloud的Adobe Analytics区段](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。

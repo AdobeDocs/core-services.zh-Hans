@@ -34,4 +34,4 @@ Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟�
 
 ## 插件设置的 Cookie
 
-某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
+某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/plugins/impl-plugins)。
