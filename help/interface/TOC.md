@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 界面和管理
 title: Experience Cloud 界面和管理
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
-source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 + 服务 {#services}
    + [概述](services/overview.md)
    + [快速入门](services/getting-started.md)
-   + 资源 {#assets}
+   + 资产 {#assets}
       + [概述](services/assets/experience-cloud-assets.md)
       + [与 Creative Cloud 共享文件夹和资源](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 用户](services/assets/manage-cc-users.md)
@@ -28,7 +28,7 @@ ht-degree: 100%
       + [将资源上传到共享文件夹](services/assets/upload.md)
       + [针对共享的资源文件要求](services/assets/file-reqs.md)
       + [共享文件夹的行为](services/assets/behavior.md)
-   + 受众库{#audiences}
+   + 受众库 {#audiences}
       + [概述](services/audiences/overview.md)
       + [创建受众](services/audiences/create.md)
    + [交换](services/exchange.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
    + [地区数据收集](data-collection/rdc.md)
    + [使用 DNS 预取](data-collection/dns-prefetch.md)
 
-+ 更多资源 {#more-resources}
++ 发行说明和资源 {#more-resources}
    + [发行说明](more-resources/release-notes.md)
    + [文档更新](more-resources/doc-updates.md)
    + [常见问题解答](more-resources/faq.md)
