@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
+source-git-commit: 73ae5b86dd0309974b607e93e8cf93dcdfcc40c7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1428'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 **关于生成AI**
 
-创新型人工智能是一种人工智能，其作用不仅仅是回答问题。 它可以&#x200B;_创建_&#x200B;内容并&#x200B;_生成对您的问题或语句（称为_&#x200B;提示&#x200B;_）的响应_。
+创作AI是一种AI，可创建原始内容，例如文本、图像、视频、音频或软件代码，以响应用户的提示或请求。
 
 * **创建：**&#x200B;根据培训和输入提示从头开始生成内容（文本、图像、音乐或视频）的功能。 此功能是创作AI的&#x200B;_创作_&#x200B;方面。
 
@@ -32,22 +32,33 @@ ht-degree: 3%
 
 * **产品知识：**&#x200B;产品知识是指以Experience League文档为基础的概念和主题。 了解如何创建有效的[基于目标的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)，以充分利用[!DNL AI Assistant]。 来自Experience League的所有响应均可验证并带有链接引用。
 
-* **Operational Insights：** [Operational Insights](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/questions#objects-questions)指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 借助AI助手，您可以在几秒钟内完成操作，否则可能需要数小时或数天。
+* **Operational Insights：** [Operational Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 借助AI助手，您可以在几秒钟内完成操作，否则可能需要数小时或数天。
 
-[了解AI助手](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/landing)
+[了解AI助手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-<!-- **Your data remains yours**
+<!--## Adobe Marketing Agent for Microsoft 365 Copilot 
 
-In AI Assistant, security is the priority:
+The Adobe Marketing Agent for Microsoft 365 Copilot is a generative AI-powered assistant designed to enhance marketing workflows by integrating Adobe's marketing capabilities directly into Microsoft 365 applications such as Word, PowerPoint, Teams, and Outlook. This collaboration between Adobe and Microsoft aims to streamline marketing processes, allowing marketers to access insights and tools within their existing work environments.
+Adobe for Business
 
-* Customer data is not used to train language models.
-* AI Assistant looks at only the documents that you tell it to. You are in control.
-* Your people can use AI Assistant only on documents they can access.
-* It's audit-ready: Responses are attributable to source documents.
-* Enterprise controls are in place to manage who has AI access in the company.
+Key features and capabilities:
+
+**Audience Refinement:** Marketers can use natural language prompts within Microsoft 365 to access data and insights from Adobe Experience Platform, enabling quick audience analysis and segmentation for personalized campaigns. 
+
+**Insight Discovery:** The agent can retrieve meaningful insights from Adobe Customer Journey Analytics, facilitating the creation of campaign performance reports directly within Microsoft apps, thus supporting informed decision-making. 
+
+**Content Creation:** Through integration with Adobe Express, users can generate high-quality images and assets within Microsoft 365 applications, aiding in the development of presentations, documents, and social media content. 
+Adobe Newsroom
+
+**Workflow Optimization:** The agent can automate tasks in Adobe Workfront, manage content approvals, and provide real-time alerts in Microsoft Teams based on analytics data, enhancing operational efficiency. 
+
+**Campaign Performance Monitoring:** Users can query the agent for campaign performance metrics, which can be visualized and incorporated into PowerPoint presentations for easy sharing and analysis. 
+Adobe for Business
+
+Currently in private preview, the Adobe Marketing Agent for Microsoft 365 Copilot is expected to be generally available later in 2025. This integration represents a significant step in unifying marketing tools and data, aiming to improve productivity and collaboration for marketing teams.
  -->
 
-## Experience Cloud产品中的AI可用性
+## Experience Cloud产品中的GenAI可用性
 
 了解以下Experience Cloud应用程序如何支持创作AI或[!DNL AI Assistant]。 此外，还指明了对Adobe Firefly的支持。
 
@@ -95,7 +106,7 @@ Adobe Firefly兼容性：**是**
 
 Adobe Firefly兼容性：**是**
 
-[了解有关生成变体的详细信息](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[了解有关生成变体的详细信息](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Experience Manager Assets
 
@@ -103,13 +114,13 @@ Adobe Firefly兼容性：**是**
 
 在Content Hub中，您可以使用Adobe Express创建内容(如果您拥有Adobe Express权限)。 您可以使用简单的工具编辑现有内容，使用模板和品牌元素生成品牌内变体，并使用[!DNL Adobe Firefly]中的最新GenAI功能创建内容。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+[了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 Adobe Firefly兼容性：**是**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助手](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-assistant)获得&#x200B;_产品知识_&#x200B;和&#x200B;_操作分析_ （测试版）。
+在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助手](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)获得&#x200B;_产品知识_&#x200B;和&#x200B;_操作分析_ （测试版）。
 
 ### 在AJO中使用AI助理的示例
 
@@ -125,17 +136,17 @@ Adobe Firefly兼容性：**是**
 
   对于输出，AI Assistant查询特定于客户的数据存储。 数据存储包含有关[!UICONTROL 历程]的集中式操作数据。 此功能与客户无关，只能从业务对象中提取元数据。 它无法访问沙盒中的数据。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-assistant)。
+[了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)。
 
 Adobe Firefly兼容性：**否**
 
 ### 用于内容生成的AI助手(AJO Prime和Ultimate) {#ajo-prime}
 
-在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[内容生成](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)来生成内容，以便为文本和图像提供主动内容变体建议。
+在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[内容生成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)来生成内容，以便为文本和图像提供主动内容变体建议。
 
 此功能适用于电子邮件、推送通知、网页、内容和短信渠道。 它提供基于提示的文本和图像生成。 AJO Prime和Ultimate中内容生成的输出不会受到任何影响。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
+[了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 Adobe Firefly兼容性：**是**
 
@@ -149,7 +160,7 @@ Journey Optimizer B2B edition使用[!DNL AI Assistant]帮助您了解产品知�
 
   产品知识输出是从Experience League中提取的。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
+[了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 Adobe Firefly兼容性：**否**
 
@@ -159,7 +170,7 @@ Campaign Managed Cloud Services使用[!DNL AI Assistant]生成内容。 通过�
 
 **注意：** Campaign Managed Cloud Services中内容生成的输出不受损害。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+[了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 Adobe Firefly兼容性：**是**
 
@@ -179,7 +190,7 @@ Adobe Firefly兼容性：**是**
 
 经验丰富的用户可获得高级用例或学习策略以快速执行任务。 您可以快速了解概念、排除问题或搜索信息。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **智能字幕**
 
@@ -189,15 +200,15 @@ Adobe Firefly兼容性：**是**
 
 * **输入：**&#x200B;在CJA中，运行支持的可视化图表（包括折线图、面积图、条形图、流量图或流失图），然后单击&#x200B;**[!UICONTROL 智能字幕]**。
 
-* **输出：**&#x200B;查看自动生成的自然语言字幕，其中显示上下文和键收藏。 然后，您可以对生成的数据执行一些操作，如查看、复制数据并与您的组织共享。 [查看方式](https://video.tv.adobe.com/v/3443148/?quality=12&learn=on#_blank&captions=chi_hans)
+* **输出：**&#x200B;查看自动生成的自然语言字幕，其中显示上下文和键收藏。 然后，您可以对生成的数据执行一些操作，如查看、复制数据并与您的组织共享。 [查看方式](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analytics使用AI和GenAI自动分配每个资源元数据，例如主题、场景、前景色等。 属性是人工智能分配的元数据标记，用于描述资源或体验中的内容。
 
-例如：前台`color: red`是自动分配的属性。 可视化图表可帮助您识别哪些资产的属性对转化贡献最大。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/report#template)
+例如：前台`color: red`是自动分配的属性。 可视化图表可帮助您识别哪些资产的属性对转化贡献最大。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
 
 Adobe Firefly兼容性：**否**
 
@@ -224,13 +235,13 @@ Adobe Firefly兼容性：**否**
 * 可编辑内容 — 修改生成的章节和摘要
 * 轻松集成 — 通过将HTML代码复制到您选择的网页编辑器，将章节和摘要添加到您的登陆页面
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 利用Adobe Dynamic Chat中由AI提供支持的创新型功能，您可以优化销售代理的生产力，获得有关网站访客意图的洞察，并以安全的方式响应访客问题。 您可以预批准问题、答案和对话摘要。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+[了解详情](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 Adobe Firefly兼容性：**否**
 
@@ -243,6 +254,10 @@ Adobe Firefly兼容性：**否**
 * 根据提示获取生成的公式。 您还可以解决计算字段中的无效自定义表达式中的错误。
 * 查找项目、任务和问题。
 
-[了解详情](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[了解详情](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
 Adobe Firefly兼容性：**否**
+
+## 其他资源
+
+* [信任中心上负责的AI资源](https://www.adobe.com/trust/responsible-ai.html)
