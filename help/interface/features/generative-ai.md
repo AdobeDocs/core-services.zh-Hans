@@ -44,7 +44,7 @@ Experience Cloud中的Generative AI (genAI)可帮助您自动执行创意和认�
 
 以下Experience Cloud应用程序支持创作AI或[!UICONTROL AI助手]。 还根据产品指明了对Adobe Firefly的支持。
 
-更新日期： 2025年6月5日&#x200B;****
+更新日期： 2025年6月5日&#x200B;**&#x200B;**
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager]](#aem)
