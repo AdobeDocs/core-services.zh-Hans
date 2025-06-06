@@ -44,7 +44,7 @@ AI助手还包含受支持的应用程序中的对话代理AI功能（称为&#x2
 
 以下Experience Cloud应用程序支持创作AI或[!UICONTROL AI助手]。 还根据产品指明了对Adobe Firefly的支持。
 
-更新日期： 2025年6月6日&#x200B;****
+更新日期： 2025年6月6日&#x200B;**&#x200B;**
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager]](#aem)
