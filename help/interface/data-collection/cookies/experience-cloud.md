@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
+source-git-commit: 2073400a04933226bd036c1fcd729df70f101df3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>2年，但大多数现代浏览器缩短为13个月</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用情况 </p> </td> 
@@ -58,9 +58,9 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[Experience Platform ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
+[Experience Platform ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
 
-另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
