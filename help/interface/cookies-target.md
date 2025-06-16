@@ -23,7 +23,7 @@ ht-degree: 8%
 >
 >本文中的信息仅适用于[[!DNL Target] at.js JavaScript库](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 >
->有关在使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}的[!DNL Target]实施中使用的Cookie的信息，请参阅“[!DNL Adobe Experience Platform Web SDK]是否使用Cookie？ 如果是这样，它使用哪些Cookie？” 在[DNL Platform Web SDK概述指南的常见问题解答中](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}。
+>有关在使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}的[!DNL Target]实施中使用的Cookie的信息，请参阅“[!DNL Adobe Experience Platform Web SDK]是否使用Cookie？ 如果是这样，它使用哪些Cookie？” 在[[!DNL Platform Web SDK概述指南的常见问题解答中]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}。
 >
 >如果需要，您可以更改本文中讨论的设置，但Cookie持续时间除外。 更改Cookie设置时，[请咨询您的客户代表](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}。
 >
