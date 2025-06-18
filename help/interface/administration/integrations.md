@@ -159,4 +159,4 @@ ID服务提供一个通用、永久性的ID，后者在Experience Cloud的所有
 
 **Experience Cloud 资产：**（具有显示管理需求的广告商）您可以通过新的显示测试版视图，将任何 Adobe Experience Cloud 资产用作显示广告的创意。您必须通过Adobe Experience Cloud [登录Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)才能访问您的Adobe Experience Cloud资源。 有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
 
-**Experience Cloud 通知：**&#x200B;通过每页顶部的通知链接，您可以查看基于搜索测试版警报模板生成的所有警报。您还可以获取有关 Experience Cloud 系统更新、帖子、提及次数和共享资源的通知。您必须通过Adobe Experience Cloud ](https://enterprise.efrontier.com/CMDashboard)登录Adobe Advertising才能访问通知。 [有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。
+**Experience Cloud 通知：**&#x200B;通过每页顶部的通知链接，您可以查看基于搜索测试版警报模板生成的所有警报。您还可以获取有关 Experience Cloud 系统更新、帖子、提及次数和共享资源的通知。您必须通过Adobe Experience Cloud [&#128279;](https://enterprise.efrontier.com/CMDashboard)登录Adobe Advertising才能访问通知。 有关访问 Adobe Experience Cloud 的信息，请与您的客户经理联系。

@@ -34,7 +34,7 @@ ht-degree: 72%
 
 * **[!UICONTROL 查看/编辑架构：]**&#x200B;将显示名称映射到属性数据，如下一步骤中所述。
 
-* **[!UICONTROL FTP 设置：]**[通过 FTP 上传数据](t-upload-attributes-ftp.md)。
+* **[!UICONTROL FTP 设置：]**&#x200B;[通过 FTP 上传数据](t-upload-attributes-ftp.md)。
 
 * **[!UICONTROL ID查找：]**&#x200B;输入您`.csv`中的客户ID (CID)以查找该ID的Experience Cloud信息。 此功能可用于解决为何属性数据不对访客显示的问题：
 

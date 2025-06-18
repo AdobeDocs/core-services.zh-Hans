@@ -103,7 +103,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多个文件 </p> </td> 
-   <td colname="col2"> <p>上传客户属性数据时，如果您要快速且连续上传多个文件，尤其是文件较大时，请确保在上一个文件处理完成之后再上传下一个文件。您可以通过查看上一个文件被移动到[！UICONTROL客户属性] FTP帐户中已处理或失败文件夹中的时间来监控上传情况。 </p> <p> 如果将大文件分成较小的文件，并连续快速提交这些文件，实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前已完成处理每个文件。 </p> </td> 
+   <td colname="col2"> <p>上传客户属性数据时，如果您要快速且连续上传多个文件，尤其是文件较大时，请确保在上一个文件处理完成之后再上传下一个文件。您可以通过查看上一个文件被移动到[!UICONTROL 客户属性] FTP帐户中已处理或失败文件夹中的时间来监控上传情况。 </p> <p> 如果将大文件分成较小的文件，并连续快速提交这些文件，实际上可能会减慢处理速度，除非您可以确保在提交下一个文件之前已完成处理每个文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符编码 </p> </td> 
@@ -111,7 +111,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
-   <td colname="col2"> <p> 客户属性与[!DNL Analytics]中的基础访客配置文件关联。 因此，在[!DNL Analytics]中，[！UICONTROL客户属性]在访客配置文件的整个生命周期内都与该访客相关联。 该轮廓包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> <p> 请注意，从2022年10月开始，Data Warehouse回填方法将不再可用。 </td> 
+   <td colname="col2"> <p> 客户属性与[!DNL Analytics]中的基础访客配置文件关联。 因此，在[!DNL Analytics]中，[!UICONTROL 客户属性]在访客配置文件的整个生命周期内都与该访客相关联。 该轮廓包括客户首次登录之前发生的行为。 </p> <p> 如果使用的是 Data Warehouse 回填方法，则数据将绑定到基于 Analytics ID (AID) 的 post_visid_high/low。如果使用的是 Experience Cloud ID 服务，则数据将绑定到基于 Experience Cloud ID (MID) 的 post_visid_high/low。 </p> <p> 请注意，从2022年10月开始，Data Warehouse回填方法将不再可用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>数据馈送 </p> </td> 
