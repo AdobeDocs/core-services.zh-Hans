@@ -59,7 +59,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户ID列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，设置customerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此ID是在人员登录时使用<span class="codeph"> setcustomerIDs </span>调用设置的。 在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过setcustomerID）。 CRM 文件将应用于该数据存储中的数据。 </p> <p>有关<span class="codeph"> setcustomerID </span>的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户ID和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，设置customerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此ID是在人员登录时使用<span class="codeph"> setcustomerIDs </span>调用设置的。 在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过setcustomerID）。 CRM 文件将应用于该数据存储中的数据。 </p> <p>有关<span class="codeph"> setcustomerID </span>的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans" format="https" scope="external">客户ID和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（有关详细信息，请参阅[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
+（有关详细信息，请参阅[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。）
 
 在&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 客户属性]**&#x200B;中：
 

@@ -57,7 +57,7 @@ ht-degree: 97%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
