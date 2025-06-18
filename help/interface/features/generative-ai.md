@@ -215,7 +215,7 @@ Campaign Managed Cloud Services使用[!UICONTROL AI助手]生成内容。 通过
 
 * **输入：**&#x200B;在CJA中，运行支持的可视化图表（包括折线图、面积图、条形图、流量图或流失图），然后单击&#x200B;**[!UICONTROL 智能字幕]**。
 
-* **输出：**&#x200B;查看自动生成的自然语言字幕，其中显示上下文和键收藏。 然后，您可以对生成的数据执行一些操作，如查看、复制数据并与您的组织共享。 [查看方式](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
+* **输出：**&#x200B;查看自动生成的自然语言字幕，其中显示上下文和键收藏。 然后，您可以对生成的数据执行一些操作，如查看、复制数据并与您的组织共享。 [查看方式](https://video.tv.adobe.com/v/3443148/?quality=12&learn=on#_blank&captions=chi_hans)
 
 [!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="了解智能字幕"}
 
