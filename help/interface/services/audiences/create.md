@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -53,12 +53,11 @@ ht-degree: 94%
 1. 在[!UICONTROL 规则]下，选择一个属性来源：
 
    * **[!UICONTROL 实时 Analytics 数据：]**（或原始数据）此类数据是指从实时 Analytics 图像请求派生而来的属性数据，包括 eVar 和事件等数据。使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
-
    >[!NOTE]
    >
    >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在Experience Cloud中。
 
-   * **[!UICONTROL Experience Cloud：]**&#x200B;从 [!DNL Experience Cloud] 来源派生的属性数据。例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
+   * 从[!DNL Experience Cloud]源派生的&#x200B;**[!UICONTROL Experience Cloud：]**&#x200B;属性数据。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
 1. 定义受众规则，然后单击&#x200B;**[!UICONTROL 保存]。**
 

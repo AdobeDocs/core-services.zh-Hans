@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 82%
+ht-degree: 57%
 
 ---
 
@@ -27,25 +27,25 @@ CCPA是加利福尼亚州的新隐私法，于2020年1月1日生效。 CCPA 为�
 
 作为您的服务提供商，Adobe Experience Cloud 会为您的企业提供支持，以履行因使用 Experience Cloud 产品和服务而需要向 CCPA 承担的责任。上述支持包括管理有关访问和删除个人信息的请求。
 
-本文档介绍了[!UICONTROL 客户属性]如何使用 Adobe Experience Platform 隐私服务 API 和隐私服务 UI 支持数据主体的 CCPA 数据访问和删除权利。
+本文档介绍[!UICONTROL 客户属性]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支持数据主体的CCPA数据访问和删除权限。
 
 有关涉及 CCPA 的 Adobe 隐私服务的更多信息，请参阅 [Adobe 隐私中心](https://www.adobe.com/privacy/ccpa.html)。
 
-## 发送[!UICONTROL 客户属性]请求所需的设置
+## 发送[!UICONTROL 客户属性]的请求所需的设置
 
-要提出访问和删除[!UICONTROL 客户属性]数据的请求，您必须：
+要请求访问和删除[!UICONTROL 客户属性]的数据，您必须：
 
 1. 确认以下各项：
 
    * [组织 ID](../../administration/organizations.md)
    * 要执行操作的 CRS 数据源的别名 ID
-   * 要执行操作的配置文件的 CRM ID
+   * 要执行操作的轮廓的 CRM ID
 
    您的组织ID是由24个字符组成的字母数字字符串，在末尾附加了@AdobeOrg。 需要组织的 ID 才能将请求提交到隐私 API。如果找不到 ID，请通过 `gdprsupport@adobe.com` 联系 Adobe 客户关怀。
 
-1. 在“[!UICONTROL 隐私服务]”中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
+1. 在[!UICONTROL Privacy Service]中，您可以向客户属性提交访问和删除请求，并检查现有请求的状态。
 
-## [!UICONTROL 客户属性] JSON 请求中的必填字段值
+## [!UICONTROL 客户属性] JSON请求中的必填字段值
 
 &quot;company context&quot;：
 

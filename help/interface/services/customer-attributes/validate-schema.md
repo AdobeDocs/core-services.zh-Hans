@@ -2,16 +2,15 @@
 description: 了解如何验证 Adobe Experience Cloud 中的客户属性架构。
 solution: Experience Cloud
 title: 如何验证客户属性架构
-uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 84%
+ht-degree: 72%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 84%
 >
 >验证后更新架构会删除客户属性。请参阅[更新架构（同时删除属性）](t-crs-usecase.md)。
 
-**[!UICONTROL 客户属性来源]** > **[!UICONTROL 新建客户属性来源]** > **[!UICONTROL 查看/编辑架构]**
+**[!UICONTROL 客户属性Source]** > **[!UICONTROL 新建客户属性Source]** > **[!UICONTROL 查看/编辑架构]**
 
 ![编辑架构](assets/view_edit_schema.png)
 
@@ -35,13 +34,13 @@ ht-degree: 84%
 
 * **[!UICONTROL 查看/编辑架构：]**&#x200B;将显示名称映射到属性数据，如下一步骤中所述。
 
-* **[!UICONTROL FTP 设置：]**&#x200B;[通过 FTP 上传数据](t-upload-attributes-ftp.md)。
+* **[!UICONTROL FTP 设置：]**[通过 FTP 上传数据](t-upload-attributes-ftp.md)。
 
-* **[!UICONTROL ID 查找：]**&#x200B;输入客户 ID (CID)，从 `.csv` 查找有关此 ID 的 Experience Cloud 信息。此功能可用于解决为何属性数据不对访客显示的问题：
+* **[!UICONTROL ID查找：]**&#x200B;输入您`.csv`中的客户ID (CID)以查找该ID的Experience Cloud信息。 此功能可用于解决为何属性数据不对访客显示的问题：
 
    * **[!UICONTROL ECID (Experience Cloud ID)：]**&#x200B;在您使用最新的 Experience Cloud ID 服务时显示。如果您在使用MCID服务，但此处未列出ID，则Experience Cloud尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
 
-   * **[!UICONTROL CID（客户 ID）：]**&#x200B;与此 CID 关联的属性。如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
+   * **[!UICONTROL CID （客户ID）：]**&#x200B;与此CID关联的属性。 如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 
    * **[!UICONTROL AVID（Analytics 访客 ID）：]**&#x200B;在您使用 prop 或 eVar 上传 CID 时显示。如果这些ID正在传递到Experience Cloud，则与您输入的CID关联的任何访客ID都将显示在此处。
 
@@ -49,7 +48,7 @@ ht-degree: 84%
 
 指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 指标。
 
-* **[!UICONTROL 属性：]**&#x200B;从上传的 `.csv` 文件中读取的属性数据。
+* 从上载的`.csv`文件中读取的&#x200B;**[!UICONTROL 属性：]**&#x200B;属性数据。
 
 * **[!UICONTROL 类型：]**&#x200B;数据类型，例如：
 
@@ -59,6 +58,6 @@ ht-degree: 84%
 
    * **数字：**&#x200B;最多可以保留两位小数。
 
-* **[!UICONTROL 显示名称：]**&#x200B;属性的易记名称。例如，您可以将属性&#x200B;*客户年龄*&#x200B;更改为&#x200B;*自从以下时间以来的客户*。
+* **[!UICONTROL 显示名称：]**&#x200B;属性的易记名称。例如，您可以将属性&#x200B;*客户年龄*&#x200B;更改为&#x200B;*客户自*&#x200B;起。
 
 * **[!UICONTROL 描述：]**&#x200B;属性的易懂描述。

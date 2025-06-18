@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 76%
+ht-degree: 71%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 76%
 >
 >在上传文件之前，先查看[上传客户属性的数据文件要求](crs-data-file.md)。
 
-可通过 FTP 或 SFTP，将文件上传到客户属性 FTP 站点。
+可以通过FTP或SFTP将文件上传到客户属性FTP站点：
 
 * 您需要支持 SFTP 连接的客户端。
-* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hans)所示。
+* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所示。
 
 **通过 FTP 上传数据文件的方法**
 
-1. [创建客户属性源并上传数据文件...](t-crs-usecase.md)。
+1. [创建客户属性来源并上传数据文件...](t-crs-usecase.md).
 
    确保您已登录位于 `ftp.adobe.com/<sftpname>` 的 FTP 站点。
 

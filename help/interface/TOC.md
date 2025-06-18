@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 界面和管理
 breadcrumb-title: Experience Cloud 界面和管理
 title: Experience Cloud 界面和管理
-description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
+description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。 共享 Experience Cloud 资产。
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 98%
    + [交换](services/exchange.md)
    + 客户属性 {#customer-attributes}
       + [概述](services/customer-attributes/attributes.md)
-      + [关于客户属性的常见问题](services/customer-attributes/faq-crs.md)
+      + [有关客户属性的常见问题](services/customer-attributes/faq-crs.md)
       + [关于客户属性的数据文件和数据源](services/customer-attributes/crs-data-file.md)
-      + [创建客户属性源并上传数据文件](services/customer-attributes/t-crs-usecase.md)
+      + [创建客户属性来源并上传数据文件](services/customer-attributes/t-crs-usecase.md)
       + [可选 - 通过 FTP 上传数据文件](services/customer-attributes/t-upload-attributes-ftp.md)
       + [验证架构](services/customer-attributes/validate-schema.md)
       + [配置订阅](services/customer-attributes/subscription.md)

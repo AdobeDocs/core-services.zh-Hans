@@ -2,20 +2,19 @@
 description: 了解有关在 Experience Cloud 中上传和使用的个人身份信息 (PII) 的注意事项和最佳实践。
 solution: Experience Cloud
 title: 客户属性的隐私注意事项
-uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# [!DNL Customer Attributes] 的隐私注意事项
+# [!DNL customer attributes] 的隐私注意事项
 
 有关在 Adobe Experience Cloud 中上传和使用的个人可识别信息 (PII) 的注意事项和最佳实践。
 
@@ -44,4 +43,4 @@ Adobe 建议其广告商仔细考虑以下两点：哪些信息适合用于营�
 1. 说您所做（在隐私政策中）。
 1. 不要欺瞒消费者。
 
-考虑到这些期望，Adobe 建议广告商将浏览活动关联到 PII 时，该广告商可提供通知或进行个性化设置，表明消费者已通过身份验证。例如，在网站标题中插入问候语。Adobe 还建议广告商在其隐私权政策中描述以下两点：哪种类型的浏览信息与 PII 相关联以及在什么情况下浏览信息会与 PII 关联。最后，Adobe 强烈建议广告商查看他们为消费者提供的选择退出选项，了解他们选择退出后是否可以使用以及如何使用未经身份验证的个人资料信息。
+考虑到这些期望，Adobe 建议广告商将浏览活动关联到 PII 时，该广告商可提供通知或进行个性化设置，表明消费者已通过身份验证。例如，在网站标题中插入问候语。Adobe 还建议广告商在其隐私权政策中描述以下两点：哪种类型的浏览信息与 PII 相关联以及在什么情况下浏览信息会与 PII 关联。最后，Adobe 强烈建议广告商查看他们为消费者提供的选择退出选项，了解他们选择退出后是否可以使用以及如何使用未经身份验证的轮廓信息。

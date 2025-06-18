@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 67%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -70,7 +70,7 @@ Experience Cloud 界面提供的功能为您的业务带来新价值。该界面
 
 +++Adobe如何访问我的Adobe云环境以进行故障排除？
 
-Adobe客户关怀团队可以提交模拟请求，向您发送带有Adobe品牌标志的电子邮件（见下面示例），请求您的明确授权。 授予的访问权限仅限于一段时间。授予访问权限后，您可随时撤销。Adobe 会记录 Adobe 代表执行的所有操作。
+Adobe客户关怀团队可以提交模拟请求，向您发送带有Adobe品牌标志的电子邮件（见以下示例），请求您的明确授权。 授予的访问权限仅限于一段时间。授予访问权限后，您可随时撤销。Adobe 会记录 Adobe 代表执行的所有操作。
 
 ![Adobe 支持案列](../assets/support-email.png)
 
@@ -81,7 +81,7 @@ Adobe客户关怀团队可以提交模拟请求，向您发送带有Adobe品牌�
 Experience Cloud 中的配置表示：
 
 * 您的用户可以开始登录到Experience Cloud并关联应用程序。
-* 他们可以开始使用 Experience Cloud 提供的功能，如人员。
+* 他们可以开始使用Experience Cloud提供的功能。
 * 您可以准备停用特定于应用程序的登录流程。
 * 您可以保留对应用程序的访问控制。
 
@@ -99,7 +99,7 @@ Experience Cloud 中的配置表示：
 
 * 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
+* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
 
 +++
 
@@ -107,7 +107,7 @@ Experience Cloud 中的配置表示：
 
 Admin Console 管理员可以授予用户访问权限。将会向用户发送包含登录说明的电子邮件。
 
-您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)来验证您的公司是否已完全配置。
+您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)来验证您的公司是否已完全配置。
 
 +++
 
@@ -145,7 +145,7 @@ Admin Console 管理员可以授予用户访问权限。将会向用户发送包
 
 +++什么是Adobe ID？
 
-请参阅[身份类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。
+请参阅[身份标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。
 
 +++
 

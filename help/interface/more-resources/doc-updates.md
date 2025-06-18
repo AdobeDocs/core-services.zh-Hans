@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 72%
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 了解Experience Cloud中央界面和管理文档更新的位置。
 
-**2025 年 2 月**
+**2025年2月**
 
 在Experience Cloud中添加了[管理用户和产品](../administration/admin-console.md)。 此页面可帮助管理员查找适用于所有应用程序的用户和产品管理(Admin Console)帮助。
 
@@ -112,7 +112,7 @@ ht-degree: 72%
 
 **8 2018年6月**
 
-更新了[关于客户属性的数据文件和数据源](../services/customer-attributes/crs-data-file.md)，其中包含有关上传多个文件的信息。
+更新了[关于客户属性的数据文件和数据源](../services/customer-attributes/crs-data-file.md)，其中包含有关上载多个文件的信息。
 
 **6 2018年6月**
 

@@ -1,5 +1,5 @@
 ---
-description: 了解 Experience Cloud 的中央界面组件。在 Admin Console 中获取用户和产品管理帮助，启用 Experience Cloud Service 的应用程序。获取受众库、客户属性、Experience Cloud Assets 等方面的帮助。
+description: 了解 Experience Cloud 的中央界面组件。在 Admin Console 中获取用户和产品管理帮助，启用 Experience Cloud Service 的应用程序。获取有关受众库、客户属性、Experience Cloud Assets等的帮助。
 title: Experience Cloud 界面文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 82%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -220,7 +220,7 @@ ht-degree: 82%
 
 您可以配置帐户首选项以将Experience Cloud通知发送到[!DNL Slack]频道。
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#notifications" tooltip="了解Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="了解Slack"}
 
 
 >[!TAB 全新 Campaign Web 用户界面]
