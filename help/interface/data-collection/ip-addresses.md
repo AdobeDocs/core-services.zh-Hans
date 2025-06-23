@@ -2,9 +2,9 @@
 title: Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
+source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 11%
 
 ---
@@ -19,9 +19,10 @@ ht-degree: 11%
 
 除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用他们自己的IP地址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP地址块
 
