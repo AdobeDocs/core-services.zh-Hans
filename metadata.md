@@ -1,22 +1,22 @@
 ---
 title: Experience Cloud UI 组件和服务
-description: 了解Adobe Admin Console、受众库、客户属性、Experience Cloud Assets等项中的UI组件、用户和产品管理。
+description: 了解 Adobe Admin Console、受众库、客户属性、Experience Cloud Assets 等项中的 UI 组件、用户和产品管理。
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/cn/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/cn/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.zh-Hans
 source-git-commit: 361175f290d73f1637673420700874a2415e3fca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
