@@ -1,23 +1,23 @@
 ---
-description: 了解如何在 Adobe Experience Cloud 中使用属性规则来创建受众和定义复合受众。
+title: 如何在受众库中创建受众
+description: 了解如何在受众库中使用属性规则来创建可共享受众。 了解如何配置规则和定义复合受众。
 solution: Experience Cloud
-title: 创建受众
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 92%
+source-wordcount: '534'
+ht-degree: 66%
 
 ---
 
 # 创建受众
 
-了解如何在 Experience Cloud 中使用属性规则来创建受众和定义复合受众。
+在[!UICONTROL 受众库]中，您可以使用属性规则来创建受众，并定义复合受众以便在Experience Cloud应用程序中共享。
 
 本文可帮助您了解如何执行以下操作：
 
@@ -38,27 +38,28 @@ ht-degree: 92%
 以下示例演示了如何为复合受众创建规则。此受众包括：
 
 * 从页面数据或原始分析数据派生的“家居和园艺”部分。
-* 来源于[发布](overview.md)到 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 区段的 Chrome 和 Safari 用户。
+* 从[!DNL Adobe Analytics]区段[发布的](overview.md)到[!DNL Experience Cloud]派生Chrome和Safari用户。
 
   ![为复合受众创建规则](assets/audience_create.png)
 
 **创建受众**
 
-1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 下，单击&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
-1. 在[!UICONTROL 受众]页面上，单击&#x200B;**[!UICONTROL 新建]**。 ![添加](assets/add_icon_small.png)
+1. 单击[!DNL Experience Cloud]个应用（![个应用图标](assets/apps-icon.png)），然后单击&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
 
-   ![步骤结果](assets/audience_create_new.png)
+1. 在[!UICONTROL 受众]页面上，单击&#x200B;**[!UICONTROL 新建]**。 ![新受众](assets/add_icon_small.png)
 
-1. 在[!UICONTROL 创建新受众]页面，指定标题和描述。
-1. 在[!UICONTROL 规则]下，选择一个属性来源：
+   ![创建受众](assets/audience_create_new.png)
 
-   * **[!UICONTROL 实时 Analytics 数据：]**（或原始数据）此类数据是指从实时 Analytics 图像请求派生而来的属性数据，包括 eVar 和事件等数据。使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
+1. 在[!UICONTROL 创建新受众]页面上，完成&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;字段。
+1. 在[!UICONTROL 规则]下，选择引用报表包，然后选择属性源：
+
+   * **[!UICONTROL Real-Time Analytics数据：]**（或原始数据）这是从Real-Time Analytics图像请求派生的属性数据。 它包括eVar和事件。 使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
 
    >[!NOTE]
    >
    >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在Experience Cloud中。
 
-   * 从[!DNL Experience Cloud]源派生的&#x200B;**[!UICONTROL Experience Cloud：]**&#x200B;属性数据。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
+   * **[!UICONTROL Experience Cloud：]**&#x200B;属性数据派生自[!DNL Experience Cloud]源。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
 1. 定义受众规则，然后单击&#x200B;**[!UICONTROL 保存]。**
 
@@ -94,4 +95,4 @@ ht-degree: 92%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，可用于其他应用程序。例如，您可以在 Adobe Target 活动中包含共享受众。
+保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共享受众。

@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 589d08609e6d60667cc3c26b9e9594e5389b338e
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 87%
@@ -66,21 +66,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## 2023 年 5 月
 
-* 在 [!DNL Experience Cloud] **[!UICONTROL 帮助]**&#x200B;菜单中，内容搜索已更新为按应用程序筛选 [Experience League](https://experienceleague.adobe.com/zh-hans#home) 搜索结果。
+* 在 [!DNL Experience Cloud] **[!UICONTROL 帮助]**&#x200B;菜单中，内容搜索已更新为按应用程序筛选 [Experience League](https://experienceleague.adobe.com/#home) 搜索结果。
 
 ## 2022 年 7 月
 
@@ -151,7 +151,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。<br>例如，假设您拥有域 `adobecustomer.com` 且希望登录到 Adobe Analytics。URL 应为：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。 |
-| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)，使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档和课程等。 |
+| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到 [Experience League](https://experienceleague.adobe.com/docs/)，使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档和课程等。 |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 描述 |
 | ------- | ------- |
 | Experience Cloud 标题和导航 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
-| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。通过 [!UICONTROL Platform] 全局搜索，可搜索 Experience Cloud 中的任何业务对象，如区段、数据集、架构等等。） |
+| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。通过 [!UICONTROL Platform] 全局搜索，可搜索 Experience Cloud 中的任何业务对象，如区段、数据集、架构等等。） |
 | Experience Cloud 语言偏好设置 | 此更新包括可在 Experience Cloud [偏好设置](https://experience.adobe.com/preferences)中设置您的首选语言。 |
 
 {style="table-layout:auto"}
@@ -260,7 +260,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 |--- |--- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [customer attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -404,8 +404,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans) page from displaying in Japanese.
-* Fixed an issue preventing the use of Japanese text in comments between the [!DNL Creative Cloud] and the [!DNL Experience Cloud].
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
+* Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
 
 ## April 2015
 
@@ -430,7 +430,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **Fixes** 
 
-* Fixed an issue preventing single sign-on between the [!DNL Experience Cloud] and [!DNL Advertising Cloud].
+* Fixed an issue preventing single sign-on between [!DNL Experience Cloud] and [!DNL Advertising Cloud].
 
 **Known Issues** 
 
@@ -589,7 +589,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Some [!DNL .png] files cannot be rendered on a card.
 * [!DNL Experience Cloud] interface can reduce in performance when in parallel use by many users.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
-* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in the [!DNL Experience Cloud].
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in [!DNL Experience Cloud].
 
 ## August 2014
 
@@ -614,14 +614,14 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Some users may not be able to create a card from a PDF and share it to a board.
 * Some users may have trouble uploading assets to a board.
 * Some users may not be able to log in from [!DNL Target] to [!DNL Experience Cloud].
-* Some Audience Manager users cannot log into the [!DNL Experience Cloud].
+* Some Audience Manager users cannot log into [!DNL Experience Cloud].
 * Some users are able to delete an out-of-date asset instead of receiving an error notification.
 * Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
 * Users are not able to share PowerPoint files on boards.
 * Some [!DNL .png] files cannot be rendered on a card.
 * [!DNL Experience Cloud] interface can reduce in performance when in parallel use by many users.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
-* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in the [!DNL Experience Cloud].
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in [!DNL Experience Cloud].
 
 ## July 2014
 
@@ -634,8 +634,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
 * [!DNL Exchange] users must clear their cookies to improve their experience.
 * [!DNL Experience Cloud] interface can slow down when in parallel use by many users.
-* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder if the content is unshared in the [!DNL Experience Cloud].
-* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of the [!DNL Experience Cloud].
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder if the content is unshared in [!DNL Experience Cloud].
+* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of [!DNL Experience Cloud].
 * Some users may not be able to link their Audience Manager accounts to [!DNL Experience Cloud].
 * [!UICONTROL Exchange] users can only see English in language selector.
 
@@ -662,7 +662,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
 * Uploading files allows more file types than the drag-and-drop method. For best results, upload using Assets.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
-* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in the [!DNL Experience Cloud].
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in [!DNL Experience Cloud].
 * Some users are not able to link their audience management account with their [!DNL Experience Cloud] account.
 * You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of Experience Cloud.
 * Some Exchange users may find their names in the comments to be a long string ID instead of their names
@@ -716,8 +716,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Deleting an image in [!UICONTROL Experience Cloud Assets] was not issuing a warning if the image was used in [!DNL Adobe Target Essentials].
 * When **[!UICONTROL remember me]** was not selected during login, the user was logged out after 15 minutes.
 * Users were having to log out and back in for all permission and entitlement changes to take effect.
-* Logging in to the [!DNL Experience Cloud] was taking longer than a second.
-* For certain users, deleting files from the [!DNL Experience Cloud] did not synchronizing with [!DNL Digital Asset Management].
+* Logging in to [!DNL Experience Cloud] was taking longer than a second.
+* For certain users, deleting files from [!DNL Experience Cloud] did not synchronizing with [!DNL Digital Asset Management].
 * Users were being logged out after only 15 minutes of browser inactivity.
 * User were not able to share PowerPoint files on boards.
 * Some users were experiencing poor visual layout in Internet Explorer 10.
@@ -754,10 +754,10 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Deleting an image, [!UICONTROL Assets] does not warn if the image is used in [!DNL Adobe Target Essentials].
 * Comments link on asset card view is not selectable.
 * Options in combo boxes for adding new users temporarily disappear while typing.
-* Logging in to the [!DNL Experience Cloud] takes longer than a second.
-* Data shared from [!DNL Advertising Cloud] is misrepresented in the [!DNL Experience Cloud].
-* Adobe [!DNL Advertising Cloud] does not create users automatically when user has been created in the [!DNL Experience Cloud].
-* The [!DNL Experience Cloud] cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
+* Logging in to [!DNL Experience Cloud] takes longer than a second.
+* Data shared from [!DNL Advertising Cloud] is misrepresented in [!DNL Experience Cloud].
+* Adobe [!DNL Advertising Cloud] does not create users automatically when user has been created in [!DNL Experience Cloud].
+* [!DNL Experience Cloud] cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
 * [!DNL Experience Cloud] interface can slow down when in parallel use by many users.
 * [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
 * [!DNL Adobe Advertising Cloud] simulation cards are not rendering correctly.
@@ -765,9 +765,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Filters applied to trended reports from Analytics are not applied to cards in Experience Cloud.
 * Some Excel or CSV files cannot be uploaded to a board.
 * Some users may not be able to link their audience management account with their [!DNL Experience Cloud].
-* Some users may experience error when sharing [!DNL Analytics] segments in the [!DNL Experience Cloud].
+* Some users may experience error when sharing [!DNL Analytics] segments in [!DNL Experience Cloud].
 * Some users may not be able to drill down to subfolders in [!UICONTROL Asset Selector].
-* Some users are not able to share AdLens gadgets in the [!DNL Experience Cloud].
+* Some users are not able to share AdLens gadgets in [!DNL Experience Cloud].
 
 ## March 2014
 
