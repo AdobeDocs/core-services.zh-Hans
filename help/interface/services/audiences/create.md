@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 66%
+source-wordcount: '540'
+ht-degree: 65%
 
 ---
 
@@ -63,6 +63,8 @@ ht-degree: 66%
 
 1. 定义受众规则，然后单击&#x200B;**[!UICONTROL 保存]。**
 
+**示例：为复合受众定义规则**
+
 >[!NOTE]
 >
 >您在定义受众规则时，应该对实施变量有所了解。
@@ -95,4 +97,4 @@ ht-degree: 66%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
+保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共享受众。
