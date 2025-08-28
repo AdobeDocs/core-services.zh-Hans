@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # 对通用数据保护条例的 [!DNL Customer attributes] 支持
 
-本页面介绍了 [!DNL customer attributes] 如何支持通用数据保护条例 (GDPR)。
+本页面介绍了 [!DNL Customer Attributes] 如何支持通用数据保护条例 (GDPR)。
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 95%
 
 Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并存储的任何个人数据。作为数据控制者，您可以决定 Adobe Experience Cloud 代表您处理和存储的个人数据。
 
-本文档介绍了 [!DNL customer attributes] 如何使用 Adobe Experience Platform Privacy Service API 和 Privacy Service UI 支持数据主体的 GDPR 数据访问和删除权利。
+本文档介绍了 [!DNL Customer Attributes] 如何使用 Adobe Experience Platform Privacy Service API 和 Privacy Service UI 支持数据主体的 GDPR 数据访问和删除权利。
 
 有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
-## 发送 [!DNL customer attributes] 请求所需的设置
+## 发送 [!DNL Customer Attributes] 请求所需的设置
 
-要提出访问和删除 [!DNL customer attributes] 数据的请求，您必须：
+要提出访问和删除 [!DNL Customer Attributes] 数据的请求，您必须：
 
 1. 确认以下各项：
 
@@ -41,9 +41,9 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
 
    您的[组织 ID](../../administration/organizations.md) 是一个 24 字符的数字字母字符串，在末尾附加了 @AdobeOrg。需要组织的 ID 才能将请求提交到隐私 API。如果找不到 ID，请通过 `gdprsupport@adobe.com` 联系 Adobe 客户关怀。
 
-1. 在[!UICONTROL 隐私服务]中，您可以向 [!DNL customer attributes] 提交访问和删除请求，并检查现有请求的状态。
+1. 在[!UICONTROL 隐私服务]中，您可以向 [!DNL Customer Attributes] 提交访问和删除请求，并检查现有请求的状态。
 
-## [!DNL customer attributes] JSON 请求中的必填字段值
+## [!DNL Customer Attributes] JSON 请求中的必填字段值
 
 &quot;company context&quot;：
 

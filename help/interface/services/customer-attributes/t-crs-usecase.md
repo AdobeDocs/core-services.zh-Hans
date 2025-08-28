@@ -1,33 +1,35 @@
 ---
-description: 创建客户属性来源并将其上传到Adobe Experience Cloud。
+description: 了解如何创建客户属性来源并将其上传到Adobe Experience Cloud。
 solution: Experience Cloud
-title: 创建客户属性Source并上传数据文件
+title: 创建和上传客户属性数据Source文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1110'
 ht-degree: 49%
 
 ---
 
 # 创建客户属性来源并上传数据文件
 
-创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。在数据源激活后，可将属性数据共享到 Analytics 和 Target。
+创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。在数据源处于活动状态后，将属性数据共享到[!DNL Analytics]和[!DNL Target]。
 
-## 客户属性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**客户属性工作流**
 
 ![客户属性工作流](assets/crs.png)
 
->[!IMPORTANT]
->
->要访问此功能，必须将用户分配给客户属性的产品配置文件（客户属性 — 默认访问）。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。 如果&#x200B;*客户属性*&#x200B;显示为[!UICONTROL 产品配置文件]之一，则表示您已经可以开始。 添加到客户属性组的用户将在Experience Cloud界面的左侧看到[!UICONTROL 客户属性]菜单。
->
->要使用客户属性功能，用户还必须属于应用程序级别的组(Adobe Analytics或[!DNL Target])。
+## 先决条件
+
+**产品访问权限：**&#x200B;要访问[!DNL Customer Attributes]，必须将用户分配到Admin Console (**[!UICONTROL )中的客户属性产品配置文件（]**&#x200B;客户属性 — 默认访问权限`adminconsole.adobe.com`）。
+
+导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。 如果&#x200B;*客户属性*&#x200B;显示为其中一个产品（[!UICONTROL 产品配置文件]），则表示您已经可以开始。 添加到客户属性产品配置文件的用户在&#x200B;**[!DNL Customer Attributes]**&#x200B;应用程序&#x200B;**[!UICONTROL 选择器中看到]**。 （![客户属性工作流](assets/menu-icon.png)）
+
+**应用程序组：**&#x200B;要使用&#x200B;**[!DNL Customer Attributes]**&#x200B;功能，用户还必须属于应用程序级别的组(Adobe [!DNL Analytics]或[!DNL Adobe Target])。
 
 ## 创建数据文件 {#create-data}
 
@@ -44,7 +46,7 @@ ht-degree: 49%
    ![示例企业客户数据文件](assets/01_crs_usecase.png)
 
 1. 在继续操作之前，请先查看[数据文件要求](crs-data-file.md)中的重要信息，然后再上传文件。
-1. [创建客户属性来源并上传数据](t-crs-usecase.md)，如下所述。
+1. [创建客户属性来源并上传数据](t-crs-usecase.md#create-source)，如下所述。
 
 ## 创建属性源并上传数据文件 {#create-source}
 
@@ -54,16 +56,13 @@ ht-degree: 49%
 >
 >创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。联系Audience Manager客户关怀团队或咨询以获取管理权限。
 
-1. 在[!DNL Experience Cloud]中，选择菜单![菜单](assets/menu-icon.png)图标。
-1. 选择&#x200B;**[!UICONTROL 客户属性]**。
+1. 在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL 应用]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
-   在[!UICONTROL 客户属性]页面中，您可以管理和编辑现有的属性数据源。
-
-   ![客户属性主屏幕](assets/cust-attr.png)
+   ![客户属性页面](assets/cust-attr.png)
 
 1. 单击&#x200B;**[!UICONTROL 新建]**。
 
-   ![步骤结果](assets/04_crs_usecase.png)
+   ![步骤结果](assets/new-customer-attribute-source.png)
 
 1. 在[!UICONTROL 创建客户属性Source]页面上，配置以下字段：
 
@@ -79,9 +78,9 @@ ht-degree: 49%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL 客户设置]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)值。
+      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL 客户设置]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
 
-      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -103,21 +102,27 @@ ht-degree: 49%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
+   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 上传文件 {#upload}
 
+客户属性记录已创建，您可以通过编辑客户属性来上传文件。
 
-1. 单击“文件”“上传”。
+1. 在[!DNL Customer Attributes]页面上，单击属性来源。
 
-2. 将`.csv`或`.zip`或`.gzip`数据文件拖放到拖放窗口中。
+1. 在[!UICONTROL 编辑客户数据Source]页面上，单击&#x200B;**[!UICONTROL 文件上传]**。
+
+   ![文件上载和架构验证](assets/file-upload-schema-validation.png)
+
+1. 将`.csv`或`.zip`或`.gzip`数据文件拖放到拖放窗口中。
 
 >[!IMPORTANT]
 >
 >存在特定的数据文件要求。请参阅[数据文件要求](crs-data-file.md)，以了解更多信息。
 
 上传文件后，表数据将显示在此页面上的[!UICONTROL 文件上传]标题下。您可以验证架构，配置订阅或设置 FTP。
-
 
 ![属性](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ ht-degree: 49%
 
 如何删除和替换架构中的属性。
 
-1. 在[!UICONTROL 编辑客户属性Source]页面上，删除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;订阅（位于[!UICONTROL 配置订阅]下）。
+1. 在[!UICONTROL 编辑客户属性来源]页面上，删除 **[!UICONTROL Target]** 或 **[!UICONTROL Analytics]** 订阅（位于&#x200B;**[!UICONTROL 配置订阅]**&#x200B;下）。
+
 1. [上传具有更新字段的新数据文件](t-crs-usecase.md)。
 
 ## 配置订阅和激活属性源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 配置订阅可以设置Experience Cloud和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
-请参阅[配置订阅](subscription.md)。
-
-**激活属性来源的方法**
-
-在[!UICONTROL 新建或编辑客户属性Source]页面上，找到[!UICONTROL 激活]标题，然后单击&#x200B;**[!UICONTROL 活动]**。
-
-![步骤结果](assets/activate_attribute_source.png)
+请参阅[配置订阅并激活数据源](subscription.md)。
 
 ## 在Adobe Analytics中使用客户属性 {#task_7EB0680540CE4B65911B2C779210915D}
 
@@ -170,4 +170,4 @@ ht-degree: 49%
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
+请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
