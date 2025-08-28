@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 48%
+source-wordcount: '1132'
+ht-degree: 50%
 
 ---
 
@@ -19,17 +19,25 @@ ht-degree: 48%
 
 创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。在数据源处于活动状态后，将属性数据共享到[!DNL Analytics]和[!DNL Target]。
 
-**客户属性工作流**
+**[!DNL Customer Attributes]工作流**
 
 ![客户属性工作流](assets/crs.png)
 
-## 先决条件
+## 找到[!DNL Customer Attributes]
 
-**产品访问权限：**&#x200B;要访问[!DNL Customer Attributes]，必须将用户分配到Admin Console (**[!UICONTROL )中的客户属性产品配置文件（]**&#x200B;客户属性 — 默认访问权限`adminconsole.adobe.com`）。
+在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL 应用]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
-导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。 如果&#x200B;*客户属性*&#x200B;显示为其中一个产品（[!UICONTROL 产品配置文件]），则表示您已经可以开始。 添加到客户属性产品配置文件的用户在&#x200B;**[!DNL Customer Attributes]**&#x200B;应用程序&#x200B;**[!UICONTROL 选择器中看到]**。 （![客户属性工作流](assets/menu-icon.png)）
+## 使用[!DNL Customer Attributes]的先决条件 {#prerequisites}
 
-**应用程序组：**&#x200B;要使用&#x200B;**[!DNL Customer Attributes]**&#x200B;功能，用户还必须属于应用程序级别的组(Adobe [!DNL Analytics]或[!DNL Adobe Target])。
+* **组成员资格：**&#x200B;要上传数据，用户必须是[!DNL Customer Attributes]组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
+
+  要知道您的公司是否具有客户属性的访问权限，您的[!DNL Experience Cloud]管理员应登录到[Experience Cloud](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。 如果 *[!DNL Customer Attributes]* 显示为其中一个[!UICONTROL 产品轮廓]，则表示您已经可以开始。
+
+  添加到[!DNL Customer Attributes]的用户将在Experience Cloud界面的左侧看到[!DNL Customer Attributes]菜单项。
+
+* 客户属性需要使用 **Adobe Target**`at.js`（任何版本）或 `mbox.js` 版本 58 或更高版本。
+
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)。
 
 ## 创建数据文件 {#create-data}
 
@@ -50,7 +58,7 @@ ht-degree: 48%
 
 ## 创建属性源并上传数据文件 {#create-source}
 
-在Experience Cloud的“新建客户属性来源”页面中执行这些步骤。
+在Experience Cloud的[!UICONTROL 创建客户属性Source]页面上执行这些步骤。
 
 >[!IMPORTANT]
 >
@@ -78,9 +86,9 @@ ht-degree: 48%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL 客户设置]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)值。
+      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL 客户设置]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
 
-      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -102,7 +110,7 @@ ht-degree: 48%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
+   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -154,7 +162,7 @@ ht-degree: 48%
 
 请参阅[配置订阅并激活数据源](subscription.md)。
 
-## 在Adobe Analytics中使用客户属性 {#task_7EB0680540CE4B65911B2C779210915D}
+## 在Adobe Analytics中使用[!DNL Customer Attributes]数据 {#task_7EB0680540CE4B65911B2C779210915D}
 
 利用 Adobe Analytics 等应用程序中现在提供的数据，您可以报告数据、分析数据并在营销活动中采取适当措施。
 
@@ -164,10 +172,10 @@ ht-degree: 48%
 
 在将区段发布到Experience Cloud时，它将在Experience Cloud受众和Audience Manager中变得可用。
 
-## 在Adobe Target中使用客户属性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## 在Adobe Target中使用[!DNL Customer Attributes]数据 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
 在 [!DNL Target] 中，您可以在创建受众时从“[!UICONTROL 访客轮廓]”区域选择一个客户属性。列表中的所有客户属性都有前缀`crs.`。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
+请参阅[帮助中的](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)创建受众[!DNL Target]。
