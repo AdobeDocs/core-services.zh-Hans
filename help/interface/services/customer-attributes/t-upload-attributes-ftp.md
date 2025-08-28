@@ -27,7 +27,7 @@ ht-degree: 67%
 可以通过FTP或SFTP将文件上传到客户属性FTP站点：
 
 * 您需要支持 SFTP 连接的客户端。
-* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所示。
+* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hans)所示。
 
 **通过 FTP 上传数据文件的方法**
 

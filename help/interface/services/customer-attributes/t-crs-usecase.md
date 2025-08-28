@@ -78,9 +78,9 @@ ht-degree: 48%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL 客户设置]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
+      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL 客户设置]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)值。
 
-      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -102,7 +102,7 @@ ht-degree: 48%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
+   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -170,4 +170,4 @@ ht-degree: 48%
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
-请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
+请参阅 [!DNL Target] 帮助中的[创建新受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
