@@ -1,28 +1,28 @@
 ---
-description: 了解如何配置客户属性订阅到Analytics和Target，以及激活数据源。
+description: 了解如何在 [!DNL Customer Attributes] 中为Analytics和Target配置订阅，以及如何激活数据源。
 solution: Experience Cloud
-title: 如何配置订阅
+title: 如何在 [!DNL Customer Attributes]中配置订阅
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # 配置订阅并激活数据源
 
-订阅使客户属性数据能够在Experience Cloud和应用程序（[!DNL Analytics]和[!DNL Target]）之间流动。
+[!DNL Customer Attributes]订阅使客户属性数据能够在Experience Cloud和应用程序（[!DNL Analytics]和[!DNL Target]）之间流动。
 
-例如，Adobe Analytics 订阅允许将属性数据纳入报表中。如果使用 Adobe Target，则可以上传客户属性以进行定位和划分。
+例如，Adobe Analytics 订阅允许将属性数据纳入报表中。如果您使用[!DNL Adobe Target]，则可以上传客户属性以进行定位和分段。
 
 **要配置订阅并激活数据源**
 
-1. 找到要编辑的客户属性来源：
+1. 在[!DNL Customer Attributes]中找到您的数据源以进行编辑：
 
    在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL 应用]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
@@ -32,7 +32,7 @@ ht-degree: 65%
 
    ![在 Experience Cloud 中配置订阅](assets/configure-subscriptions.png)
 
-1. 要激活客户属性来源，请单击“活动”**&#x200B;**，然后单击“保存”**&#x200B;**。
+1. 要激活客户属性来源，请单击“活动”****，然后单击“保存”****。
 
 1. 要配置[!DNL Analytics]或[!DNL Target]的订阅，请单击&#x200B;**[!UICONTROL 配置]**。
 

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 95%
 
 ---
 
-# 对通用数据保护条例的 [!DNL Customer attributes] 支持
+# 对通用数据保护条例的 [!DNL Customer Attributes] 支持
 
 本页面介绍了 [!DNL Customer Attributes] 如何支持通用数据保护条例 (GDPR)。
 

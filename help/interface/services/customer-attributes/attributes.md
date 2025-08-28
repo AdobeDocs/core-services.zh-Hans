@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Customer Attributes]'
+title: 关于 [!DNL Customer Attributes]
 description: 了解 Experience Cloud 中的  [!DNL Customer Attributes] 了解如何上传客户属性数据，以便在 Adobe Analytics 和 Adobe Target 中使用。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 73%
 
 ---
@@ -36,7 +36,7 @@ Experience Cloud 中的 [!DNL Customer Attributes] 允许您上传从客户关�
 
 * 客户属性需要使用 **Adobe Target**`at.js`（任何版本）或 `mbox.js` 版本 58 或更高版本。
 
-  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hans)。
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)。
 
 ## 企业客户数据是什么？ {#enterprise_data}
 
