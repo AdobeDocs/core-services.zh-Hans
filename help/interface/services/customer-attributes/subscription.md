@@ -32,7 +32,7 @@ ht-degree: 65%
 
    ![在 Experience Cloud 中配置订阅](assets/configure-subscriptions.png)
 
-1. 要激活客户属性来源，请单击“活动”****，然后单击“保存”****。
+1. 要激活客户属性来源，请单击“活动”**&#x200B;**，然后单击“保存”**&#x200B;**。
 
 1. 要配置[!DNL Analytics]或[!DNL Target]的订阅，请单击&#x200B;**[!UICONTROL 配置]**。
 
