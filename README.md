@@ -1,8 +1,8 @@
 ---
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 99%
 
 ---
 # 贡献文章
@@ -15,13 +15,13 @@ ht-degree: 100%
 
 ## 关于您对 Adobe 内容的贡献
 
-请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
 您的参与方式取决于您的身份以及您想提供的更改类型：
 
 ### 次要更改
 
-如果您出于善意想要对文章进行次要更新，请访问文章，并选择文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+如果您出于善意想要对文章进行次要更新，请访问文章，并选择文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html?lang=zh-Hans)。
+有关详细信息，请参阅 [Adobe Docs 参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
 
 ## 如何使用 Markdown 格式化您的主题
 
@@ -52,9 +52,9 @@ If you submit a pull request with significant changes to documentation and code 
 * [Markdown 基础知识](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [可打印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## 标签
+## 标记
 
-在公共存储库中，会为拉取请求分配自动标签，以便帮助我们管理拉取请求工作流，以及帮助您了解拉取请求的处理进展：
+在公共存储库中，会为拉取请求分配自动标记，以便帮助我们管理拉取请求工作流，以及帮助您了解拉取请求的处理进展：
 
 * **已发送给作者的更改**：已通知作者拉取请求处于待处理状态。
 * **准备合并**：等待我们的拉取请求审核工作组进行审核。
