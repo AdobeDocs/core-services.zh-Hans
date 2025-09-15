@@ -58,7 +58,7 @@ ht-degree: 67%
 
    ![在图像上添加评论](../../assets/asset_comment_mac.png)
 
-1. 要取消共享文件夹，请单击“使用Creative Cloud共享”****（类似于[步骤3](share.md)），选择X以删除用户，然后单击“共享”****。
+1. 要取消共享文件夹，请单击“使用Creative Cloud共享”**&#x200B;**（类似于[步骤3](share.md)），选择X以删除用户，然后单击“共享”**&#x200B;**。
 
    ![取消共享文件夹](../../assets/asset_remove_user.png)
 
