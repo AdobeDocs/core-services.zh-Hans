@@ -64,7 +64,7 @@ ht-degree: 67%
 
    一旦删除完所有的 Creative Cloud 用户，文件夹即被取消共享，且 Creative Cloud 用户不再具有访问权限。
 
-更多使用共享资源的方法包括加载或交换Adobe Target中[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)中的资源以用于活动中的图像。
+更多使用共享资源的方法包括加载或交换Adobe Target中[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)中的资源以用于活动中的图像。
 
 在将文件夹共享到 Creative Cloud 之后，您将在文件夹上看到 Creative Cloud 徽标。
 
@@ -80,4 +80,4 @@ ht-degree: 67%
 
 在 [!DNL Adobe Target] 中创建活动时，您可以在[!UICONTROL 产品建议库]中交换图像时使用共享的图像资产。
 
-请参阅 [!DNL Target] 帮助中的[产品建议库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)。
+请参阅 [!DNL Target] 帮助中的[产品建议库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)。
