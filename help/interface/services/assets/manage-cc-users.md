@@ -1,16 +1,16 @@
 ---
 description: 了解 Experience Cloud 中用于管理已批准的 Creative Cloud 用户的管理工具。
 solution: Experience Cloud
-title: 管理Creative Cloud用户
+title: 在Experience Cloud中管理Creative Cloud用户
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 73%
+source-wordcount: '122'
+ht-degree: 71%
 
 ---
 
