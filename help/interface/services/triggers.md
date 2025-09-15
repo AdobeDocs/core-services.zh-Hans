@@ -8,20 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0de22f02b4063a54d0b09b6abc1aa16221f42f4b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 97%
+source-wordcount: '675'
+ht-degree: 93%
 
 ---
 
 # Experience Cloud 触发器
 
-Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。
+Experience Cloud中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。
 
-## 触发器概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
-
-您可以在实时决策和个性化中使用触发器。例如：
+例如：
 
 * 为购物车放弃或已删除产品的购物车放弃配置快速再营销
 * 表单和应用程序不完整
@@ -31,9 +29,9 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
 
 >[!NOTE]
 >
->有关使用[!UICONTROL 触发器]的更多信息，请访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
+>有关使用[!UICONTROL 触发器]的更多信息，请访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
 
-### 触发器类型
+## 触发器类型
 
 通常，触发器可能要用 15-90 分钟时间才能启动市场营销活动。此延迟根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
 
@@ -69,19 +67,19 @@ Experience Cloud 中的[!UICONTROL 触发器]允许您识别、定义并监视�
    {style="table-layout:auto"}
 
 5. 单击&#x200B;**[!UICONTROL 保存]**。
-6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。
+6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
-### 触发器示例
+## 触发器示例
 
 Experience Cloud 触发器示例：
 
-#### 购物车放弃触发器
+### 购物车放弃触发器
 
 例如，以下页面显示了可用于[!UICONTROL 购物车放弃]触发器的规则，该规则基于访问期间查看的产品。
 
 ![购物车放弃触发器](../assets/abandonment-trigger.png)
 
-#### 反向链接触发器
+### 反向链接触发器
 
 当点击中包含 Men&#39;s Boots 的产品和 Facebook 的反向链接时，就会触发以下触发器。对于要在同一点击中评估的两个条件（*产品*&#x200B;和&#x200B;*反向链接*），应将它们添加到同一容器中。
 
