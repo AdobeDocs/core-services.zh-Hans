@@ -6,9 +6,9 @@ title: Experience Cloud 界面和管理
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
 source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 88%
       + [概述](services/customer-attributes/attributes.md)
       + [常见问题解答](services/customer-attributes/faq-crs.md)
       + [关于数据文件和数据源](services/customer-attributes/crs-data-file.md)
-      + [创建和上传数据文件](services/customer-attributes/t-crs-usecase.md)
-      + [可选 — 通过FTP上传](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [创建并上传数据文件](services/customer-attributes/t-crs-usecase.md)
+      + [可选 - 通过 FTP 上传](services/customer-attributes/t-upload-attributes-ftp.md)
       + [验证架构](services/customer-attributes/validate-schema.md)
       + [配置订阅和激活数据源](services/customer-attributes/subscription.md)
       + [更新架构](services/customer-attributes/t-update-schema.md)
-      + [支持GDPR](services/customer-attributes/gdpr.md)
-      + [支持CCPA](services/customer-attributes/ccpa.md)
+      + [支持 GDPR](services/customer-attributes/gdpr.md)
+      + [支持 CCPA](services/customer-attributes/ccpa.md)
       + [隐私注意事项](services/customer-attributes/privacy-mac.md)
    + [触发器](services/triggers.md)
 
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 + 管理 {#administration}
    + [用户管理和产品许可证](administration/admin-console.md)
-   + [查看用户详细信息（管理员工具）](administration/admin-tool-experience-cloud.md)
+   + [查看用户详情（管理员工具）](administration/admin-tool-experience-cloud.md)
    + [组织](administration/organizations.md)
    + [Experience Cloud 集成](administration/integrations.md)
 
