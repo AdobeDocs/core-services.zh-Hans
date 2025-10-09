@@ -7,14 +7,14 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 5a63e42c555d40c2676f37f951e32f904c568e32
+source-git-commit: 4ce6b7ae75b8fdad478384fbd6d3400c4b852bf3
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 13%
+source-wordcount: '284'
+ht-degree: 12%
 
 ---
 
-# Experience Cloud的人工智能
+# Experience Cloud中的Experience Platform代理
 
 Adobe Experience Platform Agent Orchestrator和平台代理实现了我们解决方案中的代理功能。 您可以通过以下方式访问AEP Agent Orchestrator和AEP代理的功能：
 
@@ -28,12 +28,12 @@ Adobe Experience Platform Agent Orchestrator和平台代理实现了我们解决
 
 | 代理名称 | 可用性 | 支持的应用程序 | 功能 |
 |---|----------|------------|----------|
-| [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/new-features/customer-support) | 可用 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | 使用AI助手排查问题、创建支持工单并跟踪进度。 |
+| [产品支持代理](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 可用 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | 使用AI助手排查问题、创建支持工单并跟踪进度。 |
 | [Site Optimization Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-sites-optimizer/content/home) <b>*</b> | 可用 | <ul><li>AEM Sites Optimizer</li></ul> | 使用创作AI查找和启动可提高流量、参与度和总体业务成效的网站改进。 |
-| [Data Insights Agent](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 可用 | <ul><li>Customer Journey Analytics</li></ul> | 在Analysis Workspace中回答数据问题并构建可视化图表。 |
-| **Audience Agent** | 即将推出 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 使用自然语言提示创建和优化受众。 |
-| **试验代理** <b>*</b> | 即将推出 | <ul><li>AJO Experimentation Accelerator</li></ul> | 自动化分析以发现试验和发展机会。 |
-| **Journey Agent** | 即将推出 | <ul><li>Adobe Journey Optimizer</li></ul> | 大规模创建、分析和优化客户历程。 |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 可用 | <ul><li>Customer Journey Analytics</li></ul> | 在Analysis Workspace中回答数据问题并构建可视化图表。 |
+| [Audience Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 可用 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 使用自然语言提示创建和优化受众。 |
+| [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 可用 | <ul><li>Adobe Journey Optimizer</li></ul> | 大规模创建、分析和优化客户历程。 |
+| [试验代理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | 可用 | <ul><li>AJO Experimentation Accelerator</li></ul> | 自动化分析以发现试验和发展机会。 |
 
 [!BADGE 了解有关Adobe for Business的更多信息]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="转到Business.adobe.com"}
 
