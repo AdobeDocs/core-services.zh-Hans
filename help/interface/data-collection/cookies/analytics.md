@@ -32,13 +32,13 @@ Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟�
 
 ## 插件设置的 Cookie
 
-某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
+某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/plugins/impl-plugins)。
 
 ## 删除Analytics Cookie的后果
 
 如果访客删除其Analytics Cookie，请考虑以下事项：
 
-* **访客标识丢失：**&#x200B;删除Cookie时，Adobe Analytics无法识别回访访客。 用户下次访问您的网站时，即会被计为新访客。 [跨设备分析](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview)可以帮助减轻这种影响。
+* **访客标识丢失：**&#x200B;删除Cookie时，Adobe Analytics无法识别回访访客。 用户下次访问您的网站时，即会被计为新访客。 [跨设备分析](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/cda/overview)可以帮助减轻这种影响。
 * **会话连续性已中断：**&#x200B;任何基于会话的或多访问分析（如归因或转化跟踪）均被中断。 Cookie删除后发生的事件和转化不能由同一用户关联到以前的活动。
 * **Personalization和分段受到影响：**&#x200B;基于访客历史记录或行为的区段或个性化体验将被重置，因为以前的数据不再与其当前访问关联。
 * **跨域跟踪被中断：**&#x200B;对于第三方Cookie，删除它们会阻止Adobe Analytics链接您拥有的多个域中的用户活动。

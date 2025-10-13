@@ -99,7 +99,7 @@ Experience Cloud 中的配置表示：
 
 * 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
+* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
 
 +++
 
@@ -107,7 +107,7 @@ Experience Cloud 中的配置表示：
 
 Admin Console 管理员可以授予用户访问权限。将会向用户发送包含登录说明的电子邮件。
 
-您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)来验证您的公司是否已完全配置。
+您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)来验证您的公司是否已完全配置。
 
 +++
 
