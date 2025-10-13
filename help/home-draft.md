@@ -57,7 +57,7 @@ ht-degree: 81%
          </a>
       </div>
       <p>
-         <em>创建高性能、品牌内电子邮件和元广告。</em>
+         <em>创建高性能、品牌内电子邮件和Meta广告。</em>
       </p>
    </td>
    <td valign="top">
@@ -131,11 +131,11 @@ ht-degree: 81%
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="将文件移动到文件夹中的人员" src="../assets/card-manage-content.png">
-      <strong>创建元广告体验</strong>
+      <strong>创建Meta广告体验</strong>
       </a>
    </div>
    <p>
-      <em>了解如何创建品牌一致的元广告体验。</em>
+      <em>了解如何创建品牌一致的Meta广告体验。</em>
    </p>
 </td>
 </table>
@@ -179,7 +179,7 @@ ht-degree: 81%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -220,7 +220,7 @@ ht-degree: 81%
 
 您可以配置帐户首选项以将Experience Cloud通知发送到[!DNL Slack]频道。
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#notifications" tooltip="了解Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="了解Slack"}
 
 
 >[!TAB 全新 Campaign Web 用户界面]

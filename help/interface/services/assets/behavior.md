@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->共享 Experience Cloud 文件夹和资产以 1:1 的关系镜像到 Creative Cloud 桌面。如果 Experience Cloud 用户更改文件夹（删除、添加或删除共享），此操作将镜像到 Creative Cloud 桌面和 Web 中。因此，如果取消共享文件夹，该文件夹及其资产将从本地计算机中删除。删除共享后，文件夹及其内容将移至本地计算机上的垃圾桶，您可以在垃圾桶中手动将它们还原到计算机。
+>共享Experience Cloud文件夹和资源以1:1的关系镜像到Creative Cloud桌面。 如果 Experience Cloud 用户更改文件夹（删除、添加或删除共享），此操作将镜像到 Creative Cloud 桌面和 Web 中。因此，如果取消共享文件夹，该文件夹及其资产将从本地计算机中删除。删除共享后，文件夹及其内容将移至本地计算机上的垃圾桶，您可以在垃圾桶中手动将它们还原到计算机。
 
 ## 将非共享文件夹移入共享文件夹 {#section_A9BAC1A244A246A984AC62660E61E0C0}
 

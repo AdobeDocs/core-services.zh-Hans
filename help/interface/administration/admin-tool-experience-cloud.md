@@ -10,14 +10,14 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
 # 在[!UICONTROL 管理工具]中查看Experience Cloud用户和策略
 
-管理员可以在[!UICONTROL 管理工具]中查看包含详细信息的所有Experience Cloud用户和策略的可排序和可过滤列表。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
+管理员可以在[!UICONTROL 管理工具]中查看所有Experience Cloud用户和策略的可排序和可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
 
 1. 登录 `https://experience.adobe.com/.`
 
@@ -41,7 +41,7 @@ ht-degree: 82%
 | [!UICONTROL 电子邮件] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID 类型] | 用户帐户的身份标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理身份标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
 | [!UICONTROL 解决方案] | 用户可访问的 Experience Cloud 应用程序摘要。您可以应用过滤器来缩小具有特定应用程序访问权限的用户列表。 |
-| [!UICONTROL 上次登录] | Experience Cloud最近登录的时间和日期。 此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自2020年1月13日起，用户的上次登录数据将保留365天。 该信息旨在显示Experience Cloud的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取行动。 |
+| [!UICONTROL 上次登录] | 用户最近登录Experience Cloud的时间和日期。 此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自2020年1月13日起，用户的上次登录数据将保留365天。 该信息旨在显示Experience Cloud中的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取行动。 |
 
 ## 自定义用户列表视图
 
@@ -158,8 +158,8 @@ ht-degree: 82%
 
 ## 详细的权限和资源列表
 
-此部分显示产品轮廓可用的权限和资源的完整列表。产品轮廓中包含的权限和资源已标记“✔”。权限和资源列表已分类为不同的选项卡和列，以便更轻松地查看。选项卡和列显示应用于当前产品的各个部分的列表。
+此部分显示产品轮廓可用的权限和资源的完整列表。产品配置文件中包含的权限和资源已标记“✔”。 权限和资源列表已分类为不同的选项卡和列，以便更轻松地查看。选项卡和列显示应用于当前产品的各个部分的列表。
 
 ## 相关信息
 
-* 在[!DNL Admin Console]中[管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html)
+* 在[中](https://helpx.adobe.com/cn/enterprise/using/users.html)管理用户[!DNL Admin Console]

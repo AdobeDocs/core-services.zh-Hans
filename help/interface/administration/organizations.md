@@ -41,7 +41,7 @@ ht-degree: 50%
 
 组织 ID 是与您配置的 Experience Cloud 公司关联的 ID。此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）`@AdobeOrg`。
 
-您可以在`https://experience.adobe.com`的任何页面上使用键盘快捷键&#x200B;**Ctrl+i**&#x200B;查看您的组织ID以及其他帐户信息。
+您可以在&#x200B;**的任何页面上使用键盘快捷键** Ctrl+i`https://experience.adobe.com`查看您的组织ID以及其他帐户信息。
 
 **查看您的组织ID**
 
@@ -100,5 +100,5 @@ ht-degree: 50%
 
 通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。当帐户关联失败时，您可以：
 
-* [联系 Adobe 支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
+* [联系 Adobe 支持](https://experienceleague.adobe.com/?support-solution=General#support)。
 * 在我们着手解决问题的同时，使用标准登录访问您的应用程序。

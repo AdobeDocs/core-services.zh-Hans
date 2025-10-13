@@ -10,7 +10,7 @@ exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
 source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 45%
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 45%
 
 ## Experience Cloud 中的语言支持 {#languages}
 
-Experience Cloud用户界面提供以下语言版本：
+提供了以下语言版本的Experience Cloud用户界面：
 
 * 英语（美国）
 * 法语（法国）
@@ -45,7 +45,7 @@ Experience Cloud用户界面提供以下语言版本：
 * 繁体中文
 * 简体中文
 
-此外，特定于区域设置的格式（如日期、时间、日历、数字）也可能以用户界面所支持语言的变体形式提供：
+此外，受用户界面支持的各种语言变体也可能提供特定于区域设置的格式化（例如日期、时间、日历、数字）：
 
 * 英语（以色列）
 * 英语（英国）
@@ -61,6 +61,6 @@ Experience Cloud用户界面提供以下语言版本：
 
 1. 在&#x200B;**[!UICONTROL 选择语言]**&#x200B;上，从&#x200B;**[!UICONTROL 第一语言]**&#x200B;菜单中选择一种语言。
 
-   虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都以界面中列出的所有语言提供。 如果Experience Cloud应用程序不支持您的主要语言，您可以设置辅助默认语言（如果适用）。
+   虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都以界面中列出的所有语言提供。 如果Experience Cloud应用程序不支持您的主要语言，您可以在适用的情况下设置辅助默认语言。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
