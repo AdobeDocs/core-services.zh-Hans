@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: af3665a14001fbca14afcf906aa35e6c06b6229f
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
 
 ---
 
-# Experience Cloud 服务 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Experience Cloud 服务
 
 该文档适用于 Experience Cloud 内的统一页头的功能，如 [!DNL People] 服务（[!DNL Audience Library] 和 [!DNL Customer Attributes]）、Experience Cloud 的用户和产品管理、Cookie、帐户偏好设置、通知等等。
 

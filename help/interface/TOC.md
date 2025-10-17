@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 界面和管理
 title: Experience Cloud 界面和管理
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Experience Cloud 界面和管理 {#interface}
 
 + [Experience Cloud 界面和管理](experience-cloud.md)
-
 + 服务 {#services}
    + [概述](services/overview.md)
    + [快速入门](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [支持 CCPA](services/customer-attributes/ccpa.md)
       + [隐私注意事项](services/customer-attributes/privacy-mac.md)
    + [触发器](services/triggers.md)
-
 + 功能 {#features}
    + [帐户偏好设置和通知](features/account-preferences.md)
    + [生成式 AI](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [统一搜索](features/search.md)
    + [个性化学习](features/personalized-learning.md)
    + [浏览器和语言支持](browser-language.md)
-
 + 管理 {#administration}
    + [用户管理和产品许可证](administration/admin-console.md)
    + [查看用户详情（管理员工具）](administration/admin-tool-experience-cloud.md)
    + [组织](administration/organizations.md)
    + [Experience Cloud 集成](administration/integrations.md)
-
 + 数据收集 {#data-collection}
    + [Adobe 管理的证书计划](data-collection/adobe-managed-cert.md)
    + [IP 地址](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Web SDK Cookie](data-collection/cookies/web-sdk.md)
    + [地区数据收集](data-collection/rdc.md)
    + [使用 DNS 预取](data-collection/dns-prefetch.md)
-
 + 发行说明和资源 {#more-resources}
    + [发行说明](more-resources/release-notes.md)
    + [文档更新](more-resources/doc-updates.md)
    + [常见问题解答](more-resources/faq.md)
    + [术语](more-resources/terms.md)
-
