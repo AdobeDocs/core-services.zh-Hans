@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 0de22f02b4063a54d0b09b6abc1aa16221f42f4b
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 78%
 
 ---
 
 # Experience Cloud 触发器
 
-Experience Cloud中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。
+Experience Cloud中的[!UICONTROL Triggers]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。
 
 例如：
 
@@ -29,7 +29,7 @@ Experience Cloud中的[!UICONTROL 触发器]允许您识别、定义并监视关
 
 >[!NOTE]
 >
->有关使用[!UICONTROL 触发器]的更多信息，请访问 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
+>有关使用[!UICONTROL Triggers]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
 
 ## 触发器类型
 
@@ -39,7 +39,7 @@ Experience Cloud中的[!UICONTROL 触发器]允许您识别、定义并监视关
 * **操作：**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。如果您是零售商，则可以针对注册会员计划的访客创建一个触发器。在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
 * **会话开始和会话结束：**&#x200B;为会话开始和会话结束事件创建触发器。
 
-## 创建 Experience Cloud 触发器 {#task_821F37183AC045E5AC8EED20317598FE}
+## 创建 Experience Cloud 触发器
 
 创建触发器并配置触发器的条件。例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
 
@@ -47,9 +47,9 @@ Experience Cloud中的[!UICONTROL 触发器]允许您识别、定义并监视关
 >
 >当前的技术限制为 100 个触发器。
 
-1. 在Experience Cloud中，单击![菜单](../assets/menu-icon.png)，然后单击&#x200B;**[!UICONTROL 数据收集/启动]**。
-2. 在[!UICONTROL 触发器]信息卡上，单击&#x200B;**[!UICONTROL 管理触发器]**。
-3. 单击&#x200B;**[!UICONTROL 新建触发器]**，然后指定触发器类型：
+1. 在Experience Cloud中，单击![菜单](../assets/menu-icon.png)，然后单击&#x200B;**[!UICONTROL Data Collection/Launch]**。
+2. 在[!UICONTROL Triggers]信息卡上，单击&#x200B;**[!UICONTROL Manage Triggers]**。
+3. 单击&#x200B;**[!UICONTROL New Trigger]**，然后指定触发器的类型：
 
    ![步骤结果](../assets/add-trigger.png)
 
@@ -57,17 +57,17 @@ Experience Cloud中的[!UICONTROL 触发器]允许您识别、定义并监视关
 
    | 元素 | 描述 |
    |--- |--- |
-   | [!UICONTROL 名称] | 此触发器的友好名称。 |
-   | [!UICONTROL 描述] | 此触发器的描述、使用方式等。 |
-   | [!UICONTROL 报表包] | 用于此触发器的 Analytics [报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hans)。此设置标识要使用的报表数据。 |
-   | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可以是：<ul><li>访问必须包括：[!UICONTROL 购物车加货]（指标）和[!UICONTROL 存在]。（您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>访问不能包括：[!UICONTROL 结帐]。</li><li>没有行动后启动触发器：10 分钟。</li><li>[!UICONTROL 包括元数据]：允许您添加特定的 [!DNL Campaign] 维度或与访客行为相关的变量。此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定 [!UICONTROL Any]、[!UICONTROL And] 或 [!UICONTROL Or] 逻辑，具体取决于您确定的标准是否对规则很重要。 |
-   | [!UICONTROL 容器] | [!UICONTROL 容器是您设置和存储定义触发器的规则、条件或过滤器的位置。]如果希望事件同时发生，请将其置于同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
+   | [!UICONTROL Name] | 此触发器的友好名称。 |
+   | [!UICONTROL Description] | 此触发器的描述、使用方式等。 |
+   | [!UICONTROL Report Suite] | 用于此触发器的 Analytics [报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hans)。此设置标识要使用的报表数据。 |
+   | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。例如，一个简单的购物车放弃触发器规则可以是：<ul><li>访问必须包括：[!UICONTROL Cart Addition]（量度）和[!UICONTROL Exists]。 （您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>访问不能包括：[!UICONTROL Checkout]。</li><li>没有行动后启动触发器：10 分钟。</li><li>[!UICONTROL Include Meta Data]：允许您添加与访客行为相关的特定[!DNL Campaign]维度或变量。 此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定[!UICONTROL Any]、[!UICONTROL And]或[!UICONTROL Or]逻辑，具体取决于您确定的标准是否对规则很重要。 |
+   | [!UICONTROL Container] | [!UICONTROL Containers]是您设置和存储定义触发器的规则、条件或过滤器的位置。 如果希望事件同时发生，请将其置于同一容器中。这意味着，每个容器在命中级别中独立处理。例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 没有行动后开始新会话 | 为会话开始和会话结束事件创建触发器。 |
 
    {style="table-layout:auto"}
 
-5. 单击&#x200B;**[!UICONTROL 保存]**。
-6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。
+5. 单击 **[!UICONTROL Save]**。
+6. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ## 触发器示例
 
@@ -75,7 +75,7 @@ Experience Cloud 触发器示例：
 
 ### 购物车放弃触发器
 
-例如，以下页面显示了可用于[!UICONTROL 购物车放弃]触发器的规则，该规则基于访问期间查看的产品。
+例如，以下页面显示了可用于[!UICONTROL Cart Abandonment]触发器的规则，该规则基于访问期间查看的产品。
 
 ![购物车放弃触发器](../assets/abandonment-trigger.png)
 

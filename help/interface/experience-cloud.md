@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 84%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 100%
 * 使用全局搜索在“搜索”字段中全局搜索业务对象（仅限 Experience Platform 用户）。
 * 管理您的帐户[首选项](features/account-preferences.md)（警报、通知和订阅）
 
-## 登录到 Experience Cloud {#signin}
+## 登录到 Experience Cloud
 
 登录并验证您是否处于正确的[组织](administration/organizations.md)中。
 
 1. 导航到 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 请输入您的 Adobe 电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
+1. 键入您的Adobe电子邮件地址，然后单击&#x200B;**[!UICONTROL Continue]**。
 1. 单击帐户。
 1. 键入您的密码。
 1. 验证您是否处于正确的组织中。
@@ -47,7 +47,7 @@ ht-degree: 100%
 
    例如，对于带 Federated ID 和域 `adobecustomer.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
-## 访问 Experience Cloud 应用程序 {#navigation}
+## 访问 Experience Cloud 应用程序
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
 
@@ -55,31 +55,31 @@ ht-degree: 100%
 
 ![访问 Experience Cloud 应用程序](assets/platform-core-services.png)
 
-## 获取帮助和支持 {#support}
+## 获取帮助和支持
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]**（![资产](assets/help-icon.png)）访问学习和帮助内容，包括[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)上的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
-通过[!UICONTROL 帮助]菜单，您还可以访问：
+[!UICONTROL Help]菜单还允许您访问：
 
-* **[!UICONTROL 支持]：**&#x200B;创建支持工单或使用 Twitter 联系支持[!UICONTROL 支持]部门。
-* **[!UICONTROL 反馈]：**&#x200B;共享您对 Experience Cloud 体验的反馈。您的反馈将用于改进 Adobe 的支持和服务。
-* **[!UICONTROL 状态]：**&#x200B;导航到 `https://status.adobe.com/experience_cloud`，检查产品操作状态并[!UICONTROL 管理订阅]。
-* **[!UICONTROL 开发人员连接]：**&#x200B;导航到 `adobe.io` 并查找开发人员文档。
+* **[!UICONTROL Support]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL Support]。
+* **[!UICONTROL Feedback]：**&#x200B;分享您对Experience Cloud体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
+* **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 管理您的用户个人资料
 
-在[!UICONTROL 轮廓]菜单中，您可以：
+在[!UICONTROL Profile]菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
 * 管理 Experience Cloud [首选项](features/account-preferences.md)
 * 选择或搜索 [组织](administration/organizations.md)
-* 查看 [!UICONTROL 法律声明]
+* 查看[!UICONTROL Legal Notices]
 * 注销
 * 配置帐户首选项、通知和订阅
 
-## 查看产品内的通知和公告 {#notifications}
+## 查看产品内的通知和公告
 
 单击铃铛图标即可查看通知和公告。公告可以是相关且可操作的更新，包括产品发布、维护通知、共享项目和批准请求。
 

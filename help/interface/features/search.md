@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL 统一搜索]对象和实体 {#globally-search}
+# 对象和实体的[!UICONTROL Unified Search]
 
-[!UICONTROL 统一搜索]让您在一种无缝、一致、只需点击一下的体验下，即可找到可搜索的业务对象或实体。此搜索还会显示您最近访问的对象。
+通过[!UICONTROL Unified Search]搜索，您可以在一种无缝、一致、一键式的体验中查找可搜索的业务对象或实体。 此搜索还会显示您最近访问的对象。
 
 ![全局搜索对象和实体](../assets/platform-search.png)
 
@@ -61,7 +61,7 @@ ht-degree: 91%
 
 还可从 Experience League 和 Communities 找到帮助文章。支持自然语言查询。
 
-例如，_如何创建架构_&#x200B;将从 Experience League 中的&#x200B;_[!UICONTROL 学习]_&#x200B;下产生结果：
+例如，_如何创建架构_&#x200B;将从Experience League中生成&#x200B;_[!UICONTROL Learning]_下的结果：
 
 ![Experience Cloud 中的统一搜索帮助](../assets/unified-search-learning.png)
 
@@ -70,12 +70,12 @@ ht-degree: 91%
 * 用户是否有权访问对象
 * 匹配百分比
 * 精确匹配
-* _[!UICONTROL 前几个结果]_&#x200B;部分显示前 30 个结果。
+* _[!UICONTROL Top Results]_部分显示前30个结果。
 
 要细化搜索，请单击以下各项之一：
 
-* **[!UICONTROL 所有学习]**：在Experience League中打开搜索。
-* **[!UICONTROL 全部显示...]**：使您可进一步细化和筛选结果。
+* **[!UICONTROL All Learning]**：在Experience League中打开搜索。
+* **[!UICONTROL Show all...]**：使您可进一步细化和筛选结果。
 
 ## 统一搜索功能
 
