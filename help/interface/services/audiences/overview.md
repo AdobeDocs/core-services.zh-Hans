@@ -77,4 +77,4 @@ ht-degree: 71%
 
 ## 从Adobe Analytics发布受众
 
-有关详细信息，请参阅Adobe Analytics文档中的[将区段发布到Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。
+有关详细信息，请参阅Adobe Analytics文档中的[将区段发布到Experience Cloud](https://experienceleague.adobe.com/zh-hans/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。
