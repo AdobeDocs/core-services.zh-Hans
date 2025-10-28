@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: d1d4fe5c9fafb03e407ab220d9b39be4ffc71ea4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 67%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 67%
 
 | 核心服务 | 描述 |
 |--- |--- |
-| [中央界面组件](../experience-cloud.md) | 访问帐户偏好设置、搜索产品帮助以及访问应用程序和服务。 |
-| [受众库](audiences/overview.md) | 受众是访客的集合（访客 ID 列表）。通过Adobe的[!DNL Audience Library]，您可以管理如何将访客数据转换为受众分段。 |
-| [客户属性](customer-attributes/attributes.md) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
-| [资源](assets/experience-cloud-assets.md) | Experience Cloud Assets 为可在应用程序间共享的营销就绪型资源提供单个集中的存储库。 |
+| [中央界面组件](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud) | 访问帐户偏好设置、搜索产品帮助以及访问应用程序和服务。 |
+| [受众库](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview) | 受众是访客的集合（访客 ID 列表）。通过Adobe的[!DNL Audience Library]，您可以管理如何将访客数据转换为受众分段。 |
+| [客户属性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |
+| [资源](https://experienceleague.adobe.com/en/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets 为可在应用程序间共享的营销就绪型资源提供单个集中的存储库。 |
 
 {style="table-layout:auto"}
 
