@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 08713a68-8a24-4f18-9d77-c332f434eea6
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 38%
+source-wordcount: '54'
+ht-degree: 42%
 
 ---
 
@@ -17,8 +17,9 @@ ht-degree: 38%
 
 如何删除和替换架构中的属性。
 
-1. 在[!UICONTROL 编辑客户属性Source]页面上，单击“配置订阅”。
+1. 在[!UICONTROL Edit Customer Attribute Source]页面上，单击“配置订阅”。
 
 1. 移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;的映射值。
 
 1. [上传具有更新字段的新数据文件](t-crs-usecase.md)。
+

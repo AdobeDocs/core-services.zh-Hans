@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 95%
+source-wordcount: '392'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 95%
 >
 >本文档的内容不是法律建议，也不会代替法律建议。请咨询您的法律顾问，以获得有关 GDPR 的建议。
 
-[《通用数据保护条例》](https://business.adobe.com/cn/privacy/general-data-protection-regulation.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。该法规还简化了国际业务的监管环境。该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
+[《通用数据保护条例》](https://business.adobe.com/privacy/general-data-protection-regulation.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。该法规还简化了国际业务的监管环境。该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
 
 Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并存储的任何个人数据。作为数据控制者，您可以决定 Adobe Experience Cloud 代表您处理和存储的个人数据。
 
 本文档介绍了 [!DNL Customer Attributes] 如何使用 Adobe Experience Platform Privacy Service API 和 Privacy Service UI 支持数据主体的 GDPR 数据访问和删除权利。
 
-有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/cn/privacy/general-data-protection-regulation.html)。
+有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## 发送 [!DNL Customer Attributes] 请求所需的设置
 
@@ -41,7 +41,7 @@ Adobe Experience Cloud 充当数据处理者，可处理其代表客户接收并
 
    您的[组织 ID](../../administration/organizations.md) 是一个 24 字符的数字字母字符串，在末尾附加了 @AdobeOrg。需要组织的 ID 才能将请求提交到隐私 API。如果找不到 ID，请通过 `gdprsupport@adobe.com` 联系 Adobe 客户关怀。
 
-1. 在[!UICONTROL 隐私服务]中，您可以向 [!DNL Customer Attributes] 提交访问和删除请求，并检查现有请求的状态。
+1. 在[!UICONTROL Privacy Service]中，您可以向[!DNL Customer Attributes]提交访问和删除请求，并检查现有请求的状态。
 
 ## [!DNL Customer Attributes] JSON 请求中的必填字段值
 
@@ -103,3 +103,4 @@ attributes:
 "displayName": "<*displayName*>"
 }
 ```
+

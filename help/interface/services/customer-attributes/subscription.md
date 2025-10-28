@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 61%
+source-wordcount: '415'
+ht-degree: 63%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 61%
 
 1. 在[!DNL Customer Attributes]中找到您的数据源以进行编辑：
 
-   在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL 应用]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
+   在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
-1. 在[!UICONTROL 编辑客户属性Source]上，单击&#x200B;**[!UICONTROL 文件上传]**。
+1. 在[!UICONTROL Edit Customer Attribute Source]上，单击&#x200B;**[!UICONTROL File Upload]**。
 
-1. 单击&#x200B;**[!UICONTROL 配置订阅]**。
+1. 单击 **[!UICONTROL Configure Subscriptions]**。
 
    ![在 Experience Cloud 中配置订阅](assets/configure-subscriptions.png)
 
-1. 要激活客户属性来源，请单击“活动”**&#x200B;**，然后单击“保存”**&#x200B;**。
+1. 要激活客户属性来源，请单击&#x200B;**[!UICONTROL Active]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
-1. 要配置[!DNL Analytics]或[!DNL Target]的订阅，请单击&#x200B;**[!UICONTROL 配置]**。
+1. 要配置[!DNL Analytics]或[!DNL Target]的订阅，请单击&#x200B;**[!UICONTROL Configure]**。
 
    以下示例显示了[!DNL Target]订阅：
 
@@ -46,4 +46,5 @@ ht-degree: 61%
    | 报表包(Adobe Analytics) | 报表包来自 Analytics。<br>您无法在一个属性来源内向 Analytics 订阅添加总计 10 个以上的报表包。选择要包含的报表包时，请考虑以下建议：<ul><li>选择具有一组共同的已经过身份验证的客户的报表包。如果一个报表包中的经过身份验证的客户与另一报表包中的经过身份验证的客户不重叠，请将这些报表包分成不同的属性源。</li><li>如果可能，属性源中包含的报表包应具有相似的流量。</li></ul><br>如果您有 10 个以上的报表包具有一组共同的经过身份验证的客户，则可以配置更多的客户属性来源，使每个来源最多包含 10 个报表包。 |
    | 要包含的属性（Analytics 和 [!DNL Target]） | 您希望发送至应用程序的属性。<br>在配置订阅和选择属性时，根据您拥有的应用程序，_每个报表包_&#x200B;将会受到以下限制：<ul><li>Foundation：0 个</li><li>Select：3 个</li><li>Prime：15 个</li><li>Ultimate：200 个</li><li>Standard：总共允许 3 个</li><li>Premium：每个报表包允许 200 个</li><li>[!DNL Target] Standard：5 个</li><li>[!DNL Target] Premium：200 个</li></ul><br>**注意：**&#x200B;当您升级到 Analytics Premium 时，附加属性会在延迟 24 小时后才可用。在此延迟期间，您可能会看到属性订阅数量达到最大值错误。 |
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL Save]**。
+

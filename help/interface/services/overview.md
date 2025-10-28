@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 79%
+source-wordcount: '184'
+ht-degree: 67%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 79%
 
 该文档适用于 Experience Cloud 内的统一页头的功能，如 [!DNL People] 服务（[!DNL Audience Library] 和 [!DNL Customer Attributes]）、Experience Cloud 的用户和产品管理、Cookie、帐户偏好设置、通知等等。
 
-要在 Experience Cloud 中访问这些服务，请选择&#x200B;**[!UICONTROL 应用程序选择器]**
-![服务选择器](../assets/apps-icon.png).
+要在Experience Cloud中访问这些服务，请选择&#x200B;**[!UICONTROL Application Selector]**
+![服务选择器](../assets/apps-icon.png)。
 
 ![Experience Cloud 服务](../assets/platform-core-services.png)
 
@@ -36,5 +36,4 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)的产品文档可用。 面向 [!UICONTROL Experience Platform] 开发人员的技术文档位于 [Adobe Developer。](https://developer.adobe.com/apis)
-
+>[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)的产品文档可用。 在[!UICONTROL Experience Platform]Adobe Developer[上找到](https://developer.adobe.com/apis)开发人员的技术文档。
