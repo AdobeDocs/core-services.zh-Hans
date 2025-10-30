@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: c5e1dc926496bc8a8f5e6731fa81934c830c6bea
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 84%
+source-wordcount: '540'
+ht-degree: 77%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 84%
 
    例如，对于带 Federated ID 和域 `adobecustomer.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
 
+   >[!NOTE]
+   >
+   >贵组织的管理员可以按IP地址限制对Adobe产品的访问。 如果出现这种情况，在登录Experience Cloud或切换到启用了此功能的组织后，您可能会收到错误。 [按IP地址限制产品访问](https://helpx.adobe.com/enterprise/using/ip-based-access.html)中提供了详细信息。
+
+
 ## 访问 Experience Cloud 应用程序
 
 登录到 Experience Cloud 后，您可以从统一页头中快速访问您的所有应用程序、服务和组织。
@@ -57,7 +62,7 @@ ht-degree: 84%
 
 ## 获取帮助和支持
 
-使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
