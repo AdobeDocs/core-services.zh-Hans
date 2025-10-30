@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
+source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 71%
+source-wordcount: '636'
+ht-degree: 69%
 
 ---
 
 # Experience Cloud文档更新
 
 了解Experience Cloud中央界面和管理文档更新的位置。
+
+**2025年10月**
+
+更新了[验证您的组织](../experience-cloud.md)，并附上了有关错误消息的注释，如果管理员限制按IP地址访问Adobe产品。
 
 **2025 年 8 月**
 
