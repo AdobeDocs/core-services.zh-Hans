@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
+source-git-commit: 4530ff3b00c7323a41ec13d57adead95f0418aaa
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 69%
+source-wordcount: '645'
+ht-degree: 68%
 
 ---
 
 # Experience Cloud文档更新
 
 了解Experience Cloud中央界面和管理文档更新的位置。
+
+**2025年11月**
+
+Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **2025年10月**
 
