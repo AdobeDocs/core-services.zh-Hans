@@ -2,10 +2,10 @@
 title: Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 11%
 
 除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用他们自己的IP地址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP地址块
 
@@ -65,11 +65,11 @@ ht-degree: 11%
 | 伦敦 | `130.248.152.0/22` |
 | 伦敦 | `130.248.244.0/23` |
 | 俄亥俄 | `66.117.20.0/24` |
-| 俄勒冈 | `66.235.132.0/22` |
-| 俄勒冈 | `130.248.130.0/23` |
-| 俄勒冈 | `130.248.150.0/24` |
-| 俄勒冈 | `130.248.160.0/21` |
-| 俄勒冈 | `192.243.242.0/24` |
+| 俄勒冈州 | `66.235.132.0/22` |
+| 俄勒冈州 | `130.248.130.0/23` |
+| 俄勒冈州 | `130.248.150.0/24` |
+| 俄勒冈州 | `130.248.160.0/21` |
+| 俄勒冈州 | `192.243.242.0/24` |
 | 新加坡 | `130.248.170.0/23` |
 | 新加坡 | `130.248.240.0/24` |
 | 新加坡 | `63.140.44.0/22` |
@@ -77,9 +77,9 @@ ht-degree: 11%
 | 新加坡 | `66.117.30.0/24` |
 | 新加坡 | `172.82.240.8/29` |
 | 新加坡 | `172.82.240.88/29` |
-| 维吉尼亚 | `63.140.38.0/23` |
-| 维吉尼亚 | `63.140.54.0/24` |
-| 维吉尼亚 | `67.202.5.244` |
+| 弗吉尼亚 | `63.140.38.0/23` |
+| 弗吉尼亚 | `63.140.54.0/24` |
+| 弗吉尼亚 | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
@@ -95,14 +95,15 @@ Adobe Experience Cloud还支持有限容量的IPv6。 这些IP块与上面的IPv
 | 爱尔兰 | `2a05:d018:309:600::/56` |
 | 日本 | `2406:da14:b07:ab00::/56` |
 | 俄亥俄 | `2600:1f16:130f:7d00::/56` |
-| 俄勒冈 | `2600:1f14:1eb:7d00::/56` |
-| 俄勒冈 | `2600:1f14:9d3:2b00::/56` |
+| 俄勒冈州 | `2600:1f14:1eb:7d00::/56` |
+| 俄勒冈州 | `2600:1f14:9d3:2b00::/56` |
 | 新加坡 | `2406:da18:6e8:1e00::/56` |
-| 维吉尼亚 | `2600:1f18:1a20:e800::/56` |
-| 维吉尼亚 | `2600:1f18:4fd:6000::/56` |
-| 维吉尼亚 | `2600:1f18:b00:e100::/56` |
-| 维吉尼亚 | `2600:1f18:d1f:bd00::/56` |
+| 弗吉尼亚 | `2600:1f18:1a20:e800::/56` |
+| 弗吉尼亚 | `2600:1f18:4fd:6000::/56` |
+| 弗吉尼亚 | `2600:1f18:b00:e100::/56` |
+| 弗吉尼亚 | `2600:1f18:d1f:bd00::/56` |
 
 >[!TIP]
 >
 >Adobe Analytics导出功能(包括Data Warehouse和数据馈送)的FTP连接仅源自伦敦、俄勒冈和新加坡位置的IPv4地址。
+

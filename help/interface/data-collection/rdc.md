@@ -2,7 +2,7 @@
 title: 地区数据收集
 description: 了解Experience Cloud中的区域数据收集。
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -45,3 +45,4 @@ _*中国RDC需要中国性能优化加载项包，并且仅适用于使用AppMea
 | 默认+中国* | 北京*、俄勒冈、弗吉尼亚、爱尔兰、巴黎、孟买、新加坡、东京、悉尼 |
 
 {style="table-layout:auto"}
+

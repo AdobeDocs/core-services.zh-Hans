@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -105,4 +105,3 @@ ht-degree: 96%
 ![从存档还原的内容](../../assets/12_assets_move.png)
 
 **结果：**&#x200B;内容将还原到共享文件夹，所有协作者都可以再次访问。如果共享文件夹不再存在，内容将放入其原始父文件夹的未共享副本中。
-

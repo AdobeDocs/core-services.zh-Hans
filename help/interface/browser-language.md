@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 56%
@@ -64,3 +64,4 @@ ht-degree: 56%
    虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都以界面中列出的所有语言提供。 如果Experience Cloud应用程序不支持您的主要语言，您可以在适用的情况下设置辅助默认语言。
 
 1. 单击 **[!UICONTROL Save]**。
+

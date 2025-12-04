@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 37%
@@ -53,4 +53,3 @@ ht-degree: 37%
    * **[!UICONTROL CID (customer ID):]**&#x200B;与此CID关联的属性。 如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 
    * **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;在您使用prop或eVar上传CID时显示。 如果这些ID正在传递到Experience Cloud，则与您输入的CID关联的任何访客ID都将显示在此处。
-

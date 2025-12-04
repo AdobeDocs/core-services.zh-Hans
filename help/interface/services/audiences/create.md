@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -88,7 +88,7 @@ ht-degree: 62%
 
 ![受众的 OR 规则](assets/audiences_rule_patio.png)
 
-由此产生的规则是由访问了“家居和园艺”的“Chrome 和 Safari 用户”组成的已定义受众。“庭院和家具”区段提供了有关访问该网站区域的所有访客的更多分析信息。
+由此产生的规则是由访问了“家居和园艺”的“Chrome 和 Safari 用户”组成的已定义受众。“庭院和家具”区段提供了有关访问该网站区域的所有访客的更多洞察。
 
 ![Experience Cloud 中的已定义受众](assets/defined_audience.png)
 
@@ -97,5 +97,4 @@ ht-degree: 62%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
-
+保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共享受众。
