@@ -110,7 +110,7 @@ ht-degree: 45%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
+   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
 
 1. 单击 **[!UICONTROL Save]**。
 

@@ -91,8 +91,8 @@ Aliases: smetrics.example.com
 
 在验证证书是否正确工作后，您可以更新Adobe实施以使用这些值。
 
-* **Web SDK标记扩展**：配置扩展时更新[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)字段。
-* **Web SDK (alloy)**：更新[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)命令中的[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)属性。
+* **Web SDK标记扩展**：配置扩展时更新[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)字段。
+* **Web SDK (alloy)**：更新[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)命令中的[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)属性。
 * **Adobe Analytics扩展**：配置扩展时更新[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/analytics/overview)字段。 确保您还安装了[访客ID服务标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)。 有关详细信息，请参阅使用Analytics标记扩展的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/analytics-extension)。
 * **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/config-vars/trackingserversecure)配置变量。 确保您还使用[实施了](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)访客ID服务`VisitorAPI.js`。 有关详细信息，请参阅使用AppMeasurement的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/analytics-extension)。
 
