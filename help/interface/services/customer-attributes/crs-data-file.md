@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1149'
 ht-degree: 64%
 
 ---
 
-# 关于[!DNL Customer Attributes]的数据文件和数据源
+# 客户属性数据文件和源
 
 将客户属性数据上传到Experience Cloud的数据文件要求和多个数据源。
 
@@ -28,7 +28,7 @@ ht-degree: 64%
 |--- |--- |
 | `.csv` | 以逗号分隔的值文件（例如在 Excel 中创建的文件）。此文件包含客户属性数据。   命名要求：请确保文件扩展名不包含空格。 |
 | `.fin` | （必需） `.fin`文件会告知系统您已完成数据上传。 `.fin`文件的名称必须匹配`.csv`文件的名称。  Adobe建议创建一个扩展名为`.fin`的空文本文件。 空文件可节省空间和上传时间。 **注意：**&#x200B;不允许在上传文件后重命名`.fin`文件。 `.fin`文件必须单独上传，并且不能是之前已上传的重命名文件。 在客户属性FTP中上传`.fin`文件后，系统会快速检索数据（在一分钟之内）。 其他基于FTP的Adobe系统则与之不同，后者提取数据并不那么频繁（大约每小时一次）。 使用拖放上传方法时不需要`.fin`文件。 |
-| `.gz`或`.zip` | `.gz` (gzip)或`.zip` — 用于压缩文件。 `.zip`文件不能在存档中包含多个文件。 命名要求： `.zip`或`.gz`的名称应与`.csv`文件的名称匹配。 例如，如果`.csv`文件是`crm_small.csv`，则`.zip`文件应该是`crm_small.csv.zip`。 `.fin`文件必须匹配`.csv`。 |
+| `.gz` 或 `.zip` | `.gz` (gzip)或`.zip` — 用于压缩文件。 `.zip`文件不能在存档中包含多个文件。 命名要求： `.zip`或`.gz`的名称应与`.csv`文件的名称匹配。 例如，如果`.csv`文件是`crm_small.csv`，则`.zip`文件应该是`crm_small.csv.zip`。 `.fin`文件必须匹配`.csv`。 |
 
 
 ## 属性数据文件的要求
@@ -59,7 +59,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户ID列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，设置customerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此ID是在人员登录时使用<span class="codeph"> setcustomerIDs </span>调用设置的。 在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过setcustomerID）。 CRM 文件将应用于该数据存储中的数据。 </p> <p>有关<span class="codeph"> setcustomerID </span>的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans" format="https" scope="external">客户ID和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。使用的 ID 应该与传递给 Experience Cloud ID 服务的 ID 相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，设置customerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。其余列为来自 CRM 的属性。您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。此ID是在人员登录时使用<span class="codeph"> setcustomerIDs </span>调用设置的。 在上传到Experience Cloud的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。系统将别名发送到此数据存储（通过setcustomerID）。 CRM 文件将应用于该数据存储中的数据。 </p> <p>有关<span class="codeph"> setcustomerID </span>的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户ID和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（有关详细信息，请参阅[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。）
+（有关详细信息，请参阅[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
 
 在&#x200B;**[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**&#x200B;中：
 

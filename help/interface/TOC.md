@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 界面和管理
 title: Experience Cloud 界面和管理
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 96%
+source-wordcount: '198'
+ht-degree: 89%
 
 ---
 
@@ -16,31 +16,28 @@ ht-degree: 96%
 # Experience Cloud 界面和管理 {#interface}
 
 + [Experience Cloud 界面和管理](experience-cloud.md)
-+ [隐藏主页](hidden-experience-cloud.md)
 + 服务 {#services}
-   + [概述](services/overview.md)
+   + [服务概述](services/overview.md)
    + [快速入门](services/getting-started.md)
-   + [隐藏的概述](services/hidden-overview.md)
-   + [隐藏开始使用](services/hidden-getting-started.md)
    + 资产 {#assets}
-      + [概述](services/assets/experience-cloud-assets.md)
+      + [Assets概述](services/assets/experience-cloud-assets.md)
       + [管理 Creative Cloud 用户](services/assets/manage-cc-users.md)
       + [共享资源文件夹](services/assets/share.md)
       + [将资源上传到共享文件夹](services/assets/upload.md)
       + [针对共享的资源文件要求](services/assets/file-reqs.md)
       + [共享文件夹的行为](services/assets/behavior.md)
    + 受众库 {#audiences}
-      + [概述](services/audiences/overview.md)
+      + [受众概述](services/audiences/overview.md)
       + [创建受众](services/audiences/create.md)
-   + [交换](services/exchange.md)
+   + [Adobe Exchange](services/exchange.md)
    + 客户属性 {#customer-attributes}
-      + [概述](services/customer-attributes/attributes.md)
-      + [常见问题解答](services/customer-attributes/faq-crs.md)
-      + [关于数据文件和数据源](services/customer-attributes/crs-data-file.md)
-      + [创建并上传数据文件](services/customer-attributes/t-crs-usecase.md)
+      + [客户属性概述](services/customer-attributes/attributes.md)
+      + [常见问题](services/customer-attributes/faq-crs.md)
+      + [数据文件和源](services/customer-attributes/crs-data-file.md)
+      + [创建和上传数据](services/customer-attributes/t-crs-usecase.md)
       + [可选 - 通过 FTP 上传](services/customer-attributes/t-upload-attributes-ftp.md)
       + [验证架构](services/customer-attributes/validate-schema.md)
-      + [配置订阅和激活数据源](services/customer-attributes/subscription.md)
+      + [配置订阅](services/customer-attributes/subscription.md)
       + [更新架构](services/customer-attributes/t-update-schema.md)
       + [支持 GDPR](services/customer-attributes/gdpr.md)
       + [支持 CCPA](services/customer-attributes/ccpa.md)
@@ -51,13 +48,13 @@ ht-degree: 96%
    + [生成式 AI](features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
    + [统一搜索](features/search.md)
-   + [个性化学习](features/personalized-learning.md)
+   + [个性化的学习偏好设置](features/personalized-learning.md)
    + [浏览器和语言支持](browser-language.md)
 + 管理 {#administration}
-   + [用户管理和产品许可证](administration/admin-console.md)
-   + [查看用户详情（管理员工具）](administration/admin-tool-experience-cloud.md)
-   + [组织](administration/organizations.md)
-   + [Experience Cloud 集成](administration/integrations.md)
+   + [用户和产品管理](administration/admin-console.md)
+   + [管理工具](administration/admin-tool-experience-cloud.md)
+   + [组织和帐户关联](administration/organizations.md)
+   + [集成](administration/integrations.md)
 + 数据收集 {#data-collection}
    + [Adobe 管理的证书计划](data-collection/adobe-managed-cert.md)
    + [IP 地址](data-collection/ip-addresses.md)

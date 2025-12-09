@@ -3,14 +3,14 @@ description: 通过电子邮件、在您的Experience Cloud产品中以及在Exp
 solution: Experience Cloud
 title: Experience Cloud 个性化的学习偏好设置
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '103'
+ht-degree: 19%
 
 ---
 
-# 个性化的学习推荐和促销
+# 个性化的学习偏好设置
 
 Adobe会根据您在Adobe产品中的工作，为您提供量身定制的有用内容。 产品使用情况数据会告知我们如何为您定制此上下文。 您可以在[Experience Cloud首选项](https://experience.adobe.com/preferences)页面上选择加入或选择退出共享您的产品使用数据。
 

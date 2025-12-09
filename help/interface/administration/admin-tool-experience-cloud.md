@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1178'
 ht-degree: 76%
 
 ---
 
-# 在[!UICONTROL Admin Tool]中查看Experience Cloud用户和策略
+# Experience Cloud [!UICONTROL Admin Tool]
 
 管理员可以在[!UICONTROL Admin Tool]中查看所有Experience Cloud用户和策略的可排序和可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
 

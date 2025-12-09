@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 84%
+source-wordcount: '633'
+ht-degree: 80%
 
 ---
 
-# 对象和实体的[!UICONTROL Unified Search]
+# Experience Cloud 中的 [!UICONTROL Unified Search]
 
 通过[!UICONTROL Unified Search]搜索，您可以在一种无缝、一致、一键式的体验中查找可搜索的业务对象或实体。 此搜索还会显示您最近访问的对象。
 
 ![全局搜索对象和实体](../assets/platform-search.png)
 
-## 访问统一搜索功能
+## 访问 [!UICONTROL Unified Search]
 
-可以在每个页面的顶部的 Experience Cloud 标题中找到统一搜索功能。您也可以使用键盘快捷键 `command /` 或 `ctrl /` 来访问此搜索功能。
+[!UICONTROL Unified Search]在每个页面的顶部的Experience Cloud标题中均可用。 您也可以使用键盘快捷键 `command /` 或 `ctrl /` 来访问此搜索功能。
 
 此功能仅适用于受支持的产品，这些产品目前为：
 
@@ -42,7 +42,7 @@ ht-degree: 84%
 匹配百分比
 是否有准确匹配项
 
-![Experience Cloud 中的统一搜索](../assets/unified-search-results.png)
+Experience Cloud中的![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
 
 可搜索的业务对象包括：
 
@@ -61,23 +61,23 @@ ht-degree: 84%
 
 还可从 Experience League 和 Communities 找到帮助文章。支持自然语言查询。
 
-例如，_如何创建架构_&#x200B;将从Experience League中生成&#x200B;_[!UICONTROL Learning]_&#x200B;下的结果：
+例如，_如何创建架构_&#x200B;将从Experience League中生成&#x200B;_[!UICONTROL Learning]_下的结果：
 
-![Experience Cloud 中的统一搜索帮助](../assets/unified-search-learning.png)
+Experience Cloud帮助中的![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
 搜索算法首先显示最相关的记录。结果的顺序取决于多种因素，如：
 
 * 用户是否有权访问对象
 * 匹配百分比
 * 精确匹配
-* _[!UICONTROL Top Results]_&#x200B;部分显示前30个结果。
+* _[!UICONTROL Top Results]_部分显示前30个结果。
 
 要细化搜索，请单击以下各项之一：
 
 * **[!UICONTROL All Learning]**：在Experience League中打开搜索。
 * **[!UICONTROL Show all...]**：使您可进一步细化和筛选结果。
 
-## 统一搜索功能
+## [!UICONTROL Unified Search]功能
 
 下列功能适用于统一搜索功能。
 
