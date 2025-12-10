@@ -1,5 +1,5 @@
 ---
-description: 了解Experience Cloud服务（如客户属性、受众和用户管理）的最新功能、发行说明和已知问题。
+description: 了解客户属性、受众和用户管理等各项 Experience Cloud 服务的最新功能、发行说明和已知问题。
 solution: Experience Cloud
 title: Experience Cloud 界面的累积发行说明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
 workflow-type: tm+mt
 source-wordcount: '1273'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -66,21 +66,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## 2023 年 5 月
 
-* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;菜单中，已更新内容搜索，以便在[Experience League](https://experienceleague.adobe.com/zh-hans#home)搜索结果中按应用程序进行筛选。
+* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;菜单中，已更新内容搜索，以便在[Experience League](https://experienceleague.adobe.com/#home)搜索结果中按应用程序进行筛选。
 
 ## 2022 年 7 月
 
@@ -151,7 +151,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。<br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
-| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
+| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到[Experience League](https://experienceleague.adobe.com/docs/)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 描述 |
 | ------- | ------- |
 | Experience Cloud 标题和导航 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
-| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
+| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
 | Experience Cloud 语言偏好设置 | 此更新包括可在 Experience Cloud [偏好设置](https://experience.adobe.com/preferences)中设置您的首选语言。 |
 
 {style="table-layout:auto"}
@@ -188,7 +188,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **修复**
 
-* **客户属性：**&#x200B;客户属性UI现在显示Target中同步的其他配置文件状态。 (MCUI-10231)
+* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他轮廓状态。(MCUI-10231)
 * **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
 
 ## 2020 月 1 日
@@ -207,7 +207,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Updated the app switcher to include Marketo in Experience Cloud application suite, and branding updates to Experience Platform. (MCUI-6529)
 * Updated Experience Cloud Home to include navigation links to the Feed and Administration pages. (MCUI-6682)
 * Fixed an issue in the [!UICONTROL Trigger] definition for correct usage of "like" clause. (MCUI-6611)
-* Improvements to Customer attributes for better logging in the Subscription service. (MCUI-6519)
+* Improvements to Customer Attributes for better logging in the Subscription service. (MCUI-6519)
 
 ## January 2019
 
@@ -258,9 +258,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Feature | Description |
 |--- |--- |
-|Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [customer attributes](../services/customer-attributes/attributes.md) upload activity.|
+|Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -366,7 +366,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## September 2015
 
-* Fixed an Audience Manager API performance issue causing intermittent timeouts when uploading customer attributes data. (MAC-26305)
+* Fixed an Audience Manager API performance issue causing intermittent timeouts when uploading Customer Attributes data. (MAC-26305)
 * Fixed an issue that prevented users from adding up to 200 customer attributes to a subscription. (MAC-26188)
 * Fixed an Audience Library issue that prevented audience sharing from Analytics segmentation. This issue caused "Collecting Data" (0 audiences) to display. To prevent this issue, Adobe recommends keeping the segment sizes under 50k audience members per segment. (MAC-25788)
 * Fixed a previous known issue on the customer attributes - Edit Schema page that was causing a Content Aware error that was issued when changing a display name. (MAC-25589, AN-103834)
@@ -404,7 +404,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
 
 ## April 2015
@@ -448,7 +448,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Customer attributes </p> </td> 
+   <td colname="col1"> <p>Customer Attributes </p> </td> 
    <td colname="col2"> <p>If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a customer attribute data source in Experience Cloud. After the data is uploaded, you can run <span class="uicontrol"> Visitor Profile</span> &gt; <span class="uicontrol"> customer attributes</span> reports in Analytics. </p> <p>You can also use the uploaded data as an audience segment in <span class="keyword"> Adobe Target</span>. </p> <p>See <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> customer attributes</a> product documentation. </p> </td> 
   </tr> 
  </tbody> 

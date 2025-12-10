@@ -1,5 +1,5 @@
 ---
-description: 了解 Experience Cloud 的中央界面组件。在 Admin Console 中获取用户和产品管理帮助，启用 Experience Cloud Service 的应用程序。获取有关受众库、客户属性、Experience Cloud Assets等的帮助。
+description: 了解 Experience Cloud 的中央界面组件。在 Admin Console 中获取用户和产品管理帮助，启用 Experience Cloud Service 的应用程序。获取受众库、客户属性、Experience Cloud Assets 等方面的帮助。
 title: Experience Cloud 界面文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ To access Experience Cloud applications and services provisioned for you within 
 
 ## Get help and support 
 
-Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/zh-hans#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
 ![Get help and support](assets/search-menu.png)
 
@@ -220,7 +220,7 @@ Learn about the latest enhancements to Experience Cloud central interface compon
 
 You can configure your account preferences to send Experience Cloud notifications to a [!DNL Slack] channel. 
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
 >[!TAB New Campaign Web User Interface] 
@@ -308,7 +308,6 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
-
 ## 其他资源
 
 [Adobe Campaign v8 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web 用户界面文档](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hans){target="_blank"} - [教程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-CN){target="_blank"} - [[!DNL Adobe Campaign] 自动化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hans){target="_blank"} - [Campaign v8 的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans){target="_blank"}

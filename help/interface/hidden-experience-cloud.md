@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -59,7 +59,7 @@ ht-degree: 83%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
