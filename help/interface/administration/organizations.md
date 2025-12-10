@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 50%
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 如果您的组织使用 Federated ID，则 Experience Cloud 允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。将 `#/sso:@domain` 添加到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任务。
 
-例如，对于带 Federated ID 和域 `adobecustomer.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
 ## 查看您的组织ID
 
@@ -100,6 +100,6 @@ ht-degree: 50%
 
 通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。当帐户关联失败时，您可以：
 
-* [联系 Adobe 支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
+* [联系 Adobe 支持](https://experienceleague.adobe.com/?support-solution=General#support)。
 * 在我们着手解决问题的同时，使用标准登录访问您的应用程序。
 

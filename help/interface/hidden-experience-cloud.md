@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -47,7 +47,7 @@ ht-degree: 83%
 
    如果您的组织使用 Federated ID，则 Experience Cloud 允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。将 `#/sso:@domain` 添加到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任务。
 
-   例如，对于带 Federated ID 和域 `adobecustomer.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。）
+   例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。（例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
 ## 访问 Experience Cloud 应用程序 {#navigation}
 
@@ -59,7 +59,7 @@ ht-degree: 83%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
