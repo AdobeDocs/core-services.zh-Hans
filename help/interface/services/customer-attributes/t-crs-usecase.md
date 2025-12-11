@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1061'
 ht-degree: 47%
 
 ---
@@ -23,11 +23,7 @@ ht-degree: 47%
 
 ![客户属性工作流程](assets/crs.png)
 
-## 找到[!DNL Customer Attributes]
-
-在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
-
-## 使用[!DNL Customer Attributes]的先决条件
+## 使用[!DNL Customer Attributes]的先决条件 {#prerequisites}
 
 * **组成员资格：**&#x200B;要上传数据，用户必须是[!DNL Customer Attributes]组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
@@ -37,7 +33,7 @@ ht-degree: 47%
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hans)。
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)。
 
 ## 创建数据文件
 
@@ -58,13 +54,13 @@ ht-degree: 47%
 
 ## 创建属性源并上传数据文件
 
-在Experience Cloud的[!UICONTROL Create Customer Attribute Source]页面上执行这些步骤。
+在Experience Cloud的&#x200B;_[!UICONTROL Create Customer Attribute Source]_页面上执行这些步骤。
 
 >[!IMPORTANT]
 >
 >创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。联系Audience Manager客户关怀团队或咨询以获取管理权限。
 
-1. 在[!DNL Experience Cloud]中，单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
+1. 要打开[!UICONTROL Customer Attributes]，请单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
    ![客户属性页面](assets/cust-attr.png)
 
@@ -86,9 +82,9 @@ ht-degree: 47%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL customer Settings]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)值。
+      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL customer Settings]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
 
-      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -110,11 +106,11 @@ ht-degree: 47%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
+   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
 
 1. 单击 **[!UICONTROL Save]**。
 
-## 上传文件
+## 上传文件 {#upload-customer-attributes}
 
 客户属性记录已创建，您可以通过编辑客户属性来上传文件。
 
@@ -140,7 +136,7 @@ ht-degree: 47%
 
 * **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。到那时，系统会使客户提供的ID无效，且不再分发关联的属性。—>
 
-## 验证架构
+## 验证架构 {#validate-schema}
 
 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。您还可以通过更新架构来删除属性。
 

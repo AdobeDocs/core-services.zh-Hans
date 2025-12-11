@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1917'
-ht-degree: 82%
+source-wordcount: '1919'
+ht-degree: 81%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >对于 [!DNL Target]，请从 `mbox.js` 迁移到 at.js。请参阅[从 at.js 1. x 升级到 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=zh-Hans)。
+   >对于 [!DNL Target]，请从 `mbox.js` 迁移到 at.js。请参阅[从 at.js 1. x 升级到 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html)。
 
 1. 在[!UICONTROL Admin Console]中管理用户和产品。
 
@@ -70,9 +70,9 @@ Experience Cloud菜单导航中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 [!UICONTROL Experience Cloud ID Service]为跨应用程序集成提供了一个通用ID。 它提供了跨域访客标识功能，并为基于通过[!DNL Customer Attributes]上传的CRM数据进行跨设备/浏览器定位和个性化提供了一种途径。
 
-启用Experience Cloud核心服务的最简单方法是，通过[中的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)Experience Cloud ID服务扩展[!UICONTROL Experience Platform Launch]，为Analytics和Adobe Target自动激活核心服务。
+启用Experience Cloud核心服务的最简单方法是，通过[中的](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)Experience Cloud ID服务扩展[!UICONTROL Experience Platform Launch]，为Analytics和Adobe Target自动激活核心服务。
 
-有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans#intro)。
+有关完整的 Experience Cloud ID 服务帮助（以前称为访客 ID），请转到[此处](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)。
 
 **未使用[!UICONTROL Experience Platform tags]？**
 
@@ -80,14 +80,14 @@ Experience Cloud菜单导航中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 | 任务 | 描述 |
 | -----------| ---------- |
-| [实施适用于 Analytics 的 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=zh-Hans) | Adobe 还建议设置其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。这些 ID 与每个访客相关联，并可以启用 Experience Cloud 中现有和未来的功能。 |
-| 将现有的 `s_code` 更新到 H.27.3 或更高版本，或将现有的 `AppMeasurement.js` 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hans)中下载获得。（如果您需要了解有关 `AppMeasurement.js` 的更多信息，请参阅 [JavaScript 实施](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hans#js)指南。） |
+| [实施适用于 Analytics 的 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html) | Adobe 还建议设置其他[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。这些 ID 与每个访客相关联，并可以启用 Experience Cloud 中现有和未来的功能。 |
+| 将现有的 `s_code` 更新到 H.27.3 或更高版本，或将现有的 `AppMeasurement.js` 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)中下载获得。（如果您需要了解有关 `AppMeasurement.js` 的更多信息，请参阅 [JavaScript 实施](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html#js)指南。） |
 
 {style="table-layout:auto"}
 
 ### Analytics 和 Adobe Target - 同步客户 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans) 与 Experience Cloud 同步。
+在设置 Experience Cloud ID 服务时，Adobe 建议您针对 Analytics 和 [!DNL Target] 考虑将自己的[客户 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) 与 Experience Cloud 同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 必须获取客户 ID 并将其发送给 [!DNL Target]。（请参阅 [!DNL Target] 中的[使用客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。）
 
@@ -125,15 +125,15 @@ Experience Cloud服务(例如Experience Cloud ID服务)与Experience Cloud组织
 
 ## 更新 Analytics AppMeasurement 代码 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hans)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
+如果您使用的是第一方 Cookie，请参阅 [CNAME 和 Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html)，以获取有关数据收集 CNAME 和跨域跟踪的信息。
 
-建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。一个简单方法是在 Experience Platform 数据收集中添加 [Adobe Analytics 扩展。](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)
+建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。一个简单方法是在 Experience Platform 数据收集中添加 [Adobe Analytics 扩展。](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)
 
 ## 更新 Adobe Target 实施 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建议您在[标记中添加](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans)Adobe Target扩展[!UICONTROL Experience Platform]，以便自动检索库。 您还可以使用[标记为Adobe Target（和其他应用程序）设置](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)Experience Cloud ID服务扩展[!UICONTROL Experience Platform]。 需要[!UICONTROL Experience Cloud ID Service]更新&#x200B;**才能Adobe Target使用People服务**。
-* 如果您没有使用[!UICONTROL Experience Platform]标记，请手动[更新mbox库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans)。
-* 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
+* 建议您在[标记中添加](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)Adobe Target扩展[!UICONTROL Experience Platform]，以便自动检索库。 您还可以使用[标记为Adobe Target（和其他应用程序）设置](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)Experience Cloud ID服务扩展[!UICONTROL Experience Platform]。 需要[!UICONTROL Experience Cloud ID Service]更新&#x200B;**才能Adobe Target使用People服务**。
+* 如果您没有使用[!UICONTROL Experience Platform]标记，请手动[更新mbox库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)。
+* 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
 
   >[!IMPORTANT]
   >

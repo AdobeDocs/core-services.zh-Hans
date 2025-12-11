@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 50%
+source-wordcount: '573'
+ht-degree: 48%
 
 ---
 
@@ -100,6 +100,6 @@ ht-degree: 50%
 
 通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。当帐户关联失败时，您可以：
 
-* [联系 Adobe 支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
+* [联系 Adobe 支持](https://experienceleague.adobe.com/?support-solution=General#support)。
 * 在我们着手解决问题的同时，使用标准登录访问您的应用程序。
 
