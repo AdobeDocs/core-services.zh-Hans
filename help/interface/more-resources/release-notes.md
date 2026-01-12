@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
+source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 75%
+source-wordcount: '1330'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| **2026年1月15日** | 可自定义的左侧导航 | Experience Cloud中的Unified Shell左侧导航现在可自定义。 您可以对导航项目重新排序，并快速访问最重要的功能。 此更新通过简化工作流程、减少认知负载和支持完全键盘辅助功能提高了效率。 它保留了跨应用程序的一致现代设计，并支持未来的个性化。 |
+| **2026年1月15日** | 可自定义的左侧导航 | 您现在可以在Experience Cloud中自定义左侧导航。 重新排序导航项目并快速访问最重要的功能。 此更新可帮助您简化工作流程、减少认知负担，并支持完整的键盘辅助功能。 它保留了跨应用程序的一致现代设计，并支持未来的个性化。 |
 
 ## 2025 年 9 月
 
