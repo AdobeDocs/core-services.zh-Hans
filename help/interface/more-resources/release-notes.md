@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 75%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 有关文档更新的列表，请参阅[文档更新](doc-updates.md)。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
+
+## 2026 年 1 月
+
+| 日期 | 更新 | 描述 |
+| -----------| -----------| ---------- |
+| **2026年1月15日** | 可自定义的左侧导航 | Experience Cloud中的Unified Shell左侧导航现在可自定义。 您可以对导航项目重新排序，并快速访问最重要的功能。 此更新通过简化工作流程、减少认知负载和支持完全键盘辅助功能提高了效率。 它保留了跨应用程序的一致现代设计，并支持未来的个性化。 |
 
 ## 2025 年 9 月
 
@@ -46,7 +52,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 功能 | 描述 |
 | -----------| -----------| ---------- |
-| 1 月 9 日 | 产品使用数据 | 为了更便于控制Experience Cloud产品使用数据偏好设置，我们简化了Experience Cloud [偏好设置](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前用户偏好设置，您可以随时通过 [Experience Cloud 偏好设置](https://experience.adobe.com/preferences) 更新您的偏好设置。 |
+| 9 年 1 月 | 产品使用数据 | 为了更便于控制Experience Cloud产品使用数据偏好设置，我们简化了Experience Cloud [偏好设置](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前用户偏好设置，您可以随时通过 [Experience Cloud 偏好设置](https://experience.adobe.com/preferences) 更新您的偏好设置。 |
 
 ## 2024年10月2
 
@@ -191,7 +197,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他轮廓状态。(MCUI-10231)
 * **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
 
-## 2020 月 1 日
+## 2020 年 1 月
 
 * “信息源”页面已在 2019 年 12 月被弃用。请查看产品内的弃用通知。(MCUI-10039)
 
