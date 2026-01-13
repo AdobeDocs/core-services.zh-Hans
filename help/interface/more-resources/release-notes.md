@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
+source-git-commit: f04dc50d480befa9c9f94711871ce2ecea51f9c8
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1337'
 ht-degree: 76%
 
 ---
@@ -26,9 +26,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 ## 2026 年 1 月
 
-| 日期 | 更新 | 描述 |
-| -----------| -----------| ---------- |
-| **2026年1月15日** | 可自定义的左侧导航 | 您现在可以在Experience Cloud中自定义左侧导航。 重新排序导航项目并快速访问最重要的功能。 此更新可帮助您简化工作流程、减少认知负担，并支持完整的键盘辅助功能。 它保留了跨应用程序的一致现代设计，并支持未来的个性化。 |
+| 日期 | 更新 | 描述 | 适用的产品 |
+| -----------| -----------| ---------- | ---------- |
+| **2026年1月14日** | 可自定义的左侧导航菜单 | 您现在可以在Experience Cloud中自定义应用程序的左侧导航菜单。 重新排序导航项目并控制其可见性，以快速访问最重要的功能。 此更新可帮助您简化工作流程、减少认知负担，并支持完整的键盘辅助功能。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
@@ -72,21 +72,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## 2023 年 5 月
 
-* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;菜单中，已更新内容搜索，以便在[Experience League](https://experienceleague.adobe.com/zh-hans#home)搜索结果中按应用程序进行筛选。
+* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;菜单中，已更新内容搜索，以便在[Experience League](https://experienceleague.adobe.com/#home)搜索结果中按应用程序进行筛选。
 
 ## 2022 年 7 月
 
@@ -157,7 +157,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。<br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
-| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
+| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到[Experience League](https://experienceleague.adobe.com/docs/)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
 
 {style="table-layout:auto"}
 
@@ -166,7 +166,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 描述 |
 | ------- | ------- |
 | Experience Cloud 标题和导航 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
-| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
+| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
 | Experience Cloud 语言偏好设置 | 此更新包括可在 Experience Cloud [偏好设置](https://experience.adobe.com/preferences)中设置您的首选语言。 |
 
 {style="table-layout:auto"}
@@ -266,7 +266,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 |--- |--- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -410,7 +410,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
 
 ## April 2015
