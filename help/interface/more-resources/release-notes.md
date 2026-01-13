@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
+source-git-commit: f04dc50d480befa9c9f94711871ce2ecea51f9c8
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1337'
 ht-degree: 76%
 
 ---
@@ -26,9 +26,9 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 ## 2026 年 1 月
 
-| 日期 | 更新 | 描述 |
-| -----------| -----------| ---------- |
-| **2026年1月15日** | 可自定义的左侧导航 | 您现在可以在Experience Cloud中自定义左侧导航。 重新排序导航项目并快速访问最重要的功能。 此更新可帮助您简化工作流程、减少认知负担，并支持完整的键盘辅助功能。 它保留了跨应用程序的一致现代设计，并支持未来的个性化。 |
+| 日期 | 更新 | 描述 | 适用的产品 |
+| -----------| -----------| ---------- | ---------- |
+| **2026年1月14日** | 可自定义的左侧导航菜单 | 您现在可以在Experience Cloud中自定义应用程序的左侧导航菜单。 重新排序导航项目并控制其可见性，以快速访问最重要的功能。 此更新可帮助您简化工作流程、减少认知负担，并支持完整的键盘辅助功能。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
