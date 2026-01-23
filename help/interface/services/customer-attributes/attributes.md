@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
+source-git-commit: e7f83c8b302a98e6677fb53018738b3b654ab695
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 61%
+source-wordcount: '306'
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 **[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Experience Cloud 中的 [!DNL Customer Attributes] 允许您上传从客户关系管理 (CRM) 数据库中捕获的企业数据。您可以[将数据](t-crs-usecase.md)上传到Experience Cloud中的[!DNL Customer Attributes]数据源，然后在[!DNL Adobe Analytics]和[!DNL Adobe Target]中使用这些数据。
+Adobe Experience Cloud中的[!DNL Customer Attributes]允许您上传从客户关系管理(CRM)数据库中捕获的企业数据。 您可以[将数据](t-crs-usecase.md)上传到Experience Cloud中的[!DNL Customer Attributes]数据源，然后在[!DNL Adobe Analytics]和[!DNL Adobe Target]中使用这些数据。
 
 ![客户属性概述](assets/custom_reports.png)
 
