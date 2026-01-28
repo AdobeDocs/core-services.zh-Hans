@@ -2,21 +2,20 @@
 title: 代理作业和AI信用消耗
 description: 了解Experience Cloud应用程序中的代理作业和AI信用消耗。
 solution: Experience Cloud
-landing-page-name: ai
-landing-page-breadcrumb-title: AI Documentation
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
+source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '380'
 ht-degree: 14%
 
 ---
 
-
 # 代理作业和AI信用消耗
+
+了解Experience Cloud应用程序中的智能人工智能就业和人工智能信用消费。
 
 ## 代理作业
 
@@ -26,9 +25,9 @@ ht-degree: 14%
 
 ## AI积分
 
-**AI信用**&#x200B;是一个基于使用情况的量度，它量化了代理作业的执行情况。 AI积分不适用于AI优先的应用程序。
+**AI点数**&#x200B;是一个基于使用情况的量度，它量化了代理作业的执行情况。 AI积分不适用于AI优先的应用程序。
 
-## AI信用使用
+## AI信用消费
 
 根据所执行作业的复杂性和价值，AI信用使用可能有所不同：
 
@@ -36,9 +35,9 @@ ht-degree: 14%
 * 复杂（通常为多步）任务会消耗更多积分
 * 涉及高级推理、验证、多代理协调或集成的任务消耗更多积分
 
-### 估计的AI信用消耗率
+### 估计的人工智能信贷消费率
 
-| 代理 | 作业 | 支持的应用程序 | 预计的AI积分 |
+| 代理 | 作业 | 支持的应用程序 | 估计的AI积分 |
 |------|-----|------------------------|----------------------|
 | Audience 代理 | 受众/帐户构思 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 50 |
 | Audience 代理 | 基于知识的受众/帐户创建 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 150 |
@@ -58,5 +57,6 @@ ht-degree: 14%
 | 品牌体验代理 | 部署支持 | <ul><li>Adobe Experience Manager云服务</li></ul> | 5 |
 | 品牌体验代理 | 站点现代化 | <ul><li>Adobe Experience Manager云服务</li></ul> | 100 |
 
-**注意：**&#x200B;实际人工智能点数消耗可能因执行的步骤数和每步骤的迭代数而异。
-
+>[!NOTE]
+>
+>根据执行的步骤数和每步骤的迭代数，实际AI点数消耗可能会有所不同。
