@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6be65dde7c10f5f51786c0ce01e3ec82379c775f
+source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 9%
@@ -16,19 +16,19 @@ ht-degree: 9%
 ---
 
 
-## 代理作业和AI信用消耗
+# 代理作业和AI信用消耗
 
-### 代理作业
+## 代理作业
 
 **代理作业**&#x200B;是代理执行的一系列任务和操作，以实现客户输入所指示的特定结果。
 
 客户可以通过人工智能助手使用自然语言提示，要求代理执行特定的作业。 根据这些输入，Agent Orchestrator协调相应的代理，以在相关的Experience Cloud应用程序中执行每个步骤。
 
-### AI积分
+## AI积分
 
 **AI信用**&#x200B;是一个基于使用情况的量度，它量化了代理作业的执行情况。 AI积分不适用于AI优先的应用程序。
 
-### AI信用使用
+## AI信用使用
 
 根据所执行作业的复杂性和价值，AI信用使用可能有所不同：
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 * 复杂（通常为多步）任务会消耗更多积分
 * 涉及高级推理、验证、多代理协调或集成的任务消耗更多积分
 
-#### 估计的AI信用消耗率
+### 估计的AI信用消耗率
 
 | 代理 | 作业 | 支持的应用程序 | 预计的AI积分 |
 |------|-----|------------------------|----------------------|
