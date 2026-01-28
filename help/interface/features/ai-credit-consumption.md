@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
+source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -40,23 +40,23 @@ ht-degree: 9%
 
 | 代理 | 作业 | 支持的应用程序 | 预计的AI积分 |
 |------|-----|------------------------|----------------------|
-| Audience 代理 | 受众/帐户构思 | Real-Time CDP；Adobe Journey Optimizer | 50 |
-| Audience 代理 | 基于知识的受众/帐户创建 | Real-Time CDP；Adobe Journey Optimizer | 150 |
-| Audience 代理 | 受众/帐户管理 | Real-Time CDP；Adobe Journey Optimizer | 25 |
-| Audience 代理 | 受众/帐户分析 | Real-Time CDP；Adobe Journey Optimizer | 25 |
-| Audience 代理 | 购买团体创意 | Adobe Journey Optimizer (B2B) | 25 |
-| Data Insights Agent | 数据分析和可视化 | Customer Journey Analytics | 25 |
-| Data Insights Agent | 数据storytelling和共享 | Customer Journey Analytics | 100 |
-| Journey Agent | 历程构思 | Adobe Journey Optimizer (B2B) | 25 |
-| Journey Agent | 历程创建 | Adobe Journey Optimizer (B2B、B2C) | 30 |
-| Journey Agent | 历程分析 | Adobe Journey Optimizer (B2B、B2C) | 50 |
-| Journey Agent | 历程管理 | Adobe Journey Optimizer (B2B、B2C) | 25 |
-| 产品支持代理 | 基于知识的故障排除 | 多个Experience Cloud应用程序 | 0 |
-| 产品支持代理 | 支持案例创建和跟踪 | 多个Experience Cloud应用程序 | 10 |
-| 内容审查程序代理 | 内容发现 | Adobe Experience Manager云服务 | 5 |
-| 内容审查程序代理 | 内容更新和优化 | Adobe Experience Manager云服务 | 10 |
-| 品牌体验代理 | 部署支持 | Adobe Experience Manager云服务 | 5 |
-| 品牌体验代理 | 站点现代化 | Adobe Experience Manager云服务 | 100 |
+| Audience 代理 | 受众/帐户构思 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 50 |
+| Audience 代理 | 基于知识的受众/帐户创建 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 150 |
+| Audience 代理 | 受众/帐户管理 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
+| Audience 代理 | 受众/帐户分析 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
+| Audience 代理 | 购买团体创意 | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
+| Data Insights Agent | 数据分析和可视化 | <ul><li>Customer Journey Analytics</li></ul> | 25 |
+| Data Insights Agent | 数据storytelling和共享 | <ul><li>Customer Journey Analytics</li></ul> | 100 |
+| Journey Agent | 历程构思 | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
+| Journey Agent | 历程创建 | <ul><li>Adobe Journey Optimizer (B2B、B2C)</li></ul> | 30 |
+| Journey Agent | 历程分析 | <ul><li>Adobe Journey Optimizer (B2B、B2C)</li></ul> | 50 |
+| Journey Agent | 历程管理 | <ul><li>Adobe Journey Optimizer (B2B、B2C)</li></ul> | 25 |
+| 产品支持代理 | 基于知识的故障排除 | <ul><li>多个Experience Cloud应用程序</li></ul> | 0 |
+| 产品支持代理 | 支持案例创建和跟踪 | <ul><li>多个Experience Cloud应用程序</li></ul> | 10 |
+| 内容审查程序代理 | 内容发现 | <ul><li>Adobe Experience Manager云服务</li></ul> | 5 |
+| 内容审查程序代理 | 内容更新和优化 | <ul><li>Adobe Experience Manager云服务</li></ul> | 10 |
+| 品牌体验代理 | 部署支持 | <ul><li>Adobe Experience Manager云服务</li></ul> | 5 |
+| 品牌体验代理 | 站点现代化 | <ul><li>Adobe Experience Manager云服务</li></ul> | 100 |
 
 **注意：**&#x200B;实际人工智能点数消耗可能因执行的步骤数和每步骤的迭代数而异。
 
