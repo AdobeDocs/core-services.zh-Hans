@@ -9,10 +9,10 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 46163c8e95de36914f9a4ec5336712a2b137a587
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 2%
+source-wordcount: '875'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 更新日期：**2026年1月29日**
 
-Adobe Experience Platform代理使用Experience Platform [Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)向Experience Cloud应用程序添加基于代理的功能。
+Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)提供支持，以在Experience Cloud应用程序中启用代理AI功能。
 
 这些代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，并从Experience Cloud中获得更多价值。
 
@@ -43,7 +43,7 @@ Adobe Experience Platform代理使用Experience Platform [Agent Orchestrator](ht
 
 使用AI代理执行&#x200B;_代理作业_&#x200B;将使用AI积分。 了解有关&#x200B;_[代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)_&#x200B;中的代理作业和AI信用消耗的详细信息。
 
-AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行作业或访问您有权在基础Experience Cloud产品中使用的数据。
+AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行您有权在基础Experience Cloud应用程序中使用的作业或访问数据。
 
 ### 现有Experience Cloud应用程序中的AI代理 {#existing-apps-table}
 
@@ -57,7 +57,7 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 | **品牌体验代理** | [部署支持](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/development/overview)：通过分析根本原因并提出修复建议，帮助AEM CS开发人员和技术管理员解决Cloud Manager管道中的构建步骤失败问题。 | <ul><li>AEM Cloud Service和Adobe Managed Services中的AI助手</li></ul> |
 | **品牌治理代理*** | [品牌治理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview)：通过在Experience Manager中强制实施安全、法规和品牌策略，保护品牌完整性和合规性。 该代理应用品牌治理来维护可视化和报文传送标准。 它使用细粒度权限来管理访问和内容更改，并采用DRM来维护许可和使用限制。 | <ul><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Forms</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 使您的团队能够快速创建、分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> |
-| [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/new-features/customer-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/new-features/customer-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
 
 星号(*)：客户可通过资源管理器程序访问此代理。 资源管理器程序是一个仅受邀请的程序，它提供对Adobe最新代理功能的早期访问。 有关更多信息，请联系您的客户代表。
 
