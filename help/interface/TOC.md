@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 界面和管理
 title: Experience Cloud 界面和管理
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
-source-git-commit: 8c8e85c0c5f19191adfd72e20cfb1edd258179f6
+source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 86%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 86%
 # Experience Cloud 界面和管理 {#interface}
 
 + [Experience Cloud 界面和管理](/help/interface/experience-cloud.md)
++ Experience Cloud 中的 AI {#features}
+   + [生成式 AI](/help/interface/features/generative-ai.md)
+   + [代理式 AI](/help/interface/features/agentic-ai.md)
+   + [代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
++ 管理 {#administration}
+   + [帐户偏好设置和通知](/help/interface/features/account-preferences.md)
+   + [浏览器和语言支持](/help/interface/browser-language.md)
+   + [用户和产品管理](/help/interface/administration/admin-console.md)
+   + [管理工具](/help/interface/administration/admin-tool-experience-cloud.md)
+   + [组织和帐户关联](/help/interface/administration/organizations.md)
+   + [集成](/help/interface/administration/integrations.md)
+   + [统一搜索](/help/interface/features/search.md)
+   + [个性化的学习偏好设置](/help/interface/features/personalized-learning.md)
 + 界面服务 {#services}
    + [界面概述](/help/interface/services/overview.md)
    + [快速入门](/help/interface/services/getting-started.md)
@@ -29,7 +42,6 @@ ht-degree: 86%
    + 受众库 {#audiences}
       + [受众概述](/help/interface/services/audiences/overview.md)
       + [创建受众](/help/interface/services/audiences/create.md)
-   + [Adobe Exchange](/help/interface/services/exchange.md)
    + 客户属性 {#customer-attributes}
       + [客户属性概述](/help/interface/services/customer-attributes/attributes.md)
       + [常见问题](/help/interface/services/customer-attributes/faq-crs.md)
@@ -43,19 +55,7 @@ ht-degree: 86%
       + [支持 CCPA](/help/interface/services/customer-attributes/ccpa.md)
       + [隐私注意事项](/help/interface/services/customer-attributes/privacy-mac.md)
    + [触发器](/help/interface/services/triggers.md)
-+ 功能 {#features}
-   + [帐户偏好设置和通知](/help/interface/features/account-preferences.md)
-   + [生成式 AI](/help/interface/features/generative-ai.md)
-   + [代理式 AI](/help/interface/features/agentic-ai.md)
-   + [代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
-   + [统一搜索](/help/interface/features/search.md)
-   + [个性化的学习偏好设置](/help/interface/features/personalized-learning.md)
-   + [浏览器和语言支持](/help/interface/browser-language.md)
-+ 管理 {#administration}
-   + [用户和产品管理](/help/interface/administration/admin-console.md)
-   + [管理工具](/help/interface/administration/admin-tool-experience-cloud.md)
-   + [组织和帐户关联](/help/interface/administration/organizations.md)
-   + [集成](/help/interface/administration/integrations.md)
+   + [Adobe Exchange](/help/interface/services/exchange.md)
 + 数据收集 {#data-collection}
    + [Adobe 管理的证书计划](/help/interface/data-collection/adobe-managed-cert.md)
    + [IP 地址](/help/interface/data-collection/ip-addresses.md)
