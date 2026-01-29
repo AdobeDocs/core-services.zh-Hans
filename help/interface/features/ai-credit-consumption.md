@@ -1,21 +1,21 @@
 ---
 title: 代理作业和AI信用消耗
-description: 了解Experience Cloud应用程序中的代理作业和AI信用消耗。
+description: 了解Experience Cloud应用程序中的代理工作和AI信用消耗率。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 13%
+source-wordcount: '388'
+ht-degree: 12%
 
 ---
 
 # 代理作业和AI信用消耗
 
-了解Experience Cloud应用程序中的智能人工智能就业和人工智能信用消费。
+了解Experience Cloud应用程序中的智能人工智能就业和人工智能信用消费。 有关在现有Experience Cloud应用程序中启用代理AI功能的信息，请参阅Experience Cloud中的[代理AI](agentic-ai.md#existing-apps)。
 
 ## 代理作业
 
