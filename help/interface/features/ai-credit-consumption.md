@@ -6,10 +6,12 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
+hidefromtoc: true
+index: false
+source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 14%
+source-wordcount: '369'
+ht-degree: 13%
 
 ---
 
@@ -19,13 +21,13 @@ ht-degree: 14%
 
 ## 代理作业
 
-**代理作业**&#x200B;是代理执行的一系列任务和操作，以实现客户输入所指示的特定结果。
+_代理作业_&#x200B;是代理执行的一系列任务和操作，以实现客户输入所指示的特定结果。
 
-客户可以通过人工智能助手使用自然语言提示，要求代理执行特定的作业。 根据这些输入，Agent Orchestrator协调相应的代理，以在相关的Experience Cloud应用程序中执行每个步骤。
+通过AI Assistant使用自然语言提示，可以要求代理执行特定作业。 根据这些输入，Agent Orchestrator协调相应的代理，以在相关的Experience Cloud应用程序中执行每个步骤。
 
 ## AI积分
 
-**AI点数**&#x200B;是一个基于使用情况的量度，它量化了代理作业的执行情况。 AI积分不适用于AI优先的应用程序。
+_AI点数_&#x200B;是一个基于使用情况的量度，它量化了代理作业的执行情况。 AI积分不适用于[AI优先应用程序](/help/interface/features/agentic-ai.md)。
 
 ## AI信用消费
 
@@ -45,7 +47,6 @@ ht-degree: 14%
 | Audience 代理 | 受众/帐户分析 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
 | Audience 代理 | 购买团体创意 | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Data Insights Agent | 数据分析和可视化 | <ul><li>Customer Journey Analytics</li></ul> | 25 |
-| Data Insights Agent | 数据storytelling和共享 | <ul><li>Customer Journey Analytics</li></ul> | 100 |
 | Journey Agent | 历程构思 | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Journey Agent | 历程创建 | <ul><li>Adobe Journey Optimizer (B2B、B2C)</li></ul> | 30 |
 | Journey Agent | 历程分析 | <ul><li>Adobe Journey Optimizer (B2B、B2C)</li></ul> | 50 |
