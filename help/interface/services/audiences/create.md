@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -55,9 +55,9 @@ ht-degree: 62%
 
    * **[!UICONTROL Real-Time Analytics Data:]** （或原始数据）这是从Real-Time Analytics图像请求派生的属性数据。 它包括eVar和事件。 使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。此报表包选择提供了报表包使用的变量结构。
 
-   >[!NOTE]
-   >
-   >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在Experience Cloud中。
+     >[!NOTE]
+     >
+     >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在Experience Cloud中。
 
    * 从&#x200B;**[!UICONTROL Experience Cloud:]**&#x200B;源派生的[!DNL Experience Cloud]属性数据。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
@@ -97,4 +97,4 @@ ht-degree: 62%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
+保存受众后，它便可用于其他Experience Cloud应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共享受众。
