@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 1586f442699d53e6e926442dfb07d957e5e2708a
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 75%
@@ -59,9 +59,9 @@ Experience Cloud菜单导航中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
    * **Adobe Analytics：** Standard 或 Premium（不是旧版 [!DNL SiteCatalyst] SKU）。
    * **Adobe Target：** Standard 或 Premium。
 
-   >[!NOTE]
-   >
-   >对于 [!DNL Target]，请从 `mbox.js` 迁移到 at.js。请参阅[从 at.js 1. x 升级到 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=zh-Hans)。
+     >[!NOTE]
+     >
+     >对于 [!DNL Target]，请从 `mbox.js` 迁移到 at.js。请参阅[从 at.js 1. x 升级到 at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=zh-Hans)。
 
 1. 在[中](../administration/admin-console.md)管理用户和产品[!UICONTROL Admin Console]。
 
