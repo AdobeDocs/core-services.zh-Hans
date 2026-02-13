@@ -8,9 +8,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: 1218
 ht-degree: 96%
 
 ---
@@ -19,7 +34,7 @@ ht-degree: 96%
 
 适用于 Experience Cloud 用户的术语参考，以及如何在 Creative Cloud 中使用这些术语（如果适用）。
 
-| 搜索词 | Creative Cloud | Experience Cloud |
+| 术语 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | **资源** | 在 Creative Cloud 中，资源通常是指图像文件。<br>资源可以是 Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面以及 ZIP 包中的文件。 | 在 Experience Cloud 中，资源指数字文档、图像、视频或音频，它可以有多个演绎版，也可以带有子资源。示例包括：<ul><li>文件</li><li>文档</li><li>图像</li><li>视频</li><li>音频剪辑</li><li>演示文稿</li><li>图像模板</li><li>视频模板</li></ul> |
 | **属性** | | 符合[区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)资格的人员之间所共有的属性。（类似于 Audience Manager 中的[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hans)。） |

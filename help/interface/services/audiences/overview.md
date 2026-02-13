@@ -9,9 +9,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 70%
 
 ---
@@ -46,7 +59,7 @@ ht-degree: 70%
 | Mobile Services | 使用[!UICONTROL Device Types]报表中的环状层次图可视化图表分析移动流量。 |
 | [!DNL Target] | 利用 [ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)将访客 ID 和数据统一到单个可操作的轮廓中，以供在应用程序间使用。Adobe Analytics区段创建过程中显示的[!UICONTROL Publish to Experience Cloud]复选框允许该区段在Adobe Target的自定义受众库中可用。 在 [!DNL Analytics] 或 [!DNL Audience Manager] 中创建的区段可用于 [!DNL Target] 中的活动。例如，您可以根据 [!DNL Analytics] 转化量度和在 [!DNL Analytics] 中创建的受众区段，来创建营销活动。 |
 | [!DNL Audience Manager] | 共享受众在 [!DNL Audience Manager] 分段中可用。所有 Experience Cloud 受众均可在 [!DNL Audience Manager] 本地使用，其中提供了以下功能：<ul><li>关于如何在应用程序工作流程中共享和使用受众的内置自动化功能</li><li>非现场目标</li><li>相似建模</li></ul> |
-| Campaign | <ul><li>将从不同 Adobe Experience Cloud 应用程序共享的受众导入到 Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可在您使用的其他 Adobe Experience Cloud 应用程序中使用。</li></ul> |
+| 促销活动 | <ul><li>将从不同 Adobe Experience Cloud 应用程序共享的受众导入到 Adobe Campaign。</li><li>以共享受众的形式导出收件人列表。这些共享受众可在您使用的其他 Adobe Experience Cloud 应用程序中使用。</li></ul> |
 | Advertising Cloud | 将受众用作目标。 |
 
 {style="table-layout:auto"}

@@ -7,10 +7,26 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 68%
+source-wordcount: 642
+ht-degree: 71%
 
 ---
 
@@ -22,7 +38,7 @@ ht-degree: 68%
 
 Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
-**2025年10月**
+**2025 年 10 月**
 
 更新了[验证您的组织](../experience-cloud.md)，并附上了有关错误消息的注释，如果管理员限制按IP地址访问Adobe产品。
 
@@ -30,7 +46,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 添加了有关[重置您的Adobe ID](../features/account-preferences.md)的信息。
 
-**2025年2月**
+**2025 年 2 月**
 
 在Experience Cloud中添加了[管理用户和产品](../administration/admin-console.md)。 此页面可帮助管理员查找适用于所有应用程序的用户和产品管理(Admin Console)帮助。
 
@@ -87,11 +103,11 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 更新了[第一方 Cookie](../data-collection/adobe-managed-cert.md)。
 
-**2021年6月4日**
+**2021 年 6 月 4 日**
 
 重新组织了指南结构和目录。
 
-**2021年6月1日**
+**2021 年 6 月 1 日**
 
 更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问 Experience Cloud、全局搜索首选项和通知的帮助。
 
@@ -122,11 +138,11 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 添加了客户属性的删除方式。请参阅[（可选）更新架构（删除属性）](../services/customer-attributes/t-crs-usecase.md)。
 
-**8 2018年6月**
+**2018 年 6 月 8 日**
 
 更新了[关于客户属性的数据文件和数据源](../services/customer-attributes/crs-data-file.md)，其中包含有关上传多个文件的信息。
 
-**6 2018年6月**
+**2018 年 6 月 6 日**
 
 内容和屏幕的常规更新。
 
