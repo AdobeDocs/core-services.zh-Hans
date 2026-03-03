@@ -6,14 +6,14 @@ product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/cn/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/cn/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.zh-Hans
-source-git-commit: 4c879ad5a5392924950694e89bc94f8cc1e84aa3
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存储库级别元数据。如果要更改任何用户指南的 metadata.md 内容，请在任意 TOC.md 文件中进行更改。
 
 | 元数据 | 作用 |
-|--- |--- |
+| --- | --- |
 | solution-title | 在文章标题中用作链接 |
 | solution-hub-url | 打开 helpx 中心页面 |
 | solution-icon | 在解决方案标题旁边显示解决方案图标。尚未实施 |
@@ -40,6 +40,6 @@ metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存
 在 TOC.md 文件中
 
 | 元数据 | 作用 |
-|--- |--- |
+| --- | --- |
 | user-guide-title | 在文章标题中用作链接 |
 | user-guide-url | 打开 helpx 中心页面 |

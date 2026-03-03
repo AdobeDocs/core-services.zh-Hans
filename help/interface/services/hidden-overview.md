@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 67%
@@ -29,7 +29,7 @@ ht-degree: 67%
 本帮助描述了以下产品和服务：
 
 | 核心服务 | 描述 |
-|--- |--- |
+| --- | --- |
 | [中央界面组件](../experience-cloud.md) | 访问帐户偏好设置、搜索产品帮助以及访问应用程序和服务。 |
 | [受众库](audiences/overview.md) | 受众是访客的集合（访客 ID 列表）。通过Adobe的[!DNL Audience Library]，您可以管理如何将访客数据转换为受众分段。 |
 | [客户属性](customer-attributes/attributes.md) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。[!UICONTROL Journey Orchestration] 是与 Experience Platform 集成的应用程序服务。 |

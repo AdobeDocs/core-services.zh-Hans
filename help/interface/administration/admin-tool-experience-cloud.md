@@ -9,13 +9,10 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
@@ -43,7 +40,7 @@ ht-degree: 75%
 ![Admin Console 用户页面](../assets/admin-tool-users.png)
 
 | 元素 | 描述 |
-|---|---|
+| --- | ---|
 | [!UICONTROL Name] | 用户的名字和姓氏。您可以按从A到Z以及从Z到A对此列进行排序。单击用户名可查看有关该用户的更多详细信息。 |
 | [!UICONTROL Email] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL ID Type] | 用户帐户的身份标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理身份标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
@@ -59,7 +56,7 @@ ht-degree: 75%
 * 要应用多个筛选器以列出符合特定条件的用户，请单击&#x200B;**[!UICONTROL Filter By]**。 应用多个过滤类别后，搜索将包含“电子邮件域”`AND`“ID 类型”`AND`“解决方案”。
 
 | 元素 | 描述 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Email Domain]筛选器 | 在“电子邮件”列中搜索字符串，以将结果范围缩小到一个或多个域。在每个搜索词后按 Enter 键可添加多个过滤器 |
 | [!UICONTROL ID Type]筛选器 | 从可用的 ID 类型中进行选择。可以将多个 ID 类型用作过滤器。 |
 | [!UICONTROL Solution]筛选器 | 从可用的应用程序中进行选择。多个应用程序过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
@@ -93,7 +90,7 @@ ht-degree: 75%
 此部分显示用户的所有产品轮廓成员资格的完整列表。
 
 | 元素 | 描述 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Product] | 与产品轮廓关联的产品名称。 |
 | [!UICONTROL Instance] | 与产品和产品轮廓关联的实例的名称（如登录公司或租户）。 |
 | [!UICONTROL Product profile] | 产品轮廓的唯一名称。 |
@@ -107,7 +104,7 @@ ht-degree: 75%
 ![Admin Console 中的“策略”页面](../assets/admin-tool-policies.png)
 
 | 元素 | 描述 |
-|---|---|
+| ---| ---|
 | [!UICONTROL Product rofile] | 产品轮廓的名称。可以按从 A 到 Z 以及从 Z 到 A 的顺序对列进行排序。要查看有关策略的更多详细信息，请选择产品轮廓的名称。 |
 | [!UICONTROL Product] | 与产品轮廓关联的产品。此列可以按 A->Z、Z->A 进行排序。 |
 | [!UICONTROL Instance] | 与产品轮廓关联的实例（例如，租户或登录公司）。对于没有唯一实例或租户的产品，此值将显示为“-”。此列可以按 A->Z、Z->A 进行排序。 |
@@ -123,7 +120,7 @@ ht-degree: 75%
 * 单击&#x200B;**[!UICONTROL Filter By]**&#x200B;图标可应用多个过滤器，以列出符合特定条件的产品配置文件。 应用多个过滤类别时，搜索包含与 `AND` 实例 `AND` 解决方案关联的组。
 
 | 元素 | 描述 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Instance]筛选器 | 在“实例”列中搜索字符串，以将结果范围缩小到一个或多个实例。在每个搜索词后按 Enter 键可添加多个过滤器。 |
 | [!UICONTROL Solution]筛选器 | 从可用的应用程序中进行选择。多个应用程序过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
 
@@ -156,7 +153,7 @@ ht-degree: 75%
 此部分显示分配给产品轮廓的所有用户、用户组、开发人员、集成和管理员的完整列表。
 
 | 选项卡 | 描述 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Users] | 产品轮廓中包含的用户列表。用户组关联显示在[!UICONTROL Assigned by group]列中。 |
 | [!UICONTROL User Groups] | 与产品轮廓关联的用户组列表。 |
 | [!UICONTROL Developers] | 与产品轮廓关联的开发人员列表。 |
