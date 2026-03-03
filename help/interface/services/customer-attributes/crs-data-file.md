@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 64%
@@ -37,7 +37,7 @@ ht-degree: 64%
 ## 允许的文件类型和命名要求
 
 | 文件类型 | 描述 |
-|--- |--- |
+| --- | --- |
 | `.csv` | 以逗号分隔的值文件（例如在 Excel 中创建的文件）。此文件包含客户属性数据。   命名要求：请确保文件扩展名不包含空格。 |
 | `.fin` | （必需） `.fin`文件会告知系统您已完成数据上传。 `.fin`文件的名称必须匹配`.csv`文件的名称。  Adobe建议创建一个扩展名为`.fin`的空文本文件。 空文件可节省空间和上传时间。 **注意：**&#x200B;不允许在上传文件后重命名`.fin`文件。 `.fin`文件必须单独上传，并且不能是之前已上传的重命名文件。 在客户属性FTP中上传`.fin`文件后，系统会快速检索数据（在一分钟之内）。 其他基于FTP的Adobe系统则与之不同，后者提取数据并不那么频繁（大约每小时一次）。 使用拖放上传方法时不需要`.fin`文件。 |
 | `.gz` 或 `.zip` | `.gz` (gzip)或`.zip` — 用于压缩文件。 `.zip`文件不能在存档中包含多个文件。 命名要求： `.zip`或`.gz`的名称应与`.csv`文件的名称匹配。 例如，如果`.csv`文件是`crm_small.csv`，则`.zip`文件应该是`crm_small.csv.zip`。 `.fin`文件必须匹配`.csv`。 |

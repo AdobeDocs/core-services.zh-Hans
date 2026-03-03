@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -46,7 +46,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 | 适用的产品 |
 | -----------| -----------| ---------- | ---------- |
-| **2026 年 1 月 14 日** | 可自定义的左侧导航菜单 | 您现在可以在 Experience Cloud 中自定义一个应用程序的左侧导航菜单。将导航项重新排序，控制其可见性，以便快速访问最重要的功能。此更新可帮助您简化工作流、减少认知负担，并支持完整的键盘可访问性。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
+| **2026 年 1 月 14 日** | 可自定义的左侧导航菜单 | 您现在可以在 Experience Cloud 中自定义一个应用程序的左侧导航菜单。 将导航项重新排序，控制其可见性，以便快速访问最重要的功能。 此更新可帮助您简化工作流、减少认知负担，并支持完整的键盘可访问性。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
@@ -117,7 +117,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## 2022 年 4 月
 
 | 功能 | 描述 |
-| ------- |-------|
+| ------- | -------|
 | 免费语言搜索 | 通过统一搜索，通过一个界面即时获得所有帮助问题的答案。 您始终可以在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer] 的每个页面上访问此功能。 |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## 2022 年 3 月
 
 | 功能 | 描述 |
-| ------- |-------|
+| ------- | -------|
 | 通过搜索栏跨Experience Platform和Journey Optimizer访问[!UICONTROL Recents] | 用户现在可从 AEP 和 AJO 的每页中通过统一的搜索栏访问最近访问过的对象。 |
 
 {style="table-layout:auto"}
@@ -133,7 +133,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## 2022 年 2 月
 
 | 功能 | 描述 |
-| ------- |-------|
+| ------- | -------|
 | 快捷方式(**[!UICONTROL Recents]**)已添加到[Experience Cloud](https://experience.adobe.com/home)主页 | 您可以在登陆页上新的&#x200B;_最近访问_&#x200B;标题下访问您最近的 Journey Optimizer 和 Experience Platform 工作的快捷方式。此更新还包括布局和响应性方面的总体改进。 |
 | **[!UICONTROL Sandboxes]**&#x200B;已移动到标题栏 | “沙盒”指示器现在集成在所有 Experience Platform 界面应用程序的标题中。有关详细信息，请参阅 Experience Platform 中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。 |
 
@@ -264,7 +264,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## May 2018
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |New administration landing page|When you sign in to Experience Cloud and navigate to the Administration page, a new intuitive interface is available to help you quickly access your Experience Cloud applications and Core Services.|
 
 {style="table-layout:auto"}
@@ -281,7 +281,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## August 2017
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
 |Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans).|
@@ -291,7 +291,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## May 2017
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Bulk Report Suite Mapping|In Administration > Report Suite Mapping, you can now select multiple report suites, then map them to an organization. (Previously, you had to map them individually.)  <br>Mapping report suites to a single organization helps enable cross-application features and services in Experience Cloud.|
 |Updates to Experience Cloud Audiences|**Applying Report Suites**<br>You can now apply a report suite to all your [audience rules](../services/audiences/create.md). (Previously, you had to specify a report suite in each rule definition.) <br>**Props and Variables**<br>You can now include Analytics props and default variables (in addition to eVars and events) in real-time audiences.|
 
@@ -300,7 +300,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## November 2016
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Update to Profile & Passwords|Users can no longer edit IMS user profile information under  Personal Details In  Edit Profile >  Profile & Passwords. Instead users are redirected to `accounts.adobe.com`. This update applies to all identity types (Adobe ID, Enterprise, and Federated).|
 
 {style="table-layout:auto"}

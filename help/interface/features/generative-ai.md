@@ -35,7 +35,7 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c76a89731baf86762bf65453346af8171fdb0ad3
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 8%
@@ -83,7 +83,7 @@ Experience Cloud中的Generative AI (genAI)可帮助您自动执行创意和认�
 ### 生成式 AI
 
 <!-- | Product | Key AI features | Firefly Compatibility |
-|----------------|-----------------|---------|
+| ----------------| -----------------| ---------|
 | GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
 | Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
 | Adobe Experience Manager 6.5 | AI Assistant support | Yes |
@@ -98,7 +98,7 @@ Experience Cloud中的Generative AI (genAI)可帮助您自动执行创意和认�
 | Workfront | AI Assistant for work management and recommendations | Yes | -->
 
 | **产品名称** | **关键GenAI功能** | **Firefly兼容性** |
-|------------------|-------------------------|-------------------|
+| ------------------| -------------------------| -------------------|
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI创建个性化的品牌内内容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI在以下位置提供： <ul><li>在&#x200B;**AEM Sites**&#x200B;中生成变体（[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>[AEM Assets](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)中的[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)和&#x200B;**智能标记**</li></ul> AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |

@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
 ht-degree: 70%
@@ -53,7 +53,7 @@ ht-degree: 70%
 下表介绍了受众在 Experience Cloud 应用程序中的使用方式：
 
 | 解决方案 | 描述 |
-|--- |--- |
+| --- | --- |
 | Experience Cloud 受众 | 使用受众库在本地创建、管理和共享受众。 您可以：<ul><li>通过原始Analytics属性使用实时受众。</li><li>合并受众以创建复合受众，从而将实时数据和历史数据连接起来。</li><li>查看预计受众规模的图形视图。</li></ul><br>有关要创建哪种受众类型的建议，请参阅[受众创建选项](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hans)。 |
 | Analytics | 在分段中，您可以生成区段，将其与报表包组合，然后将该区段发布到 Experience Cloud。发布区段会将该区段显示在 Experience Cloud 的 [!DNL Audience Library] 页面上。(有关详细信息，请参阅[帮助中的](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hans)将区段发布到Experience Cloud[!DNL Analytics]。) 受众还可用作由[!DNL Adobe Target]提供的营销活动体验以及[!DNL Audience Manager]中的目标受众。 在您从[!DNL Adobe Analytics]共享受众，并选择在有效营销活动中使用之后，过去90天内符合区段定义条件的访客资料将被发送到[!UICONTROL Audience Services]。 共享受众数量的限制已增加到 75 个。从 [!DNL Analytics] 共享到 Experience Cloud 的受众数量不能超过 2000 万个独特成员。此外，由于缓存，在 Analytics 中删除报表包 12 小时后，该删除操作才能反映在 Experience Cloud 中。 |
 | Mobile Services | 使用[!UICONTROL Device Types]报表中的环状层次图可视化图表分析移动流量。 |
@@ -78,7 +78,7 @@ ht-degree: 70%
 
 
 | 元素 | 描述 |
-|--- |--- |
+| --- | --- |
 | 新建 | [创建受众](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/audiences/create)。 |
 | 标题和描述 | 列标题，用于识别和描述受众。 |
 | 作者 | 创建受众区段的人员。 |

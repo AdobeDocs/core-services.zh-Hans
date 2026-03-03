@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 Adobe Experience Platform Web SDK使用Cookie来存储特定于您的实施的值。
 
 | 名称 | 最大年龄 | 大小 | 描述 |
-|---|---|---|---|
+| ---| ---| ---| ---|
 | **`AMCV_###@AdobeOrg`** | 34128000（395天） | 100-120字节（变量） | 启用[`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)时存在。 当站点的某些部分仍在使用`visitor.js`时，转换到Web SDK会很有帮助。 Web SDK在迁移期间会读取和写入此Cookie。 |
 | **`demdex`** | 15552000（180天） | 不同 | 如果启用了Audience Manager ID同步，则会显示。 Audience Manager通过设置此Cookie来分配唯一ID，并支持ID同步、分段、建模和报表。 查看`demdex`Audience Manager Cookie[中的](audience-manager.md)。 |
 | **`kndctr_<orgId>_identity`** | 34128000（395天） | 100-120字节（变量） | 存储该设备的ECID和其他相关信息。 |

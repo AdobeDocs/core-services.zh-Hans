@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 96%
@@ -35,7 +35,7 @@ ht-degree: 96%
 适用于 Experience Cloud 用户的术语参考，以及如何在 Creative Cloud 中使用这些术语（如果适用）。
 
 | 术语 | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **资源** | 在 Creative Cloud 中，资源通常是指图像文件。<br>资源可以是 Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面以及 ZIP 包中的文件。 | 在 Experience Cloud 中，资源指数字文档、图像、视频或音频，它可以有多个演绎版，也可以带有子资源。示例包括：<ul><li>文件</li><li>文档</li><li>图像</li><li>视频</li><li>音频剪辑</li><li>演示文稿</li><li>图像模板</li><li>视频模板</li></ul> |
 | **属性** | | 符合[区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)资格的人员之间所共有的属性。（类似于 Audience Manager 中的[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hans)。） |
 | **受众** | 在 Creative Cloud 中，受众可以是指观看视频的人员。 | 在 Experience Cloud 中，受众指我们可在营销活动中锁定的人员集合。<br>受众中的成员资格可根据一组规则确定并在访客的上下文中运行，或根据固定的列表确定。例如，某 Facebook 群组中订阅者或成员的电子邮件列表。<br>在 [Experience Cloud 受众](../services/audiences/overview.md)中，创建和管理受众与创建和使用区段类似，还增加了将受众共享到 Experience Cloud 的功能。<br>**Adobe Target**<br>&#x200B;在 Adobe Target 中，受众以前称为区段。<br>**Adobe Analytics**<br>&#x200B;在 Analytics 中，受众可以被视为网站的访客。您可以创建受众区段，并将受众发布到 Experience Cloud。 |

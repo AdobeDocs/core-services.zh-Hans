@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -111,7 +111,7 @@ Experience Cloud 首选项包括通知、订阅和警报。
 在[!UICONTROL Experience Cloud preferences]上，您可以配置以下功能：
 
 | 功能 | 描述 |
-|--- |--- |
+| --- | --- |
 | 默认组织 | 选择您要在启动 Experience Cloud 时看到的组织。 |
 | [!UICONTROL Subscriptions] | 选择您要订阅的产品和类别。[!UICONTROL Notifications]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL Priority] | 选择您希望视为高优先级的类别。这些类别标有“高”标签，可以配置为像警报一样发送。 |

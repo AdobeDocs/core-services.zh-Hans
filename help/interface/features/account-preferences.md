@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 6%
@@ -43,7 +43,7 @@ ht-degree: 6%
 在[!UICONTROL Experience Cloud preferences]页面上，您可以管理以下帐户功能：
 
 | 功能 | 描述 |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Profile] | 更新您的[Adobe帐户配置文件](https://account.adobe.com/cn/profile)。 <p>当您登录到Adobe.com、Adobe产品和服务以及诸如[!DNL Behance]之类的面向公众的网站时，您的个人资料照片和名称会显示。 |
 | [!UICONTROL General] | 选择[组织](../administration/organizations.md)。<p>此组织是登录Experience Cloud时使用的默认组织。 |
 | [!UICONTROL Product usage data] | 在使用Experience Cloud应用程序时，您可以控制与Adobe共享的产品使用数据。 这些是有关您如何使用我们产品的数据，而不是您组织的内容或数据本身。 Adobe将使用此信息来帮助改进我们的产品、为您提供增强的产品内支持，以及个性化您的体验和我们之间的通信。 <p>若要了解详细信息，请参阅[产品使用情况数据](#product-usage-data)（在此页面上）。 |
