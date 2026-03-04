@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 界面和管理
 title: Experience Cloud 界面和管理
 description: 了解 Experience Cloud 界面、Cookies 和帐户首选项。管理产品并配置人员服务，包括客户属性和受众库。共享 Experience Cloud 资产。
 index: true
-source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
+source-git-commit: 40fe0fa11458ed5da6182f0c0ca3f3d2c6ab796b
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -18,7 +18,7 @@ ht-degree: 86%
 + [Experience Cloud 界面和管理](/help/interface/experience-cloud.md)
 + Experience Cloud 中的 AI {#features}
    + [生成式 AI](/help/interface/features/generative-ai.md)
-   + [代理式 AI](/help/interface/features/agentic-ai.md)
+   + [代理式 AI](features/agentic-ai.md)
    + [代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
 + 管理 {#administration}
    + [帐户偏好设置和通知](/help/interface/features/account-preferences.md)
