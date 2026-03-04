@@ -31,9 +31,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 40fe0fa11458ed5da6182f0c0ca3f3d2c6ab796b
+source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 891
 ht-degree: 4%
 
 ---
@@ -77,7 +77,7 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 | [内容顾问代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-advisor/overview) | <ul><li>帮助团队使用自然语言在整个企业中快速找到最相关的内容，从而减少搜索所花费的时间，并加快决策和执行速度。</li><li>使用自然语言提示简化从源资源创建可视内容变体的过程。</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul><ul><li>Dynamic Media（云服务）</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 快速解答有关您的数据的问题。 它使用来自数据视图的组件和您的实际数据在 Analysis Workspace 中构建相关的可视化图表。 | <ul><li>Customer Journey Analytics（B2B和B2C版本）</li></ul> |
 | [品牌体验代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/overview) | <ul><li>通过自动重新构建、丰富和验证现有站点，加快数字体验的迁移和现代化，以便团队能够以更低的风险和手动操作更快地向现代、人工智能就绪的体验迁移。</li><li>进行高容量体验创建和更新，显着减少手动工作量和周期时间，使团队能够在不牺牲质量或一致性的情况下更快地移动。</li><li>通过自动生成、结构和验证表单体验，加快创建优化的品牌内表单，使团队能够更快地启动并只需很少的手动操作即可捕获更高质量的数据。</li><li>通过分析根本原因并提出修复建议，帮助AEM CS开发人员和技术管理员解决Cloud Manager管道中的构建步骤失败问题。</li></ul> | <ul><li>Adobe Experience Manager Sites云服务(Experience Modernization)</li></ul><ul><li>Adobe Experience Manager Sites (Experience Production)</li></ul><ul><li>Adobe Experience Manager Forms（表单创建）</li></ul><ul><li>所有基于云的Adobe Experience Manager应用程序（开发支持）</li></ul> |
-| [治理代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview)* | <ul><li>通过自动化的品牌策略检查、权限和智能功能来确保品牌完整性和合规性，从而通过实时治理支持DRM。</li> | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites（品牌策略）</li></ul> |
+| [品牌治理代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview)* | <ul><li>通过自动化的品牌策略检查、权限和智能功能来确保品牌完整性和合规性，从而通过实时治理支持DRM。</li> | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites（品牌策略）</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 使您的团队能够快速创建、分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> |
 | [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/new-features/customer-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
 
