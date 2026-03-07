@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
+source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
 workflow-type: tm+mt
-source-wordcount: 891
+source-wordcount: 892
 ht-degree: 4%
 
 ---
 
 # Adobe Experience Cloud的人工智能
 
-更新日期：**2026年3月4日**
+更新日期： 2026年3月5日&#x200B;**&#x200B;**
 
 Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)提供支持，以在Experience Cloud应用程序中启用代理AI功能。
 
@@ -63,7 +63,7 @@ Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https
 * 您被包含在针对使用情况的试用中（提供的有限人工智能积分）
 * 您交易了Agent Orchestrator Promo SKU（有时限的试用许可证）
 
-使用AI代理执行&#x200B;_代理作业_&#x200B;将使用AI积分。 了解有关&#x200B;_[代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)_&#x200B;中的代理作业和AI信用消耗的详细信息。
+使用AI代理执行&#x200B;_代理作业_&#x200B;将使用AI积分。 了解有关[代理作业和AI信用消耗](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)中的代理作业和AI信用消耗的详细信息。
 
 AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行您有权在基础Experience Cloud应用程序中使用的作业或访问数据。
 
