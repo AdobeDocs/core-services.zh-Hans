@@ -31,7 +31,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
+source-git-commit: 916a0c84a0a3e86ffccc101c84006b45e683ea8e
 workflow-type: tm+mt
 source-wordcount: 892
 ht-degree: 4%
@@ -78,8 +78,8 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 快速解答有关您的数据的问题。 它使用来自数据视图的组件和您的实际数据在 Analysis Workspace 中构建相关的可视化图表。 | <ul><li>Customer Journey Analytics（B2B和B2C版本）</li></ul> |
 | [品牌体验代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/overview) | <ul><li>通过自动重新构建、丰富和验证现有站点，加快数字体验的迁移和现代化，以便团队能够以更低的风险和手动操作更快地向现代、人工智能就绪的体验迁移。</li><li>进行高容量体验创建和更新，显着减少手动工作量和周期时间，使团队能够在不牺牲质量或一致性的情况下更快地移动。</li><li>通过自动生成、结构和验证表单体验，加快创建优化的品牌内表单，使团队能够更快地启动并只需很少的手动操作即可捕获更高质量的数据。</li><li>通过分析根本原因并提出修复建议，帮助AEM CS开发人员和技术管理员解决Cloud Manager管道中的构建步骤失败问题。</li></ul> | <ul><li>Adobe Experience Manager Sites云服务(Experience Modernization)</li></ul><ul><li>Adobe Experience Manager Sites (Experience Production)</li></ul><ul><li>Adobe Experience Manager Forms（表单创建）</li></ul><ul><li>所有基于云的Adobe Experience Manager应用程序（开发支持）</li></ul> |
 | [品牌治理代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview)* | <ul><li>通过自动化的品牌策略检查、权限和智能功能来确保品牌完整性和合规性，从而通过实时治理支持DRM。</li> | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites（品牌策略）</li></ul> |
-| [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 使您的团队能够快速创建、分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> |
-| [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/new-features/customer-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
+| [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent) | 使您的团队能够快速创建、分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> |
+| [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
 
 星号(*)：客户可通过资源管理器程序访问此代理。 资源管理器程序是一个仅受邀请的程序，它提供对Adobe最新代理功能的早期访问。 有关更多信息，请联系您的客户代表。
 
@@ -91,7 +91,7 @@ AI优先应用是以Al为内核的生成或遗传的。 它们使用创生或代
 
 | 代理名称 | 功能 | 支持的应用程序 |
 | --- | ---------- | ---------- |
-| [Experimentation Agent](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | 自动化、分析和综合洞察，以便您可以从集中工作区中快速识别高影响力的实验和发展机会 — 同时减少手动流程。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
+| [Experimentation Agent](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/get-started/experiment-accelerator-security) | 自动化、分析和综合洞察，以便您可以从集中工作区中快速识别高影响力的实验和发展机会 — 同时减少手动流程。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM优化代理](https://experienceleague.adobe.com/zh-hans/docs/llm-optimizer/using/home) | 增强人工智能驱动型搜索环境中的可见性、准确性和影响力，在人工智能生成的答案中提供品牌存在感洞察，提供规范性的内容推荐，并自动执行优化修复。 | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-sites-optimizer/content/home) | 通过自动检测和部署网站增强功能，最大限度地提高业务成效。 使用创新型人工智能和多种监控技术，您可以增加网站流量获取、参与度等 | <ul><li>AEM Sites Optimizer</li></ul> |
 | [Product Advisor Agent](https://experienceleague.adobe.com/zh-hans/docs/brand-concierge/content/documentation/overview) | 通过根据个人偏好和行为量身定制的智能上下文感知产品发现，提高转化率和参与度。 | <ul><li>Adobe Brand Concierge</li></ul> |
