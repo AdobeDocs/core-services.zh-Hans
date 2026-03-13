@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -52,7 +52,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| **2025 年 9 月 25 日** | 支持 IP 访问列表 | 对于已在 Admin Console 中启用 IP 访问列表的组织，Experience Cloud 在访问 `https://experience.adobe.com` 域上的应用程序时将遵循这些 IP 限制。该更新适用于通过该域访问的所有 Web 应用程序；系统将在该组织的登录时以及新页面加载时执行检查。 |
+| **2025 年 9 月 25 日** | 支持 IP 访问列表 | 对于已在 Admin Console 中启用 IP 访问列表的组织，Experience Cloud 在访问 `https://experience.adobe.com` 域上的应用程序时将遵循这些 IP 限制。 该更新适用于通过该域访问的所有 Web 应用程序；系统将在该组织的登录时以及新页面加载时执行检查。 |
 
 ## 2025 年 3 月
 
@@ -84,7 +84,8 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 | -----------| ---------- |
 | Slack 通知 | 您可以配置帐户首选项，以将 Experience Cloud 通知发送到 Slack。有关详细信息，请参阅&#x200B;_首选项_&#x200B;帮助中的[Slack通知](../features/account-preferences.md)。 |
 
-<!-- ## July - August 2023
+<!--
+## July - August 2023
 
 NA - released July 2022
 
@@ -100,7 +101,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+-->
 
 ## 2023 年 5 月
 
@@ -219,7 +221,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * “信息源”页面已在 2019 年 12 月被弃用。请查看产品内的弃用通知。(MCUI-10039)
 
-<!-- ## August 2019
+<!--
+## August 2019
 
 * Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
 * Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
