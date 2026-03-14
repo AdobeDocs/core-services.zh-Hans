@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
+source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
 workflow-type: tm+mt
-source-wordcount: 1337
-ht-degree: 80%
+source-wordcount: 1386
+ht-degree: 77%
 
 ---
 
@@ -58,7 +58,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| 2025 年 3 月 6 日 | 修复右键单击菜单选项 | Experience Cloud 标题导航选项卡现在允许右键单击浏览器下拉菜单功能。这修复了 2 月份发布的 Spectrum 2 设计系统中出现的问题。 |
+| 2025 年 3 月 6 日 | 修复右键单击菜单选项 | Experience Cloud 标题导航选项卡现在允许右键单击浏览器下拉菜单功能。 这修复了 2 月份发布的 Spectrum 2 设计系统中出现的问题。 |
 
 ## 2025 年 2 月
 
@@ -76,13 +76,13 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 可自定义的主页 | 在Experience Cloud登录页面上，单击&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式允许您通过访问构件库和自定义背景来个性化Experience Cloud主页。 [!UICONTROL Edit]模式为移动、调整大小和管理构件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
+| 可自定义的主页 | 在Experience Cloud登录页面上，单击&#x200B;**[!UICONTROL Edit]**。[!UICONTROL Edit] 模式允许您通过访问小组件库和自定义背景来个性化Experience Cloud主页。[!UICONTROL Edit] 模式为移动、调整大小和管理构件提供了无缝、直观的控件，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
 
 ## 2024年9月10日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| Slack 通知 | 您可以配置帐户首选项，以将 Experience Cloud 通知发送到 Slack。有关详细信息，请参阅&#x200B;_首选项_&#x200B;帮助中的[Slack通知](../features/account-preferences.md)。 |
+| Slack 通知 | 您可以配置帐户首选项，以将 Experience Cloud 通知发送到 Slack。 有关详细信息，请参阅[首选项](../features/account-preferences.md)帮助中的&#x200B;_Slack通知_。 |
 
 <!--
 ## July - August 2023
@@ -112,7 +112,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一主页 - 快速访问小组件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL Quick Access]的前面和中心。 <br>**利用智能固定功能随时了解最新动态：**&#x200B;您的新应用程序现在更容易找到。新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL Quick Access]。 |
+| 统一主页 - 快速访问小组件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。 使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL Quick Access]的前面和中心。<br>**随时了解智能固定：**&#x200B;您的新应用程序现在更容易找到。 新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL Quick Access]。 |
 
 {style="table-layout:auto"}
 
@@ -136,8 +136,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | -------|
-| 快捷方式(**[!UICONTROL Recents]**)已添加到[Experience Cloud](https://experience.adobe.com/home)主页 | 您可以在登陆页上新的&#x200B;_最近访问_&#x200B;标题下访问您最近的 Journey Optimizer 和 Experience Platform 工作的快捷方式。此更新还包括布局和响应性方面的总体改进。 |
-| **[!UICONTROL Sandboxes]**&#x200B;已移动到标题栏 | “沙盒”指示器现在集成在所有 Experience Platform 界面应用程序的标题中。有关详细信息，请参阅 Experience Platform 中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。 |
+| 快捷方式(**[!UICONTROL Recents]**)已添加到[Experience Cloud](https://experience.adobe.com/home)主页 | 您可以在登陆页上新的&#x200B;_最近访问_&#x200B;标题下访问您最近的 Journey Optimizer 和 Experience Platform 工作的快捷方式。 此更新还包括布局和响应性方面的总体改进。 |
+| **[!UICONTROL Sandboxes]**&#x200B;已移动到标题栏 | “沙盒”指示器现在集成在所有 Experience Platform 界面应用程序的标题中。 有关详细信息，请参阅 Experience Platform 中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。 |
 
 {style="table-layout:auto"}
 
@@ -146,8 +146,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 描述 |
 | ------- | ------- |
 | 主页 | Experience Cloud 主页页脚信息已移至用户轮廓卡，包括法律声明和偏好设置中的语言选择。 |
-| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
-| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
+| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
+| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
 {style="table-layout:auto"}
 
@@ -155,8 +155,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
-| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
+| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。 在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
+| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。 此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
 
 {style="table-layout:auto"}
 
@@ -170,14 +170,14 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2021 年 7 月
 
-统一搜索功能已更新，可用于 Journey Optimizer、产品建议和 Experience League。以前，此功能仅可供 Experience Platform 用户使用。
+统一搜索功能已更新，可用于 Journey Optimizer、产品建议和 Experience League。 以前，此功能仅可供 Experience Platform 用户使用。
 
 ## 2021 年 6 月
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。<br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
-| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
+| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。 要使用此功能，请将`#/sso:@domain`添加到Experience Cloud URL。<br>例如，假设您拥有域`example.com`且希望登录到Adobe Analytics。 URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
+| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
 
 {style="table-layout:auto"}
 
@@ -185,8 +185,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| Experience Cloud 标题和导航 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
-| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home) 文档、课程和教程。（当前，全局搜索仅向 Experience Platform 用户开放。全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
+| Experience Cloud 标题和导航 | Adobe Experience Cloud 更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在 Experience Cloud 标题中的用户头像控制其他首选项的链接。 虽然并非 Experience Cloud 中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
+| Experience Cloud 全局搜索 | 通过此版本中的 Experience Cloud 全局搜索，可搜索任何 [Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home) 文档、课程和教程。 （当前，全局搜索仅向 Experience Platform 用户开放。 全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
 | Experience Cloud 语言偏好设置 | 此更新包括可在 Experience Cloud [偏好设置](https://experience.adobe.com/preferences)中设置您的首选语言。 |
 
 {style="table-layout:auto"}
@@ -195,31 +195,32 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。有关详细信息，请参阅 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)。 |
+| 管理工具 - 策略 | 此页面显示组织中 Experience Cloud 策略的完整列表。 它提供了有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和过滤，以获取策略列表的自定义视图。 有关详细信息，请参阅 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)。 |
 
 {style="table-layout:auto"}
 
 ## 2020 年 4 月
 
 * 已弃用Experience Cloud [!UICONTROL Feed]页面。 (EXC-8505)
-* Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
+* Experience Cloud 登录页面已更新，可反映新的品牌元素。 (EXC-10747)
 
 ## 2020 年 2 月
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。有关详细信息，请参阅 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)。 |
+| 管理工具 - 查看用户详细信息 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。 有关详细信息，请参阅 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)。 |
 
 {style="table-layout:auto"}
 
 **修复**
 
-* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他轮廓状态。(MCUI-10231)
-* **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
+* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他轮廓状态。 (MCUI-10231)
+* **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。 (MCUI-10056)
 
 ## 2020 年 1 月
 
-* “信息源”页面已在 2019 年 12 月被弃用。请查看产品内的弃用通知。(MCUI-10039)
+* “信息源”页面已在 2019 年 12 月被弃用。 请查看产品内的弃用通知。 (MCUI-10039)
+
 
 <!--
 ## August 2019
