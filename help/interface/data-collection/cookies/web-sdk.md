@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 484
 ht-degree: 1%
 
 ---
@@ -32,9 +32,10 @@ ht-degree: 1%
 Adobe Experience Platform Web SDK使用Cookie来存储特定于您的实施的值。
 
 | 名称 | 最大年龄 | 大小 | 描述 |
-| ---| ---| ---| ---|
+| --- | --- | --- | --- |
 | **`AMCV_###@AdobeOrg`** | 34128000（395天） | 100-120字节（变量） | 启用[`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)时存在。 当站点的某些部分仍在使用`visitor.js`时，转换到Web SDK会很有帮助。 Web SDK在迁移期间会读取和写入此Cookie。 |
-| **`demdex`** | 15552000（180天） | 不同 | 如果启用了Audience Manager ID同步，则会显示。 Audience Manager通过设置此Cookie来分配唯一ID，并支持ID同步、分段、建模和报表。 查看`demdex`Audience Manager Cookie[中的](audience-manager.md)。 |
+| **`com.adobe.alloy.getTld`** | 无（立即删除） | 不适用 | Web SDK在内部使用的临时帮助程序Cookie，用于确定当前站点的顶级域。 建立顶级域后，就会删除Cookie。 它不会存储行为或个人资料数据。 |
+| **`demdex`** | 15552000（180天） | 不同 | 如果启用了Audience Manager ID同步，则会显示。 Audience Manager通过设置此Cookie来分配唯一ID，并支持ID同步、分段、建模和报表。 查看[Audience Manager Cookie](audience-manager.md)中的`demdex`。 |
 | **`kndctr_<orgId>_identity`** | 34128000（395天） | 100-120字节（变量） | 存储该设备的ECID和其他相关信息。 |
 | **`kndctr_<orgId>_cluster`** | 1800（30分钟） | 3-5字节 | 存储Edge Network区域（位置提示），用于提供当前用户的请求。 URL路径中使用区域，以便Edge Network能够将请求路由到正确的区域。 如果用户在Cookie生命周期内使用不同的IP地址连接，则请求将再次路由到最近的区域。 |
 | **`kndctr_<orgId>_consent`** | 15552000（180天） | 10-11字节 | 存储访客的同意首选项。 无论是否同意，始终设置，因为它存储同意首选项本身。 |
