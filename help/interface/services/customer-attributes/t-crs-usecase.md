@@ -22,16 +22,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: 1117
 ht-degree: 47%
 
 ---
 
 # 创建和上传客户属性数据
 
-创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。在数据源处于活动状态后，将属性数据共享到[!DNL Analytics]和[!DNL Target]。
+创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。 在数据源处于活动状态后，将属性数据共享到[!DNL Analytics]和[!DNL Target]。
 
 **[!DNL Customer Attributes]工作流**
 
@@ -41,7 +41,7 @@ ht-degree: 47%
 
 * **组成员资格：**&#x200B;要上传数据，用户必须是[!DNL Customer Attributes]组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-  要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL product profiles]之一，则表示您已经可以开始。
+  要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL product profiles]之一，则表示您已经可以开始。
 
   添加到[!DNL Customer Attributes]的用户将在Experience Cloud界面的左侧看到[!DNL Customer Attributes]菜单项。
 
@@ -51,7 +51,7 @@ ht-degree: 47%
 
 ## 创建数据文件
 
-此数据是 CRM 中的企业客户数据。数据可能包含产品的订阅者数据，包括成员 ID、授权产品、最常启动产品等。
+此数据是 CRM 中的企业客户数据。 数据可能包含产品的订阅者数据，包括成员 ID、授权产品、最常启动产品等。
 
 1. 创建`.csv`文件。
 
@@ -72,7 +72,7 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。联系Audience Manager客户关怀团队或咨询以获取管理权限。
+>创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。 您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。 联系Audience Manager客户关怀团队或咨询以获取管理权限。
 
 1. 要打开[!UICONTROL Customer Attributes]，请单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
@@ -84,11 +84,11 @@ ht-degree: 47%
 
 1. 在[!UICONTROL Create Customer Attribute Source]页面上，配置以下字段：
 
-   * **[!UICONTROL Name:]**&#x200B;数据属性源的易记名称。 对于 [!DNL Adobe Target]，属性名称不能包含空格。如果传递包含空格的属性，[!DNL Target] 会将其忽略。其他不受支持的字符包括：`< , >, ', "`。
+   * **[!UICONTROL Name:]**&#x200B;数据属性源的易记名称。 对于 [!DNL Adobe Target]，属性名称不能包含空格。 如果传递包含空格的属性，[!DNL Target] 会将其忽略。 其他不受支持的字符包括：`< , >, ', "`。
 
    * **[!UICONTROL Description:]** （可选）数据属性源的描述。
 
-   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。在Experience Cloud中的客户属性源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值(无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入)匹配。
+   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在Experience Cloud中的客户属性源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ ht-degree: 47%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于&#x200B;*Experience Cloud ID服务*&#x200B;工具中[!UICONTROL customer Settings]下的[集成代码](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)值。
+      * **标记：**&#x200B;别名ID对应于[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL customer Settings]下的&#x200B;*集成代码*&#x200B;值。
 
       * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
@@ -106,7 +106,7 @@ ht-degree: 47%
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS：**&#x200B;别名ID对应于&#x200B;*visitorSyncIdentifiers*[中的:identifiers&quot;idType&quot;](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)。
+      * **iOS：**&#x200B;别名ID对应于[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)中的&#x200B;*&quot;idType&quot;*。
 
         例如：
 
@@ -138,7 +138,7 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->存在特定的数据文件要求。请参阅[数据文件要求](crs-data-file.md)，以了解更多信息。
+>存在特定的数据文件要求。 请参阅[数据文件要求](crs-data-file.md)，以了解更多信息。
 
 上传文件后，表数据将显示在此页面上的[!UICONTROL File Upload]标题下。 您可以验证架构，配置订阅或设置 FTP。
 
@@ -148,11 +148,11 @@ ht-degree: 47%
 
 * **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;显示有多少个ID已别名为Experience Cloud访客ID。
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。到那时，系统会使客户提供的ID无效，且不再分发关联的属性。—>
+* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。 -->
 
 ## 验证架构 {#validate-schema}
 
-验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。您还可以通过更新架构来删除属性。
+验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。 您还可以通过更新架构来删除属性。
 
 请参阅[验证架构](validate-schema.md)。
 
@@ -168,7 +168,7 @@ ht-degree: 47%
 
 ## 配置订阅和激活属性源
 
-配置订阅可以设置Experience Cloud和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置订阅可以设置Experience Cloud和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅并激活数据源](subscription.md)。
 
@@ -176,7 +176,7 @@ ht-degree: 47%
 
 利用 Adobe Analytics 等应用程序中现在提供的数据，您可以报告数据、分析数据并在营销活动中采取适当措施。
 
-以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。此区段显示最常启动产品为 Photoshop 的 [!DNL Photoshop Lightroom] 订阅者。
+以下示例显示了一个基于上传属性的 [!DNL Analytics] 区段。 此区段显示最常启动产品为 Photoshop 的 [!DNL Photoshop Lightroom] 订阅者。
 
 ![基于已上传属性的 Analytics 区段](assets/08_crs_usecase.png)
 
@@ -188,4 +188,4 @@ ht-degree: 47%
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 
-请参阅[帮助中的](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)创建受众[!DNL Target]。
+请参阅[!DNL Target]帮助中的[创建受众](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
