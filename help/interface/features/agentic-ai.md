@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11556bf4f161ad26a24c2eae9da2d24a735c6ec7
+source-git-commit: 71cd0926a2f32bf20816b30dcd6c6aa11b095f5a
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1132
 ht-degree: 9%
 
 ---
 
 # Adobe Experience Cloud的人工智能
 
-更新日期：**2026年3月13日**
+更新日期：**2026年4月2日**
 
 Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)提供支持，以在Experience Cloud应用程序中启用代理AI功能。
 
@@ -71,7 +71,7 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 
 下表列出了现有Experience Platform应用程序中可用的Experience Cloud代理。
 
-| 代理名称 | 功能 | 支持的应用程序 |
+| 名称 | 功能 | 支持的应用程序 |
 | --- | ---------- | ---------- |
 | [Audience Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 让您的团队能够使用自然语言提示创建、管理和优化受众，以提高上市难度、效率和上市速度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> |
 | [内容顾问代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-advisor/overview) | <ul><li>帮助团队使用自然语言在整个企业中快速找到最相关的内容，从而减少搜索所花费的时间，并加快决策和执行速度。</li><li>使用自然语言提示简化从源资源创建可视内容变体的过程。</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul><ul><li>Dynamic Media（云服务）</li></ul> |
@@ -80,6 +80,7 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 | [品牌治理代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview) | 通过自动化的品牌策略检查、权限和智能功能来确保品牌完整性和合规性，从而通过实时治理支持DRM。 | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites（品牌策略）</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent) | 使您的团队能够快速创建、分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> |
 | [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | 将Experience Platform直接连接到Microsoft 365 Copilot。 您可以在Microsoft 365应用程序（如Teams、Word、Powerpoint和Excel）中询问自然语言问题，以便立即从Experience Platform中检索营销洞察，而不会中断您的工作流程。 | <ul><li> Experience Platform运营分析</li><li>Customer Journey Analytics数据分析</li><li> Audience 代理</li><li>Journey Agent</li></ul> |
 
 ## 人工智能优先的Experience Cloud应用程序 {#ai-first-apps}
 
