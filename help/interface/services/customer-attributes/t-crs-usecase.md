@@ -9,22 +9,14 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d57b222077b83d52344a31c8a6b4ccf165843147
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1118
 ht-degree: 47%
 
 ---
@@ -47,7 +39,7 @@ ht-degree: 47%
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hans)。
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)。
 
 ## 创建数据文件
 
@@ -68,7 +60,7 @@ ht-degree: 47%
 
 ## 创建属性源并上传数据文件
 
-在Experience Cloud的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;页面上执行这些步骤。
+在Experience Cloud的&#x200B;_[!UICONTROL Create Customer Attribute Source]_页面上执行这些步骤。
 
 >[!IMPORTANT]
 >
@@ -96,9 +88,9 @@ ht-degree: 47%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL customer Settings]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)工具中[!UICONTROL customer Settings]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -120,7 +112,7 @@ ht-degree: 47%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
+   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
 
 1. 单击 **[!UICONTROL Save]**。
 
@@ -146,9 +138,9 @@ ht-degree: 47%
 
 * **[!UICONTROL Unique customer ID:]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
-* **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;显示有多少个ID已别名为Experience Cloud访客ID。
+* **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;显示有多少个ID已别名为Experience Cloud访客ID。
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。 -->
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
 
 ## 验证架构 {#validate-schema}
 
