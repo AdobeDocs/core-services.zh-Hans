@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
+source-git-commit: d57b222077b83d52344a31c8a6b4ccf165843147
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1118
 ht-degree: 47%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 47%
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-  参阅[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hans)。
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/overview)。
 
 ## 创建数据文件
 
@@ -146,9 +146,9 @@ ht-degree: 47%
 
 * **[!UICONTROL Unique customer ID:]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
-* **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;显示有多少个ID已别名为Experience Cloud访客ID。
+* **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;显示有多少个ID已别名为Experience Cloud访客ID。
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。 -->
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
 
 ## 验证架构 {#validate-schema}
 
