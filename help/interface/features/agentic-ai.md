@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # Adobe Experience Cloud的人工智能
 
-更新日期： 2026年4月3日&#x200B;****
+更新日期： 2026年4月3日&#x200B;**&#x200B;**
 
 Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)提供支持，以在Experience Cloud应用程序中启用代理AI功能。
 
