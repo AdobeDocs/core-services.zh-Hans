@@ -75,7 +75,7 @@ ht-degree: 77%
 
 * **[!UICONTROL Support]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL Support]。
 * **[!UICONTROL Feedback]：**&#x200B;分享您对Experience Cloud体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
-* **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 管理您的用户个人资料
