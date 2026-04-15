@@ -8,31 +8,25 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 71%
+source-wordcount: 656
+ht-degree: 70%
 
 ---
 
 # 文档更新
 
 了解Experience Cloud中央界面和管理文档更新的位置。
+
+**2026 年 3 月**
+
+已添加[AI工作和积分消耗](../features/ai-credit-consumption.md)
 
 **2025年11月**
 
@@ -85,19 +79,19 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 | 功能 | 描述 |
 | ------- | ------- |
 | 主页 | Experience Cloud 主页页脚信息已移至用户轮廓卡，包括法律声明和偏好设置中的语言选择。 |
-| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
-| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
+| AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
+| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
 **2021年10月13日**
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
-| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
+| 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。 在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
+| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。 此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
 
 **2021年8月24日**
 
-更新了[中央组件](../experience-cloud.md)页面（本指南的登陆页面）。添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
+更新了[中央组件](../experience-cloud.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
 
 **2021年8月6日**
 
@@ -136,7 +130,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **更新日期：2018 年 9 月 5 日**
 
-添加了客户属性的删除方式。请参阅[（可选）更新架构（删除属性）](../services/customer-attributes/t-crs-usecase.md)。
+添加了客户属性的删除方式。 请参阅[（可选）更新架构（删除属性）](../services/customer-attributes/t-crs-usecase.md)。
 
 **2018 年 6 月 8 日**
 
@@ -168,7 +162,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **2015年1月15日**
 
-添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资源和评论。请参阅[资源共享](../services/assets/share.md)。
+添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资源和评论。 请参阅[资源共享](../services/assets/share.md)。
 
 **2014年7月17日**
 
