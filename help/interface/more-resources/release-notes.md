@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 1386
-ht-degree: 77%
+source-wordcount: 1426
+ht-degree: 78%
 
 ---
 
@@ -42,17 +42,23 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 请参阅 [Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)，了解所有应用程序的发行说明。
 
+## 2026年4月
+
+| 日期 | 更新 | 描述 |
+| ------- | ------- | ------- |
+| 2026年4月20日 | 刷新的主页 | 在`https://experience.adobe.com/home`刷新了主页的外观。 在此版本中，所有功能保持不变，更新了UI，支持完整的&#x200B;_深色模式_，并且改进了辅助功能。 |
+
 ## 2026 年 1 月
 
 | 日期 | 更新 | 描述 | 适用的产品 |
 | -----------| -----------| ---------- | ---------- |
-| **2026 年 1 月 14 日** | 可自定义的左侧导航菜单 | 您现在可以在 Experience Cloud 中自定义一个应用程序的左侧导航菜单。 将导航项重新排序，控制其可见性，以便快速访问最重要的功能。 此更新可帮助您简化工作流、减少认知负担，并支持完整的键盘可访问性。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
+| 2026年1月14日 | 可自定义的左侧导航菜单 | 您现在可以在 Experience Cloud 中自定义一个应用程序的左侧导航菜单。 将导航项重新排序，控制其可见性，以便快速访问最重要的功能。 此更新可帮助您简化工作流、减少认知负担，并支持完整的键盘可访问性。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| **2025 年 9 月 25 日** | 支持 IP 访问列表 | 对于已在 Admin Console 中启用 IP 访问列表的组织，Experience Cloud 在访问 `https://experience.adobe.com` 域上的应用程序时将遵循这些 IP 限制。 该更新适用于通过该域访问的所有 Web 应用程序；系统将在该组织的登录时以及新页面加载时执行检查。 |
+| 2025年9月25日 | 支持 IP 访问列表 | 对于已在 Admin Console 中启用 IP 访问列表的组织，Experience Cloud 在访问 `https://experience.adobe.com` 域上的应用程序时将遵循这些 IP 限制。 该更新适用于通过该域访问的所有 Web 应用程序；系统将在该组织的登录时以及新页面加载时执行检查。 |
 
 ## 2025 年 3 月
 
@@ -76,7 +82,7 @@ Experience Cloud 中央界面组件的功能、发行说明和已知问题。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 可自定义的主页 | 在Experience Cloud登录页面上，单击&#x200B;**[!UICONTROL Edit]**。[!UICONTROL Edit] 模式允许您通过访问小组件库和自定义背景来个性化Experience Cloud主页。[!UICONTROL Edit] 模式为移动、调整大小和管理构件提供了无缝、直观的控件，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
+| 可自定义的主页 | 在Experience Cloud登录页面上，单击&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式允许您通过访问构件库和自定义背景来个性化Experience Cloud主页。 [!UICONTROL Edit]模式为移动、调整大小和管理构件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
 
 ## 2024年9月10日
 
@@ -112,7 +118,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 统一主页 - 快速访问小组件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。 使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL Quick Access]的前面和中心。<br>**随时了解智能固定：**&#x200B;您的新应用程序现在更容易找到。 新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL Quick Access]。 |
+| 统一主页 - 快速访问小组件 | **导航速度更快：**&#x200B;您现在可以对您的主页体验进行进一步个性化设置，并决定哪些应用程序触手可及。 使用新的固定功能选择哪些应用程序显示在您的[!UICONTROL Quick Access]的前面和中心。 <br>**利用智能固定功能随时了解最新动态：**&#x200B;您的新应用程序现在更容易找到。 新分配的应用程序显示&#x200B;_新_&#x200B;徽章并自动固定到[!UICONTROL Quick Access]。 |
 
 {style="table-layout:auto"}
 
@@ -176,7 +182,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。 要使用此功能，请将`#/sso:@domain`添加到Experience Cloud URL。<br>例如，假设您拥有域`example.com`且希望登录到Adobe Analytics。 URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
+| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，则无需输入电子邮件地址或密码即可登录到 Experience Cloud。 要使用该功能，将 `#/sso:@domain` 添加到 Experience Cloud URL。 <br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。 URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
 | Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
 
 {style="table-layout:auto"}
