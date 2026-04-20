@@ -1,6 +1,6 @@
 ---
 title: 查看用户和用户详细信息
-description: 了解 Experience Cloud 中的管理工具。查看所有 Experience Cloud 用户和政策的可排序和可过滤列表。
+description: 了解CX Enterprise中的管理工具。 查看所有CX Enterprise用户和策略的可排序和可过滤列表。
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -9,22 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 75%
+source-wordcount: 1198
+ht-degree: 69%
 
 ---
 
-# Experience Cloud [!UICONTROL Admin Tool]
+# CX Enterprise [!UICONTROL Admin Tool]
 
-管理员可以在[!UICONTROL Admin Tool]中查看所有Experience Cloud用户和策略的可排序和可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
+管理员可以在[!UICONTROL Admin Tool]中查看所有CX Enterprise用户和策略的可排序和可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。 策略详细信息包括策略的（产品配置文件）用户、组、开发人员、集成和管理员列表，以及策略的详细权限和资源信息。
 
 1. 登录 `https://experience.adobe.com/.`
 
@@ -38,31 +35,31 @@ ht-degree: 75%
 
 ## “用户”页面
 
-此页面显示贵组织中有权访问 Experience Cloud 的完整用户列表。它会提供有关应用程序权利和上次登录的信息。 您可以搜索、排序和过滤用户列表的自定义视图。
+此页面显示贵组织中有权访问CX Enterprise的用户的完整列表。 它会提供有关应用程序权利和上次登录的信息。 您可以搜索、排序和过滤用户列表的自定义视图。
 
 ![Admin Console 用户页面](../assets/admin-tool-users.png)
 
 | 元素 | 描述 |
 | --- | ---|
-| [!UICONTROL Name] | 用户的名字和姓氏。您可以按从A到Z以及从Z到A对此列进行排序。单击用户名可查看有关该用户的更多详细信息。 |
-| [!UICONTROL Email] | 与用户关联的电子邮件地址。此列可以按 A->Z、Z->A 进行排序。 |
-| [!UICONTROL ID Type] | 用户帐户的身份标识类型。可应用过滤器以查看特定 ID 类型。有关更多信息，请参阅[管理身份标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
-| [!UICONTROL Solutions] | 用户可访问的 Experience Cloud 应用程序摘要。您可以应用过滤器来缩小具有特定应用程序访问权限的用户列表。 |
-| [!UICONTROL Last Login] | 最近一次用户登录Experience Cloud的时间和日期。 此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自2020年1月13日起，用户的上次登录数据将保留365天。 此信息旨在显示Experience Cloud中的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取行动。 |
+| [!UICONTROL Name] | 用户的名字和姓氏。 您可以按从A到Z以及从Z到A对此列进行排序。单击用户名可查看有关该用户的更多详细信息。 |
+| [!UICONTROL Email] | 与用户关联的电子邮件地址。 此列可以按 A->Z、Z->A 进行排序。 |
+| [!UICONTROL ID Type] | 用户帐户的身份标识类型。 可应用过滤器以查看特定 ID 类型。 有关更多信息，请参阅[管理身份标识类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)。 |
+| [!UICONTROL Solutions] | 用户可访问的CX Enterprise应用程序摘要。 您可以应用过滤器来缩小具有特定应用程序访问权限的用户列表。 |
+| [!UICONTROL Last Login] | 最近一次用户登录CX Enterprise的时间和日期。 此列可以按升序或降序日期排序。<br> **重要信息：**&#x200B;自2020年1月13日起，用户的上次登录数据将保留365天。 此信息旨在显示CX Enterprise中的当前登录活动，而不是建议在2020年1月13日之前对不活动帐户采取行动。 |
 
 ## 自定义用户列表视图
 
 您可以搜索、排序或过滤列以自定义用户列表。
 
-* 按名称或电子邮件搜索用户。搜索与您键入的文本字符串匹配。
-* 按升序或降序值对列排序。此排序适用于[!UICONTROL Name,] [!UICONTROL Email,]和[!UICONTROL Last Login]列。
+* 按名称或电子邮件搜索用户。 搜索与您键入的文本字符串匹配。
+* 按升序或降序值对列排序。 此排序适用于[!UICONTROL Name,] [!UICONTROL Email,]和[!UICONTROL Last Login]列。
 * 要应用多个筛选器以列出符合特定条件的用户，请单击&#x200B;**[!UICONTROL Filter By]**。 应用多个过滤类别后，搜索将包含“电子邮件域”`AND`“ID 类型”`AND`“解决方案”。
 
 | 元素 | 描述 |
 | ---------| ----------|
-| [!UICONTROL Email Domain]筛选器 | 在“电子邮件”列中搜索字符串，以将结果范围缩小到一个或多个域。在每个搜索词后按 Enter 键可添加多个过滤器 |
-| [!UICONTROL ID Type]筛选器 | 从可用的 ID 类型中进行选择。可以将多个 ID 类型用作过滤器。 |
-| [!UICONTROL Solution]筛选器 | 从可用的应用程序中进行选择。多个应用程序过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
+| [!UICONTROL Email Domain]筛选器 | 在“电子邮件”列中搜索字符串，以将结果范围缩小到一个或多个域。 在每个搜索词后按 Enter 键可添加多个过滤器 |
+| [!UICONTROL ID Type]筛选器 | 从可用的 ID 类型中进行选择。 可以将多个 ID 类型用作过滤器。 |
+| [!UICONTROL Solution]筛选器 | 从可用的应用程序中进行选择。 多个应用程序过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
 
 ## 查看用户详细信息
 
@@ -80,13 +77,13 @@ ht-degree: 75%
 * 名称
 * 电子邮件
 * 用户名（Federated ID 帐户的用户名可能与电子邮件地址不同）
-* [ID 类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)
+* [ID类型](https://helpx.adobe.com/cn/enterprise/using/identity.html)
 * 国家/地区
 * 上次登录
 
 ## 解决方案摘要
 
-此部分会显示用户可访问的 Experience Cloud 应用程序的摘要。包括产品管理角色（如果适用）。
+此部分显示用户可访问的CX Enterprise应用程序的摘要。 包括产品管理角色（如果适用）。
 
 ## 详细的产品访问列表
 
@@ -97,35 +94,35 @@ ht-degree: 75%
 | [!UICONTROL Product] | 与产品轮廓关联的产品名称。 |
 | [!UICONTROL Instance] | 与产品和产品轮廓关联的实例的名称（如登录公司或租户）。 |
 | [!UICONTROL Product profile] | 产品轮廓的唯一名称。 |
-| [!UICONTROL Assigned by Group] | 将用户关联到产品轮廓的用户组的名称。空白结果表示未通过组直接将用户分配到产品轮廓。 |
-| [!UICONTROL Product Roles] | 产品轮廓中用户的角色分配。目前，此信息仅适用于 Adobe Target 产品轮廓。 |
+| [!UICONTROL Assigned by Group] | 将用户关联到产品轮廓的用户组的名称。 空白结果表示未通过组直接将用户分配到产品轮廓。 |
+| [!UICONTROL Product Roles] | 产品轮廓中用户的角色分配。 目前，此信息仅适用于 Adobe Target 产品轮廓。 |
 
 ## “策略”页面
 
-此页面显示组织中 Experience Cloud 策略的完整列表。它提供了有关产品、实例、用户和开发人员的信息。您可以搜索、排序和过滤，以获取策略列表的自定义视图。
+本页显示贵组织中CX Enterprise策略的完整列表。 它提供了有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和过滤，以获取策略列表的自定义视图。
 
 ![Admin Console 中的“策略”页面](../assets/admin-tool-policies.png)
 
 | 元素 | 描述 |
 | ---| ---|
-| [!UICONTROL Product rofile] | 产品轮廓的名称。可以按从 A 到 Z 以及从 Z 到 A 的顺序对列进行排序。要查看有关策略的更多详细信息，请选择产品轮廓的名称。 |
-| [!UICONTROL Product] | 与产品轮廓关联的产品。此列可以按 A->Z、Z->A 进行排序。 |
-| [!UICONTROL Instance] | 与产品轮廓关联的实例（例如，租户或登录公司）。对于没有唯一实例或租户的产品，此值将显示为“-”。此列可以按 A->Z、Z->A 进行排序。 |
-| [!UICONTROL Number of Users] | 与产品轮廓关联的唯一用户计数，包括直接分配和组分配。此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
-| [!UICONTROL Number of Developers] | 与产品轮廓关联的开发人员角色计数。此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
+| [!UICONTROL Product rofile] | 产品轮廓的名称。 可以按从 A 到 Z 以及从 Z 到 A 的顺序对列进行排序。要查看有关策略的更多详细信息，请选择产品轮廓的名称。 |
+| [!UICONTROL Product] | 与产品轮廓关联的产品。 此列可以按 A->Z、Z->A 进行排序。 |
+| [!UICONTROL Instance] | 与产品轮廓关联的实例（例如，租户或登录公司）。 对于没有唯一实例或租户的产品，此值将显示为“-”。 此列可以按 A->Z、Z->A 进行排序。 |
+| [!UICONTROL Number of Users] | 与产品轮廓关联的唯一用户计数，包括直接分配和组分配。 此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
+| [!UICONTROL Number of Developers] | 与产品轮廓关联的开发人员角色计数。 此列可以按从最小到最大或从最大到最小的顺序进行排序。 |
 
 ## 自定义策略列表视图
 
 您可以对各个列进行搜索、排序或过滤，以自定义策略列表。
 
-* 按名称搜索产品轮廓。搜索与您键入的文本字符串匹配。
-* 按升序或降序值对列排序。此排序适用于[!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,]和[!UICONTROL Number of Developers,]列。
+* 按名称搜索产品轮廓。 搜索与您键入的文本字符串匹配。
+* 按升序或降序值对列排序。 此排序适用于[!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,]和[!UICONTROL Number of Developers,]列。
 * 单击&#x200B;**[!UICONTROL Filter By]**&#x200B;图标可应用多个过滤器，以列出符合特定条件的产品配置文件。 应用多个过滤类别时，搜索包含与 `AND` 实例 `AND` 解决方案关联的组。
 
 | 元素 | 描述 |
 | ---------| ----------|
-| [!UICONTROL Instance]筛选器 | 在“实例”列中搜索字符串，以将结果范围缩小到一个或多个实例。在每个搜索词后按 Enter 键可添加多个过滤器。 |
-| [!UICONTROL Solution]筛选器 | 从可用的应用程序中进行选择。多个应用程序过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
+| [!UICONTROL Instance]筛选器 | 在“实例”列中搜索字符串，以将结果范围缩小到一个或多个实例。 在每个搜索词后按 Enter 键可添加多个过滤器。 |
+| [!UICONTROL Solution]筛选器 | 从可用的应用程序中进行选择。 多个应用程序过滤器搜索包含“解决方案 1”`OR`“解决方案 2”的结果。 |
 
 ## 查看策略详细信息
 
@@ -135,7 +132,7 @@ ht-degree: 75%
 
 每个产品配置文件的详细视图会显示有关产品配置文件主体（用户、组等）的重要详细信息。 它还会显示产品轮廓启用的权限和资源。
 
-产品轮廓的详细信息可导出为 CSV 文件。[!UICONTROL Export CSV]选项生成两个CSV文件：
+产品轮廓的详细信息可导出为 CSV 文件。 [!UICONTROL Export CSV]选项生成两个CSV文件：
 
 * 主体详细信息（用户、用户组、开发人员、集成、管理员）
 * 权限和资源项
@@ -157,7 +154,7 @@ ht-degree: 75%
 
 | 选项卡 | 描述 |
 | ---------| ----------|
-| [!UICONTROL Users] | 产品轮廓中包含的用户列表。用户组关联显示在[!UICONTROL Assigned by group]列中。 |
+| [!UICONTROL Users] | 产品轮廓中包含的用户列表。 用户组关联显示在[!UICONTROL Assigned by group]列中。 |
 | [!UICONTROL User Groups] | 与产品轮廓关联的用户组列表。 |
 | [!UICONTROL Developers] | 与产品轮廓关联的开发人员列表。 |
 | [!UICONTROL Integrations] | 与产品轮廓关联的集成列表。 |
@@ -165,8 +162,8 @@ ht-degree: 75%
 
 ## 详细的权限和资源列表
 
-此部分显示产品轮廓可用的权限和资源的完整列表。产品配置文件中包含的权限和资源已标记“✔”。 权限和资源列表已分类为不同的选项卡和列，以便更轻松地查看。选项卡和列显示应用于当前产品的各个部分的列表。
+此部分显示产品轮廓可用的权限和资源的完整列表。 产品配置文件中包含的权限和资源已标记“✔”。 权限和资源列表已分类为不同的选项卡和列，以便更轻松地查看。 选项卡和列显示应用于当前产品的各个部分的列表。
 
 ## 相关信息
 
-* 在[中](https://helpx.adobe.com/cn/enterprise/using/users.html)管理用户[!DNL Admin Console]
+* 在[!DNL Admin Console]中[管理用户](https://helpx.adobe.com/cn/enterprise/using/users.html)

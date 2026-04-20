@@ -3,35 +3,30 @@ title: Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 9%
+source-wordcount: 426
+ht-degree: 8%
 
 ---
 
-# Experience Cloud使用的IP地址
+# CX Enterprise使用的IP地址
 
-某些防火墙配置会阻止源自Adobe数据收集服务器或负责访问数据的服务器的IP地址。 您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统(例如Adobe Analytics中的数据馈送)。
+某些防火墙配置会阻止源自Adobe数据收集服务器或负责访问数据的服务器的IP地址。 您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统（例如Adobe Analytics中的数据馈送）。
 
 >[!IMPORTANT]
 >
 >虽然Adobe会尽最大努力使此文档保持最新，但无法保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，互联网注册管理机构要求对Adobe的IP地址空间进行更改，或者互联网服务提供商停止运营。
 
-除了下面列出的IP地址块之外，各个Adobe Experience Cloud产品还会使用他们自己的IP地址：
+除了下面列出的IP地址块之外，各个Adobe CX Enterprise产品还会使用他们自己的IP地址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP地址块
 
@@ -49,12 +44,12 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud数据收集和FTP IP地址块
+## Adobe CX Enterprise数据收集和FTP IP地址块
 
 如果您的组织希望允许特定IP地址范围，您可以参考下表。 其包括：
 
-* 所有Experience Cloud产品的数据收集服务器
-* 适用于所有Experience Cloud产品的FTP服务器
+* 所有CX Enterprise产品的数据收集服务器
+* 适用于所有CX Enterprise产品的FTP服务器
 
 上表包含此部分中的所有IP范围。
 
@@ -92,7 +87,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-Adobe Experience Cloud还支持有限容量的IPv6。 这些IP块与上面的IPv4对应块具有类似的数据收集目的，但不包括FTP。
+Adobe CX Enterprise还支持有限容量的IPv6。 这些IP块与上面的IPv4对应块具有类似的数据收集目的，但不包括FTP。
 
 | 位置 | Host |
 | --- | --- |
@@ -114,5 +109,5 @@ Adobe Experience Cloud还支持有限容量的IPv6。 这些IP块与上面的IPv
 
 >[!TIP]
 >
->Adobe Analytics导出功能(包括Data Warehouse和数据馈送)的FTP连接仅源自伦敦、俄勒冈和新加坡位置的IPv4地址。
+>Adobe Analytics导出功能（包括Data Warehouse和数据馈送）的FTP连接仅源自伦敦、俄勒冈和新加坡位置的IPv4地址。
 

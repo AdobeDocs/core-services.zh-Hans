@@ -1,5 +1,5 @@
 ---
-description: 了解可在各个应用程序之间共享的 Experience Cloud Assets。
+description: 了解可在多个应用程序之间共享的CX Enterprise Assets。
 solution: Experience Cloud
 title: 资源概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -9,44 +9,37 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 TQID: https://experienceleague.adobe.com/XJqrWBg6tscTfgoA02FlqgxaziNOb0fL1LvEdUv0Ot0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 86%
+source-wordcount: 320
+ht-degree: 69%
 
 ---
 
-# Experience Cloud Assets 概述
+# CX Enterprise Assets概述
 
-Experience Cloud Assets 为可在应用程序间共享的营销就绪型资源提供单个集中的存储库。资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
+CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
 资产服务包括：
 
 * 资源存储、管理界面、嵌入式选择界面（通过应用程序访问）。
-* 与 Creative Cloud、Experience Cloud 协作和 Experience Cloud 应用程序的集成。
+* 与Creative Cloud、CX Enterprise协作和CX Enterprise应用程序的集成。
 
-使用资源可以提高一致性和品牌合规性，并缩短上市时间。您可以简化应用程序中的工作流：
+使用资源可以提高一致性和品牌合规性，并缩短上市时间。 您可以简化应用程序中的工作流：
 
 * **[!DNL Adobe Target]**：创建 A/B 和多变量测试体验。
 * **[!DNL Ad Cloud]**：跨不同渠道和营销活动制定广告单元
 * **[!DNL Adobe Campaign]**：将资源放入电子邮件新闻稿和营销活动。
 
 
-## 导航到 Experience Cloud Assets
+## 导航到CX Enterprise Assets
 
-![导航到 Experience Cloud Assets](../../assets/asset-nav.png)
+![导航到CX Enterprise Assets](../../assets/asset-nav.png)
 
 ## 访问工具栏
 
