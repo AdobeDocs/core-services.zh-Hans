@@ -114,12 +114,12 @@ Aliases: smetrics.example.com
 
 在验证证书是否正确工作后，您可以更新Adobe实施以使用这些值。
 
-* **Web SDK标记扩展**：配置扩展时更新[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)字段。
-* **Web SDK (alloy)**：更新[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)属性。
-* **Adobe Analytics扩展**：配置扩展时更新[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)字段。 确保您还安装了[访客ID服务标记扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)。 有关详细信息，请参阅使用Analytics标记扩展的[访客识别](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)。
-* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure)配置变量。 确保您还使用`VisitorAPI.js`实施了[访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/home)。 有关详细信息，请参阅使用AppMeasurement的[访客识别](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)。
+* **Web SDK标记扩展**：配置扩展时更新[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)字段。
+* **Web SDK (alloy)**：更新[`configure`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/commands/configure/edgedomain)属性。
+* **Adobe Analytics扩展**：配置扩展时更新[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/analytics/overview)字段。 确保您还安装了[访客ID服务标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)。 有关详细信息，请参阅使用Analytics标记扩展的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/analytics-extension)。
+* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/config-vars/trackingserversecure)配置变量。 确保您还使用`VisitorAPI.js`实施了[访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)。 有关详细信息，请参阅使用AppMeasurement的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/analytics-extension)。
 
-如果您的网站使用多种实施方法，并且您无法同时更新所有方法，请考虑配置一个宽限期。 有关如何防止将访客计为网站上的新访客的其他步骤，请参阅[访客ID服务迁移注意事项](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)。
+如果您的网站使用多种实施方法，并且您无法同时更新所有方法，请考虑配置一个宽限期。 有关如何防止将访客计为网站上的新访客的其他步骤，请参阅[访客ID服务迁移注意事项](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/migration)。
 
 ## 维护和续订
 

@@ -97,22 +97,22 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL CX Enterprise] customers access to foundational capabilities that aid interoperability between some [!DNL CX Enterprise] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL CX Enterprise] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL CX Enterprise] customers access to foundational capabilities that aid interoperability between some [!DNL CX Enterprise] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL CX Enterprise] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hans), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hans) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
 -->
 
 ## 2023 年 5 月
 
-* 在[!DNL CX Enterprise] **[!UICONTROL Help]**&#x200B;菜单中，已更新内容搜索，以便在[Experience League](https://experienceleague.adobe.com/#home)搜索结果中按应用程序进行筛选。
+* 在[!DNL CX Enterprise] **[!UICONTROL Help]**&#x200B;菜单中，已更新内容搜索，以便在[Experience League](https://experienceleague.adobe.com/zh-hans#home)搜索结果中按应用程序进行筛选。
 
 ## 2022 年 7 月
 
@@ -183,7 +183,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用Federated ID，则无需输入电子邮件地址或密码即可登录到CX Enterprise。 要使用此功能，请将`#/sso:@domain`添加到CX Enterprise URL。 <br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。 URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
-| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
+| Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
 
 {style="table-layout:auto"}
 
@@ -192,7 +192,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 描述 |
 | ------- | ------- |
 | CX Enterprise标题和导航 | Adobe CX Enterprise更新包括将标题变为浅色主题，并可轻松地切换回深色主题，其中还有一个链接，用于从其他首选项在CX Enterprise标题中的用户头像控制这些首选项。 虽然并非CX Enterprise中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
-| CX Enterprise全局搜索 | 在此版本中，CX Enterprise全局搜索允许您搜索[Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)文档、课程和教程中的任意内容。 （当前，全局搜索仅向 Experience Platform 用户开放。 全局搜索[!UICONTROL Platform]允许您搜索CX Enterprise中的任何业务对象，如区段、数据集、架构等。) |
+| CX Enterprise全局搜索 | 在此版本中，CX Enterprise全局搜索允许您搜索[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home)文档、课程和教程中的任意内容。 （当前，全局搜索仅向 Experience Platform 用户开放。 全局搜索[!UICONTROL Platform]允许您搜索CX Enterprise中的任何业务对象，如区段、数据集、架构等。) |
 | CX Enterprise语言首选项 | 此更新包括在CX Enterprise [首选项](https://experience.adobe.com/preferences)中设置首选语言的功能。 |
 
 {style="table-layout:auto"}
@@ -294,7 +294,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for CX Enterprise Solutions|New CX Enterprise customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
+|Admin Console for CX Enterprise Solutions|New CX Enterprise customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hans).|
 
 {style="table-layout:auto"}
 
@@ -438,7 +438,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL CX Enterprise].
 
 ## April 2015
