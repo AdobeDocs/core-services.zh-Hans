@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -37,7 +46,7 @@ ht-degree: 68%
 | **强制数据使用** | 无特殊用途。 | 系统（应用程序、应用、服务、SDK、API 等）为使用数据使用情况元数据而制定和定义的策略、系统设计、惯例和程序，以使数据使用符合 Adobe Corporate 隐私政策、合同注意事项和一般隐私原则。 |
 | **设备** | 无特殊用途。 | 运行应用程序的硬件设备，例如平板电脑、手机或桌面。 |
 | **设备协作** | 无特殊用途。 | 一组品牌，他们同意共享有关消费者使用哪些设备的数据，以便在不同设备之间更好地标识个人，并提供更有意义、更一致的体验。 |
-| **[!UICONTROL CX Enterprise ID Service](ECID)** | 无特殊用途。 | 分配给网站访客的唯一永久 ID。 它是可由 Experience Platform 身份标识服务使用的特定实体。 [更多...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
+| **[!UICONTROL CX Enterprise ID Service] (ECID)** | 无特殊用途。 | 分配给网站访客的唯一永久 ID。 它是可由 Experience Platform 身份标识服务使用的特定实体。 [更多...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
 | **[!UICONTROL Experience Platform Identity Service]** | 无特殊用途。 | 关联身份标识的服务。 它是用于基于人员的体验管理的设备链接服务。 |
 | **链接** | 无特殊用途。 关联是指超链接导航，以及关联各种项目，如字体、属性、图层等等。 | 在CX Enterprise中，关联通常指将不同的应用程序帐户与界面关联。<br>请参阅[组织和帐户关联](../administration/organizations.md)。<br>关联/链接还指发送给其他用户的 Analytics 报表所对应的标准 URL。 |
 | **位置** | 在 Creative Cloud 中，位置是指文件位置或打开的图像或文档所处的位置。 | 在CX Enterprise中，位置是指向受众显示内容（且可以与受众进行交互）的地方。 位置和内容之间的关联可以近乎静态，也可以根据营销活动规则对其进行动态管理。 位置始终属于可确定如何交付内容以及如何收集量度的特定渠道。<br>示例包括：<ul><li>Sites</li><li>属性（社交）</li><li>显示库存</li><li>登陆页面</li><li>移动设备应用程序</li><li>版块（视频）</li></ul> |

@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adobe Experience Platform代理工作和AI积分消耗
 
-更新日期： 2026年3月5日&#x200B;****
+更新日期： 2026年3月5日&#x200B;**&#x200B;**
 
 了解CX Enterprise应用程序中的智能人工智能就业和人工智能信用消费。 有关在现有CX Enterprise应用程序中启用代理AI功能的信息，请参阅CX Enterprise中的[代理AI](agentic-ai.md#existing-apps)。
 
