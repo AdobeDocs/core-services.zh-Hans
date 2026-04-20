@@ -1,6 +1,6 @@
 ---
-title: Experience Cloud UI 组件和服务
-description: 了解 Adobe Admin Console、受众库、客户属性、Experience Cloud Assets 等项中的 UI 组件、用户和产品管理。
+title: Experience Cloud UI组件和服务
+description: 了解Adobe Admin Console、受众库、客户属性、CX Enterprise Assets等项中的UI组件、用户和产品管理。
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
@@ -13,33 +13,33 @@ getting-started-url: https://helpx.adobe.com/cn/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.zh-Hans
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 66%
 
 ---
 
 
-# 内部使用的元数据
+# 供内部使用的元数据
 
-metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存储库级别元数据。如果要更改任何用户指南的 metadata.md 内容，请在任意 TOC.md 文件中进行更改。
+metadata.md 文件包含存储库级别的元数据，这些元数据会被传送到存储库中的用户指南 TOC.md 文件。 如果要更改任何用户指南的 metadata.md 内容，请在任何 TOC.md 文件中进行更改。
 
-| 元数据 | 作用 |
+| 元数据 | 用途是什么 |
 | --- | --- |
 | solution-title | 在文章标题中用作链接 |
 | solution-hub-url | 打开 helpx 中心页面 |
-| solution-icon | 在解决方案标题旁边显示解决方案图标。尚未实施 |
-| getting-started-title | 教程不合适时鲜少使用 |
+| solution-icon | 在解决方案标题旁边显示解决方案图标。 尚未实施 |
+| getting-started-title | 教程不合适时很少使用 |
 | getting-started-url | 指向 helpx 快速入门页面的链接 |
-| tutorials-title | 教程不合适时鲜少使用 |
-| tutorials-url | 指向视频教程的链接 -- helpx 教程或 KT 教程 |
-| mini-toc-levels | 确定右侧边栏中显示的标题级别数量。默认为 2 |
-| git-repo | 指定协作存储库的位置。将 github.com 镜像用于面向公众的文档 |
+| tutorials-title | 教程不合适时很少使用 |
+| tutorials-url | 指向视频教程的链接 – helpx 教程或 KT 教程 |
+| mini-toc-levels | 确定右边栏中显示的标题层级数。 默认值为 2 |
+| git-repo | 指定协作存储库的位置。 将github.com镜像用于面向公众的文档 |
 
 在 TOC.md 文件中
 
-| 元数据 | 作用 |
+| 元数据 | 用途是什么 |
 | --- | --- |
 | user-guide-title | 在文章标题中用作链接 |
 | user-guide-url | 打开 helpx 中心页面 |

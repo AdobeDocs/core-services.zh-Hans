@@ -1,5 +1,5 @@
 ---
-description: 了解如何通过FTP将客户属性数据上传到Experience Cloud。
+description: 了解如何通过FTP将客户属性数据上传到CX Enterprise。
 solution: Experience Cloud
 title: 通过FTP上传客户属性数据文件
 feature: Customer Attributes
@@ -19,18 +19,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 361
-ht-degree: 55%
+source-wordcount: 379
+ht-degree: 53%
 
 ---
 
 # 通过FTP上传数据文件（可选）
 
-如果您不使用拖放操作上传，则可以通过FTP将客户属性数据上传到Experience Cloud。
+如果您不使用拖放操作上传，则可以通过FTP将客户属性数据上传到CX Enterprise。
 
-在Experience Cloud中创建客户属性来源和FTP帐户后，您可以上传数据。 为每个属性来源创建一个 FTP 帐户。上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
+在CX Enterprise中创建客户属性来源和FTP帐户后，您可以上传数据。 为每个属性来源创建一个 FTP 帐户。 上传的文件存储在该帐户的根文件夹中。 该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ ht-degree: 55%
 
 1. 上传 `.fin` 文件，以便您的文件可被检索到。
 
-   文件类型 `.fin` 是由用户创建的，表示上传已完成。它可以是一个空白的记事本文件。例如，如果您上传 `crs123.csv`，同时也会上传 `crs123.fin`。
+   文件类型 `.fin` 是由用户创建的，表示上传已完成。 它可以是一个空白的记事本文件。 例如，如果您上传 `crs123.csv`，同时也会上传 `crs123.fin`。
 
    如果上传成功，则两个文件都会移到名为&#x200B;**已处理**&#x200B;的文件夹。
 
@@ -65,11 +65,11 @@ ht-degree: 55%
 
 ![编辑架构](assets/ftp-account.png)
 
-上传的文件存储在该帐户的根文件夹中。该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
+上传的文件存储在该帐户的根文件夹中。 该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
 
 指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 指标。
 
-* 从上载的&#x200B;**[!UICONTROL attribute:]**&#x200B;文件中读取了`.csv`属性数据。
+* 从上载的`.csv`文件中读取了&#x200B;**[!UICONTROL attribute:]**&#x200B;属性数据。
 
 * **[!UICONTROL Type:]**&#x200B;数据类型，例如：
 

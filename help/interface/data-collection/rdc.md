@@ -1,6 +1,6 @@
 ---
 title: 地区数据收集
-description: 了解Experience Cloud中的区域数据收集。
+description: 了解CX Enterprise中的区域数据收集。
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
 product_v2:
@@ -13,16 +13,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
 # 地区数据收集
 
-Adobe Experience Cloud使用区域数据收集(RDC)，以便访客与Adobe之间的交互尽可能靠近访客。 在边缘站点本地收集的数据安全地转发到核心站点以供处理。 处理之后，该数据便可用于Adobe Experience Cloud产品和服务。
+Adobe CX Enterprise使用区域数据收集(RDC)，以便访客与Adobe之间的交互尽可能靠近访客。 在边缘站点本地收集的数据安全地转发到核心站点以供处理。 处理之后，该数据便可用于Adobe CX Enterprise产品和服务。
 
 区域数据收集工作流具备以下优势：
 
@@ -44,7 +44,7 @@ RDC当前包括以下位置（可能发生变化）：
 
 {style="table-layout:auto"}
 
-_*中国RDC需要中国性能优化加载项包，并且仅适用于使用AppMeasurement数据收集的Adobe Analytics。 不支持其他Experience Cloud服务和Web SDK数据收集。 请联系您的Adobe客户团队以了解有关“中国性能优化”附加组件包的更多信息。_
+_*中国RDC需要中国性能优化加载项包，并且仅适用于使用AppMeasurement数据收集的Adobe Analytics。 不支持其他CX Enterprise服务和Web SDK数据收集。 请联系您的Adobe客户团队以了解有关“中国性能优化”附加组件包的更多信息。_
 
 ## 第三方数据收集
 

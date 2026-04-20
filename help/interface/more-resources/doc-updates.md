@@ -1,5 +1,5 @@
 ---
-description: 了解Experience Cloud的常用界面组件在何处发生文档更新。
+description: 了解CX Enterprise的常用界面组件在何处发生文档更新。
 solution: Experience Cloud
 title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -23,16 +23,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 656
-ht-degree: 70%
+ht-degree: 50%
 
 ---
 
 # 文档更新
 
-了解Experience Cloud中央界面和管理文档更新的位置。
+了解CX Enterprise中央界面和管理文档更新的位置。
 
 **2026 年 3 月**
 
@@ -40,7 +40,7 @@ ht-degree: 70%
 
 **2025年11月**
 
-Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
+CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2025 年 10 月**
 
@@ -52,7 +52,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **2025 年 2 月**
 
-在Experience Cloud中添加了[管理用户和产品](../administration/admin-console.md)。 此页面可帮助管理员查找适用于所有应用程序的用户和产品管理(Admin Console)帮助。
+在CX Enterprise中添加了[管理用户和产品](../administration/admin-console.md)。 此页面可帮助管理员查找适用于所有应用程序的用户和产品管理(Admin Console)帮助。
 
 **2024年11月**
 
@@ -66,7 +66,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **2024年4月26日**
 
-对文档架构进行了全面改进。 还添加了[Adobe Experience Cloud IP地址](../data-collection/ip-addresses.md)和[区域数据收集](../data-collection/rdc.md)。
+对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[区域数据收集](../data-collection/rdc.md)。
 
 **2024年4月9日**
 
@@ -88,7 +88,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | Experience Cloud 主页页脚信息已移至用户轮廓卡，包括法律声明和偏好设置中的语言选择。 |
+| 主页 | CX Enterprise主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
@@ -97,7 +97,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 | 功能 | 描述 |
 | ------- | ------- |
 | 统一搜索 | 统一搜索仍会将对象类型添加到搜索索引。 在此更新中，全局搜索现在可以跨 Experience League 内容和以下 Journey Optimizer 对象类型进行搜索： <ul><li>数据集</li><li>目标</li><li>查询</li><li>架构</li><li>区段</li><li>源</li><li>产品建议</li><li>组件</li><li>消息</li><li>历程</li></ul> |
-| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定 Adobe 如何根据您的 Experience Cloud 产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。 此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
+| 产品使用情况数据同意 | 首次登录时，您需要提交偏好设置来设定Adobe如何根据您的CX Enterprise产品使用情况数据为您提供有用的个性化内容，例如教程、指南、快速提示、推荐、学习视频等。 此请求还包括更新您对在 <https://experience.adobe.com/preferences> 上收集和使用这些数据的偏好设置。 |
 
 **2021年8月24日**
 
@@ -113,11 +113,11 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **2021 年 6 月 1 日**
 
-更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问 Experience Cloud、全局搜索首选项和通知的帮助。
+更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
 
 **2020年8月19日**
 
-更新了[查看 Experience Cloud 用户详细信息（管理工具）](../administration/admin-tool-experience-cloud.md)以及策略信息。
+更新了[查看CX Enterprise用户详细信息（管理工具）](../administration/admin-tool-experience-cloud.md)以及策略信息。
 
 **2020年5月19日**
 
@@ -136,7 +136,7 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **2020 年 2 月 20 日**
 
-添加了[查看 Experience Cloud 用户详细信息（管理工具）](../administration/admin-tool-experience-cloud.md)。
+添加了[查看CX Enterprise用户详细信息（管理工具）](../administration/admin-tool-experience-cloud.md)。
 
 **更新日期：2018 年 9 月 5 日**
 
@@ -164,19 +164,19 @@ Experience Cloud中[代理AI的更新](../features/agentic-ai.md)
 
 **9 2016年5月**
 
-添加了 [Experience Cloud 集成](../administration/integrations.md)（集成文档合集）。
+添加了[CX Enterprise集成](../administration/integrations.md)（集成文档合集）。
 
 **2016 年 2 月 11 日**
 
-添加了 [Experience Cloud Assets](../services/assets/experience-cloud-assets.md)。
+添加了[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)。
 
 **2015年1月15日**
 
-添加了 Experience Cloud 用户，现在可以将文件夹共享至 Creative Cloud，而且可以在这两个 Cloud 之间同步资源和评论。 请参阅[资源共享](../services/assets/share.md)。
+添加了CX Enterprise的用户现在可以将文件夹共享到Creative Cloud，并在两个云之间同步资源和评论。 请参阅[资源共享](../services/assets/share.md)。
 
 **2014年7月17日**
 
-添加了适用于管理员的 [Experience Cloud 常见问题解答](faq.md)。
+添加了[CX Enterprise常见问题解答](faq.md)。
 
 **2014年5月22日**
 

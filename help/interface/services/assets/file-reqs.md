@@ -1,6 +1,6 @@
 ---
 title: 共享Assets的文件要求
-description: 了解在 Adobe Experience Cloud 和 Creative Cloud 之间共享资产所允许的文件类型和大小限制。
+description: 了解在Adobe CX Enterprise和Creative Cloud之间共享资源所允许的文件类型和大小限制。
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 122
-ht-degree: 95%
+source-wordcount: 142
+ht-degree: 73%
 
 ---
 
 # 共享资产的文件要求
 
-在 Experience Cloud 和 Creative Cloud 之间共享资产所允许的文件类型和大小限制。
+在CX Enterprise和Creative Cloud之间共享资源所允许的文件类型和大小限制。
 
 ## 允许上传的文件类型
 
-可以上传的文件类型包括大部分图像、文档和多媒体。有关 [!DNL Experience Cloud] Assets 中文件格式的信息，请参阅[支持的格式](https://helpx.adobe.com/cn/experience-manager/brand-portal/using/brand-portal-supported-formats.html)。
+可以上传的文件类型包括大部分图像、文档和多媒体。 有关 [!DNL CX Enterprise] Assets 中文件格式的信息，请参阅[支持的格式](https://helpx.adobe.com/cn/experience-manager/brand-portal/using/brand-portal-supported-formats.html)。
 
 ## 文件大小限制
 

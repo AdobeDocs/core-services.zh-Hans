@@ -1,5 +1,5 @@
 ---
-description: 了解如何跨 Experience Cloud 应用程序存储和使用 ID 服务。
+description: 了解如何跨CX Enterprise应用程序存储和使用ID服务。
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,16 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 88%
+source-wordcount: 370
+ht-degree: 77%
 
 ---
 
-# Experience Cloud Cookie
+# CX Enterprise Cookie
 
-Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe Experience Cloud应用程序。
+Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
 
 **Cookie 名称：s_ecid**
 
@@ -45,7 +45,7 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> 包含 Experience Cloud ID (ECID) 或 MID 的副本。MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> 包含CX Enterprise ID (ECID)或MID的副本。 MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
@@ -53,11 +53,11 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用情况 </p> </td> 
-   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
+   <td colname="col2"> <p>在客户端设置 AMCV Cookie 之后，此 Cookie 由客户的域设置。 此 Cookie 的用途是允许在第一方状态中进行持久 ID 跟踪，并在 AMCV Cookie 过期时用作参考 ID。 有关更多详细信息，请参阅此处的 AMCV Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p>仅限 CNAME 客户。不适用于第三方场景。Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 </p> </td> 
+   <td colname="col2"> <p>仅限 CNAME 客户。 不适用于第三方场景。 Cookie 存储在您的域中，该域与 CNAME 和 Analytics 图像请求使用的域相同。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
@@ -65,7 +65,7 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
+   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud 解决方案使用的独特访客 ID。 </p> </td> 
+   <td colname="col2"> <p> CX Enterprise解决方案使用的独特访客ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
@@ -105,8 +105,8 @@ Adobe Experience Cloud使用Cookie来存储跨Experience Cloud应用程序使用
    <td colname="col2"> <p> 各不相同，大多数客户可能希望此 Cookie 的长度在 200 字节左右。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>没有添加任何值。Chrome 的默认值为 Lax。 </p> </td> 
-   <td colname="col2"> <p> 仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。该设置是 Chrome 中为 Cookie 新增的默认设置。 </p> </td> 
+   <td colname="col1"> <p>没有添加任何值。 Chrome 的默认值为 Lax。 </p> </td> 
+   <td colname="col2"> <p> 仅当浏览器的 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

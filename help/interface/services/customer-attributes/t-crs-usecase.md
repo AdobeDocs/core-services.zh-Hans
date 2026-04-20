@@ -1,5 +1,5 @@
 ---
-description: 了解如何创建 [!DNL Customer Attributes] 数据源并将其上传到Experience Cloud。
+description: 了解如何创建 [!DNL Customer Attributes] 数据源并将其上传到CX Enterprise。
 solution: Experience Cloud
 title: 创建并上传 [!DNL Customer Attributes] 数据Source文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -22,10 +22,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d57b222077b83d52344a31c8a6b4ccf165843147
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1118
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 47%
 
 * **组成员资格：**&#x200B;要上传数据，用户必须是[!DNL Customer Attributes]组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-  要了解您的公司是否具有客户属性的访问权限，您的 [!DNL Experience Cloud] 管理员应当登录到 [Experience Cloud](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL product profiles]之一，则表示您已经可以开始。
+  要知道您的公司是否具有客户属性的访问权限，您的[!DNL CX Enterprise]管理员应登录到[CX Enterprise](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL product profiles]之一，则表示您已经可以开始。
 
-  添加到[!DNL Customer Attributes]的用户将在Experience Cloud界面的左侧看到[!DNL Customer Attributes]菜单项。
+  添加到[!DNL Customer Attributes]的用户将在CX Enterprise界面的左侧看到[!DNL Customer Attributes]菜单项。
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
@@ -68,7 +68,7 @@ ht-degree: 47%
 
 ## 创建属性源并上传数据文件
 
-在Experience Cloud的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;页面上执行这些步骤。
+在CX Enterprise的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;页面上执行这些步骤。
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ ht-degree: 47%
 
    * **[!UICONTROL Description:]** （可选）数据属性源的描述。
 
-   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在Experience Cloud中的客户属性源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
+   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ ht-degree: 47%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于[Experience Cloud ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL customer Settings]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL customer Settings]下的&#x200B;*集成代码*&#x200B;值。
 
       * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
@@ -146,9 +146,9 @@ ht-degree: 47%
 
 * **[!UICONTROL Unique customer ID:]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
-* **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;显示有多少个ID已别名为Experience Cloud访客ID。
+* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]**&#x200B;显示有多少个ID已别名为CX Enterprise访客ID。
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多Experience Cloud访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些 ID 关联的属性分发到 500 个最新的 Experience Cloud 访客 ID 别名，直到别名计数达到 10000 个为止。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多CX Enterprise访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近设置别名的CX Enterprise访客ID，直到别名计数达到10,000个。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
 
 ## 验证架构 {#validate-schema}
 
@@ -168,7 +168,7 @@ ht-degree: 47%
 
 ## 配置订阅和激活属性源
 
-配置订阅可以设置Experience Cloud和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置订阅可以设置CX Enterprise和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅并激活数据源](subscription.md)。
 
@@ -180,7 +180,7 @@ ht-degree: 47%
 
 ![基于已上传属性的 Analytics 区段](assets/08_crs_usecase.png)
 
-在将区段发布到Experience Cloud时，它将在Experience Cloud受众和Audience Manager中变得可用。
+在将区段发布到CX Enterprise时，它将在CX Enterprise受众和Audience Manager中变得可用。
 
 ## 在Adobe Target中使用[!DNL Customer Attributes]数据
 
