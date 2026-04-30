@@ -1,5 +1,5 @@
 ---
-title: Experience Cloud UI组件和服务
+title: CX Enterprise Central UI和管理
 description: 了解Adobe Admin Console、受众库、客户属性、CX Enterprise Assets等项中的UI组件、用户和产品管理。
 cloud: Experience Cloud
 product: experience cloud
@@ -13,7 +13,7 @@ getting-started-url: https://helpx.adobe.com/cn/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.zh-Hans
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 904e2603fc9f40bca8317881fc3b0b4e34e04300
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 66%
