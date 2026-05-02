@@ -1,21 +1,21 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud 界面和管理
-breadcrumb-title: Experience Cloud 界面和管理
-title: Experience Cloud 界面和管理
-description: 了解CX Enterprise界面、Cookie和帐户首选项。 管理产品并配置人员服务，包括客户属性和受众库。 共享CX Enterprise Assets。
+user-guide-title: 《 CX Enterprise中央界面和管理指南》
+breadcrumb-title: CX Enterprise界面和管理
+title: 《 CX Enterprise界面和管理指南》
+description: 了解CX Enterprise界面和管理。 浏览有关AI、管理、共享服务、数据收集、Cookie、发行说明和常见问题解答的主题。
 index: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 71%
+source-wordcount: '209'
+ht-degree: 58%
 
 ---
 
 # CX Enterprise界面和管理 {#interface}
 
 + [CX Enterprise界面和管理](/help/interface/experience-cloud.md)
-+ CX Enterprise的人工智能 {#features}
++ CX Enterprise中的AI {#features}
    + [生成式 AI](/help/interface/features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
    + {hide-from-toc}[AI监控](/help/interface/features/ai-monitoring.md)
@@ -65,7 +65,7 @@ ht-degree: 71%
       + [Advertising Cookie](/help/interface/data-collection/cookies/advertising.md)
       + [Analytics Cookie](/help/interface/data-collection/cookies/analytics.md)
       + [Audience Manager Cookie](/help/interface/data-collection/cookies/audience-manager.md)
-      + [CX Enterprise Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [CX企业版Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Target Cookie](/help/interface/data-collection/cookies/target.md)
       + [Web SDK Cookie](/help/interface/data-collection/cookies/web-sdk.md)
    + [地区数据收集](/help/interface/data-collection/rdc.md)

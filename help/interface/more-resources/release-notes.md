@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 62d66c526ac0e88f4748437b8a6ff1225894a39e
 workflow-type: tm+mt
-source-wordcount: 1426
+source-wordcount: 1429
 ht-degree: 51%
 
 ---
@@ -46,25 +46,25 @@ CX Enterprise中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | ------- | ------- | ------- |
-| 2026年4月20日 | 刷新的主页 | 在`https://experience.adobe.com/home`刷新了主页的外观。 在此版本中，所有功能保持不变，更新了UI，支持完整的&#x200B;_深色模式_，并且改进了辅助功能。 |
+| 2026年4月20日 | Adobe CX Enterprise界面更新 | 在`https://experience.adobe.com/home`刷新了主页的外观。 通过此更名版本，所有功能保持不变，更新了UI，支持完整的&#x200B;_深色模式_，并且改进了辅助功能。 |
 
 ## 2026 年 1 月
 
 | 日期 | 更新 | 描述 | 适用的产品 |
 | -----------| -----------| ---------- | ---------- |
-| 2026年1月14日 | 可自定义的左侧导航菜单 | 您现在可以在CX Enterprise中自定义应用程序的左侧导航菜单。 将导航项重新排序，控制其可见性，以便快速访问最重要的功能。 此更新可帮助您简化工作流、减少认知负担，并支持完整的键盘可访问性。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
+| 2026年1月14日 | 可自定义的左侧导航菜单 | 现在，您可以在CX Enterprise中自定义应用程序的左侧导航菜单。 将导航项重新排序，控制其可见性，以便快速访问最重要的功能。 此更新可帮助您简化工作流、减少认知负担，并支持完整的键盘可访问性。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版本</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| 2025年9月25日 | 支持 IP 访问列表 | 对于在Admin Console中具有IP访问列表且已启用的组织，CX Enterprise将遵循这些IP限制来访问`https://experience.adobe.com`域上的应用程序。 该更新适用于通过该域访问的所有 Web 应用程序；系统将在该组织的登录时以及新页面加载时执行检查。 |
+| 2025年9月25日 | 支持 IP 访问列表 | 对于在Admin Console中具有IP访问列表且已启用的组织， CX Enterprise将遵守这些IP限制以访问`https://experience.adobe.com`域上的应用程序。 该更新适用于通过该域访问的所有 Web 应用程序；系统将在该组织的登录时以及新页面加载时执行检查。 |
 
 ## 2025 年 3 月
 
 | 日期 | 更新 | 描述 |
 | -----------| -----------| ---------- |
-| 2025 年 3 月 6 日 | 修复右键单击菜单选项 | CX Enterprise标题导航选项卡现在允许右键单击浏览器下拉菜单功能。 这修复了 2 月份发布的 Spectrum 2 设计系统中出现的问题。 |
+| 2025 年 3 月 6 日 | 修复右键单击菜单选项 | CX Enterprise标题导航选项卡现在允许使用右键单击、浏览器下拉菜单功能。 这修复了 2 月份发布的 Spectrum 2 设计系统中出现的问题。 |
 
 ## 2025 年 2 月
 
@@ -76,19 +76,19 @@ CX Enterprise中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 功能 | 描述 |
 | -----------| -----------| ---------- |
-| 9 年 1 月 | 产品使用数据 | 为了更便于控制CX Enterprise产品使用数据偏好设置，我们简化了CX Enterprise [偏好设置](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前的用户首选项，您可以随时在[CX Enterprise首选项](https://experience.adobe.com/preferences)上更新您的首选项。 |
+| 9 年 1 月 | 产品使用数据 | 为了更便于控制CX Enterprise产品使用数据首选项，我们简化了CX Enterprise [首选项](../features/account-preferences.md#product-usage-data)页面以删除重复选项。 通过这种简化，我们保留了当前的用户首选项，您可以随时在[CX企业首选项](https://experience.adobe.com/preferences)上更新您的首选项。 |
 
 ## 2024年10月2
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 可自定义的主页 | 在CX Enterprise登录页面上，单击&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式允许您通过访问构件库和自定义背景来个性化CX Enterprise主页。 [!UICONTROL Edit]模式为移动、调整大小和管理构件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
+| 可自定义的主页 | 在CX Enterprise登录页上，单击&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式允许您通过访问小组件库和自定义背景来个性化CX Enterprise主页。 [!UICONTROL Edit]模式为移动、调整大小和管理构件提供了无缝、直观的控制，包括批量操作和布局调整，从而提供了更美观且量身定制的体验。 |
 
 ## 2024年9月10日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| Slack 通知 | 您可以配置帐户首选项，以将CX Enterprise通知发送到Slack。 有关详细信息，请参阅[首选项](../features/account-preferences.md)帮助中的&#x200B;_Slack通知_。 |
+| Slack 通知 | 您可以配置帐户首选项以将CX企业通知发送到Slack。 有关详细信息，请参阅[首选项](../features/account-preferences.md)帮助中的&#x200B;_Slack通知_。 |
 
 <!--
 ## July - August 2023
@@ -151,7 +151,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | CX Enterprise主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
+| 主页 | CX Enterprise主页页脚信息已移至用户配置文件卡，包括首选项中的法律声明和语言选择。 |
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定某个数据选择（当前为单变量数据选择），[!DNL Helios] 将推荐合适的可视化以配合该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
@@ -182,7 +182,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用Federated ID，则无需输入电子邮件地址或密码即可登录到CX Enterprise。 要使用此功能，请将`#/sso:@domain`添加到CX Enterprise URL。 <br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。 URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
+| Adobe Federated ID 支持单点登录 | 2021 年 6 月 17 日 | 如果您使用Federated ID ，则无需输入电子邮件地址或密码即可登录到CX Enterprise。 要使用此功能，请将`#/sso:@domain`添加到CX Enterprise URL。 <br>例如，假设您拥有域 `example.com` 且希望登录到 Adobe Analytics。 URL 应为：`https://experience.adobe.com/#/sso:@example.com/analytics`。 |
 | Experience League 搜索 | 2021 年 6 月 1 日 | Experience League 文档搜索已改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hans)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段查找教程、文档和课程等。 |
 
 {style="table-layout:auto"}
@@ -191,9 +191,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | ------- | ------- |
-| CX Enterprise标题和导航 | Adobe CX Enterprise更新包括将标题变为浅色主题，并可轻松地切换回深色主题，其中还有一个链接，用于从其他首选项在CX Enterprise标题中的用户头像控制这些首选项。 虽然并非CX Enterprise中的所有应用程序都支持设置主题，但此功能为以后支持主题创造了可能性。 |
-| CX Enterprise全局搜索 | 在此版本中，CX Enterprise全局搜索允许您搜索[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home)文档、课程和教程中的任意内容。 （当前，全局搜索仅向 Experience Platform 用户开放。 全局搜索[!UICONTROL Platform]允许您搜索CX Enterprise中的任何业务对象，如区段、数据集、架构等。) |
-| CX Enterprise语言首选项 | 此更新包括在CX Enterprise [首选项](https://experience.adobe.com/preferences)中设置首选语言的功能。 |
+| CX Enterprise页眉和导航 | Adobe CX Enterprise更新包括将标题变为浅色主题，并可轻松地切换回深色主题，并提供从他们在CX Enterprise标题中的用户头像控制其他首选项的链接。 虽然并非CX Enterprise中的所有应用程序都支持主题化，但此功能为以后支持主题化创造了可能性。 |
+| CX企业全局搜索 | 在此版本中，CX Enterprise全局搜索允许您搜索[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-Hans#home)文档、课程和教程中的任意内容。 （当前，全局搜索仅向 Experience Platform 用户开放。 全局搜索[!UICONTROL Platform]使您能够搜索CX Enterprise中的任何业务对象，如区段、数据集、架构等。) |
+| CX企业语言首选项 | 此更新包括在CX Enterprise [首选项](https://experience.adobe.com/preferences)中设置首选语言的功能。 |
 
 {style="table-layout:auto"}
 
@@ -201,20 +201,20 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 策略 | 本页显示贵组织中CX Enterprise策略的完整列表。 它提供了有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和过滤，以获取策略列表的自定义视图。 有关详细信息，请参阅[CX Enterprise管理工具](../administration/admin-tool-experience-cloud.md)帮助。 |
+| 管理工具 - 策略 | 此页显示贵组织中的CX Enterprise策略的完整列表。 它提供了有关产品、实例、用户和开发人员的信息。 您可以搜索、排序和过滤，以获取策略列表的自定义视图。 有关详细信息，请参阅[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md)帮助。 |
 
 {style="table-layout:auto"}
 
 ## 2020 年 4 月
 
-* 已弃用CX Enterprise [!UICONTROL Feed]页面。 (EXC-8505)
-* CX Enterprise登录页面已更新，可反映新的品牌元素。 (EXC-10747)
+* 已弃用CX Enterprise [!UICONTROL Feed]页。 (EXC-8505)
+* CX Enterprise登录页面已更新以反映新的品牌元素。 (EXC-10747)
 
 ## 2020 年 2 月
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具 - 查看用户详细信息 | 管理员可以在新的“管理工具”中查看所有CX Enterprise用户的可排序、可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。 有关详细信息，请参阅[CX Enterprise管理工具](../administration/admin-tool-experience-cloud.md)帮助。 |
+| 管理工具 - 查看用户详细信息 | 管理员可以在新的“管理工具”中查看所有CX Enterprise用户的可排序、可过滤列表及其详细信息。 用户详细信息包括用户的产品访问权限、角色和上次访问时间信息。 有关详细信息，请参阅[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md)帮助。 |
 
 {style="table-layout:auto"}
 
