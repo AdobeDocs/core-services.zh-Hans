@@ -1,5 +1,5 @@
 ---
-description: 了解Adobe CX Enterprise中的术语，以及这些术语在Creative Cloud中的不同之处。
+description: 了解Adobe产品和界面术语在CX企业版、Experience Cloud解决方案、Creative Cloud、Experience League和其他支持体验中的差异。
 solution: Experience Cloud
 title: 术语
 feature-set: Experience Cloud Services
@@ -8,24 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 581cd64936e5740d6288564abd25b5dd358f0dc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 504cdc98f97b744efa27d3c09cd69cf7f81412a4
 workflow-type: tm+mt
-source-wordcount: 1273
-ht-degree: 68%
+source-wordcount: 692
+ht-degree: 5%
 
 ---
 
@@ -35,33 +26,23 @@ ht-degree: 68%
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
 -->
 
-CX Enterprise用户的术语参考，以及如何在Creative Cloud中使用这些术语（如果适用）。
+当同一字出现在不同的Adobe体验（ CX企业版、营销应用程序、设计应用程序或支持站点）中时，请使用此表。 它不是完整的术语表；有关深层定义，请参阅[Experience League](https://experienceleague.adobe.com)上的产品特定帮助。
 
-| 术语 | Creative Cloud | CX企业版 |
-| --- | ----- | ---- |
-| **资源** | 在 Creative Cloud 中，资源通常是指图像文件。<br>资源可以是 Photoshop 文件中的图层、PowerPoint 文件中的幻灯片、PDF 中的页面以及 ZIP 包中的文件。 | 在CX Enterprise中，资产是指数字文档、图像、视频或音频，它们可以具有多个演绎版，并可以具有子资产。 示例包括：<ul><li>文件</li><li>文档</li><li>图像</li><li>视频</li><li>音频剪辑</li><li>演示文稿</li><li>图像模板</li><li>视频模板</li></ul> |
-| **属性** | | 符合[区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)资格的人员之间所共有的属性。 （类似于 Audience Manager 中的[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hans)。） |
-| **受众** | 在 Creative Cloud 中，受众可以是指观看视频的人员。 | 在CX Enterprise中，受众是您可以在营销活动中定位的人员集合。<br>受众中的成员资格可根据一组规则确定并在访客的上下文中运行，或根据固定的列表确定。 例如，某 Facebook 群组中订阅者或成员的电子邮件列表。<br>在[CX Enterprise Audiences](../services/audiences/overview.md)中，创建和管理受众与创建和使用区段类似，还增加了将受众共享到CX Enterprise的功能。<br>**Adobe Target**<br>&#x200B;在Adobe Target中，受众以前称为区段。<br>**Adobe Analytics**<br>&#x200B;在 Analytics 中，受众可以被视为网站的访客。 您可以创建受众区段并将受众发布到CX Enterprise。 |
-| **营销活动** | 在 Creative Cloud 中，营销活动可被视为使用 Creative Cloud 图像资源的市场营销活动。 | 在CX Enterprise中，促销活动决定向受众显示的内容。 它还可以确定显示内容的区域（位置）以及时间。 营销活动具有特定目标，可以通过量度进行跟踪。<br>运行营销活动需要将访客的上下文与营销活动中设置的规则相匹配，并根据位置渠道的技术限制来交付内容。<br>在 Adobe Target 中，术语营销活动和活动是同义词。 |
-| **频道** | 在 Creative Cloud 中，渠道可以是指存储不同信息类型的灰度图像。 它们包括信息渠道和颜色渠道。 | 在CX Enterprise中，渠道是位置的属性或营销活动中的活动。<br>在 Analytics 中，营销渠道通常用于洞察访客是如何抵达您的网站的，例如通过电子邮件营销活动。<br>示例包括：<ul><li>电子邮件地址</li><li>展示广告</li><li>社交网站</li><li>付费搜索</li><li>免费搜索</li><li>反向链接域名</li></ul> |
-| **内容** | 在 Creative Cloud 中，内容是指页面上的文本和图像。 该术语在Creative和CX Enterprises中的用法相似。 | 在CX Enterprise中，内容是指可用于支持特定目标的Campaign中的营销内容。<br>内容用在特定的位置，并可由资源组成。 内容既可以是结构化的，如产品信息；也可以是非结构化的，如移动设备应用程序中的网页或屏幕。<br>示例包括：<ul><li>网页</li><li>横幅</li><li>状态更新</li><li>评论</li><li>文本广告</li><li>产品信息</li><li>产品评价</li><li>表单数据</li><li>搜索索引中的文档</li><li>社交帖子</li><li>文章</li><li>出版物</li></ul> |
-| **仪表板** | 无特殊用途。 | 数据可视化图表的集合，可在单个视图中显示多个关键量度。 |
-| **强制数据使用** | 无特殊用途。 | 系统（应用程序、应用、服务、SDK、API 等）为使用数据使用情况元数据而制定和定义的策略、系统设计、惯例和程序，以使数据使用符合 Adobe Corporate 隐私政策、合同注意事项和一般隐私原则。 |
-| **设备** | 无特殊用途。 | 运行应用程序的硬件设备，例如平板电脑、手机或桌面。 |
-| **设备协作** | 无特殊用途。 | 一组品牌，他们同意共享有关消费者使用哪些设备的数据，以便在不同设备之间更好地标识个人，并提供更有意义、更一致的体验。 |
-| **[!UICONTROL CX Enterprise ID Service] (ECID)** | 无特殊用途。 | 分配给网站访客的唯一永久 ID。 它是可由 Experience Platform 身份标识服务使用的特定实体。 [更多...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans) |
-| **[!UICONTROL Experience Platform Identity Service]** | 无特殊用途。 | 关联身份标识的服务。 它是用于基于人员的体验管理的设备链接服务。 |
-| **链接** | 无特殊用途。 关联是指超链接导航，以及关联各种项目，如字体、属性、图层等等。 | 在CX Enterprise中，关联通常指将不同的应用程序帐户与界面关联。<br>请参阅[组织和帐户关联](../administration/organizations.md)。<br>关联/链接还指发送给其他用户的 Analytics 报表所对应的标准 URL。 |
-| **位置** | 在 Creative Cloud 中，位置是指文件位置或打开的图像或文档所处的位置。 | 在CX Enterprise中，位置是向受众显示内容（并且可以与之交互）的地方。 位置和内容之间的关联可以近乎静态，也可以根据营销活动规则对其进行动态管理。 位置始终属于可确定如何交付内容以及如何收集量度的特定渠道。<br>示例包括：<ul><li>Sites</li><li>属性（社交）</li><li>显示库存</li><li>登陆页面</li><li>移动设备应用程序</li><li>版块（视频）</li></ul> |
-| **个量度** | 在 Creative Cloud 中不使用。 | 有关关键概念和目标的汇总数量。 在 Analytics 中，量度是有关访客活动的量化信息，包括查看次数、选择次数、重新载入、平均逗留时间、件数、订购和收入等。 |
-| **组织** | 在 Creative Cloud 中不使用。 | 组织是一个CX Enterprise实体，它使管理员能够配置用户和产品，并控制CX Enterprise中的单点登录。 大多数情况下，组织就是付费公司。 |
-| **Portfolio** | 多个文件或资源的集合。 | 营销活动的容器。 |
-| **产品配置文件** | 请参阅[管理产品和轮廓](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)。 | 要使用户有权使用产品或服务，则必须将该用户添加至产品轮廓中。 产品管理员通过将产品配置文件与您购买的计划相关联，为产品配置文件分配许可证。<br>一个用户可以属于多个产品配置文件，每个产品配置文件都授予该用户不同的许可证。 用户的最终资格为每个产品轮廓向该用户授予的所有许可证的总和。 |
-| **计划** | 可以指 Adobe Story 中的一系列场景或 ColdFusion 中的计划任务。 | 在CX Enterprise中，计划是指激活营销活动、渠道和活动的开始日期（年、月、日）和结束日期。 活动计划的粒度细化至分钟。 更改计划将会创建一张信息卡。<br>示例包括：<ul><li>营销活动计划</li><li>渠道计划</li><li>活动计划</li></ul> |
-| **区段** | 不适用 | 用于限定受众的一组规则的输出。 在Analytics中，可以选择使用[区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hans)来定义可传递到CX Enterprise的受众。 <br>在 Audience Manager 中，区段是使访客有资格成为该区段成员或包括在该区段中的[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hans)和所有条件的集合。 而且，这是拥有共同属性的人员的集合。 |
-| **共享** | 在 Creative Cloud 中，您可以跨平台（社交、社区、电子邮件等）从外部共享文件。 | 在CX Enterprise中，您只能在界面中的展示板中将资产共享为信息卡。 登录到网站的用户可以进行共享。 |
-| **解决方案** | 无特殊用途。 | 在CX Enterprise中，应用程序又叫产品，如Adobe Analytics 、 Adobe Target ，等等。 |
-| **特征** | 不适用 | color=blue 这类的键值对。 在 Audience Manager 中，[特征](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hans)用于生成区段。 |
+| 术语 | 在CX Enterprise和本指南中 | Adobe的其他常见用法 |
+| --- | --- | --- |
+| **Adobe CX Enterprise** | 位于`experience.adobe.com`的统一Web体验，您可以在其中打开营销应用程序、设置首选项和通知，以及访问共享界面服务（例如，客户属性和[受众库](../services/audiences/overview.md)）。 以前称为&#x200B;*Adobe Experience Cloud*。 | 与&#x200B;**Adobe Experience Platform**&#x200B;的产品不同（客户数据基础架构、沙盒、数据集）。 不是&#x200B;**Adobe Creative Cloud**（设计和媒体应用）。 |
+| **Adobe Experience Platform** | 将数据收集、身份或平台代理连接到解决方案时显示；某些导航搜索和AI功能受平台支持。 | 一个数据和编排平台。 当指的是CX Enterprise Shell或主页时，请不要使用“Experience Platform”。 |
+| **Experience League** | 帮助和产品内链接向您发送有关Adobe解决方案的&#x200B;**文档**、**教程**、学习播放列表、发行说明和社区上下文的信息。 从[Experience League主页](https://experienceleague.adobe.com)开始。 | 补充&#x200B;**[Adobe帮助中心](https://helpx.adobe.com/support.html)**，该中心强调个人和团队的&#x200B;**帐户**、**计划**、**计费**、下载和跨产品故障诊断。 使用帮助中心执行密码重置、计划更改和类似任务；使用Experience League执行产品操作说明内容。 |
+| **AI助手/代理AI** | 本指南的AI主题中所述的产品内助理和精心安排的代理；访问和点数取决于产品授权。 | 其他Adobe表面（例如，**Firefly**&#x200B;或&#x200B;**Express**）使用具有不同范围和策略的“AI”功能。 |
+| **组织** | 您的&#x200B;**IMS组织**： CX Enterprise中的企业许可、用户目录、SSO和Admin Console管理的边界。 查看[组织和帐户关联](../administration/organizations.md)。 | 不是Analytics *报告包*、Target *属性*&#x200B;或Experience Platform *沙盒*（这些是产品特定的容器）。 |
+| **管理控制台** | 用户、产品配置文件和标识的企业控制平面位于`adminconsole.adobe.com`；链接自CX Enterprise **管理**&#x200B;主题。 查看[用户和产品管理](../administration/admin-console.md)。 | 不同于每个应用程序内的&#x200B;**产品内管理员**（例如，Analytics管理工具或Journey Optimizer权限屏幕）。 |
+| **产品配置文件** | Admin Console中的许可证包，用于授予对产品或功能的访问权限；用户必须属于配置文件才能获得权限。 请参阅[管理产品和轮廓](https://helpx.adobe.com/cn/enterprise/using/manage-products.html)。 | 不能与产品中的每个“工作区”、“容器”或“属性”名称互换；这些名称因解决方案而异。 |
+| **帐户关联** | 将应用程序登录（例如，Analytics或Target凭据）连接到组织的Adobe ID，以便服务识别一个用户。 查看[组织和帐户关联](../administration/organizations.md)。 | 与&#x200B;**目录同步**、**SSO**&#x200B;或&#x200B;**联合**&#x200B;设置不同（这些是Admin Console中的组织范围标识决策）。 |
+| **Experience Cloud ID服务/ECID** | 跨解决方案使用的永久性访客标识符；通常与标记或Web SDK一起部署。 在旧版Analytics讨论中，仍常用作&#x200B;**Experience Cloud ID**&#x200B;或&#x200B;**MID**。 查看[ID服务概述](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 | 与单个应用程序的旧版Cookie名称或&#x200B;**Experience Platform**&#x200B;标识图概念不同，不过它们可以在实现中关联。 |
+| **客户属性** | 您上传和映射的CRM或企业属性，以通过人员服务用于Analytics、Target和相关工作流。 请参阅[客户属性](../services/customer-attributes/attributes.md)主题。 | 如果不检查产品边界，请不要将其与&#x200B;**Audience Manager特征**&#x200B;相等或将其与每个&#x200B;**Real-Time CDP**&#x200B;配置文件字段相等。 |
+| **受众库** | CX Enterprise UI ，用于在集成的应用程序间组合和共享受众。 | **Audience Manager**&#x200B;和&#x200B;**Target**&#x200B;也使用“受众”，但分段规则和目标因产品而异。 |
+| **区段** (Analytics) | 基于规则的受众定义，您可以在Adobe Analytics中构建受众定义，并在支持时发布到共享受众。 | 在&#x200B;**Audience Manager**&#x200B;中，区段组合了&#x200B;**特征**；命名重叠，但实现不同。 在&#x200B;**Target**&#x200B;中，“受众”在许多地方替换了较早的“区段”标签。 |
+| **Assets (Experience Cloud Assets)** | 共享文件夹和文件，用于CX Enterprise营销工作流与已批准的&#x200B;**Creative Cloud**&#x200B;用户之间的协作。 请参阅[Assets概述](../services/assets/experience-cloud-assets.md)。 | 在&#x200B;**Creative Cloud**&#x200B;中，“assets”通常意味着设计文件(PSD、AI、INDD)。 同一个词，不同的分享和治理模式。 |
 
 {style="table-layout:auto"}
 
