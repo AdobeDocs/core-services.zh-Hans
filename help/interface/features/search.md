@@ -9,12 +9,16 @@ role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: 'https://experienceleague.adobe.com/gMxoCIKGEqZIN-DwgvSVfh36iiYLFqB58dRBfsgamBc'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2: id:id:
 role_v2: id:
 level_v2: id:
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 639
@@ -68,7 +72,7 @@ CX Enterprise中的![[!UICONTROL Unified Search]](../assets/unified-search-resul
 
 还可从 Experience League 和 Communities 找到帮助文章。 支持自然语言查询。
 
-例如，_如何创建架构_&#x200B;将从Experience League中生成&#x200B;_[!UICONTROL Learning]_下的结果：
+例如，_如何创建架构_&#x200B;将从Experience League中生成&#x200B;_[!UICONTROL Learning]_&#x200B;下的结果：
 
 CX Enterprise帮助中的![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
@@ -77,7 +81,7 @@ CX Enterprise帮助中的![[!UICONTROL Unified Search]](../assets/unified-search
 * 用户是否有权访问对象
 * 匹配百分比
 * 精确匹配
-* _[!UICONTROL Top Results]_部分显示前30个结果。
+* _[!UICONTROL Top Results]_&#x200B;部分显示前30个结果。
 
 要细化搜索，请单击以下各项之一：
 

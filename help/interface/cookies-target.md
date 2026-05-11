@@ -9,8 +9,11 @@ role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 TQID: 'https://experienceleague.adobe.com/y-WrcNEgQshJIIFFfol6-bjv2eMamVYhFOR7Y6tMgZo'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 753
@@ -26,7 +29,7 @@ ht-degree: 17%
 >
 >本文中的信息仅适用于[[!DNL Target] at.js JavaScript库](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 >
->有关在使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}的[!DNL Target]实施中使用的Cookie的信息，请参阅“[!DNL Adobe Experience Platform Web SDK]是否使用Cookie？ 如果是这样，它使用哪些Cookie？” 在[DNL Platform Web SDK概述指南的常见问题解答中](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}。
+>有关在使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank}的[!DNL Target]实施中使用的Cookie的信息，请参阅“[!DNL Adobe Experience Platform Web SDK]是否使用Cookie？ 如果是这样，它使用哪些Cookie？” 在[[!DNL Platform Web SDK概述指南的常见问题解答中]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}。
 >
 >如果需要，您可以更改本文中讨论的设置，但Cookie持续时间除外。 更改Cookie设置时，[请咨询您的客户代表](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}。
 >
