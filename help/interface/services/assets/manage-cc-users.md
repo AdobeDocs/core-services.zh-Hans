@@ -7,19 +7,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-TQID: https://experienceleague.adobe.com/ooZLHp6j9AIJfreEo5iOkE-PboYfzjTaZl-9NquYeUQ
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/7Mc0NaDGoQ7QYzGXIEZtI8x3dVgE-TfSxsTmhbZLnGw'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 111
 ht-degree: 53%
@@ -28,7 +22,7 @@ ht-degree: 53%
 
 # 管理 Creative Cloud 用户
 
-CX Enterprise提供了用于管理已批准的Creative Cloud用户的管理工具。 这些用户可以临时被邀请到活动文件夹中。 只有管理员已添加到此列表中的用户才能受邀参加营销活动。 添加的用户将显示在CX Enterprise的自动完成用户列表中。
+CX企业版提供了用于管理已批准的Creative Cloud用户的管理工具。 这些用户可以临时被邀请到活动文件夹中。 只有管理员已添加到此列表中的用户才能受邀参加营销活动。 添加的用户将显示在CX Enterprise的自动完成用户列表中。
 
 >[!NOTE]
 >

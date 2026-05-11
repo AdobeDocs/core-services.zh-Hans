@@ -1,5 +1,5 @@
 ---
-description: 了解如何对CX Enterprise中的不同应用程序和服务实施DNS预获取，以帮助缩短页面加载时间。
+description: 了解如何对CX Enterprise中不同的应用程序和服务实施DNS预获取，以帮助缩短页面加载时间。
 solution: Experience Cloud
 title: 使用DNS预获取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -7,19 +7,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-TQID: https://experienceleague.adobe.com/oAe81mw-qFetDM0zky2eS6DNf-XZ67H68Qw-Sa8mk0Y
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/uTXtbHEccwB-Nog-AJ282p59hHCppAsAyg5pgNRreR4'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 350
 ht-degree: 77%
@@ -41,7 +35,7 @@ DNS 预获取会自动处理页面上的静态嵌入式链接。 这也意味着
 * 每个CX Enterprise应用程序或服务会在页面加载时动态生成DNS调用。
 * 在生成这些调用之前，浏览器无法将域名解析为 IP 地址。
 
-但是，您可以使用CX Enterprise应用程序手动实施DNS预获取。 要执行此操作，您需要将 HTML `<dns-prefetch>` 标记添加到页面代码的 `<head>` 部分，如下所示。 正确实施后，DNS 预获取可使页面加载时间缩短数毫秒。
+但是，您可以在CX Enterprise应用程序中手动实施DNS预获取。 要执行此操作，您需要将 HTML `<dns-prefetch>` 标记添加到页面代码的 `<head>` 部分，如下所示。 正确实施后，DNS 预获取可使页面加载时间缩短数毫秒。
 
 ## DNS 预获取代码示例
 

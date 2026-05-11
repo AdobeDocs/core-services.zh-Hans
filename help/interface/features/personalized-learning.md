@@ -3,20 +3,13 @@ description: 通过电子邮件、在您的CX Enterprise产品中以及在Experi
 solution: Experience Cloud
 title: Experience Cloud 个性化的学习偏好设置
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/n82lueFWzi0Xrue1JS4y5ZWsJ0vupWg6Vi03k3vhGxo'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 105
 ht-degree: 20%
@@ -25,7 +18,7 @@ ht-degree: 20%
 
 # 个性化的学习偏好设置
 
-Adobe会根据您在Adobe产品中的工作，为您提供量身定制的有用内容。 产品使用情况数据会告知我们如何为您定制此上下文。 您可以在[CX Enterprise首选项](https://experience.adobe.com/preferences)页面上选择加入或选择退出共享您的产品使用数据。
+Adobe会根据您在Adobe产品中的工作，为您提供量身定制的有用内容。 产品使用情况数据会告知我们如何为您定制此上下文。 您可以在[CX Enterprise首选项](https://experience.adobe.com/preferences)页面上选择加入或选择退出共享您的产品使用情况数据。
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

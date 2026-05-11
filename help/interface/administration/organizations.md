@@ -8,20 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/gAdNF-ZQYThATwAJlPf2lNeycauFrFpwEmELVEN4Nhw'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -32,9 +25,9 @@ ht-degree: 33%
 
 *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。
 
-组织的作用类似于一个衔接所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
+组织的作用类似于一个跨所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
 
-![CX Enterprise组织](../assets/organizations-menu.png)
+![CX企业组织](../assets/organizations-menu.png)
 
 要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL Profile]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
 
@@ -76,7 +69,7 @@ ht-degree: 33%
 
 ## 将应用程序帐户关联到 Adobe ID
 
-通常，CX Enterprise管理员会授予对应用程序和服务的访问权限。 在极少数情况下，您可以将应用程序凭据关联到Adobe ID。
+通常， CX企业管理员授予对应用程序和服务的访问权限。 在极少数情况下，您可以将应用程序凭据关联到Adobe ID。
 
 1. 按照邀请您加入CX Enterprise的电子邮件中的步骤操作。
 
@@ -113,6 +106,6 @@ ht-degree: 33%
 
 通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。 当帐户关联失败时，您可以：
 
-* [联系 Adobe 支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
+* [联系 Adobe 支持](https://experienceleague.adobe.com/?support-solution=General#support)。
 * 在我们着手解决问题的同时，使用标准登录访问您的应用程序。
 

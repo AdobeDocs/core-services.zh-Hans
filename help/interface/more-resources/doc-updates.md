@@ -7,23 +7,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/umWVYhlsT9tK71EPkMRw7CECjSt8NZPZvgWguFmizHE'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 50%
@@ -66,7 +56,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2024年4月26日**
 
-对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[区域数据收集](../data-collection/rdc.md)。
+对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[地区数据收集](../data-collection/rdc.md)。
 
 **2024年4月9日**
 
@@ -88,7 +78,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | CX Enterprise主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
+| 主页 | CX Enterprise主页页脚信息已移至用户配置文件卡，包括首选项中的法律声明和语言选择。 |
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
@@ -113,7 +103,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2021 年 6 月 1 日**
 
-更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
+更新了[登录页](../experience-cloud.md)，新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
 
 **2020年8月19日**
 
@@ -164,7 +154,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **9 2016年5月**
 
-添加了[CX Enterprise集成](../administration/integrations.md)（集成文档合集）。
+添加了[CX Enterprise Integrations](../administration/integrations.md)，这是集成文档的汇总。
 
 **2016 年 2 月 11 日**
 
@@ -172,11 +162,11 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2015年1月15日**
 
-添加了CX Enterprise的用户现在可以将文件夹共享到Creative Cloud，并在两个云之间同步资源和评论。 请参阅[资源共享](../services/assets/share.md)。
+添加了CX Enterprise的用户，现在可以将文件夹共享到Creative Cloud并在两个云之间同步资源和注释。 请参阅[资源共享](../services/assets/share.md)。
 
 **2014年7月17日**
 
-添加了[CX Enterprise常见问题解答](faq.md)。
+为管理员添加了[CX Enterprise常见问题解答](faq.md)。
 
 **2014年5月22日**
 

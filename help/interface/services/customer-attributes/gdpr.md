@@ -6,15 +6,11 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/eKqqNOKxc2QE4mAzsp1y6FT724ccJDtpmA1ydYLD0Fk'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 407
 ht-degree: 82%
@@ -29,13 +25,13 @@ ht-degree: 82%
 >
 >本文档的内容不是法律建议，也不会代替法律建议。 请咨询您的法律顾问，以获得有关 GDPR 的建议。
 
-[《通用数据保护条例》](https://business.adobe.com/cn/privacy/general-data-protection-regulation.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。 该法规还简化了国际业务的监管环境。 该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
+[《通用数据保护条例》](https://business.adobe.com/privacy/general-data-protection-regulation.html)法规于 2018 年 5 月 25 日生效，旨在赋予欧盟 (EU) 境内所有个人（数据主体）对其个人数据的控制权。 该法规还简化了国际业务的监管环境。 该法规适用于向欧盟境内的个人提供商品或服务、监控个人行为或从其收集个人数据的所有企业（数据控制者）对个人数据进行处理的情况，而不论数据控制者的经营场所位于何处。
 
 Adobe CX Enterprise充当数据处理者，可处理其代表客户接收并存储的任何个人数据。 作为数据控制者，您可以决定Adobe CX Enterprise代表您处理和存储的个人数据。
 
 本文档介绍了 [!DNL Customer Attributes] 如何使用 Adobe Experience Platform Privacy Service API 和 Privacy Service UI 支持数据主体的 GDPR 数据访问和删除权利。
 
-有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/cn/privacy/general-data-protection-regulation.html)。
+有关 GDPR 对您业务的意义的更多信息，请参阅 [GDPR 与您的业务](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## 发送 [!DNL Customer Attributes] 请求所需的设置
 

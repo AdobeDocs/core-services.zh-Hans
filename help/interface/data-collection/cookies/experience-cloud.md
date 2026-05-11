@@ -8,30 +8,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-TQID: https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+TQID: 'https://experienceleague.adobe.com/OFpAGAm2jQnLQQafSS41G2hpWc-YAl7BK-q1efN9nmc'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
 
 ---
 
-# CX Enterprise Cookie
+# CX企业版Cookie
 
-Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
+Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
 
 **Cookie 名称：s_ecid**
 
@@ -65,16 +57,16 @@ Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
+   <td colname="col2"> <p>仅当浏览器的 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[Experience Platform ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
+[Experience Platform ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)可使用 JavaScript 在当前网站的域上的 `AMCV_###@AdobeOrg` Cookie 中，存储一个独特访客 ID，其中 `###` 代表一个随机的字符串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`。
 
-另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+另请参阅 [Cookie 和 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -86,7 +78,7 @@ Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> CX Enterprise解决方案使用的独特访客ID。 </p> </td> 
+   <td colname="col2"> <p> CX企业解决方案使用的独特访客ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 

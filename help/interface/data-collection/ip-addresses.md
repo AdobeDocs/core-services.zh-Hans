@@ -2,16 +2,11 @@
 title: Experience Cloud使用的IP地址
 description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/mLKbBo-fy-T6uGfx9kmGdosB0Syk-5poT87s3ps-B00'
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id:id:
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 8%
@@ -26,12 +21,12 @@ ht-degree: 8%
 >
 >虽然Adobe会尽最大努力使此文档保持最新，但无法保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，互联网注册管理机构要求对Adobe的IP地址空间进行更改，或者互联网服务提供商停止运营。
 
-除了下面列出的IP地址块之外，各个Adobe CX Enterprise产品还会使用他们自己的IP地址：
+除了下面列出的IP地址块之外，各个Adobe CX Enterprise产品还有其各自使用的IP地址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP地址块
 

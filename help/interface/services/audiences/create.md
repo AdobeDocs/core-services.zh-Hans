@@ -8,21 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+TQID: 'https://experienceleague.adobe.com/-zJW08nRR0XHxI8ink2lZt-R44irL2pMyWdqHsZQoUg'
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id:id:
+role_v2: id:
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -31,7 +23,7 @@ ht-degree: 60%
 
 # 创建受众
 
-在[!UICONTROL Audience Library]中，您可以使用属性规则来创建受众，并定义要在CX Enterprise应用程序中共享的复合受众。
+在[!UICONTROL Audience Library]中，您可以使用属性规则来创建受众，并定义复合受众以便在CX Enterprise应用程序中共享。
 
 本文可帮助您了解如何执行以下操作：
 
@@ -93,7 +85,7 @@ ht-degree: 60%
 
 *Chrome 和 Safari 访客*&#x200B;是从 Analytics 中共享的受众区段：
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Attribute Source:]** CX企业版
 * **[!UICONTROL Dimension:]**&#x200B;位Chrome和Safari访客
 
 ![Chrome 和 Safari 访客](assets/chrome_safari.png)
@@ -104,11 +96,11 @@ ht-degree: 60%
 
 由此产生的规则是由访问了“家居和园艺”的“Chrome 和 Safari 用户”组成的已定义受众。 “庭院和家具”区段提供了有关访问该网站区域的所有访客的更多洞察。
 
-在CX Enterprise中![定义的受众](assets/defined_audience.png)
+CX Enterprise中的![定义的受众](assets/defined_audience.png)
 
 * **历史估计：**（虚线圈）代表基于 [!DNL Analytics] 数据创建的规则。
 * **实际受众：**（实心圆）创建的任何规则，其中包含来自 Audience Manager 的 30 天数据。 当 Audience Manager 数据达到 30 天时，该行将变为实线并表示实际数字。
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
+保存受众后，该受众可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共享受众。
