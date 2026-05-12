@@ -10,11 +10,18 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 745
@@ -75,7 +82,7 @@ ht-degree: 44%
 | 新建 | [创建受众](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)。 |
 | 标题和描述 | 列标题，用于识别和描述受众。 |
 | 作者 | 创建受众区段的人员。 |
-| 来源 | 标识创建受众的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中创建的区段，然后发布到CX Enterprise。</li><li>**CX Enterprise：**&#x200B;在CX Enterprise Audiences](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)中创建的新受众[。</li><li>**Audience Manager：** Audience Manager创建的受众自动显示在CX Enterprise Audiences中。</li></ul> |
+| 来源 | 标识创建受众的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中创建的区段，然后发布到CX Enterprise。</li><li>**CX Enterprise：**&#x200B;在CX Enterprise Audiences[&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)中创建的新受众。</li><li>**Audience Manager：** Audience Manager创建的受众自动显示在CX Enterprise Audiences中。</li></ul> |
 | 当前数量 | 当前受众数量。 |
 | 活动 | 区段的活动状态。 |
 

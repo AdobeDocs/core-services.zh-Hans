@@ -107,7 +107,7 @@ ht-degree: 46%
 
 ### Mobile SDK
 
-有关如何在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans)和[Enterprise ID](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)移动应用程序中设置其他客户ID的语法示例，请参阅&#x200B;*CXiOS服务™1}部分。*
+有关如何在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans)和[Enterprise ID](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)移动应用程序中设置其他客户ID的语法示例，请参阅&#x200B;*CXiOS服务™1&rbrace;部分。*
 
 ### 启用历史数据的属性
 
