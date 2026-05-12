@@ -2,20 +2,14 @@
 description: 了解CX Enterprise的中央界面组件。 在Admin Console中获取有关用户和产品管理的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、 CX Enterprise Assets等的帮助。
 title: Experience Cloud 界面和管理
 hide: true
-hidefromtoc: 'yes'
+hidefromtoc: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-TQID: 'https://experienceleague.adobe.com/sCznsFJ8wGaA-je8lk39b7DBMALtSFtD3aAl0Bb-K14'
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: '504'
 ht-degree: 50%
 
 ---
@@ -65,7 +59,7 @@ ht-degree: 50%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -73,7 +67,7 @@ ht-degree: 50%
 
 * **[!UICONTROL Support]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL Support]。
 * **[!UICONTROL Feedback]：**&#x200B;分享有关您的CX Enterprise体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
-* **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 管理您的用户个人资料

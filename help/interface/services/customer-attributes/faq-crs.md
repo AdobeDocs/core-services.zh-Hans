@@ -7,21 +7,13 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-TQID: 'https://experienceleague.adobe.com/MnXP6RE4S42KlbcI023sMsSs97vTD5KL5DiZq1biXHc'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id:id:
-role_v2: id:
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f01d85af42b8f2c27dbada8f73546bc6fe4bf710
+TQID: https://experienceleague.adobe.com/ZAKogDXCbaZHOiyzlgg6Od0pxGwWi2w9yXtPnKWZKUw
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1058
 ht-degree: 60%
@@ -59,7 +51,7 @@ ht-degree: 60%
 | **（仅限 Adobe Target）**&#x200B;我是否可以为从未使用过 Adobe Target 的客户预加载或上传数据？ | 可以。 当访客首次向 Adobe Target 发出请求时，系统将从 [!DNL Customer Attributes] 中获取 Adobe 拥有的关于访客的现有信息，并将这些数据用于定位。 **注意：**&#x200B;此数据的检索过程可能需要多达 20 分钟，从访客首次与 Adobe Target 交互开始算起。 |
 | **（仅限 Adobe Target）**&#x200B;是否可以通过将客户属性数据与共享的受众数据结合来创建超级受众？ | 否。 共享的受众数据是一个完整的受众。 |
 | **（仅限Adobe Target）**&#x200B;与Adobe Target的批量配置文件API相比，[!DNL Customer Attributes]如何？ | 可直接通过批量轮廓 API，逐个或批量更新 Adobe Target 轮廓。 该功能与 [!DNL Customer Attributes] 类似，主要区别如下：<ul><li>轮廓 API 是一种 REST API 调用，而 [!DNL Customer Attributes] 使用 FTP。</li><li>Adobe Target的配置文件API只向Adobe Target发送数据，而不会向整个CX Enterprise发送数据。</li><li>[!DNL Customer Attributes] 提供了一个简单的界面来创建和管理此外部数据。</li></ul> |
-| **（仅限 Adobe Target）**&#x200B;将数据从 [!DNL Customer Attributes] 上传到 Adobe Target 是否可以延长 Adobe Target 访客轮廓的生命周期？ | 可以。 请参阅 Adobe Target 帮助中的[访客轮廓生命周期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=zh-Hans)。 |
+| **（仅限 Adobe Target）**&#x200B;将数据从 [!DNL Customer Attributes] 上传到 Adobe Target 是否可以延长 Adobe Target 访客轮廓的生命周期？ | 可以。 请参阅 Adobe Target 帮助中的[访客轮廓生命周期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html)。 |
 | **（仅限 Adobe Target）**&#x200B;通过客户 ID 标识访客后，是否可以立即定位 [!DNL Customer Attributes] 中上传的数据？ | 可以。 在对Adobe Target的服务器调用（包括mbox第三方ID）中，所有客户属性数据都可用。 |
 | **（仅限Adobe Target）**&#x200B;对于客户属性源中上传的文件，**[!UICONTROL Sync Status]**&#x200B;列表示什么？ | Adobe Target 发布并同步的记录数可以通过选择针对某个特定属性文件的“同步状态”图标来进行查看。 `Sync %` 是一个实时指标，用于指定已在 Adobe Target 中同步的轮廓的百分比。<br> **注意：**&#x200B;属性可能需要长达 24 小时才能与 Adobe Target 同步。 |
 | 文件上传量度在 [!DNL Customer Attributes] 来源中表示什么？ | 借助以下量度，您可以检查已上传到 [!DNL Customer Attributes] 的属性状态： <ul><li>记录：属性文件中的记录数。</li><li>**新记录：**&#x200B;属性文件中存在的新记录数。</li> <li>**更新的记录：**&#x200B;已存在于 [!DNL Customer Attributes] 中且文件中的值已更新的记录数。</li><li>**所有数据（记录）：**&#x200B;已成功上传到 [!DNL Customer Attributes] 的记录总数。</li></ul> |
