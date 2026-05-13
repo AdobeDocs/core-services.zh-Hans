@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 105
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 # 个性化的学习偏好设置
 
-Adobe会根据您在Adobe产品中的工作，为您提供量身定制的有用内容。 产品使用情况数据会告知我们如何为您定制此上下文。 您可以在[CX Enterprise首选项](https://experience.adobe.com/preferences)页面上选择加入或选择退出共享您的产品使用数据。
+Adobe会根据您在Adobe产品中的工作，为您提供量身定制的有用内容。 产品使用情况数据会告知我们如何为您定制此上下文。 您可以在[CX Enterprise首选项](https://experience.adobe.com/preferences)页面上选择加入或选择退出共享您的产品使用情况数据。
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

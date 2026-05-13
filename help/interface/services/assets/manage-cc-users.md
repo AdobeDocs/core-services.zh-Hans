@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 111
 ht-degree: 53%
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 # 管理 Creative Cloud 用户
 
-CX Enterprise提供了用于管理已批准的Creative Cloud用户的管理工具。 这些用户可以临时被邀请到活动文件夹中。 只有管理员已添加到此列表中的用户才能受邀参加营销活动。 添加的用户将显示在CX Enterprise的自动完成用户列表中。
+CX企业版提供了用于管理已批准的Creative Cloud用户的管理工具。 这些用户可以临时被邀请到活动文件夹中。 只有管理员已添加到此列表中的用户才能受邀参加营销活动。 添加的用户将显示在CX Enterprise的自动完成用户列表中。
 
 >[!NOTE]
 >

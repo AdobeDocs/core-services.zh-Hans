@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud应用程序中的智能代理
-description: 了解在CX Enterprise应用程序中何处可以使用代理AI。
+description: 了解在CX Enterprise应用程序中可以使用代理人工智能的位置。
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -9,33 +9,33 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 10%
 
 ---
 
-# Adobe CX Enterprise的人工智能
+# Adobe CX Enterprise中的代理AI
 
 更新日期： 2026年4月6日&#x200B;**&#x200B;**
 
 Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)提供支持，以在CX Enterprise应用程序中启用代理AI功能。
 
-这些代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，并从CX Enterprise中获得更多价值。
+这些代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，从CX Enterprise中获得更多价值。
 
 可通过以下任一方式访问CX Enterprise中的AI代理：
 
 * [现有CX Enterprise应用程序](#existing-apps)
-* [人工智能优先的CX Enterprise应用程序](#ai-first-apps)
+* [AI优先的CX企业应用程序](#ai-first-apps)
 
-以下各部分将介绍这两种在CX Enterprise中启用智能人工智能的方法。
+以下各节将介绍这两种在CX Enterprise中启用代理人工智能的方法。
 
 ## 现有CX Enterprise应用程序 {#existing-apps}
 
 在现有应用程序中，您可以使用自然语言通过[AI Assistant](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)对话界面指示Adobe Experience Platform代理。 AI助手可在全屏视图和右边栏视图中可用。
 
-可以在现有CX Enterprise应用程序中为客户启用代理，这些代理具有以下类别之一：
+可以在现有CX Enterprise应用程序中为具有以下类别之一的客户启用代理：
 
 * 您购买了Adobe Experience Platform Agents AI信用许可证
 * 您被包含在针对使用情况的试用中（提供的有限人工智能积分）
@@ -43,11 +43,11 @@ Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https
 
 使用AI代理执行&#x200B;_代理作业_&#x200B;将使用AI积分。 了解有关&#x200B;_[代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)_&#x200B;中的代理作业和AI信用消耗的详细信息。
 
-AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行您有权在基础CX Enterprise应用程序中使用的作业或访问数据。
+AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行您有权在底层CX Enterprise应用程序中使用的作业或访问数据。
 
 ### 现有CX Enterprise应用程序中的AI代理 {#existing-apps-table}
 
-下表列出了现有Experience Platform应用程序中可用的CX Enterprise代理。
+下表列出了现有CX Enterprise应用程序中可用的Experience Platform Agent。
 
 | 代理名称 | 功能 | 支持的应用程序 |
 |---|----------|----------|
@@ -60,7 +60,7 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 | [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
 | [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | 将Experience Platform直接连接到Microsoft 365 Copilot。 您可以在Microsoft 365应用程序（如Teams、Word、Powerpoint和Excel）中询问自然语言问题，以便立即从Experience Platform中检索营销洞察，而不会中断您的工作流程。 | <ul><li> Adobe Agent Orchestrator，可支持Audience Agent、Journey Agent、Customer Journey Analytics数据分析、Experience Platform运营分析</li></ul> |
 
-## 人工智能优先的CX Enterprise应用程序 {#ai-first-apps}
+## AI优先的CX企业应用程序 {#ai-first-apps}
 
 AI优先应用是以Al为内核的生成或遗传的。 它们使用创生或代理式Al执行关键任务，并且代理功能已包含在Al-first应用程序许可证中。 因此，它们不需要Experience Platform Agent Orchestrator许可证。
 

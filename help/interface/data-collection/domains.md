@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 15%
@@ -23,9 +23,9 @@ ht-degree: 15%
 
 # CX Enterprise使用的域
 
-CX Enterprise使用以下主机来交付应用程序、提高性能和改善产品体验。 Adobe建议允许这些域通过贵组织的网络或防火墙以获得最佳体验。
+CX Enterprise使用以下主机提供应用程序、提高性能和改善产品体验。 Adobe建议允许这些域通过贵组织的网络或防火墙以获得最佳体验。
 
-除了下面列出的域外，各个Adobe CX Enterprise产品还会使用自己的域：
+除了下面列出的域外，各个Adobe CX Enterprise产品还有各自的域：
 
 * [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/domains)

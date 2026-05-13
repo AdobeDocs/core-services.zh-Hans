@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1118
 ht-degree: 43%
@@ -43,7 +43,7 @@ ht-degree: 43%
 
   要知道您的公司是否具有客户属性的访问权限，您的[!DNL CX Enterprise]管理员应登录到[CX Enterprise](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL product profiles]之一，则表示您已经可以开始。
 
-  添加到[!DNL Customer Attributes]的用户将在CX Enterprise界面的左侧看到[!DNL Customer Attributes]菜单项。
+  添加到[!DNL Customer Attributes]的用户在CX Enterprise界面的左侧看到[!DNL Customer Attributes]菜单项。
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
@@ -68,7 +68,7 @@ ht-degree: 43%
 
 ## 创建属性源并上传数据文件
 
-在CX Enterprise的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;页面上执行这些步骤。
+在CX Enterprise的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;页上执行这些步骤。
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ ht-degree: 43%
 
    * **[!UICONTROL Description:]** （可选）数据属性源的描述。
 
-   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
+   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性来源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
 
      >[!IMPORTANT]
      >
@@ -148,7 +148,7 @@ ht-degree: 43%
 
 * **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]**&#x200B;显示有多少个ID已别名为CX Enterprise访客ID。
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多CX Enterprise访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近设置别名的CX Enterprise访客ID，直到别名计数达到10,000个。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多别名的CX Enterprise访客ID的客户提供ID的数量。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近带有别名的CX Enterprise Visitor ID ，直到别名数达到10,000。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
 
 ## 验证架构 {#validate-schema}
 
@@ -168,7 +168,7 @@ ht-degree: 43%
 
 ## 配置订阅和激活属性源
 
-配置订阅可以设置CX Enterprise和应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置订阅可以设置CX Enterprise与应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅并激活数据源](subscription.md)。
 

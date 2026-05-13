@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -32,9 +32,9 @@ ht-degree: 33%
 
 *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。
 
-组织的作用类似于一个衔接所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
+组织的作用类似于一个跨所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
 
-![CX Enterprise组织](../assets/organizations-menu.png)
+![CX企业组织](../assets/organizations-menu.png)
 
 要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL Profile]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
 
@@ -76,7 +76,7 @@ ht-degree: 33%
 
 ## 将应用程序帐户关联到 Adobe ID
 
-通常，CX Enterprise管理员会授予对应用程序和服务的访问权限。 在极少数情况下，您可以将应用程序凭据关联到Adobe ID。
+通常， CX企业管理员授予对应用程序和服务的访问权限。 在极少数情况下，您可以将应用程序凭据关联到Adobe ID。
 
 1. 按照邀请您加入CX Enterprise的电子邮件中的步骤操作。
 

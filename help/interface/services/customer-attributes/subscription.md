@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 408
 ht-degree: 47%
@@ -28,7 +28,7 @@ ht-degree: 47%
 
 # 配置客户属性订阅
 
-[!DNL Customer Attributes]订阅使客户属性数据能够在CX Enterprise和应用程序（[!DNL Analytics]和[!DNL Target]）之间流动。
+[!DNL Customer Attributes]订阅允许客户属性数据在CX Enterprise和应用程序（[!DNL Analytics]和[!DNL Target]）之间流动。
 
 例如，Adobe Analytics 订阅允许将属性数据纳入报表中。 如果您使用[!DNL Adobe Target]，则可以上传客户属性以进行定位和分段。
 

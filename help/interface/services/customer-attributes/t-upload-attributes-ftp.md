@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 379
 ht-degree: 53%
@@ -30,7 +30,7 @@ ht-degree: 53%
 
 如果您不使用拖放操作上传，则可以通过FTP将客户属性数据上传到CX Enterprise。
 
-在CX Enterprise中创建客户属性来源和FTP帐户后，您可以上传数据。 为每个属性来源创建一个 FTP 帐户。 上传的文件存储在该帐户的根文件夹中。 该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
+在CX Enterprise中创建客户属性来源和FTP帐户后，就可以上传数据。 为每个属性来源创建一个 FTP 帐户。 上传的文件存储在该帐户的根文件夹中。 该数据必须为 `.csv` 格式，并利用第二个 `.fin` 文件指示上传已完成。
 
 >[!IMPORTANT]
 >

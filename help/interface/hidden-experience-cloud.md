@@ -1,5 +1,5 @@
 ---
-description: 了解CX Enterprise的中心界面组件。 获取有关在Admin Console中管理用户和产品的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、CX Enterprise Assets等的帮助。
+description: 了解CX Enterprise的中央界面组件。 在Admin Console中获取有关用户和产品管理的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、 CX Enterprise Assets等的帮助。
 title: Experience Cloud 界面和管理
 hide: true
 hidefromtoc: true
@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 50%
@@ -16,15 +16,15 @@ ht-degree: 50%
 
 # CX Enterprise界面和管理
 
-[CX Enterprise](https://experience.adobe.com)是Adobe的集成数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
+[CX Enterprise](https://experience.adobe.com)是Adobe的集成式数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
 
 10月30日隐藏
 
 ![CX Enterprise](assets/landing.png)
 
-在CX Enterprise的标题中，您可以：
+从CX Enterprise的标题中，您可以：
 
-* 访问您的所有CX Enterprise应用程序和服务
+* 访问所有CX企业级应用程序和服务
 * 从“帮助”菜单中，搜索产品文档、教程和社区帖子。 在 Experience League 中查看结果。
 * 使用全局搜索在“搜索”字段中全局搜索业务对象（仅限 Experience Platform 用户）。
 * 管理您的帐户[首选项](features/account-preferences.md)（警报、通知和订阅）
@@ -49,11 +49,11 @@ ht-degree: 50%
 
    例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-## 访问CX Enterprise应用程序 {#navigation}
+## 访问CX企业级应用程序 {#navigation}
 
-登录到CX Enterprise后，您可以从统一的标题中快速访问您的所有应用程序、服务和组织。
+登录到CX Enterprise后，您可以从统一标题中快速访问您的所有应用程序、服务和组织。
 
-要访问组织中为您配置的CX Enterprise应用程序和服务，请转到应用程序选择器![菜单](assets/apps-icon.png)。
+要访问组织中为您预配的CX Enterprise应用程序和服务，请转到应用程序选择器![菜单](assets/apps-icon.png)。
 
 ![访问CX Enterprise应用程序](assets/platform-core-services.png)
 
@@ -66,7 +66,7 @@ ht-degree: 50%
 [!UICONTROL Help]菜单还允许您访问：
 
 * **[!UICONTROL Support]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL Support]。
-* **[!UICONTROL Feedback]：**&#x200B;分享您对CX Enterprise体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
+* **[!UICONTROL Feedback]：**&#x200B;分享有关您的CX Enterprise体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
 * **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 

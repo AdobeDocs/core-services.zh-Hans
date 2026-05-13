@@ -22,16 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
 
 ---
 
-# CX Enterprise Cookie
+# CX企业版Cookie
 
-Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
+Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
 
 **Cookie 名称：s_ecid**
 
@@ -65,7 +65,7 @@ Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>仅当浏览器 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
+   <td colname="col2"> <p>仅当浏览器的 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> CX Enterprise解决方案使用的独特访客ID。 </p> </td> 
+   <td colname="col2"> <p> CX企业解决方案使用的独特访客ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 

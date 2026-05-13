@@ -1,10 +1,10 @@
 ---
 title: 说明
 description: 说明自述文件
-source-git-commit: 7392d95436664364e32f3e78f2ea3292ce8fb7e9
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 93%
+source-wordcount: '342'
+ht-degree: 92%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 93%
    + 如果指南中有一个名为&#x200B;*实施*&#x200B;的主题，则相应的目录为 `/implementation`
 + 所有图像资产都存储在用户指南根目录的 `/assets` 中。
    + `/assets` 目录中的所有图像都将进行本地化。
-   + `/no-localize` 目录中的任何图像都将不会进行本地化（很吃惊吧！）。可以使用此目录来确保在本地化版本中不会复制不必要的特定资产。
+   + `/no-localize` 目录中的任何图像都将不会进行本地化（很吃惊吧！）。 可以使用此目录来确保在本地化版本中不会复制不必要的特定资产。
 
 ## 用户指南级别元数据
 
-+ 描述用户指南的元数据存储在 `TOC.md` 中。这包括：
++ 描述用户指南的元数据存储在 `TOC.md` 中。 这包括：
    + product - 产品/功能的名称。
    + cloud - 此产品所属的云。
    + audience - 指南所针对的受众或原型。
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ## 页面级别元数据
 
-+ 描述文档所需的元数据将作为每个单独页面的一部分存储。这包括：
++ 描述文档所需的元数据将作为每个单独页面的一部分存储。 这包括：
    + title - 页面标题。
    + description - 页面描述。
    + seo-title - 用于 seo 的替代标题。

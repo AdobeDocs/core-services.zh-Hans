@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 346
 ht-degree: 36%
@@ -34,9 +34,9 @@ ht-degree: 36%
 
 CX Enterprise的接口功能有时称为&#x200B;_核心服务_。 它们是统一的标头功能，包括[!DNL People]服务（[!DNL Audience Library]和[!DNL Customer Attributes]）。
 
-其他共享功能包括CX Enterprise、Cookie、帐户首选项、通知等的管理（用户和产品管理）。
+其他共享功能包括CX Enterprise的管理（用户和产品管理）、 Cookie 、帐户首选项、通知等。
 
-要在CX Enterprise中访问共享服务和应用程序，请单击 **[!UICONTROL Application Selector]**
+要访问CX Enterprise中的共享服务和应用程序，请单击 **[!UICONTROL Application Selector]**
 ![服务选择器](../assets/apps-icon.png)。
 
 **应用程序选择器**

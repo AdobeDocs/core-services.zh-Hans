@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 802
 ht-degree: 5%
@@ -46,7 +46,7 @@ ht-degree: 5%
 | --- | --- |
 | [!UICONTROL Profile] | 更新您的[Adobe帐户配置文件](https://account.adobe.com/cn/profile)。 <p>当您登录到Adobe.com、Adobe产品和服务以及诸如[!DNL Behance]之类的面向公众的网站时，您的个人资料照片和名称会显示。 |
 | [!UICONTROL General] | 选择[组织](../administration/organizations.md)。<p>此组织是登录CX Enterprise时使用的默认组织。 |
-| [!UICONTROL Product usage data] | 在使用CX Enterprise应用程序时，您可以控制与Adobe共享的产品使用数据。 这些是有关您如何使用我们产品的数据，而不是您组织的内容或数据本身。 Adobe将使用此信息来帮助改进我们的产品、为您提供增强的产品内支持，以及个性化您的体验和我们之间的通信。 <p>若要了解详细信息，请参阅[产品使用情况数据](#product-usage-data)（在此页面上）。 |
+| [!UICONTROL Product usage data] | 使用CX企业级应用程序时，您可以控制与Adobe共享的产品使用数据。 这些是有关您如何使用我们产品的数据，而不是您组织的内容或数据本身。 Adobe将使用此信息来帮助改进我们的产品、为您提供增强的产品内支持，以及个性化您的体验和我们之间的通信。 <p>若要了解详细信息，请参阅[产品使用情况数据](#product-usage-data)（在此页面上）。 |
 | [!UICONTROL Notifications] | 配置您希望产品[通知](#subscribe-to-notifications-in-experience-cloud)和警报的方式和时间： <ul><li>选择要订阅警报的产品</li><li>配置通知类型（[!UICONTROL in-app]、[!UICONTROL email]或[Slack](#slack-notifications)）</li><li>指定您希望接收通知电子邮件的频率。 （不发送、即时、每日或每周。）</li><li>确定警报优先级。 应用程序内警报会出现在窗口的右上角几秒钟。 或者，您可以指定在解除警报之前是否应显示警报。</li></ul> |
 
 ## [!UICONTROL Product usage data]
@@ -62,11 +62,11 @@ ht-degree: 5%
 
 Adobe将使用此信息帮助改进我们的产品，在产品内和通过客户关怀为您提供支持，并个性化您的体验和我们之间的沟通。 详细了解[个性化体验](personalized-learning.md)。
 
-## 订阅CX Enterprise中的通知
+## 订阅CX企业版中的通知
 
 您可以选择要订阅的产品和类别。 通知显示在[!UICONTROL Notifications]弹出框（应用程序内）、电子邮件或[Slack](#slack-notifications)中（具体取决于您的订阅）。
 
-电子邮件和Slack通知适用于您未登录CX Enterprise的情况。
+电子邮件和Slack通知对于您未登录到CX Enterprise的情况非常有用。
 
 ### 订阅应用程序内通知和电子邮件通知
 
@@ -82,8 +82,8 @@ Adobe将使用此信息帮助改进我们的产品，在产品内和通过客户
 
 **先决条件**
 
-* 您必须拥有CX Enterprise帐户。
-* 您必须拥有[!DNL Slack]帐户。 您的[!DNL Slack]管理员允许与[!DNL Slack]集成CX Enterprise。
+* 您必须具有CX Enterprise帐户。
+* 您必须拥有[!DNL Slack]帐户。 您的[!DNL Slack]管理员启用了CX Enterprise与[!DNL Slack]的集成。
 * 您必须是至少一个[!DNL Slack]工作区的一部分。
 
 **订阅[!DNL Slack]通知**
@@ -118,7 +118,7 @@ Adobe将使用此信息帮助改进我们的产品，在产品内和通过客户
 
 1. 申请请求获得批准后，您将在[!DNL Slack]中收到通知。
 
-1. 收到[!DNL Slack]批准后，请返回CX Enterprise **[!UICONTROL Notifications]**&#x200B;并按照步骤[订阅Slack](#slack-notifications)（如上所述）。
+1. 收到[!DNL Slack]批准后，请返回CX Enterprise **[!UICONTROL Notifications]**，并按照步骤操作[订阅Slack](#slack-notifications)（如上所述）。
 
 ### 您将在[!DNL Slack]中看到的内容
 
@@ -127,9 +127,9 @@ Adobe将使用此信息帮助改进我们的产品，在产品内和通过客户
 * 将从应用程序名称&#x200B;_Adobe[!DNL CX Enterprise]_&#x200B;接收个人消息。
 * 该消息包含特定应用程序的产品徽标，如Adobe [!DNL Experience Platform]、Adobe [!DNL Experience Manager]等。
 * 用于查看CX Enterprise上所有通知的链接。
-* 用于管理CX Enterprise上的通知首选项的链接。
+* 用于管理CX企业版通知首选项的链接。
 
-## 在CX Enterprise中查看[!UICONTROL notifications]和公告
+## 查看CX Enterprise中的[!UICONTROL notifications]和公告
 
 在[!DNL CX Enterprise]标题中，您可以查看[订阅了](#notifications)的通知，以及查看公告。
 

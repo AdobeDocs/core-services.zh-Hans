@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -31,7 +31,7 @@ ht-degree: 60%
 
 # 创建受众
 
-在[!UICONTROL Audience Library]中，您可以使用属性规则来创建受众，并定义要在CX Enterprise应用程序中共享的复合受众。
+在[!UICONTROL Audience Library]中，您可以使用属性规则来创建受众，并定义复合受众以便在CX Enterprise应用程序中共享。
 
 本文可帮助您了解如何执行以下操作：
 
@@ -93,7 +93,7 @@ ht-degree: 60%
 
 *Chrome 和 Safari 访客*&#x200B;是从 Analytics 中共享的受众区段：
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
+* **[!UICONTROL Attribute Source:]** CX企业版
 * **[!UICONTROL Dimension:]**&#x200B;位Chrome和Safari访客
 
 ![Chrome 和 Safari 访客](assets/chrome_safari.png)
@@ -104,11 +104,11 @@ ht-degree: 60%
 
 由此产生的规则是由访问了“家居和园艺”的“Chrome 和 Safari 用户”组成的已定义受众。 “庭院和家具”区段提供了有关访问该网站区域的所有访客的更多洞察。
 
-在CX Enterprise中![定义的受众](assets/defined_audience.png)
+CX Enterprise中的![定义的受众](assets/defined_audience.png)
 
 * **历史估计：**（虚线圈）代表基于 [!DNL Analytics] 数据创建的规则。
 * **实际受众：**（实心圆）创建的任何规则，其中包含来自 Audience Manager 的 30 天数据。 当 Audience Manager 数据达到 30 天时，该行将变为实线并表示实际数字。
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
+保存受众后，该受众可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。

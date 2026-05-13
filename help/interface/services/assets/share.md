@@ -21,16 +21,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 39%
 
 ---
 
-# 共享CX Enterprise资源文件夹
+# 共享CX Enterprise资产文件夹
 
-在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target）中进行协作、对共享资源添加批注和使用它们。 共享文件夹必须源于CX Enterprise。
+在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target ）中进行协作、对共享资源添加批注和使用它们。 共享文件夹必须源于CX Enterprise。
 
 **共享的好处**
 
@@ -40,9 +40,9 @@ ht-degree: 39%
 * 提高企业安全性
 * 轻松地在创意人员和营销人员之间共享文件、保存和发送文件
 
-在Creative Cloud用户有权访问资源之前，必须在CX Enterprise中将这些资源添加到允许列表。 [管理 Creative Cloud 用户](manage-cc-users.md)。
+在Creative Cloud用户有权访问资源之前，他们必须在CX Enterprise中列入允许列表。 [管理 Creative Cloud 用户](manage-cc-users.md)。
 
-**共享CX Enterprise资源文件夹**
+**共享CX Enterprise资产文件夹**
 
 1. 在Asset文件夹中，单击&#x200B;**[!UICONTROL Share to Creative Cloud]**。
 
@@ -67,7 +67,7 @@ ht-degree: 39%
 
    ![在图像上添加评论](../../assets/asset_comment_cc.png)
 
-   在CX Enterprise中，选择一个图像，然后选择时间线图标以在图像上添加评论。 评论会在Creative Cloud和CX Enterprise的资源中同步。
+   在CX Enterprise中，选择一个映像，然后选择时间线图标以在映像中添加注释。 注释会在Creative Cloud和CX Enterprise的资源中同步。
 
    ![在图像上添加评论](../../assets/asset_comment_mac.png)
 

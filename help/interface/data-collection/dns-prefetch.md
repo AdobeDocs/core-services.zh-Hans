@@ -1,5 +1,5 @@
 ---
-description: 了解如何对CX Enterprise中的不同应用程序和服务实施DNS预获取，以帮助缩短页面加载时间。
+description: 了解如何对CX Enterprise中不同的应用程序和服务实施DNS预获取，以帮助缩短页面加载时间。
 solution: Experience Cloud
 title: 使用DNS预获取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 350
 ht-degree: 77%
@@ -41,7 +41,7 @@ DNS 预获取会自动处理页面上的静态嵌入式链接。 这也意味着
 * 每个CX Enterprise应用程序或服务会在页面加载时动态生成DNS调用。
 * 在生成这些调用之前，浏览器无法将域名解析为 IP 地址。
 
-但是，您可以使用CX Enterprise应用程序手动实施DNS预获取。 要执行此操作，您需要将 HTML `<dns-prefetch>` 标记添加到页面代码的 `<head>` 部分，如下所示。 正确实施后，DNS 预获取可使页面加载时间缩短数毫秒。
+但是，您可以在CX Enterprise应用程序中手动实施DNS预获取。 要执行此操作，您需要将 HTML `<dns-prefetch>` 标记添加到页面代码的 `<head>` 部分，如下所示。 正确实施后，DNS 预获取可使页面加载时间缩短数毫秒。
 
 ## DNS 预获取代码示例
 

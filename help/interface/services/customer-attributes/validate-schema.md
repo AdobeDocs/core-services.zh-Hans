@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 308
 ht-degree: 43%
@@ -50,7 +50,7 @@ ht-degree: 43%
 
    在[!UICONTROL Edit Schema]页面上，架构的每一行都表示一列上传的CSV文件。
 
-   ![在CX Enterprise中编辑架构页面](assets/schema-edit.png)
+   ![在CX Enterprise中编辑架构页](assets/schema-edit.png)
 
 **操作**
 
@@ -62,7 +62,7 @@ ht-degree: 43%
 
 * **[!UICONTROL ID Lookup:]**&#x200B;输入您`.csv`中的客户ID (CID)以查找该ID的CX Enterprise信息。 此功能可用于解决为何属性数据不对访客显示的问题：
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;在您使用最新的CX Enterprise ID服务时显示。 如果您在使用MCID服务，但此处未列出ID，则CX Enterprise尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
+   * **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;在您使用最新的CX Enterprise ID服务时显示。 如果您在MCID服务上，但此处未列出ID ，则CX Enterprise尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
 
    * **[!UICONTROL CID (customer ID):]**&#x200B;与此CID关联的属性。 如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 

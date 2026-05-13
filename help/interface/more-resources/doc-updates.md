@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 50%
@@ -66,7 +66,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2024年4月26日**
 
-对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[区域数据收集](../data-collection/rdc.md)。
+对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[地区数据收集](../data-collection/rdc.md)。
 
 **2024年4月9日**
 
@@ -88,7 +88,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | CX Enterprise主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
+| 主页 | CX Enterprise主页页脚信息已移至用户配置文件卡，包括首选项中的法律声明和语言选择。 |
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
 | AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
 
@@ -113,7 +113,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2021 年 6 月 1 日**
 
-更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
+更新了[登录页](../experience-cloud.md)，新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
 
 **2020年8月19日**
 
@@ -164,7 +164,7 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **9 2016年5月**
 
-添加了[CX Enterprise集成](../administration/integrations.md)（集成文档合集）。
+添加了[CX Enterprise Integrations](../administration/integrations.md)，这是集成文档的汇总。
 
 **2016 年 2 月 11 日**
 
@@ -172,11 +172,11 @@ CX Enterprise中[代理AI的更新](../features/agentic-ai.md)
 
 **2015年1月15日**
 
-添加了CX Enterprise的用户现在可以将文件夹共享到Creative Cloud，并在两个云之间同步资源和评论。 请参阅[资源共享](../services/assets/share.md)。
+添加了CX Enterprise的用户，现在可以将文件夹共享到Creative Cloud并在两个云之间同步资源和注释。 请参阅[资源共享](../services/assets/share.md)。
 
 **2014年7月17日**
 
-添加了[CX Enterprise常见问题解答](faq.md)。
+为管理员添加了[CX Enterprise常见问题解答](faq.md)。
 
 **2014年5月22日**
 

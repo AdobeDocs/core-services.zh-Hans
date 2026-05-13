@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 69%
@@ -35,7 +35,7 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 资产服务包括：
 
 * 资源存储、管理界面、嵌入式选择界面（通过应用程序访问）。
-* 与Creative Cloud、CX Enterprise协作和CX Enterprise应用程序的集成。
+* 与Creative Cloud 、 CX Enterprise Collaboration和CX Enterprise应用程序的集成。
 
 使用资源可以提高一致性和品牌合规性，并缩短上市时间。 您可以简化应用程序中的工作流：
 

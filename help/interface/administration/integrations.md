@@ -1,5 +1,5 @@
 ---
-description: 在Adobe CX Enterprise中查找可用的应用程序集成。
+description: 在Adobe CX企业版中查找可用的应用程序集成。
 solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
@@ -30,16 +30,16 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1111
 ht-degree: 30%
 
 ---
 
-# CX Enterprise集成
+# CX企业集成
 
-本页介绍了几种开始集成CX Enterprise应用程序的方法。 有关详细信息，请浏览Experience League上的[集成视频教程](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)库。
+本页介绍了开始集成CX企业应用程序的几种方法。 有关详细信息，请浏览Experience League上的[集成视频教程](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)库。
 
 ## 为Platform服务启用CX Enterprise应用程序
 
@@ -60,9 +60,9 @@ ht-degree: 30%
 
 ## CX Enterprise ID服务
 
-ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应用程序中标识您的访客。 它可以取代各种服务（如Analytics、Audience Manager、Adobe Target、视频心率）以及其他CX Enterprise应用程序和产品的ID生成代码。
+ID服务提供一个通用、永久性的ID，用于在CX Enterprise的所有应用程序中标识您的访客。 它可以取代各种服务（如Analytics、Audience Manager、Adobe Target、视频检测信号和其他CX Enterprise应用程序和产品）的ID生成代码。
 
-查看[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
+请参阅[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 **适用的应用程序或服务**
 
@@ -98,13 +98,13 @@ ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应
 
 ## CX Enterprise Assets
 
-帮助：[与Creative Cloud共享CX Enterprise文件夹](/help/interface/services/assets/share.md)
+帮助： [与Creative Cloud共享CX企业文件夹](/help/interface/services/assets/share.md)
 
-在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target）中进行协作、对共享资源添加批注和使用它们。
+在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target ）中进行协作、对共享资源添加批注和使用它们。
 
 **适用的应用程序或服务**
 
-* Adobe CX Enterprise
+* Adobe CX企业版
 * Adobe Creative Cloud
 * Adobe Target
 
@@ -140,7 +140,7 @@ ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应
 **适用的应用程序或服务**
 
 * 客户属性：配置 Adobe Target 的客户属性[订阅](/help/interface/services/customer-attributes/subscription.md)
-* CX Enterprise受众： [CX Enterprise受众库](/help/interface/services/audiences/overview.md)
+* CX企业受众： [CX企业受众库](/help/interface/services/audiences/overview.md)
 * Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
 * Audience Manager：[Adobe Target 与 Adobe Audience Manager 的数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
 * Campaign：[将 Adobe Target 与 Campaign 集成](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hans)
@@ -155,17 +155,17 @@ ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应
 
 帮助： [配置AEM Assets与CX Enterprise和Creative Cloud的集成](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
 
-将 Adobe Experience Manager (AEM) Assets 中的资源与 Adobe Creative Cloud 同步，反之亦然。 您还可以将资源与CX Enterprise同步，反之亦然。 您可以通过CX Enterprise设置此同步。
+将 Adobe Experience Manager (AEM) Assets 中的资源与 Adobe Creative Cloud 同步，反之亦然。 您还可以将资产与CX Enterprise同步，反之亦然。 您可以通过CX Enterprise设置此同步。
 
 **适用的应用程序或服务**
 
 * AEM
 * Creative Cloud
-* [CX Enterprise](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
+* [CX企业版](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
 
 ## [!DNL Adobe Advertising]
 
-* 帮助（需要登录）： [与Adobe CX Enterprise解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* 帮助（需要登录）： [与Adobe CX企业解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 * Experience League上的[Adobe Advertising文档](https://experienceleague.adobe.com/docs/advertising.html?lang=zh-Hans)
 
@@ -175,11 +175,11 @@ ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应
 
 **标记：**&#x200B;您可以使用[Experience Platform标记创建基于Advertising像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)以及第三方跟踪标记，以用于您的搜索、社交和显示广告登录页面。 （还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
 
-**CX Enterprise受众：** （具有显示管理需求的广告商）您可以使用任何[Adobe CX Enterprise受众](../services/audiences/overview.md)作为显示广告的目标。 您可以自动使用已在CX Enterprise中创建的受众以及Analytics中已发布到CX Enterprise的受众。 将[!DNL Adobe Advertising]帐户配置为允许使用Audience Manager中的受众时，您也可以使用该受众。
+**CX Enterprise Audiences：** （具有显示管理需求的广告商）您可以使用任何[Adobe CX Enterprise Audiences](../services/audiences/overview.md)作为显示广告的目标。 您可以自动使用已在CX Enterprise中创建的受众以及Analytics中已发布到CX Enterprise的受众。 将[!DNL Adobe Advertising]帐户配置为允许使用Audience Manager中的受众时，您也可以使用该受众。
 
-有关访问Adobe CX Enterprise以及“配置文件与受众”的信息，以及有关[!DNL Adobe Advertising]与Adobe CX Enterprise受众之间的初始设置的更多信息，请与您的客户经理联系。 **注意：**&#x200B;如果您还使用Adobe Target，则您发布到Adobe CX Enterprise的任何受众也可用于Adobe Target中的活动。
+有关访问Adobe CX Enterprise和“配置文件与受众”的信息，以及有关[!DNL Adobe Advertising]与Adobe CX Enterprise受众之间的初始设置的更多信息，请与您的客户经理联系。 **注意：**&#x200B;如果您还使用Adobe Target，则您发布到Adobe CX Enterprise的任何受众也可用于Adobe Target中的活动。
 
-**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise资源用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)才能访问您的Adobe CX Enterprise资源。 有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
+**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise Assets用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问您的Adobe CX Enterprise Assets。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
 
-**CX Enterprise通知：**&#x200B;通过每页顶部的通知链接，可以查看基于搜索测试版警报模板生成的所有警报。 您还可以获取CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [&#128279;](https://enterprise.efrontier.com/CMDashboard)登录Adobe Advertising才能访问通知。 有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
+**CX Enterprise Notifications：**&#x200B;通过每页顶部的通知链接，可以查看搜索测试版警报模板生成的所有警报。 您还可以获得CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问通知。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
 
