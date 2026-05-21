@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 579
-ht-degree: 43%
+source-wordcount: 548
+ht-degree: 45%
 
 ---
 
@@ -97,7 +97,4 @@ ht-degree: 43%
 
 要管理通知和警报，请参阅 [帐户偏好设置和通知](features/account-preferences.md)
 
-## 术语
-
-Adobe在营销应用程序、Creative Cloud、Experience League和支持网站中使用相似的名称。 有关这些术语在CX Enterprise中的适用情况与其他地方的简短比较，请参阅[术语](more-resources/terms.md)。
 
