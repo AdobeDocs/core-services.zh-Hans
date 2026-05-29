@@ -8,31 +8,26 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e86d1384fc183ebafdab2995ee3495f2184b0329
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 745
-ht-degree: 41%
+source-wordcount: 788
+ht-degree: 39%
 
 ---
 
 # 文档更新
 
 了解CX Enterprise中央界面和管理文档更新的位置。
+
+## 2026年6月
+
+* 已发布[代理AI使用情况监控](../features/monitoring.md)，涵盖许可证使用情况和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
+* 添加了[2026年6月版发行说明](release-notes.md)，用于代理人工智能使用情况监测。
 
 ## 2026年5月
 
@@ -41,7 +36,6 @@ CX Enterprise Central界面指南在4月和5月进行了更新：
 * 该指南中的文档已从Experience Cloud更名为&#x200B;**CX Enterprise**，包括描述、链接文本和自动标记元数据。
 * 为位于`https://experience.adobe.com/home`的刷新主页添加了[2026年4月发行说明](release-notes.md)（UI刷新、深色模式和辅助功能改进）。
 * 更新了CX Enterprise中的[代理AI](../features/agentic-ai.md)：Adobe Marketing Agent for Microsoft 365 Copilot，修订了代理功能，并在现有应用程序代理表中更新了&#x200B;**运行状况数据/HIPAA就绪**&#x200B;列。
-<!-- * Published [Monitoring](../features/monitoring.md) with expanded coverage of Usage, Conversation Replay, Credits, User Feedback, and Active Users dashboards. -->
 * 对[区域数据收集](../data-collection/rdc.md)、[验证主机名转发](../data-collection/adobe-managed-cert.md)和[术语](terms.md)的小更新。
 
 ## 2026年3月
