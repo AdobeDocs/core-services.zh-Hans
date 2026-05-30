@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 39%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 39%
 
 ## 2026年6月
 
-* 已发布[代理AI使用情况监控](../features/monitoring.md)，涵盖许可证使用情况和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
+* 已发布[Agentic AI监控](../features/monitoring.md)，涵盖许可证使用和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
 * 添加了[2026年6月版发行说明](release-notes.md)，用于代理人工智能使用情况监测。
 
 ## 2026年5月

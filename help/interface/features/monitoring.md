@@ -1,6 +1,6 @@
 ---
 title: 代理AI使用监控
-description: 了解CX Enterprise中的AI使用情况监控。 跟踪采用情况、审查对话和反馈，并管理使用、质量和成本可见性的AI积分。
+description: 了解CX Enterprise中用于AI使用情况监视的仪表板。 跟踪采用情况、审查对话和反馈，并管理使用、质量和成本可见性的AI积分。
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# 代理AI使用情况监视仪表板
+# 智能人工智能监控
 
 CX Enterprise提供两个仪表板，用于监视现有CX Enterprise应用程序中的代理AI使用情况。 这些仪表板可帮助您了解用户通过[!DNL AI Assistant]和其他对话界面访问的[!DNL Experience Platform Agents]的采用、参与、反馈质量和AI信用消耗。
 
