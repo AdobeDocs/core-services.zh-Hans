@@ -5,7 +5,7 @@ breadcrumb-title: CX Enterprise界面和管理
 title: 《 CX Enterprise界面和管理指南》
 description: 了解CX Enterprise界面和管理。 浏览有关AI、管理、共享服务、数据收集、Cookie、发行说明和常见问题解答的主题。
 index: true
-source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
+source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 60%
@@ -18,7 +18,7 @@ ht-degree: 60%
 + CX Enterprise 中的 AI {#features}
    + [生成式 AI](/help/interface/features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
-   + {hide-from-toc}[代理AI监视](/help/interface/features/monitoring.md)
+   + [智能人工智能监控](/help/interface/features/monitoring.md)
    + [代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
 + 管理 {#administration}
    + [帐户偏好设置和通知](/help/interface/features/account-preferences.md)
