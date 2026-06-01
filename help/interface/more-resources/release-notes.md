@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
 workflow-type: tm+mt
-source-wordcount: 1501
+source-wordcount: 1500
 ht-degree: 50%
 
 ---
@@ -46,7 +46,7 @@ CX Enterprise中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | ------- | ------- | ------- |
-| 2026年6月1日 | 代理AI使用监控 | CX Enterprise现在提供了用于监视现有应用程序中代理AI使用情况的仪表板。 跟踪采用、审查对话和反馈，并管理通过AI Assistant和其他对话界面访问的Experience Platform代理的AI信用消耗。 概述、用户、反馈和AI信用视图有助于治理利益相关者使用数据指导采用。 查看[代理AI使用监控](../features/monitoring.md)以了解仪表板访问和权限。 |
+| 2026年6月1日 | 代理AI使用监控 | CX Enterprise现在提供了用于监视现有应用程序中代理AI使用情况的仪表板。 跟踪采用、审查对话和反馈，并管理通过AI Assistant和其他对话界面访问的Experience Platform代理的AI信用消耗。 概述、用户、反馈和AI信用视图有助于治理利益相关者使用数据指导采用。 查看[代理AI监控](../features/monitoring.md)以了解仪表板访问和权限。 |
 
 ## 2026 年 4 月
 
