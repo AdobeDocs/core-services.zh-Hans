@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
+source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 866
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 人工智能监测仪表板使卓越中心(COE)成员和其他治理利益攸关方能够了解人工智能的使用和采用。 您可以查看7天或30天期间的趋势，以了解谁使用[!DNL AI Assistant]或其他对话界面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互，他们在这些交互中执行的操作，以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
 
-Agentic AI监控仪表板包括以下视图：
+[!UICONTROL 监控]仪表板包含以下视图：
 
 | 功能板 | 用途 |
 | --- | --- |
@@ -39,7 +39,7 @@ Agentic AI监控仪表板包括以下视图：
 
 在Adobe CX Enterprise的[代理AI](agentic-ai.md)文档中，使用监视作用域中的代理列在现有CX Enterprise应用程序[&#128279;](agentic-ai.md#existing-apps-table)中的AI代理中。
 
-[观看介绍性视频](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## 启用功能板权限 {#permissions}
 
@@ -86,7 +86,7 @@ Agentic AI监控仪表板包括以下视图：
 * **每个对话的平均提示数：**&#x200B;每个对话的参与深度。
 * **反馈：**&#x200B;来自用户的向上和向下拇指分布反馈（仅适用于[!DNL AI Assistant]交互）。
 
-[观看视频](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 对话重播
 
@@ -95,7 +95,7 @@ Agentic AI监控仪表板包括以下视图：
 * **提示和响应历史记录：**&#x200B;用户的提示和响应已传递。
 * **反馈信号：**&#x200B;用户通过竖起或竖下大拇指进行交互，以识别摩擦、阻止或支持需求。 此信息可帮助您的组织改善提示相关性，并帮助Adobe在一段时间内提高响应质量。
 
-[观看视频](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## 用户仪表板
 
@@ -112,7 +112,7 @@ Agentic AI监控仪表板包括以下视图：
 * **对话活动：**&#x200B;每个用户的对话数和提示数。
 * **最活跃用户：**&#x200B;高度参与的用户和团队推动采用代理。
 
-[观看视频](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## 反馈仪表板
 
@@ -126,7 +126,7 @@ Agentic AI监控仪表板包括以下视图：
 * **提示和响应历史记录：**&#x200B;用户提示和与提交的反馈关联的响应。
 * **反馈详细信息和注释：**&#x200B;反馈提交期间用户的其他上下文和注释。
 
-[观看视频](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI信用仪表板
 
@@ -138,7 +138,7 @@ AI信用仪表板显示贵组织对[!DNL Experience Platform Agents]的使用如
 * **每日和每月趋势：**&#x200B;消费模式的尖峰、下降和变化。
 * **AI剩余信用额度：**&#x200B;剩余信用额度，以便您能够主动计划并避免超额。
 
-[观看视频](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## 有关此主题的更多帮助
 
