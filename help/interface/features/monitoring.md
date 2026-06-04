@@ -8,10 +8,15 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
 source-wordcount: 881
@@ -32,7 +37,7 @@ Agentic AI监控仪表板包括以下视图：
 | **反馈** | 响应质量和用户满意度的信号 |
 | **AI积分** | 信用消耗趋势和余额 |
 
-在Adobe CX Enterprise的[代理AI](agentic-ai.md)文档中，使用监视作用域中的代理列在现有CX Enterprise应用程序](agentic-ai.md#existing-apps-table)中的[AI代理中。
+在Adobe CX Enterprise的[代理AI](agentic-ai.md)文档中，使用监视作用域中的代理列在现有CX Enterprise应用程序[&#128279;](agentic-ai.md#existing-apps-table)中的AI代理中。
 
 [观看介绍性视频](https://video.tv.adobe.com/v/3491864?learn=on)
 
