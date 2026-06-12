@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
+source-git-commit: 1c06d9c0e10cd0ac37329cd2c73a2adc493e53b6
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: 1553
 ht-degree: 54%
 
 ---
@@ -46,8 +46,8 @@ CX Enterprise中央界面组件的功能、发行说明和已知问题。
 
 | 日期 | 更新 | 描述 |
 | ------- | ------- | ------- |
-| 2026年6月11日 | CX Enterprise Co-worker （正式发布） | CX Enterprise Co-worker是一个代理AI应用程序，它实现了端到端客户体验工作流的自动化。 它会在数小时内通过内置治理功能检测信号、构建受众和启动营销活动。 文档即将推出。 |
-| 2026年6月1日 | 代理AI使用监控 | CX Enterprise现在提供了用于监视现有应用程序中代理AI使用情况的仪表板。 跟踪采用、审查对话和反馈，并管理通过AI Assistant和其他对话界面访问的Experience Platform代理的AI信用消耗。 概述、用户、反馈和AI信用视图有助于治理利益相关者使用数据指导采用。 查看[代理AI监控](../features/monitoring.md)以了解仪表板访问和权限。 |
+| 2026年6月11日 | [!DNL CX Enterprise Coworker] （正式发布） | CX Enterprise Co-worker是一个代理AI应用程序，它实现了端到端客户体验工作流的自动化。 Co-worker可在数小时内通过内置治理功能检测信号、构建受众和启动营销活动。 文档即将推出。 |
+| 2026年6月1日 | [!UICONTROL 正在监视] | CX Enterprise现在提供了用于监视现有应用程序中代理AI使用情况的仪表板。 跟踪采用、审查对话和反馈，并管理通过AI Assistant和其他对话界面访问的Experience Platform代理的AI信用消耗。 概述、用户、反馈和AI信用视图有助于治理利益相关者使用数据指导采用。 查看[代理AI监控](../features/monitoring.md)以了解仪表板访问和权限。 |
 
 ## 2026 年 4 月
 
