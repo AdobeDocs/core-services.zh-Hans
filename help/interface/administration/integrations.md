@@ -9,11 +9,27 @@ role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 TQID: https://experienceleague.adobe.com/6Sh6sOZ--ct2sz5sMR-qRwZmvoC51zQkV9LqVRXmi-o
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: d27b1945-f442-4607-91bd-537a0b16e687id: ecb4a972-6786-444c-a014-abc528b9407aid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1116
@@ -163,7 +179,7 @@ ID服务提供一个通用、永久性的ID，用于在CX Enterprise的所有应
 
 有关访问Adobe CX Enterprise和“配置文件与受众”的信息，以及有关[!DNL Adobe Advertising]与Adobe CX Enterprise受众之间的初始设置的更多信息，请与您的客户经理联系。 **注意：**&#x200B;如果您还使用Adobe Target，则您发布到Adobe CX Enterprise的任何受众也可用于Adobe Target中的活动。
 
-**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise Assets用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问您的Adobe CX Enterprise Assets。 ](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
+**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise Assets用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问您的Adobe CX Enterprise Assets。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
 
-**CX Enterprise Notifications：**&#x200B;通过每页顶部的通知链接，可以查看搜索测试版警报模板生成的所有警报。 您还可以获得CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问通知。 ](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
+**CX Enterprise Notifications：**&#x200B;通过每页顶部的通知链接，可以查看搜索测试版警报模板生成的所有警报。 您还可以获得CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问通知。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
 
