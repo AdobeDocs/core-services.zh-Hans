@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 33%
+source-wordcount: 598
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 ![CX企业组织](../assets/organizations-menu.png)
 
-要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL Profile]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
+要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL 配置文件]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ ht-degree: 33%
 
 ## 查看您的组织ID
 
-出于支持目的，您可以查找分配的组织ID。 您可以使用标头中的&#x200B;**[!UICONTROL Organization]**&#x200B;选择器验证自己是否处于正确的组织中，或在不同组织之间切换。
+出于支持目的，您可以查找分配的组织ID。 您可以使用标头中的&#x200B;**[!UICONTROL 组织]**&#x200B;选择器验证自己所在的组织是否正确，或者在不同组织之间切换。
 
 组织ID是与您配置的CX Enterprise公司关联的ID。 此 ID 是由 24 个字符组成的字母数字字符串，其后跟（且必须包括）`@AdobeOrg`。
 
@@ -62,7 +62,7 @@ ht-degree: 33%
 
    ![已分配组织 ID](../assets/assigned-organization.png)
 
-1. 在&#x200B;**[!UICONTROL User Information]**&#x200B;下查找&#x200B;**[!UICONTROL Current Org ID]**，即可找到组织ID。
+1. 在&#x200B;**[!UICONTROL 用户信息]**&#x200B;下，查找&#x200B;**[!UICONTROL 当前组织ID]**，您可以找到组织ID。
 
    或者，管理员还可以登录Admin Console（导航到[https://adminconsole.adobe.com](https://adminconsole.adobe.com)），并在URL中查看您的组织ID。
 
@@ -82,7 +82,7 @@ ht-degree: 33%
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登录。
 
-1. 单击&#x200B;**[!UICONTROL Application selector]**。 （![菜单](../assets/apps-icon.png)）。
+1. 单击&#x200B;**[!UICONTROL 应用程序选择器]**。 （![菜单](../assets/apps-icon.png)）。
 
    ![将应用程序帐户关联到 Adobe ID](../assets/solutions-active.png)
 
@@ -94,15 +94,15 @@ ht-degree: 33%
 
    如果您属于相应的群组（并拥有应用程序的访问权限），但还没有将帐户凭据关联到 Adobe ID，则会显示此类型的消息。
 
-1. 单击&#x200B;**[!UICONTROL Link Account]**，然后提供您的凭据。
+1. 单击&#x200B;**[!UICONTROL 关联帐户]**，然后提供您的凭据。
 
 ## 指定默认组织
 
 您可以指定登录时使用的默认组织。
 
-1. 在标题中，单击&#x200B;**[!UICONTROL Profile]**，然后单击首选项。
+1. 在标题中，单击&#x200B;**[!UICONTROL 配置文件]**，然后单击“首选项”。
 
-1. 在[!UICONTROL General]下，选择一个默认组织。
+1. 在[!UICONTROL 常规]下，选择一个默认组织。
 
 
 ![编辑轮廓](../assets/edit-profile.png)

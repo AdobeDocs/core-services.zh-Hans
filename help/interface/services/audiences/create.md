@@ -24,14 +24,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 60%
+source-wordcount: 549
+ht-degree: 56%
 
 ---
 
 # 创建受众
 
-在[!UICONTROL Audience Library]中，您可以使用属性规则来创建受众，并定义复合受众以便在CX Enterprise应用程序中共享。
+在[!UICONTROL 受众库]中，您可以使用属性规则来创建受众，并定义复合受众以便在CX Enterprise应用程序中共享。
 
 本文可帮助您了解如何执行以下操作：
 
@@ -58,24 +58,24 @@ ht-degree: 60%
 
 **创建受众**
 
-1. 单击[!DNL CX Enterprise]个应用（![个应用图标](assets/apps-icon.png)），然后单击&#x200B;**[!UICONTROL People]** > **[!UICONTROL Audience Library]。**
+1. 单击[!DNL CX Enterprise]个应用（![个应用图标](assets/apps-icon.png)），然后单击&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
 
-1. 在[!UICONTROL Audiences]页面上，单击&#x200B;**[!UICONTROL New]**。 ![新受众](assets/add_icon_small.png)
+1. 在[!UICONTROL 受众]页面上，单击&#x200B;**[!UICONTROL 新建]**。 ![新受众](assets/add_icon_small.png)
 
    ![创建受众](assets/audience_create_new.png)
 
-1. 在[!UICONTROL Create New Audience]页面上，完成&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;字段。
-1. 在[!UICONTROL Rules]下，选择一个引用报表包，然后选择一个属性源：
+1. 在[!UICONTROL 创建新受众]页面上，完成&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;字段。
+1. 在[!UICONTROL 规则]下，选择引用报表包，然后选择属性源：
 
-   * **[!UICONTROL Real-Time Analytics Data:]** （或原始数据）这是从Real-Time Analytics图像请求派生的属性数据。 它包括eVar和事件。 使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。 此报表包选择提供了报表包使用的变量结构。
+   * **[!UICONTROL Real-Time Analytics数据：]**（或原始数据）这是从Real-Time Analytics图像请求派生的属性数据。 它包括eVar和事件。 使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。 此报表包选择提供了报表包使用的变量结构。
 
      >[!NOTE]
      >
      >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在CX Enterprise中。
 
-   * 从[!DNL CX Enterprise]源派生的&#x200B;**[!UICONTROL CX Enterprise:]**&#x200B;属性数据。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
+   * 从[!DNL CX Enterprise]源派生的&#x200B;**[!UICONTROL CX Enterprise：]**&#x200B;属性数据。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
-1. 定义受众规则，然后单击&#x200B;**[!UICONTROL Save].**
+1. 定义受众规则，然后单击&#x200B;**[!UICONTROL 保存].**
 
 **示例：为复合受众定义规则**
 
@@ -83,18 +83,18 @@ ht-degree: 60%
 >
 >您在定义受众规则时，应该对实施变量有所了解。
 
-在[!UICONTROL Rules]下，定义&#x200B;*`Home & Garden`*&#x200B;属性选择：
+在[!UICONTROL 规则]下，定义&#x200B;*`Home & Garden`*&#x200B;属性选择：
 
-* **[!UICONTROL Attribute Source:]**&#x200B;原始Analytics数据
-* **[!UICONTROL Report Suite:]**&#x200B;报表包31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* **[!UICONTROL 属性Source：]**&#x200B;原始Analytics数据
+* **[!UICONTROL 报表包：]**&#x200B;报表包31
+* Dimension = **[!UICONTROL 商店(Merch) (v6)]** > **[!UICONTROL 等于]** > **[!UICONTROL 家居和园艺]**
 
 ![受众库中的属性选择](assets/home_garden.png)
 
 *Chrome 和 Safari 访客*&#x200B;是从 Analytics 中共享的受众区段：
 
-* **[!UICONTROL Attribute Source:]** CX企业版
-* **[!UICONTROL Dimension:]**&#x200B;位Chrome和Safari访客
+* **[!UICONTROL 属性Source：]** CX Enterprise
+* **[!UICONTROL Dimension：]** Chrome和Safari访客
 
 ![Chrome 和 Safari 访客](assets/chrome_safari.png)
 

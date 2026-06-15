@@ -32,8 +32,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 30%
+source-wordcount: 1116
+ht-degree: 31%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 30%
 * 在CX Enterprise中配置您的公司。
 * 让您成为管理员。
 * [实施CX Enterprise ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
-* 通过[!UICONTROL Platform Data Collection]使您的[!DNL Analytics]和[!DNL Target]实施符合现代化要求。
+* 通过[!UICONTROL 平台数据收集]使您的[!DNL Analytics]和[!DNL Target]实现现代化。
 * 开始使用CX Enterprise服务，如[客户属性](../services/customer-attributes/attributes.md)和[受众库](../services/audiences/overview.md)。
 
 解决方案或服务：
@@ -73,7 +73,7 @@ ID服务提供一个通用、永久性的ID，用于在CX Enterprise的所有应
 
 帮助：[受众](/help/interface/services/audiences/overview.md)
 
-在CX Enterprise [!UICONTROL Audience Library]中创建和管理受众。 受众可从各种来源创建或派生，如：
+在CX Enterprise [!UICONTROL 受众库]中创建和管理受众。 受众可从各种来源创建或派生，如：
 
 * 在[!DNL CX Enterprise]中创建了新受众。
 * 从[!DNL Analytics]区段发布到[!DNL CX Enterprise]。
@@ -161,7 +161,7 @@ ID服务提供一个通用、永久性的ID，用于在CX Enterprise的所有应
 
 * AEM
 * Creative Cloud
-* [CX企业版](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
+* [CX Enterprise](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
 
 ## [!DNL Adobe Advertising]
 

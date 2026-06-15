@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 ## 访问工具栏
 
-导航到资产（或资产目录），然后单击&#x200B;**[!UICONTROL Select]**。
+导航到资产（或资产目录），然后单击&#x200B;**[!UICONTROL 选择]**。
 
 您可以通过工具栏快速访问多种功能，包括搜索、时间线、呈现形式、编辑、批注和下载。
 
@@ -78,13 +78,13 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 ## 为资源作批注
 
-通过在图像上绘制圆圈或箭头而单击&#x200B;**[!UICONTROL Annotate]**，并在资源中添加批注以供同事审阅。
+单击&#x200B;**[!UICONTROL 在图像上绘制圆圈或箭头来批注]**，并在资源中添加批注以供同事审阅。
 
 ![为资源作批注](../../assets/assets-annotate.png)
 
 ## 查看全屏资源和缩放
 
-单击&#x200B;**[!UICONTROL Views]** > **[!UICONTROL Image]**&#x200B;可查看完整的资源图像并启用缩放。
+单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 图像]**&#x200B;以查看完整资源图像并启用缩放。
 
 ![查看全屏资源](../../assets/asset-zoom.png)
 
@@ -92,7 +92,7 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 在带属性的卡视图、列表视图与列视图之间选择以更轻松地找到您的资源。
 
-单击&#x200B;**[!UICONTROL Views]** > **[!UICONTROL Properties]**&#x200B;可查看资源的属性：
+单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 属性]**&#x200B;可查看资源的属性：
 
 ![查看资源属性](../../assets/asset-properties.png)
 
@@ -100,6 +100,6 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 查看用户数、已用存储容量和资源总数。
 
-单击&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 报表]** > **[!UICONTROL 使用情况报表]**
 
 ![运行使用情况报表](../../assets/assets-usage-report.png)

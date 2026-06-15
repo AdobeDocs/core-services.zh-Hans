@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1118
-ht-degree: 43%
+source-wordcount: 1188
+ht-degree: 41%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 43%
 
 * **组成员资格：**&#x200B;要上传数据，用户必须是[!DNL Customer Attributes]组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
-  要知道您的公司是否具有客户属性的访问权限，您的[!DNL CX Enterprise]管理员应登录到[CX Enterprise](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL product profiles]之一，则表示您已经可以开始。
+  要知道您的公司是否具有客户属性的访问权限，您的[!DNL CX Enterprise]管理员应登录到[CX Enterprise](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL 产品配置文件]之一，则表示您已经可以开始。
 
   添加到[!DNL Customer Attributes]的用户在CX Enterprise界面的左侧看到[!DNL Customer Attributes]菜单项。
 
@@ -68,27 +68,27 @@ ht-degree: 43%
 
 ## 创建属性源并上传数据文件
 
-在CX Enterprise的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;页上执行这些步骤。
+在CX Enterprise的&#x200B;_[!UICONTROL 创建客户属性Source]_&#x200B;页面上执行这些步骤。
 
 >[!IMPORTANT]
 >
 >创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。 您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。 联系Audience Manager客户关怀团队或咨询以获取管理权限。
 
-1. 要打开[!UICONTROL Customer Attributes]，请单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
+1. 要打开[!UICONTROL 客户属性]，请单击&#x200B;**[!UICONTROL 应用程序]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
    ![客户属性页面](assets/cust-attr.png)
 
-1. 单击 **[!UICONTROL New]**。
+1. 单击&#x200B;**[!UICONTROL 新建]**。
 
    ![步骤结果](assets/new-customer-attribute-source.png)
 
-1. 在[!UICONTROL Create Customer Attribute Source]页面上，配置以下字段：
+1. 在[!UICONTROL 创建客户属性Source]页面上，配置以下字段：
 
-   * **[!UICONTROL Name:]**&#x200B;数据属性源的易记名称。 对于 [!DNL Adobe Target]，属性名称不能包含空格。 如果传递包含空格的属性，[!DNL Target] 会将其忽略。 其他不受支持的字符包括：`< , >, ', "`。
+   * **[!UICONTROL 名称：]**&#x200B;数据属性源的易记名称。 对于 [!DNL Adobe Target]，属性名称不能包含空格。 如果传递包含空格的属性，[!DNL Target] 会将其忽略。 其他不受支持的字符包括：`< , >, ', "`。
 
-   * **[!UICONTROL Description:]** （可选）数据属性源的描述。
+   * **[!UICONTROL 描述：]**（可选）数据属性源的描述。
 
-   * **[!UICONTROL Alias ID:]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性来源的[!UICONTROL Alias ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
+   * **[!UICONTROL 别名ID：]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL 别名ID]是在您的[!UICONTROL 客户属性Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性来源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ ht-degree: 43%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL customer Settings]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
       * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
@@ -120,9 +120,9 @@ ht-degree: 43%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL Namespace Code:]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来标识客户属性来源。
+   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 上传文件 {#upload-customer-attributes}
 
@@ -130,7 +130,7 @@ ht-degree: 43%
 
 1. 在[!DNL Customer Attributes]页面上，单击属性来源。
 
-1. 在[!UICONTROL Edit Customer Data Source]页面上，单击&#x200B;**[!UICONTROL File Upload]**。
+1. 在[!UICONTROL 编辑客户数据Source]页面上，单击&#x200B;**[!UICONTROL 文件上传]**。
 
    ![文件上载和架构验证](assets/file-upload-schema-validation.png)
 
@@ -140,15 +140,15 @@ ht-degree: 43%
 >
 >存在特定的数据文件要求。 请参阅[数据文件要求](crs-data-file.md)，以了解更多信息。
 
-上传文件后，表数据将显示在此页面上的[!UICONTROL File Upload]标题下。 您可以验证架构，配置订阅或设置 FTP。
+上传文件后，表数据将显示在此页面上的[!UICONTROL 文件上传]标题下。 您可以验证架构，配置订阅或设置 FTP。
 
 ![属性](assets/file_upload_attributes.png)
 
-* **[!UICONTROL Unique customer ID:]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
+* **[!UICONTROL 唯一客户ID：]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
-* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]**&#x200B;显示有多少个ID已别名为CX Enterprise访客ID。
+* 别名为CX Enterprise访客ID的&#x200B;**[!UICONTROL 客户提供的ID：]**&#x200B;显示别名为CX Enterprise访客ID的ID数量。
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;显示具有500个或更多别名的CX Enterprise访客ID的客户提供ID的数量。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近带有别名的CX Enterprise Visitor ID ，直到别名数达到10,000。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
+* **[!UICONTROL 具有高别名计数的客户提供ID：]**&#x200B;显示具有500个或更多CX企业访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近带有别名的CX Enterprise Visitor ID ，直到别名数达到10,000。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
 
 ## 验证架构 {#validate-schema}
 
@@ -162,7 +162,7 @@ ht-degree: 43%
 
 如何删除和替换架构中的属性。
 
-1. 在[!UICONTROL Edit Customer Attribute Source]页面上，删除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;订阅（在&#x200B;**[!UICONTROL Configure Subscriptions]**&#x200B;下）。
+1. 在[!UICONTROL 编辑客户属性Source]页面上，删除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;订阅（位于&#x200B;**[!UICONTROL 配置订阅]**&#x200B;下）。
 
 1. [上传具有更新字段的新数据文件](t-crs-usecase.md)。
 
@@ -184,7 +184,7 @@ ht-degree: 43%
 
 ## 在Adobe Target中使用[!DNL Customer Attributes]数据
 
-在[!DNL Target]中，您可以在创建受众时从[!UICONTROL Visitor Profile]部分中选择客户属性。 列表中的所有客户属性都有前缀`crs.`。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在[!DNL Target]中，您可以在创建受众时从[!UICONTROL 访客配置文件]区域选择一个客户属性。 列表中的所有客户属性都有前缀`crs.`。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![在 Adobe Target 中使用客户属性](assets/crs-add-attribute-target.png)
 

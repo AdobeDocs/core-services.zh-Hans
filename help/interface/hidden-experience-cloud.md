@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 50%
+source-wordcount: '519'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 50%
 登录并验证您是否处于正确的[组织](administration/organizations.md)中。
 
 1. 导航到[Adobe CX Enterprise](https://experience.adobe.com)。
-1. 键入您的Adobe电子邮件地址，然后单击&#x200B;**[!UICONTROL Continue]**。
+1. 键入您的Adobe电子邮件地址，然后单击&#x200B;**[!UICONTROL 继续]**。
 1. 单击帐户。
 1. 键入您的密码。
 1. 验证您是否处于正确的组织中。
@@ -59,25 +59,25 @@ ht-degree: 50%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL Help center]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
-[!UICONTROL Help]菜单还允许您访问：
+[!UICONTROL 帮助]菜单还允许您访问：
 
-* **[!UICONTROL Support]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL Support]。
-* **[!UICONTROL Feedback]：**&#x200B;分享有关您的CX Enterprise体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
-* **[!UICONTROL Status]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL 支持]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL 支持]。
+* **[!UICONTROL 反馈]：**&#x200B;分享有关您的CX Enterprise体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
+* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 管理您的用户个人资料
 
-在[!UICONTROL Profile]菜单中，您可以：
+在[!UICONTROL 配置文件]菜单中，您可以：
 
 * 指定深色主题（并非所有应用程序都支持此主题）
 * 管理CX Enterprise [首选项](features/account-preferences.md)
 * 选择或搜索 [组织](administration/organizations.md)
-* 查看[!UICONTROL Legal Notices]
+* 查看[!UICONTROL 法律声明]
 * 注销
 * 配置帐户首选项、通知和订阅
 

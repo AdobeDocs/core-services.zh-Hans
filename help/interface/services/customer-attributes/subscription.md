@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 47%
+source-wordcount: 421
+ht-degree: 46%
 
 ---
 
@@ -36,17 +36,17 @@ ht-degree: 47%
 
 1. 在[!DNL Customer Attributes]中找到您的数据源以进行编辑：
 
-   在[!DNL CX Enterprise]中，单击&#x200B;**[!UICONTROL Apps]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
+   在[!DNL CX Enterprise]中，单击&#x200B;**[!UICONTROL 应用]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
-1. 在[!UICONTROL Edit Customer Attribute Source]上，单击&#x200B;**[!UICONTROL File Upload]**。
+1. 在[!UICONTROL 编辑客户属性Source]上，单击&#x200B;**[!UICONTROL 文件上传]**。
 
-1. 单击 **[!UICONTROL Configure Subscriptions]**。
+1. 单击&#x200B;**[!UICONTROL 配置订阅]**。
 
    ![在CX Enterprise中配置订阅](assets/configure-subscriptions.png)
 
-1. 要激活客户属性来源，请单击&#x200B;**[!UICONTROL Active]**，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要激活客户属性来源，请单击“活动”**&#x200B;**，然后单击“保存”**&#x200B;**。
 
-1. 要配置[!DNL Analytics]或[!DNL Target]的订阅，请单击&#x200B;**[!UICONTROL Configure]**。
+1. 要配置[!DNL Analytics]或[!DNL Target]的订阅，请单击&#x200B;**[!UICONTROL 配置]**。
 
    以下示例显示了[!DNL Target]订阅：
 
@@ -58,4 +58,4 @@ ht-degree: 47%
    | 报表包(Adobe Analytics) | 来自Analytics的报表包。<br>您无法在一个属性来源内向Analytics订阅添加总计10个以上的报表包。 选择要包含的报表包时，请考虑以下建议：<ul><li>选择具有一组共同的已经过身份验证的客户的报表包。 如果一个报表包中的经过身份验证的客户与另一报表包中的经过身份验证的客户不重叠，请将这些报表包分成不同的属性源。</li><li>如果可能，属性源中包含的报表包应具有相似的流量。</li></ul><br>如果您有 10 个以上的报表包具有一组共同的经过身份验证的客户，则可以配置更多的客户属性来源，使每个来源最多包含 10 个报表包。 |
    | 要包含的属性（Analytics 和 [!DNL Target]） | 您希望发送至应用程序的属性。 <br>在配置订阅和选择属性时，根据您拥有的应用程序，_每个报表包_&#x200B;将会受到以下限制：<ul><li>Foundation：0 个</li><li>Select：3 个</li><li>Prime：15 个</li><li>Ultimate：200 个</li><li>Standard：总共允许 3 个</li><li>Premium：每个报表包允许 200 个</li><li>[!DNL Target] Standard：5 个</li><li>[!DNL Target] Premium：200 个</li></ul><br>**注意：**&#x200B;当您升级到 Analytics Premium 时，附加属性会在延迟 24 小时后才可用。 在此延迟期间，您可能会看到属性订阅数量达到最大值错误。 |
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
