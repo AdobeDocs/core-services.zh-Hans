@@ -8,21 +8,15 @@ role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 TQID: https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 379
-ht-degree: 53%
+source-wordcount: 394
+ht-degree: 51%
 
 ---
 
@@ -39,7 +33,7 @@ ht-degree: 53%
 可以通过FTP或SFTP将文件上传到客户属性FTP站点：
 
 * 您需要支持 SFTP 连接的客户端。
-* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hans)所示。
+* 您可以使用用户名/密码连接到 SFTP，也可以不使用密码连接到 SFTP，如[此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所示。
 
 **通过 FTP 上传数据文件的方法**
 
@@ -47,7 +41,7 @@ ht-degree: 53%
 
    确保您已登录位于 `ftp.adobe.com/<sftpname>` 的 FTP 站点。
 
-1. 单击&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL File Upload]**。
+1. 单击&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 文件上传]**。
 
 1. 上传 `.fin` 文件，以便您的文件可被检索到。
 
@@ -61,7 +55,7 @@ ht-degree: 53%
 
 为每个属性来源设置一个FTP帐户。
 
-在[!UICONTROL File Upload and Schema Validation]页面上，单击&#x200B;**[!UICONTROL FTP Setup]**。
+在[!UICONTROL 文件上载和架构验证]页面上，单击&#x200B;**[!UICONTROL FTP设置]**。
 
 ![编辑架构](assets/ftp-account.png)
 
@@ -69,9 +63,9 @@ ht-degree: 53%
 
 指定给字符串、整数和数字的名称会用于创建 [!DNL Analytics] 指标。
 
-* 从上载的`.csv`文件中读取了&#x200B;**[!UICONTROL attribute:]**&#x200B;属性数据。
+* 从上载的`.csv`文件中读取的&#x200B;**[!UICONTROL 属性：]**&#x200B;属性数据。
 
-* **[!UICONTROL Type:]**&#x200B;数据类型，例如：
+* **[!UICONTROL 类型：]**&#x200B;数据类型，例如：
 
    * **字符串：**&#x200B;字符序列。
 
@@ -79,7 +73,7 @@ ht-degree: 53%
 
    * **数字：**&#x200B;最多可以保留两位小数。
 
-* **[!UICONTROL Display Name:]**&#x200B;属性的易记名称。 例如，您可以将属性&#x200B;*客户年龄*&#x200B;更改为&#x200B;*客户自*&#x200B;起。
+* **[!UICONTROL 显示名称：]**&#x200B;属性的易记名称。 例如，您可以将属性&#x200B;*客户年龄*&#x200B;更改为&#x200B;*客户自*&#x200B;起。
 
-* **[!UICONTROL Description:]**&#x200B;属性的易懂描述。
+* **[!UICONTROL 描述：]**&#x200B;属性的易懂描述。
 

@@ -8,21 +8,15 @@ role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
 TQID: https://experienceleague.adobe.com/ooZLHp6j9AIJfreEo5iOkE-PboYfzjTaZl-9NquYeUQ
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 53%
+source-wordcount: 124
+ht-degree: 46%
 
 ---
 
@@ -34,8 +28,8 @@ CX企业版提供了用于管理已批准的Creative Cloud用户的管理工具�
 >
 >您必须是管理员才能执行此步骤。
 
-1. 在CX Enterprise中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**。
-1. 单击 **[!UICONTROL Creative Cloud Asset Sharing]**。
-1. 单击 **[!UICONTROL Add New User]**。  ![添加新用户](../../assets/mac_add_icon.png)
+1. 在CX Enterprise中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud协作者]**。
+1. 单击&#x200B;**[!UICONTROL Creative Cloud资源共享]**。
+1. 单击&#x200B;**[!UICONTROL 添加新用户]**。  ![添加新用户](../../assets/mac_add_icon.png)
 1. 键入电子邮件、显示名称、职位，并选择性地添加头像。
-1. 单击 **[!UICONTROL Create]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。

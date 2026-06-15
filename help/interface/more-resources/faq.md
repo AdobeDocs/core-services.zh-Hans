@@ -9,19 +9,11 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
@@ -113,7 +105,7 @@ CX Enterprise中的资源调配意味着：
 
 * 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
+* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
 
 +++
 
@@ -121,7 +113,7 @@ CX Enterprise中的资源调配意味着：
 
 Admin Console 管理员可以授予用户访问权限。 将会向用户发送包含登录说明的电子邮件。
 
-您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)来验证您的公司是否已完全配置。
+您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)来验证您的公司是否已完全配置。
 
 +++
 
