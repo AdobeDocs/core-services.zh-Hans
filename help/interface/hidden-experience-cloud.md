@@ -59,7 +59,7 @@ ht-degree: 48%
 
 ## 获取帮助和支持 {#support}
 
-使用标头中的&#x200B;**[!UICONTROL 帮助中心]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
+使用标头中的&#x200B;**[!UICONTROL 帮助中心]** （![资源](assets/help-icon.png)）访问学习和帮助，包括有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助内容（文档、教程和课程）以及各个应用程序的其他资源。 您也可以提交开放式的反馈并创建优先支持服务单。
 
 ![获取帮助和支持](assets/search-menu.png)
 
@@ -67,7 +67,7 @@ ht-degree: 48%
 
 * **[!UICONTROL 支持]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL 支持]。
 * **[!UICONTROL 反馈]：**&#x200B;分享有关您的CX Enterprise体验的反馈。 您的反馈将用于改进 Adobe 的支持和服务。
-* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
+* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 管理您的用户个人资料

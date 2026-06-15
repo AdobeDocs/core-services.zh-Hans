@@ -45,7 +45,7 @@ CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键
 
 >[!NOTE]
 >
->有关使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
+>有关使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
 
 ## 触发器类型
 
