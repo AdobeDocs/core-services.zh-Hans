@@ -416,7 +416,7 @@ Marketo与GenStudio for Performance Marketing集成
 <!--
 ## More help on this topic
 
-* [AI in CX Enterprise](https://experienceleague.adobe.com/en/docs/ai) documentation home
+* [AI in CX Enterprise](https://experienceleague.adobe.com/zh-hans/docs/ai) documentation home
 -->
 
 **免责声明：**&#x200B;此页面上的信息仅用于一般信息目的。 在努力确保信息保持准确和最新的同时，软件和创新型人工智能功能可能会经常发生变化。 因此，Adobe不保证信息的完整性、准确性或可靠性。 在根据此内容做出决策之前，请验证任何重要详细信息。

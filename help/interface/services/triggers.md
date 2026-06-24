@@ -83,7 +83,7 @@ CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键
    {style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
+1. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。
 
 ## 触发器示例
 
