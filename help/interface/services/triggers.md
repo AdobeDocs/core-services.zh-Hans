@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 72%
+source-wordcount: 817
+ht-degree: 64%
 
 ---
 
 # CX Enterprise触发器
 
-CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。
+CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 有关在Adobe Campaign中使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
 
 例如：
 
@@ -45,7 +45,7 @@ CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键
 
 >[!NOTE]
 >
->有关使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
+>触发器的本质不是确定性的。 当多个用户共享浏览器或设备（如共享或公共设备）时，可能无法将触发器映射到正确的访客ID。
 
 ## 触发器类型
 
@@ -101,3 +101,6 @@ CX Enterprise Triggers示例：
 
 ![反向链接触发器](../assets/fb-boots-promo.png)
 
+## 验证触发器活动
+
+要验证触发器是否已触发，请使用[!UICONTROL 触发器]接口查看触发器的最近活动。 界面显示的触发事件数量有限，因此对于数据量大的实施，它可能不会显示所有触发活动。 当前不支持通过API进行程序化验证。
