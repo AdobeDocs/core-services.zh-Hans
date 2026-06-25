@@ -147,7 +147,7 @@ AI信用仪表板显示贵组织对[!DNL Experience Platform Agents]的使用如
 
 ## 有关此主题的更多帮助
 
-* [!DNL Experience Platform]中的[许可证使用情况仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]中的[许可证使用情况仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise中的代理AI](agentic-ai.md)
 * [代理作业和AI信用消耗](ai-credit-consumption.md)
-* [许可证使用情况仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [许可证使用情况仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
