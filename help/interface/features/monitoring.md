@@ -1,6 +1,6 @@
 ---
 title: 代理AI使用监控
-description: 了解CX Enterprise中用于AI使用情况监视的仪表板。 跟踪采用情况、审查对话和反馈，并管理使用、质量和成本可见性的AI积分。
+description: 了解用于监测 CX Enterprise 中 AI 使用情况的仪表板。 跟踪采用情况、审查对话和反馈，并管理使用、质量和成本可见性的AI积分。
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1009
 ht-degree: 2%
 
 ---
@@ -49,6 +49,14 @@ ht-degree: 2%
 ## 启用功能板权限 {#permissions}
 
 通过更新每个授权用户的产品配置文件或角色，在[!DNL Adobe Experience Platform]中授予仪表板访问权限。 启用权限后，[!UICONTROL 监视]功能将在CX Enterprise主页上向用户显示。
+
+>[!IMPORTANT]
+>
+>监控数据仅在默认的生产沙盒中可用。 不支持使用开发沙盒查看监控数据。 用户必须具有默认生产沙盒所需的监控权限，并切换到沙盒以查看监控数据。
+>
+>为防止混淆，Adobe建议跨所有沙盒（包括默认的生产沙盒）授予监视权限。 这有助于确保用户可以访问监控仪表板，而不管当前选择了什么沙盒，并减少将不支持的沙盒误认为空仪表板或无法正常工作的仪表板的可能性。
+
+**启用仪表板权限**
 
 1. 转到[!DNL Experience Platform] **管理** > **权限**。
 
