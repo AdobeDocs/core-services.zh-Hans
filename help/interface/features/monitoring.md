@@ -1,6 +1,6 @@
 ---
 title: 代理AI使用监控
-description: 了解CX Enterprise中用于AI使用情况监视的仪表板。 跟踪采用情况、审查对话和反馈，并管理使用、质量和成本可见性的AI积分。
+description: 了解用于监测 CX Enterprise 中 AI 使用情况的仪表板。 跟踪采用情况、审查对话和反馈，并管理使用、质量和成本可见性的AI积分。
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -8,18 +8,13 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1009
 ht-degree: 2%
 
 ---
@@ -42,13 +37,21 @@ ht-degree: 2%
 | **反馈** | 响应质量和用户满意度的信号 |
 | **AI积分** | 信用消耗趋势和余额 |
 
-在Adobe CX Enterprise的[代理AI](agentic-ai.md)文档中，使用监视作用域中的代理列在现有CX Enterprise应用程序[&#128279;](agentic-ai.md#existing-apps-table)中的AI代理中。
+在Adobe CX Enterprise的[代理AI](agentic-ai.md)文档中，使用监视作用域中的代理列在现有CX Enterprise应用程序](agentic-ai.md#existing-apps-table)中的[AI代理中。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491876?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## 启用功能板权限 {#permissions}
 
 通过更新每个授权用户的产品配置文件或角色，在[!DNL Adobe Experience Platform]中授予仪表板访问权限。 启用权限后，[!UICONTROL 监视]功能将在CX Enterprise主页上向用户显示。
+
+>[!IMPORTANT]
+>
+>监控数据仅在默认的生产沙盒中可用。 不支持使用开发沙盒查看监控数据。 用户必须具有默认生产沙盒所需的监控权限，并切换到沙盒以查看监控数据。
+>
+>为防止混淆，Adobe建议跨所有沙盒（包括默认的生产沙盒）授予监视权限。 这有助于确保用户可以访问监控仪表板，而不管当前选择了什么沙盒，并减少将不支持的沙盒误认为空仪表板或无法正常工作的仪表板的可能性。
+
+**启用仪表板权限**
 
 1. 转到[!DNL Experience Platform] **管理** > **权限**。
 
@@ -91,7 +94,7 @@ ht-degree: 2%
 * **每个对话的平均提示数：**&#x200B;每个对话的参与深度。
 * **反馈：**&#x200B;来自用户的向上和向下拇指分布反馈（仅适用于[!DNL AI Assistant]交互）。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491886?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 对话重播
 
@@ -100,7 +103,7 @@ ht-degree: 2%
 * **提示和响应历史记录：**&#x200B;用户的提示和响应已传递。
 * **反馈信号：**&#x200B;用户通过竖起或竖下大拇指进行交互，以识别摩擦、阻止或支持需求。 此信息可帮助您的组织改善提示相关性，并帮助Adobe在一段时间内提高响应质量。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491895?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## 用户仪表板
 
@@ -117,7 +120,7 @@ ht-degree: 2%
 * **对话活动：**&#x200B;每个用户的对话数和提示数。
 * **最活跃用户：**&#x200B;高度参与的用户和团队推动采用代理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491928?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## 反馈仪表板
 
@@ -131,7 +134,7 @@ ht-degree: 2%
 * **提示和响应历史记录：**&#x200B;用户提示和与提交的反馈关联的响应。
 * **反馈详细信息和注释：**&#x200B;反馈提交期间用户的其他上下文和注释。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491919?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI信用仪表板
 
@@ -143,11 +146,11 @@ AI信用仪表板显示贵组织对[!DNL Experience Platform Agents]的使用如
 * **每日和每月趋势：**&#x200B;消费模式的尖峰、下降和变化。
 * **AI剩余信用额度：**&#x200B;剩余信用额度，以便您能够主动计划并避免超额。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491910?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## 有关此主题的更多帮助
 
-* [!DNL Experience Platform]中的[许可证使用情况仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)
+* [!DNL Experience Platform]中的[许可证使用情况仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise中的代理AI](agentic-ai.md)
 * [代理作业和AI信用消耗](ai-credit-consumption.md)
-* [许可证使用情况仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [许可证使用情况仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
