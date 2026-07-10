@@ -47,7 +47,7 @@ ht-degree: 41%
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-  参阅[如何部署 at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)。
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/overview)。
 
 ## 创建数据文件
 
@@ -96,9 +96,9 @@ ht-degree: 41%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+      * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -120,7 +120,7 @@ ht-degree: 41%
 
         有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
+   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
