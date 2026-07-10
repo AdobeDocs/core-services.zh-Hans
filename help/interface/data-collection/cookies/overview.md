@@ -4,20 +4,12 @@ title: 如何在Experience Cloud中使用Cookie
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 8%
 
 ---
@@ -32,9 +24,9 @@ Adobe CX Enterprise使用Cookie。 Cookie是网站发送到您的浏览器的一
 
 Adobe CX Enterprise使用Cookie跟踪在页面查看或浏览器会话之间不会停留的信息。 如果可能，Adobe会使用第一方Cookie（与您自己的网站绑定）。 要在您拥有的多个网站或域中跟踪活动，需要第三方Cookie。
 
-某些浏览器和防间谍软件工具会阻止第三方Cookie。 Adobe提供了一些方法来确保Cookie仍然有效，即使Cookie被阻止也是如此。 其工作方式取决于您使用的是Experience Platform Identity Service (ECID)还是旧版Analytics Cookie（如`s_vi` Cookie）：
+某些浏览器和防间谍软件工具会阻止第三方Cookie。 Adobe提供了一些方法来确保Cookie仍然有效，即使Cookie被阻止也是如此。 其工作方式取决于您使用的是访客ID服务(`VisitorAPI.js`)还是旧版Analytics Cookie（如`s_vi` Cookie）：
 
-* [CX Enterprise Identity Service](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/overview)： ECID服务始终设置第一方Cookie，无论您的收集域与网站域是否匹配。 它使用JavaScript将Cookie放置在您网站的域中。
+* [访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
 
 * [Analytics旧版标识符](analytics.md)（如`s_vi` Cookie）：Cookie是第一方还是第三方取决于您的设置：
 
