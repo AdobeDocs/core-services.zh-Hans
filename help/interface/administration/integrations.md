@@ -30,9 +30,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1116
+source-wordcount: 1113
 ht-degree: 31%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 31%
 
 * 在CX Enterprise中配置您的公司。
 * 让您成为管理员。
-* [实施CX Enterprise ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* [实施访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 * 通过[!UICONTROL 平台数据收集]使您的[!DNL Analytics]和[!DNL Target]实现现代化。
 * 开始使用CX Enterprise服务，如[客户属性](../services/customer-attributes/attributes.md)和[受众库](../services/audiences/overview.md)。
 
@@ -56,13 +56,13 @@ ht-degree: 31%
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=zh-Hans)
-* [CX Enterprise ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
+* [访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
-## CX Enterprise ID服务
+## 访客 ID 服务
 
-ID服务提供一个通用、永久性的ID，用于在CX Enterprise的所有应用程序中标识您的访客。 它可以取代各种服务（如Analytics、Audience Manager、Adobe Target、视频检测信号和其他CX Enterprise应用程序和产品）的ID生成代码。
+访客ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应用程序中标识您的访客。 它可以取代各种服务（如Analytics、Audience Manager、Adobe Target、视频检测信号和其他CX Enterprise应用程序和产品）的ID生成代码。
 
-请参阅[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
+查看[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
 
 **适用的应用程序或服务**
 

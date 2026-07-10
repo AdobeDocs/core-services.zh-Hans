@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1181
 ht-degree: 41%
 
 ---
@@ -96,9 +96,9 @@ ht-degree: 41%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于[CX Enterprise ID服务](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)工具中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+      * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客API：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+      * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
         例如，下面的&#x200B;*“crm_id”*：
 
@@ -146,9 +146,9 @@ ht-degree: 41%
 
 * **[!UICONTROL 唯一客户ID：]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
-* 别名为CX Enterprise访客ID的&#x200B;**[!UICONTROL 客户提供的ID：]**&#x200B;显示别名为CX Enterprise访客ID的ID数量。
+* 别名为Experience Cloud访客ID的&#x200B;**[!UICONTROL 客户提供的ID：]**&#x200B;显示别名为ECID的ID数量。
 
-* **[!UICONTROL 具有高别名计数的客户提供ID：]**&#x200B;显示具有500个或更多CX企业访客ID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近带有别名的CX Enterprise Visitor ID ，直到别名数达到10,000。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
+* **[!UICONTROL 具有高别名计数的客户提供ID：]**&#x200B;显示具有500个或更多ECID别名的客户提供ID的计数。 这些客户提供的 ID 很可能不代表个人，而是表示某种共享登录。 系统会将与这些ID关联的属性分发到500个最近带有别名的ECID，直到别名数达到10,000。 到那时，系统会使客户提供的ID无效，且不再分发关联的属性。
 
 ## 验证架构 {#validate-schema}
 

@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 341
 ht-degree: 39%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 39%
 
 * **[!UICONTROL ID查找：]**&#x200B;输入您`.csv`中的客户ID (CID)以查找该ID的CX Enterprise信息。 此功能可用于解决为何属性数据不对访客显示的问题：
 
-   * **[!UICONTROL ECID (CX Enterprise ID)：]**&#x200B;在您使用最新的CX Enterprise ID服务时显示。 如果您在MCID服务上，但此处未列出ID ，则CX Enterprise尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
+   * **[!UICONTROL ECID：]**&#x200B;在您使用访客ID服务时显示。 如果您使用访客ID服务，但此处未列出ID ，则CX Enterprise尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
 
    * **[!UICONTROL CID （客户ID）：]**&#x200B;与此CID关联的属性。 如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 
