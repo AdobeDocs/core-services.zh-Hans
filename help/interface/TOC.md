@@ -5,10 +5,10 @@ breadcrumb-title: CX Enterprise界面和管理
 title: 《 CX Enterprise界面和管理指南》
 description: 了解CX Enterprise界面和管理。 浏览有关AI、管理、共享服务、数据收集、Cookie、发行说明和常见问题解答的主题。
 index: true
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: 88f8ee46073227afb5a9691155a70bd43f01a188
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 60%
+source-wordcount: '222'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 60%
    + [代理式 AI](features/agentic-ai.md)
    + [智能人工智能监控](/help/interface/features/monitoring.md)
    + [代理作业和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
+   + [代理工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 + 管理 {#administration}
    + [帐户偏好设置和通知](/help/interface/features/account-preferences.md)
    + [浏览器和语言支持](/help/interface/browser-language.md)
