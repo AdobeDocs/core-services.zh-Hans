@@ -50,7 +50,7 @@ ht-degree: 29%
 
 ### 联合来宾帐户
 
-您可以启用[联合来宾访问](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 这些用户可以在任何CX Enterprise页上的现有公司内的帐户之间进行切换。
+您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 这些用户可以在任何CX Enterprise页上的现有公司内的帐户之间进行切换。
 
 若要切换到联合来宾帐户，请在任何[CX Enterprise](https://experience.adobe.com)页面上的&#x200B;**[!UICONTROL 组织]**&#x200B;菜单中找到&#x200B;**[!UICONTROL 其他帐户]**。
 
@@ -121,6 +121,6 @@ ht-degree: 29%
 
 通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。 当帐户关联失败时，您可以：
 
-* [联系 Adobe 支持](https://experienceleague.adobe.com/?support-solution=General#support)。
+* [联系 Adobe 支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
 * 在我们着手解决问题的同时，使用标准登录访问您的应用程序。
 
