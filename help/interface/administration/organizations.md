@@ -1,7 +1,7 @@
 ---
-description: 了解组织（IMS组织ID）并将解决方案帐户关联到CX Enterprise。
+description: 了解组织（IMS组织ID）、切换帐户和关联解决方案帐户。
 solution: Experience Cloud
-title: 组织和帐户关联
+title: 组织和帐户
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
 topic: Administration
@@ -21,14 +21,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 32%
+source-wordcount: 660
+ht-degree: 29%
 
 ---
 
-# 组织和帐户关联
+# 组织和帐户
 
 *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。
 
@@ -47,6 +47,14 @@ ht-degree: 32%
 如果您的组织使用Federated ID，则CX Enterprise允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 将`#/sso:@domain`添加到CX Enterprise URL (`https://experience.adobe.com`)以完成此任务。
 
 例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
+
+### 联合来宾帐户
+
+您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 这些用户可以在任何CX Enterprise页上的现有公司内的帐户之间进行切换。
+
+若要切换到联合来宾帐户，请在任何[CX Enterprise](https://experience.adobe.com)页面上的&#x200B;**[!UICONTROL 组织]**&#x200B;菜单中找到&#x200B;**[!UICONTROL 其他帐户]**。
+
+![联合帐户切换器](../assets/federated-account-switcher.png)
 
 ## 查看您的组织ID
 

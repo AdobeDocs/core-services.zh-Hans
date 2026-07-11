@@ -17,21 +17,21 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 2%
 
 ---
 
 # Agentic AI监控仪表板
 
-人工智能监测仪表板使卓越中心(COE)成员和其他治理利益攸关方能够了解人工智能的使用和采用。 您可以查看7天或30天期间的趋势，以了解谁使用[!DNL AI Assistant]或其他对话界面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互，他们在这些交互中执行的操作，以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
+人工智能监测仪表板使卓越中心(COE)成员和其他治理利益攸关方能够了解人工智能的使用和采用。 查看7天或30天趋势以了解谁使用[!DNL AI Assistant]或其他表面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
 
 **可用性**
 
 * 目前，任何拥有至少一个Experience Platform本机应用程序（Customer Journey Analytics、Journey Optimizer或Real-Time CDP）许可证的帐户都可以访问此仪表板
-* 此仪表板不涉及[人工智能优先应用程序](agentic-ai.md#ai-first-cx-enterprise-applications)（如Experimentation Accelerator、LLM Optimizer、Sites Optimizer等）的使用和采用量度
+* 此仪表板不涉及[AI优先应用程序](agentic-ai.md#ai-first-cx-enterprise-applications)（如Experimentation Accelerator、LLM Optimizer和Sites Optimizer）的使用和采用量度。
 
 [!UICONTROL 监控]仪表板包含以下视图：
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 | **反馈** | 响应质量和用户满意度的信号 |
 | **AI积分** | 信用消耗趋势和余额 |
 
-在Adobe CX Enterprise的[代理AI](agentic-ai.md)文档中，使用监视作用域中的代理列在现有CX Enterprise应用程序[&#128279;](agentic-ai.md#existing-apps-table)中的AI代理中。
+Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档列出了现有CX Enterprise应用程序中[个AI代理中用于监视使用情况的作用域中的代理](agentic-ai.md#existing-apps-table)。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491876?captions=chi_hans&learn=on)
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 ## 概述仪表板
 
-概述仪表板是整个组织中采用和参与量度的中心位置。 它将高级趋势与更深入的分析联系起来。 通过任何量度，您可以深入查看各个对话，以了解数字背后的驱动因素。
+概述仪表板是整个组织中采用和参与量度的中心位置。 它将高级趋势与更深入的分析联系起来。 要查看这些数字背后的驱动因素，请从任何指标深入了解各个对话。
 
 ### “概述”功能板上的量度
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 ### 用户仪表板上的量度
 
 * **一段时间内的采用和参与趋势：**&#x200B;跟踪选定时间段内用户区段的变化情况。 用户被分类为：
-   * **新：**&#x200B;选定时段内的第一个活动，前12个月内无活动。
+   * **新：**&#x200B;选定时段内的第一个活动，在前12个月内无活动。
    * **重复：**&#x200B;选定时段和上一个时段中的活动。
    * **返回：**&#x200B;选定时段内的活动，但不是前一时段内的活动。
    * **不活动：**&#x200B;选定时段中没有活动，但前一时段有活动。
@@ -129,7 +129,7 @@ ht-degree: 2%
 
 ## 反馈仪表板
 
-“反馈”仪表板显示针对代理交互提交的用户反馈。 您可以查看哪些对话用户以正面或负面方式标记，并调查反馈背后的交互。 从反馈摘要中，深入查看各个对话以查看提示、响应、推理详细信息和反馈注释。
+“反馈”仪表板显示针对代理交互提交的用户反馈。 您可以查看哪些对话用户以正面或负面方式标记，并调查反馈背后的交互。 要查看提示、响应、推理详细信息和反馈注释，请从反馈摘要中深入了解各个对话。
 
 ### 反馈仪表板上的量度
 

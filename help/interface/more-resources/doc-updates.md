@@ -23,10 +23,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 787
-ht-degree: 39%
+source-wordcount: 820
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,11 @@ ht-degree: 39%
 
 了解CX Enterprise中央界面和管理文档更新的位置。
 
-## 2026年6月
+## 2026年7月
+
+* 添加了[2026年7月发行说明](release-notes.md)，内容是有关CX Enterprise对[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)的支持，包括组织切换器中来宾用户的帐户切换。
+
+## 2026 年 6 月
 
 * 已发布[Agentic AI监控](../features/monitoring.md)，涵盖许可证使用和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
 * 添加了[2026年6月版发行说明](release-notes.md)，用于代理人工智能使用情况监测。
