@@ -22,7 +22,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+source-git-commit: 929f3df66ce2ff819248671dfc560f0a2a468836
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 # 术语
 
 <!--
-TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7lJgN0HZDsk
 -->
 
 当同一字出现在不同的Adobe体验（ CX企业版、营销应用程序、设计应用程序或支持站点）中时，请使用此表。 它不是完整的术语表；有关深层定义，请参阅[Experience League](https://experienceleague.adobe.com/zh-hans)上的产品特定帮助。
