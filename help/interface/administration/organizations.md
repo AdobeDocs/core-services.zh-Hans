@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 29%
+source-wordcount: 677
+ht-degree: 28%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 29%
 *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。
 
 组织的作用类似于一个跨所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
+
+**组织菜单**
 
 ![CX企业组织](../assets/organizations-menu.png)
 
@@ -48,11 +50,13 @@ ht-degree: 29%
 
 例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-### 联合来宾帐户
+## 联合来宾帐户
 
-您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 这些用户可以在任何CX Enterprise页上的现有公司内的帐户之间进行切换。
+您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，“组织”菜单将更改，以便这些用户可以在任何CX Enterprise页上的现有组织内的帐户之间进行切换。
 
 若要切换到联合来宾帐户，请在任何[CX Enterprise](https://experience.adobe.com)页面上的&#x200B;**[!UICONTROL 组织]**&#x200B;菜单中找到&#x200B;**[!UICONTROL 其他帐户]**。
+
+联合来宾帐户的&#x200B;**组织菜单**
 
 ![联合帐户切换器](../assets/federated-account-switcher.png)
 
