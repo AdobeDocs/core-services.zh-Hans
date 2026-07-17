@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -52,7 +45,7 @@ ht-degree: 28%
 
 ## 联合来宾帐户
 
-您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，“组织”菜单将更改，以便这些用户可以在任何CX Enterprise页上的现有组织内的帐户之间进行切换。
+您可以启用[联合来宾访问](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，“组织”菜单将更改，以便这些用户可以在任何CX Enterprise页上的现有组织内的帐户之间进行切换。
 
 若要切换到联合来宾帐户，请在任何[CX Enterprise](https://experience.adobe.com)页面上的&#x200B;**[!UICONTROL 组织]**&#x200B;菜单中找到&#x200B;**[!UICONTROL 其他帐户]**。
 
@@ -86,28 +79,6 @@ ht-degree: 28%
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## 将应用程序帐户关联到 Adobe ID
-
-通常， CX企业管理员授予对应用程序和服务的访问权限。 在极少数情况下，您可以将应用程序凭据关联到Adobe ID。
-
-1. 按照邀请您加入CX Enterprise的电子邮件中的步骤操作。
-
-1. 使用您的 Adobe ID 或 Enterprise ID 登录。
-
-1. 单击&#x200B;**[!UICONTROL 应用程序选择器]**。 （![菜单](../assets/apps-icon.png)）。
-
-   ![将应用程序帐户关联到 Adobe ID](../assets/solutions-active.png)
-
-   您有权访问的应用程序会用彩色标出。
-
-1. 单击所需的应用程序。
-
-   ![单击您的应用程序](../assets/analytics-link-accounts.png)
-
-   如果您属于相应的群组（并拥有应用程序的访问权限），但还没有将帐户凭据关联到 Adobe ID，则会显示此类型的消息。
-
-1. 单击&#x200B;**[!UICONTROL 关联帐户]**，然后提供您的凭据。
-
 ## 指定默认组织
 
 您可以指定登录时使用的默认组织。
@@ -118,13 +89,3 @@ ht-degree: 28%
 
 
 ![编辑轮廓](../assets/edit-profile.png)
-
-## 解决帐户关联问题
-
-帮助解决帐户关联所引起的问题。
-
-通常，帐户关联会失败，因为 Adobe ID 已关联到先前的用户。 当帐户关联失败时，您可以：
-
-* [联系 Adobe 支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
-* 在我们着手解决问题的同时，使用标准登录访问您的应用程序。
-
