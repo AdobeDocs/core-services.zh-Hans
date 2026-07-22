@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
 workflow-type: tm+mt
-source-wordcount: 1617
+source-wordcount: 1629
 ht-degree: 56%
 
 ---
@@ -53,7 +53,7 @@ CX Enterprise中央界面组件的功能、发行说明和已知问题。
 | 日期 | 更新 | 描述 |
 | ------- | ------- | ------- |
 | 2026年6月11日 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)是一个自动执行端到端客户体验工作流的代理AI应用程序。 [!DNL Coworker]检测信号，构建受众，并通过内置治理在小时内启动营销活动。 文档即将推出。 |
-| 2026 年 6 月 1 日 | [!UICONTROL 正在监视] | CX Enterprise 现已提供仪表板，用于监测现有应用程序中的代理式 AI 使用情况。 跟踪采用情况，查看对话和反馈，并管理通过 AI 助手及其他对话式界面访问 Experience Platform 代理时产生的 AI 积分消耗。 “概览”、“用户”、“反馈”和“AI 积分”视图可帮助治理相关方基于数据指导产品采用。 查看[代理AI监控](../features/monitoring.md)以了解仪表板访问和权限。 |
+| 2026 年 6 月 1 日 | [!UICONTROL 正在监视] | CX Enterprise 现已提供仪表板，用于监测现有应用程序中的代理式 AI 使用情况。 跟踪采用情况，查看对话和反馈，并管理通过 AI 助手及其他对话式界面访问 Experience Platform 代理时产生的 AI 积分消耗。 “概览”、“用户”、“反馈”和“AI 积分”视图可帮助治理相关方基于数据指导产品采用。 查看[代理AI监控](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)以了解仪表板访问和权限。 |
 
 ## 2026 年 4 月
 
