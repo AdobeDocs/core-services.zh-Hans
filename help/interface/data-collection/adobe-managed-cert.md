@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 55066e485981ca25ca33c9151a85bae5432a3212
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: 1282
 ht-degree: 2%
 
 ---
@@ -43,16 +43,17 @@ ht-degree: 2%
 
 Adobe管理的证书计划是用于设置CNAME实施所需的第一方证书的推荐流程。 程序在配置后是完全自动的。 它会及时更新证书，以便不会由于证书过期而影响数据收集。 您的前100个CNAME可以免费使用该程序。
 
-如果您目前管理自己的证书，则需负责购买、维护证书并将证书提供给Adobe以供第一方Cookie使用。 您可以联系Adobe客户关怀部门，讨论迁移到Adobe管理的证书计划的问题。
+如果您目前管理自己的证书，则需负责购买、维护证书并将证书提供给Adobe以供第一方Cookie使用。 要讨论如何迁移到Adobe管理的证书计划，请联系Adobe客户关怀团队。
 
 ## 实施
 
-请按照以下步骤为第一方数据收集实施新证书：
+要实施用于第一方数据收集的新证书，请执行以下步骤：
 
 1. 下载并填写[第一方域请求表单](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 1. 向Adobe客户关怀部门开立一个票证，请求根据Adobe管理的证书计划设置第一方数据收集。 如果贵组织具有数据驻留或合规性要求，请在请求中指定所需的[RDC类型](rdc.md)。
 1. 在收到票证后，Adobe代表会为您提供一个CNAME记录。 您必须在贵公司的DNS服务器上配置此记录，然后Adobe才能代表您购买证书。 例如，主机名`data.example.com`指向`hiodsibxvip01.data.adobedc.net`。
 1. 当CNAME记录位于您组织的服务器上时，Adobe会与DigiCert一起购买证书并安装到Adobe数据收集服务器上。
+1. 如果您在由Adobe CNAME托管时出于第一方目的需要更新`robots.txt`文件，请联系客户关怀团队提出请求。 当您想要更新`robots.txt`文件以阻止抓取您的子域时，此类请求相关。
 
 ## 验证主机名转发
 
@@ -112,7 +113,7 @@ Aliases: data.example.com
 
 ## 更新实施代码
 
-在验证证书是否正确工作后，您可以更新Adobe实施以使用新的CNAME主机名。
+要使用新的CNAME主机名，请在验证证书是否正确工作之后更新您的Adobe实施。
 
 * **Web SDK标记扩展**：配置该扩展时更新[[!UICONTROL Edge域]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)字段。
 * **Web SDK (alloy)**：更新`configure`命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/edgedomain)属性。
@@ -133,13 +134,13 @@ Aliases: data.example.com
 
 +++此过程是否安全？
 
-可以。 Adobe管理的证书计划比贵组织向Adobe提供证书更安全。 证书或私钥不会在Adobe和证书颁发机构的外部易手。
+可以。 Adobe管理的证书计划比贵组织向Adobe提供证书更安全。 在Adobe和证书颁发机构之外不传输证书或私钥。
 
 +++
 
 +++Adobe如何为我们的域购买证书？
 
-仅当您将指定的主机名指向Adobe拥有的主机名时，才能购买证书。 实际上，您可以将此主机名委派给Adobe，并允许Adobe代表您购买证书。
+仅当您将指定的主机名指向Adobe拥有的主机名时，才能购买证书。 您可以将此主机名委派给Adobe，并允许Adobe代表您购买证书。
 
 +++
 
@@ -163,7 +164,7 @@ Adobe与DigiCert一起颁发SHA-2证书。
 
 +++Adobe提供了哪些密码安全级别？
 
-Adobe提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。 这些级别确定与Adobe服务器的HTTPS连接支持哪些加密算法。 Adobe会根据当前的安全实践定期审查和更新支持的算法集。 如果要更改密码安全设置，请联系客户关怀团队。
+Adobe提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。 这些级别确定与Adobe服务器的HTTPS连接支持哪些加密算法。 Adobe会根据当前的安全实践定期审查和更新支持的算法集。 要更改密码安全设置，请联系客户关怀团队。
 
 * **Standard**&#x200B;需要TLS 1.2或更高版本以及至少128位加密。 它旨在提供最广泛的设备兼容性，同时保持安全加密。
 * **高**&#x200B;需要TLS 1.2或更高版本并移除对较弱密码的支持。 它专为希望获得最强加密并且不关心旧设备支持的客户而设计。
@@ -179,7 +180,7 @@ Adobe提供两种密码安全级别，以满足客户对第一方数据收集安
 
 +++支持哪些HTTPS证书类型？
 
-Adobe同时支持RSA和ECC证书类型，以满足不同的客户需求。 客户端更广泛地支持RSA证书，但ECC证书在服务器和客户端使用的处理较少。 对于Adobe管理的证书，同时提供RSA和ECC。 对于客户管理的证书，需要RSA，并且建议使用ECC。 新式客户端同时支持RSA和ECC。 以下客户端通常仅支持RSA证书：
+Adobe同时支持RSA和ECC证书类型，以满足不同的客户需求。 客户端更广泛地支持RSA证书，但ECC证书在服务器和客户端使用的处理较少。 对于Adobe管理的证书，同时提供RSA和ECC。 对于客户管理的证书，需要RSA，并且建议使用ECC。 新式客户端同时支持RSA和ECC。 以下客户端仅支持RSA证书：
 
 * Windows Vista及更早版本（最后更新于2012年）
 * Windows Phone 8.0及更早版本（最后更新于2014年）
