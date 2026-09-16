@@ -198,7 +198,7 @@ ht-degree: 31%
 
 有关访问Adobe CX Enterprise和“配置文件与受众”的信息，以及有关[!DNL Adobe Advertising]与Adobe CX Enterprise受众之间的初始设置的更多信息，请与您的客户经理联系。 **注意：**&#x200B;如果您还使用Adobe Target，则您发布到Adobe CX Enterprise的任何受众也可用于Adobe Target中的活动。
 
-**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise Assets用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问您的Adobe CX Enterprise Assets。 ](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
+**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise Assets用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问您的Adobe CX Enterprise Assets。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
 
-**CX Enterprise Notifications：**&#x200B;通过每页顶部的通知链接，可以查看搜索测试版警报模板生成的所有警报。 您还可以获得CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问通知。 ](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
+**CX Enterprise Notifications：**&#x200B;通过每页顶部的通知链接，可以查看搜索测试版警报模板生成的所有警报。 您还可以获得CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问通知。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
 
