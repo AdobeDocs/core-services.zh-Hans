@@ -8,36 +8,54 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-TQID: https://experienceleague.adobe.com/5SyRdqyQkymJJygKeQ9FXIYoVe70br51DY2VKmqSC0E
+TQID: 'https://experienceleague.adobe.com/5SyRdqyQkymJJygKeQ9FXIYoVe70br51DY2VKmqSC0E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
+    internal-label: Experience Cloud services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: d27b1945-f442-4607-91bd-537a0b16e687
+    internal-label: Assets
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
+    internal-label: Admin tools
   - id: ecb4a972-6786-444c-a014-abc528b9407a
+    internal-label: Customer attributes
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6b2470a7d7bb71228c7707dbb59111451495b358
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 2082
+source-wordcount: '2082'
 ht-degree: 41%
-
 ---
-
 # 开始使用CX Enterprise
 
 如果您最近使用[Experience Platform标记](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/home)实施了CX Enterprise，则您已为[客户属性](../services/overview.md)和CX Enterprise [受众](../services/audiences/overview.md)进行了设置。 您还可以在[Admin Console](../administration/admin-console.md)中管理用户和产品。
@@ -94,9 +112,9 @@ CX Enterprise菜单导航中提供了&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 访客ID服务为跨应用程序集成提供了一个通用ID。 它提供了跨域访客标识功能，并为基于通过[!DNL Customer Attributes]上传的CRM数据进行跨设备/浏览器定位和个性化提供了一种途径。
 
-启用CX Enterprise核心服务的最简单方法是，通过实施访客ID服务的[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)，为Analytics和Adobe Target自动激活核心服务。
+启用CX Enterprise核心服务的最简单方法是，通过实施访客ID服务的[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)，为Analytics和Adobe Target自动激活核心服务。
 
-有关完整的访客ID服务帮助，请参阅[访客ID服务概述](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans#intro)。
+有关完整的访客ID服务帮助，请参阅[访客ID服务概述](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)。
 
 
 **未使用[!UICONTROL Experience Platform标记]？**
@@ -105,12 +123,12 @@ CX Enterprise菜单导航中提供了&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 | 任务 | 描述 |
 | --- | --- |
-| [为Analytics实施访客ID服务(`VisitorAPI.js`)](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/overview) | Adobe 还建议设置其他[客户 ID](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/reference/authenticated-state)。 这些ID与每个访客相关联，并可以启用CX Enterprise中当前和未来的功能。 |
-| 将现有的 `s_code` 更新到 H.27.3 或更高版本，或将现有的 `AppMeasurement.js` 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hans)中下载获得。 （如果您需要了解有关 `AppMeasurement.js` 的更多信息，请参阅 [JavaScript 实施](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/js/overview#js)指南。） |
+| [为Analytics实施访客ID服务(`VisitorAPI.js`)](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | Adobe 还建议设置其他[客户 ID](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state)。 这些ID与每个访客相关联，并可以启用CX Enterprise中当前和未来的功能。 |
+| 将现有的 `s_code` 更新到 H.27.3 或更高版本，或将现有的 `AppMeasurement.js` 更新到 1.4 或更高版本。 | 这些文件可通过在 Analytics 管理工具的[代码管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)中下载获得。 （如果您需要了解有关 `AppMeasurement.js` 的更多信息，请参阅 [JavaScript 实施](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js)指南。） |
 
 ### Analytics和Adobe Target — 同步客户ID {#sync-ids}
 
-在设置访客ID服务时，Adobe建议您针对Analytics和[!DNL Target]考虑将您的[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)与CX Enterprise同步。
+在设置访客ID服务时，Adobe建议您针对Analytics和[!DNL Target]考虑将您的[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)与CX Enterprise同步。
 
 在 Adobe Target 中，`mbox3rdpartyid` 必须获取客户 ID 并将其发送给 [!DNL Target]。 （请参阅 [!DNL Target] 中的[使用客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。）
 
@@ -129,7 +147,7 @@ CX Enterprise菜单导航中提供了&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 ### Mobile SDK
 
-有关如何在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans)和[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)移动设备应用程序中设置其他客户ID的语法示例，请参阅&#x200B;*访客ID服务™1&rbrace;部分。*
+有关如何在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans)和[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)移动设备应用程序中设置其他客户ID的语法示例，请参阅&#x200B;*访客ID服务™1}部分。*
 
 ### 启用历史数据的属性
 
@@ -141,13 +159,13 @@ CX Enterprise菜单导航中提供了&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 如果您使用的是第一方Cookie，请参阅[Adobe管理的证书计划](/help/interface/data-collection/adobe-managed-cert.md)，了解有关数据收集CNAME和跨域跟踪的信息。
 
-建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。 一个简单方法是在 Experience Platform 数据收集中添加 [Adobe Analytics 扩展。](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hans)
+建议您更新包括访客 API 在内的 JavaScript 库，以使您的 Analytics 实施现代化。 一个简单方法是在 Experience Platform 数据收集中添加 [Adobe Analytics 扩展。](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)
 
 ## 更新 Adobe Target 实施
 
-* 建议您在[!UICONTROL Adobe Target]标记中添加[Experience Platform扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hans)，以便自动检索库。 您还可以设置[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hans)，该扩展使用标记实现Adobe Target（和其他应用程序）的访客ID服务。 此标记扩展是&#x200B;**必需的**，Adobe Target才能使用People服务。
-* 如果您没有使用[!UICONTROL Experience Platform]标记，请手动[更新mbox库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hans)。
-* 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。 在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。 请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)。
+* 建议您在[!UICONTROL Adobe Target]标记中添加[Experience Platform扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便自动检索库。 您还可以设置[[!UICONTROL Experience Cloud ID服务]标记扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)，该扩展使用标记实现Adobe Target（和其他应用程序）的访客ID服务。 此标记扩展是&#x200B;**必需的**，Adobe Target才能使用People服务。
+* 如果您没有使用[!UICONTROL Experience Platform]标记，请手动[更新mbox库](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)。
+* 请求访问权限，以使用 Adobe Analytics 作为 [!DNL Adobe Target] 的报表源。 在处理期间，[!DNL Target] 和 [!DNL Analytics] 数据将组合在同一服务器调用中，这样两个应用程序的访客就可以连接在一起。 请参阅 [Analytics for Target 实施](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
 
   >[!IMPORTANT]
   >

@@ -8,26 +8,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-TQID: https://experienceleague.adobe.com/nLAm--3HmxWHqWupFrmLTo9TbdAHajPR44VwWAVM9pE
+TQID: 'https://experienceleague.adobe.com/nLAm--3HmxWHqWupFrmLTo9TbdAHajPR44VwWAVM9pE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '706'
 ht-degree: 22%
-
 ---
-
 # Adobe Target Cookie
 
 Adobe Target 使用 Cookie 让网站运营者能够测试哪些在线内容和产品建议与访客更相关。
@@ -36,7 +44,7 @@ Adobe Target 使用 Cookie 让网站运营者能够测试哪些在线内容和�
 >
 >本文中的信息仅适用于[Adobe Target JavaScript库](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} (`at.js`)。 有关使用Web SDK实现的Target的信息，请参阅[Adobe Experience Platform Web SDK Cookie](web-sdk.md)。
 >
->如果需要，您可以更改本文中讨论的设置，但Cookie持续时间除外。 更改Cookie设置时，[请咨询您的客户代表](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html?lang=zh-Hans){target=_blank}。
+>如果需要，您可以更改本文中讨论的设置，但Cookie持续时间除外。 更改Cookie设置时，[请咨询您的客户代表](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}。
 
 ## 第一方Cookie
 
@@ -44,7 +52,7 @@ Adobe Target 使用 Cookie 让网站运营者能够测试哪些在线内容和�
 
 | Cookie | 详细信息 |
 | --- | --- |
-| `mbox` | 存储有关访客的匿名标识符。<P>**Cookie域**：您提供mbox的域。 由于此Cookie来自您公司的域，因此Cookie是第一方Cookie。 如果您的任何域名包括国家/地区代码（如`example.co.uk`），请与客户服务部门合作配置`at.js`以支持此代码。 有关自定义Cookie域的信息，如有必要，请参阅Adobe Target开发人员指南中[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}下的`cookieDomain`。<P>**服务器域**： `clientcode.tt.omtrdc.net`，使用Adobe Target帐户的客户端代码。<P>**Cookie持续时间**：自上次登录起，Cookie在访客的浏览器中保留两年。 无法更改 Cookie 持续时间。<P>Cookie会保留一些值以管理访客体验[!DNL Target]活动的方式：<P>**会话ID**：给定用户会话的唯一标识符。 默认情况下，会话在闲置 30 分钟后到期。 如果您自己正在生成`sessionId`（例如，对于[服务器端实施](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}），请确保以下各项：<ul><li>会话ID可以是任何可打印的字符串，但空格、问号( ？ )、大括号( { } )或正斜杠( / )。</li><li>会话ID应为1至128个字符长。</li><li>对于特定会话，Cookie的值必须在多个请求中保持相同。</li><li>对于给定访客，在任何时间点都不应存在并行会话（不同的`sessionIds`）。</li></ul>使用会话ID路由到边缘群集中的特定节点。<ul><li>会话在服务器端活跃 30 分钟。 因此，不应在用`tntId/thirdPartyId`提出上次请求后30分钟内对特定`tntId/thirdPartyId`使用不同的会话ID。 否则，对轮廓的更改可能会不一致且不可预测。</li><li>新会话ID必须在访客处于非活动状态30分钟后使用。</li><li>对多个`tntIds/thirdPartyIds`使用同一会话ID可能会导致由`tntId/thirdPartyIDs`标识的个人资料发生不可预测的更改。</li></ul>注意：请查看给定会话ID的并发请求数[限制](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=zh-Hans#content-delivery){target=_blank}。<P>**pc ID**：访客浏览器的半永久ID。 持续存在，直到手动删除 Cookie 为止。<P>**check**：用于确定访客是否支持Cookie的简单测试值。 在每次访客请求页面时设置。<P>**禁用**：如果访客的加载时间超过了at.js文件中配置的超时值，则进行设置。 默认情况下，此超时持续一小时。 |
+| `mbox` | 存储有关访客的匿名标识符。<P>**Cookie域**：您提供mbox的域。 由于此Cookie来自您公司的域，因此Cookie是第一方Cookie。 如果您的任何域名包括国家/地区代码（如`example.co.uk`），请与客户服务部门合作配置`at.js`以支持此代码。 有关自定义Cookie域的信息，如有必要，请参阅Adobe Target开发人员指南中[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}下的`cookieDomain`。<P>**服务器域**： `clientcode.tt.omtrdc.net`，使用Adobe Target帐户的客户端代码。<P>**Cookie持续时间**：自上次登录起，Cookie在访客的浏览器中保留两年。 无法更改 Cookie 持续时间。<P>Cookie会保留一些值以管理访客体验[!DNL Target]活动的方式：<P>**会话ID**：给定用户会话的唯一标识符。 默认情况下，会话在闲置 30 分钟后到期。 如果您自己正在生成`sessionId`（例如，对于[服务器端实施](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}），请确保以下各项：<ul><li>会话ID可以是任何可打印的字符串，但空格、问号( ？ )、大括号( { } )或正斜杠( / )。</li><li>会话ID应为1至128个字符长。</li><li>对于特定会话，Cookie的值必须在多个请求中保持相同。</li><li>对于给定访客，在任何时间点都不应存在并行会话（不同的`sessionIds`）。</li></ul>使用会话ID路由到边缘群集中的特定节点。<ul><li>会话在服务器端活跃 30 分钟。 因此，不应在用`tntId/thirdPartyId`提出上次请求后30分钟内对特定`tntId/thirdPartyId`使用不同的会话ID。 否则，对轮廓的更改可能会不一致且不可预测。</li><li>新会话ID必须在访客处于非活动状态30分钟后使用。</li><li>对多个`tntIds/thirdPartyIds`使用同一会话ID可能会导致由`tntId/thirdPartyIDs`标识的个人资料发生不可预测的更改。</li></ul>注意：请查看给定会话ID的并发请求数[限制](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html#content-delivery){target=_blank}。<P>**pc ID**：访客浏览器的半永久ID。 持续存在，直到手动删除 Cookie 为止。<P>**check**：用于确定访客是否支持Cookie的简单测试值。 在每次访客请求页面时设置。<P>**禁用**：如果访客的加载时间超过了at.js文件中配置的超时值，则进行设置。 默认情况下，此超时持续一小时。 |
 | `at_check` | 临时Cookie ，用于检查浏览器上是否启用了Cookie读/写功能。 |
 | `mboxEdgeCluster` | 仅当[overrideMboxEdgeServer设置](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}设置为`true`时，此Cookie才存在。 |
 

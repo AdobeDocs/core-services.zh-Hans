@@ -6,13 +6,23 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 41%
-
 ---
-
 # CX Enterprise中央界面组件
 
 CX Enterprise的中央界面组件包括的功能使您能够：
@@ -80,7 +90,7 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 
 ## CX Enterprise中的搜索和支持
 
-CX Enterprise search允许您搜索有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助（文档、教程和课程）。
+CX Enterprise search允许您搜索有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助（文档、教程和课程）。
 
 CX Enterprise中的![搜索和支持](assets/search-menu.png)
 
@@ -88,7 +98,7 @@ CX Enterprise中的![搜索和支持](assets/search-menu.png)
 
 * **[!UICONTROL 支持]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL 支持]。
 * **[!UICONTROL 反馈]：**&#x200B;使用反馈联系Adobe，告诉我们您的想法。
-* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
+* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 帐户偏好设置

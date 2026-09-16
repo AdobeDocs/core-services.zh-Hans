@@ -8,25 +8,33 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-TQID: https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg
+TQID: 'https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 10%
-
 ---
-
 # Adobe Analytics Cookie
 
 Adobe Analytics 使用 Cookie 区分来自不同浏览器的请求，并存储应用程序以后可以使用的有用信息。 还可使用它们将浏览信息与客户记录相关联。
@@ -42,11 +50,11 @@ Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟�
 | **`s_fid`** | 2 年 | 33 字节 | 第一方 | 存储后备唯一访客ID和时间戳。 如果由于第三方Cookie限制而无法设置标准`s_vi` Cookie，则由JavaScript设置。 不用于第一方Cookie实施。 |
 | **`s_ac`** | 立即 | 1字节 | 第一方 | 帮助确定正确域以设置AppMeasurement Cookie。 包含静态值`"1"`。 设置此Cookie后，将立即将其删除。 |
 
-请参阅Adobe Analytics中的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/overview)，以详细了解Adobe Analytics如何使用Cookie识别访客。
+请参阅Adobe Analytics中的[访客识别](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)，以详细了解Adobe Analytics如何使用Cookie识别访客。
 
 ## 插件设置的 Cookie
 
-某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/plugins/impl-plugins)。
+某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
 
 ## 删除Analytics Cookie的后果
 

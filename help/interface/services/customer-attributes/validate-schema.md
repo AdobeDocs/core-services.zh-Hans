@@ -1,33 +1,42 @@
 ---
-description: 了解如何验证Adobe CX Enterprise中的 [!DNL Customer Attributes] 架构。
+description: 了解如何验证Adobe CX Enterprise中的[!DNL Customer Attributes]架构。
 solution: Experience Cloud
-title: 如何验证 [!DNL Customer Attributes] 架构
+title: 如何验证[!DNL Customer Attributes]架构
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-TQID: https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g
+TQID: 'https://experienceleague.adobe.com/J-AaDn4HtD1bS-VCPn2XiPLVBbTnYyl5o1NpJ9HFj1g'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '343'
 ht-degree: 39%
-
 ---
-
 # 验证架构
 
 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。
@@ -62,8 +71,8 @@ ht-degree: 39%
 
 * **[!UICONTROL ID查找：]**&#x200B;输入您`.csv`中的客户ID (CID)以查找该ID的CX Enterprise信息。 此功能可用于解决为何属性数据不对访客显示的问题：
 
-   * **[!UICONTROL ECID：]**&#x200B;在您使用访客ID服务时显示。 如果您使用访客ID服务，但此处未列出ID ，则CX Enterprise尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
+  * **[!UICONTROL ECID：]**&#x200B;在您使用访客ID服务时显示。 如果您使用访客ID服务，但此处未列出ID ，则CX Enterprise尚未收到该CID的别名。 这意味着访客还没有登录，或您的实施没有传递此 ID。
 
-   * **[!UICONTROL CID （客户ID）：]**&#x200B;与此CID关联的属性。 如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
+  * **[!UICONTROL CID （客户ID）：]**&#x200B;与此CID关联的属性。 如果您使用 prop 或 eVar 上传 CID (AVID)，并且只看到了显示的属性而没有看到 AVID，这说明访客还没有登录到您的站点。
 
-   * **[!UICONTROL AVID （Analytics访客ID）：]**&#x200B;在您使用prop或eVar上传CID时显示。 如果这些ID正在传递到CX Enterprise，则与您输入的CID关联的任何访客ID都将显示在此处。
+  * **[!UICONTROL AVID （Analytics访客ID）：]**&#x200B;在您使用prop或eVar上传CID时显示。 如果这些ID正在传递到CX Enterprise，则与您输入的CID关联的任何访客ID都将显示在此处。
