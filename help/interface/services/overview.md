@@ -62,8 +62,8 @@ CX Enterprise的接口功能有时称为&#x200B;_核心服务_。 它们是统�
 | [受众库](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/audiences/overview) | 受众是访客的集合（访客 ID 列表）。 通过Adobe的[!DNL Audience Library]，您可以管理如何将访客数据转换为受众分段。 |
 | [客户属性](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/attributes) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。 [!UICONTROL Journey Orchestration]是与Experience Platform集成的应用程序服务。 |
 | [资源](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 |
-| [触发器](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | CX Enterprise中的触发器允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。 |
+| [触发器](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/triggers) | CX Enterprise中的触发器允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/exchange) | Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。 |
 
 {style="table-layout:auto"}
 

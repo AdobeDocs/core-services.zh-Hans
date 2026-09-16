@@ -41,7 +41,7 @@ Adobe Experience Platform Web SDK使用Cookie来存储特定于您的实施的�
 
 | 名称 | 最大年龄 | 大小 | 描述 |
 | --- | --- | --- | --- |
-| **`AMCV_###@AdobeOrg`** | 34128000（395天） | 100-120字节（变量） | 启用[`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)时存在。 当站点的某些部分仍在使用`visitor.js`时，转换到Web SDK会很有帮助。 Web SDK在迁移期间会读取和写入此Cookie。 |
+| **`AMCV_###@AdobeOrg`** | 34128000（395天） | 100-120字节（变量） | 启用[`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)时存在。 当站点的某些部分仍在使用`visitor.js`时，转换到Web SDK会很有帮助。 Web SDK在迁移期间会读取和写入此Cookie。 |
 | **`com.adobe.alloy.getTld`** | 无（立即删除） | 不适用 | Web SDK在内部使用的临时帮助程序Cookie，用于确定当前站点的顶级域。 建立顶级域后，就会删除Cookie。 它不会存储行为或个人资料数据。 |
 | **`demdex`** | 15552000（180天） | 不同 | 如果启用了Audience Manager ID同步，则会显示。 Audience Manager通过设置此Cookie来分配唯一ID，并支持ID同步、分段、建模和报表。 查看[Audience Manager Cookie](audience-manager.md)中的`demdex`。 |
 | **`kndctr_<orgId>_identity`** | 34128000（395天） | 100-120字节（变量） | 存储该设备的ECID和其他相关信息。 |
@@ -49,8 +49,8 @@ Adobe Experience Platform Web SDK使用Cookie来存储特定于您的实施的�
 | **`kndctr_<orgId>_consent`** | 15552000（180天） | 10-11字节 | 存储访客的同意首选项。 无论是否同意，始终设置，因为它存储同意首选项本身。 |
 | **`kndctr_<orgId>_consent_check`** | 7200（2小时） | | 会话范围的帮助程序，用于指示Edge Network在TTL过期后重新检查同意服务器端。 它会在缓存的同意后实施TTL。 |
 | **`kndctr_<orgId>_personalization`** | 34128000（395天） | | 存储Adobe Target用于个性化内容的会话信息。 |
-| **`mbox`** | 63072000（2年） | | 启用[`targetMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)时存在。 它允许Web SDK设置Target [mbox Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)。 |
-| **`mboxEdgeCluster`** | 1800（30分钟） | | 启用[`targetMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)时存在。 它允许Web SDK将正确的边缘群集传递给`at.js`，以便当用户跨站点导航时，Target配置文件可以保持同步。 |
+| **`mbox`** | 63072000（2年） | | 启用[`targetMigrationEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)时存在。 它允许Web SDK设置Target [mbox Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)。 |
+| **`mboxEdgeCluster`** | 1800（30分钟） | | 启用[`targetMigrationEnabled`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)时存在。 它允许Web SDK将正确的边缘群集传递给`at.js`，以便当用户跨站点导航时，Target配置文件可以保持同步。 |
 | **`s_ecid`** | 63115200（2年） | ~45 字节 | 包含CX Enterprise ID (ECID/MID)的副本，格式为`s_ecid=MCMID\|<ECID>`。 作为ECID的第一方备份，主要用于CNAME（第一方）方案。 |
 
 Edge Network使用`secure`和`sameSite="none"`属性设置所有Cookie。 如果您的网站上当前同时存在安全部分和不安全部分，则用户标识可能会不准确。 当用户从网站的安全区域导航到非安全区域时，Edge Network会使用请求生成新的`ECID`。

@@ -50,11 +50,11 @@ Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟�
 | **`s_fid`** | 2 年 | 33 字节 | 第一方 | 存储后备唯一访客ID和时间戳。 如果由于第三方Cookie限制而无法设置标准`s_vi` Cookie，则由JavaScript设置。 不用于第一方Cookie实施。 |
 | **`s_ac`** | 立即 | 1字节 | 第一方 | 帮助确定正确域以设置AppMeasurement Cookie。 包含静态值`"1"`。 设置此Cookie后，将立即将其删除。 |
 
-请参阅Adobe Analytics中的[访客识别](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)，以详细了解Adobe Analytics如何使用Cookie识别访客。
+请参阅Adobe Analytics中的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/overview)，以详细了解Adobe Analytics如何使用Cookie识别访客。
 
 ## 插件设置的 Cookie
 
-某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
+某些实施使用插件，这些插件是为Analytics提供附加功能的代码片段。 这些插件可以设置以上未列出的Cookie。 有关可用插件及其设置的Cookie的列表，请参阅[Analytics插件概述](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/plugins/impl-plugins)。
 
 ## 删除Analytics Cookie的后果
 
