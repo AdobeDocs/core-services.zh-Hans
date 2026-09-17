@@ -9,26 +9,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+TQID: 'https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Audience segmentation
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 760
+source-wordcount: '760'
 ht-degree: 44%
-
 ---
-
 # CX企业版受众
 
 [!DNL Audience Library]显示CX Enterprise中的受众。 受众是访客的集合（[!DNL CX Enterprise] ID 列表）。 您可以管理访客数据到受众细分的转换。 因此，创建和管理受众与创建和使用区段类似。 您还可以将受众区段共享到 [!DNL CX Enterprise] 中的产品和服务。

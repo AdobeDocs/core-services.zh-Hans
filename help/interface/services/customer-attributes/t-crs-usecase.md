@@ -1,34 +1,43 @@
 ---
-description: 了解如何创建 [!DNL Customer Attributes] 数据源并将其上传到CX Enterprise。
+description: 了解如何创建[!DNL Customer Attributes]数据源并将其上传到CX Enterprise。
 solution: Experience Cloud
-title: 创建并上传 [!DNL Customer Attributes] 数据Source文件
+title: 创建并上传[!DNL Customer Attributes]数据Source文件
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
+TQID: 'https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1183'
 ht-degree: 41%
-
 ---
-
 # 创建和上传客户属性数据
 
 创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。 在数据源处于活动状态后，将属性数据共享到[!DNL Analytics]和[!DNL Target]。
@@ -96,29 +105,29 @@ ht-degree: 41%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-      * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+     * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-      * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+     * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
 
-        例如，下面的&#x200B;*“crm_id”*：
+       例如，下面的&#x200B;*“crm_id”*：
 
-        ```
-        "crm_id":"67312378756723456"
-        ```
+       ```
+       "crm_id":"67312378756723456"
+       ```
 
-      * **iOS：**&#x200B;别名ID对应于[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)中的&#x200B;*&quot;idType&quot;*。
+     * **iOS：**&#x200B;别名ID对应于[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hans)中的&#x200B;*&quot;idType&quot;*。
 
-        例如：
+       例如：
 
-        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+       `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：** 别名 ID 对应于 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans) 中的 *&quot;idType&quot;*。
+     * **Android™：** 别名 ID 对应于 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hans) 中的 *&quot;idType&quot;*。
 
-        例如：
+       例如：
 
-        `identifiers.put(`**`"idType"`**`, "idValue");`
+       `identifiers.put(`**`"idType"`**`, "idValue");`
 
-        有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
+       有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
    * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
 

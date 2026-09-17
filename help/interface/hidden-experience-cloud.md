@@ -2,18 +2,22 @@
 description: 了解CX Enterprise的中央界面组件。 在Admin Console中获取有关用户和产品管理的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、 CX Enterprise Assets等的帮助。
 title: Experience Cloud 界面和管理
 hide: true
-hidefromtoc: true
+hidefromtoc: 'yes'
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 48%
-
 ---
-
 # CX Enterprise界面和管理
 
 [CX Enterprise](https://experience.adobe.com)是Adobe的集成式数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
