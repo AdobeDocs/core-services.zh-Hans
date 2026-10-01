@@ -13,7 +13,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 43%
@@ -45,9 +45,9 @@ ht-degree: 43%
 
 CX Enterprise的接口功能有时称为&#x200B;_核心服务_。 它们是统一的标头功能，包括[!DNL People]服务（[!DNL Audience Library]和[!DNL Customer Attributes]）。
 
-其他共享功能包括CX Enterprise的管理（用户和产品管理）、 Cookie 、帐户首选项、通知等。
+其他共享功能包括CX Enterprise、Cookie、帐户首选项、通知等的管理（用户和产品管理）。
 
-要访问CX Enterprise中的共享服务和应用程序，请单击&#x200B;**[!UICONTROL 应用程序选择器]**
+要在CX Enterprise中访问共享服务和应用程序，请单击&#x200B;**[!UICONTROL 应用程序选择器]**
 ![服务选择器](../assets/apps-icon.png)。
 
 **应用程序选择器**
@@ -63,7 +63,7 @@ CX Enterprise的接口功能有时称为&#x200B;_核心服务_。 它们是统�
 | [客户属性](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/attributes) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。 [!UICONTROL Journey Orchestration]是与Experience Platform集成的应用程序服务。 |
 | [资源](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 |
 | [触发器](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/triggers) | CX Enterprise中的触发器允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/exchange) | Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。 这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。 |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/exchange) | Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载数字营销扩展的一个位置。 这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。 |
 
 {style="table-layout:auto"}
 
