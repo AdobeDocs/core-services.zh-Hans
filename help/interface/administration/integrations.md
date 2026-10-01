@@ -1,5 +1,5 @@
 ---
-description: 在Adobe CX企业版中查找可用的应用程序集成。
+description: 在Adobe CX Enterprise中查找可用的应用程序集成。
 solution: Experience Cloud
 title: Experience Cloud 集成
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
@@ -16,7 +16,7 @@ product_v2:
     internal-label: Admin Console
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
@@ -51,14 +51,14 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 31%
 ---
-# CX企业集成
+# CX Enterprise集成
 
-本页介绍了开始集成CX企业应用程序的几种方法。 有关详细信息，请浏览Experience League上的[集成视频教程](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)库。
+本页介绍了几种开始集成CX Enterprise应用程序的方法。 有关详细信息，请浏览Experience League上的[集成视频教程](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)库。
 
 ## 为Platform服务启用CX Enterprise应用程序
 
@@ -66,27 +66,27 @@ ht-degree: 31%
 
 * 在CX Enterprise中配置您的公司。
 * 让您成为管理员。
-* [实施访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
+* [实施访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 * 通过[!UICONTROL 平台数据收集]使您的[!DNL Analytics]和[!DNL Target]实现现代化。
 * 开始使用CX Enterprise服务，如[客户属性](../services/customer-attributes/attributes.md)和[受众库](../services/audiences/overview.md)。
 
 解决方案或服务：
 
-* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)
+* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
-* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=zh-Hans)
-* [访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html)
+* [访客 ID 服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 
 ## 访客 ID 服务
 
-访客ID服务提供一个通用、永久性的ID，后者在CX Enterprise的所有应用程序中标识您的访客。 它可以取代各种服务（如Analytics、Audience Manager、Adobe Target、视频检测信号和其他CX Enterprise应用程序和产品）的ID生成代码。
+访客ID服务提供了一个通用的永久性ID，用于在CX Enterprise的所有应用程序中标识您的访客。 它可以取代各种服务（如Analytics、Audience Manager、Adobe Target、视频心率）以及其他CX Enterprise应用程序和产品的ID生成代码。
 
-查看[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)
+查看[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 
 **适用的应用程序或服务**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/overview)
-* [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/implementation/setup-target)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+* [Adobe Target](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-target)
 
 ## 受众
 
@@ -100,8 +100,8 @@ ht-degree: 31%
 
 **适用的解决方案或服务**
 
-* [Adobe Target 中的活动](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=zh-Hans)
-* Audience Manager 中的[分段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hans)
+* [Adobe Target 中的活动](https://experienceleague.adobe.com/docs/target/using/activities/activities.html)
+* Audience Manager 中的[分段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) （需要登录）
 
 ## 客户属性
@@ -117,19 +117,19 @@ ht-degree: 31%
 
 ## CX Enterprise Assets
 
-帮助： [与Creative Cloud共享CX企业文件夹](/help/interface/services/assets/share.md)
+帮助：[与Creative Cloud共享CX Enterprise文件夹](/help/interface/services/assets/share.md)
 
-在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target ）中进行协作、对共享资源添加批注和使用它们。
+在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target）中进行协作、对共享资源添加批注和使用它们。
 
 **适用的应用程序或服务**
 
-* Adobe CX企业版
+* Adobe CX Enterprise
 * Adobe Creative Cloud
 * Adobe Target
 
-## Analytics - Analytics 中的 AEM Assets 报表
+## Analytics - Analytics 中的 AEM Assets 报告
 
-帮助：[Analytics 中的 AEM Assets 报表](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=zh-Hans)
+帮助：[Analytics 中的 AEM Assets 报表](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 使 Analytics 能够从 AEM 资源洞察收集投放资源的展示次数和点击次数。
 
@@ -140,15 +140,15 @@ ht-degree: 31%
 
 ## Audience Manager 集成
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=zh-Hans)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 在Audience Manager中处理来自CX Enterprise应用程序或其他外部系统的数据。
 
 **适用的应用程序或服务**
 
 * [Analytics服务器端转发](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hans)
-* [将Audience Manager区段发送到Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hans)
-* [Adobe Target数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=zh-Hans)
+* [将Audience Manager区段发送到Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [Adobe Target数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target
 
@@ -159,46 +159,46 @@ ht-degree: 31%
 **适用的应用程序或服务**
 
 * 客户属性：配置 Adobe Target 的客户属性[订阅](/help/interface/services/customer-attributes/subscription.md)
-* CX企业受众： [CX企业受众库](/help/interface/services/audiences/overview.md)
-* Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hans)
-* Audience Manager：[Adobe Target 与 Adobe Audience Manager 的数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)
-* Campaign：[将 Adobe Target 与 Campaign 集成](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hans)
+* CX Enterprise受众： [CX Enterprise受众库](/help/interface/services/audiences/overview.md)
+* Analytics：[将 Adobe Analytics 作为 Adobe Target 报表源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Audience Manager：[Adobe Target 与 Adobe Audience Manager 的数据集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Campaign：[将 Adobe Target 与 Campaign 集成](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 
 ## Experience Manager 集成
 
-* 视频教程： [Experience Manager集成](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html?lang=zh-Hans)
+* 视频教程： [Experience Manager集成](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-* 产品文档： [Experience Manager文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)
+* 产品文档： [Experience Manager文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
 
 ## Experience Manager - Assets
 
-帮助： [配置AEM Assets与CX Enterprise和Creative Cloud的集成](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
+帮助： [配置AEM Assets与CX Enterprise和Creative Cloud的集成](https://experienceleague.adobe.com/docs/)
 
-将 Adobe Experience Manager (AEM) Assets 中的资源与 Adobe Creative Cloud 同步，反之亦然。 您还可以将资产与CX Enterprise同步，反之亦然。 您可以通过CX Enterprise设置此同步。
+将 Adobe Experience Manager (AEM) Assets 中的资源与 Adobe Creative Cloud 同步，反之亦然。 您还可以将资源与CX Enterprise同步，反之亦然。 您可以通过CX Enterprise设置此同步。
 
 **适用的应用程序或服务**
 
 * AEM
 * Creative Cloud
-* [CX Enterprise](https://experienceleague.adobe.com/docs/?lang=zh-Hans)
+* [CX Enterprise](https://experienceleague.adobe.com/docs/)
 
 ## [!DNL Adobe Advertising]
 
-* 帮助（需要登录）： [与Adobe CX企业解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* 帮助（需要登录）： [与Adobe CX Enterprise解决方案和服务的集成](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* Experience League上的[Adobe Advertising文档](https://experienceleague.adobe.com/docs/advertising.html?lang=zh-Hans)
+* Experience League上的[Adobe Advertising文档](https://experienceleague.adobe.com/docs/advertising.html)
 
 **适用的应用程序或服务**
 
 **Analytics：**&#x200B;可每天将网站参与和转化数据发送到 [!DNL Adobe Advertising]，从中可将这些数据用于广告优化和报表。 此外，[!DNL Advertising] 还可每天将搜索引擎和社交网络流量数据发送到 Analytics，从中可将这些数据用于 Reports &amp; Analytics、Report Builder 和临时分析功能中的报表。
 
-**标记：**&#x200B;您可以使用[Experience Platform标记创建基于Advertising像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)以及第三方跟踪标记，以用于您的搜索、社交和显示广告登录页面。 （还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
+**标记：**&#x200B;您可以使用[Experience Platform标记创建基于Advertising像素的转化跟踪标记](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)以及第三方跟踪标记，以用于您的搜索、社交和显示广告登录页面。 （还可直接在 [!DNL Advertising] 内创建 [!DNL Advertising] 标记）
 
-**CX Enterprise Audiences：** （具有显示管理需求的广告商）您可以使用任何[Adobe CX Enterprise Audiences](../services/audiences/overview.md)作为显示广告的目标。 您可以自动使用已在CX Enterprise中创建的受众以及Analytics中已发布到CX Enterprise的受众。 将[!DNL Adobe Advertising]帐户配置为允许使用Audience Manager中的受众时，您也可以使用该受众。
+**CX Enterprise受众：** （具有显示管理需求的广告商）您可以使用任何[Adobe CX Enterprise受众](../services/audiences/overview.md)作为显示广告的目标。 您可以自动使用已在CX Enterprise中创建的受众以及Analytics中已发布到CX Enterprise的受众。 将[!DNL Adobe Advertising]帐户配置为允许使用Audience Manager中的受众时，您也可以使用该受众。
 
-有关访问Adobe CX Enterprise和“配置文件与受众”的信息，以及有关[!DNL Adobe Advertising]与Adobe CX Enterprise受众之间的初始设置的更多信息，请与您的客户经理联系。 **注意：**&#x200B;如果您还使用Adobe Target，则您发布到Adobe CX Enterprise的任何受众也可用于Adobe Target中的活动。
+有关访问Adobe CX Enterprise以及“配置文件与受众”的信息，以及有关[!DNL Adobe Advertising]与Adobe CX Enterprise受众之间的初始设置的更多信息，请与您的客户经理联系。 **注意：**&#x200B;如果您还使用Adobe Target，则您发布到Adobe CX Enterprise的任何受众也可用于Adobe Target中的活动。
 
-**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise Assets用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问您的Adobe CX Enterprise Assets。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
+**CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise资源用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)才能访问您的Adobe CX Enterprise资源。 有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
 
-**CX Enterprise Notifications：**&#x200B;通过每页顶部的通知链接，可以查看搜索测试版警报模板生成的所有警报。 您还可以获得CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [登录Adobe Advertising才能访问通知。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)有关访问Adobe CX企业版的信息，请与您的客户经理联系。
+**CX Enterprise通知：**&#x200B;通过每页顶部的通知链接，可以查看基于搜索测试版警报模板生成的所有警报。 您还可以获取CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise ](https://enterprise.efrontier.com/CMDashboard)登录Adobe Advertising才能访问通知。 [有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
 

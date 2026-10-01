@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -52,11 +52,11 @@ ht-degree: 41%
 
   要知道您的公司是否具有客户属性的访问权限，您的[!DNL CX Enterprise]管理员应登录到[CX Enterprise](https://experience.adobe.com)。 导航到&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 产品]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;显示为[!UICONTROL 产品配置文件]之一，则表示您已经可以开始。
 
-  添加到[!DNL Customer Attributes]的用户在CX Enterprise界面的左侧看到[!DNL Customer Attributes]菜单项。
+  添加到[!DNL Customer Attributes]的用户将在CX Enterprise界面的左侧看到[!DNL Customer Attributes]菜单项。
 
 * 客户属性需要使用 **Adobe Target** `at.js`（任何版本）或者 `mbox.js` 版本 58 或更高版本。
 
-  参阅[如何部署 at.js](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/overview)。
+  参阅[如何部署 at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)。
 
 ## 创建数据文件
 
@@ -81,7 +81,7 @@ ht-degree: 41%
 
 >[!IMPORTANT]
 >
->创建、修改或删除客户属性来源时，大约会有将近一小时的延迟。在此之后，ID 才开始与新的数据源进行同步。 您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。 联系Audience Manager客户关怀团队或咨询以获取管理权限。
+>创建、修改或删除客户属性源时，ID 最多可能延迟一小时才开始与新的数据源同步。 您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。 联系Audience Manager客户关怀团队或咨询以获取管理权限。
 
 1. 要打开[!UICONTROL 客户属性]，请单击&#x200B;**[!UICONTROL 应用程序]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
@@ -97,7 +97,7 @@ ht-degree: 41%
 
    * **[!UICONTROL 描述：]**（可选）数据属性源的描述。
 
-   * **[!UICONTROL 别名ID：]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL 别名ID]是在您的[!UICONTROL 客户属性Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性来源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
+   * **[!UICONTROL 别名ID：]**&#x200B;表示客户属性数据的来源，如特定的CRM系统。 [!UICONTROL 别名ID]是在您的[!UICONTROL 客户属性Source]代码中使用的唯一ID。 此 ID 应当是唯一的，使用小写字母并且没有空格。 在CX Enterprise中的客户属性源的[!UICONTROL 别名ID]字段中输入的值应与从实施中传入的值（无论是通过Platform Data Collection还是通过Mobile SDK的JavaScript传入）匹配。
 
      >[!IMPORTANT]
      >
@@ -105,9 +105,9 @@ ht-degree: 41%
 
      别名ID对应于您在其中设置其他客户ID值的某些区域。 例如：
 
-     * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
+     * **标记：**&#x200B;别名ID对应于[[!UICONTROL Experience Cloud ID服务]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)标记扩展中[!UICONTROL 客户设置]下的&#x200B;*集成代码*&#x200B;值。
 
-     * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+     * **访客ID服务：**&#x200B;别名ID对应于可与每个访客关联的其他[客户ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
        例如，下面的&#x200B;*“crm_id”*：
 
@@ -129,7 +129,7 @@ ht-degree: 41%
 
        有关别名ID字段和客户ID的数据处理的其他信息，请参阅[利用多个数据源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)。
 
-   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
+   * **[!UICONTROL 命名空间代码：]**&#x200B;在将[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)用作AEP WebSDK实现的一部分时，使用此值来识别客户属性来源。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -145,13 +145,13 @@ ht-degree: 41%
 
 1. 将`.csv`或`.zip`或`.gzip`数据文件拖放到拖放窗口中。
 
->[!IMPORTANT]
->
->存在特定的数据文件要求。 请参阅[数据文件要求](crs-data-file.md)，以了解更多信息。
+   >[!IMPORTANT]
+   >
+   >存在特定的数据文件要求。 请参阅[数据文件要求](crs-data-file.md)，以了解更多信息。
 
-上传文件后，表数据将显示在此页面上的[!UICONTROL 文件上传]标题下。 您可以验证架构，配置订阅或设置 FTP。
+   上传文件后，表数据将显示在此页面上的[!UICONTROL 文件上传]标题下。 您可以验证架构，配置订阅或设置 FTP。
 
-![属性](assets/file_upload_attributes.png)
+   ![属性](assets/file_upload_attributes.png)
 
 * **[!UICONTROL 唯一客户ID：]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
@@ -169,7 +169,7 @@ ht-degree: 41%
 
 ## （可选）更新架构（删除属性）
 
-如何删除和替换架构中的属性。
+如何删除属性并替换架构中的属性。
 
 1. 在[!UICONTROL 编辑客户属性Source]页面上，删除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;订阅（位于&#x200B;**[!UICONTROL 配置订阅]**&#x200B;下）。
 
@@ -177,7 +177,7 @@ ht-degree: 41%
 
 ## 配置订阅和激活属性源
 
-配置订阅可以设置CX Enterprise与应用程序之间的数据流。 激活属性来源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
+配置订阅可以设置CX Enterprise和应用程序之间的数据流。 激活属性源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅并激活数据源](subscription.md)。
 
