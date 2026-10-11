@@ -200,5 +200,5 @@ ht-degree: 31%
 
 **CX Enterprise Assets：** （具有显示管理需求的广告商）您可以通过新的显示Beta视图，将任何Adobe CX Enterprise资源用作显示广告的创意。 您必须通过Adobe CX Enterprise [登录Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)才能访问您的Adobe CX Enterprise资源。 有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
 
-**CX Enterprise通知：**&#x200B;通过每页顶部的通知链接，可以查看基于搜索测试版警报模板生成的所有警报。 您还可以获取CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise ](https://enterprise.efrontier.com/CMDashboard)登录Adobe Advertising才能访问通知。 [有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
+**CX Enterprise通知：**&#x200B;通过每页顶部的通知链接，可以查看基于搜索测试版警报模板生成的所有警报。 您还可以获取CX Enterprise系统更新、帖子、提及次数和共享资源。 您必须通过Adobe CX Enterprise [&#128279;](https://enterprise.efrontier.com/CMDashboard)登录Adobe Advertising才能访问通知。 有关访问Adobe CX Enterprise的信息，请与您的客户经理联系。
 
