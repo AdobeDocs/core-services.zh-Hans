@@ -40,7 +40,7 @@ Adobe CX Enterprise使用Cookie来跟踪不会在页面查看或浏览器会话�
 
 某些浏览器会阻止第三方Cookie。 Adobe提供了一些方法来确保Cookie仍然有效，即使Cookie被阻止也是如此。 此过程的工作方式取决于您使用的是访客ID服务(`VisitorAPI.js`)还是旧版Analytics Cookie（如`s_vi` Cookie）：
 
-* [访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
+* [访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
 
 * [Analytics旧版标识符](analytics.md)（如`s_vi` Cookie）：Cookie是第一方还是第三方取决于您的设置：
 
