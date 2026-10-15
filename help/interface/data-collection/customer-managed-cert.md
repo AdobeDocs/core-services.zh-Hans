@@ -43,7 +43,7 @@ ht-degree: 1%
 | **谁正在获取证书** | Adobe，通过DigiCert | 您的组织，通过您选择的商业证书颁发机构 |
 | **续订** | Adobe会自动续订证书 | 贵组织在每次过期前续订证书并将其提供给Adobe |
 | **证书类型** | Adobe同时提供RSA和ECC证书 | 需要RSA ；建议使用ECC |
-| CDN支持&#x200B;**** | 否 | 是，作为第一方来源 |
+| CDN支持&#x200B;**&#x200B;** | 否 | 是，作为第一方来源 |
 
 ## 设置客户管理的证书
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 1. 将每个CSR提交到所需的商业证书颁发机构，以获取已签名的证书。 不支持免费证书服务。 按照客户关怀部门的指示，向Adobe提供已颁发的证书。
 1. Adobe安装证书后，会将主机名的流量定向到Adobe：
    * **没有CDN**：按照Adobe客户关怀部门的指示更新组织的DNS记录。
-   * 使用CDN ****：将您的CDN源设置为第一方主机名。 请参阅[使用第一方源配置CDN](cdn.md#first-party-origin)。
+   * 使用CDN **&#x200B;**：将您的CDN源设置为第一方主机名。 请参阅[使用第一方源配置CDN](cdn.md#first-party-origin)。
 1. 如果您的实施尚未将数据发送到此主机名，请[更新您的实施](collection-domain.md#update-implementation)。
 
 ## 续订您的证书 {#renewals}
