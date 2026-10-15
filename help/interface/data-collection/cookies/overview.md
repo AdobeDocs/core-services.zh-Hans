@@ -6,22 +6,28 @@ exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # 如何在CX Enterprise中使用Cookie
 
 Adobe CX Enterprise使用Cookie。 Cookie是网站发送到您的浏览器的一小段数据，用于存储以供将来使用。 Cookie可帮助网站在您再次访问或在页面之间移动时记住某些内容。 Cookie有助于跟踪访问情况并区分不同的设备。
@@ -30,18 +36,18 @@ Adobe CX Enterprise使用Cookie。 Cookie是网站发送到您的浏览器的一
 
 ## 关于第一方 Cookie
 
-Adobe CX Enterprise使用Cookie跟踪在页面查看或浏览器会话之间不会停留的信息。 如果可能，Adobe会使用第一方Cookie（与您自己的网站绑定）。 要在您拥有的多个网站或域中跟踪活动，需要第三方Cookie。
+Adobe CX Enterprise使用Cookie来跟踪不会在页面查看或浏览器会话之间持续的信息。 如果可能，Adobe会使用第一方Cookie（与您自己的网站绑定）。 要在您拥有的多个网站或域中跟踪活动，需要第三方Cookie。
 
-某些浏览器和防间谍软件工具会阻止第三方Cookie。 Adobe提供了一些方法来确保Cookie仍然有效，即使Cookie被阻止也是如此。 其工作方式取决于您使用的是访客ID服务(`VisitorAPI.js`)还是旧版Analytics Cookie（如`s_vi` Cookie）：
+某些浏览器会阻止第三方Cookie。 Adobe提供了一些方法来确保Cookie仍然有效，即使Cookie被阻止也是如此。 此过程的工作方式取决于您使用的是访客ID服务(`VisitorAPI.js`)还是旧版Analytics Cookie（如`s_vi` Cookie）：
 
-* [访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
+* [访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
 
 * [Analytics旧版标识符](analytics.md)（如`s_vi` Cookie）：Cookie是第一方还是第三方取决于您的设置：
 
-   * 如果您的数据收集服务器与您网站的域相同，则Cookie是第一方。
-   * 如果不匹配，则Cookie为第三方。 如果第三方Cookie被阻止，Adobe会设置一个回退Cookie (`s_fid`)，而不是常规的Cookie。
+  * 如果您的数据收集服务器与您网站的域相同，则Cookie是第一方。
+  * 如果不匹配，则Cookie为第三方。 如果第三方Cookie被阻止，Adobe会设置一个回退Cookie (`s_fid`)，而不是常规的Cookie。
 
-为确保您的收藏集服务器与您网站的域相匹配，您可以使用&#x200B;**CNAME设置**。 这涉及更新您的DNS设置以将自定义域（您拥有）指向Adobe服务器。 这会使跟踪Cookie显示为第一方。 虽然一个CNAME可以跨多个域工作，但任何与CNAME不匹配的域仍会设置第三方Cookie。
+为确保您的收藏集服务器与您网站的域相匹配，您可以使用&#x200B;**CNAME设置**。 此设置涉及更新您的DNS设置，以将自定义域（您拥有）指向Adobe服务器。 此配置使跟踪Cookie显示为第一方。 虽然一个CNAME可以跨多个域工作，但任何与CNAME不匹配的域仍会设置第三方Cookie。 您也可以[通过使用您自己的域的CDN](../cdn.md)路由数据收集。 请参阅[为所有选项选择数据收集域](../collection-domain.md)。
 
 >[!NOTE]
 >
