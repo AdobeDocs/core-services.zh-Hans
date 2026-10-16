@@ -55,16 +55,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1055'
 ht-degree: 2%
 ---
 # Adobe 管理的证书计划
 
 Adobe管理的证书计划是用于设置CNAME实施所需的第一方证书的推荐流程。 程序在配置后是完全自动的。 它会及时更新证书，以便不会由于证书过期而影响数据收集。 您的前100个CNAME可以免费使用该程序。
 
-如果您目前管理自己的证书，则需负责购买、维护证书并将证书提供给Adobe以供第一方Cookie使用。 要讨论如何迁移到Adobe管理的证书计划，请联系Adobe客户关怀团队。
+Adobe管理的证书计划不支持通过内容交付网络(CDN)路由收集数据。 如果您使用CDN，请参阅[通过CDN路由数据收集](cdn.md)。 需要管理自己的证书的组织可以改用[客户管理的证书](customer-managed-cert.md)。 如果您当前管理自己的证书，并且希望转到Adobe管理的证书计划，请联系Adobe客户关怀团队。
 
 ## 实施
 
@@ -72,7 +72,7 @@ Adobe管理的证书计划是用于设置CNAME实施所需的第一方证书的�
 
 1. 下载并填写[第一方域请求表单](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 1. 向Adobe客户关怀部门开立一个票证，请求根据Adobe管理的证书计划设置第一方数据收集。 如果贵组织具有数据驻留或合规性要求，请在请求中指定所需的[RDC类型](rdc.md)。
-1. 在收到票证后，Adobe代表会为您提供一个CNAME记录。 您必须在贵公司的DNS服务器上配置此记录，然后Adobe才能代表您购买证书。 例如，主机名`data.example.com`指向`hiodsibxvip01.data.adobedc.net`。
+1. 在收到票证后，Adobe代表会为您提供一个CNAME记录。 您必须在贵公司的DNS服务器上配置此记录，然后Adobe才能代表您购买证书。 例如，主机名`data.example.com`指向`hiodsibxvip01.data.adobedc.net`。 如果贵组织使用DNS证书颁发机构授权(CAA)记录，请确保您的CAA记录允许DigiCert颁发证书。 请参阅[维护和续订](#renewals)。
 1. 当CNAME记录位于您组织的服务器上时，Adobe会与DigiCert一起购买证书并安装到Adobe数据收集服务器上。
 1. 如果您在由Adobe CNAME托管时出于第一方目的需要更新`robots.txt`文件，请联系客户关怀团队提出请求。 当您想要更新`robots.txt`文件以阻止抓取您的子域时，此类请求相关。
 
@@ -134,28 +134,25 @@ Aliases: data.example.com
 
 ## 更新实施代码
 
-要使用新的CNAME主机名，请在验证证书是否正确工作之后更新您的Adobe实施。
+要使用新的CNAME主机名，请在验证证书是否正确工作之后更新您的Adobe实施。 请参阅[更新您的实施](collection-domain.md#update-implementation)。
 
-* **Web SDK标记扩展**：配置该扩展时更新[[!UICONTROL Edge域]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)字段。
-* **Web SDK (alloy)**：更新`configure`命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/js/commands/configure/edgedomain)属性。
-* **Adobe Analytics扩展**：配置扩展时更新[[!UICONTROL SSL跟踪服务器]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/analytics/overview)字段。 确保您还安装了[访客ID服务标记扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/extensions/client/id-service/overview)。 有关详细信息，请参阅使用Analytics标记扩展的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/analytics-extension)。
-* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/vars/config-vars/trackingserversecure)配置变量。 确保您还使用`VisitorAPI.js`实施了[访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/home)。 有关详细信息，请参阅使用AppMeasurement的[访客识别](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/appmeasurement)。
+## 维护和续订 {#renewals}
 
-如果您的网站使用多种实施方法，并且您无法同时更新所有方法，请考虑配置一个宽限期。 有关如何防止将访客计为网站上的新访客的其他步骤，请参阅[访客ID服务迁移注意事项](https://experienceleague.adobe.com/zh-hans/docs/analytics/implementation/id/migration)。
+Adobe会自动续订您的证书。 在证书过期前三十天，Adobe将验证CNAME是否仍然有效且正在使用中，然后代表您续订证书。 要保持续订有效，请避免以下DNS更改：
 
-## 维护和续订
-
-在第一方证书过期前三十天，Adobe会验证CNAME是否仍然有效并在使用中。 在这种情况下，Adobe会假定您要继续使用该服务，并代表您自动续订证书。
+* **删除或重新指向CNAME记录**：如果CNAME记录被删除或不再指向Adobe安全主机名，Adobe无法续订证书。 此条件包括将CNAME记录指向内容交付网络(CDN)。 如果您计划使用CDN，请参阅[在更改DNS记录之前，将现有的第一方实施移动到CDN](cdn.md#migrate)。
+* **添加不授权DigiCert的CAA记录**：证书颁发机构检查主机名及其父域上的证书颁发机构授权(CAA)记录。 如果使用CAA记录，请将`digicert.com`作为授权颁发者加入。 例如：`example.com. IN CAA 0 issue "digicert.com"`。
+* **将DigiCert发布限制到特定帐户**： DigiCert的域锁定功能向CAA记录添加`account=`参数，如`example.com. IN CAA 0 issue "digicert.com; account=<token>"`。 此参数限制向组织的DigiCert帐户颁发，即使`digicert.com`获得授权，也会阻止Adobe获取证书。 如果您的组织需要DigiCert域锁定，请改用[客户管理的证书](customer-managed-cert.md)。 在域注册机构中设置的域锁（有时称为传输锁）不相关，不会影响Adobe管理的证书。
 
 >[!IMPORTANT]
 >
->如果您组织的CNAME记录被删除或不再映射到提供的Adobe安全主机名，Adobe将无法续订证书。 Adobe系统中的条目已标记为删除，无需进一步通信。
+>如果您的CNAME记录不再指向Adobe安全主机名，则Adobe系统中的条目将标记为删除，且不会进行进一步通信。
 
 ## 常见问题
 
 +++此过程是否安全？
 
-可以。 Adobe管理的证书计划比贵组织向Adobe提供证书更安全。 在Adobe和证书颁发机构之外不传输证书或私钥。
+可以。 Adobe管理的证书程序比[客户管理的证书](customer-managed-cert.md)更安全。 在Adobe和证书颁发机构之外不传输证书或私钥。
 
 +++
 
@@ -179,7 +176,7 @@ Adobe与DigiCert一起颁发SHA-2证书。
 
 +++此计划是否会产生额外费用？
 
-不是。 Adobe为所有Adobe CX Enterprise客户提供此服务，无需支付额外费用。
+对于前100个CNAME，Adobe会向所有Adobe CX Enterprise客户提供此计划，而不需要支付额外费用。
 
 +++
 
@@ -188,31 +185,13 @@ Adobe与DigiCert一起颁发SHA-2证书。
 Adobe提供两种密码安全级别，以满足客户对第一方数据收集安全性的不同需求。 这些级别确定与Adobe服务器的HTTPS连接支持哪些加密算法。 Adobe会根据当前的安全实践定期审查和更新支持的算法集。 要更改密码安全设置，请联系客户关怀团队。
 
 * **Standard**&#x200B;需要TLS 1.2或更高版本以及至少128位加密。 它旨在提供最广泛的设备兼容性，同时保持安全加密。
-* **高**&#x200B;需要TLS 1.2或更高版本并移除对较弱密码的支持。 它专为希望获得最强加密并且不关心旧设备支持的客户而设计。
-
-已知下列客户端无法连接密码安全设置为&#x200B;**高**：
-
-* Windows 8.1及更早版本（最后更新于2018年）
-* Windows Phone 8.1及更早版本（最后更新于2016年）
-* OS X 10.10及更早版本（最后更新于2017年）
-* iOS 8.4及更早版本（最后更新于2015年）
+* **高**&#x200B;需要TLS 1.2或更高版本并移除对较弱密码的支持。 它专为需要最强加密功能的客户而设计。 在2015年之前发布的客户端通常在密码安全设置为&#x200B;**高**&#x200B;时无法连接。
 
 +++
 
 +++支持哪些HTTPS证书类型？
 
-Adobe同时支持RSA和ECC证书类型，以满足不同的客户需求。 客户端更广泛地支持RSA证书，但ECC证书在服务器和客户端使用的处理较少。 对于Adobe管理的证书，同时提供RSA和ECC。 对于客户管理的证书，需要RSA，并且建议使用ECC。 新式客户端同时支持RSA和ECC。 以下客户端仅支持RSA证书：
+Adobe同时支持RSA和ECC证书，并且新式客户端同时支持这两种证书类型。 ECC证书在服务器和客户端上所需的处理资源较少。 对于Adobe管理的证书，Adobe同时提供RSA和ECC证书。 对于[客户管理的证书](customer-managed-cert.md)，需要RSA，建议使用ECC。
 
-* Windows Vista及更早版本（最后更新于2012年）
-* Windows Phone 8.0及更早版本（最后更新于2014年）
-* OS X 10.8及更早版本（最后更新于2013年）
-* iOS 5.1及更早版本（最后更新于2012年）
-* Android 4.3及更早版本（最后更新于2013年）
-
-+++
-
-+++我可以改为管理自己的证书吗？
-
-可以。 但是，如果您管理自己的证书，则需负责续订您的证书，并在每次续订证书时将其提供给Adobe。 如果贵组织忘记及时续订证书，此过程的安全性会降低，并且可能会导致数据收集出现缺口。 Adobe建议使用托管的证书程序而不是自己管理证书，特别是考虑到TLS证书最大生命周期的缩短。 有关详细信息，请参阅CA/Browser论坛服务器证书基线要求中的[6.3.2证书操作期和密钥对使用期](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods)。
 +++
 

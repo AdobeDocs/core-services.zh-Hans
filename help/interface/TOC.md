@@ -1,17 +1,15 @@
 ---
 role: User,Admin
-user-guide-title: 《 CX Enterprise中央界面和管理指南》
+user-guide-title: CX Enterprise中央界面和管理指南
 breadcrumb-title: CX Enterprise界面和管理
-title: 《 CX Enterprise界面和管理指南》
+title: CX Enterprise界面和管理指南
 description: 了解CX Enterprise界面和管理。 浏览有关AI、管理、共享服务、数据收集、Cookie、发行说明和常见问题解答的主题。
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 61%
-
+source-wordcount: '207'
+ht-degree: 57%
 ---
-
 # CX Enterprise界面和管理 {#interface}
 
 + [CX Enterprise界面和管理](/help/interface/experience-cloud.md)
@@ -52,7 +50,10 @@ ht-degree: 61%
   + [触发器](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + 数据收集 {#data-collection}
+  + [选择数据收集域](/help/interface/data-collection/collection-domain.md)
   + [Adobe 管理的证书计划](/help/interface/data-collection/adobe-managed-cert.md)
+  + [客户管理的证书](/help/interface/data-collection/customer-managed-cert.md)
+  + [通过CDN路由数据收集](/help/interface/data-collection/cdn.md)
   + [IP 地址](/help/interface/data-collection/ip-addresses.md)
   + [域](/help/interface/data-collection/domains.md)
   + Cookie {#cookies}
@@ -60,7 +61,7 @@ ht-degree: 61%
     + [Advertising Cookie](/help/interface/data-collection/cookies/advertising.md)
     + [Analytics Cookie](/help/interface/data-collection/cookies/analytics.md)
     + [Audience Manager Cookie](/help/interface/data-collection/cookies/audience-manager.md)
-    + [CX企业版Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
+    + [CX Enterprise Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
     + [Target Cookie](/help/interface/data-collection/cookies/target.md)
     + [Web SDK Cookie](/help/interface/data-collection/cookies/web-sdk.md)
   + [地区数据收集](/help/interface/data-collection/rdc.md)
