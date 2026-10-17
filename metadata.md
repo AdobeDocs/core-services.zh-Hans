@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Central UI和管理
+title: CX Enterprise中央用户界面和管理
 description: 了解Adobe Admin Console、受众库、客户属性、CX Enterprise Assets等项中的UI组件、用户和产品管理。
 cloud: Experience Cloud
 product: experience cloud
@@ -14,13 +14,12 @@ git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.zh-Hans
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 65%
-
+source-wordcount: '195'
+ht-degree: 68%
 ---
-
 
 # 供内部使用的元数据
 
