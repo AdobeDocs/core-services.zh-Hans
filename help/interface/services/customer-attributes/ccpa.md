@@ -39,7 +39,7 @@ CCPA是加利福尼亚州的新隐私法，于2020年1月1日生效。 CCPA 为�
 
 本文档介绍[!DNL Customer Attributes]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支持数据主体的CCPA数据访问和删除权限。
 
-有关涉及 CCPA 的 Adobe 隐私服务的更多信息，请参阅 [Adobe 隐私中心](https://www.adobe.com/privacy/ccpa.html)。
+有关涉及 CCPA 的 Adobe 隐私服务的更多信息，请参阅 [Adobe 隐私中心](https://www.adobe.com/cn/privacy/ccpa.html)。
 
 ## 发送 [!DNL Customer Attributes] 请求所需的设置
 
