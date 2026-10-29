@@ -37,18 +37,18 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 64%
+source-wordcount: '877'
+ht-degree: 59%
 ---
 # CX Enterprise触发器
 
-CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 有关在Adobe Campaign中使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
+CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 有关在Adobe Campaign中使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
 
 例如：
 
-* 为购物车放弃或已删除产品的购物车放弃配置快速再营销
+* 为购物车放弃或从购物车中移除产品后的购物车放弃配置快速再营销
 * 表单和应用程序不完整
 * 网站上的任何操作或操作序列
 
@@ -63,10 +63,14 @@ CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键
 通常，触发器可能要用 15-90 分钟时间才能启动市场营销活动。 此延迟根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
 
 * **放弃：**&#x200B;可创建触发器，以便在访客查看产品却未将任何东西添加到购物车时触发。
-* **操作：**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。 如果您是零售商，则可以针对注册忠诚度计划的访客创建一个触发器。 在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
+* **操作：**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。 如果您是零售商，则可以针对注册忠诚度计划的访客创建一个触发器。 在媒体和娱乐业中，可以为观看特定节目的访客创建触发器，并且您可能希望以调查作为回应。
 * **会话开始和会话结束：**&#x200B;为会话开始和会话结束事件创建触发器。
 
-## 创建CX Enterprise触发器
+## 放弃触发器的保留期
+
+无论触发器是否触发，放弃触发器在触发器会话结束后有一小时的固定保留期。 在此期间，即使访客返回并再次满足触发器条件，也不会为该访客启动相同放弃触发器的新会话。 无法配置保留期。
+
+## 创建CX Enterprise trigger
 
 创建触发器并配置触发器的条件。 例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。 当满足规则时，触发器会运行。
 
@@ -87,14 +91,14 @@ CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键
    | [!UICONTROL 名称] | 此触发器的友好名称。 |
    | [!UICONTROL 说明] | 此触发器的描述、使用方式等。 |
    | [!UICONTROL 报告包] | 用于此触发器的 Analytics [报表包](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hans)。 此设置标识要使用的报表数据。 |
-   | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。 例如，一个简单的购物车放弃触发器规则可以是：<ul><li>访问必须包括：[!UICONTROL 购物车加货]（指标）和[!UICONTROL 存在]。 （您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>访问不能包括：[!UICONTROL 结帐]。</li><li>没有行动后启动触发器：10 分钟。</li><li>[!UICONTROL 包含Meta数据]：允许您添加特定的[!DNL Campaign]维度或与访客行为相关的变量。 此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定[!UICONTROL Any]、[!UICONTROL And]或[!UICONTROL Or]逻辑，具体取决于您确定的标准是否对规则很重要。 |
+   | 必须包括的访问<br>必须排除的访问<br>没有行动后启动触发器<br>包括元数据 | 您可以定义希望发生的标准或访客行为，以及不希望发生的行为。 例如，简单的购物车放弃触发器的规则可以是：<ul><li>访问必须包括：[!UICONTROL 购物车加货]（指标）和[!UICONTROL 存在]。 （您可以进一步完善规则，以包含特定产品视图或浏览器类型等维度。）</li><li>访问不能包括：[!UICONTROL 结帐]。</li><li>没有行动后启动触发器：10 分钟。</li><li>[!UICONTROL 包含Meta数据]：允许您添加特定的[!DNL Campaign]维度或与访客行为相关的变量。 此字段对 Adobe Campaign 生成正确的再营销电子邮件十分有用。</li></ul><br>您可以在容器内或容器之间指定[!UICONTROL Any]、[!UICONTROL And]或[!UICONTROL Or]逻辑，具体取决于您确定的标准是否对规则很重要。 |
    | [!UICONTROL 容器] | [!UICONTROL 容器]是您设置和存储定义触发器的规则、条件或过滤器的位置。 如果希望事件同时发生，请将其置于同一容器中。 这意味着，每个容器在命中级别中独立处理。 例如，如果您有两个由 And 运算符连接的容器，那么当两个命中符合要求时，可以预计这些规则符合条件。 |
    | 没有行动后开始新会话 | 为会话开始和会话结束事件创建触发器。 |
 
    {style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。
+1. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ## 触发器示例
 
