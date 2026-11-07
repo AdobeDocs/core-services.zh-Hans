@@ -29,9 +29,9 @@ CX Enterprise使用以下主机来交付应用程序、提高性能和改善产�
 
 除了下面列出的域外，各个Adobe CX Enterprise产品还会使用自己的域：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 技术 | 域 |
 | --- | --- |
