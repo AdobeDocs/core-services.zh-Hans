@@ -1,7 +1,7 @@
 ---
-description: 了解如何跨CX Enterprise应用程序存储和使用Visitor ID服务。
+description: 了解如何跨CX Enterprise应用程序存储和使用访客ID服务。
 solution: Experience Cloud,Analytics,Target
-title: Experience Cloud Cookie
+title: CX Enterprise Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,14 +33,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 67%
 ---
-# CX企业版Cookie
+# CX Enterprise Cookie
 
-Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
+Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访客ID。 这些Cookie特别适用于访问[experience.adobe.com](https://experience.adobe.com)上的Adobe CX Enterprise应用程序。
 
 **Cookie 名称：s_ecid**
 
@@ -54,7 +54,7 @@ Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> 包含CX Enterprise ID (ECID)或MID的副本。 MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> 包含ECID或MID的副本。 MID 存储在一个键值对中，它遵循以下语法：s_ecid=MCMID|&lt;ECID&gt; </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
@@ -81,7 +81,7 @@ Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)使用JavaScript在当前网站的域上的`AMCV_###@AdobeOrg` Cookie中存储一个唯一的访客ID，其中`###`表示一个随机的字符串，如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)使用JavaScript在当前网站的域上的`AMCV_###@AdobeOrg` Cookie中存储ECID，其中`###`表示随机字符串，如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
 另请参阅[Cookie和访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
 
@@ -95,7 +95,7 @@ Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客
  <tbody> 
   <tr> 
    <td colname="col1"> <p>存储的信息 </p> </td> 
-   <td colname="col2"> <p> CX企业解决方案使用的独特访客ID。 </p> </td> 
+   <td colname="col2"> <p> CX Enterprise解决方案使用的独特访客ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 过期 </p> </td> 
@@ -111,11 +111,11 @@ Adobe CX Enterprise使用Cookie存储跨CX Enterprise应用程序使用的访客
   </tr> 
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 各不相同，大多数客户可能希望此 Cookie 的长度在 200 字节左右。 </p> </td> 
+   <td colname="col2"> <p> 各不相同，大多数客户可以预期此 Cookie 的长度在 200 字节左右。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>没有添加任何值。 Chrome 的默认值为 Lax。 </p> </td> 
-   <td colname="col2"> <p> 仅当浏览器的 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 该设置是 Chrome 中为 Cookie 新增的默认设置。 </p> </td> 
+   <td colname="col2"> <p> 仅当浏览器的 URL 中显示的域与 Cookie 的域匹配时，才发送具有此设置的 Cookie。 此设置是 Chrome 中 Cookie 的新默认设置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

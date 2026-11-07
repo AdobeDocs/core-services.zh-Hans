@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 10%
 ---
 # Adobe Analytics Cookie
@@ -43,7 +43,7 @@ Analytics使用Cookie匿名定义新访客、帮助分析点击流数据并跟�
 
 | Cookie 名称 | 过期 | 大小 | 位置 | 描述 |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 个月 | 45 字节 | 第一方 | 存储CX Enterprise ID (ECID)或MID。 由HTTP响应设置。 MID以`s_ecid=MCMID`格式存储。 在客户端设置AMCV Cookie后设置。 它允许永久性的第一方ID跟踪，并在AMCV Cookie过期时用作参考ID。 `SameSite`设置为“Lax”。 如果您使用Web SDK实施Adobe Analytics，则Cookie过期时间设置为2年；但是，大多数现代浏览器都会将过期时间截断为13个月。 |
+| **`s_ecid`** | 13 个月 | 45 字节 | 第一方 | 存储ECID或MID。 由HTTP响应设置。 MID以`s_ecid=MCMID`格式存储。 在客户端设置AMCV Cookie后设置。 它允许永久性的第一方ID跟踪，并在AMCV Cookie过期时用作参考ID。 `SameSite`设置为“Lax”。 如果您使用Web SDK实施Adobe Analytics，则Cookie过期时间设置为2年；但是，大多数现代浏览器都会将过期时间截断为13个月。 |
 | **`s_cc`** | 会话 | 4 字节 | 第一方 | 确定是否启用Cookie。 由JavaScript设置。 |
 | **`s_sq`** | 会话 | 100-200字节 | 第一方 | 由Activity Map使用。 它包含有关访客点击的上一个链接的信息。 由JavaScript设置。 |
 | **`s_vi`** | 2 年 | 44 字节 | 第一方，或`*.omtrdc.net` （第三方） | 存储唯一的访客ID和时间戳。 由HTTP响应设置。 每个访客ID都与Adobe服务器上的一个访客资料关联。 访客资料在处于1年的非活动状态之后会被删除，这与任何访客ID Cookie过期日期无关。 当`SameSite`为“None”且连接为HTTPS时，设置`Secure`标志。 对于第一方Cookie，`SameSite`默认为“Lax”。 使用第三方Cookie时，`SameSite`为“无”，例如在`omtrdc.net`或`2o7.net`上。 使用单个CNAME跟踪多个域或属性时，将`SameSite`设置为“无”。 |

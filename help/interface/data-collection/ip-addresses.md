@@ -1,5 +1,5 @@
 ---
-title: Experience Cloud使用的IP地址
+title: CX Enterprise使用的IP地址
 description: 如果贵组织的防火墙阻止源自Adobe的IP地址，请使用此列表更新防火墙设置。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 8%
-
 ---
-
 # CX Enterprise使用的IP地址
 
 某些防火墙配置会阻止源自Adobe数据收集服务器或负责访问数据的服务器的IP地址。 您可以使用此范围列表来更改组织的防火墙设置，以允许从组织内部访问和发送数据。 此页面包括Adobe使用的入站系统（例如数据收集）和出站系统（例如Adobe Analytics中的数据馈送）。
@@ -31,7 +29,7 @@ ht-degree: 8%
 >
 >虽然Adobe会尽最大努力使此文档保持最新，但无法保证IP范围列表保持不变。 可能的更改包括：业务增长和扩展，互联网注册管理机构要求对Adobe的IP地址空间进行更改，或者互联网服务提供商停止运营。
 
-除了下面列出的IP地址块之外，各个Adobe CX Enterprise产品还有其各自使用的IP地址：
+除了下面列出的IP地址块之外，各个Adobe CX Enterprise产品还会使用他们自己的IP地址：
 
 * [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/ip-addresses)

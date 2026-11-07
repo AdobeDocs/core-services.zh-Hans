@@ -1,7 +1,7 @@
 ---
 description: 了解用于管理CX Enterprise中已批准的Creative Cloud用户的管理工具。
 solution: Experience Cloud
-title: 在Experience Cloud中管理Creative Cloud用户
+title: 在CX Enterprise中管理Creative Cloud用户
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
 # 管理 Creative Cloud 用户
 
-CX企业版提供了用于管理已批准的Creative Cloud用户的管理工具。 这些用户可以临时被邀请到活动文件夹中。 只有管理员已添加到此列表中的用户才能受邀参加营销活动。 添加的用户将显示在CX Enterprise的自动完成用户列表中。
+CX Enterprise提供了用于管理已批准的Creative Cloud用户的管理工具。 这些用户可以临时被邀请到活动文件夹中。 只有管理员已添加到此列表中的用户才能受邀参加营销活动。 添加的用户将显示在CX Enterprise的自动完成用户列表中。
 
 >[!NOTE]
 >
@@ -44,5 +44,5 @@ CX企业版提供了用于管理已批准的Creative Cloud用户的管理工具�
 1. 在CX Enterprise中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud协作者]**。
 1. 单击&#x200B;**[!UICONTROL Creative Cloud资源共享]**。
 1. 单击&#x200B;**[!UICONTROL 添加新用户]**。  ![添加新用户](../../assets/mac_add_icon.png)
-1. 键入电子邮件、显示名称、职位，并选择性地添加头像。
+1. 键入电子邮件、显示名称、职位，并可选择添加头像。
 1. 单击&#x200B;**[!UICONTROL 创建]**。

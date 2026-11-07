@@ -1,7 +1,7 @@
 ---
 description: 了解Adobe CX Enterprise支持的浏览器，以及面向管理员的常见问题解答。
 solution: Experience Cloud
-title: 关于 Experience Cloud 的常见问题解答
+title: 关于CX Enterprise的常见问题解答
 index: true
 feature: Admin Console
 topic: Administration
@@ -33,14 +33,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 47%
+ht-degree: 46%
 ---
-# 关于CX Enterprise的常见问题解答
+# 有关CX Enterprise的常见问题解答
 
-了解CX Enterprise中的浏览器支持以及面向管理员的常见问题和解答。
+了解CX Enterprise支持的浏览器，以及面向管理员的常见问题和解答。
 
 +++CX Enterprise支持哪些浏览器？
 
@@ -62,7 +62,7 @@ Adobe支持以下浏览器的当前版本和前两个版本：
 
 +++支持哪些语言？
 
-CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选项中所设置。 当前支持的语言为：
+CX Enterprise支持每个用户的首选语言，如您的Adobe用户帐户偏好设置中所设置。 当前支持的语言为：
 
 * 简体中文
 * 英语
@@ -75,11 +75,11 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 * 西班牙语
 * 繁体中文
 
-虽然应用程序团队致力于提供全球语言支持，但并非所有应用程序都以上述所有语言提供。 如果CX Enterprise应用程序不支持您的主要语言，您也可以将辅助语言设置为默认语言（如果适用）。 这可以在[CX Enterprise用户首选项](https://experience.adobe.com/preferences)中完成。
+虽然应用程序团队致力于提供全球语言支持，但并非所有应用程序都以上述所有语言提供。 如果CX Enterprise应用程序不支持您的主要语言，您还可以将辅助语言设置为默认语言（如果适用）。 此操作可在[CX Enterprise用户首选项](https://experience.adobe.com/preferences)中完成。
 
 +++
 
-+++Adobe会向公司收取Adobe CX Enterprise的访问费用吗？
++++Adobe会对我的公司收取Adobe CX Enterprise的访问费用吗？
 
 不是。 Adobe CX Enterprise无需额外付费。 但是某些核心服务可能收取额外的费用。
 
@@ -87,7 +87,7 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 
 +++为什么我的公司必须通过CX Enterprise界面登录？
 
-CX Enterprise界面提供的功能为您的业务带来了新的价值。 该界面也是今后访问应用程序的标准途径，最终将取代其他单独的应用程序登录流程。 通过CX Enterprise登录有助于以后实现更平稳的过渡。
+CX Enterprise界面提供的功能为您的业务带来新价值。 该界面也是今后访问应用程序的标准途径，最终将取代其他单独的应用程序登录流程。 通过CX Enterprise登录有助于以后实现更平稳的过渡。
 
 +++
 
@@ -101,7 +101,7 @@ Adobe客户关怀团队可以提交模拟请求，向您发送带有Adobe品牌�
 
 +++什么是“配置”？
 
-CX Enterprise中的资源调配意味着：
+CX Enterprise中的配置表示：
 
 * 您的用户可以开始登录到CX Enterprise并关联应用程序。
 * 他们可以开始使用CX Enterprise提供的功能。
@@ -126,7 +126,7 @@ CX Enterprise中的资源调配意味着：
 
 +++
 
-+++如果有人无法登录到CX Enterprise ，我该怎么办？
++++如果有人无法登录到CX Enterprise，我该怎么做？
 
 Admin Console 管理员可以授予用户访问权限。 将会向用户发送包含登录说明的电子邮件。
 
@@ -150,7 +150,7 @@ Admin Console 管理员可以授予用户访问权限。 将会向用户发送�
 
 +++什么是组织？
 
-[组织](../administration/organizations.md)是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。 组织的作用类似于一个跨所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
+[组织](../administration/organizations.md)是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。 组织的作用类似于一个衔接所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
 
 +++
 
@@ -174,7 +174,7 @@ Admin Console 管理员可以授予用户访问权限。 将会向用户发送�
 
 +++我可以为我的用户关联应用程序帐户吗？
 
-不可以。 用户必须将自己的应用程序与自己的用户名和密码相关联。
+不可以。 用户必须使用自己的用户名和密码关联自己的应用程序。
 
 +++
 
