@@ -1,6 +1,6 @@
 ---
 description: 了解CX Enterprise使用的域。
-title: Experience Cloud使用的域
+title: CX Enterprise使用的域
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -18,20 +18,20 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 19%
 ---
 # CX Enterprise使用的域
 
-CX Enterprise使用以下主机提供应用程序、提高性能和改善产品体验。 Adobe建议允许这些域通过贵组织的网络或防火墙以获得最佳体验。
+CX Enterprise使用以下主机来交付应用程序、提高性能和改善产品体验。 Adobe建议允许这些域通过贵组织的网络或防火墙以获得最佳体验。
 
-除了下面列出的域外，各个Adobe CX Enterprise产品还有各自的域：
+除了下面列出的域外，各个Adobe CX Enterprise产品还会使用自己的域：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 技术 | 域 |
 | --- | --- |

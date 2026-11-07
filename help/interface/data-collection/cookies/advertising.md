@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '306'
 ht-degree: 15%
 ---
 # Adobe Advertising Cookie
@@ -41,7 +41,7 @@ Adobe Advertising（以前称为Adobe Advertising Cloud）使用Cookie将广告�
 
 >[!NOTE]
 >
->测试版Adobe Advertising Javascript标记，它使用[Adobe CX Enterprise ID (ECID)服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)创建第一方[CX Enterprise](experience-cloud.md) `s_ecid` Cookie，而不是Adobe Advertising Cookie。
+>测试版Adobe Advertising Javascript标记，它使用[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hans)创建第一方[CX Enterprise](experience-cloud.md) `s_ecid` Cookie，而不是Adobe Advertising Cookie。
 
 | Cookie 名称 | 过期 | 大小 | 位置 | 描述 |
 | --- | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 description: 了解Adobe CX Enterprise中的解决方案和服务如何使用Cookie。
-title: 如何在Experience Cloud中使用Cookie
+title: 如何在CX Enterprise中使用Cookie
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
@@ -40,7 +40,7 @@ Adobe CX Enterprise使用Cookie来跟踪不会在页面查看或浏览器会话�
 
 某些浏览器会阻止第三方Cookie。 Adobe提供了一些方法来确保Cookie仍然有效，即使Cookie被阻止也是如此。 此过程的工作方式取决于您使用的是访客ID服务(`VisitorAPI.js`)还是旧版Analytics Cookie（如`s_vi` Cookie）：
 
-* [访客ID服务](https://experienceleague.adobe.com/zh-hans/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
+* [访客ID服务](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：访客ID服务始终设置第一方Cookie，无论您的收集域是否与网站域匹配。 它使用JavaScript将Cookie放置在您网站的域中。
 
 * [Analytics旧版标识符](analytics.md)（如`s_vi` Cookie）：Cookie是第一方还是第三方取决于您的设置：
 

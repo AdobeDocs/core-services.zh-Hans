@@ -1,7 +1,7 @@
 ---
 description: 了解如何登录以及CX Enterprise中的中央界面组件。 了解全局搜索、您的帐户偏好设置以及如何浏览界面并获取帮助。
 solution: Experience Cloud
-title: Experience Cloud 中央 UI 组件
+title: CX Enterprise中央UI组件
 feature: Central Interface Components
 topic: Administration
 role: Admin, User
@@ -18,10 +18,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 41%
+ht-degree: 40%
 ---
 # CX Enterprise中央界面组件
 
@@ -33,7 +33,7 @@ CX Enterprise的中央界面组件包括的功能使您能够：
 
 ## CX Enterprise中的浏览器支持
 
-为了实现最佳性能， CX Enterprise针对最流行的浏览器（包括最新版本以及前两个版本）进行了优化。
+为了实现最佳性能，CX Enterprise针对最流行的浏览器（包括最新版本以及上两个版本）进行了优化。
 
 * Chrome
 * Edge
@@ -41,7 +41,7 @@ CX Enterprise的中央界面组件包括的功能使您能够：
 * Opera
 * Safari
 
-如果您的浏览器非上述浏览器，则可能仍受支持，但建议您使用列出的浏览器之一。
+如果您的浏览器未列出，则它可能仍受支持，但建议您使用列出的浏览器之一。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ CX Enterprise的中央界面组件包括的功能使您能够：
 
 ## CX Enterprise中的语言支持
 
-CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选项中所设置。 当前支持的语言为：
+CX Enterprise支持每个用户的首选语言，如您的Adobe用户帐户偏好设置中所设置。 当前支持的语言为：
 
 * 简体中文
 * 英语
@@ -62,7 +62,7 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 * 西班牙语
 * 繁体中文
 
-虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都具有上述所有语言版本。 如果CX Enterprise应用程序不支持您的主要语言，您也可以将辅助语言设置为默认语言（如果适用）。 这可以在[CX Enterprise用户首选项](https://experience.adobe.com/preferences)中完成。
+虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都具有上述所有语言版本。 如果CX Enterprise应用程序不支持您的主要语言，您还可以将辅助语言设置为默认语言（如果适用）。 此操作可在[CX Enterprise用户首选项](https://experience.adobe.com/preferences)中完成。
 
 ## 登录到CX Enterprise
 
@@ -70,7 +70,7 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 
 1. 导航到[Adobe CX Enterprise](https://experience.adobe.com)。
 1. 单击&#x200B;**[!UICONTROL 使用Adobe ID登录]**。
-1. 验证您是否处于正确的组织中。
+1. 确认您位于正确的组织中。
 
    ![验证您的组织](assets/organizations-menu.png)
 
@@ -78,11 +78,11 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 
    如果您的组织使用Federated ID，则CX Enterprise允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 将`#/sso:@domain`添加到CX Enterprise URL (`https://experience.adobe.com`)以完成此任务。
 
-   例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
+   例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为追加了应用程序路径的此 URL 添加书签，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
-## 访问CX企业级应用程序
+## 访问CX Enterprise应用程序
 
-登录到CX Enterprise后，您可以从统一标题中快速访问您的所有应用程序、服务和组织。
+登录到CX Enterprise后，您可以从统一的标题中快速访问您的所有应用程序、服务和组织。
 
 单击应用程序选择器![菜单](assets/menu-icon.png)以访问您拥有的CX Enterprise服务。
 
@@ -90,15 +90,15 @@ CX企业版支持每个用户的首选语言，如您的Adobe用户帐户首选�
 
 ## CX Enterprise中的搜索和支持
 
-CX Enterprise search允许您搜索有关[Experience League](https://experienceleague.adobe.com/zh-hans?lang=zh-hans#home)的帮助（文档、教程和课程）。
+CX Enterprise搜索允许您搜索有关[Experience League](https://experienceleague.adobe.com/?lang=zh-hans#home)的帮助（文档、教程和课程）。
 
-CX Enterprise中的![搜索和支持](assets/search-menu.png)
+在CX Enterprise中![搜索和支持](assets/search-menu.png)
 
 [!UICONTROL 帮助]菜单还允许您访问：
 
 * **[!UICONTROL 支持]：**&#x200B;创建支持工单或使用Twitter联系[!UICONTROL 支持]。
 * **[!UICONTROL 反馈]：**&#x200B;使用反馈联系Adobe，告诉我们您的想法。
-* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/zh-cn/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
+* **[!UICONTROL 状态]：**&#x200B;导航到`https://status.adobe.com/experience_cloud`并检查产品操作状态和[!UICONTROL 管理订阅]。
 * **[!UICONTROL Developer Connection]：**&#x200B;导航到`adobe.io`并查找开发人员文档。
 
 ## 帐户偏好设置
@@ -118,11 +118,11 @@ CX Enterprise首选项包括通知、订阅和警报。
 
 ![管理CX Enterprise](assets/preferences-page.png)
 
-在[!UICONTROL CX Enterprise首选项]上，可以配置以下功能：
+在[!UICONTROL CX Enterprise首选项]上，您可以配置以下功能：
 
 | 功能 | 描述 |
 | --- | --- |
-| 默认组织 | 选择启动CX Enterprise时要看到的组织。 |
+| 默认组织 | 选择您希望在启动CX Enterprise时看到的组织。 |
 | [!UICONTROL 订阅] | 选择您要订阅的产品和类别。 [!UICONTROL 通知]弹出窗口和电子邮件中的通知。 |
 | [!UICONTROL 优先级] | 选择您希望视为高优先级的类别。 这些类别标有“高”标签，可以配置为像警报一样发送。 |
 | [!UICONTROL 警报] | 选择您希望在浏览器中显示警报的通知。 警报会在窗口右上角出现几秒钟。 |

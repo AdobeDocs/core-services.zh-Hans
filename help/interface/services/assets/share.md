@@ -1,7 +1,7 @@
 ---
 description: 了解如何与Creative Cloud用户共享CX Enterprise资源文件夹。
 solution: Experience Cloud
-title: 共享Experience Cloud资产文件夹
+title: 共享CX Enterprise资源文件夹
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -31,14 +31,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 37%
 ---
-# 共享CX Enterprise资产文件夹
+# 共享CX Enterprise资源文件夹
 
-在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target ）中进行协作、对共享资源添加批注和使用它们。 共享文件夹必须源于CX Enterprise。
+在CX Enterprise和Creative Cloud之间共享文件夹和资源。 在CX Enterprise应用程序（如Adobe Target）中进行协作、对共享资源添加批注和使用它们。 共享文件夹必须源于CX Enterprise。
 
 **共享的好处**
 
@@ -46,11 +46,11 @@ ht-degree: 37%
 * 花费更少的时间来管理多个位置中正在处理的文件和版本
 * 更有效地跟踪和管理创意资产
 * 提高企业安全性
-* 轻松地在创意人员和营销人员之间共享文件、保存和发送文件
+* 轻松地在创意人员和营销人员之间共享、保存和发送文件
 
-在Creative Cloud用户有权访问资源之前，他们必须在CX Enterprise中列入允许列表。 [管理 Creative Cloud 用户](manage-cc-users.md)。
+在Creative Cloud用户有权访问资源之前，必须在CX Enterprise中将这些资源添加到允许列表。 [管理 Creative Cloud 用户](manage-cc-users.md)。
 
-**共享CX Enterprise资产文件夹**
+**共享CX Enterprise资源文件夹**
 
 1. 在Asset文件夹中，单击&#x200B;**[!UICONTROL 共享到Creative Cloud]**。
 
@@ -75,17 +75,17 @@ ht-degree: 37%
 
    ![在图像上添加评论](../../assets/asset_comment_cc.png)
 
-   在CX Enterprise中，选择一个映像，然后选择时间线图标以在映像中添加注释。 注释会在Creative Cloud和CX Enterprise的资源中同步。
+   在CX Enterprise中，选择一个图像，然后选择时间线图标以在图像上添加评论。 评论会在Creative Cloud和CX Enterprise的资源中同步。
 
    ![在图像上添加评论](../../assets/asset_comment_mac.png)
 
-1. 要取消共享文件夹，请单击“使用Creative Cloud共享”**&#x200B;**（类似于[步骤3](share.md)），选择X以删除用户，然后单击“共享”**&#x200B;**。
+1. 要取消共享文件夹，请单击“使用Creative Cloud共享”****（类似于[步骤3](share.md)），选择X以删除用户，然后单击“共享”****。
 
    ![取消共享文件夹](../../assets/asset_remove_user.png)
 
    一旦删除完所有的 Creative Cloud 用户，文件夹即被取消共享，且 Creative Cloud 用户不再具有访问权限。
 
-更多使用共享资源的方法包括加载或交换Adobe Target中[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)中的资源以用于活动中的图像。
+更多使用共享资源的方法包括加载或交换Adobe Target中[选件库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)中的资源以用于活动中的图像。
 
 在将文件夹共享到 Creative Cloud 之后，您将在文件夹上看到 Creative Cloud 徽标。
 
@@ -97,9 +97,9 @@ ht-degree: 37%
 * [Creative Cloud帮助 — 与他人协作](https://helpx.adobe.com/cn/creative-cloud/help/collaboration.html)
 * [Creative Cloud帮助 — Collaboration常见问题解答](https://helpx.adobe.com/cn/creative-cloud/help/collaboration-faq.html)
 
-## 关于与 Adobe Target 共享资源
+## 关于与 Adobe Target 共享资产
 
 在[!DNL Adobe Target]中创建活动时，您可以在交换[!UICONTROL 选件库]中的图像时使用共享的图像资产。
 
-请参阅 [!DNL Target] 帮助中的[产品建议库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hans)。
+请参阅 [!DNL Target] 帮助中的[产品建议库](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)。
 
