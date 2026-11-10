@@ -1,7 +1,7 @@
 ---
 title: 如何在受众库中创建受众
 description: 了解如何在受众库中使用属性规则来创建可共享受众。 了解如何配置规则和定义复合受众。
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
@@ -76,13 +76,13 @@ ht-degree: 56%
 1. 在[!UICONTROL 创建新受众]页面上，完成&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;字段。
 1. 在[!UICONTROL 规则]下，选择引用报表包，然后选择属性源：
 
-   * **[!UICONTROL Real-Time Analytics数据：]**（或原始数据）这是从Real-Time Analytics图像请求派生的属性数据。 它包括eVar和事件。 使用此属性源时，必须选择一个报表包，并定义要包括的维度或事件。 此报表包选择提供了报表包使用的变量结构。
+   * **[!UICONTROL Real-Time Analytics数据：]**（或原始数据）这是从Real-Time Analytics图像请求派生的属性数据。 它包括eVar和事件。 使用此属性源时，必须选择一个报告包，并定义要包括的维度或事件。 此报告包选择提供了报告包使用的变量结构。
 
      >[!NOTE]
      >
      >由于缓存，在Analytics中删除报表包12小时后，该删除操作才能反映在CX Enterprise中。
 
-   * 从[!DNL CX Enterprise]源派生的&#x200B;**[!UICONTROL CX Enterprise：]**&#x200B;属性数据。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
+   * **[!UICONTROL CX Enterprise：]**&#x200B;属性数据派生自[!DNL CX Enterprise]源。 例如，这可以是您在 [!DNL Analytics] 中创建的受众区段的数据，也可以是来自 [!DNL Audience Manager] 的数据。
 
 1. 定义受众规则，然后单击&#x200B;**[!UICONTROL 保存].**
 
@@ -111,13 +111,13 @@ ht-degree: 56%
 
 ![受众的 OR 规则](assets/audiences_rule_patio.png)
 
-由此产生的规则是由访问了“家居和园艺”的“Chrome 和 Safari 用户”组成的已定义受众。 “庭院和家具”区段提供了有关访问该网站区域的所有访客的更多洞察。
+由此产生的规则是一个已定义的受众，由访问了“家居和园艺”的 Chrome 和 Safari 用户组成。 “庭院和家具”区段提供了有关访问该网站区域的所有访客的更多洞察。
 
-CX Enterprise中的![定义的受众](assets/defined_audience.png)
+在CX Enterprise中![定义的受众](assets/defined_audience.png)
 
 * **历史估计：**（虚线圈）代表基于 [!DNL Analytics] 数据创建的规则。
 * **实际受众：**（实心圆）创建的任何规则，其中包含来自 Audience Manager 的 30 天数据。 当 Audience Manager 数据达到 30 天时，该行将变为实线并表示实际数字。
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，该受众可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
+保存受众后，它便可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。

@@ -1,6 +1,6 @@
 ---
 description: 了解如何登录以及CX Enterprise中的中央界面组件。 了解全局搜索、您的帐户偏好设置以及如何浏览界面并获取帮助。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise中央UI组件
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%

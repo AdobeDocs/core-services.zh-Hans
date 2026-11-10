@@ -1,6 +1,6 @@
 ---
-description: 获取有关Adobe Analytics和Adobe Target的Adobe CX Enterprise中[!DNL Customer Attributes]的常见问题解答。
-solution: Experience Cloud
+description: 获取有关Adobe CX Enterprise中Adobe Analytics和Adobe Target的[!DNL Customer Attributes]的常见问题解答。
+solution: CX Enterprise
 title: 有关[!DNL Customer Attributes]的常见问题解答
 feature: Customer Attributes
 topic: Administration
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 59%
@@ -65,9 +65,9 @@ ht-degree: 59%
 | --- | --- |
 | 我是否可以接收有关 [!DNL Customer Attributes] 上传状态的通知？ | 可以。 |
 | 我应该怎样做才能开始使用 [!DNL Customer Attributes]？ | <ol><li>进行配置。 如果您是Adobe Analytics客户，Adobe将为您配置[!DNL Customer Attributes]。 如果您只使用Adobe Target而没有使用Analytics，请联系客户关怀团队以请求配置核心服务。</li> <li>与您的 CRM 团队进行交谈。 了解哪些类型的客户数据可以在Analytics和整个CX Enterprise中使用。</li><li>实施核心服务。</li></ol> 在上传数据之前请参阅[先决条件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)，了解如何允许用户使用此功能。 |
-| 我可以使用多少个客户属性？ | 您可以向客户属性服务上传数百个 `.csv` 列。 但是，在配置订阅和选择属性时，根据您拥有的应用程序，将会受到以下限制（每个报表包）：  <ul><li>Foundation：0 个</li><li>Select：3 个</li><li>Prime：15 个</li><li>Ultimate：200 个</li><li>Standard：总共允许 3 个</li><li>Premium：200 个</li><li>Adobe Target Standard：5 个</li><li>Adobe Target Premium：200 个</li></ul> |
-| 是否需要迁移到访客ID服务？ | 迁移取决于您使用的应用程序。 <ul><li>Adobe Analytics：强烈推荐 </li><li>Adobe Target：必需。 </li></ul>使用访客ID服务可启用最新的CX Enterprise功能，其中包括实时受众、Adobe Target现代化、Analytics集成和视频检测信号跟踪。 |
-| 客户属性功能与 Adobe Audience Manager 有何关系？ | 虽然 Audience Manager 能够接收数据以执行受众识别，但是它无法执行将属性与历史行为数据关联起来的分析功能。 此外，它也不具备 Adobe Analytics 中提供的报表、分析和分段功能。 [!DNL Customer Attributes]使来自不同应用程序的丰富数据能够绑定在一起，并与单个ID关联，以便在CX Enterprise中使用。 <br>在 Adobe Target 中，客户属性显示为单个属性，其可以与其他规则结合以构建受众。 共享给[!UICONTROL 人员]服务的受众是完整受众，无法进行修改。 |
+| 我可以使用多少个客户属性？ | 您可以向客户属性服务上传数百个 `.csv` 列。 但是，在配置订阅和选择属性时，根据您拥有的应用程序，将会受到以下限制（每个报告包）：  <ul><li>Foundation：0 个</li><li>Select：3 个</li><li>Prime：15 个</li><li>Ultimate：200 个</li><li>Standard：总共允许 3 个</li><li>Premium：200 个</li><li>Adobe Target Standard：5</li><li>Adobe Target Premium：200</li></ul> |
+| 是否需要迁移到访客ID服务？ | 迁移取决于您使用的应用程序。 <ul><li>Adobe Analytics：强烈推荐 </li><li>Adobe Target：必需。 </li></ul>使用访客ID服务可启用最新的CX Enterprise功能，其中包括实时受众、Adobe Target现代化、Analytics集成和视频心率跟踪。 |
+| 客户属性功能与 Adobe Audience Manager 有何关系？ | 虽然 Audience Manager 能够接收数据以执行受众识别，但是它无法执行将属性与历史行为数据关联起来的分析功能。 此外，它也不具备 Adobe Analytics 中提供的报告、分析和分段功能。 [!DNL Customer Attributes]允许将不同应用程序中的丰富数据捆绑在一起，并将其与单个ID关联，以在整个CX Enterprise中使用。 <br>在 Adobe Target 中，客户属性显示为单个属性，其可以与其他规则结合以构建受众。 共享给[!UICONTROL 人员]服务的受众是完整受众，无法进行修改。 |
 | **（仅限Adobe Analytics）**&#x200B;此功能与Analytics Premium中提供的功能有何不同？ | 过去，希望将客户属性数据与Analytics数据结合在一起的客户在很大程度上依赖Data Workbench工具来实现此功能。 [!DNL Customer Attributes]通过在Report Builder中提供客户属性作为维度和量度，向更广泛的受众公开此功能。 Analytics Standard 客户有权访问 [!DNL Customer Attributes]，但可以使用的功能有限。 Analytics Premium 客户可以使用所有功能。 |
 | **（仅限 Adobe Target）**&#x200B;我是否可以为从未使用过 Adobe Target 的客户预加载或上传数据？ | 可以。 当访客首次向 Adobe Target 发出请求时，系统将从 [!DNL Customer Attributes] 中获取 Adobe 拥有的关于访客的现有信息，并将这些数据用于定位。 **注意：**&#x200B;此数据的检索过程可能需要多达 20 分钟，从访客首次与 Adobe Target 交互开始算起。 |
 | **（仅限 Adobe Target）**&#x200B;是否可以通过将客户属性数据与共享的受众数据结合来创建超级受众？ | 否。 共享的受众数据是一个完整的受众。 |

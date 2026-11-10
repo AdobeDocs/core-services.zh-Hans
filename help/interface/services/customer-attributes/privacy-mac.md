@@ -1,6 +1,6 @@
 ---
-description: 了解有关在CX Enterprise中上传和使用的个人身份信息(PII)的注意事项和最佳实践。
-solution: Experience Cloud
+description: 了解在CX Enterprise中上传和使用的个人身份信息(PII)的相关注意事项和最佳实践。
+solution: CX Enterprise
 title: '[!DNL Customer Attributes]的隐私注意事项'
 feature: Customer Attributes
 topic: Administration
@@ -34,21 +34,21 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%
 ---
 # [!DNL Customer Attributes] 的隐私注意事项
 
-有关在Adobe CX Enterprise中上传和使用的个人身份信息(PII)的注意事项和最佳实践。
+Adobe CX Enterprise中已上传和使用的个人身份信息(PII)的相关注意事项和最佳实践。
 
 * 名字和姓氏
 * 家庭或其他实际地址
 * 电子邮件地址
 * 电话号码
 * 社会保险号
-* 允许个人进行实际联系或在线联系的其他标识符。 （因位置而异。 请核实并遵守您开展业务的所有地方有关隐私和 PII 的当地法律法规。）
+* 允许通过实际方式或在线方式联系个体的其他标识符。 （因位置而异。 请核实并遵守您开展业务的所有地方有关隐私和 PII 的当地法律法规。）
 
 Adobe 提供了一些工具，允许广告商收集有关访问其网站或使用其应用程序的消费者的行为信息。 Adobe 还提供了一些工具，允许广告商使用广告商可能在其他信息管理系统中拥有的离线或外部客户记录来增强此信息。
 
@@ -64,8 +64,8 @@ Adobe 建议其广告商仔细考虑以下两点：哪些信息适合用于营�
 
 由于消费者隐私法不断变化，因此 Adobe 建议广告商遵守以下三项通用原则：
 
-1. 做您所说（在隐私政策中）。
-1. 说您所做（在隐私政策中）。
+1. 践行您在隐私政策中的承诺。
+1. 在隐私政策中说明您的做法。
 1. 不要欺瞒消费者。
 
-考虑到这些期望，Adobe 建议广告商将浏览活动关联到 PII 时，该广告商可提供通知或进行个性化设置，表明消费者已通过身份验证。 例如，在网站标题中插入问候语。 Adobe 还建议广告商在其隐私权政策中描述以下两点：哪种类型的浏览信息与 PII 相关联以及在什么情况下浏览信息会与 PII 关联。 最后，Adobe 强烈建议广告商查看他们为消费者提供的选择退出选项，了解他们选择退出后是否可以使用以及如何使用未经身份验证的轮廓信息。
+考虑到这些期望，Adobe 建议广告商在将浏览活动与 PII 关联时，提供表明消费者已通过身份验证的通知或个性化内容。 例如，在网站标题中加入问候语。 Adobe 还建议广告商在其隐私政策中描述以下两点：哪种类型的浏览信息与 PII 相关联以及在什么情况下浏览信息会与 PII 关联。 最后，Adobe 强烈建议广告商查看他们为消费者提供的选择退出选项，了解他们选择退出后是否可以使用以及如何使用未经身份验证的轮廓信息。

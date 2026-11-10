@@ -1,6 +1,6 @@
 ---
 description: 实现 Adobe Analytics 和 Adobe Target 应用程序的现代化，以提供跨应用程序服务。 了解如何开始使用CX Enterprise服务
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise入门
 index: true
 feature: Central Interface Components
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%

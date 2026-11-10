@@ -1,7 +1,7 @@
 ---
 description: 了解共享文件夹在CX Enterprise中移动、删除和还原时的行为方式。
 keywords: 资产共享;Creative Cloud;核心服务
-solution: Experience Cloud
+solution: CX Enterprise
 title: 共享文件夹的行为
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 90%
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->共享CX Enterprise文件夹和资源以1:1的关系镜像到Creative Cloud桌面。 如果CX Enterprise用户更改文件夹（删除、添加或删除共享），此操作将镜像到Creative Cloud桌面和Web中。 因此，如果取消共享文件夹，该文件夹及其资产将从本地计算机中删除。 删除共享后，文件夹及其内容将移至本地计算机上的垃圾桶，您可以在垃圾桶中手动将它们还原到计算机。
+>共享CX Enterprise文件夹和资源以1:1的关系镜像到Creative Cloud桌面。 如果CX Enterprise用户更改文件夹（删除、添加或删除共享），此操作将镜像到Creative Cloud桌面和Web中。 因此，如果取消共享文件夹，该文件夹及其资产将从本地计算机中删除。 取消共享后，文件夹及其内容将移至本地计算机上的垃圾桶，您可以在垃圾桶中手动将它们还原到计算机。
 
 ## 将非共享文件夹移入共享文件夹
 
@@ -119,7 +119,7 @@ ht-degree: 90%
 
 ## 从存档还原的内容
 
-从属于共享文件夹的存档中还原内容。 您在内容存档后拥有该内容。
+从属于共享文件夹的存档中还原内容。 该内容被存档时，您拥有该内容。
 
 ![从存档还原的内容](../../assets/12_assets_move.png)
 

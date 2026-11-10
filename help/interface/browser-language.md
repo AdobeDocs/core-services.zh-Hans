@@ -1,7 +1,7 @@
 ---
 title: 浏览器和语言支持
-description: 了解对CX企业应用程序的浏览器和语言支持。 在您的帐户配置文件中选择主要语言和次要语言。
-solution: Experience Cloud
+description: 了解CX Enterprise应用程序的浏览器和语言支持。 在您的帐户配置文件中选择主要语言和次要语言。
+solution: CX Enterprise
 feature: Account Preferences
 topic: Administration
 role: Admin
@@ -30,14 +30,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 39%
 ---
 # CX Enterprise中的浏览器和语言支持
 
-为了实现最佳性能， CX Enterprise针对最流行的浏览器（包括最新版本以及前两个版本）进行了优化。
+为了实现最佳性能，CX Enterprise针对最流行的浏览器（包括最新版本以及上两个版本）进行了优化。
 
 * Chrome
 * Edge
@@ -45,7 +45,7 @@ ht-degree: 39%
 * Opera
 * Safari
 
-如果您的浏览器非上述浏览器，则可能仍受支持，但建议您使用列出的浏览器之一。
+如果您的浏览器未列出，则它可能仍受支持，但建议您使用列出的浏览器之一。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 39%
 
 ## CX Enterprise中的语言支持
 
-CX Enterprise用户界面提供以下语言版本：
+提供了以下语言版本的CX Enterprise用户界面：
 
 * 英语（美国）
 * 法语（法国）
@@ -82,7 +82,7 @@ CX Enterprise用户界面提供以下语言版本：
 
 1. 在&#x200B;**[!UICONTROL 选择语言]**&#x200B;上，从&#x200B;**[!UICONTROL 第一语言]**&#x200B;菜单中选择一种语言。
 
-   虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都以界面中列出的所有语言提供。 如果CX Enterprise应用程序不支持您的主要语言，您可以设置辅助默认语言（如果适用）。
+   虽然所有应用程序团队都致力于提供全球语言支持，但并非所有应用程序都以界面中列出的所有语言提供。 如果CX Enterprise应用程序不支持您的主要语言，您可以在适用的情况下设置辅助默认语言。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

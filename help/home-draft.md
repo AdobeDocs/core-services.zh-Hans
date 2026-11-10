@@ -1,6 +1,6 @@
 ---
-description: 了解CX Enterprise的中央界面组件。 在Admin Console中获取有关用户和产品管理的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、 CX Enterprise Assets等的帮助。
-title: Experience Cloud 界面文档
+description: 了解CX Enterprise的中心界面组件。 获取有关在Admin Console中管理用户和产品的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、CX Enterprise Assets等的帮助。
+title: CX Enterprise界面文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
@@ -13,14 +13,14 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 60%
+ht-degree: 57%
 ---
 # CX Enterprise中央界面概述
 
-[CX Enterprise](https://experience.adobe.com)是Adobe的集成式数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
+[CX Enterprise](https://experience.adobe.com)是Adobe的集成数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
 <!--
 ![CX Enterprise](assets/landing.png)
 
