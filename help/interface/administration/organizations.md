@@ -62,7 +62,7 @@ ht-degree: 17%
 
 ## 联合来宾帐户
 
-您可以启用[联合来宾访问](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，组织菜单会发生变化，以便这些用户在任意CX Enterprise页面上的现有组织内切换帐户。
+您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，组织菜单会发生变化，以便这些用户在任意CX Enterprise页面上的现有组织内切换帐户。
 
 若要切换到联合来宾帐户，请在任何[CX Enterprise](https://experience.adobe.com)页面上的&#x200B;**[!UICONTROL 组织]**&#x200B;菜单中找到&#x200B;**[!UICONTROL 其他帐户]**。
 
