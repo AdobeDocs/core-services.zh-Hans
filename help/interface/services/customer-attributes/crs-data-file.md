@@ -1,6 +1,6 @@
 ---
-description: 了解在[!DNL Customer Attributes]中将数据上载到CX Enterprise的数据文件要求和多个数据源。
-solution: Experience Cloud
+description: 了解在[!DNL Customer Attributes]中将数据上传到CX Enterprise的数据文件要求和多个数据源。
+solution: CX Enterprise
 title: 客户属性数据文件和数据源
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 59%
@@ -37,7 +37,7 @@ ht-degree: 59%
 
 将客户属性数据上传到CX Enterprise的数据文件要求和多个数据源。
 
-您需要拥有从企业访问 CRM 或类似数据的权限。 上载到CX Enterprise的数据必须是`.csv`文件。 如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
+您需要有权访问企业中的 CRM 或类似数据。 您上传到CX Enterprise的数据必须是`.csv`文件。 如果您通过 FTP 或 sFTP 上传，则还需要上传一个 `.fin` 文件。
 
 [!DNL Customer Attributes]设计为每天处理一些文件。 为了缓解延迟处理较多小文件的问题，在处理前一批文件后 30 分钟内由同一组织发送的文件将被路由到优先级较低的队列。
 
@@ -77,7 +77,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户ID列 </p> </td> 
-   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。 使用的ID应该与传递到访客ID服务的ID相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，设置customerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。 其余列为来自 CRM 的属性。 您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。 当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。 此ID是在人员登录时使用<span class="codeph"> setcustomerIDs </span>调用设置的。 在上传到CX Enterprise的CRM文件中，此ID也用作密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。 系统将别名发送到此数据存储（通过setcustomerID）。 CRM 文件将应用于该数据存储中的数据。 </p> <p>有关<span class="codeph"> setcustomerID </span>的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans" format="https" scope="external">客户ID和身份验证状态</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一列必须是唯一的客户 ID。 使用的ID应该与传递到访客ID服务的ID相对应。 </p> <p>对于 Analytics，其为存储在 prop 或 eVar 中的 ID。 </p> <p>对于Target，设置customerID值。 </p> <p> 此客户 ID 是 CRM 在数据库中针对每个人使用的唯一标识符。 其余列为来自 CRM 的属性。 您选择要上传的属性数量。 </p> <p>建议对列标题使用友好、可读的名称，但不是必需的。 当您在上传后验证架构时，可以将友好名称映射到上传的行和列。 </p> <p> <b>关于客户ID</b> </p> <p>企业通常使用 CRM 系统中的客户 ID。 此ID是在人员登录时使用<span class="codeph"> setcustomerIDs </span>调用设置的。 在上传到CX Enterprise的CRM文件中，还使用此ID作为密钥。 <a href="t-crs-usecase.md" format="dita" scope="local">别名 ID</a> 是 Audience Manager 中数据存储的友好名称，其中存储了别名数据。 系统将别名发送到此数据存储（通过setcustomerID）。 CRM 文件将应用于该数据存储中的数据。 </p> <p>有关<span class="codeph"> setcustomerID </span>的信息，请参阅<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">客户ID和身份验证状态</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>后续标题和列 </p> </td> 
@@ -95,7 +95,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>行数限制 </p> </td> 
-   <td colname="col2"> <p>对行数的限制未知。 </p> </td> 
+   <td colname="col2"> <p>目前已知行数没有限制。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>列数限制 </p> </td> 
@@ -125,7 +125,7 @@ CSV 文件必须遵循以下格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>字符编码 </p> </td> 
-   <td colname="col2"> <p>对于日文，必须使用 UTF-8。 </p> </td> 
+   <td colname="col2"> <p>对于日本，必须使用 UTF-8。 </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p>历史数据 </p> </td> 
@@ -155,7 +155,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（有关详细信息，请参阅[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。）
+（有关详细信息，请参阅[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
 
 在&#x200B;**[!DNL CX Enterprise]** > **[!DNL Customer Attributes]**&#x200B;中：
 

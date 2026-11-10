@@ -1,6 +1,6 @@
 ---
 description: 了解组织（IMS组织ID）、切换帐户和关联解决方案帐户。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 组织和帐户
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 17%
@@ -42,11 +42,11 @@ ht-degree: 17%
 
 *组织* （组织ID）是一个实体，它允许管理员配置组和用户，并控制CX Enterprise中的单点登录。
 
-组织的作用类似于一个跨所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
+组织的作用类似于一个衔接所有CX Enterprise产品和应用程序的登录公司。 大多数情况下，组织是您的公司名称。 但是，公司可以具有多个组织。
 
 **组织菜单**
 
-![CX企业组织](../assets/organizations-menu.png)
+![CX Enterprise组织](../assets/organizations-menu.png)
 
 要验证您是否已登录到正确的组织，请单击&#x200B;**[!UICONTROL 配置文件]**&#x200B;查看默认组织名称。 如果您有权访问多个组织，则还可以在标题栏中查看和切换到另一个组织。
 
@@ -58,11 +58,11 @@ ht-degree: 17%
 
 如果您的组织使用Federated ID，则CX Enterprise允许您使用组织的单点登录进行登录，而无需输入您的电子邮件地址和密码。 将`#/sso:@domain`添加到CX Enterprise URL (`https://experience.adobe.com`)以完成此任务。
 
-例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为此 URL 添加书签并追加应用程序路径，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
+例如，对于带 Federated ID 和域 `example.com` 的组织，请将 URL 链接设置为 `https://experience.adobe.com/#/sso:@example.com`。 您还可以通过为追加了应用程序路径的此 URL 添加书签，直接转到特定应用程序。 （例如，对于 Adobe Analytics，使用 `https://experience.adobe.com/#/sso:@example.com/analytics`。）
 
 ## 联合来宾帐户
 
-您可以启用[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，“组织”菜单将更改，以便这些用户可以在任何CX Enterprise页上的现有组织内的帐户之间进行切换。
+您可以启用[联合来宾访问](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)，以在您自己的域上安全地验证来宾用户。 启用后，组织菜单会发生变化，以便这些用户在任意CX Enterprise页面上的现有组织内切换帐户。
 
 若要切换到联合来宾帐户，请在任何[CX Enterprise](https://experience.adobe.com)页面上的&#x200B;**[!UICONTROL 组织]**&#x200B;菜单中找到&#x200B;**[!UICONTROL 其他帐户]**。
 

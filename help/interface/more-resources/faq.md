@@ -1,6 +1,6 @@
 ---
 description: 了解Adobe CX Enterprise支持的浏览器，以及面向管理员的常见问题解答。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 关于CX Enterprise的常见问题解答
 index: true
 feature: Admin Console
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 46%
@@ -122,7 +122,7 @@ CX Enterprise中的配置表示：
 
 * 用户权限和产品管理在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise)（产品链接）中执行。
 
-* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hans)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
+* **重要信息：**&#x200B;对于 Analytics 管理员，请参阅[在 Admin Console 中管理 Analytics 用户](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何将用户 ID 从 Analytics 管理工具迁移到 Admin Console。
 
 +++
 
@@ -130,7 +130,7 @@ CX Enterprise中的配置表示：
 
 Admin Console 管理员可以授予用户访问权限。 将会向用户发送包含登录说明的电子邮件。
 
-您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)来验证您的公司是否已完全配置。
+您可能需要[联系 Adobe 支持部门](https://experienceleague.adobe.com/?support-solution=General#support)来验证您的公司是否已完全配置。
 
 +++
 

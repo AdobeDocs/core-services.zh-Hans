@@ -1,6 +1,6 @@
 ---
 description: 了解如何跨CX Enterprise应用程序存储和使用访客ID服务。
-solution: Experience Cloud,Analytics,Target
+solution: CX Enterprise,Analytics,Target
 title: CX Enterprise Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 67%
@@ -81,9 +81,9 @@ Adobe CX Enterprise使用Cookie来存储跨CX Enterprise应用程序使用的访
 
 **Cookie 名称：AMCV_###@AdobeOrg**
 
-[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)使用JavaScript在当前网站的域上的`AMCV_###@AdobeOrg` Cookie中存储ECID，其中`###`表示随机字符串，如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/home.html)使用JavaScript在当前网站的域上的`AMCV_###@AdobeOrg` Cookie中存储ECID，其中`###`表示随机字符串，如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另请参阅[Cookie和访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hans)。
+另请参阅[Cookie和访客ID服务](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

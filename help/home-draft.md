@@ -1,6 +1,6 @@
 ---
-description: 了解CX Enterprise的中央界面组件。 在Admin Console中获取有关用户和产品管理的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、 CX Enterprise Assets等的帮助。
-title: Experience Cloud 界面文档
+description: 了解CX Enterprise的中心界面组件。 获取有关在Admin Console中管理用户和产品的帮助，为CX Enterprise服务启用应用程序。 获取有关受众库、客户属性、CX Enterprise Assets等的帮助。
+title: CX Enterprise界面文档
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
@@ -13,14 +13,14 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 60%
+ht-degree: 57%
 ---
 # CX Enterprise中央界面概述
 
-[CX Enterprise](https://experience.adobe.com)是Adobe的集成式数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
+[CX Enterprise](https://experience.adobe.com)是Adobe的集成数字营销应用程序、产品和服务系列。 通过其直观界面，您可以快速访问云应用程序、产品功能和服务。
 <!--
 ![CX Enterprise](assets/landing.png)
 
@@ -183,7 +183,7 @@ To access CX Enterprise applications and services provisioned for you within you
 
 ## Get help and support 
 
-Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/zh-hans#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
 ![Get help and support](assets/search-menu.png)
 
@@ -191,7 +191,7 @@ The [!UICONTROL Help] menu also gives you access to:
 
 * **[!UICONTROL Support]:** Create a support ticket or contact [!UICONTROL Support] using Twitter.
 * **[!UICONTROL Feedback]:** Share feedback about your CX Enterprise experience. Your feedback is used to improve Adobe's products and services.
-* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/zh-cn/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigation to `adobe.io` and find developer documentation.
 
 ## Manage your user profile
@@ -224,7 +224,7 @@ Learn about the latest enhancements to CX Enterprise central interface component
 
 You can configure your account preferences to send CX Enterprise notifications to a [!DNL Slack] channel. 
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
 >[!TAB New Campaign Web User Interface] 
@@ -312,7 +312,6 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
-
 ## 其他资源
 
 [Adobe Campaign v8 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web 用户界面文档](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hans){target="_blank"} - [教程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-CN){target="_blank"} - [[!DNL Adobe Campaign] 自动化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hans){target="_blank"} - [Campaign v8 的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hans){target="_blank"}

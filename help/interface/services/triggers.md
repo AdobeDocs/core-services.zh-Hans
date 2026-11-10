@@ -1,6 +1,6 @@
 ---
 description: 了解如何配置CX Enterprise触发器。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 触发器概述
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 59%
 ---
 # CX Enterprise触发器
 
-CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 有关在Adobe Campaign中使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hans)。
+CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 有关在Adobe Campaign中使用[!UICONTROL 触发器]的详细信息，请参阅[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
 
 例如：
 
@@ -98,7 +98,7 @@ CX Enterprise中的[!UICONTROL 触发器]允许您识别、定义并监视关键
    {style="table-layout:auto"}
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hans)。
+1. 使用这些触发器在 [!DNL Adobe Campaign] 中进行[实时再营销](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ## 触发器示例
 

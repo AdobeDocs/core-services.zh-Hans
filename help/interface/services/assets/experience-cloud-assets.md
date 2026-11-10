@@ -1,6 +1,6 @@
 ---
 description: 了解可在各个应用程序之间共享的 CX Enterprise Assets。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 资源概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -42,8 +42,8 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 资产服务包括：
 
-* 资源存储、管理界面、嵌入式选择界面（通过应用程序访问）。
-* 与Creative Cloud 、 CX Enterprise Collaboration和CX Enterprise应用程序的集成。
+* 资产存储、管理界面、嵌入式选择界面（通过应用程序访问）。
+* 与Creative Cloud、CX Enterprise协作和CX Enterprise应用程序的集成。
 
 使用资源可以提高一致性和品牌合规性，并缩短上市时间。 您可以简化应用程序中的工作流：
 
@@ -70,7 +70,7 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 ## 编辑资源
 
-编辑资源时可启用多种功能，其中包括：
+编辑资产时可启用多种功能，其中包括：
 
 * 裁剪
 * 旋转
@@ -90,13 +90,13 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 ![为资源作批注](../../assets/assets-annotate.png)
 
-## 查看全屏资源和缩放
+## 查看全屏资产和缩放
 
 单击&#x200B;**[!UICONTROL 视图]** > **[!UICONTROL 图像]**&#x200B;以查看完整资源图像并启用缩放。
 
 ![查看全屏资源](../../assets/asset-zoom.png)
 
-## 查看资源属性
+## 查看资产属性
 
 在带属性的卡视图、列表视图与列视图之间选择以更轻松地找到您的资源。
 

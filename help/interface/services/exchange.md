@@ -1,6 +1,6 @@
 ---
-description: 了解 Exchange Marketplace，这是您可以通过应用程序搜索、浏览、选择、付款和下载 Digital Marketing 扩展的一个位置。
-solution: Experience Cloud
+description: 了解 Exchange Marketplace，这是您可以通过应用程序搜索、浏览、选择、付款和下载数字营销扩展的一个位置。
+solution: CX Enterprise
 title: Adobe Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 85%
@@ -42,7 +42,7 @@ Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、�
 
 * 下载 SDK、阅读文档并将应用程序提交到 Digital Marketing 以进行审核。
 
-* 客户可以搜索、选择和安装 Digital Marketing 扩展。
+* 客户可以搜索、选择和安装数字营销扩展。
 
 * 管理员可以配置下载的应用程序。
 
@@ -50,7 +50,7 @@ Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、�
 
 * 拒绝或批准申请。
 
-* 在CX企业版中发布。
+* 在CX Enterprise中发布
 
 * 按类别、公司、类型、用户等搜索和过滤。
 

@@ -1,6 +1,6 @@
 ---
 description: 了解用于管理CX Enterprise中已批准的Creative Cloud用户的管理工具。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 在CX Enterprise中管理Creative Cloud用户
 feature: Assets
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%

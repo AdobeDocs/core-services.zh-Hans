@@ -1,7 +1,7 @@
 ---
 description: 了解Adobe CX Enterprise中的Audience Manager Cookie。
 keywords: Cookie
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Audience Manager Cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 94%
@@ -69,7 +69,7 @@ Audience Manager 依靠一些简单的 Cookie 来执行不同的功能。 这些
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>内容</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含唯一用户 ID (UUID)，如下面的示例所示： </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>另请参阅 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hans" format="https" scope="external">Audience Manager 中的 ID 索引</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含唯一用户 ID (UUID)，如下面的示例所示： </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>另请参阅 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager 中的 ID 索引</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他属性</b> </p> </td> 
@@ -162,7 +162,7 @@ dextp Cookie 数据语法：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>用途</b> </p> </td> 
-   <td colname="col2"> <p> 如果在向<span class="keyword">目标</span>发送数据时出现错误，<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hans" format="https" scope="external">Audience Manager</a> 会设置此 Cookie。 </p> </td> 
+   <td colname="col2"> <p> 如果在向<span class="keyword">目标</span>发送数据时出现错误，<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">Audience Manager</a> 会设置此 Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>内容</b> </p> </td> 

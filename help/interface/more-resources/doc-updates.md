@@ -1,6 +1,6 @@
 ---
 description: 了解CX Enterprise的常用界面组件在何处发生文档更新。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 文档更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 topic: Administration
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -47,29 +47,29 @@ ht-degree: 35%
 
 ## 2026 年 7 月
 
-* 添加了[2026年7月发行说明](release-notes.md)，内容是有关CX Enterprise对[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)的支持，包括组织切换器中来宾用户的帐户切换。
+* 添加了[2026年7月发行说明](release-notes.md)，以了解CX Enterprise对[联合来宾访问](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)的支持，包括从组织切换器为来宾用户切换帐户。
 
 ## 2026 年 6 月
 
-* 已发布[Agentic AI监控](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵盖许可证使用和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
+* 已发布[Agentic AI监控](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵盖许可证使用和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
 * 添加了[2026年6月版发行说明](release-notes.md)，用于代理人工智能使用情况监测。
 
 ## 2026年5月
 
-CX Enterprise Central界面指南在4月和5月进行了更新：
+CX Enterprise中央界面指南在4月和5月进行了更新：
 
-* 该指南中的文档已从Experience Cloud更名为&#x200B;**CX Enterprise**，包括描述、链接文本和自动标记元数据。
+* 该指南中的文档从Experience Cloud重新命名为&#x200B;**CX Enterprise**，包括描述、链接文本和自动标记元数据。
 * 为位于`https://experience.adobe.com/home`的刷新主页添加了[2026年4月发行说明](release-notes.md)（UI刷新、深色模式和辅助功能改进）。
-* 更新了CX Enterprise中的[代理AI](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot，修订了代理功能，并在现有应用程序代理表中更新了&#x200B;**运行状况数据/HIPAA就绪**&#x200B;列。
+* 更新了CX Enterprise中的[代理AI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot、修订的代理功能以及现有应用程序代理表中的&#x200B;**运行状况数据/HIPAA就绪**&#x200B;列。
 * 对[区域数据收集](../data-collection/rdc.md)、[验证主机名转发](../data-collection/adobe-managed-cert.md)和[术语](terms.md)的小更新。
 
 ## 2026年3月
 
-已添加[AI工作和积分消耗](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+已添加[AI工作和积分消耗](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## 2025 年 11 月
 
-CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025 年 10 月
 
@@ -95,7 +95,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2024年4月26日
 
-对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[地区数据收集](../data-collection/rdc.md)。
+对文档架构进行了全面改进。 还添加了[Adobe CX Enterprise IP地址](../data-collection/ip-addresses.md)和[区域数据收集](../data-collection/rdc.md)。
 
 ## 2024年4月9日
 
@@ -117,9 +117,9 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 | 功能 | 描述 |
 | ------- | ------- |
-| 主页 | CX Enterprise主页页脚信息已移至用户配置文件卡，包括首选项中的法律声明和语言选择。 |
+| 主页 | CX Enterprise主页页脚信息已移至用户个人资料卡，包括法律声明和偏好设置中的语言选择。 |
 | AEP 仪表板 | [!DNL Helios Lite] 在 Experience Platform 小组件创建工作流程中提供图表建议。 给定数据选择（当前为单变量数据选择），helios 会推荐适当的可视化视图来显示该数据选择。 |
-| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它装饰 AEP 仪表板页面中的图表，用相关的要点指出图表数据中的主要变化和事件。 |
+| AEP 仪表板 | [!DNL Instory] 为图表提供基于机器学习的书面叙述和标题。 它在 AEP 仪表板页面中的图表上添加相关要点，指出图表数据中的主要变化和事件。 |
 
 ## 2021年10月13日
 
@@ -142,7 +142,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2021年6月1日
 
-更新了[登录页](../experience-cloud.md)，新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
+更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
 
 ## 2020年8月19日
 
@@ -193,7 +193,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2016年5月9日
 
-添加了[CX Enterprise Integrations](../administration/integrations.md)，这是集成文档的汇总。
+添加了[CX Enterprise集成](../administration/integrations.md)（集成文档合集）。
 
 ## 2016年2月11
 
@@ -201,11 +201,11 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2015年1月15
 
-添加了CX Enterprise的用户，现在可以将文件夹共享到Creative Cloud并在两个云之间同步资源和注释。 请参阅[资源共享](../services/assets/share.md)。
+添加了CX Enterprise的用户现在可以将文件夹共享到Creative Cloud，并在两个云之间同步资源和评论。 请参阅[资源共享](../services/assets/share.md)。
 
 ## 2014年7月17
 
-为管理员添加了[CX Enterprise常见问题解答](faq.md)。
+添加了[CX Enterprise常见问题解答](faq.md)。
 
 ## 2014年5月22
 
