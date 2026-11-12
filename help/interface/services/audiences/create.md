@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# 创建受众
+# 创建受众 {#create-audience}
 
-在[!UICONTROL 受众库]中，您可以使用属性规则来创建受众，并定义复合受众以便在CX Enterprise应用程序中共享。
+在[!UICONTROL 受众库]中，您可以使用属性规则来创建受众、构建单个规则以及将规则组合到复合受众中，以便跨CX Enterprise应用程序共享。
 
-本文可帮助您了解如何执行以下操作：
-
-* 创建受众
-* 创建规则
-* 使用规则定义复合受众
+## 复合受众 {#composite-audiences}
 
 下图表示复合受众中的两个规则。
 
@@ -58,14 +54,9 @@ ht-degree: 56%
 >
 >在完成指定期限的数据收集后，将会对受众进行充分定义。
 
-以下示例演示了如何为复合受众创建规则。 此受众包括：
+## 构建受众规则 {#build-audience-rules}
 
-* 从页面数据或原始分析数据派生的“家居和园艺”部分。
-* 从[!DNL Adobe Analytics]区段[发布的](overview.md)到[!DNL CX Enterprise]派生Chrome和Safari用户。
-
-  ![为复合受众创建规则](assets/audience_create.png)
-
-**创建受众**
+使用以下步骤可在[!UICONTROL 受众库]中创建受众并定义其规则。
 
 1. 单击[!DNL CX Enterprise]个应用（![个应用图标](assets/apps-icon.png)），然后单击&#x200B;**[!UICONTROL 人员]** > **[!UICONTROL 受众库]。**
 
@@ -86,7 +77,14 @@ ht-degree: 56%
 
 1. 定义受众规则，然后单击&#x200B;**[!UICONTROL 保存].**
 
-**示例：为复合受众定义规则**
+## 复合受众示例 {#example-composite-audience}
+
+以下示例演示了如何为复合受众创建规则。 此受众包括：
+
+* 从页面数据或原始分析数据派生的“家居和园艺”部分。
+* 从[!DNL Adobe Analytics]区段[发布的](overview.md)到[!DNL CX Enterprise]派生Chrome和Safari用户。
+
+  ![为复合受众创建规则](assets/audience_create.png)
 
 >[!NOTE]
 >
@@ -120,4 +118,4 @@ ht-degree: 56%
 
 在指定的时间段内完成数据收集后，圆圈将合并起来以显示定义的受众。
 
-保存受众后，它便可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/zh-hans/docs/target/using/activities/activities)中包含共享受众。
+保存受众后，它便可用于其他CX Enterprise应用程序。 例如，您可以在Adobe Target [活动](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共享受众。
