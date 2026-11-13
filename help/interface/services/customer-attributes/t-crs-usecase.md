@@ -33,20 +33,18 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: efb723004203e57984a55ae4baa1cccc6564577a
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 41%
+source-wordcount: '1230'
+ht-degree: 33%
 ---
-# 创建和上传客户属性数据
+# 创建和上传客户属性数据 {#create-upload-customer-attribute-data}
 
-创建客户属性源（`.csv`和`.fin`文件）并上传数据。 您可以在做好准备时激活数据源。 在数据源处于活动状态后，将属性数据共享到[!DNL Analytics]和[!DNL Target]。
+创建[!DNL Customer Attributes]数据源，上传企业客户数据，并在准备就绪后激活该源。 在源处于活动状态后，与[!DNL Analytics]和[!DNL Target]共享属性数据。
 
-**[!DNL Customer Attributes]工作流**
+## 开始之前 {#before-you-begin}
 
-![客户属性工作流程](assets/crs.png)
-
-## 使用[!DNL Customer Attributes]的先决条件 {#prerequisites}
+在上传客户属性数据之前，请确保您满足以下要求。
 
 * **组成员资格：**&#x200B;要上传数据，用户必须是[!DNL Customer Attributes]组的成员。 此外，您还必须属于 Adobe Analytics 群组或 Adobe Target 群组。
 
@@ -58,7 +56,13 @@ ht-degree: 41%
 
   参阅[如何部署 at.js](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/overview)。
 
-## 创建数据文件
+## 客户属性工作流程 {#workflow}
+
+下图显示了用于创建、上传和使用客户属性数据的端到端工作流程。
+
+![客户属性工作流程](assets/crs.png)
+
+## 创建数据文件 {#create-data-file}
 
 此数据是 CRM 中的企业客户数据。 数据可能包含产品的订阅者数据，包括成员 ID、授权产品、最常启动产品等。
 
@@ -72,10 +76,10 @@ ht-degree: 41%
 
    ![示例企业客户数据文件](assets/01_crs_usecase.png)
 
-1. 在继续操作之前，请先查看[数据文件要求](crs-data-file.md)中的重要信息，然后再上传文件。
-1. [创建客户属性来源并上传数据](t-crs-usecase.md#create-source)，如下所述。
+1. 在上传文件之前，请查看[数据文件要求](crs-data-file.md)中的重要信息。
+1. 继续[创建属性源并上传数据](t-crs-usecase.md#create-source)。
 
-## 创建属性源并上传数据文件
+## 创建属性源并上传数据文件 {#create-source}
 
 在CX Enterprise的&#x200B;_[!UICONTROL 创建客户属性Source]_&#x200B;页面上执行这些步骤。
 
@@ -83,7 +87,7 @@ ht-degree: 41%
 >
 >创建、修改或删除客户属性源时，ID 最多可能延迟一小时才开始与新的数据源同步。 您在 Audience Manager 中必须具有管理权限才能创建或修改客户属性来源。 联系Audience Manager客户关怀团队或咨询以获取管理权限。
 
-1. 要打开[!UICONTROL 客户属性]，请单击&#x200B;**[!UICONTROL 应用程序]**![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
+1. 单击&#x200B;**[!UICONTROL 应用程序]** ![菜单](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;以打开[!UICONTROL 客户属性]。
 
    ![客户属性页面](assets/cust-attr.png)
 
@@ -138,7 +142,6 @@ ht-degree: 41%
 客户属性记录已创建，您可以通过编辑客户属性来上传文件。
 
 1. 在[!DNL Customer Attributes]页面上，单击属性来源。
-
 1. 在[!UICONTROL 编辑客户数据Source]页面上，单击&#x200B;**[!UICONTROL 文件上传]**。
 
    ![文件上载和架构验证](assets/file-upload-schema-validation.png)
@@ -153,6 +156,10 @@ ht-degree: 41%
 
    ![属性](assets/file_upload_attributes.png)
 
+### 查看上传结果 {#review-upload-results}
+
+上传完成后，查看以下计数，以确认数据按预期加载。
+
 * **[!UICONTROL 唯一客户ID：]**&#x200B;显示您向此属性来源上传了多少个唯一ID。
 
 * 别名为Experience Cloud访客ID的&#x200B;**[!UICONTROL 客户提供的ID：]**&#x200B;显示别名为ECID的ID数量。
@@ -163,25 +170,22 @@ ht-degree: 41%
 
 验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。 您还可以通过更新架构来删除属性。
 
-请参阅[验证架构](validate-schema.md)。
+请参阅[验证架构](validate-schema.md)。 要删除属性，请参阅[从架构中删除属性](#delete-attributes)。
 
-要删除属性，请参阅[（可选）更新架构（删除属性）](t-crs-usecase.md)。
+## 从架构中删除属性 {#delete-attributes}
 
-## （可选）更新架构（删除属性）
-
-如何删除属性并替换架构中的属性。
+删除订阅以删除它提供的属性，如果需要重新添加属性，请上传替换文件。
 
 1. 在[!UICONTROL 编辑客户属性Source]页面上，删除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;订阅（位于&#x200B;**[!UICONTROL 配置订阅]**&#x200B;下）。
+1. 上传具有更新字段的新数据文件。
 
-1. [上传具有更新字段的新数据文件](t-crs-usecase.md)。
-
-## 配置订阅和激活属性源
+## 配置和激活订阅 {#configure-subscriptions}
 
 配置订阅可以设置CX Enterprise和应用程序之间的数据流。 激活属性源后，数据便可流向订阅的应用程序。 您上传的客户记录与来自您网站或应用程序的传入 ID 信号相匹配。
 
 请参阅[配置订阅并激活数据源](subscription.md)。
 
-## 在Adobe Analytics中使用[!DNL Customer Attributes]数据
+## 在[!DNL Analytics]中使用属性数据 {#use-in-analytics}
 
 利用 Adobe Analytics 等应用程序中现在提供的数据，您可以报告数据、分析数据并在营销活动中采取适当措施。
 
@@ -191,7 +195,7 @@ ht-degree: 41%
 
 在将区段发布到CX Enterprise时，它将在CX Enterprise受众和Audience Manager中变得可用。
 
-## 在Adobe Target中使用[!DNL Customer Attributes]数据
+## 在[!DNL Target]中使用属性数据 {#use-in-target}
 
 在[!DNL Target]中，您可以在创建受众时从[!UICONTROL 访客配置文件]区域选择一个客户属性。 列表中的所有客户属性都有前缀`crs.`。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
