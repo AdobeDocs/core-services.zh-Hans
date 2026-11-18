@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -47,11 +47,11 @@ ht-degree: 35%
 
 ## 2026 年 7 月
 
-* 添加了[2026年7月发行说明](release-notes.md)，以了解CX Enterprise对[联合来宾访问](https://helpx.adobe.com/cn/business/enterprise/using/federated-guest-access.html)的支持，包括从组织切换器为来宾用户切换帐户。
+* 添加了[2026年7月发行说明](release-notes.md)，以了解CX Enterprise对[联合来宾访问](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)的支持，包括从组织切换器为来宾用户切换帐户。
 
 ## 2026 年 6 月
 
-* 已发布[Agentic AI监控](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵盖许可证使用和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
+* 已发布[Agentic AI监控](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵盖许可证使用和Agentic AI监控仪表板，包括概述、用户、反馈和AI信用视图、对话重放以及治理用户的权限。
 * 添加了[2026年6月版发行说明](release-notes.md)，用于代理人工智能使用情况监测。
 
 ## 2026年5月
@@ -60,20 +60,20 @@ CX Enterprise中央界面指南在4月和5月进行了更新：
 
 * 该指南中的文档从Experience Cloud重新命名为&#x200B;**CX Enterprise**，包括描述、链接文本和自动标记元数据。
 * 为位于`https://experience.adobe.com/home`的刷新主页添加了[2026年4月发行说明](release-notes.md)（UI刷新、深色模式和辅助功能改进）。
-* 更新了CX Enterprise中的[代理AI](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot、修订的代理功能以及现有应用程序代理表中的&#x200B;**运行状况数据/HIPAA就绪**&#x200B;列。
+* 更新了CX Enterprise中的[代理AI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot、修订的代理功能以及现有应用程序代理表中的&#x200B;**运行状况数据/HIPAA就绪**&#x200B;列。
 * 对[区域数据收集](../data-collection/rdc.md)、[验证主机名转发](../data-collection/adobe-managed-cert.md)和[术语](terms.md)的小更新。
 
 ## 2026年3月
 
-已添加[AI工作和积分消耗](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+已添加[AI工作和积分消耗](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## 2025 年 11 月
 
-CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025 年 10 月
 
-更新了[验证您的组织](../experience-cloud.md)，并附上了有关错误消息的注释，如果管理员限制按IP地址访问Adobe产品。
+更新了[验证您的组织](../home.md)，并附上了有关错误消息的注释，如果管理员限制按IP地址访问Adobe产品。
 
 ## 2025 年 8 月
 
@@ -130,7 +130,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2021年8月24日
 
-更新了[中央组件](../experience-cloud.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
+更新了[中央组件](../home.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
 
 ## 2021年8月6日
 
@@ -142,7 +142,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2021年6月1日
 
-更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
+更新了[登陆页面](../home.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
 
 ## 2020年8月19日
 
@@ -197,7 +197,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2016年2月11
 
-添加了[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)。
+添加了[CX Enterprise Assets](../services/assets/overview-assets.md)。
 
 ## 2015年1月15
 

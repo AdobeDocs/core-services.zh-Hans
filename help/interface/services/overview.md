@@ -36,36 +36,29 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 41%
+source-wordcount: '261'
+ht-degree: 24%
 ---
-# CX Enterprise界面概述
+# 关于共享功能和服务
 
-CX Enterprise的接口功能有时称为&#x200B;_核心服务_。 它们是统一的标头功能，包括[!DNL People]服务（[!DNL Audience Library]和[!DNL Customer Attributes]）。
+CX Enterprise中的某些共享功能也称为&#x200B;_核心服务_。 这些功能包括[!DNL People]服务（[!DNL Audience Library]和[!DNL Customer Attributes]）和[!DNL Assets]。
 
-其他共享功能包括CX Enterprise、Cookie、帐户首选项、通知等的管理（用户和产品管理）。
+>[!NOTE]
+>
+>使用“人员”服务可能需要您遵循特定的实施步骤。 有关详细信息，请参阅[开始使用人员服务](getting-started.md)。
 
 要在CX Enterprise中访问共享服务和应用程序，请单击&#x200B;**[!UICONTROL 应用程序选择器]**
 ![服务选择器](../assets/apps-icon.png)。
 
-**应用程序选择器**
-
-![CX Enterprise服务](../assets/platform-core-services.png)
-
-本指南中的服务页面描述了以下产品和服务：
-
 | 核心服务 | 描述 |
 | --- | --- |
-| [中央界面组件](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud) | 访问帐户偏好设置、搜索产品帮助以及访问应用程序和服务。 |
-| [受众库](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/audiences/overview) | 受众是访客的集合（访客 ID 列表）。 通过Adobe的[!DNL Audience Library]，您可以管理如何将访客数据转换为受众分段。 |
-| [客户属性](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/customer-attributes/attributes) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。 [!UICONTROL Journey Orchestration]是与Experience Platform集成的应用程序服务。 |
-| [资源](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 |
-| [触发器](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/triggers) | CX Enterprise中的触发器允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/exchange) | Exchange Marketplace 是您可以通过应用程序搜索、浏览、选择、付款和下载数字营销扩展的一个位置。 这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。 |
-
-{style="table-layout:auto"}
+| [人员>受众库](audiences/overview.md) | 受众是访客的集合（访客 ID 列表）。 通过Adobe的[!DNL Audience Library]，您可以管理如何将访客数据转换为受众分段。 |
+| [人员>客户属性](customer-attributes/attributes.md) | 利用存储在事件或数据源中的上下文数据生成实时编排用例。 [!UICONTROL Journey Orchestration]是与Experience Platform集成的应用程序服务。 |
+| [资源](assets/overview-assets.md) | CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 |
+| [触发器](triggers.md) | CX Enterprise中的触发器允许您识别、定义并监视关键客户行为，然后生成跨应用程序通信以便重新吸引访客。 您可以在实时决策和个性化中使用触发器。 |
+| [Adobe Exchange](exchange.md) | Adobe Exchange是您可以通过应用程序搜索、浏览、选择、付款和下载Digital Marketing扩展的一个位置。 这些应用程序包括 Data Connectors、Adobe 核心产品的自定义配置、第三方应用程序和报表。 |
 
 >[!NOTE]
 >
