@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 41%
+source-wordcount: '741'
+ht-degree: 42%
 ---
 # CX Enterprise受众
 
@@ -87,10 +87,10 @@ ht-degree: 41%
 
 | 元素 | 描述 |
 | --- | --- |
-| 新建 | [创建受众](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/audiences/create)。 |
+| 新建 | [创建受众](create.md)。 |
 | 标题和描述 | 列标题，用于识别和描述受众。 |
 | 作者 | 创建受众区段的人员。 |
-| 来源 | 标识创建受众的位置。<ul><li>**Analytics：**&#x200B;区段在Adobe Analytics中创建，然后发布到CX Enterprise。</li><li>**CX Enterprise：**&#x200B;在CX Enterprise受众中创建新受众[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/services/audiences/create)。</li><li>**Audience Manager：** Audience Manager创建的受众自动显示在CX Enterprise Audiences中。</li></ul> |
+| 来源 | 标识创建受众的位置。<ul><li>**Analytics：**&#x200B;区段在Adobe Analytics中创建，然后发布到CX Enterprise。</li><li>**CX Enterprise：**&#x200B;在CX Enterprise受众中创建新受众[&#128279;](create.md)。</li><li>**Audience Manager：** Audience Manager创建的受众自动显示在CX Enterprise Audiences中。</li></ul> |
 | 当前数量 | 当前受众数量。 |
 | 活动 | 区段的活动状态。 |
 

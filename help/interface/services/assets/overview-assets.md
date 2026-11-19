@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 70%
+source-wordcount: '327'
+ht-degree: 65%
 ---
-# CX Enterprise Assets概述
+# CX Enterprise [!DNL Assets]概述
 
-CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
+CX Enterprise [!DNL Assets]为可在应用程序间共享的营销就绪型资源提供了一个集中的存储库。 资产是指数字文档、图像、视频或音频（或其中任一部分），它们可以具有多个演绎版，并可以具有子资产（例如，[!DNL Photoshop] 文件中的图层、[!DNL PowerPoint] 文件中的幻灯片、PDF 中的页面、ZIP 中的文件）。
 
-资产服务包括：
+[!DNL Assets]服务包括：
 
 * 资产存储、管理界面、嵌入式选择界面（通过应用程序访问）。
 * 与Creative Cloud、CX Enterprise协作和CX Enterprise应用程序的集成。
@@ -48,9 +48,8 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 使用资源可以提高一致性和品牌合规性，并缩短上市时间。 您可以简化应用程序中的工作流：
 
 * **[!DNL Adobe Target]**：创建 A/B 和多变量测试体验。
-* **[!DNL Ad Cloud]**：跨不同渠道和营销活动制定广告单元
+* **[!DNL Adobe Advertising]**：跨不同渠道和营销活动制定广告单元
 * **[!DNL Adobe Campaign]**：将资源放入电子邮件新闻稿和营销活动。
-
 
 ## 导航到CX Enterprise Assets
 
@@ -60,7 +59,7 @@ CX Enterprise Assets为可在应用程序间共享的营销就绪型资源提供
 
 导航到资产（或资产目录），然后单击&#x200B;**[!UICONTROL 选择]**。
 
-您可以通过工具栏快速访问多种功能，包括搜索、时间线、呈现形式、编辑、批注和下载。
+工具栏提供对功能的快速访问，包括[!UICONTROL 搜索]、[!UICONTROL 时间轴]、[!UICONTROL 呈现版本]、[!UICONTROL 编辑]、[!UICONTROL 批注]和[!UICONTROL 下载]。
 
 ![访问工具栏](../../assets/asset-tools.png)
 

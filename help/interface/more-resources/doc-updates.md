@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -73,7 +73,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2025 年 10 月
 
-更新了[验证您的组织](../experience-cloud.md)，并附上了有关错误消息的注释，如果管理员限制按IP地址访问Adobe产品。
+更新了[验证您的组织](../home.md)，并附上了有关错误消息的注释，如果管理员限制按IP地址访问Adobe产品。
 
 ## 2025 年 8 月
 
@@ -130,7 +130,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2021年8月24日
 
-更新了[中央组件](../experience-cloud.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
+更新了[中央组件](../home.md)页面（本指南的登陆页面）。 添加了浏览器和语言支持，对组织和登录进行了更新，并且添加了域的相关信息。
 
 ## 2021年8月6日
 
@@ -142,7 +142,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2021年6月1日
 
-更新了[登陆页面](../experience-cloud.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
+更新了[登陆页面](../home.md)，其中新增了有关访问CX Enterprise、全局搜索、首选项和通知的帮助。
 
 ## 2020年8月19日
 
@@ -197,7 +197,7 @@ CX Enterprise中[代理AI的更新](https://experienceleague.adobe.com/zh-hans/d
 
 ## 2016年2月11
 
-添加了[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)。
+添加了[CX Enterprise Assets](../services/assets/overview-assets.md)。
 
 ## 2015年1月15
 

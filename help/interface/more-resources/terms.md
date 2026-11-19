@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -61,7 +61,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7
 | **客户属性** | 您上传和映射的CRM或企业属性，以通过人员服务用于Analytics、Target和相关工作流。 请参阅[客户属性](../services/customer-attributes/attributes.md)主题。 | 如果不检查产品边界，请不要将其与&#x200B;**Audience Manager特征**&#x200B;相等或将其与每个&#x200B;**Real-Time CDP**&#x200B;配置文件字段相等。 |
 | **受众库** | CX Enterprise UI，用于在集成的应用程序之间编写和共享受众。 | **Audience Manager**&#x200B;和&#x200B;**Target**&#x200B;也使用“受众”，但分段规则和目标因产品而异。 |
 | **区段** (Analytics) | 基于规则的受众定义，您可以在Adobe Analytics中构建受众定义，并在支持时发布到共享受众。 | 在&#x200B;**Audience Manager**&#x200B;中，区段组合了&#x200B;**特征**；命名重叠，但实现不同。 在&#x200B;**Target**&#x200B;中，“受众”在许多地方替换了较早的“区段”标签。 |
-| **Assets (Experience Cloud Assets)** | 共享文件夹和文件，用于在CX Enterprise营销工作流和已批准的&#x200B;**Creative Cloud**&#x200B;用户之间进行协作。 请参阅[Assets概述](../services/assets/experience-cloud-assets.md)。 | 在&#x200B;**Creative Cloud**&#x200B;中，“assets”通常意味着设计文件(PSD、AI、INDD)。 同一个词，不同的分享和治理模式。 |
+| **Assets (Experience Cloud Assets)** | 共享文件夹和文件，用于在CX Enterprise营销工作流和已批准的&#x200B;**Creative Cloud**&#x200B;用户之间进行协作。 请参阅[Assets概述](../services/assets/overview-assets.md)。 | 在&#x200B;**Creative Cloud**&#x200B;中，“assets”通常意味着设计文件(PSD、AI、INDD)。 同一个词，不同的分享和治理模式。 |
 
 {style="table-layout:auto"}
 

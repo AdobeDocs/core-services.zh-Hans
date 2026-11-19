@@ -5,14 +5,16 @@ breadcrumb-title: CX Enterprise界面和管理
 title: CX Enterprise界面和管理指南
 description: 了解CX Enterprise界面和管理。 浏览有关AI、管理、共享服务、数据收集、Cookie、发行说明和常见问题解答的主题。
 index: true
-source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
+source-git-commit: 8a12be4ae959319068585c1593d2ddfe24ffc0c3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 57%
 ---
 # CX Enterprise界面和管理 {#interface}
 
-+ [CX Enterprise界面和管理](/help/interface/experience-cloud.md)
++ [CX Enterprise界面和管理](/help/interface/home.md)
++ 快速入门 {#get-started}
+  + [开始使用CX Enterprise](/help/interface/get-started-using-cxe.md)
 + 管理 {#administration}
   + [帐户偏好设置和通知](/help/interface/features/account-preferences.md)
   + [浏览器和语言支持](/help/interface/browser-language.md)
@@ -22,16 +24,16 @@ ht-degree: 57%
   + [集成](/help/interface/administration/integrations.md)
   + [统一搜索](/help/interface/features/search.md)
   + [个性化的学习偏好设置](/help/interface/features/personalized-learning.md)
-+ 界面服务 {#services}
-  + [界面概述](/help/interface/services/overview.md)
++ 资产 {#assets}
+  + [Assets概述](/help/interface/services/assets/overview-assets.md)
+  + [管理 Creative Cloud 用户](/help/interface/services/assets/manage-cc-users.md)
+  + [共享资源文件夹](/help/interface/services/assets/share.md)
+  + [将资源上传到共享文件夹](/help/interface/services/assets/upload.md)
+  + [针对共享的资源文件要求](/help/interface/services/assets/file-reqs.md)
+  + [共享文件夹的行为](/help/interface/services/assets/behavior.md)
++ 人员 {#services}
+  + [关于共享功能](/help/interface/services/overview.md)
   + [快速入门](/help/interface/services/getting-started.md)
-  + 资产 {#assets}
-    + [Assets概述](/help/interface/services/assets/experience-cloud-assets.md)
-    + [管理 Creative Cloud 用户](/help/interface/services/assets/manage-cc-users.md)
-    + [共享资源文件夹](/help/interface/services/assets/share.md)
-    + [将资源上传到共享文件夹](/help/interface/services/assets/upload.md)
-    + [针对共享的资源文件要求](/help/interface/services/assets/file-reqs.md)
-    + [共享文件夹的行为](/help/interface/services/assets/behavior.md)
   + 受众库 {#audiences}
     + [受众概述](/help/interface/services/audiences/overview.md)
     + [创建受众](/help/interface/services/audiences/create.md)
